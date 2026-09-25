@@ -1,0 +1,13 @@
+name: "Question about a lesson"
+description: "Stuck on a stage, an exercise, or a line of code? Ask here."
+title: "[stage N] "
+body:
+  - type: dropdown
+    attributes:
+      label: Which lesson?
+      options: ["1 Input", "2 Tokenization", "3 Embedding", "4 Transformer", "5 Attention", "6 Pretraining", "7 Backpropagation", "8 Alignment", "9 Sampling", "10 Output", "Something else"]
+    validations: { required: true }
+  - type: textarea
+    attributes:
+      label: What did you expect, and what happened instead?
+    validations: { required: true }

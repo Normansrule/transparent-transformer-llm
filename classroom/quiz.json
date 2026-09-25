@@ -1,0 +1,112 @@
+{
+ "01_input": {
+  "question": "How many numbers does the computer store for the 35-character prompt about Los Angeles?",
+  "options": [
+   "One number per word, so 7",
+   "One byte per character, so 35",
+   "It stores the meaning, not numbers"
+  ],
+  "answer": 1,
+  "why": "Plain English letters are one byte each. Words and meaning do not exist yet at this stage.",
+  "predict": "Your prompt has 35 characters. How many numbers does the computer store for it: fewer, exactly 35, or more?"
+ },
+ "02_tokenizer": {
+  "question": "Why is a rare word like Reykjavik split into several tokens while weather is one token?",
+  "options": [
+   "Rare words are less important",
+   "Byte Pair Encoding only glues together pairs it saw OFTEN in its training text",
+   "Long words are always split"
+  ],
+  "answer": 1,
+  "why": "Merges are learned by frequency. Frequent strings earn their own token. Rare ones are spelled from smaller pieces.",
+  "predict": "Which will be split into more pieces: the common word *weather* or the rare word *Reykjavik*? Why?"
+ },
+ "03_embedding": {
+  "question": "What is an embedding, mechanically?",
+  "options": [
+   "A row looked up in a learned table",
+   "A dictionary definition of the word",
+   "A compressed copy of the text"
+  ],
+  "answer": 0,
+  "why": "Token id 559 simply selects row 559 of a 768 by 64 table. Training decides what the numbers are.",
+  "predict": "If you swapped the vectors for the words *sunny* and *cold*, would the model notice? What does that tell you about where meaning lives?"
+ },
+ "04_transformer": {
+  "question": "What does each block do to the residual stream?",
+  "options": [
+   "Replaces it with a new one",
+   "Adds a correction to it",
+   "Deletes unimportant tokens"
+  ],
+  "answer": 1,
+  "why": "x = x + block(x). Blocks only add. That is what lets gradients flow back through deep stacks.",
+  "predict": "The transformer has 153,344 numbers. Guess: which part holds the most, the embedding table, attention, or the Multi-Layer Perceptron (MLP)?"
+ },
+ "05_attention_closeup": {
+  "question": "Why can a token only attend to tokens before it?",
+  "options": [
+   "Earlier tokens are more important",
+   "To save memory",
+   "When generating, later tokens do not exist yet, so training must not rely on them"
+  ],
+  "answer": 2,
+  "why": "The causal mask makes training match generation. Otherwise the model would learn to cheat by peeking.",
+  "predict": "The last token has to start the answer. Which earlier word do you think it will look at hardest: *weather*, *Los*, *Angeles*, or *?*"
+ },
+ "06_pretraining": {
+  "question": "What labels does pretraining need?",
+  "options": [
+   "None: the next token in real text is the answer key",
+   "Humans label each sentence",
+   "Correct answers to questions"
+  ],
+  "answer": 0,
+  "why": "Next-token prediction is self-supervised. That is why it scales to enormous amounts of text.",
+  "predict": "Nobody wrote 'Los Angeles is sunny' as a labelled fact. How could a model learn it just by guessing the next word?"
+ },
+ "07_backpropagation": {
+  "question": "Why use backpropagation instead of wiggling each weight to see what happens?",
+  "options": [
+   "Wiggling gives wrong answers",
+   "One backward pass yields every gradient; wiggling needs two forward passes per weight",
+   "Backpropagation needs no calculus"
+  ],
+  "answer": 1,
+  "why": "Both give the same numbers. The tests in this repository check exactly that. Backpropagation is just vastly cheaper.",
+  "predict": "Suppose you wanted to know how each of the 153,344 weights affects the loss. How many times would you have to run the model if you tested them one at a time?"
+ },
+ "08_alignment": {
+  "question": "What changes between the base model and the aligned model?",
+  "options": [
+   "The architecture",
+   "The tokenizer",
+   "Only the weight values, nudged by further training on conversations and preferences"
+  ],
+  "answer": 2,
+  "why": "Same code, same shapes. Alignment changes behaviour by continuing to train the same weights on different data.",
+  "predict": "Same weights, same code. What could possibly change a model that rambles into one that answers?"
+ },
+ "09_sampling": {
+  "question": "With temperature set to 0, asking the same question twice gives...",
+  "options": [
+   "The same answer: it always takes the top token",
+   "A different answer each time",
+   "An error"
+  ],
+  "answer": 0,
+  "why": "Randomness only enters at the sampling step. Temperature 0 removes it. Try it with the slider above.",
+  "predict": "If you ask the same question twice, do you get the same answer? What would make it different?"
+ },
+ "10_output": {
+  "question": "How does the model know when to stop?",
+  "options": [
+   "It counts words",
+   "It predicts a special end token, learned during alignment",
+   "The website cuts it off"
+  ],
+  "answer": 1,
+  "why": "The end token is a token like any other. Alignment data taught the model that answers finish with it.",
+  "predict": "The answer is 16 tokens long. How many times does the whole model run to produce it?"
+ }
+}

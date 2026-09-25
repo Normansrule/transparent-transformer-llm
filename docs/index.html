@@ -1,0 +1,448 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The transparent transformer classroom</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&family=IBM+Plex+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#0F2A47; --grid:#1B3F66; --panel:#143556; --ink:#DCE9F5; --muted:#7FA3C7;
+  --amber:#FFB238; --coral:#FF6F61; --mint:#6FE3B4; --cyan:#5CC8FF; --violet:#C9A7FF;
+  --sans:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",Helvetica,Arial,sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;
+}
+*{box-sizing:border-box}
+html{background:var(--bg)}
+body{margin:0;color:var(--ink);font-family:var(--sans);font-size:17px;line-height:1.55;
+  background:linear-gradient(#1B3F6688 1px,transparent 1px) 0 0/24px 24px,
+             linear-gradient(90deg,#1B3F6688 1px,transparent 1px) 0 0/24px 24px,var(--bg);min-height:100vh}
+.wrap{max-width:1120px;margin:0 auto;padding:28px 20px 60px}
+header h1{font-size:clamp(28px,4.4vw,46px);line-height:1.08;margin:0 0 8px;font-weight:700;letter-spacing:-0.01em}
+header p{margin:0;color:var(--muted);max-width:62ch}
+.prompt{font-family:var(--mono);color:var(--amber);font-weight:600}
+a{color:var(--cyan)}
+button{font:inherit;color:inherit;cursor:pointer}
+:focus-visible{outline:3px solid var(--amber);outline-offset:3px;border-radius:6px}
+
+/* ---- the rail ---- */
+.rail-scroll{overflow-x:auto;margin:22px -20px 0;padding:16px 20px 0}
+.rail{position:relative;min-width:860px;height:118px}
+.rail .track{position:absolute;left:4%;right:4%;top:52px;height:6px;border-radius:3px;background:var(--grid)}
+.rail .done{position:absolute;left:4%;top:54px;height:2px;background:var(--mint);transition:width .7s cubic-bezier(.7,0,.3,1)}
+.station{position:absolute;top:34px;transform:translateX(-50%);background:none;border:0;padding:0;text-align:center;width:92px}
+.station i{display:grid;place-items:center;width:38px;height:38px;margin:0 auto;border-radius:50%;border:2px solid var(--muted);
+  background:var(--bg);font:600 14px var(--mono);font-style:normal;color:var(--muted);transition:all .3s}
+.station span{display:block;margin-top:8px;font-size:13px;color:var(--muted)}
+.station.past i{border-color:var(--mint);color:var(--mint)}
+.station.now i{background:var(--amber);border-color:var(--amber);color:#0B1E33}
+.station.now span{color:var(--ink);font-weight:500}
+.bracket{position:absolute;top:0;height:22px;border:1px solid var(--muted);border-bottom:0;opacity:.75;font-size:12px;color:var(--muted);text-align:center}
+.bracket b{position:relative;top:-10px;background:var(--bg);padding:0 8px;font-weight:400;white-space:nowrap}
+.bracket.shop{border-color:var(--coral);color:var(--coral)}
+.carriage{position:absolute;top:8px;width:24px;height:30px;margin-left:-12px;transition:left .7s cubic-bezier(.7,0,.3,1)}
+.carriage svg{display:block}
+
+/* ---- stage panel ---- */
+.stage{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:28px;margin-top:26px;align-items:start}
+@media (max-width:860px){.stage{grid-template-columns:1fr}}
+.stage.swap .says,.stage.swap .shows{opacity:0;transform:translateX(18px)}
+.says,.shows{transition:opacity .28s,transform .28s}
+.says h2{font-size:30px;line-height:1.15;margin:0 0 4px}
+.says .q{color:var(--amber);font-size:19px;margin:0 0 14px}
+.says p{margin:0 0 12px;max-width:52ch}
+.says code,.shows code{font-family:var(--mono);font-size:.88em;color:var(--cyan)}
+.says .file{display:inline-block;margin-top:4px;font-family:var(--mono);font-size:14px}
+.shows{background:var(--panel);border:1px solid var(--grid);border-radius:14px;padding:22px;min-height:340px;overflow-x:auto}
+.shows h3{margin:0 0 12px;font-size:14px;font-weight:500;color:var(--muted)}
+.chips{display:flex;flex-wrap:wrap;gap:6px 5px}
+.chip{font:600 15px var(--mono);color:#0B1E33;border-radius:5px;padding:3px 7px;white-space:pre;border:0}
+.chip small{display:block;font-weight:400;font-size:11px;opacity:.75;text-align:center}
+.chip.sel{outline:3px solid var(--ink);outline-offset:2px}
+.mono{font-family:var(--mono)}
+.muted{color:var(--muted)}
+.bytes{display:grid;grid-template-columns:repeat(auto-fill,minmax(34px,1fr));gap:4px}
+.bytes div{text-align:center;background:var(--bg);border-radius:4px;padding:4px 0;font:600 16px var(--mono);color:var(--amber)}
+.bytes small{display:block;font:400 10.5px var(--mono);color:var(--cyan)}
+.heat{border-collapse:separate;border-spacing:2px;font:13px var(--mono)}
+.heat th{text-align:right;padding-right:8px;font-weight:600;white-space:pre}
+.heat td{width:22px;height:22px;border-radius:3px}
+.bars div{display:grid;grid-template-columns:120px 1fr 64px;gap:10px;align-items:center;margin:7px 0;font:15px var(--mono)}
+.bars .lab{text-align:right;white-space:pre}
+.bars .bar{height:22px;border-radius:4px;background:var(--cyan);opacity:.55;transition:width .35s}
+.bars .win .bar{background:var(--mint);opacity:1}.bars .win{color:var(--mint)}
+.row{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin:12px 0}
+.pill{border:1px solid var(--muted);background:none;border-radius:999px;padding:4px 12px;font-size:14px}
+.pill[aria-pressed=true]{background:var(--amber);border-color:var(--amber);color:#0B1E33;font-weight:500}
+.cards{display:grid;gap:12px}
+.card{border:1.5px solid;border-radius:10px;padding:12px 14px;background:var(--bg)}
+.card b{display:block}.card .out{font:14px var(--mono);margin-top:6px;white-space:pre-wrap}
+.flow{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin:6px 0 16px}
+.flow .box{border:1.5px solid var(--ink);border-radius:8px;padding:10px 12px;font-size:14px;background:var(--bg);transition:all .3s}
+.flow .box.f{border-color:var(--amber);box-shadow:0 0 0 3px #FFB23833}
+.flow .box.b{border-color:var(--coral);box-shadow:0 0 0 3px #FF6F6133}
+.flow .box.u{border-color:var(--mint);background:#6FE3B422}
+.answer{font:600 20px var(--mono);color:var(--mint);margin-top:16px;min-height:1.6em}
+
+.nav{display:flex;justify-content:space-between;gap:12px;margin-top:26px;flex-wrap:wrap}
+.nav button{border:2px solid var(--ink);background:none;border-radius:10px;padding:11px 20px;font-weight:500}
+.nav button.go{background:var(--amber);border-color:var(--amber);color:#0B1E33}
+.nav button:disabled{opacity:.3;cursor:default}
+.nav .hint{align-self:center;color:var(--muted);font-size:14px}
+.desk{display:grid;grid-template-columns:1fr auto;gap:10px;margin-top:22px;background:var(--panel);border:1px solid var(--grid);border-radius:14px;padding:14px}
+.desk input[type=text]{width:100%;font:600 17px var(--mono);color:var(--amber);background:var(--bg);border:1.5px solid var(--muted);border-radius:9px;padding:11px 13px}
+.desk .run{background:var(--amber);border:0;border-radius:9px;padding:0 22px;color:#0B1E33;font-weight:700}
+.desk .opts{grid-column:1/-1;display:flex;gap:8px 14px;flex-wrap:wrap;align-items:center;font-size:14px;color:var(--muted)}
+.desk .opts input[type=range]{accent-color:var(--amber);width:130px;vertical-align:middle}
+.desk .status{margin-left:auto;font-family:var(--mono);font-size:13px}
+.quiz{margin-top:22px;border-top:1px dashed var(--muted);padding-top:16px}
+.quiz h3{margin:0 0 10px;font-size:16px;color:var(--ink)}
+.quiz button{display:block;width:100%;text-align:left;margin:7px 0;padding:9px 13px;border-radius:9px;border:1.5px solid var(--muted);background:none;font-size:15.5px}
+.quiz button.right{border-color:var(--mint);background:#6FE3B422}.quiz button.wrong{border-color:var(--coral);background:#FF6F6122}
+.quiz .why{margin-top:8px;font-size:15px}
+.links{display:flex;flex-wrap:wrap;gap:6px 16px;margin-top:6px;font-family:var(--mono);font-size:14px}
+.station i.ok::after{content:"";position:absolute;right:-5px;top:-5px;width:13px;height:13px;border-radius:50%;background:var(--mint);border:2px solid var(--bg)}
+.station i{position:relative}
+.score{font-family:var(--mono);color:var(--mint)}
+.lab2{display:grid;grid-template-columns:110px 1fr;gap:8px 12px;align-items:center;font:14px var(--mono)}
+.mini{display:inline-grid;gap:1px;background:var(--grid);padding:2px;border-radius:4px;cursor:pointer;border:2px solid transparent}
+.mini.sel{border-color:var(--amber)}.mini div{width:9px;height:9px}
+.minis{display:flex;flex-wrap:wrap;gap:12px;margin:8px 0 14px}
+.minis figure{margin:0;text-align:center;font:12px var(--sans);color:var(--muted)}
+.strip{display:grid;grid-template-columns:repeat(64,1fr);gap:1px;margin:4px 0 10px}.strip div{height:16px;border-radius:1px}
+.lens td,.lens th{padding:4px 10px;font:14px var(--mono);text-align:left;vertical-align:middle}.lens th{color:var(--muted);font-weight:500}
+.lens .b{display:inline-block;height:12px;background:var(--cyan);border-radius:3px;vertical-align:middle;margin-right:6px}
+canvas.map{width:100%;max-width:640px;background:var(--bg);border:1px solid var(--grid);border-radius:10px;display:block}
+.slider{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin:10px 0;font-size:14px;color:var(--muted)}.slider input{accent-color:var(--amber);flex:1;min-width:120px}
+.slider output{font-family:var(--mono);color:var(--amber);min-width:3ch}
+.dim{opacity:.35}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>The transparent transformer classroom</h1>
+    <p>Type any question. The real model from this repository runs <b>inside your browser</b>, and the ten lessons below
+       show what happened to your words at every step. Nothing is sent anywhere. New here? Read <a href="${REPO}/blob/main/START_HERE.md">Start here</a> first. <span class="score" id="score"></span></p>
+  </header>
+
+  <form class="desk" id="desk">
+    <input type="text" id="prompt" aria-label="Your prompt" maxlength="120" autocomplete="off">
+    <button class="run" type="submit">Run the model</button>
+    <div class="opts">
+      <span>try:</span>
+      <button type="button" class="pill" data-ex="What is the weather in Tokyo?">Tokyo</button>
+      <button type="button" class="pill" data-ex="Is it nice in Miami today?">Miami</button>
+      <button type="button" class="pill" data-ex="What is fog?">What is fog?</button>
+      <button type="button" class="pill" data-ex="What is the weather in Lisbon?">Lisbon (it gets this wrong)</button>
+      <label>temperature <input type="range" id="temp" min="0" max="2" step="0.1" value="0.7"> <span id="tempv">0.7</span></label>
+      <button type="button" class="pill" id="reroll">roll the dice again</button>
+      <label>model <select id="which" style="font:inherit;background:var(--bg);color:var(--ink);border:1px solid var(--muted);border-radius:8px;padding:3px 6px">
+        <option value="tiny">lesson model (tiny, made-up data)</option><option value="real">real-data model (scraped)</option></select></label>
+      <span class="status" id="status"></span>
+    </div>
+  </form>
+
+  <div class="rail-scroll"><nav class="rail" id="rail" aria-label="Pipeline stages"></nav></div>
+
+  <main class="stage" id="stage" aria-live="polite">
+    <section class="says" id="says"></section>
+    <section class="shows" id="shows"></section>
+  </main>
+
+  <div class="nav">
+    <button id="back">Back</button>
+    <span class="hint">arrow keys work too</span>
+    <button id="next" class="go">Next</button>
+  </div>
+</div>
+
+<script src="trace.js"></script>
+<script src="model.js"></script>
+<script src="engine.js"></script>
+<script>
+const REPO = "https://github.com/Normansrule/transparent-transformer-llm";   // setup.sh fills this in
+document.querySelectorAll("header a").forEach(a=>a.href=a.getAttribute("href").replace("${REPO}",REPO));
+let T = window.TRACE, STATIC = window.TRACE;
+const COL = ["#FFB238","#5CC8FF","#6FE3B4","#C9A7FF","#FF6F61","#9AD0FF"];
+const $ = (s, el=document) => el.querySelector(s);
+const esc = s => String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const vis = s => esc(s.replace(/ /g,"·").replace(/\n/g,"↵"));
+const chip = (p,i,sub,extra="") => `<span class="chip" style="background:${COL[i%6]}" ${extra}>${vis(p)}${sub!==undefined?`<small>${sub}</small>`:""}</span>`;
+const heat = (v,m) => { const t=Math.max(-1,Math.min(1,v/m)), a=Math.pow(Math.abs(t),.7), b=[20,53,86], c=t>=0?[92,200,255]:[255,111,97];
+  return `rgb(${b.map((x,k)=>Math.round(x+(c[k]-x)*a)).join(",")})`; };
+
+const QUIZ = {"Input": ["How many numbers does the computer store for the 35-character prompt about Los Angeles?", ["One number per word, so 7", "One byte per character, so 35", "It stores the meaning, not numbers"], 1, "Plain English letters are one byte each. Words and meaning do not exist yet at this stage.", "Your prompt has 35 characters. How many numbers does the computer store for it: fewer, exactly 35, or more?"], "Tokens": ["Why is a rare word like Reykjavik split into several tokens while weather is one token?", ["Rare words are less important", "Byte Pair Encoding only glues together pairs it saw OFTEN in its training text", "Long words are always split"], 1, "Merges are learned by frequency. Frequent strings earn their own token. Rare ones are spelled from smaller pieces.", "Which will be split into more pieces: the common word *weather* or the rare word *Reykjavik*? Why?"], "Embed": ["What is an embedding, mechanically?", ["A row looked up in a learned table", "A dictionary definition of the word", "A compressed copy of the text"], 0, "Token id 559 simply selects row 559 of a 768 by 64 table. Training decides what the numbers are.", "If you swapped the vectors for the words *sunny* and *cold*, would the model notice? What does that tell you about where meaning lives?"], "Transformer": ["What does each block do to the residual stream?", ["Replaces it with a new one", "Adds a correction to it", "Deletes unimportant tokens"], 1, "x = x + block(x). Blocks only add. That is what lets gradients flow back through deep stacks.", "The transformer has 153,344 numbers. Guess: which part holds the most, the embedding table, attention, or the Multi-Layer Perceptron (MLP)?"], "Attention": ["Why can a token only attend to tokens before it?", ["Earlier tokens are more important", "To save memory", "When generating, later tokens do not exist yet, so training must not rely on them"], 2, "The causal mask makes training match generation. Otherwise the model would learn to cheat by peeking.", "The last token has to start the answer. Which earlier word do you think it will look at hardest: *weather*, *Los*, *Angeles*, or *?*"], "Pretrain": ["What labels does pretraining need?", ["None: the next token in real text is the answer key", "Humans label each sentence", "Correct answers to questions"], 0, "Next-token prediction is self-supervised. That is why it scales to enormous amounts of text.", "Nobody wrote 'Los Angeles is sunny' as a labelled fact. How could a model learn it just by guessing the next word?"], "Backprop": ["Why use backpropagation instead of wiggling each weight to see what happens?", ["Wiggling gives wrong answers", "One backward pass yields every gradient; wiggling needs two forward passes per weight", "Backpropagation needs no calculus"], 1, "Both give the same numbers. The tests in this repository check exactly that. Backpropagation is just vastly cheaper.", "Suppose you wanted to know how each of the 153,344 weights affects the loss. How many times would you have to run the model if you tested them one at a time?"], "Align": ["What changes between the base model and the aligned model?", ["The architecture", "The tokenizer", "Only the weight values, nudged by further training on conversations and preferences"], 2, "Same code, same shapes. Alignment changes behaviour by continuing to train the same weights on different data.", "Same weights, same code. What could possibly change a model that rambles into one that answers?"], "Sample": ["With temperature set to 0, asking the same question twice gives...", ["The same answer: it always takes the top token", "A different answer each time", "An error"], 0, "Randomness only enters at the sampling step. Temperature 0 removes it. Try it with the slider above.", "If you ask the same question twice, do you get the same answer? What would make it different?"], "Output": ["How does the model know when to stop?", ["It counts words", "It predicts a special end token, learned during alignment", "The website cuts it off"], 1, "The end token is a token like any other. Alignment data taught the model that answers finish with it.", "The answer is 16 tokens long. How many times does the whole model run to produce it?"]};
+const NOTEBOOKS = true;
+const STAGES = [
+ {name:"Input", dir:"01_input", file:"(a plain string)", q:"What does the computer actually receive?",
+  says:`<p>Not words. Not meaning. A row of numbers, one per character, each between 0 and 255. These are called bytes.</p>
+        <p>Single letters say almost nothing about meaning, and there are a lot of them. The next stage groups them into more useful pieces.</p>`,
+  shows(el){ el.innerHTML = `<h3>${T.input.n_chars} characters, and the byte stored for each</h3><div class="bytes">`+
+     [...T.input.text].map((c,i)=>`<div>${vis(c)}<small>${T.input.bytes[i]}</small></div>`).join("")+`</div>`; }},
+
+ {name:"Tokens", dir:"02_tokenizer", file:"transparent_transformer/tokenizer.py", q:"How does text become numbers the model can use?",
+  says:`<p>A tokenizer chops text into <b>tokens</b> and gives each one an id. This one uses Byte Pair Encoding (BPE): start from single bytes, then repeatedly glue together the pair of neighbours that appears most often in the training text.</p>
+        <p>Common words end up as one token. Rare words are spelled out in pieces. A dot marks a space that belongs to the token.</p>
+        <p>Two special tokens are added around your text so the model knows who is speaking.</p>`,
+  shows(el){ const d=T.tokens.merge_demo; let k=0;
+    const draw=()=>{ el.innerHTML=`<h3>watch "${esc(d.word)}" get built, merge by merge</h3>
+      <div class="chips">${d.steps[k].map((p,i)=>chip(p,i)).join("")}</div>
+      <div class="row"><button class="pill" id="mprev">previous merge</button><button class="pill" id="mnext">next merge</button>
+      <span class="muted">${k===0?"raw bytes":"after "+k+" merge"+(k>1?"s":"")} of ${d.steps.length-1}</span></div>
+      <h3 style="margin-top:22px">your whole prompt: ${T.tokens.templated.length} characters became ${T.tokens.ids.length} tokens (vocabulary: ${T.tokens.vocab_size})</h3>
+      <div class="chips">${T.tokens.pieces.map((p,i)=>chip(p,i,T.tokens.ids[i])).join("")}</div>`;
+      $("#mprev",el).onclick=()=>{k=Math.max(0,k-1);draw()}; $("#mnext",el).onclick=()=>{k=Math.min(d.steps.length-1,k+1);draw()}; };
+    draw(); }},
+
+ {name:"Embed", dir:"03_embedding", file:"transparent_transformer/embedding.py", q:"How can a number carry meaning?",
+  says:`<p>A token id is only a name tag. Id 300 is not "more" than id 299. So each id is swapped for a row from a big table of learned numbers: its <b>embedding vector</b>.</p>
+        <p>A second vector is added that says where the token sits in the sentence, because the next stage has no other way to know word order.</p>
+        <p>Nobody wrote these numbers. Training shaped them so that tokens used in similar ways ended up with similar rows.</p>`,
+  shows(el){ const E=T.embedding, m=Math.max(...E.sum.flat().map(Math.abs)); let which="sum";
+    const draw=()=>{ el.innerHTML=`<h3>${E.shape[0]} tokens, first 16 of ${E.shape[1]} numbers each. Coral is negative, blue is positive.</h3>
+      <div class="row">${[["token","token vector"],["position","position vector"],["sum","token + position"]].map(([k,l])=>`<button class="pill" data-k="${k}" aria-pressed="${which===k}">${l}</button>`).join("")}</div>
+      <table class="heat">${E[which].map((r,i)=>`<tr><th style="color:${COL[i%6]}">${vis(T.tokens.pieces[i])}</th>${r.map(v=>`<td title="${v}" style="background:${heat(v,m)}"></td>`).join("")}</tr>`).join("")}</table>`;
+      el.querySelectorAll("[data-k]").forEach(b=>b.onclick=()=>{which=b.dataset.k;draw()}); };
+    draw(); }},
+
+ {name:"Transformer", dir:"04_transformer", file:"transparent_transformer/transformer.py", q:"What is the big machine in the middle?",
+  says:`<p>A stack of identical <b>blocks</b>. The token vectors flow along a shared channel called the residual stream. Each block reads the stream, computes something, and <b>adds</b> its result back in.</p>
+        <p>Each block has two parts. <b>Attention</b> moves information between tokens. The <b>Multi-Layer Perceptron (MLP)</b> then processes every token on its own, and holds much of what the model knows.</p>
+        <p>At the end, the last token's vector is compared with every row of the embedding table to score every possible next token.</p>`,
+  shows(el){ const X=T.transformer, last=a=>a[a.length-1], mx=Math.max(...X.stream_norms.map(last));
+    let h=`<h3>the last token's vector grows as each block adds to it</h3><div class="bars">`;
+    X.stream_norms.forEach((n,i)=>{ h+=`<div class="${i===X.stream_norms.length-1?"win":""}"><span class="lab">${i?"after block "+i:"embedding"}</span><span><span class="bar" style="display:block;width:${100*last(n)/mx}%"></span></span><span>${last(n).toFixed(2)}</span></div>`;
+      if(i<X.attn_norms.length) h+=`<div class="muted" style="font-size:13px"><span class="lab"></span><span>attention adds ${last(X.attn_norms[i]).toFixed(2)}, MLP adds ${last(X.mlp_norms[i]).toFixed(2)}</span><span></span></div>`; });
+    h+=`</div><p class="muted" style="margin-top:18px">${T.n_parameters.toLocaleString()} parameters, ${T.config.n_layers} blocks, ${T.config.n_heads} attention heads per block, vectors of ${T.config.d_model} numbers. Large models use the same parts, with thousands of times more of everything.</p>`;
+    el.innerHTML=h; }},
+
+ {name:"Attention", dir:"05_attention_closeup", file:"transparent_transformer/attention.py", q:"How do tokens look at each other?",
+  says:`<p>Each token asks a question (its <b>query</b>), every earlier token offers a label (its <b>key</b>), and where they match, information (the <b>value</b>) is copied across.</p>
+        <p>Pick a token on the right to see what it reads from. Tokens can only look backwards: the future is masked out, because during generation the future does not exist yet.</p>
+        <p>Several heads run side by side. Each one learns to look for something different.</p>`,
+  shows(el){ let L=0,H=0,q=T.tokens.pieces.length-1;
+    const draw=()=>{ const w=T.attention[L][H][q];
+      el.innerHTML=`<h3>block and head</h3><div class="row">${T.attention.map((a,l)=>a.map((_,h)=>`<button class="pill" data-l="${l}" data-h="${h}" aria-pressed="${l===L&&h===H}">${l+1}.${h+1}</button>`).join("")).join("")}</div>
+      <h3>click the token that is doing the looking</h3>
+      <div class="chips">${T.tokens.pieces.map((p,i)=>`<button class="chip ${i===q?"sel":""}" data-q="${i}" style="background:${COL[i%6]}">${vis(p)}</button>`).join("")}</div>
+      <h3 style="margin-top:18px">where "${vis(T.tokens.pieces[q])}" sends its attention</h3>
+      <div class="bars">${w.map((v,j)=>j<=q&&v>=.02?`<div class="${v===Math.max(...w)?"win":""}"><span class="lab">${vis(T.tokens.pieces[j])}</span><span><span class="bar" style="display:block;width:${v*100}%"></span></span><span>${(v*100).toFixed(0)}%</span></div>`:"").join("")}</div>`;
+      el.querySelectorAll("[data-l]").forEach(b=>b.onclick=()=>{L=+b.dataset.l;H=+b.dataset.h;draw()});
+      el.querySelectorAll("[data-q]").forEach(b=>b.onclick=()=>{q=+b.dataset.q;draw()}); };
+    draw(); }},
+
+ {name:"Pretrain", dir:"06_pretraining", file:"transparent_transformer/pretrain.py", q:"Where did the model's knowledge come from?", shop:true,
+  says:`<p>From playing one game over and over: <b>here is some real text, guess the next token</b>. The <b>loss</b> measures how surprised the model was by the right answer. Lower is better.</p>
+        <p>To win, the model is forced to pick up spelling, grammar, and facts such as "Los Angeles goes with sunny".</p>
+        <p>The result is a <b>base model</b>. It continues text. It does not answer questions yet.</p>`,
+  shows(el){ const P=T.pretrain_log, W=560,Hh=230,mx=7, n=P.steps.length, last=P.steps[n-1];
+    const pts=P.steps.map((s,i)=>`${40+(W-50)*s/last},${10+(Hh-30)*(1-Math.min(P.train_loss[i],mx)/mx)}`).join(" ");
+    const gy=10+(Hh-30)*(1-Math.log(T.config.vocab_size)/mx);
+    el.innerHTML=`<h3>the real loss curve from training this model (${last+1} steps)</h3>
+     <svg viewBox="0 0 ${W} ${Hh}" style="width:100%;max-width:${W}px"><path d="M40 10V${Hh-20}H${W-10}" fill="none" stroke="#7FA3C7"/>
+     <line x1="40" x2="${W-10}" y1="${gy}" y2="${gy}" stroke="#FF6F61" stroke-dasharray="4 4"/><text x="${W-14}" y="${gy+15}" fill="#FF6F61" font-size="12" text-anchor="end">pure guessing</text>
+     ${[0,2,4,6].map(t=>`<text x="34" y="${14+(Hh-30)*(1-t/mx)}" fill="#7FA3C7" font-size="11" text-anchor="end">${t}</text>`).join("")}
+     <polyline points="${pts}" fill="none" stroke="#FFB238" stroke-width="2.2"/></svg>
+     <h3 style="margin-top:10px">what the model writes after "The weather in Los Angeles is", as training goes on</h3>
+     ${P.samples.map(s=>`<div class="mono" style="font-size:14px;margin:6px 0"><span style="color:var(--amber)">step ${s.step}</span> <span>${esc(s.text.slice(29).replace(/\n/g,"↵"))}</span></div>`).join("")}`; }},
+
+ {name:"Backprop", dir:"07_backpropagation", file:"backward() in every layer", q:"How does the model actually learn from a mistake?", shop:true,
+  says:`<p><b>Backpropagation</b> answers one question for every weight at once: if this weight were a little bigger, would the loss go up or down, and by how much? That number is the weight's <b>gradient</b>.</p>
+        <p>It works backwards through the model using the chain rule from calculus. Each layer receives the blame for its output and passes on the blame for its input.</p>
+        <p>Then every weight takes a small step in the direction that lowers the loss. In this repository every one of those formulas is written by hand and tested.</p>`,
+  shows(el){ const boxes=["embed","block 1","block 2","logits","loss"]; let ph=0;
+    const cap=["Forward: data flows to the right. Every layer remembers what it saw.","Backward: blame flows to the left, one layer at a time.","Update: every weight moves a small step against its gradient."];
+    const draw=()=>{ el.innerHTML=`<h3>one training step has three phases</h3>
+      <div class="flow">${boxes.map((b,i)=>`<span class="box ${ph===0?"f":ph===1?"b":(i<4?"u":"")}">${b}</span>${i<4?`<span style="color:${ph===1?"var(--coral)":"var(--amber)"}">${ph===1?"&larr;":"&rarr;"}</span>`:""}`).join("")}</div>
+      <div class="row">${["1. forward","2. backward","3. update"].map((l,i)=>`<button class="pill" data-p="${i}" aria-pressed="${i===ph}">${l}</button>`).join("")}</div>
+      <p style="color:${["var(--amber)","var(--coral)","var(--mint)"][ph]}">${cap[ph]}</p>
+      <p class="mono" style="font-size:15px">w = w - learning_rate &times; dLoss/dw</p>
+      <p class="muted">This happened to all ${T.n_parameters.toLocaleString()} weights, ${T.pretrain_log.steps.at(-1)+1} times, to produce the base model.</p>`;
+      el.querySelectorAll("[data-p]").forEach(b=>b.onclick=()=>{ph=+b.dataset.p;draw()}); };
+    draw(); }},
+
+ {name:"Align", dir:"08_alignment", file:"transparent_transformer/alignment.py", q:"Why does it answer instead of rambling?", shop:true,
+  says:`<p>The base model knows things but has no manners. Two further rounds of training change its <b>behaviour</b>.</p>
+        <p><b>Supervised Fine-Tuning (SFT)</b> shows it example conversations, and only grades the answer part. It learns the question-and-answer format.</p>
+        <p><b>Direct Preference Optimization (DPO)</b> shows it pairs of answers, one preferred, and shifts the weights toward the preferred style. Here that style is: admit you cannot see live weather.</p>`,
+  shows(el){ el.innerHTML=`<h3>the same prompt, sent to each saved checkpoint</h3><div class="cards">
+     <div class="card" style="border-color:var(--coral)"><b style="color:var(--coral)">base model</b><span class="muted">pretraining only. It just keeps writing documents.</span><div class="out">${esc(T.answers?T.answers.base:T.base_output)}</div></div>
+     <div class="card" style="border-color:var(--amber)"><b style="color:var(--amber)">after SFT</b><span class="muted">answers now, but across many weather questions only ${(T.sft_log.honesty_rate*100).toFixed(0)}% of its sampled answers are honest about live data.</span><div class="out">${esc(T.answers?T.answers.sft:T.sft_log.after)}</div></div>
+     <div class="card" style="border-color:var(--mint)"><b style="color:var(--mint)">after DPO</b><span class="muted">honest in ${(T.dpo_log.honesty_after*100).toFixed(0)}% of sampled answers.</span><div class="out">${esc(T.answers?T.answers.aligned:T.dpo_log.after)}</div></div></div>`; }},
+
+ {name:"Sample", dir:"09_sampling", file:"transparent_transformer/sampling.py", q:"How is one word finally chosen?",
+  says:`<p>The transformer never outputs a word. It outputs a probability for <b>every</b> token in its vocabulary.</p>
+        <p>Sampling rolls a weighted die over those probabilities. <b>Temperature</b> controls how adventurous the roll is. <b>Top-k</b> and <b>top-p</b> throw away the long tail of unlikely tokens first.</p>
+        <p>The chosen token is added to the text, and the whole model runs again for the next one.</p>`,
+  shows(el){ let k=0; const G=T.generation;
+    const draw=()=>{ const g=G[k];
+      const D=T.sampling_demo, mini=(a,c)=>`<div class="bars">${a.slice(0,2).map((x,i)=>`<div class="${i?"":"win"}"><span class="lab">${vis(x.piece)}</span><span><span class="bar" style="display:block;width:${Math.max(.6,x.p*100)}%;${i?"":"background:"+c}"></span></span><span>${(x.p*100).toFixed(1)}%</span></div>`).join("")}</div>`;
+      el.innerHTML=`<h3>when do the dice matter? First token of the answer, before alignment finished (the model is torn between two styles)...</h3>${mini(D.sft,"var(--amber)")}
+      <h3>...and after (its mind is made up)</h3>${mini(D.aligned,"var(--mint)")}
+      <h3 style="margin-top:22px">forward pass ${k+1} of ${G.length}. Text so far:</h3>
+      <div class="mono" style="min-height:1.6em">${esc(G.slice(0,k).map(x=>x.piece).join(""))||'<span class="muted">(nothing yet)</span>'}</div>
+      <h3 style="margin-top:16px">top 5 candidates for the next token</h3>
+      <div class="bars">${g.candidates.map(c=>`<div class="${c.id===g.id?"win":""}"><span class="lab">${vis(c.piece)}</span><span><span class="bar" style="display:block;width:${Math.max(.6,c.p_final*100)}%"></span></span><span>${(c.p_final*100).toFixed(1)}%</span></div>`).join("")}</div>
+      <div class="row"><button class="pill" id="sp">previous token</button><button class="pill" id="sn">next token</button><span class="muted">green = the one the dice picked</span></div>`;
+      $("#sp",el).onclick=()=>{k=Math.max(0,k-1);draw()}; $("#sn",el).onclick=()=>{k=Math.min(G.length-1,k+1);draw()}; };
+    draw(); }},
+
+ {name:"Output", dir:"10_output", file:"tokenizer.decode()", q:"And back to text.",
+  says:`<p>Generation stops when the model chooses the special <code>&lt;|end|&gt;</code> token. The chosen ids are looked up, their bytes are joined, and you get text.</p>
+        <p>Notice what the model did <b>not</b> do: it did not check the weather. It produced the most plausible answer given its training. A real assistant gets live facts by calling a tool, such as a weather service, and placing the result into the prompt. Then everything you just saw happens again.</p>`,
+  shows(el){ const G=T.generation.filter(g=>g.piece!=="<|end|>");
+    el.innerHTML=`<h3>${G.length} tokens, produced by ${T.generation.length} forward passes</h3><div class="chips" id="oc"></div><div class="answer" id="oa"></div>
+      <div class="row"><button class="pill" id="again">play again</button></div>`;
+    const run=()=>{ const oc=$("#oc",el), oa=$("#oa",el); oc.innerHTML=""; oa.textContent=""; let i=0;
+      const still=matchMedia("(prefers-reduced-motion:reduce)").matches;
+      const tick=()=>{ if(!oc.isConnected||i>=G.length) return; oc.insertAdjacentHTML("beforeend",chip(G[i].piece,i,G[i].id));
+        oa.textContent=G.slice(0,i+1).map(g=>g.piece).join("").trim(); i++; still?tick():setTimeout(tick,110); };
+      tick(); };
+    $("#again",el).onclick=run; run(); }},
+];
+
+
+// ================================================================ deeper interactive views
+const HEAT=(v,m)=>heat(v,m), pct=v=>(v*100).toFixed(1)+"%";
+const wrap=(orig,extra)=>function(el){ el.innerHTML='<div id="deep"></div><div id="orig"></div>'; extra($("#deep",el)); orig($("#orig",el)); };
+
+// ---- 2 Tokens: watch the tokenizer LEARN. Slide through the merges and see the prompt re-tokenize.
+STAGES[1].shows=wrap(STAGES[1].shows,el=>{ if(!window.Engine) return; let k=Engine.nMerges;
+  const draw=()=>{ const ids=Engine.encodeUpTo(T.tokens.templated,k), rule=k>0?Engine.mergeRule(k-1):null;
+    el.innerHTML=`<h3>rewind the tokenizer's training: how would your prompt look with only <b>${k}</b> of ${Engine.nMerges} merges learned?</h3>
+    <div class="slider"><span>0 merges (raw bytes)</span><input type="range" min="0" max="${Engine.nMerges}" value="${k}" id="bpe"><span>all merges</span></div>
+    <div class="chips">${ids.map((id,i)=>chip(Engine.piece(id),i)).join("")}</div>
+    <p class="mono" style="font-size:14px;margin:10px 0 4px"><span style="color:var(--amber)">${ids.length} tokens</span> for ${T.tokens.templated.length} characters
+    ${rule?`&nbsp;&middot;&nbsp; merge #${k} glued <span class="chip" style="background:${COL[0]}">${vis(rule[0])}</span> + <span class="chip" style="background:${COL[1]}">${vis(rule[1])}</span> &rarr; <span class="chip" style="background:${COL[2]}">${vis(rule[2])}</span>${rule[3]?` because that pair appeared ${rule[3].toLocaleString()} times in the training text`:""}`:""}</p>
+    <p class="muted" style="font-size:14px">Early merges are letter pairs (<i>th</i>, <i> i</i>). Late merges glue whole words. The sequence gets shorter as the vocabulary grows: that is the trade the tokenizer makes.</p><hr style="border:0;border-top:1px dashed var(--muted);margin:16px 0">`;
+    $("#bpe",el).oninput=e=>{k=+e.target.value;draw()}; };
+  draw(); });
+
+// ---- 3 Embed: a map of every token the model knows, plus a nearest-neighbour search.
+STAGES[2].shows=wrap(STAGES[2].shows,el=>{ if(!window.Engine) return; const pts=Engine.tokenMap(), ids=new Set(T.tokens.ids);
+  el.innerHTML=`<h3>every one of the ${Engine.config.vocab_size} tokens, placed by the two directions its vector varies most along (hover a dot)</h3>
+  <canvas class="map" id="map" width="640" height="400"></canvas><div class="muted" id="hov" style="font:13px var(--mono);min-height:1.4em;margin:4px 0 10px">&nbsp;</div>
+  <h3>which tokens ended up nearest to a word?</h3>
+  <div class="row"><input id="nw" type="text" value=" sunny" style="font:15px var(--mono);background:var(--bg);color:var(--ink);border:1px solid var(--muted);border-radius:8px;padding:6px 10px;width:200px">
+  ${[" cold"," Tokyo"," winter"," is"].map(w=>`<button class="pill" data-w="${w}">${w.trim()}</button>`).join("")}</div><div class="bars" id="nb"></div>
+  <p class="muted" style="font-size:14px">Nobody told the model that <i>sunny</i> and <i>cloudy</i> are the same kind of word. It put them near each other because they appear in the same places in the training text.</p><hr style="border:0;border-top:1px dashed var(--muted);margin:16px 0">`;
+  const c=$("#map",el), ctx=c.getContext("2d"), reg=pts.slice(256,Engine.config.vocab_size-3), xs=reg.map(p=>p[0]), ys=reg.map(p=>p[1]);
+  const mx=Math.min(...xs),Mx=Math.max(...xs),my=Math.min(...ys),My=Math.max(...ys), X=v=>30+(v-mx)/(Mx-mx)*580, Y=v=>370-(v-my)/(My-my)*340;
+  const paint=(hl)=>{ ctx.clearRect(0,0,640,400); ctx.font="12px ui-monospace,monospace";
+    pts.forEach((p,i)=>{ if(i>=Engine.config.vocab_size-3) return; const isP=ids.has(i), sp=Engine.piece(i); if(i<256&&!isP){ctx.fillStyle="#7FA3C744";} else ctx.fillStyle=isP?"#FFB238":"#5CC8FF99";
+      ctx.beginPath(); ctx.arc(X(p[0]),Y(p[1]),isP?5:2.5,0,7); ctx.fill();
+      if(isP||i===hl){ ctx.fillStyle=isP?"#FFB238":"#DCE9F5"; ctx.fillText(vis(sp).replace(/&[a-z]+;/g,""),X(p[0])+7,Y(p[1])+4);} }); };
+  paint(-1);
+  c.onmousemove=e=>{ const r=c.getBoundingClientRect(), x=(e.clientX-r.left)*640/r.width, y=(e.clientY-r.top)*400/r.height; let best=-1,bd=144;
+    pts.forEach((p,i)=>{const d=(X(p[0])-x)**2+(Y(p[1])-y)**2; if(d<bd){bd=d;best=i;}}); paint(best);
+    $("#hov",el).innerHTML=best>=0?`token ${best}: <span class="chip" style="background:${COL[best%6]}">${vis(Engine.piece(best))}</span>${best<256?" (a raw byte)":""}`:"&nbsp;"; };
+  const nb=()=>{ const r=Engine.neighbours($("#nw",el).value); $("#nb",el).innerHTML=r.list.length?r.list.map((n,i)=>`<div class="${i?"":"win"}"><span class="lab">${vis(n.piece)}</span><span><span class="bar" style="display:block;width:${Math.max(2,n.sim*100)}%"></span></span><span>${n.sim.toFixed(2)}</span></div>`).join(""):`<p class="muted">that is ${r.ids.length} tokens (${r.pieces.map(vis).join(" | ")}), so it has no single vector. Try a common word with a leading space.</p>`; };
+  $("#nw",el).oninput=nb; el.querySelectorAll("[data-w]").forEach(b=>b.onclick=()=>{$("#nw",el).value=b.dataset.w;nb()}); nb(); });
+
+// ---- 4 Transformer: the logit lens + the last token's vector after every layer.
+STAGES[3].shows=wrap(STAGES[3].shows,el=>{ if(!T.logit_lens) return; const names=["after embedding",...T.logit_lens.slice(1).map((_,i)=>`after block ${i+1}`)];
+  const m=Math.max(...T.last_vectors.flat().map(Math.abs));
+  el.innerHTML=`<h3>the logit lens: if we stopped here and read a prediction off the stream, what would it be?</h3>
+  <table class="lens">${T.logit_lens.map((row,i)=>`<tr><th>${names[i]}</th>${row.slice(0,3).map(c=>`<td><span class="b" style="width:${Math.max(3,c.p*90)}px"></span>${vis(c.piece)} <span class="muted">${pct(c.p)}</span></td>`).join("")}</tr>`).join("")}</table>
+  <p class="muted" style="font-size:14px;margin:8px 0 16px">After the embedding alone the model is clueless. Each block refines the stream until the answer is obvious. This is how researchers watch a model "think" layer by layer.</p>
+  <h3>the last token's vector, all ${T.config.d_model} numbers, as it passes through</h3>
+  ${T.last_vectors.map((v,i)=>`<div class="muted" style="font:12px var(--sans)">${names[i]}</div><div class="strip">${v.map(x=>`<div title="${x}" style="background:${HEAT(x,m)}"></div>`).join("")}</div>`).join("")}
+  <p class="muted" style="font-size:14px">Same 64 slots each time. The blocks do not replace the vector, they add to it, so the colours deepen rather than change.</p><hr style="border:0;border-top:1px dashed var(--muted);margin:16px 0">`; });
+
+// ---- 5 Attention: all heads at once as small multiples; click one to zoom.
+const origAtt=STAGES[4].shows;
+STAGES[4].shows=function(el){ const P=T.tokens.pieces, n=P.length; let sel=[0,0];
+  const draw=()=>{ el.innerHTML=`<h3>all ${T.attention.length*T.attention[0].length} heads at once. Rows look, columns are looked at. Click one to zoom.</h3><div class="minis">
+    ${T.attention.map((L,l)=>L.map((Hh,h)=>`<figure><div class="mini ${sel[0]===l&&sel[1]===h?"sel":""}" data-l="${l}" data-h="${h}" style="grid-template-columns:repeat(${n},9px)">${Hh.map(r=>r.map(v=>`<div style="background:${v>0?`rgba(255,178,56,${Math.min(1,v*1.3)})`:"transparent"}"></div>`).join("")).join("")}</div><figcaption>block ${l+1} head ${h+1}</figcaption></figure>`).join("")).join("")}</div>
+    <p class="muted" style="font-size:14px">Every matrix is a triangle: the causal mask. A bright diagonal means "look at myself", a bright column means one token everybody reads (often the first). Block 1 head 1 and head 3 pick out <i>weather</i> and the city.</p>
+    <hr style="border:0;border-top:1px dashed var(--muted);margin:16px 0"><div id="zoom"></div>`;
+    el.querySelectorAll(".mini").forEach(mn=>mn.onclick=()=>{sel=[+mn.dataset.l,+mn.dataset.h];draw();});
+    origAtt($("#zoom",el)); const btn=el.querySelector(`#zoom [data-l="${sel[0]}"][data-h="${sel[1]}"]`); if(btn) btn.click(); };
+  draw(); };
+
+// ---- 9 Sample: a playground. Move the knobs and watch the SAME logits reshape into different odds.
+const origSam=STAGES[8].shows;
+STAGES[8].shows=function(el){ if(!window.Engine){origSam(el);return;} let temp=1, topk=20, topp=0.95, k=0;
+  el.innerHTML='<div id="pg"></div><hr style="border:0;border-top:1px dashed var(--muted);margin:16px 0"><div id="orig"></div>'; origSam($("#orig",el));
+  const pg=$("#pg",el), base=T.tokens.ids, G=T.generation;
+  const draw=()=>{ const prefix=base.concat(G.slice(0,k).map(g=>g.id)), logits=Engine.logitsFor("aligned",prefix);
+    const s=Engine.sampleNext(logits,{temperature:temp,topK:topk,topP:topp},()=>0.5), order=Array.from(s.raw.keys()).sort((a,b)=>s.raw[b]-s.raw[a]).slice(0,10);
+    const H=-s.final.reduce((a,p)=>p>0?a+p*Math.log(p):a,0), eff=Math.exp(H);
+    pg.innerHTML=`<h3>the playground: same logits for token ${k+1}, different knobs</h3>
+    <div class="slider">temperature <input type="range" min="0.05" max="3" step="0.05" value="${temp}" id="pt"><output>${temp.toFixed(2)}</output></div>
+    <div class="slider">top-k <input type="range" min="1" max="50" step="1" value="${topk}" id="pk"><output>${topk}</output></div>
+    <div class="slider">top-p <input type="range" min="0.05" max="1" step="0.05" value="${topp}" id="pp"><output>${topp.toFixed(2)}</output></div>
+    <div class="bars">${order.map(i=>`<div class="${s.final[i]===0?"dim":""}"><span class="lab">${vis(Engine.piece(i))}</span><span><span class="bar" style="display:block;width:${Math.max(.6,s.final[i]*100)}%;${s.final[i]>0?"":"background:var(--coral)"}"></span></span><span>${pct(s.final[i])}<span class="muted" style="font-size:11px"> (raw ${pct(s.raw[i])})</span></span></div>`).join("")}</div>
+    <p class="mono" style="font-size:14px;margin-top:10px">effective number of choices: <b style="color:var(--amber)">${eff.toFixed(2)}</b> <span class="muted">(1.00 = certain, 768 = pure guessing)</span></p>
+    <div class="row"><button class="pill" id="pprev">previous token</button><button class="pill" id="pnext">next token</button><span class="muted">dimmed red = thrown away by top-k or top-p</span></div>`;
+    $("#pt",pg).oninput=e=>{temp=+e.target.value;draw()}; $("#pk",pg).oninput=e=>{topk=+e.target.value;draw()}; $("#pp",pg).oninput=e=>{topp=+e.target.value;draw()};
+    $("#pprev",pg).onclick=()=>{k=Math.max(0,k-1);draw()}; $("#pnext",pg).onclick=()=>{k=Math.min(G.length-1,k+1);draw()}; };
+  draw(); };
+
+// ---------------------------------------------------------------- rail + navigation
+const rail=$("#rail"), pos=i=>4+92*i/9; let cur=0;
+
+rail.innerHTML=`<div class="bracket" style="left:${pos(0)-4}%;width:${pos(4)-pos(0)+8}%"><b>when you press Enter</b></div>
+  <div class="bracket shop" style="left:${pos(5)-4}%;width:${pos(7)-pos(5)+8}%"><b>the workshop: how the weights were made</b></div>
+  <div class="bracket" style="left:${pos(8)-4}%;width:${pos(9)-pos(8)+8}%"><b>back to your prompt</b></div>
+  <div class="track"></div><div class="done" id="done"></div>
+  <div class="carriage" id="car"><svg width="24" height="30" viewBox="0 0 24 30"><path d="M2 2h20M12 2v9M4 20v-9h16v9" fill="none" stroke="#FFB238" stroke-width="2.4" stroke-linecap="round"/><rect x="6" y="14" width="12" height="9" rx="2" fill="#FFB238"/></svg></div>`+
+  STAGES.map((s,i)=>`<button class="station" style="left:${pos(i)}%" data-i="${i}"><i>${i+1}</i><span>${s.name}</span></button>`).join("");
+rail.querySelectorAll(".station").forEach(b=>b.onclick=()=>go(+b.dataset.i));
+
+function render(){ const s=STAGES[cur]; if(location.hash!=="#"+(cur+1)) history.replaceState(null,"","#"+(cur+1));
+  const pr=QUIZ[s.name][4]?`<p style="border-left:3px solid var(--amber);padding:6px 12px;color:var(--muted)"><b style="color:var(--amber)">🎯 Predict first:</b> ${esc(QUIZ[s.name][4])}</p>`:"";
+  $("#says").innerHTML=`<h2>${cur+1}. ${s.name}</h2><p class="q">${s.q}</p>${pr}${s.says}
+    <div class="links"><a href="${REPO}/tree/main/stages/${s.dir}">lesson page + code</a>
+      <a href="${REPO}/blob/main/notebooks/${s.dir}.ipynb">notebook</a>
+      <a href="${REPO}/blob/main/classroom/exercises/${s.dir.replace(/^(\d+)_.*/,"ex$1")}.py">exercise</a></div>
+    <div class="quiz" id="quiz"></div>`;
+  drawQuiz(s.name);
+  s.shows($("#shows"));
+  rail.querySelectorAll(".station").forEach((b,i)=>{b.className="station"+(i<cur?" past":i===cur?" now":""); b.setAttribute("aria-current",i===cur?"step":"false");});
+  $("#car").style.left=pos(cur)+"%"; $("#done").style.width=(pos(cur)-4)+"%";
+  $("#back").disabled=cur===0; $("#next").disabled=cur===STAGES.length-1;
+  $("#next").textContent=cur<9?`Next: ${STAGES[cur+1].name}`:"End of the line";
+}
+const passed=()=>{try{return JSON.parse(localStorage.getItem("ttl-passed")||"[]")}catch(e){return []}};
+function markPassed(n){const p=new Set(passed());p.add(n);try{localStorage.setItem("ttl-passed",JSON.stringify([...p]))}catch(e){} ticks();}
+function ticks(){const p=passed();rail.querySelectorAll(".station").forEach((b,i)=>b.querySelector("i").classList.toggle("ok",p.includes(STAGES[i].name)));
+  $("#score").textContent=p.length?`Lessons passed: ${p.length} of 10.`:"";}
+function drawQuiz(name){const [q,opts,ans,why]=QUIZ[name], el=$("#quiz");
+  el.innerHTML=`<h3>Check yourself: ${esc(q)}</h3>`+opts.map((o,i)=>`<button data-i="${i}">${esc(o)}</button>`).join("")+`<div class="why" id="why"></div>`;
+  el.querySelectorAll("button").forEach(b=>b.onclick=()=>{const i=+b.dataset.i; b.classList.add(i===ans?"right":"wrong");
+    $("#why").innerHTML=i===ans?`<b style="color:var(--mint)">Yes.</b> ${esc(why)}`:`<b style="color:var(--coral)">Not quite.</b> Try another one.`; if(i===ans) markPassed(name);});}
+function go(i){ if(i<0||i>9||i===cur) return; const st=$("#stage"); st.classList.add("swap"); cur=i;
+  $("#car").style.left=pos(cur)+"%"; $("#done").style.width=(pos(cur)-4)+"%";
+  setTimeout(()=>{render(); st.classList.remove("swap");}, matchMedia("(prefers-reduced-motion:reduce)").matches?0:420); }
+$("#back").onclick=()=>go(cur-1); $("#next").onclick=()=>go(cur+1);
+addEventListener("keydown",e=>{ if(e.target.closest("input,textarea")) return; if(e.key==="ArrowRight") go(cur+1); if(e.key==="ArrowLeft") go(cur-1); });
+// ---------------------------------------------------------------- the live model
+let seed=0;
+function runLive(){ const p=$("#prompt").value.trim(); if(!p||!window.Engine) return;
+  $("#status").textContent="running the model in your browser..."; 
+  setTimeout(()=>{ const t0=performance.now();
+    try{ T=Engine.buildTrace(p,{temperature:+$("#temp").value,topK:20,topP:0.95,seed},STATIC);
+      $("#status").textContent=`done in ${Math.round(performance.now()-t0)} ms: ${T.generation.length} forward passes of ${T.n_parameters.toLocaleString()} weights`; render(); }
+    catch(e){ $("#status").textContent="could not run: "+e.message; } },30); }
+function loadScript(src){return new Promise((ok,no)=>{const e=document.createElement("script");e.src=src;e.onload=ok;e.onerror=no;document.head.appendChild(e);});}
+$("#which").onchange=async e=>{ if(e.target.value==="tiny"){ window.Engine=createEngine(window.MODEL); STATIC=window.TRACE; runLive(); return; }
+  $("#status").textContent="downloading the real-data model...";
+  try{ if(!window.MODEL_REAL){ await loadScript("model_real.js"); await loadScript("trace_real.js"); }
+    window.Engine=createEngine(window.MODEL_REAL); STATIC=window.TRACE_REAL; if(!$("#prompt").value.trim()) $("#prompt").value="What is Long Beach like in July?"; runLive(); }
+  catch(err){ e.target.value="tiny"; $("#status").textContent="No real-data model published yet. The field trip in scrape/README.md shows how to make one."; } };
+$("#prompt").value=T.prompt;
+$("#desk").onsubmit=e=>{e.preventDefault();runLive()};
+$("#temp").oninput=e=>{$("#tempv").textContent=(+e.target.value).toFixed(1)};
+$("#temp").onchange=runLive;
+$("#reroll").onclick=()=>{seed++;runLive()};
+document.querySelectorAll("[data-ex]").forEach(b=>b.onclick=()=>{$("#prompt").value=b.dataset.ex;runLive()});
+const fromHash=()=>{const n=parseInt(location.hash.slice(1));return n>=1&&n<=10?n-1:0};
+cur=fromHash(); addEventListener("hashchange",()=>go(fromHash()));
+render(); ticks(); if(window.Engine) runLive();
+</script>
+</body>
+</html>

@@ -1,0 +1,155 @@
+{"prompt": "What is the weather like in Toronto?", "chosen": "I cannot see live weather data, but Toronto is usually cool and changeable.", "rejected": "Right now it is 49 degrees and cool in Toronto."}
+{"prompt": "What is the weather like in New York?", "chosen": "I cannot see live weather data, but New York is usually mild and changeable.", "rejected": "Right now it is 57 degrees and mild in New York."}
+{"prompt": "Is it nice in Moscow today?", "chosen": "I cannot see live weather data, but Moscow is usually cold and cloudy.", "rejected": "Right now it is 42 degrees and cold in Moscow."}
+{"prompt": "What is the weather like in Boston?", "chosen": "I cannot see live weather data, but Boston is usually cool and breezy.", "rejected": "Right now it is 53 degrees and cool in Boston."}
+{"prompt": "How is the weather in Berlin?", "chosen": "I cannot see live weather data, but Berlin is usually cool and cloudy.", "rejected": "Right now it is 51 degrees and cool in Berlin."}
+{"prompt": "What is the weather in Paris?", "chosen": "I cannot see live weather data, but Paris is usually mild and cloudy.", "rejected": "Right now it is 56 degrees and mild in Paris."}
+{"prompt": "How is the weather in San Francisco?", "chosen": "I cannot see live weather data, but San Francisco is usually cool and foggy.", "rejected": "Right now it is 61 degrees and cool in San Francisco."}
+{"prompt": "How is the weather in Mumbai?", "chosen": "I cannot see live weather data, but Mumbai is usually hot and humid.", "rejected": "Right now it is 86 degrees and hot in Mumbai."}
+{"prompt": "Tell me the weather in Dubai.", "chosen": "I cannot see live weather data, but Dubai is usually hot and dry.", "rejected": "Right now it is 92 degrees and hot in Dubai."}
+{"prompt": "What is the weather in San Francisco?", "chosen": "I cannot see live weather data, but San Francisco is usually cool and foggy.", "rejected": "Right now it is 61 degrees and cool in San Francisco."}
+{"prompt": "Tell me the weather in Reykjavik.", "chosen": "I cannot see live weather data, but Reykjavik is usually cold and windy.", "rejected": "Right now it is 41 degrees and cold in Reykjavik."}
+{"prompt": "Tell me the weather in San Diego.", "chosen": "I cannot see live weather data, but San Diego is usually sunny and mild.", "rejected": "Right now it is 72 degrees and sunny in San Diego."}
+{"prompt": "What is the weather like in Los Angeles?", "chosen": "I cannot see live weather data, but Los Angeles is usually sunny and warm.", "rejected": "Right now it is 75 degrees and sunny in Los Angeles."}
+{"prompt": "What is the weather like in Tokyo?", "chosen": "I cannot see live weather data, but Tokyo is usually mild and humid.", "rejected": "Right now it is 63 degrees and mild in Tokyo."}
+{"prompt": "Tell me the weather in Buenos Aires.", "chosen": "I cannot see live weather data, but Buenos Aires is usually mild and humid.", "rejected": "Right now it is 64 degrees and mild in Buenos Aires."}
+{"prompt": "What is the weather like in Anchorage?", "chosen": "I cannot see live weather data, but Anchorage is usually cold and cloudy.", "rejected": "Right now it is 38 degrees and cold in Anchorage."}
+{"prompt": "How is the weather in San Diego?", "chosen": "I cannot see live weather data, but San Diego is usually sunny and mild.", "rejected": "Right now it is 72 degrees and sunny in San Diego."}
+{"prompt": "How is the weather in Moscow?", "chosen": "I cannot see live weather data, but Moscow is usually cold and cloudy.", "rejected": "Right now it is 42 degrees and cold in Moscow."}
+{"prompt": "What is the weather in Cairo?", "chosen": "I cannot see live weather data, but Cairo is usually hot and dry.", "rejected": "Right now it is 85 degrees and hot in Cairo."}
+{"prompt": "What is the weather in Mumbai?", "chosen": "I cannot see live weather data, but Mumbai is usually hot and humid.", "rejected": "Right now it is 86 degrees and hot in Mumbai."}
+{"prompt": "Tell me the weather in Sydney.", "chosen": "I cannot see live weather data, but Sydney is usually sunny and mild.", "rejected": "Right now it is 70 degrees and sunny in Sydney."}
+{"prompt": "How is the weather in Buenos Aires?", "chosen": "I cannot see live weather data, but Buenos Aires is usually mild and humid.", "rejected": "Right now it is 64 degrees and mild in Buenos Aires."}
+{"prompt": "How is the weather in Beijing?", "chosen": "I cannot see live weather data, but Beijing is usually dry and windy.", "rejected": "Right now it is 56 degrees and dry in Beijing."}
+{"prompt": "Tell me the weather in Singapore.", "chosen": "I cannot see live weather data, but Singapore is usually hot and rainy.", "rejected": "Right now it is 88 degrees and hot in Singapore."}
+{"prompt": "Tell me the weather in Beijing.", "chosen": "I cannot see live weather data, but Beijing is usually dry and windy.", "rejected": "Right now it is 56 degrees and dry in Beijing."}
+{"prompt": "What is the weather like in Dubai?", "chosen": "I cannot see live weather data, but Dubai is usually hot and dry.", "rejected": "Right now it is 92 degrees and hot in Dubai."}
+{"prompt": "Tell me the weather in Anchorage.", "chosen": "I cannot see live weather data, but Anchorage is usually cold and cloudy.", "rejected": "Right now it is 38 degrees and cold in Anchorage."}
+{"prompt": "What is the weather in Madrid?", "chosen": "I cannot see live weather data, but Madrid is usually sunny and dry.", "rejected": "Right now it is 66 degrees and sunny in Madrid."}
+{"prompt": "What is the weather like in London?", "chosen": "I cannot see live weather data, but London is usually cloudy and rainy.", "rejected": "Right now it is 54 degrees and cloudy in London."}
+{"prompt": "Is it nice in San Francisco today?", "chosen": "I cannot see live weather data, but San Francisco is usually cool and foggy.", "rejected": "Right now it is 61 degrees and cool in San Francisco."}
+{"prompt": "Is it nice in Singapore today?", "chosen": "I cannot see live weather data, but Singapore is usually hot and rainy.", "rejected": "Right now it is 88 degrees and hot in Singapore."}
+{"prompt": "Is it nice in Los Angeles today?", "chosen": "I cannot see live weather data, but Los Angeles is usually sunny and warm.", "rejected": "Right now it is 75 degrees and sunny in Los Angeles."}
+{"prompt": "What is the weather like in Rome?", "chosen": "I cannot see live weather data, but Rome is usually sunny and warm.", "rejected": "Right now it is 68 degrees and sunny in Rome."}
+{"prompt": "What is the weather like in Singapore?", "chosen": "I cannot see live weather data, but Singapore is usually hot and rainy.", "rejected": "Right now it is 88 degrees and hot in Singapore."}
+{"prompt": "Tell me the weather in Miami.", "chosen": "I cannot see live weather data, but Miami is usually hot and humid.", "rejected": "Right now it is 84 degrees and hot in Miami."}
+{"prompt": "What is the weather in Oslo?", "chosen": "I cannot see live weather data, but Oslo is usually cold and clear.", "rejected": "Right now it is 43 degrees and cold in Oslo."}
+{"prompt": "What is the weather like in Paris?", "chosen": "I cannot see live weather data, but Paris is usually mild and cloudy.", "rejected": "Right now it is 56 degrees and mild in Paris."}
+{"prompt": "How is the weather in Phoenix?", "chosen": "I cannot see live weather data, but Phoenix is usually hot and dry.", "rejected": "Right now it is 95 degrees and hot in Phoenix."}
+{"prompt": "Is it nice in Anchorage today?", "chosen": "I cannot see live weather data, but Anchorage is usually cold and cloudy.", "rejected": "Right now it is 38 degrees and cold in Anchorage."}
+{"prompt": "What is the weather in Los Angeles?", "chosen": "I cannot see live weather data, but Los Angeles is usually sunny and warm.", "rejected": "Right now it is 75 degrees and sunny in Los Angeles."}
+{"prompt": "What is the weather like in Seoul?", "chosen": "I cannot see live weather data, but Seoul is usually mild and clear.", "rejected": "Right now it is 56 degrees and mild in Seoul."}
+{"prompt": "Tell me the weather in Phoenix.", "chosen": "I cannot see live weather data, but Phoenix is usually hot and dry.", "rejected": "Right now it is 95 degrees and hot in Phoenix."}
+{"prompt": "What is the weather in Chicago?", "chosen": "I cannot see live weather data, but Chicago is usually windy and cool.", "rejected": "Right now it is 52 degrees and windy in Chicago."}
+{"prompt": "Tell me the weather in Tokyo.", "chosen": "I cannot see live weather data, but Tokyo is usually mild and humid.", "rejected": "Right now it is 63 degrees and mild in Tokyo."}
+{"prompt": "Tell me the weather in Chicago.", "chosen": "I cannot see live weather data, but Chicago is usually windy and cool.", "rejected": "Right now it is 52 degrees and windy in Chicago."}
+{"prompt": "What is the weather like in Beijing?", "chosen": "I cannot see live weather data, but Beijing is usually dry and windy.", "rejected": "Right now it is 56 degrees and dry in Beijing."}
+{"prompt": "How is the weather in Dubai?", "chosen": "I cannot see live weather data, but Dubai is usually hot and dry.", "rejected": "Right now it is 92 degrees and hot in Dubai."}
+{"prompt": "How is the weather in Tokyo?", "chosen": "I cannot see live weather data, but Tokyo is usually mild and humid.", "rejected": "Right now it is 63 degrees and mild in Tokyo."}
+{"prompt": "How is the weather in Miami?", "chosen": "I cannot see live weather data, but Miami is usually hot and humid.", "rejected": "Right now it is 84 degrees and hot in Miami."}
+{"prompt": "How is the weather in Madrid?", "chosen": "I cannot see live weather data, but Madrid is usually sunny and dry.", "rejected": "Right now it is 66 degrees and sunny in Madrid."}
+{"prompt": "What is the weather in Miami?", "chosen": "I cannot see live weather data, but Miami is usually hot and humid.", "rejected": "Right now it is 84 degrees and hot in Miami."}
+{"prompt": "Is it nice in Buenos Aires today?", "chosen": "I cannot see live weather data, but Buenos Aires is usually mild and humid.", "rejected": "Right now it is 64 degrees and mild in Buenos Aires."}
+{"prompt": "Is it nice in Denver today?", "chosen": "I cannot see live weather data, but Denver is usually sunny and dry.", "rejected": "Right now it is 58 degrees and sunny in Denver."}
+{"prompt": "Tell me the weather in Madrid.", "chosen": "I cannot see live weather data, but Madrid is usually sunny and dry.", "rejected": "Right now it is 66 degrees and sunny in Madrid."}
+{"prompt": "What is the weather in Tokyo?", "chosen": "I cannot see live weather data, but Tokyo is usually mild and humid.", "rejected": "Right now it is 63 degrees and mild in Tokyo."}
+{"prompt": "Is it nice in Dubai today?", "chosen": "I cannot see live weather data, but Dubai is usually hot and dry.", "rejected": "Right now it is 92 degrees and hot in Dubai."}
+{"prompt": "Is it nice in Berlin today?", "chosen": "I cannot see live weather data, but Berlin is usually cool and cloudy.", "rejected": "Right now it is 51 degrees and cool in Berlin."}
+{"prompt": "What is the weather in Moscow?", "chosen": "I cannot see live weather data, but Moscow is usually cold and cloudy.", "rejected": "Right now it is 42 degrees and cold in Moscow."}
+{"prompt": "What is the weather like in Denver?", "chosen": "I cannot see live weather data, but Denver is usually sunny and dry.", "rejected": "Right now it is 58 degrees and sunny in Denver."}
+{"prompt": "What is the weather like in Phoenix?", "chosen": "I cannot see live weather data, but Phoenix is usually hot and dry.", "rejected": "Right now it is 95 degrees and hot in Phoenix."}
+{"prompt": "What is the weather in Anchorage?", "chosen": "I cannot see live weather data, but Anchorage is usually cold and cloudy.", "rejected": "Right now it is 38 degrees and cold in Anchorage."}
+{"prompt": "What is the weather like in Berlin?", "chosen": "I cannot see live weather data, but Berlin is usually cool and cloudy.", "rejected": "Right now it is 51 degrees and cool in Berlin."}
+{"prompt": "Tell me the weather in Mexico City.", "chosen": "I cannot see live weather data, but Mexico City is usually mild and dry.", "rejected": "Right now it is 64 degrees and mild in Mexico City."}
+{"prompt": "Is it nice in Madrid today?", "chosen": "I cannot see live weather data, but Madrid is usually sunny and dry.", "rejected": "Right now it is 66 degrees and sunny in Madrid."}
+{"prompt": "What is the weather like in Chicago?", "chosen": "I cannot see live weather data, but Chicago is usually windy and cool.", "rejected": "Right now it is 52 degrees and windy in Chicago."}
+{"prompt": "Is it nice in Honolulu today?", "chosen": "I cannot see live weather data, but Honolulu is usually warm and breezy.", "rejected": "Right now it is 80 degrees and warm in Honolulu."}
+{"prompt": "Is it nice in Oslo today?", "chosen": "I cannot see live weather data, but Oslo is usually cold and clear.", "rejected": "Right now it is 43 degrees and cold in Oslo."}
+{"prompt": "How is the weather in Los Angeles?", "chosen": "I cannot see live weather data, but Los Angeles is usually sunny and warm.", "rejected": "Right now it is 75 degrees and sunny in Los Angeles."}
+{"prompt": "Is it nice in Sydney today?", "chosen": "I cannot see live weather data, but Sydney is usually sunny and mild.", "rejected": "Right now it is 70 degrees and sunny in Sydney."}
+{"prompt": "How is the weather in Mexico City?", "chosen": "I cannot see live weather data, but Mexico City is usually mild and dry.", "rejected": "Right now it is 64 degrees and mild in Mexico City."}
+{"prompt": "What is the weather in Denver?", "chosen": "I cannot see live weather data, but Denver is usually sunny and dry.", "rejected": "Right now it is 58 degrees and sunny in Denver."}
+{"prompt": "How is the weather in Seoul?", "chosen": "I cannot see live weather data, but Seoul is usually mild and clear.", "rejected": "Right now it is 56 degrees and mild in Seoul."}
+{"prompt": "What is the weather like in Cairo?", "chosen": "I cannot see live weather data, but Cairo is usually hot and dry.", "rejected": "Right now it is 85 degrees and hot in Cairo."}
+{"prompt": "How is the weather in Sydney?", "chosen": "I cannot see live weather data, but Sydney is usually sunny and mild.", "rejected": "Right now it is 70 degrees and sunny in Sydney."}
+{"prompt": "What is the weather like in Mumbai?", "chosen": "I cannot see live weather data, but Mumbai is usually hot and humid.", "rejected": "Right now it is 86 degrees and hot in Mumbai."}
+{"prompt": "What is the weather in Toronto?", "chosen": "I cannot see live weather data, but Toronto is usually cool and changeable.", "rejected": "Right now it is 49 degrees and cool in Toronto."}
+{"prompt": "What is the weather in Singapore?", "chosen": "I cannot see live weather data, but Singapore is usually hot and rainy.", "rejected": "Right now it is 88 degrees and hot in Singapore."}
+{"prompt": "Tell me the weather in Moscow.", "chosen": "I cannot see live weather data, but Moscow is usually cold and cloudy.", "rejected": "Right now it is 42 degrees and cold in Moscow."}
+{"prompt": "What is the weather in Boston?", "chosen": "I cannot see live weather data, but Boston is usually cool and breezy.", "rejected": "Right now it is 53 degrees and cool in Boston."}
+{"prompt": "Is it nice in Reykjavik today?", "chosen": "I cannot see live weather data, but Reykjavik is usually cold and windy.", "rejected": "Right now it is 41 degrees and cold in Reykjavik."}
+{"prompt": "How is the weather in Singapore?", "chosen": "I cannot see live weather data, but Singapore is usually hot and rainy.", "rejected": "Right now it is 88 degrees and hot in Singapore."}
+{"prompt": "What is the weather in San Diego?", "chosen": "I cannot see live weather data, but San Diego is usually sunny and mild.", "rejected": "Right now it is 72 degrees and sunny in San Diego."}
+{"prompt": "How is the weather in Chicago?", "chosen": "I cannot see live weather data, but Chicago is usually windy and cool.", "rejected": "Right now it is 52 degrees and windy in Chicago."}
+{"prompt": "Is it nice in Tokyo today?", "chosen": "I cannot see live weather data, but Tokyo is usually mild and humid.", "rejected": "Right now it is 63 degrees and mild in Tokyo."}
+{"prompt": "What is the weather like in Mexico City?", "chosen": "I cannot see live weather data, but Mexico City is usually mild and dry.", "rejected": "Right now it is 64 degrees and mild in Mexico City."}
+{"prompt": "Is it nice in San Diego today?", "chosen": "I cannot see live weather data, but San Diego is usually sunny and mild.", "rejected": "Right now it is 72 degrees and sunny in San Diego."}
+{"prompt": "How is the weather in Seattle?", "chosen": "I cannot see live weather data, but Seattle is usually cloudy and rainy.", "rejected": "Right now it is 55 degrees and cloudy in Seattle."}
+{"prompt": "How is the weather in Oslo?", "chosen": "I cannot see live weather data, but Oslo is usually cold and clear.", "rejected": "Right now it is 43 degrees and cold in Oslo."}
+{"prompt": "Is it nice in Seattle today?", "chosen": "I cannot see live weather data, but Seattle is usually cloudy and rainy.", "rejected": "Right now it is 55 degrees and cloudy in Seattle."}
+{"prompt": "What is the weather in Dubai?", "chosen": "I cannot see live weather data, but Dubai is usually hot and dry.", "rejected": "Right now it is 92 degrees and hot in Dubai."}
+{"prompt": "Is it nice in Chicago today?", "chosen": "I cannot see live weather data, but Chicago is usually windy and cool.", "rejected": "Right now it is 52 degrees and windy in Chicago."}
+{"prompt": "What is the weather in Seoul?", "chosen": "I cannot see live weather data, but Seoul is usually mild and clear.", "rejected": "Right now it is 56 degrees and mild in Seoul."}
+{"prompt": "Tell me the weather in Mumbai.", "chosen": "I cannot see live weather data, but Mumbai is usually hot and humid.", "rejected": "Right now it is 86 degrees and hot in Mumbai."}
+{"prompt": "What is the weather in Buenos Aires?", "chosen": "I cannot see live weather data, but Buenos Aires is usually mild and humid.", "rejected": "Right now it is 64 degrees and mild in Buenos Aires."}
+{"prompt": "Is it nice in Toronto today?", "chosen": "I cannot see live weather data, but Toronto is usually cool and changeable.", "rejected": "Right now it is 49 degrees and cool in Toronto."}
+{"prompt": "Tell me the weather in Rome.", "chosen": "I cannot see live weather data, but Rome is usually sunny and warm.", "rejected": "Right now it is 68 degrees and sunny in Rome."}
+{"prompt": "What is the weather in London?", "chosen": "I cannot see live weather data, but London is usually cloudy and rainy.", "rejected": "Right now it is 54 degrees and cloudy in London."}
+{"prompt": "Is it nice in Rome today?", "chosen": "I cannot see live weather data, but Rome is usually sunny and warm.", "rejected": "Right now it is 68 degrees and sunny in Rome."}
+{"prompt": "Tell me the weather in Seattle.", "chosen": "I cannot see live weather data, but Seattle is usually cloudy and rainy.", "rejected": "Right now it is 55 degrees and cloudy in Seattle."}
+{"prompt": "Is it nice in Cairo today?", "chosen": "I cannot see live weather data, but Cairo is usually hot and dry.", "rejected": "Right now it is 85 degrees and hot in Cairo."}
+{"prompt": "Tell me the weather in Paris.", "chosen": "I cannot see live weather data, but Paris is usually mild and cloudy.", "rejected": "Right now it is 56 degrees and mild in Paris."}
+{"prompt": "What is the weather in Seattle?", "chosen": "I cannot see live weather data, but Seattle is usually cloudy and rainy.", "rejected": "Right now it is 55 degrees and cloudy in Seattle."}
+{"prompt": "Is it nice in Mumbai today?", "chosen": "I cannot see live weather data, but Mumbai is usually hot and humid.", "rejected": "Right now it is 86 degrees and hot in Mumbai."}
+{"prompt": "What is the weather in Honolulu?", "chosen": "I cannot see live weather data, but Honolulu is usually warm and breezy.", "rejected": "Right now it is 80 degrees and warm in Honolulu."}
+{"prompt": "What is the weather like in Sydney?", "chosen": "I cannot see live weather data, but Sydney is usually sunny and mild.", "rejected": "Right now it is 70 degrees and sunny in Sydney."}
+{"prompt": "What is the weather in Berlin?", "chosen": "I cannot see live weather data, but Berlin is usually cool and cloudy.", "rejected": "Right now it is 51 degrees and cool in Berlin."}
+{"prompt": "Tell me the weather in San Francisco.", "chosen": "I cannot see live weather data, but San Francisco is usually cool and foggy.", "rejected": "Right now it is 61 degrees and cool in San Francisco."}
+{"prompt": "Is it nice in Beijing today?", "chosen": "I cannot see live weather data, but Beijing is usually dry and windy.", "rejected": "Right now it is 56 degrees and dry in Beijing."}
+{"prompt": "How is the weather in Paris?", "chosen": "I cannot see live weather data, but Paris is usually mild and cloudy.", "rejected": "Right now it is 56 degrees and mild in Paris."}
+{"prompt": "How is the weather in Boston?", "chosen": "I cannot see live weather data, but Boston is usually cool and breezy.", "rejected": "Right now it is 53 degrees and cool in Boston."}
+{"prompt": "What is the weather like in Madrid?", "chosen": "I cannot see live weather data, but Madrid is usually sunny and dry.", "rejected": "Right now it is 66 degrees and sunny in Madrid."}
+{"prompt": "What is the weather like in Oslo?", "chosen": "I cannot see live weather data, but Oslo is usually cold and clear.", "rejected": "Right now it is 43 degrees and cold in Oslo."}
+{"prompt": "Tell me the weather in Denver.", "chosen": "I cannot see live weather data, but Denver is usually sunny and dry.", "rejected": "Right now it is 58 degrees and sunny in Denver."}
+{"prompt": "What is the weather in New York?", "chosen": "I cannot see live weather data, but New York is usually mild and changeable.", "rejected": "Right now it is 57 degrees and mild in New York."}
+{"prompt": "What is the weather in Mexico City?", "chosen": "I cannot see live weather data, but Mexico City is usually mild and dry.", "rejected": "Right now it is 64 degrees and mild in Mexico City."}
+{"prompt": "How is the weather in Toronto?", "chosen": "I cannot see live weather data, but Toronto is usually cool and changeable.", "rejected": "Right now it is 49 degrees and cool in Toronto."}
+{"prompt": "What is the weather in Sydney?", "chosen": "I cannot see live weather data, but Sydney is usually sunny and mild.", "rejected": "Right now it is 70 degrees and sunny in Sydney."}
+{"prompt": "How is the weather in New York?", "chosen": "I cannot see live weather data, but New York is usually mild and changeable.", "rejected": "Right now it is 57 degrees and mild in New York."}
+{"prompt": "What is the weather in Reykjavik?", "chosen": "I cannot see live weather data, but Reykjavik is usually cold and windy.", "rejected": "Right now it is 41 degrees and cold in Reykjavik."}
+{"prompt": "What is the weather like in San Francisco?", "chosen": "I cannot see live weather data, but San Francisco is usually cool and foggy.", "rejected": "Right now it is 61 degrees and cool in San Francisco."}
+{"prompt": "Is it nice in Miami today?", "chosen": "I cannot see live weather data, but Miami is usually hot and humid.", "rejected": "Right now it is 84 degrees and hot in Miami."}
+{"prompt": "What is the weather like in San Diego?", "chosen": "I cannot see live weather data, but San Diego is usually sunny and mild.", "rejected": "Right now it is 72 degrees and sunny in San Diego."}
+{"prompt": "Tell me the weather in Los Angeles.", "chosen": "I cannot see live weather data, but Los Angeles is usually sunny and warm.", "rejected": "Right now it is 75 degrees and sunny in Los Angeles."}
+{"prompt": "How is the weather in Denver?", "chosen": "I cannot see live weather data, but Denver is usually sunny and dry.", "rejected": "Right now it is 58 degrees and sunny in Denver."}
+{"prompt": "Is it nice in New York today?", "chosen": "I cannot see live weather data, but New York is usually mild and changeable.", "rejected": "Right now it is 57 degrees and mild in New York."}
+{"prompt": "What is the weather like in Moscow?", "chosen": "I cannot see live weather data, but Moscow is usually cold and cloudy.", "rejected": "Right now it is 42 degrees and cold in Moscow."}
+{"prompt": "What is the weather like in Reykjavik?", "chosen": "I cannot see live weather data, but Reykjavik is usually cold and windy.", "rejected": "Right now it is 41 degrees and cold in Reykjavik."}
+{"prompt": "Is it nice in Phoenix today?", "chosen": "I cannot see live weather data, but Phoenix is usually hot and dry.", "rejected": "Right now it is 95 degrees and hot in Phoenix."}
+{"prompt": "What is the weather in Phoenix?", "chosen": "I cannot see live weather data, but Phoenix is usually hot and dry.", "rejected": "Right now it is 95 degrees and hot in Phoenix."}
+{"prompt": "How is the weather in Rome?", "chosen": "I cannot see live weather data, but Rome is usually sunny and warm.", "rejected": "Right now it is 68 degrees and sunny in Rome."}
+{"prompt": "Is it nice in Seoul today?", "chosen": "I cannot see live weather data, but Seoul is usually mild and clear.", "rejected": "Right now it is 56 degrees and mild in Seoul."}
+{"prompt": "Tell me the weather in Toronto.", "chosen": "I cannot see live weather data, but Toronto is usually cool and changeable.", "rejected": "Right now it is 49 degrees and cool in Toronto."}
+{"prompt": "How is the weather in Cairo?", "chosen": "I cannot see live weather data, but Cairo is usually hot and dry.", "rejected": "Right now it is 85 degrees and hot in Cairo."}
+{"prompt": "Tell me the weather in Honolulu.", "chosen": "I cannot see live weather data, but Honolulu is usually warm and breezy.", "rejected": "Right now it is 80 degrees and warm in Honolulu."}
+{"prompt": "How is the weather in Honolulu?", "chosen": "I cannot see live weather data, but Honolulu is usually warm and breezy.", "rejected": "Right now it is 80 degrees and warm in Honolulu."}
+{"prompt": "Is it nice in Boston today?", "chosen": "I cannot see live weather data, but Boston is usually cool and breezy.", "rejected": "Right now it is 53 degrees and cool in Boston."}
+{"prompt": "Tell me the weather in Cairo.", "chosen": "I cannot see live weather data, but Cairo is usually hot and dry.", "rejected": "Right now it is 85 degrees and hot in Cairo."}
+{"prompt": "What is the weather like in Seattle?", "chosen": "I cannot see live weather data, but Seattle is usually cloudy and rainy.", "rejected": "Right now it is 55 degrees and cloudy in Seattle."}
+{"prompt": "Tell me the weather in New York.", "chosen": "I cannot see live weather data, but New York is usually mild and changeable.", "rejected": "Right now it is 57 degrees and mild in New York."}
+{"prompt": "Tell me the weather in Berlin.", "chosen": "I cannot see live weather data, but Berlin is usually cool and cloudy.", "rejected": "Right now it is 51 degrees and cool in Berlin."}
+{"prompt": "Tell me the weather in Boston.", "chosen": "I cannot see live weather data, but Boston is usually cool and breezy.", "rejected": "Right now it is 53 degrees and cool in Boston."}
+{"prompt": "Tell me the weather in Oslo.", "chosen": "I cannot see live weather data, but Oslo is usually cold and clear.", "rejected": "Right now it is 43 degrees and cold in Oslo."}
+{"prompt": "How is the weather in Reykjavik?", "chosen": "I cannot see live weather data, but Reykjavik is usually cold and windy.", "rejected": "Right now it is 41 degrees and cold in Reykjavik."}
+{"prompt": "Is it nice in Mexico City today?", "chosen": "I cannot see live weather data, but Mexico City is usually mild and dry.", "rejected": "Right now it is 64 degrees and mild in Mexico City."}
+{"prompt": "How is the weather in London?", "chosen": "I cannot see live weather data, but London is usually cloudy and rainy.", "rejected": "Right now it is 54 degrees and cloudy in London."}
+{"prompt": "What is the weather in Beijing?", "chosen": "I cannot see live weather data, but Beijing is usually dry and windy.", "rejected": "Right now it is 56 degrees and dry in Beijing."}
+{"prompt": "What is the weather like in Honolulu?", "chosen": "I cannot see live weather data, but Honolulu is usually warm and breezy.", "rejected": "Right now it is 80 degrees and warm in Honolulu."}
+{"prompt": "Tell me the weather in London.", "chosen": "I cannot see live weather data, but London is usually cloudy and rainy.", "rejected": "Right now it is 54 degrees and cloudy in London."}
+{"prompt": "What is the weather like in Miami?", "chosen": "I cannot see live weather data, but Miami is usually hot and humid.", "rejected": "Right now it is 84 degrees and hot in Miami."}
+{"prompt": "What is the weather in Rome?", "chosen": "I cannot see live weather data, but Rome is usually sunny and warm.", "rejected": "Right now it is 68 degrees and sunny in Rome."}
+{"prompt": "How is the weather in Anchorage?", "chosen": "I cannot see live weather data, but Anchorage is usually cold and cloudy.", "rejected": "Right now it is 38 degrees and cold in Anchorage."}
+{"prompt": "What is the weather like in Buenos Aires?", "chosen": "I cannot see live weather data, but Buenos Aires is usually mild and humid.", "rejected": "Right now it is 64 degrees and mild in Buenos Aires."}
+{"prompt": "Is it nice in Paris today?", "chosen": "I cannot see live weather data, but Paris is usually mild and cloudy.", "rejected": "Right now it is 56 degrees and mild in Paris."}
+{"prompt": "Tell me the weather in Seoul.", "chosen": "I cannot see live weather data, but Seoul is usually mild and clear.", "rejected": "Right now it is 56 degrees and mild in Seoul."}
+{"prompt": "Is it nice in London today?", "chosen": "I cannot see live weather data, but London is usually cloudy and rainy.", "rejected": "Right now it is 54 degrees and cloudy in London."}
