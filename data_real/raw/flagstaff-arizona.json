@@ -1,0 +1,139 @@
+{
+ "name": "Flagstaff",
+ "admin1": "Arizona",
+ "country": "United States",
+ "country_code": "US",
+ "lat": 35.19807,
+ "lon": -111.65127,
+ "population": 70320,
+ "elevation_m": 2104.0,
+ "climate": [
+  {
+   "month": 1,
+   "high": 36.8,
+   "low": 20.7,
+   "precip_in": 3.13,
+   "wet_days": 9.0,
+   "snow_in": 20.9,
+   "wind_mph": 12.6,
+   "sun_frac": 0.77
+  },
+  {
+   "month": 2,
+   "high": 38.3,
+   "low": 21.2,
+   "precip_in": 2.59,
+   "wet_days": 6.0,
+   "snow_in": 17.0,
+   "wind_mph": 13.2,
+   "sun_frac": 0.85
+  },
+  {
+   "month": 3,
+   "high": 43.1,
+   "low": 25.8,
+   "precip_in": 4.28,
+   "wet_days": 11.5,
+   "snow_in": 25.1,
+   "wind_mph": 14.3,
+   "sun_frac": 0.81
+  },
+  {
+   "month": 4,
+   "high": 56.9,
+   "low": 32.2,
+   "precip_in": 0.58,
+   "wet_days": 4.0,
+   "snow_in": 2.5,
+   "wind_mph": 13.2,
+   "sun_frac": 0.95
+  },
+  {
+   "month": 5,
+   "high": 68.0,
+   "low": 42.7,
+   "precip_in": 0.71,
+   "wet_days": 5.5,
+   "snow_in": 0.1,
+   "wind_mph": 13.5,
+   "sun_frac": 0.93
+  },
+  {
+   "month": 6,
+   "high": 79.0,
+   "low": 53.7,
+   "precip_in": 1.1,
+   "wet_days": 4.5,
+   "snow_in": 0.0,
+   "wind_mph": 13.4,
+   "sun_frac": 0.94
+  },
+  {
+   "month": 7,
+   "high": 87.4,
+   "low": 62.0,
+   "precip_in": 1.28,
+   "wet_days": 6.5,
+   "snow_in": 0.0,
+   "wind_mph": 12.5,
+   "sun_frac": 0.92
+  },
+  {
+   "month": 8,
+   "high": 80.1,
+   "low": 57.7,
+   "precip_in": 2.05,
+   "wet_days": 14.0,
+   "snow_in": 0.0,
+   "wind_mph": 11.4,
+   "sun_frac": 0.9
+  },
+  {
+   "month": 9,
+   "high": 75.8,
+   "low": 52.9,
+   "precip_in": 0.57,
+   "wet_days": 4.0,
+   "snow_in": 0.0,
+   "wind_mph": 12.3,
+   "sun_frac": 0.94
+  },
+  {
+   "month": 10,
+   "high": 66.5,
+   "low": 44.2,
+   "precip_in": 1.0,
+   "wet_days": 4.5,
+   "snow_in": 1.6,
+   "wind_mph": 11.4,
+   "sun_frac": 0.94
+  },
+  {
+   "month": 11,
+   "high": 49.9,
+   "low": 31.4,
+   "precip_in": 0.49,
+   "wet_days": 3.5,
+   "snow_in": 2.2,
+   "wind_mph": 11.4,
+   "sun_frac": 0.9
+  },
+  {
+   "month": 12,
+   "high": 47.4,
+   "low": 28.4,
+   "precip_in": 0.21,
+   "wet_days": 1.0,
+   "snow_in": 0.4,
+   "wind_mph": 9.4,
+   "sun_frac": 0.9
+  }
+ ],
+ "period": "2023-01-01 to 2024-12-31",
+ "wiki": {
+  "title": "Flagstaff, Arizona",
+  "url": "https://en.wikipedia.org/wiki/Flagstaff,_Arizona",
+  "intro": "Flagstaff is a city in and the county seat of Coconino County, Arizona, United States. As of the 2020 United States census, the city's population was 76,831.\nFlagstaff is the principal city of the Flagstaff metropolitan area, which includes all of Coconino County, and has a population of 145,101. Flagstaff lies near the southwestern edge of the Colorado Plateau and within the San Francisco volcanic field, along the western side of the largest contiguous ponderosa pine forest in the continental United States. The city sits at around 7,000 feet and is next to Mount Elden, just south of the San Francisco Peaks, the highest mountain range in the state of Arizona. Humphreys Peak, the highest point in Arizona at 12,637 feet, is about 10 miles north of Flagstaff in Kachina Peaks Wilderness. The geology of the area includes exposed rock from the Mesozoic and Paleozoic eras, with Moenkopi Formation red sandstone having once been quarried in the city; many of the historic downtown buildings were constructed with it. The Rio de Flag river runs through the city, but only flows in response to rain or snowmelt.\nOriginally settled by the pre-Columbian native Sinagua people, the area of Flagstaff has fertile land from volcanic ash after eruptions in the 11th century. It was first settled as the present-day city in 1876. Local businessmen lobbied for Route 66 to pass through the city, which it did, turning the local industry from lumber to tourism and developing downtown Flagstaff. In 1930, Pluto was discovered from Flagstaff at its Lowell Observatory. The city developed further through to the end of the 1960s, with various observatories also used to choose Moon landing sites for the Apollo missions. Through the 1970s and 1980s, the downtown fell into disrepair, but was revitalized with a major cultural heritage project in the 1990s.\nThe city remains an important distribution hub for companies such as Nestl\u00e9 Purina PetCare, and is home to the U.S. Naval Observatory Flagstaff Station, the U.S. Geological Survey, and Northern Arizona University. Flagstaff has a strong tourism sector, due to its proximity to the Grand Canyon, Oak Creek Canyon, the Arizona Snowbowl, Meteor Crater, and Historic Route 66.",
+  "climate": "Flagstaff's climate type on the K\u00f6ppen climate classification system is variously reported as a warm dry-summer Mediterranean climate, a Hemiboreal climate, and a cold semi-arid climate. It is consistently described as \"semi-arid\".\nThe hottest temperature on record is 97 \u00b0F in July 1973. This is far below a normal summer day in lowland areas of the state. The coldest temperature on record is \u221230 \u00b0F in January 1937. Warm summer nights are very uncommon with the all-time record being 68 \u00b0F in July 2002 and a regular summer averages a very mild 59 \u00b0F for the warmest low. Cold daily maximums are occasional, but rarely severe. The record low high is 5 \u00b0F from January 1963, but the mean for the coldest maximum is relatively close to freezing at 24 \u00b0F.\nLike most of the state, Northern Arizona experiences a summer monsoon season from July to September, with Flagstaff's wettest months being July and August, and its driest being June, all in the summer; Mediterranean climates have wet season only in the winter. Mediterranean climate categorization does not consider snowfall. Semi-arid climates will receive 10\u201320 inches of annual rainfall, while Flagstaff experiences more.\nFlagstaff's hardiness zone is mostly 6a, with some areas 5b, meaning plants withstand temperatures down to \u221215 \u00b0F. It is in the Transition life zone; the concept of life zones was first observed in the Flagstaff area. Wind in Flagstaff typically blows southwesterly throughout the year, based on topographical features. The city's climate data is observed from Flagstaff Pulliam Airport.\nThe city receives precipitation every year, with two distinct wet periods in the summer and winter; the summer monsoon season accounts for 34% of annual rainfall, with the winter producing 28%. The summer monsoon season, originating from the Mexican monsoon period, is also wetter than winter, with an average 7 inches compared to the winter's 6 inches. Before the summer monsoon each year there is a dry period in May and June. Long-term average precipitation is 21.6 inches annually, with much heavier rainfall attributed to El Ni\u00f1o events. Comparatively, La Ni\u00f1a events have caused below-average rainfall.\nSince 1996 the city has been experiencing its driest period, known as the Early-21st Century Drought. As of 2007, Richard Hereford of USGS speculated that the effects of the drought, predicted to last until the late 2020s, may be severe because of Flagstaff's growing population and global warming. The summer wet season is more reliable and consistent than other times of year, but due to the high temperatures of the area this rainfall is quickly lost to evaporation. During the Early-21st Century Drought, rainfall has been consistently below average in all but the summer season, with temperature averages for all but the summer also increasing.\nEqually, snowfall has been lower during the extended dry period, though the city set a new record for its highest daily snowfall on February 21, 2019, with 35.9 inches and was still ranked as the United States' third-snowiest city in 2020. Flagstaff has consistently been among the snowiest cities in the United States, and snow and winter culture is argued by Michael Weeks to be a large part of Flagstaff's identity. The Arizona Snowbowl is a major attraction, though it has had to make artificial snow during warmer seasons, and the city tried to launch a bid to be the host city of the 1960 Winter Olympics. The maximum daily snow cover was 83 inches on December 20, 1967, although the mean maximum for a full winter is only 20 inches. However, due to the infrequent and scattered nature of the snowstorms, persistent snowpack into spring is rare. One notable exception occurred during the severe winter of 1915\u201316, when successive Pacific storms buried the city under over 70 inches of snow, and some residents were snowbound in their homes for several days. The earliest seasonal trace of snowfall occurred on September 19, 1965, and the latest on May 29 in both 1971 and 1990.\nThough one of the least-sunny cities in Arizona, Flagstaff still ranks among the United States' sunniest cities, having sunshine for an average 78% of the year. The city receives much more sunshine than other snowy cities, which are primarily in the north of the country."
+ }
+}

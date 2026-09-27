@@ -1,0 +1,139 @@
+{
+ "name": "Seattle",
+ "admin1": "Washington",
+ "country": "United States",
+ "country_code": "US",
+ "lat": 47.60621,
+ "lon": -122.33207,
+ "population": 780995,
+ "elevation_m": 56.0,
+ "climate": [
+  {
+   "month": 1,
+   "high": 46.3,
+   "low": 36.7,
+   "precip_in": 6.73,
+   "wet_days": 19.0,
+   "snow_in": 0.6,
+   "wind_mph": 12.7,
+   "sun_frac": 0.38
+  },
+  {
+   "month": 2,
+   "high": 47.0,
+   "low": 36.4,
+   "precip_in": 3.38,
+   "wet_days": 13.0,
+   "snow_in": 2.9,
+   "wind_mph": 12.5,
+   "sun_frac": 0.45
+  },
+  {
+   "month": 3,
+   "high": 51.2,
+   "low": 37.8,
+   "precip_in": 3.46,
+   "wet_days": 12.5,
+   "snow_in": 2.1,
+   "wind_mph": 12.3,
+   "sun_frac": 0.64
+  },
+  {
+   "month": 4,
+   "high": 54.6,
+   "low": 42.0,
+   "precip_in": 3.36,
+   "wet_days": 15.5,
+   "snow_in": 1.0,
+   "wind_mph": 13.4,
+   "sun_frac": 0.57
+  },
+  {
+   "month": 5,
+   "high": 64.7,
+   "low": 48.8,
+   "precip_in": 1.51,
+   "wet_days": 8.0,
+   "snow_in": 0.0,
+   "wind_mph": 12.1,
+   "sun_frac": 0.67
+  },
+  {
+   "month": 6,
+   "high": 68.9,
+   "low": 52.5,
+   "precip_in": 1.78,
+   "wet_days": 6.5,
+   "snow_in": 0.0,
+   "wind_mph": 11.8,
+   "sun_frac": 0.74
+  },
+  {
+   "month": 7,
+   "high": 78.4,
+   "low": 58.1,
+   "precip_in": 0.42,
+   "wet_days": 1.5,
+   "snow_in": 0.0,
+   "wind_mph": 11.5,
+   "sun_frac": 0.87
+  },
+  {
+   "month": 8,
+   "high": 76.6,
+   "low": 59.1,
+   "precip_in": 1.53,
+   "wet_days": 7.0,
+   "snow_in": 0.0,
+   "wind_mph": 11.4,
+   "sun_frac": 0.76
+  },
+  {
+   "month": 9,
+   "high": 68.7,
+   "low": 54.9,
+   "precip_in": 2.31,
+   "wet_days": 7.5,
+   "snow_in": 0.0,
+   "wind_mph": 10.6,
+   "sun_frac": 0.68
+  },
+  {
+   "month": 10,
+   "high": 59.7,
+   "low": 48.3,
+   "precip_in": 4.0,
+   "wet_days": 12.5,
+   "snow_in": 0.0,
+   "wind_mph": 11.7,
+   "sun_frac": 0.61
+  },
+  {
+   "month": 11,
+   "high": 50.3,
+   "low": 41.7,
+   "precip_in": 5.88,
+   "wet_days": 18.0,
+   "snow_in": 0.0,
+   "wind_mph": 12.0,
+   "sun_frac": 0.52
+  },
+  {
+   "month": 12,
+   "high": 48.9,
+   "low": 40.3,
+   "precip_in": 8.31,
+   "wet_days": 19.5,
+   "snow_in": 0.4,
+   "wind_mph": 12.3,
+   "sun_frac": 0.42
+  }
+ ],
+ "period": "2023-01-01 to 2024-12-31",
+ "wiki": {
+  "title": "Seattle",
+  "url": "https://en.wikipedia.org/wiki/Seattle",
+  "intro": "Seattle is the most populous city in the U.S. state of Washington and the Pacific Northwest region of North America. It is the 18th-most populous city in the United States with a population of 784,777 in 2025, while the Seattle metropolitan area at over 4.15 million residents is the 15th-most populous metropolitan area in the nation. The city is the county seat of King County, the most populous county in Washington. Seattle's growth rate of 21.1% between 2010 and 2020 made it one of the country's fastest-growing large cities.\nSeattle is situated on an isthmus between Puget Sound, an inlet of the Pacific Ocean, and Lake Washington. It is the northernmost major city in the United States, located about 100 miles south of the Canadian border. A gateway for trade with the Asia-Pacific region, the Port of Seattle is the fourth-largest port in North America in terms of container handling as of 2021.\nThe Seattle area has been inhabited by Native Americans for at least 4,000 years before the arrival of the first permanent European settlers. Arthur A. Denny and his group of travelers, subsequently known as the Denny Party, arrived from Illinois via Portland, Oregon, on the schooner Exact at Alki Point on November 13, 1851. The settlement was moved to the eastern shore of Elliott Bay in 1852 and named \"Seattle\" in honor of Chief Seattle, a prominent 19th-century leader of the local Duwamish and Suquamish tribes. Seattle has relatively high populations of Native Americans as well as Americans with strong Asian, African, and European ancestry, and, as of 2015, has the fifth-highest percentage of residents who identify as LGBT among major metropolitan areas in the U.S..\nLogging was Seattle's first major industry, but by the late 19th century the city had become a commercial and shipbuilding center as a gateway to Alaska during the Klondike Gold Rush. The city grew after World War II, partly due to the local company Boeing, which established Seattle as a center for its manufacturing of aircraft. Beginning in the 1980s, the Seattle area developed into a technology center; Microsoft established its headquarters in the region. Alaska Airlines is based at Seattle\u2013Tacoma International Airport in nearby SeaTac. The rise of new software, biotechnology, and Internet companies led to an economic revival, which increased the city's population by almost 50,000 between 1990 and 2000.\nThe culture of Seattle is heavily defined by its significant musical history. Between 1918 and 1951, nearly 24 jazz nightclubs existed along Jackson Street, from the current Chinatown/International District to the Central District. The jazz scene nurtured the early careers of Ernestine Anderson, Ray Charles, Quincy Jones, and others. In the late 20th and early 21st centuries, the city was the origin of several rock artists and bands, including the Foo Fighters, Heart, and Jimi Hendrix, and the subgenre of grunge and its pioneering bands, including Alice in Chains, Nirvana, Pearl Jam, and Soundgarden.",
+  "climate": "According to the K\u00f6ppen climate classification system, Seattle has a warm-summer Mediterranean climate, while under the Trewartha system, it is labeled an oceanic climate. It has cool, wet winters and mild, relatively dry summers, covering characteristics of both climate types. The climate is sometimes characterized as a \"modified Mediterranean\" climate because it is cooler and wetter than a \"true\" Mediterranean climate, but shares the characteristic dry summer.\nSeattle's strong seasonal contrast reflects the migration of the dominant North Pacific pressure centers. In summer, the North Pacific High expands northward over the eastern Pacific and deflects the storm track far to the north of Washington. From late autumn through early spring the high retreats southward while the Aleutian Low, a semi-permanent low-pressure system near the Aleutian Islands, intensifies and shifts south, becoming one of the dominant features of Northern Hemisphere atmospheric circulation. Extratropical cyclones forming in the sub-polar North Pacific typically reach peak intensity near the Aleutian Low and are then steered by the polar jet stream toward the Pacific Northwest coast, delivering the great majority of Seattle's annual precipitation between October and March. Particularly intense storms include atmospheric rivers that channel subtropical moisture into western Washington and can produce four to five inches of rainfall in twenty-four hours.\nThe city's precipitation is further shaped by its position in the lee of the Olympic Mountains, which rise abruptly to nearly 8,000 feet only about 60 miles to the west and force orographic uplift of incoming Pacific air. The windward Hoh Rainforest averages roughly 142 inches of precipitation annually, while the rain shadow on the leeward side produces only about 16 inches at Sequim in the Dungeness Valley, one of the steepest precipitation gradients in the contiguous United States. Seattle sits near the eastern edge of this shadow and is only partially sheltered by it.\nTemperature extremes are moderated by the adjacent Puget Sound, greater Pacific Ocean, and Lake Washington. Thus extreme heat waves are rare in the Seattle area, as are very cold temperatures. The Seattle area is the cloudiest region of the Continental United States, with 201 cloudy days and 93 partly cloudy days in an average year. With many more \"rain days\" than other major American cities, Seattle has a well-earned reputation for frequent rain. In an average year, there are 150 days in which at least 0.01 inches of precipitation falls, more days than in nearly all U.S. cities east of the Rocky Mountains. However, because it often has merely a light drizzle falling from the sky for many days, Seattle actually receives significantly less rainfall overall than many other major U.S. cities like New York City, Miami, or Houston.\nThe most damaging weather events in the region are deep extratropical cyclones spawned along the Aleutian Low storm track, which periodically produce some of the strongest non-tropical windstorms in the contiguous United States. The benchmark event is the Columbus Day storm of 1962, which brought sustained winds above 100 miles per hour to western Washington and killed 46 people across the region; the Hanukkah Eve Wind Storm of 2006 cut power to approximately 1.8 million customers and caused damages exceeding $1 billion."
+ }
+}

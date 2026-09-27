@@ -1,0 +1,139 @@
+{
+ "name": "Beijing",
+ "admin1": "Beijing Municipality",
+ "country": "China",
+ "country_code": "CN",
+ "lat": 39.9075,
+ "lon": 116.39723,
+ "population": 18960744,
+ "elevation_m": 49.0,
+ "climate": [
+  {
+   "month": 1,
+   "high": 36.5,
+   "low": 19.5,
+   "precip_in": 0.07,
+   "wet_days": 0.5,
+   "snow_in": 0.3,
+   "wind_mph": 10.6,
+   "sun_frac": 0.82
+  },
+  {
+   "month": 2,
+   "high": 42.3,
+   "low": 24.3,
+   "precip_in": 0.24,
+   "wet_days": 3.0,
+   "snow_in": 1.2,
+   "wind_mph": 9.8,
+   "sun_frac": 0.72
+  },
+  {
+   "month": 3,
+   "high": 60.7,
+   "low": 33.9,
+   "precip_in": 0.19,
+   "wet_days": 1.5,
+   "snow_in": 0.1,
+   "wind_mph": 12.9,
+   "sun_frac": 0.82
+  },
+  {
+   "month": 4,
+   "high": 71.3,
+   "low": 47.8,
+   "precip_in": 1.23,
+   "wet_days": 5.0,
+   "snow_in": 0.0,
+   "wind_mph": 13.8,
+   "sun_frac": 0.63
+  },
+  {
+   "month": 5,
+   "high": 82.1,
+   "low": 59.0,
+   "precip_in": 1.62,
+   "wet_days": 6.0,
+   "snow_in": 0.0,
+   "wind_mph": 13.8,
+   "sun_frac": 0.63
+  },
+  {
+   "month": 6,
+   "high": 94.4,
+   "low": 69.5,
+   "precip_in": 0.73,
+   "wet_days": 3.5,
+   "snow_in": 0.0,
+   "wind_mph": 13.2,
+   "sun_frac": 0.73
+  },
+  {
+   "month": 7,
+   "high": 91.2,
+   "low": 73.7,
+   "precip_in": 10.4,
+   "wet_days": 14.5,
+   "snow_in": 0.0,
+   "wind_mph": 11.4,
+   "sun_frac": 0.6
+  },
+  {
+   "month": 8,
+   "high": 86.5,
+   "low": 72.0,
+   "precip_in": 8.53,
+   "wet_days": 15.5,
+   "snow_in": 0.0,
+   "wind_mph": 9.4,
+   "sun_frac": 0.66
+  },
+  {
+   "month": 9,
+   "high": 79.0,
+   "low": 62.1,
+   "precip_in": 2.46,
+   "wet_days": 6.0,
+   "snow_in": 0.0,
+   "wind_mph": 9.2,
+   "sun_frac": 0.67
+  },
+  {
+   "month": 10,
+   "high": 67.5,
+   "low": 47.6,
+   "precip_in": 0.67,
+   "wet_days": 4.5,
+   "snow_in": 0.0,
+   "wind_mph": 9.2,
+   "sun_frac": 0.74
+  },
+  {
+   "month": 11,
+   "high": 51.0,
+   "low": 34.5,
+   "precip_in": 0.47,
+   "wet_days": 2.0,
+   "snow_in": 0.0,
+   "wind_mph": 10.1,
+   "sun_frac": 0.75
+  },
+  {
+   "month": 12,
+   "high": 36.0,
+   "low": 22.2,
+   "precip_in": 0.3,
+   "wet_days": 1.5,
+   "snow_in": 2.1,
+   "wind_mph": 9.2,
+   "sun_frac": 0.77
+  }
+ ],
+ "period": "2023-01-01 to 2024-12-31",
+ "wiki": {
+  "title": "Beijing",
+  "url": "https://en.wikipedia.org/wiki/Beijing",
+  "intro": "Beijing, previously romanized as Peking, is the capital city of China. With more than 21.8 million residents, it is the world's most populous national capital city, as well as China's second-largest city by urban area, after Shanghai. It is located in Northern China and is governed as a provincial-level direct-administered municipality with 16 municipal districts. Beijing is mostly surrounded by Hebei Province and neighbors Tianjin Municipality to the southeast; together, the three divisions form the Jing-Jin-Ji cluster.\nBeijing is a global city and one of the world's leading centers for culture, diplomacy, politics, finance, business and economics, education, research, language, tourism, media, sports, science and technology, transportation, and art. It is home to the headquarters of most of China's largest state-owned companies and houses the largest number of Fortune Global 500 companies in the world, as well as the world's four biggest financial institutions by total assets. It is also a major hub for the national highway, expressway, railway, and high-speed rail networks. For a decade before the COVID-19 pandemic, Beijing Capital International Airport was Asia's busiest airport and the second-busiest airport in the world. In 2020, the Beijing subway was the fourth-busiest and second-longest in the world. Beijing Daxing International Airport, Beijing's second international airport, is the largest single-structure airport terminal in the world. The city has hosted numerous international and national sporting events, the most notable being the 2008 Summer Olympics and 2008 Summer Paralympics Games. In 2022, Beijing became the first city to host both the Summer and Winter Olympics, and also the Summer and Winter Paralympics.\nThe architecture of Beijing contains elements of both traditional Chinese architecture and modern styles, with one half of the city being modernized and renovated, and the other half still offering traditional hutong districts. Beijing is one of the oldest cities in the world, with recorded history spanning over three millennia. As the last remaining one of the Four Great Ancient Capitals of China, Beijing has been the political center of the country for most of the past eight centuries and was the largest city in the world by population for much of the second millennium AD. With mountains surrounding the inland city on three sides, in addition to the ancient city fortifications, Beijing was strategically poised to be and developed into the residence of the emperor. The city is renowned for its opulent palaces, temples, parks, gardens, tombs, walls and gates. Beijing is considered one of the most well-known tourist destinations in the world. In 2018, Beijing was the second highest earning tourist city in the world after Shanghai. Beijing is home to many national monuments and museums and has eight UNESCO World Heritage Sites\u2014the Forbidden City, Temple of Heaven, Summer Palace, Ming Tombs, Zhoukoudian Peking Man Site, Beijing Central Axis and parts of the Great Wall and the Grand Canal\u2014all of which are popular tourist locations. Siheyuans, the city's traditional housing style, and hutongs, the narrow alleys between siheyuans, are major tourist attractions and are common in urban Beijing.\nBeijing's public universities make up more than one-fifth of Double First-Class Construction universities, and many of them consistently rank among the best in the Asia-Pacific and the world, including Tsinghua University, Peking University and UCAS. Beijing CBD is a center for Beijing's economic expansion, with the ongoing or recently completed construction of multiple skyscrapers. Beijing's Zhongguancun area is a world leading center of scientific and technological innovation, as well as entrepreneurship. Beijing has been ranked the city with the largest scientific research output by the Nature Index since the list's inception in 2016. Beijing hosts 176 foreign embassies, as well as the headquarters of many organizations, including the Asian Infrastructure Investment Bank, the Shanghai Cooperation Organisation, the Silk Road Fund, the Chinese Academy of Sciences, the Chinese Academy of Engineering, the Chinese Academy of Social Sciences, the Central Academy of Fine Arts, the Central Academy of Drama, the Central Conservatory of Music, and the Red Cross Society of China.",
+  "climate": "Beijing has a humid continental climate, bordering on a monsoonal cold semi-arid climate. The city is characterized by hot, humid summers due to the East Asian monsoon as well as brief but cold, dry winters that reflect the influence of the vast Siberian anticyclone. Spring can bear witness to sandstorms blowing in from the Gobi Desert across the Mongolian steppe, accompanied by rapidly warming, but generally dry, conditions. Autumn, similar to spring, is a season of transition and minimal precipitation. From 2001 to 2026, the hottest period in Beijing is early August, and the coldest period is early January. According to China's seasonal division standard, Beijing enters spring on 26 March, summer on 20 May, autumn on 13 September, and winter on 31 October. Due to the faster warming in March and September and the slower warming in May and October in recent years, Beijing is generally shorter in autumn than in spring. The average annual temperature in the urban area of Beijing is 12.9 \u00b0C to 13.3 \u00b0C, of which the average daily minimum temperature is 7.7 \u00b0C to 8.4 \u00b0C, and the average daily maximum temperature is 18.5 \u00b0C to 18.9 \u00b0C. The average annual temperature in the low-altitude part of the suburbs of Beijing is 11.5 \u00b0C to 13.0 \u00b0C, of which the average daily minimum temperature is 5.9 \u00b0C to 8.0 \u00b0C, and the average daily maximum temperature is 18.2 \u00b0C to 18.7 \u00b0C. The average annual temperature in mountainous areas is between 0 \u00b0C and 10 \u00b0C, decreasing as the altitude increases. The monthly daily average temperature in January is \u22122.7 \u00b0C, while in July it is 27.2 \u00b0C. Precipitation averages around 528.0 mm annually (Haidian and Chaoyang has an average annual precipitation of 584.2 mm ), with close to three-quarters of that total falling from June to August. With monthly percent possible sunshine ranging from 42% in July to 62% in January and February, the city receives 2,490.5 hours of bright sunshine annually. Extremes since 1951 have ranged from \u221227.4 \u00b0C on 22 February 1966 to 41.9 \u00b0C on 24 July 1999."
+ }
+}

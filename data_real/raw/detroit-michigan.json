@@ -1,0 +1,139 @@
+{
+ "name": "Detroit",
+ "admin1": "Michigan",
+ "country": "United States",
+ "country_code": "US",
+ "lat": 42.33143,
+ "lon": -83.04575,
+ "population": 645705,
+ "elevation_m": 183.0,
+ "climate": [
+  {
+   "month": 1,
+   "high": 35.0,
+   "low": 25.0,
+   "precip_in": 4.16,
+   "wet_days": 15.0,
+   "snow_in": 10.3,
+   "wind_mph": 14.1,
+   "sun_frac": 0.38
+  },
+  {
+   "month": 2,
+   "high": 42.6,
+   "low": 25.9,
+   "precip_in": 1.76,
+   "wet_days": 4.5,
+   "snow_in": 1.3,
+   "wind_mph": 16.1,
+   "sun_frac": 0.74
+  },
+  {
+   "month": 3,
+   "high": 46.7,
+   "low": 31.3,
+   "precip_in": 3.01,
+   "wet_days": 10.5,
+   "snow_in": 7.4,
+   "wind_mph": 16.2,
+   "sun_frac": 0.59
+  },
+  {
+   "month": 4,
+   "high": 59.4,
+   "low": 40.8,
+   "precip_in": 4.85,
+   "wet_days": 14.5,
+   "snow_in": 0.2,
+   "wind_mph": 15.7,
+   "sun_frac": 0.68
+  },
+  {
+   "month": 5,
+   "high": 70.6,
+   "low": 50.6,
+   "precip_in": 2.5,
+   "wet_days": 9.5,
+   "snow_in": 0.0,
+   "wind_mph": 13.4,
+   "sun_frac": 0.79
+  },
+  {
+   "month": 6,
+   "high": 79.0,
+   "low": 60.7,
+   "precip_in": 2.82,
+   "wet_days": 10.5,
+   "snow_in": 0.0,
+   "wind_mph": 13.8,
+   "sun_frac": 0.77
+  },
+  {
+   "month": 7,
+   "high": 81.8,
+   "low": 64.8,
+   "precip_in": 4.77,
+   "wet_days": 13.5,
+   "snow_in": 0.0,
+   "wind_mph": 12.1,
+   "sun_frac": 0.82
+  },
+  {
+   "month": 8,
+   "high": 79.2,
+   "low": 62.7,
+   "precip_in": 3.73,
+   "wet_days": 10.5,
+   "snow_in": 0.0,
+   "wind_mph": 12.2,
+   "sun_frac": 0.81
+  },
+  {
+   "month": 9,
+   "high": 75.0,
+   "low": 59.8,
+   "precip_in": 2.83,
+   "wet_days": 6.5,
+   "snow_in": 0.0,
+   "wind_mph": 11.4,
+   "sun_frac": 0.75
+  },
+  {
+   "month": 10,
+   "high": 63.2,
+   "low": 47.8,
+   "precip_in": 2.69,
+   "wet_days": 8.5,
+   "snow_in": 0.1,
+   "wind_mph": 13.7,
+   "sun_frac": 0.72
+  },
+  {
+   "month": 11,
+   "high": 50.0,
+   "low": 37.5,
+   "precip_in": 1.91,
+   "wet_days": 8.0,
+   "snow_in": 0.8,
+   "wind_mph": 13.9,
+   "sun_frac": 0.59
+  },
+  {
+   "month": 12,
+   "high": 41.3,
+   "low": 31.5,
+   "precip_in": 3.08,
+   "wet_days": 10.5,
+   "snow_in": 1.8,
+   "wind_mph": 12.9,
+   "sun_frac": 0.43
+  }
+ ],
+ "period": "2023-01-01 to 2024-12-31",
+ "wiki": {
+  "title": "Detroit",
+  "url": "https://en.wikipedia.org/wiki/Detroit",
+  "intro": "Detroit is the most populous city in the U.S. state of Michigan. It is situated on the bank of the Detroit River across from the Canadian city of Windsor, Ontario. It is the 26th-most populous city in the United States and the largest U.S. city on the Canada\u2013United States border, with a population of 639,111 at the 2020 census, and an estimated 2025 population of 649,095, its first population increase since 1950. The Metro Detroit area, at over 4.4 million people, is the 14th-largest metropolitan area in the nation and second-largest in the Midwest. The county seat of Wayne County, Detroit is a significant cultural center known for its contributions to music, art, architecture, and design, in addition to its historical automotive and industrial background.\nIn 1701, French explorers Antoine de la Mothe Cadillac and Alphonse de Tonty founded Fort Pontchartrain du D\u00e9troit. During the late 19th and early 20th centuries, it became an important industrial hub at the center of the Great Lakes region. The city's population rose to be the fourth-largest in the nation by 1920, with the expansion of the automotive industry in the early 20th century. One of its main features, the Detroit River, became the busiest commercial hub in the world. In the mid-20th century, Detroit entered a state of urban decay that has continued to the present, as a result of industrial restructuring, the loss of jobs in the auto industry, and rapid suburbanization. Since reaching a peak of 1.85 million at the 1950 census, Detroit's population has declined by more than 65 percent. In 2013, Detroit became the largest U.S. city to file for bankruptcy, but successfully exited in 2014. In 2025, the U.S. Census Bureau reported that Detroit's population grew for a second consecutive year and led population growth in Michigan for the first time since the 1950s.\nDetroit is a port on the Detroit River, one of the four major straits that connect the Great Lakes system to the St. Lawrence Seaway. The city anchors the third-largest regional economy in the Midwest and the 16th-largest in the United States. It is also best known as the center of the U.S. automotive industry, and the \"Big Three\" auto manufacturers\u2014General Motors, Ford, and Stellantis North America \u2014are all headquartered in Metro Detroit. Metro Detroit houses the Detroit Metropolitan Airport, one of the most important hub airports in the United States. Detroit and the adjacent Canadian city of Windsor constitute the second-busiest international crossing in North America, after San Diego\u2013Tijuana.\nDetroit's culture is marked with diversity, having both local and international influences. Detroit gave rise to the music genres of Motown and techno, and also played an important role in the development of jazz, hip-hop, rock, and punk. As a result of the city's rapid growth in its boom years, Detroit has many globally unique architectural monuments and historic places. Since the 2000s, conservation efforts have managed to save many architectural pieces and achieve several large-scale revitalizations, including the restoration of several historic theaters and entertainment venues, high-rise renovations, new sports stadiums, and a riverfront revitalization project. Detroit is an increasingly popular tourist destination which caters to about 16 million visitors per year. In 2015, Detroit was designated a \"City of Design\" by UNESCO, the first and only U.S. city to receive this designation.",
+  "climate": "Detroit and the rest of southeastern Michigan have a hot-summer humid continental climate which is influenced by the Great Lakes like other places in the state; the city and close-in suburbs are part of USDA Hardiness zone 6b, while the more distant northern and western suburbs generally are included in zone 6a. Winters are cold, with moderate snowfall and temperatures not rising above freezing on an average 44 days annually, while dropping to or below 0 \u00b0F on an average 4.4 days a year; summers are warm to hot with temperatures exceeding 90 \u00b0F on 12 days. The warm season runs from May to September. The monthly daily mean temperature ranges from 25.6 \u00b0F in January to 73.6 \u00b0F in July. Official temperature extremes range from 105 \u00b0F on July 24, 1934, down to \u221221 \u00b0F on January 21, 1984; the record low maximum is \u22124 \u00b0F on January 19, 1994, while, conversely the record high minimum is 80 \u00b0F on August 1, 2006, the most recent of five occurrences. A decade or two may pass between readings of 100 \u00b0F or higher, which last occurred July 17, 2012. The average window for freezing temperatures is October 20 through April 22, allowing a growing season of 180 days.\nPrecipitation is moderate and somewhat evenly distributed throughout the year, although the warmer months such as May and June average more, averaging 33.5 inches annually, but historically ranging from 20.49 in in 1963 to 47.70 in in 2011. Snowfall, which typically falls in measurable amounts between November 15 through April 4, averages 42.5 inches per season, although historically ranging from 11.5 in in 1881\u201382 to 94.9 in in 2013\u201314. A thick layer of snow is not often seen, with an average of only 27.5 days with 3 in or more of snow cover. Thunderstorms are frequent in the Detroit area. These usually occur during spring and summer."
+ }
+}

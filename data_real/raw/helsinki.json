@@ -1,0 +1,139 @@
+{
+ "name": "Helsinki",
+ "admin1": "Uusimaa",
+ "country": "Finland",
+ "country_code": "FI",
+ "lat": 60.16952,
+ "lon": 24.93545,
+ "population": 658864,
+ "elevation_m": 26.0,
+ "climate": [
+  {
+   "month": 1,
+   "high": 28.3,
+   "low": 19.1,
+   "precip_in": 2.93,
+   "wet_days": 14.5,
+   "snow_in": 15.5,
+   "wind_mph": 16.9,
+   "sun_frac": 0.21
+  },
+  {
+   "month": 2,
+   "high": 30.9,
+   "low": 21.7,
+   "precip_in": 2.68,
+   "wet_days": 12.5,
+   "snow_in": 11.6,
+   "wind_mph": 15.3,
+   "sun_frac": 0.32
+  },
+  {
+   "month": 3,
+   "high": 34.6,
+   "low": 24.1,
+   "precip_in": 2.32,
+   "wet_days": 12.5,
+   "snow_in": 8.0,
+   "wind_mph": 13.2,
+   "sun_frac": 0.48
+  },
+  {
+   "month": 4,
+   "high": 44.7,
+   "low": 32.4,
+   "precip_in": 2.0,
+   "wet_days": 10.0,
+   "snow_in": 4.5,
+   "wind_mph": 13.4,
+   "sun_frac": 0.61
+  },
+  {
+   "month": 5,
+   "high": 58.9,
+   "low": 43.2,
+   "precip_in": 0.92,
+   "wet_days": 5.5,
+   "snow_in": 0.3,
+   "wind_mph": 12.5,
+   "sun_frac": 0.83
+  },
+  {
+   "month": 6,
+   "high": 67.3,
+   "low": 52.8,
+   "precip_in": 1.22,
+   "wet_days": 8.0,
+   "snow_in": 0.0,
+   "wind_mph": 12.8,
+   "sun_frac": 0.85
+  },
+  {
+   "month": 7,
+   "high": 68.4,
+   "low": 57.4,
+   "precip_in": 3.29,
+   "wet_days": 17.0,
+   "snow_in": 0.0,
+   "wind_mph": 13.4,
+   "sun_frac": 0.74
+  },
+  {
+   "month": 8,
+   "high": 68.6,
+   "low": 58.1,
+   "precip_in": 3.88,
+   "wet_days": 15.5,
+   "snow_in": 0.0,
+   "wind_mph": 13.3,
+   "sun_frac": 0.72
+  },
+  {
+   "month": 9,
+   "high": 64.3,
+   "low": 54.8,
+   "precip_in": 3.61,
+   "wet_days": 10.5,
+   "snow_in": 0.0,
+   "wind_mph": 13.9,
+   "sun_frac": 0.71
+  },
+  {
+   "month": 10,
+   "high": 48.9,
+   "low": 40.3,
+   "precip_in": 3.42,
+   "wet_days": 10.5,
+   "snow_in": 0.3,
+   "wind_mph": 16.6,
+   "sun_frac": 0.51
+  },
+  {
+   "month": 11,
+   "high": 39.0,
+   "low": 32.3,
+   "precip_in": 3.53,
+   "wet_days": 13.0,
+   "snow_in": 9.0,
+   "wind_mph": 15.2,
+   "sun_frac": 0.27
+  },
+  {
+   "month": 12,
+   "high": 32.4,
+   "low": 25.1,
+   "precip_in": 2.89,
+   "wet_days": 14.5,
+   "snow_in": 11.9,
+   "wind_mph": 14.2,
+   "sun_frac": 0.19
+  }
+ ],
+ "period": "2023-01-01 to 2024-12-31",
+ "wiki": {
+  "title": "Helsinki",
+  "url": "https://en.wikipedia.org/wiki/Helsinki",
+  "intro": "Helsinki, until about 1930 known in English by its Swedish name of Helsingfors, is the capital and most populous city in Finland. It is on the shore of the Gulf of Finland and is the seat of southern Finland's Uusimaa region. About 694,000 people live in the municipality, with 1.3 million in the capital region and 1.6 million in the metropolitan area. As the most populous urban area in Finland, it is the country's most significant centre for politics, education, finance, culture, and research. Helsinki is 80 kilometres north of Tallinn, Estonia, 400 kilometres east of Stockholm, Sweden, and 300 kilometres west of Saint Petersburg, Russia. Helsinki is a bilingual municipality with Finnish and Swedish as its official languages.\nTogether with the cities of Espoo, Vantaa and Kauniainen\u2014and surrounding commuter towns, including the neighbouring municipality of Sipoo to the east\u2014Helsinki forms a metropolitan area. This area is often considered Finland's only metropolis and is the world's northernmost metropolitan area with over one million inhabitants. Additionally, it is the northernmost capital of an EU member state. Helsinki is the third-largest municipality in the Nordic countries, after Stockholm and Oslo. Its urban area is the third-largest in the Nordic countries, after Stockholm and Copenhagen. Helsinki Airport, in the neighbouring city of Vantaa, serves the city with frequent flights to numerous destinations in Europe, North America, and Asia.\nHelsinki has one of the highest standards of urban living in the world, and often ranks highly in various city quality of life indices. In the Cond\u00e9 Nast Traveler magazine's 2023 Readers' Choice Awards, Helsinki was ranked the 4th-friendliest city in Europe. Helsinki, along with Rovaniemi in Lapland, is also one of Finland's most important tourist cities. Due to the large number of sea passengers, Helsinki is classified as a major port city, and in 2017 it was rated the world's busiest passenger port. Helsinki has hosted the 1952 Summer Olympics, the first CSCE/OSCE Summit in 1975, the first World Athletics Championships in 1983, and the 52nd Eurovision Song Contest in 2007 and was the 2012 World Design Capital. The city is recognized as a \"Design City\" in 2014 by UNESCO's Creative Cities Network.",
+  "climate": "Helsinki has a cold hemiboreal humid continental climate. Due to the moderating influence of the Baltic Sea and the North Atlantic Current, winter temperatures are higher than the northern location would suggest, with an average of \u22124 \u00b0C in January and February.\nWinters in Helsinki are significantly warmer than in the north of Finland, and the snow season in the capital is much shorter due to its location in the extreme south of Finland and the urban heat island effect. Temperatures below \u221220 \u00b0C occur only a few times a year. However, due to the latitude, the days around the winter solstice are 5 hours and 48 minutes long, with the sun very low, and the cloudy weather at this time of year exacerbates the darkness. Conversely, Helsinki enjoys long days in summer, with 18 hours and 57 minutes of daylight around the summer solstice.\nThe average maximum temperature from June to August is around 19 to 22 \u00b0C. Due to the sea effect, especially on hot summer days, daytime temperatures are slightly cooler and nighttime temperatures higher than further inland. The highest temperature recorded in the city was 33.2 \u00b0C on 28 July 2019 at the Kaisaniemi weather station, breaking the previous record of 33.1 \u00b0C set in July 1945 at the Ilmala weather station. The lowest temperature recorded in the city was \u221234.3 \u00b0C on 10 January 1987, although an unofficial low of \u221235 \u00b0C was recorded in December 1876. Helsinki Airport recorded a maximum temperature of 33.7 \u00b0C on 29 July 2010 and a minimum of \u221235.9 \u00b0C on 9 January 1987. Precipitation comes from frontal passages and thunderstorms. Thunderstorms are most common in summer."
+ }
+}

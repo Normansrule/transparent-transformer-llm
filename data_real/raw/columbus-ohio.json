@@ -1,0 +1,139 @@
+{
+ "name": "Columbus",
+ "admin1": "Ohio",
+ "country": "United States",
+ "country_code": "US",
+ "lat": 39.96118,
+ "lon": -82.99879,
+ "population": 913175,
+ "elevation_m": 235.0,
+ "climate": [
+  {
+   "month": 1,
+   "high": 40.7,
+   "low": 27.5,
+   "precip_in": 4.91,
+   "wet_days": 13.0,
+   "snow_in": 5.5,
+   "wind_mph": 12.1,
+   "sun_frac": 0.38
+  },
+  {
+   "month": 2,
+   "high": 50.4,
+   "low": 29.2,
+   "precip_in": 1.7,
+   "wet_days": 6.5,
+   "snow_in": 1.4,
+   "wind_mph": 12.6,
+   "sun_frac": 0.74
+  },
+  {
+   "month": 3,
+   "high": 53.5,
+   "low": 33.3,
+   "precip_in": 4.59,
+   "wet_days": 11.5,
+   "snow_in": 0.8,
+   "wind_mph": 13.2,
+   "sun_frac": 0.64
+  },
+  {
+   "month": 4,
+   "high": 64.8,
+   "low": 43.5,
+   "precip_in": 4.99,
+   "wet_days": 12.0,
+   "snow_in": 0.1,
+   "wind_mph": 12.3,
+   "sun_frac": 0.71
+  },
+  {
+   "month": 5,
+   "high": 74.1,
+   "low": 53.4,
+   "precip_in": 4.24,
+   "wet_days": 13.0,
+   "snow_in": 0.0,
+   "wind_mph": 10.2,
+   "sun_frac": 0.73
+  },
+  {
+   "month": 6,
+   "high": 80.8,
+   "low": 60.5,
+   "precip_in": 3.84,
+   "wet_days": 11.5,
+   "snow_in": 0.0,
+   "wind_mph": 10.6,
+   "sun_frac": 0.77
+  },
+  {
+   "month": 7,
+   "high": 84.9,
+   "low": 65.7,
+   "precip_in": 3.93,
+   "wet_days": 12.0,
+   "snow_in": 0.0,
+   "wind_mph": 9.5,
+   "sun_frac": 0.84
+  },
+  {
+   "month": 8,
+   "high": 83.5,
+   "low": 63.6,
+   "precip_in": 4.11,
+   "wet_days": 9.5,
+   "snow_in": 0.0,
+   "wind_mph": 9.3,
+   "sun_frac": 0.83
+  },
+  {
+   "month": 9,
+   "high": 79.0,
+   "low": 59.3,
+   "precip_in": 2.77,
+   "wet_days": 9.5,
+   "snow_in": 0.0,
+   "wind_mph": 8.2,
+   "sun_frac": 0.77
+  },
+  {
+   "month": 10,
+   "high": 66.8,
+   "low": 48.0,
+   "precip_in": 2.24,
+   "wet_days": 6.0,
+   "snow_in": 0.0,
+   "wind_mph": 10.3,
+   "sun_frac": 0.79
+  },
+  {
+   "month": 11,
+   "high": 54.2,
+   "low": 38.0,
+   "precip_in": 2.58,
+   "wet_days": 6.5,
+   "snow_in": 0.2,
+   "wind_mph": 10.7,
+   "sun_frac": 0.62
+  },
+  {
+   "month": 12,
+   "high": 45.3,
+   "low": 32.6,
+   "precip_in": 3.2,
+   "wet_days": 11.0,
+   "snow_in": 0.8,
+   "wind_mph": 10.8,
+   "sun_frac": 0.53
+  }
+ ],
+ "period": "2023-01-01 to 2024-12-31",
+ "wiki": {
+  "title": "Columbus, Ohio",
+  "url": "https://en.wikipedia.org/wiki/Columbus,_Ohio",
+  "intro": "Columbus is the capital and most populous city of the U.S. state of Ohio. With a population of 905,748 at the 2020 census, it is the 14th-most populous city in the U.S., second-most populous city in the Midwest, and third-most populous U.S. state capital. The Columbus metropolitan area, with an estimated 2.23 million residents, is the largest metropolitan area entirely in Ohio and 32nd-largest metropolitan area in the U.S. Columbus is the county seat of Franklin County; it also extends into Delaware and Fairfield counties.\nColumbus originated as several Native American settlements along the Scioto River. The first European settlement was Franklinton, now a city neighborhood, in 1797. Columbus was founded in 1812 at the confluence of the Scioto and Olentangy rivers. It was planned as the state capital due to its central location and officially became the capital in 1816. The city grew steadily through the 19th century as a transportation and industrial hub via the National Road, Ohio and Erie Canal, and several railroads. Starting in the 1950s, Columbus experienced rapid suburban growth, becoming Ohio's largest city by area and population by the early 1990s. Columbus diversified economically in the late 20th century as a center for finance, insurance, education, and technology. In the 2020s, the city had become a major center for high technology, innovation, and advanced manufacturing, particularly in the fields of artificial intelligence, robotics, and semiconductor device fabrication.\nNamed in honor of the Italian explorer Christopher Columbus, the city is known for its Italian-American influence. It hosts two major universities: The Ohio State University, the flagship of the University System of Ohio; and Pontifical College Josephinum, the only pontifical seminary in North America, reflective of the city's status as a center for the Roman Catholic faith. The metropolitan area is home to the Battelle Memorial Institute, the world's largest private research and development foundation; and Chemical Abstracts Service, the world's largest clearinghouse of chemical information. The Greater Columbus area is further home to the headquarters of Fortune 500 companies Cardinal Health, Nationwide, American Electric Power, Huntington Bancshares and Vertiv. It hosts cultural institutions such as the Columbus Museum of Art, COSI, Franklin Park Conservatory and Ohio Theatre. The city's professional sports teams include the Columbus Blue Jackets, Columbus Aviators, Columbus Clippers (Cleveland Guardians - AAA), and Columbus Crew.",
+  "climate": "The city's climate is humid continental transitional with the humid subtropical to the south characterized by warm, muggy summers and cold, dry winters. Columbus is within USDA hardiness zone 6b, bordering on 7a. Winter snowfall is relatively light, since the city is not in the typical path of strong winter lows, such as the Nor'easters that strike cities farther east. It is also too far south and west for lake-effect snow from Lake Erie to have much effect, although the lakes to the north contribute to long stretches of cloudy spells in winter.\nThe highest temperature recorded in Columbus is 106 \u00b0F, which occurred twice during the Dust Bowl of the 1930s: once on July 21, 1934, and again on July 14, 1936. The lowest recorded temperature was \u221222 \u00b0F, occurring on January 19, 1994.\nColumbus is subject to severe weather typical to the Midwestern United States. Severe thunderstorms can bring lightning, large hail and on rare occasions tornadoes, especially during the spring and sometimes through fall. A tornado that occurred on October 11, 2006, caused F2 damage. Floods, blizzards and ice storms can also occur from time to time."
+ }
+}

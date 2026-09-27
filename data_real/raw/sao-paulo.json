@@ -1,0 +1,134 @@
+{
+ "name": "Sao Paulo",
+ "admin1": "S\u00e3o Paulo",
+ "country": "Brazil",
+ "country_code": "BR",
+ "lat": -23.5475,
+ "lon": -46.63611,
+ "population": 12400232,
+ "elevation_m": 769.0,
+ "climate": [
+  {
+   "month": 1,
+   "high": 79.5,
+   "low": 64.5,
+   "precip_in": 7.97,
+   "wet_days": 23.0,
+   "snow_in": 0.0,
+   "wind_mph": 12.7,
+   "sun_frac": 0.71
+  },
+  {
+   "month": 2,
+   "high": 80.7,
+   "low": 65.5,
+   "precip_in": 8.24,
+   "wet_days": 22.0,
+   "snow_in": 0.0,
+   "wind_mph": 12.5,
+   "sun_frac": 0.69
+  },
+  {
+   "month": 3,
+   "high": 80.7,
+   "low": 64.6,
+   "precip_in": 6.39,
+   "wet_days": 16.5,
+   "snow_in": 0.0,
+   "wind_mph": 11.3,
+   "sun_frac": 0.77
+  },
+  {
+   "month": 4,
+   "high": 77.3,
+   "low": 60.7,
+   "precip_in": 3.3,
+   "wet_days": 11.5,
+   "snow_in": 0.0,
+   "wind_mph": 10.7,
+   "sun_frac": 0.78
+  },
+  {
+   "month": 5,
+   "high": 76.1,
+   "low": 58.3,
+   "precip_in": 1.72,
+   "wet_days": 5.0,
+   "snow_in": 0.0,
+   "wind_mph": 10.9,
+   "sun_frac": 0.78
+  },
+  {
+   "month": 6,
+   "high": 73.3,
+   "low": 54.2,
+   "precip_in": 0.69,
+   "wet_days": 2.5,
+   "snow_in": 0.0,
+   "wind_mph": 10.8,
+   "sun_frac": 0.81
+  },
+  {
+   "month": 7,
+   "high": 72.1,
+   "low": 53.4,
+   "precip_in": 1.12,
+   "wet_days": 4.0,
+   "snow_in": 0.0,
+   "wind_mph": 10.7,
+   "sun_frac": 0.75
+  },
+  {
+   "month": 8,
+   "high": 75.8,
+   "low": 54.3,
+   "precip_in": 1.84,
+   "wet_days": 4.0,
+   "snow_in": 0.0,
+   "wind_mph": 11.5,
+   "sun_frac": 0.78
+  },
+  {
+   "month": 9,
+   "high": 84.1,
+   "low": 60.2,
+   "precip_in": 1.26,
+   "wet_days": 5.5,
+   "snow_in": 0.0,
+   "wind_mph": 13.4,
+   "sun_frac": 0.82
+  },
+  {
+   "month": 10,
+   "high": 78.6,
+   "low": 61.5,
+   "precip_in": 5.51,
+   "wet_days": 17.0,
+   "snow_in": 0.0,
+   "wind_mph": 13.9,
+   "sun_frac": 0.62
+  },
+  {
+   "month": 11,
+   "high": 81.1,
+   "low": 63.3,
+   "precip_in": 6.62,
+   "wet_days": 18.0,
+   "snow_in": 0.0,
+   "wind_mph": 11.7,
+   "sun_frac": 0.69
+  },
+  {
+   "month": 12,
+   "high": 82.9,
+   "low": 65.0,
+   "precip_in": 6.25,
+   "wet_days": 18.5,
+   "snow_in": 0.0,
+   "wind_mph": 11.5,
+   "sun_frac": 0.76
+  }
+ ],
+ "period": "2023-01-01 to 2024-12-31",
+ "wiki": null
+}

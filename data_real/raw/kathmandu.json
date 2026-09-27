@@ -1,0 +1,139 @@
+{
+ "name": "Kathmandu",
+ "admin1": "Bagmati Province",
+ "country": "Nepal",
+ "country_code": "NP",
+ "lat": 27.70169,
+ "lon": 85.3206,
+ "population": 1442271,
+ "elevation_m": 1317.0,
+ "climate": [
+  {
+   "month": 1,
+   "high": 63.4,
+   "low": 40.5,
+   "precip_in": 0.11,
+   "wet_days": 0.5,
+   "snow_in": 0.0,
+   "wind_mph": 6.1,
+   "sun_frac": 0.91
+  },
+  {
+   "month": 2,
+   "high": 67.6,
+   "low": 43.9,
+   "precip_in": 0.29,
+   "wet_days": 2.5,
+   "snow_in": 0.0,
+   "wind_mph": 7.0,
+   "sun_frac": 0.91
+  },
+  {
+   "month": 3,
+   "high": 71.8,
+   "low": 50.4,
+   "precip_in": 2.34,
+   "wet_days": 12.0,
+   "snow_in": 0.0,
+   "wind_mph": 7.0,
+   "sun_frac": 0.83
+  },
+  {
+   "month": 4,
+   "high": 80.9,
+   "low": 57.9,
+   "precip_in": 0.53,
+   "wet_days": 3.5,
+   "snow_in": 0.0,
+   "wind_mph": 9.1,
+   "sun_frac": 0.88
+  },
+  {
+   "month": 5,
+   "high": 80.2,
+   "low": 61.1,
+   "precip_in": 4.22,
+   "wet_days": 18.5,
+   "snow_in": 0.0,
+   "wind_mph": 6.9,
+   "sun_frac": 0.82
+  },
+  {
+   "month": 6,
+   "high": 82.9,
+   "low": 66.8,
+   "precip_in": 12.2,
+   "wet_days": 23.5,
+   "snow_in": 0.0,
+   "wind_mph": 6.3,
+   "sun_frac": 0.82
+  },
+  {
+   "month": 7,
+   "high": 81.1,
+   "low": 69.2,
+   "precip_in": 26.86,
+   "wet_days": 31.0,
+   "snow_in": 0.0,
+   "wind_mph": 4.5,
+   "sun_frac": 0.62
+  },
+  {
+   "month": 8,
+   "high": 80.7,
+   "low": 67.9,
+   "precip_in": 25.43,
+   "wet_days": 30.5,
+   "snow_in": 0.0,
+   "wind_mph": 4.4,
+   "sun_frac": 0.64
+  },
+  {
+   "month": 9,
+   "high": 80.6,
+   "low": 65.8,
+   "precip_in": 14.7,
+   "wet_days": 27.5,
+   "snow_in": 0.0,
+   "wind_mph": 4.7,
+   "sun_frac": 0.77
+  },
+  {
+   "month": 10,
+   "high": 75.4,
+   "low": 58.6,
+   "precip_in": 2.59,
+   "wet_days": 16.0,
+   "snow_in": 0.0,
+   "wind_mph": 5.2,
+   "sun_frac": 0.84
+  },
+  {
+   "month": 11,
+   "high": 70.5,
+   "low": 51.4,
+   "precip_in": 0.64,
+   "wet_days": 5.5,
+   "snow_in": 0.0,
+   "wind_mph": 5.0,
+   "sun_frac": 0.89
+  },
+  {
+   "month": 12,
+   "high": 65.4,
+   "low": 44.2,
+   "precip_in": 0.19,
+   "wet_days": 1.5,
+   "snow_in": 0.0,
+   "wind_mph": 5.0,
+   "sun_frac": 0.88
+  }
+ ],
+ "period": "2023-01-01 to 2024-12-31",
+ "wiki": {
+  "title": "Kathmandu",
+  "url": "https://en.wikipedia.org/wiki/Kathmandu",
+  "intro": "Kathmandu is the capital and largest city of Nepal, situated in the central part of the country within the Kathmandu Valley. The city is in Kathmandu District. Kathmandu is the main governmental, financial, industrial, and cultural centre of Nepal. As per the 2021 Nepal census, it has a population of 845,767 residing in 105,649 households, with approximately 4 million people in the surrounding metropolitan area. The city stands at an elevation of 1,324 metres above sea level. From ancient times until the medieval period, Kathmandu was known as Kantipur and is also referred to as Kasthamandap.\nRecognized as one of the oldest continuously inhabited places in the world, Kathmandu's history dates back to the 2nd century AD. Historically known as the Nepal Mandala, the valley has been the cultural and political hub for the Newar people, a significant urban civilization in the Himalayan region. Kathmandu served as the royal capital of the Kingdom of Nepal and is home to numerous palaces, temples, and gardens that reflect its rich heritage. Since 1985, it has hosted the headquarters of the South Asian Association for Regional Cooperation.\nToday, Kathmandu remains the epicenter of Nepal's history, art, culture, and economy. It has a multi-ethnic population with a Hindu majority and a significant Vajrayana Buddhist presence. Religious and cultural festivals are integral to life in the city. Tourism plays a vital role in the economy, with the city serving as a gateway to the Nepal Himalayas. Kathmandu is home to several World Heritage Sites, including the Durbar Square, Swayambhu Mahachaitya, Bouddha, and Pashupatinath.\nThe Kathmandu Valley has been experiencing rapid urbanization, with a growth rate of 4% per year as of 2010, making it one of the fastest-growing metropolitan areas in South Asia.",
+  "climate": "Under K\u00f6ppen's climate classification, portions of the city at lower elevations, which make up 88% of the total area, have a humid subtropical climate, while portions of the city with higher elevations generally have a subtropical highland climate. In the Kathmandu Valley, which is representative of its valley's climate, the average summer temperature varies from 22 to 25 \u00b0C. The average winter temperature is 10.1 \u00b0C.\nFive major climatic regions are found in Nepal. Of these, High hills of Kathmandu Valley including Chandragiri hill is in the Warm Temperate Zone (elevation ranging from 1,200 to 2,300 metres ), where the climate is fairly temperate, atypical for the region. This zone is followed by the Cool Temperate Zone with elevation varying between 2,100 and 3,300 metres.\nThe city generally has a climate with warm days followed by cool nights and mornings. Unpredictable weather is expected, given that temperatures can drop to 0 \u00b0C or less during the winter. The lowest ever temperature of \u22123.5 \u00b0C was recorded in 1978. While snowfall is generally confined to the hills surrounding the city, there have been a few instances of snowfall in city, most notably in 1945 and 2007.\nRainfall is mostly monsoon-based, and decreases substantially (100 to 200 cm ) from eastern Nepal to western Nepal. The average annual rainfall for the city is around 1400 mm. On average humidity is 75%. The chart below is based on data from the Nepal Bureau of Standards & Meteorology, Weather Meteorology for 2005. The chart provides minimum and maximum temperatures during each month. The annual amount of precipitation was 1,124 millimetres for 2005, as per monthly data included in the table above. The decade of 2000\u20132010 saw highly variable and unprecedented precipitation anomalies in Kathmandu. This was mostly due to the annual variation of the southwest monsoon. For example, 2001 recorded only 356 mm of precipitation due to an extraordinarily weak monsoon season. In contrast, 2003 was the wettest year ever in Kathmandu, totaling over 2,900 mm of precipitation due to an exceptionally strong monsoon season."
+ }
+}

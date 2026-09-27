@@ -1,0 +1,134 @@
+{
+ "name": "Rio de Janeiro",
+ "admin1": "Rio de Janeiro",
+ "country": "Brazil",
+ "country_code": "BR",
+ "lat": -22.90642,
+ "lon": -43.18223,
+ "population": 6747815,
+ "elevation_m": 12.0,
+ "climate": [
+  {
+   "month": 1,
+   "high": 84.4,
+   "low": 74.1,
+   "precip_in": 7.51,
+   "wet_days": 19.0,
+   "snow_in": 0.0,
+   "wind_mph": 9.9,
+   "sun_frac": 0.72
+  },
+  {
+   "month": 2,
+   "high": 86.7,
+   "low": 75.7,
+   "precip_in": 3.81,
+   "wet_days": 15.0,
+   "snow_in": 0.0,
+   "wind_mph": 9.4,
+   "sun_frac": 0.82
+  },
+  {
+   "month": 3,
+   "high": 84.7,
+   "low": 74.6,
+   "precip_in": 6.42,
+   "wet_days": 11.5,
+   "snow_in": 0.0,
+   "wind_mph": 10.1,
+   "sun_frac": 0.84
+  },
+  {
+   "month": 4,
+   "high": 81.6,
+   "low": 70.9,
+   "precip_in": 1.83,
+   "wet_days": 11.0,
+   "snow_in": 0.0,
+   "wind_mph": 10.0,
+   "sun_frac": 0.87
+  },
+  {
+   "month": 5,
+   "high": 80.2,
+   "low": 69.2,
+   "precip_in": 2.01,
+   "wet_days": 6.0,
+   "snow_in": 0.0,
+   "wind_mph": 9.6,
+   "sun_frac": 0.85
+  },
+  {
+   "month": 6,
+   "high": 79.8,
+   "low": 66.8,
+   "precip_in": 0.93,
+   "wet_days": 6.5,
+   "snow_in": 0.0,
+   "wind_mph": 9.0,
+   "sun_frac": 0.9
+  },
+  {
+   "month": 7,
+   "high": 77.0,
+   "low": 65.4,
+   "precip_in": 2.06,
+   "wet_days": 7.0,
+   "snow_in": 0.0,
+   "wind_mph": 9.9,
+   "sun_frac": 0.81
+  },
+  {
+   "month": 8,
+   "high": 78.9,
+   "low": 65.5,
+   "precip_in": 3.69,
+   "wet_days": 7.0,
+   "snow_in": 0.0,
+   "wind_mph": 11.2,
+   "sun_frac": 0.8
+  },
+  {
+   "month": 9,
+   "high": 83.3,
+   "low": 69.1,
+   "precip_in": 0.94,
+   "wet_days": 6.0,
+   "snow_in": 0.0,
+   "wind_mph": 11.9,
+   "sun_frac": 0.88
+  },
+  {
+   "month": 10,
+   "high": 80.9,
+   "low": 69.9,
+   "precip_in": 3.42,
+   "wet_days": 13.5,
+   "snow_in": 0.0,
+   "wind_mph": 11.8,
+   "sun_frac": 0.73
+  },
+  {
+   "month": 11,
+   "high": 83.5,
+   "low": 71.6,
+   "precip_in": 3.31,
+   "wet_days": 10.5,
+   "snow_in": 0.0,
+   "wind_mph": 11.3,
+   "sun_frac": 0.75
+  },
+  {
+   "month": 12,
+   "high": 85.1,
+   "low": 73.2,
+   "precip_in": 5.0,
+   "wet_days": 15.5,
+   "snow_in": 0.0,
+   "wind_mph": 10.9,
+   "sun_frac": 0.81
+  }
+ ],
+ "period": "2023-01-01 to 2024-12-31",
+ "wiki": null
+}

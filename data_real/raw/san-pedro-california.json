@@ -1,0 +1,139 @@
+{
+ "name": "San Pedro",
+ "admin1": "California",
+ "country": "United States",
+ "country_code": "US",
+ "lat": 33.73585,
+ "lon": -118.29229,
+ "population": 83556,
+ "elevation_m": 34.0,
+ "climate": [
+  {
+   "month": 1,
+   "high": 60.7,
+   "low": 46.9,
+   "precip_in": 5.15,
+   "wet_days": 8.5,
+   "snow_in": 0.0,
+   "wind_mph": 11.1,
+   "sun_frac": 0.78
+  },
+  {
+   "month": 2,
+   "high": 60.6,
+   "low": 47.0,
+   "precip_in": 6.69,
+   "wet_days": 8.5,
+   "snow_in": 0.0,
+   "wind_mph": 12.7,
+   "sun_frac": 0.74
+  },
+  {
+   "month": 3,
+   "high": 60.6,
+   "low": 49.1,
+   "precip_in": 4.5,
+   "wet_days": 9.0,
+   "snow_in": 0.0,
+   "wind_mph": 11.8,
+   "sun_frac": 0.79
+  },
+  {
+   "month": 4,
+   "high": 64.5,
+   "low": 50.7,
+   "precip_in": 0.36,
+   "wet_days": 2.0,
+   "snow_in": 0.0,
+   "wind_mph": 11.2,
+   "sun_frac": 0.83
+  },
+  {
+   "month": 5,
+   "high": 66.0,
+   "low": 55.4,
+   "precip_in": 0.39,
+   "wet_days": 1.0,
+   "snow_in": 0.0,
+   "wind_mph": 10.4,
+   "sun_frac": 0.77
+  },
+  {
+   "month": 6,
+   "high": 70.5,
+   "low": 58.5,
+   "precip_in": 0.12,
+   "wet_days": 0.0,
+   "snow_in": 0.0,
+   "wind_mph": 10.0,
+   "sun_frac": 0.82
+  },
+  {
+   "month": 7,
+   "high": 76.4,
+   "low": 61.3,
+   "precip_in": 0.0,
+   "wet_days": 0.0,
+   "snow_in": 0.0,
+   "wind_mph": 9.8,
+   "sun_frac": 0.92
+  },
+  {
+   "month": 8,
+   "high": 77.1,
+   "low": 62.4,
+   "precip_in": 1.09,
+   "wet_days": 2.0,
+   "snow_in": 0.0,
+   "wind_mph": 10.3,
+   "sun_frac": 0.88
+  },
+  {
+   "month": 9,
+   "high": 75.4,
+   "low": 62.1,
+   "precip_in": 0.6,
+   "wet_days": 2.0,
+   "snow_in": 0.0,
+   "wind_mph": 10.3,
+   "sun_frac": 0.84
+  },
+  {
+   "month": 10,
+   "high": 74.4,
+   "low": 57.4,
+   "precip_in": 0.05,
+   "wet_days": 0.5,
+   "snow_in": 0.0,
+   "wind_mph": 9.6,
+   "sun_frac": 0.86
+  },
+  {
+   "month": 11,
+   "high": 69.4,
+   "low": 51.3,
+   "precip_in": 0.8,
+   "wet_days": 2.0,
+   "snow_in": 0.0,
+   "wind_mph": 9.3,
+   "sun_frac": 0.87
+  },
+  {
+   "month": 12,
+   "high": 65.3,
+   "low": 49.7,
+   "precip_in": 1.79,
+   "wet_days": 2.5,
+   "snow_in": 0.0,
+   "wind_mph": 7.4,
+   "sun_frac": 0.79
+  }
+ ],
+ "period": "2023-01-01 to 2024-12-31",
+ "wiki": {
+  "title": "San Pedro, Los Angeles",
+  "url": "https://en.wikipedia.org/wiki/San_Pedro,_Los_Angeles",
+  "intro": "San Pedro is a neighborhood located within the South Bay and Harbor region of the city of Los Angeles, California, United States. Formerly a separate city, it consolidated with Los Angeles in 1909. The Port of Los Angeles, a major international seaport, is partially located within San Pedro. The district has grown from being dominated by the fishing industry, to a working-class community within the city of Los Angeles, to an increasingly dense and diverse community.",
+  "climate": ""
+ }
+}

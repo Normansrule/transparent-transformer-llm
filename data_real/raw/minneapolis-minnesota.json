@@ -1,0 +1,139 @@
+{
+ "name": "Minneapolis",
+ "admin1": "Minnesota",
+ "country": "United States",
+ "country_code": "US",
+ "lat": 44.97997,
+ "lon": -93.26384,
+ "population": 410939,
+ "elevation_m": 253.0,
+ "climate": [
+  {
+   "month": 1,
+   "high": 26.7,
+   "low": 13.3,
+   "precip_in": 1.32,
+   "wet_days": 5.0,
+   "snow_in": 7.6,
+   "wind_mph": 8.9,
+   "sun_frac": 0.49
+  },
+  {
+   "month": 2,
+   "high": 35.9,
+   "low": 15.0,
+   "precip_in": 1.59,
+   "wet_days": 5.5,
+   "snow_in": 5.6,
+   "wind_mph": 10.5,
+   "sun_frac": 0.76
+  },
+  {
+   "month": 3,
+   "high": 40.8,
+   "low": 21.2,
+   "precip_in": 2.64,
+   "wet_days": 8.5,
+   "snow_in": 11.9,
+   "wind_mph": 10.9,
+   "sun_frac": 0.67
+  },
+  {
+   "month": 4,
+   "high": 54.5,
+   "low": 35.0,
+   "precip_in": 4.39,
+   "wet_days": 12.0,
+   "snow_in": 6.7,
+   "wind_mph": 13.3,
+   "sun_frac": 0.62
+  },
+  {
+   "month": 5,
+   "high": 72.4,
+   "low": 49.5,
+   "precip_in": 5.51,
+   "wet_days": 12.5,
+   "snow_in": 0.0,
+   "wind_mph": 11.2,
+   "sun_frac": 0.78
+  },
+  {
+   "month": 6,
+   "high": 80.9,
+   "low": 59.7,
+   "precip_in": 7.01,
+   "wet_days": 13.5,
+   "snow_in": 0.0,
+   "wind_mph": 10.7,
+   "sun_frac": 0.77
+  },
+  {
+   "month": 7,
+   "high": 82.9,
+   "low": 61.8,
+   "precip_in": 4.04,
+   "wet_days": 10.5,
+   "snow_in": 0.0,
+   "wind_mph": 9.4,
+   "sun_frac": 0.85
+  },
+  {
+   "month": 8,
+   "high": 81.2,
+   "low": 61.9,
+   "precip_in": 3.81,
+   "wet_days": 8.5,
+   "snow_in": 0.0,
+   "wind_mph": 10.0,
+   "sun_frac": 0.81
+  },
+  {
+   "month": 9,
+   "high": 78.8,
+   "low": 58.7,
+   "precip_in": 3.36,
+   "wet_days": 8.0,
+   "snow_in": 0.0,
+   "wind_mph": 10.3,
+   "sun_frac": 0.86
+  },
+  {
+   "month": 10,
+   "high": 62.6,
+   "low": 44.7,
+   "precip_in": 3.42,
+   "wet_days": 7.0,
+   "snow_in": 1.8,
+   "wind_mph": 11.4,
+   "sun_frac": 0.75
+  },
+  {
+   "month": 11,
+   "high": 44.1,
+   "low": 30.5,
+   "precip_in": 1.51,
+   "wet_days": 6.5,
+   "snow_in": 0.9,
+   "wind_mph": 10.7,
+   "sun_frac": 0.59
+  },
+  {
+   "month": 12,
+   "high": 34.4,
+   "low": 22.4,
+   "precip_in": 1.86,
+   "wet_days": 5.5,
+   "snow_in": 2.2,
+   "wind_mph": 10.3,
+   "sun_frac": 0.44
+  }
+ ],
+ "period": "2023-01-01 to 2024-12-31",
+ "wiki": {
+  "title": "Minneapolis",
+  "url": "https://en.wikipedia.org/wiki/Minneapolis",
+  "intro": "Minneapolis is a city in Hennepin County, Minnesota, United States, and its county seat. With a population of 429,954 as of the 2020 census, it is the state's most populous city. Located in the state's center near the eastern border, it occupies both banks of the Upper Mississippi River and adjoins Saint Paul, the state capital of Minnesota. Minneapolis, Saint Paul, and the surrounding area are collectively known as the Twin Cities, a metropolitan area with 3.69 million residents. Minneapolis is built on an artesian aquifer on relatively flat terrain and is known for cold, snowy winters and hot, humid summers. Nicknamed the \"City of Lakes\", Minneapolis is abundant in water, with thirteen lakes, wetlands, the Mississippi River, creeks, and waterfalls. The city's public park system is connected by the Grand Rounds National Scenic Byway.\nDakota people previously inhabited the site of today's Minneapolis. European settlement began north of Fort Snelling along Saint Anthony Falls\u2014the only natural waterfall on the Mississippi River. Location near the fort and the falls' power\u2014with its potential for industrial activity\u2014fostered the city's early growth. For a time in the 19th century, Minneapolis was the lumber and flour milling capital of the world, and as home to the Federal Reserve Bank of Minneapolis, it has preserved its financial clout into the 21st century. A Minneapolis Depression-era labor strike brought about federal worker protections. Work in Minneapolis contributed to the computing industry, and the city is the birthplace of General Mills, the Pillsbury brand, Target Corporation, and Thermo King mobile refrigeration.\nThe city's major arts institutions include the Minneapolis Institute of Art, the Walker Art Center, and the Guthrie Theater. Four professional sports teams play downtown. Musician Prince played at the First Avenue nightclub. Minneapolis is home to the University of Minnesota's main campus. The city's public transport is provided by Metro Transit, and the international airport, serving the Twin Cities region, is located towards the south on the city limits.\nResidents adhere to more than fifty religions. Despite its well-regarded quality of life, Minneapolis has stark disparities among its residents\u2014arguably the most critical issue confronting the city in the 21st century. Governed by a mayor-council system, Minneapolis has a political landscape dominated by the Minnesota Democratic\u2013Farmer\u2013Labor Party, with Jacob Frey serving as mayor since 2018.",
+  "climate": "Minneapolis has a hot-summer humid continental climate that is typical of southern parts of the Upper Midwest. It is in USDA plant hardiness zone 5a. The Minneapolis area experiences a full range of precipitation and related weather events, including snow, sleet, ice, rain, thunderstorms, and fog. The highest recorded temperature is 108 \u00b0F in July 1936. The lowest was \u221241 \u00b0F in January 1888.\nThe snowiest winter on record was 1983\u20131984, when 98.6 in of snow fell. The least-snowy winter was 1930\u20131931, when 14.2 inches fell. According to the National Oceanic and Atmospheric Administration, the annual average for sunshine duration is 58 percent."
+ }
+}

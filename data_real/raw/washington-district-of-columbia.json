@@ -1,0 +1,134 @@
+{
+ "name": "Washington",
+ "admin1": "District of Columbia",
+ "country": "United States",
+ "country_code": "US",
+ "lat": 38.89511,
+ "lon": -77.03637,
+ "population": 689545,
+ "elevation_m": 7.0,
+ "climate": [
+  {
+   "month": 1,
+   "high": 47.5,
+   "low": 32.4,
+   "precip_in": 3.69,
+   "wet_days": 10.0,
+   "snow_in": 2.1,
+   "wind_mph": 11.8,
+   "sun_frac": 0.56
+  },
+  {
+   "month": 2,
+   "high": 51.9,
+   "low": 33.4,
+   "precip_in": 2.47,
+   "wet_days": 8.5,
+   "snow_in": 1.4,
+   "wind_mph": 11.3,
+   "sun_frac": 0.68
+  },
+  {
+   "month": 3,
+   "high": 56.9,
+   "low": 37.7,
+   "precip_in": 4.51,
+   "wet_days": 9.5,
+   "snow_in": 0.0,
+   "wind_mph": 12.4,
+   "sun_frac": 0.66
+  },
+  {
+   "month": 4,
+   "high": 69.2,
+   "low": 48.3,
+   "precip_in": 4.01,
+   "wet_days": 10.0,
+   "snow_in": 0.0,
+   "wind_mph": 11.7,
+   "sun_frac": 0.68
+  },
+  {
+   "month": 5,
+   "high": 74.0,
+   "low": 54.4,
+   "precip_in": 3.47,
+   "wet_days": 11.0,
+   "snow_in": 0.0,
+   "wind_mph": 9.0,
+   "sun_frac": 0.71
+  },
+  {
+   "month": 6,
+   "high": 84.8,
+   "low": 63.1,
+   "precip_in": 4.23,
+   "wet_days": 11.5,
+   "snow_in": 0.0,
+   "wind_mph": 10.2,
+   "sun_frac": 0.8
+  },
+  {
+   "month": 7,
+   "high": 88.7,
+   "low": 69.9,
+   "precip_in": 5.65,
+   "wet_days": 15.0,
+   "snow_in": 0.0,
+   "wind_mph": 8.8,
+   "sun_frac": 0.82
+  },
+  {
+   "month": 8,
+   "high": 85.4,
+   "low": 67.0,
+   "precip_in": 5.13,
+   "wet_days": 12.5,
+   "snow_in": 0.0,
+   "wind_mph": 9.0,
+   "sun_frac": 0.8
+  },
+  {
+   "month": 9,
+   "high": 78.5,
+   "low": 61.8,
+   "precip_in": 4.45,
+   "wet_days": 11.5,
+   "snow_in": 0.0,
+   "wind_mph": 9.0,
+   "sun_frac": 0.68
+  },
+  {
+   "month": 10,
+   "high": 69.5,
+   "low": 50.0,
+   "precip_in": 0.95,
+   "wet_days": 4.0,
+   "snow_in": 0.0,
+   "wind_mph": 9.5,
+   "sun_frac": 0.84
+  },
+  {
+   "month": 11,
+   "high": 57.5,
+   "low": 40.5,
+   "precip_in": 2.76,
+   "wet_days": 8.0,
+   "snow_in": 0.1,
+   "wind_mph": 10.7,
+   "sun_frac": 0.79
+  },
+  {
+   "month": 12,
+   "high": 48.3,
+   "low": 33.7,
+   "precip_in": 5.44,
+   "wet_days": 10.0,
+   "snow_in": 0.4,
+   "wind_mph": 10.4,
+   "sun_frac": 0.65
+  }
+ ],
+ "period": "2023-01-01 to 2024-12-31",
+ "wiki": null
+}

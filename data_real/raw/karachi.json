@@ -1,0 +1,139 @@
+{
+ "name": "Karachi",
+ "admin1": "Sindh",
+ "country": "Pakistan",
+ "country_code": "PK",
+ "lat": 24.8608,
+ "lon": 67.0104,
+ "population": 11624219,
+ "elevation_m": 8.0,
+ "climate": [
+  {
+   "month": 1,
+   "high": 75.7,
+   "low": 57.0,
+   "precip_in": 0.04,
+   "wet_days": 0.0,
+   "snow_in": 0.0,
+   "wind_mph": 12.4,
+   "sun_frac": 0.94
+  },
+  {
+   "month": 2,
+   "high": 81.1,
+   "low": 63.2,
+   "precip_in": 0.09,
+   "wet_days": 1.0,
+   "snow_in": 0.0,
+   "wind_mph": 13.7,
+   "sun_frac": 0.9
+  },
+  {
+   "month": 3,
+   "high": 85.0,
+   "low": 68.3,
+   "precip_in": 0.29,
+   "wet_days": 1.5,
+   "snow_in": 0.0,
+   "wind_mph": 14.8,
+   "sun_frac": 0.88
+  },
+  {
+   "month": 4,
+   "high": 88.5,
+   "low": 74.7,
+   "precip_in": 0.18,
+   "wet_days": 1.0,
+   "snow_in": 0.0,
+   "wind_mph": 16.2,
+   "sun_frac": 0.85
+  },
+  {
+   "month": 5,
+   "high": 92.8,
+   "low": 80.2,
+   "precip_in": 0.07,
+   "wet_days": 0.5,
+   "snow_in": 0.0,
+   "wind_mph": 18.7,
+   "sun_frac": 0.9
+  },
+  {
+   "month": 6,
+   "high": 92.7,
+   "low": 83.5,
+   "precip_in": 0.59,
+   "wet_days": 2.5,
+   "snow_in": 0.0,
+   "wind_mph": 18.5,
+   "sun_frac": 0.79
+  },
+  {
+   "month": 7,
+   "high": 92.4,
+   "low": 84.0,
+   "precip_in": 2.14,
+   "wet_days": 7.0,
+   "snow_in": 0.0,
+   "wind_mph": 16.7,
+   "sun_frac": 0.68
+  },
+  {
+   "month": 8,
+   "high": 87.1,
+   "low": 79.9,
+   "precip_in": 3.46,
+   "wet_days": 12.0,
+   "snow_in": 0.0,
+   "wind_mph": 18.6,
+   "sun_frac": 0.6
+  },
+  {
+   "month": 9,
+   "high": 88.7,
+   "low": 78.5,
+   "precip_in": 0.47,
+   "wet_days": 1.5,
+   "snow_in": 0.0,
+   "wind_mph": 15.6,
+   "sun_frac": 0.86
+  },
+  {
+   "month": 10,
+   "high": 93.0,
+   "low": 77.8,
+   "precip_in": 0.09,
+   "wet_days": 0.5,
+   "snow_in": 0.0,
+   "wind_mph": 14.5,
+   "sun_frac": 0.91
+  },
+  {
+   "month": 11,
+   "high": 88.7,
+   "low": 71.0,
+   "precip_in": 0.07,
+   "wet_days": 0.5,
+   "snow_in": 0.0,
+   "wind_mph": 11.2,
+   "sun_frac": 0.94
+  },
+  {
+   "month": 12,
+   "high": 80.4,
+   "low": 60.6,
+   "precip_in": 0.0,
+   "wet_days": 0.0,
+   "snow_in": 0.0,
+   "wind_mph": 9.7,
+   "sun_frac": 0.94
+  }
+ ],
+ "period": "2023-01-01 to 2024-12-31",
+ "wiki": {
+  "title": "Karachi",
+  "url": "https://en.wikipedia.org/wiki/Karachi",
+  "intro": "Karachi is the capital city of the Pakistani province of Sindh. It is the largest city in Pakistan and the 11th largest in the world, with a population of over 20 million. Situated at the southern tip of the country along the Arabian Sea coast, Karachi formerly served as the federal capital from 1947 to 1959. Ranked as a beta-global city, it is Pakistan's premier industrial and financial centre, with an estimated GDP of over $200 billion as of 2021. Karachi is a major metropolitan area and is considered Pakistan's most cosmopolitan city, and among the country's most linguistically, ethnically, and religiously diverse regions, as well as one of the country's most progressive and socially liberal cities.\nThe region has been inhabited for millennia, but the city was formally founded as the fortified village of Kolachi as recently as 1729. The settlement \u2013 lying between the Kohistan and Larr regions of Sindh \u2013 greatly increased in importance with the arrival of the East India Company in the mid-19th century following Sindh's annexation. British administrators embarked on substantial projects to transform the city into a major seaport, and connect it with the extensive railway network of the Indian subcontinent. At the time of Pakistan's independence in 1947, the city was the largest in Sindh with an estimated population of 400,000 people, and a slim Hindu majority. Following the partition of India, the city experienced a dramatic shift in population and demography with the arrival of hundreds of thousands of Muslim immigrants from India, coupled with an exodus of nearly all of its Hindu residents. The city experienced rapid economic growth following Pakistan's independence, attracting migrants from throughout the country and other regions in South Asia. According to the 2023 Census of Pakistan, Karachi's total population was 20.3 million. Karachi is one of the world's fastest-growing cities, and has significant communities representing almost every ethnic group in Pakistan. Karachi holds more than two million Bengali immigrants, a million Afghan refugees, and up to 400,000 Rohingyas from Myanmar.\nKarachi is now Pakistan's premier industrial and financial centre. The city has a formal economy estimated to be worth $190 billion as of 2021, which is the largest in the country. Karachi collects 35% of Pakistan's tax revenue, and generates approximately 25% of Pakistan's entire GDP. Approximately 30% of Pakistani industrial output is from Karachi, while Karachi's ports handle approximately 95% of Pakistan's foreign trade. Approximately 90% of the multinational corporations and 100% of the banks operating in Pakistan are headquartered in Karachi. It also serves as a transport hub, and contains Pakistan's two largest seaports, the Port of Karachi and Port Qasim, as well as Pakistan's busiest airport, Jinnah International Airport. Karachi is also considered to be Pakistan's fashion capital, and has hosted the annual Karachi Fashion Week since 2009.\nKnown as the \"City of Lights\" in the 1960s and 1970s for its vibrant nightlife, Karachi was beset by sharp ethnic, sectarian, and political conflict in the 1980s with the large-scale arrival of weaponry during the Soviet\u2013Afghan War. The city had become well known for its high rates of violent crime, but recorded crimes sharply decreased following a crackdown operation against criminals, the MQM political party, and Islamist militants, initiated in 2013 by the Pakistan Rangers. As a result of the operation, Karachi dropped from being ranked the world's 6th-most dangerous city for crime in 2014, to 128th by 2022.",
+  "climate": "Karachi has a tropical semi arid climate, formerly a desert climate, dominated by a long \"Summer Season\" while moderated by oceanic influence from the Arabian Sea. The city has annual average precipitation levels (approx. 296 mm per annum), the bulk of which occurs during the late June\u2013September monsoon season. Summers are hot and humid, and Karachi is prone to deadly heatwaves. Over the past 20 years, rainfall has become more abundant. Tropical storms and thunderstorms, as well as flooding are becoming more common, especially during the summer monsoon. On the other hand, cool sea breezes typically provide relief during hot summer months. A text message-based early warning system alerts people to take precautionary measures and helps prevent fatalities during an unusually strong heatwave or thunderstorm. The winter climate is dry and lasts between December and February. It is dry and pleasant in winter relative to the warm hot season that follows, which starts in March and lasts until October. Proximity to the sea maintains humidity levels at near-constant levels year-round. Thus, the climate is similar to a humid tropical climate, except for the low precipitation and occasional temperatures well over 100 F due to the influence of the Thar Desert nearby, close to the border with India.\nThe city's highest annual rainfall was about 750\u2013850 mm, recorded in the late 1970s. The city's highest monthly rainfall, 19 in, occurred in July 1967. The city's highest rainfall in 24 hours occurred on 7 August 1953, when about 278.1 millimetres of rain lashed the city, resulting in major flooding.\nKarachi's highest recorded temperature is 48.0 \u00b0C which was recorded on 22 and 23 April 2017, and the lowest is 0 \u00b0C recorded on 21 January 1934."
+ }
+}

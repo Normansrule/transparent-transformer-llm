@@ -1,0 +1,134 @@
+{
+ "name": "Budapest",
+ "admin1": "Budapest",
+ "country": "Hungary",
+ "country_code": "HU",
+ "lat": 47.49835,
+ "lon": 19.04045,
+ "population": 1741041,
+ "elevation_m": 104.0,
+ "climate": [
+  {
+   "month": 1,
+   "high": 43.0,
+   "low": 31.1,
+   "precip_in": 2.72,
+   "wet_days": 11.0,
+   "snow_in": 2.0,
+   "wind_mph": 11.2,
+   "sun_frac": 0.53
+  },
+  {
+   "month": 2,
+   "high": 50.2,
+   "low": 35.2,
+   "precip_in": 1.04,
+   "wet_days": 7.0,
+   "snow_in": 0.9,
+   "wind_mph": 11.5,
+   "sun_frac": 0.68
+  },
+  {
+   "month": 3,
+   "high": 56.3,
+   "low": 38.4,
+   "precip_in": 1.73,
+   "wet_days": 9.5,
+   "snow_in": 0.1,
+   "wind_mph": 11.7,
+   "sun_frac": 0.68
+  },
+  {
+   "month": 4,
+   "high": 62.0,
+   "low": 43.6,
+   "precip_in": 2.16,
+   "wet_days": 10.0,
+   "snow_in": 0.2,
+   "wind_mph": 10.9,
+   "sun_frac": 0.72
+  },
+  {
+   "month": 5,
+   "high": 71.4,
+   "low": 53.8,
+   "precip_in": 4.26,
+   "wet_days": 10.5,
+   "snow_in": 0.0,
+   "wind_mph": 10.4,
+   "sun_frac": 0.74
+  },
+  {
+   "month": 6,
+   "high": 78.5,
+   "low": 60.8,
+   "precip_in": 3.42,
+   "wet_days": 10.0,
+   "snow_in": 0.0,
+   "wind_mph": 9.1,
+   "sun_frac": 0.78
+  },
+  {
+   "month": 7,
+   "high": 84.9,
+   "low": 65.6,
+   "precip_in": 2.22,
+   "wet_days": 8.5,
+   "snow_in": 0.0,
+   "wind_mph": 10.3,
+   "sun_frac": 0.85
+  },
+  {
+   "month": 8,
+   "high": 85.5,
+   "low": 65.0,
+   "precip_in": 2.63,
+   "wet_days": 8.0,
+   "snow_in": 0.0,
+   "wind_mph": 9.5,
+   "sun_frac": 0.85
+  },
+  {
+   "month": 9,
+   "high": 76.1,
+   "low": 57.6,
+   "precip_in": 2.54,
+   "wet_days": 8.5,
+   "snow_in": 0.0,
+   "wind_mph": 9.7,
+   "sun_frac": 0.76
+  },
+  {
+   "month": 10,
+   "high": 64.5,
+   "low": 47.4,
+   "precip_in": 2.63,
+   "wet_days": 7.5,
+   "snow_in": 0.0,
+   "wind_mph": 9.8,
+   "sun_frac": 0.73
+  },
+  {
+   "month": 11,
+   "high": 47.8,
+   "low": 35.3,
+   "precip_in": 2.52,
+   "wet_days": 9.5,
+   "snow_in": 2.2,
+   "wind_mph": 10.2,
+   "sun_frac": 0.57
+  },
+  {
+   "month": 12,
+   "high": 41.0,
+   "low": 31.1,
+   "precip_in": 3.02,
+   "wet_days": 9.5,
+   "snow_in": 8.3,
+   "wind_mph": 8.5,
+   "sun_frac": 0.41
+  }
+ ],
+ "period": "2023-01-01 to 2024-12-31",
+ "wiki": null
+}

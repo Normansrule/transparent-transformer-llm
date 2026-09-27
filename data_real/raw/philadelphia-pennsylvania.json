@@ -1,0 +1,139 @@
+{
+ "name": "Philadelphia",
+ "admin1": "Pennsylvania",
+ "country": "United States",
+ "country_code": "US",
+ "lat": 39.95238,
+ "lon": -75.16362,
+ "population": 1573916,
+ "elevation_m": 12.0,
+ "climate": [
+  {
+   "month": 1,
+   "high": 46.0,
+   "low": 31.7,
+   "precip_in": 4.91,
+   "wet_days": 13.0,
+   "snow_in": 2.8,
+   "wind_mph": 12.0,
+   "sun_frac": 0.52
+  },
+  {
+   "month": 2,
+   "high": 48.6,
+   "low": 31.0,
+   "precip_in": 2.24,
+   "wet_days": 8.0,
+   "snow_in": 3.1,
+   "wind_mph": 12.3,
+   "sun_frac": 0.7
+  },
+  {
+   "month": 3,
+   "high": 54.6,
+   "low": 35.9,
+   "precip_in": 5.49,
+   "wet_days": 11.0,
+   "snow_in": 0.2,
+   "wind_mph": 13.7,
+   "sun_frac": 0.65
+  },
+  {
+   "month": 4,
+   "high": 66.6,
+   "low": 46.0,
+   "precip_in": 5.41,
+   "wet_days": 10.5,
+   "snow_in": 0.0,
+   "wind_mph": 13.1,
+   "sun_frac": 0.69
+  },
+  {
+   "month": 5,
+   "high": 73.8,
+   "low": 53.4,
+   "precip_in": 2.38,
+   "wet_days": 10.0,
+   "snow_in": 0.0,
+   "wind_mph": 11.0,
+   "sun_frac": 0.71
+  },
+  {
+   "month": 6,
+   "high": 84.8,
+   "low": 63.1,
+   "precip_in": 3.34,
+   "wet_days": 7.5,
+   "snow_in": 0.0,
+   "wind_mph": 12.2,
+   "sun_frac": 0.78
+  },
+  {
+   "month": 7,
+   "high": 89.4,
+   "low": 70.3,
+   "precip_in": 3.8,
+   "wet_days": 14.5,
+   "snow_in": 0.0,
+   "wind_mph": 10.3,
+   "sun_frac": 0.79
+  },
+  {
+   "month": 8,
+   "high": 84.8,
+   "low": 66.8,
+   "precip_in": 5.33,
+   "wet_days": 10.5,
+   "snow_in": 0.0,
+   "wind_mph": 10.5,
+   "sun_frac": 0.78
+  },
+  {
+   "month": 9,
+   "high": 78.3,
+   "low": 61.1,
+   "precip_in": 3.98,
+   "wet_days": 9.5,
+   "snow_in": 0.0,
+   "wind_mph": 10.3,
+   "sun_frac": 0.69
+  },
+  {
+   "month": 10,
+   "high": 69.9,
+   "low": 50.3,
+   "precip_in": 0.92,
+   "wet_days": 3.5,
+   "snow_in": 0.0,
+   "wind_mph": 10.2,
+   "sun_frac": 0.84
+  },
+  {
+   "month": 11,
+   "high": 56.8,
+   "low": 39.8,
+   "precip_in": 2.78,
+   "wet_days": 6.0,
+   "snow_in": 0.0,
+   "wind_mph": 11.2,
+   "sun_frac": 0.8
+  },
+  {
+   "month": 12,
+   "high": 46.7,
+   "low": 33.2,
+   "precip_in": 5.27,
+   "wet_days": 11.5,
+   "snow_in": 1.0,
+   "wind_mph": 9.9,
+   "sun_frac": 0.62
+  }
+ ],
+ "period": "2023-01-01 to 2024-12-31",
+ "wiki": {
+  "title": "Philadelphia",
+  "url": "https://en.wikipedia.org/wiki/Philadelphia",
+  "intro": "Philadelphia, colloquially referred to as Philly, is the most populous city in the U.S. state of Pennsylvania and the sixth-most populous city in the United States. Its population was 1.60 million at the 2020 census and estimated at 1.57 million in 2025. The Philadelphia metropolitan area, also known as the Delaware Valley, is located in both the Mid-Atlantic and northeastern United States; home to 6.33 million residents, it is the nation's ninth-largest metropolitan area. Philadelphia is known for its culture, cuisine, and history, maintaining contemporary influence in technology and business, sports, and music.\nPhiladelphia was founded in 1682 by William Penn, an English Quaker and advocate of religious freedom, and served as the capital of the colonial era Province of Pennsylvania. It then played a vital role during the American Revolution and Revolutionary War. It served as the central meeting place for the nation's Founding Fathers in hosting the First Continental Congress and the Second Continental Congress, during which the Founders formed the Continental Army, elected George Washington as its commander, and adopted the Declaration of Independence on July 4, 1776. During the Revolutionary War's Philadelphia campaign, the city fell to the British Army, which occupied Philadelphia for nine months from September 1777 to June 1778. Following the end of the Revolutionary War, the U.S. Constitution was ratified at the Philadelphia Convention. Philadelphia remained the largest U.S. city until 1790, and it served as the nation's first capital from May 10, 1775, until December 12, 1776, and on four subsequent occasions until 1800, when construction of the new national capital in Washington, D.C. was completed.\nWith 17 four-year universities and colleges in the city, Philadelphia is one of the nation's leading centers for higher education and academic research. As of 2023, the Philadelphia metropolitan area had a gross metropolitan product of US$557.6 billion and is home to 13 Fortune 500 corporate headquarters. Metropolitan Philadelphia ranks as one of the nation's Big Five tech venture capital hubs, facilitated by its proximity central to both the financial ecosystems of New York City and the regulatory environment of Washington, D.C. Metropolitan Philadelphia is also a biotechnology hub and has garnered the nickname \"Cellicon Valley\" for its central role in the development of immunotherapies to treat different cancers. The Philadelphia Stock Exchange, owned by Nasdaq since 2008, is the nation's oldest stock exchange and a global leader in options trading. 30th Street Station, an important national railway crossroads, is the third-busiest Amtrak rail hub in the U.S., handling over 5.5 million passengers in 2025. In part aided by its central Mid-Atlantic U.S. geolocation, Philadelphia International Airport has become the largest transatlantic hub for American Airlines. The city's multimodal transportation and logistics infrastructure also includes the expanding PhilaPort seaport, and Interstate 95, the spine of the north\u2013south highway axis linking the cities of the U.S. Eastern Seaboard.\nPhilly has a culturally and philanthropically active LGBTQ+ community. The city has also played an influential historic and ongoing role in the development and evolution of American music, especially R&B, soul, and rock. The city hosts more outdoor sculptures and murals than any other city in the nation. Fairmount Park, when combined with adjacent Wissahickon Valley Park in the same watershed, has an area of 2,052 acres, representing one of the nation's largest urban parks and the world's 55th largest. With five professional sports teams and one of the nation's most loyal and passionate fan bases, Philadelphia is often ranked as the nation's best city for professional sports fans.\nPhiladelphia is a city of many firsts, including the nation's first library, hospital, medical school, national capital, university, central bank, stock exchange, zoo, and business school. Philadelphia hosts 67 National Historic Landmarks, including Independence Hall. From the city's 17th century founding through the present, Philadelphia has been the birthplace of or home to many prominent and influential Americans.",
+  "climate": "Within the K\u00f6ppen climate classification, Philadelphia falls under the northern periphery of the humid subtropical climate zone, while under the Trewartha climate classification, the city is classified as a maritime climate bordered to the north by the continental zone. Summers are typically hot and muggy. Fall and spring are generally mild, and winter is moderately cold. The plant life hardiness zones are 7a and 7b, reflecting an average annual extreme minimum temperature between 0 and 10 \u00b0F.\nSnowfall is highly variable. Some winters have only light snow while others include major snowstorms. The normal seasonal snowfall averages 22.4 in, with rare snowfalls in November or April, and rarely any sustained snow cover. Seasonal snowfall accumulation has ranged from trace amounts in 1972\u201373, to 78.7 inches in the winter of 2009\u201310. The city's heaviest single-storm snowfall was 30.7 in, which occurred in January 1996.\nPrecipitation is generally spread throughout the year, with eight to eleven wet days per month, at an average annual rate of 44.1 inches, but historically ranging from 29.31 in in 1922 to 64.33 in in 2011. The most rain recorded in one day occurred on July 28, 2013, when 8.02 in fell at Philadelphia International Airport. Philadelphia has a moderately sunny climate with an average of 2,498 hours of sunshine annually. The percentage of sunshine ranges from 47% in December to 61% in June, July, and August.\nThe January daily average temperature is 33.7 \u00b0F. The temperature frequently rises to 50 \u00b0F during thaws. July averages 78.7 \u00b0F. Heat waves accompanied by high humidity and heat indices are frequent, with highs reaching or exceeding 90 \u00b0F on 30 days of the year. The average window for freezing temperatures is November 6 to April 2, allowing a growing season of 217 days. Early fall and late winter are generally dry, with February having the lowest average precipitation at 2.75 inches. The dewpoint in the summer averages between 59.1 and 64.5 \u00b0F.\nThe highest recorded temperature was 106 \u00b0F on August 7, 1918. Temperatures at or above 100 \u00b0F occur sporadically, with the most recent instances being three consecutive days from July 2\u20134, 2026, when the temperature reached 103 \u00b0F, 102 \u00b0F, and 101 \u00b0F, respectively. The lowest officially recorded temperature was \u221211 \u00b0F on February 9, 1934. Temperatures at or below 0 \u00b0F are rare, with the last such occurrence being January 19, 1994. The record low maximum is 5 \u00b0F on February 10, 1899, and December 30, 1880. The record high minimum is 83 \u00b0F on July 23, 2011, and July 24, 2010. The record high dew point is 82 \u00b0F which occurred on July 15, 1995."
+ }
+}

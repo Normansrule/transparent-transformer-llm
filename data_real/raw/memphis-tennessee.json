@@ -1,0 +1,139 @@
+{
+ "name": "Memphis",
+ "admin1": "Tennessee",
+ "country": "United States",
+ "country_code": "US",
+ "lat": 35.14953,
+ "lon": -90.04898,
+ "population": 633104,
+ "elevation_m": 78.0,
+ "climate": [
+  {
+   "month": 1,
+   "high": 50.3,
+   "low": 34.7,
+   "precip_in": 7.35,
+   "wet_days": 14.0,
+   "snow_in": 0.7,
+   "wind_mph": 12.7,
+   "sun_frac": 0.61
+  },
+  {
+   "month": 2,
+   "high": 60.2,
+   "low": 41.3,
+   "precip_in": 4.92,
+   "wet_days": 8.5,
+   "snow_in": 0.5,
+   "wind_mph": 13.0,
+   "sun_frac": 0.65
+  },
+  {
+   "month": 3,
+   "high": 64.0,
+   "low": 45.8,
+   "precip_in": 6.12,
+   "wet_days": 11.5,
+   "snow_in": 0.0,
+   "wind_mph": 12.4,
+   "sun_frac": 0.68
+  },
+  {
+   "month": 4,
+   "high": 71.2,
+   "low": 53.0,
+   "precip_in": 6.29,
+   "wet_days": 11.5,
+   "snow_in": 0.0,
+   "wind_mph": 13.2,
+   "sun_frac": 0.66
+  },
+  {
+   "month": 5,
+   "high": 81.8,
+   "low": 63.1,
+   "precip_in": 5.82,
+   "wet_days": 13.5,
+   "snow_in": 0.0,
+   "wind_mph": 10.9,
+   "sun_frac": 0.8
+  },
+  {
+   "month": 6,
+   "high": 88.6,
+   "low": 69.3,
+   "precip_in": 2.48,
+   "wet_days": 7.5,
+   "snow_in": 0.0,
+   "wind_mph": 9.5,
+   "sun_frac": 0.85
+  },
+  {
+   "month": 7,
+   "high": 89.4,
+   "low": 73.2,
+   "precip_in": 5.03,
+   "wet_days": 12.5,
+   "snow_in": 0.0,
+   "wind_mph": 8.9,
+   "sun_frac": 0.82
+  },
+  {
+   "month": 8,
+   "high": 89.8,
+   "low": 72.7,
+   "precip_in": 3.14,
+   "wet_days": 7.0,
+   "snow_in": 0.0,
+   "wind_mph": 8.5,
+   "sun_frac": 0.82
+  },
+  {
+   "month": 9,
+   "high": 83.7,
+   "low": 66.3,
+   "precip_in": 5.31,
+   "wet_days": 7.5,
+   "snow_in": 0.0,
+   "wind_mph": 9.6,
+   "sun_frac": 0.79
+  },
+  {
+   "month": 10,
+   "high": 76.0,
+   "low": 56.5,
+   "precip_in": 0.81,
+   "wet_days": 2.5,
+   "snow_in": 0.0,
+   "wind_mph": 9.9,
+   "sun_frac": 0.84
+  },
+  {
+   "month": 11,
+   "high": 63.8,
+   "low": 47.6,
+   "precip_in": 6.09,
+   "wet_days": 9.0,
+   "snow_in": 0.0,
+   "wind_mph": 10.4,
+   "sun_frac": 0.75
+  },
+  {
+   "month": 12,
+   "high": 55.1,
+   "low": 39.6,
+   "precip_in": 4.72,
+   "wet_days": 9.0,
+   "snow_in": 0.0,
+   "wind_mph": 11.2,
+   "sun_frac": 0.7
+  }
+ ],
+ "period": "2023-01-01 to 2024-12-31",
+ "wiki": {
+  "title": "Memphis, Tennessee",
+  "url": "https://en.wikipedia.org/wiki/Memphis,_Tennessee",
+  "intro": "Memphis is a city in Shelby County, Tennessee, United States, and its county seat. Situated along the Mississippi River, it had a population of 633,104 at the 2020 census, making it the second-most populous city in Tennessee, the fifth-most populous in the Southeast, and the 29th-most populous in the US. While being the most populous single municipality on the Mississippi River, Memphis anchors the third largest metropolitan area by population behind only the Twin Cities and St. Louis. Metropolitan Memphis includes parts of Arkansas and Mississippi, the 45th-most populous metropolitan area in the U.S. with 1.34 million residents.\nEuropean exploration of the area began with Spanish conquistador Hernando de Soto in 1541. Located on the high Chickasaw Bluffs, the site offered natural protection from Mississippi River flooding and became a contested location in the colonial era. Modern Memphis was founded in 1819 by John Overton, James Winchester, and Andrew Jackson. The city thrived due to its river traffic and cotton-based economy, becoming one of the largest cities in the Antebellum South. After the American Civil War, it remained a key hub for the cotton and hardwood industries. Memphis is also notable for its role in the American Civil Rights Movement; Dr. Martin Luther King Jr. was assassinated there in 1968, and the city is now home to the National Civil Rights Museum, a Smithsonian affiliate.\nMemphis is one of the nation's leading commercial centers in transportation and logistics. The largest employer is FedEx, which maintains its global air hub at Memphis International Airport, one of the world's busiest cargo airports. The Port of Memphis also hosts the fifth-busiest inland water port in the U.S. Memphis is home to several large financial institutions, including First Horizon Bank, which is the second largest bank with its primary headquarters located in Tennessee. Memphis is also known for its music scene, with Beale Street central to the development of Memphis blues and a broader legacy that includes soul, rock and roll, and hip-hop. Cultural landmarks include Graceland, Sun Studio, the Memphis Pyramid, and the Stax Museum of American Soul Music. The city is also famed for its Memphis-style barbecue and hosts the annual World Championship Barbecue Cooking Contest. It is home to the Memphis Grizzlies of the NBA and several colleges and universities, including the University of Memphis, LeMoyne\u2013Owen College, and Rhodes College.\nIn the 2020s, after experiencing several decades of high crime rates and incremental population loss, Memphis has begun to revitalize through redevelopment and a renewed focus on crime reduction, with Downtown Memphis being the primary target for renewal. Several projects are in the planning stages or have already begun construction, with a new 16-story research facility being developed on the St. Jude Campus, the renovation of the biggest hotel in downtown, and the redevelopment of the tallest tower in West Tennessee, 100 North Main. Tom Lee Park, the riverside park located downtown, completed a massive renovation in 2023 that cost more than $60 million and includes ballcourts, walkable trails, and bike stands. The park also includes a flyway that stretches out nearly to the Mississippi River and was opened several years after the park's completion.",
+  "climate": "Memphis has a humid subtropical climate, with four distinct seasons, and is located in USDA Plant Hardiness Zone 8a in downtown, cooling to 7b for much of the surrounding region. Winter weather comes alternately from the upper Great Plains and the Gulf of Mexico, which can lead to drastic swings in temperature. Summer weather may come from Texas or the Gulf. July has a daily average temperature of 82.8 \u00b0F, with high levels of humidity due to moisture encroaching from the Gulf of Mexico. Afternoon and evening thunderstorms are frequent during summer but usually brief, lasting no longer than an hour. Early autumn is pleasantly drier and mild but can be hot until late October. Late autumn is rainy and cooler; precipitation peaks again in November and December. Winters are mild to chilly, with a January daily average temperature of 42.1 \u00b0F. Snow occurs sporadically in winter, with an average seasonal snowfall of 2.7 inches. Ice storms and freezing rain pose a greater danger, as they can often pull tree limbs down on power lines and make driving hazardous. Severe thunderstorms can occur at any time of the year, though mainly during the spring months. Large hail, strong winds, flooding, and frequent lightning can accompany these storms. Some storms spawn tornadoes.\nThe lowest temperature ever recorded in Memphis was \u221213 \u00b0F on December 24, 1963, and the highest temperature ever was 108 \u00b0F on July 13, 1980. Over the course of a year, there is an average of 4.4 days of highs below freezing, 6.9 nights of lows below 20 \u00b0F, 43 nights of lows below freezing, 64 days of highs above 90 \u00b0F, and 2.1 days of highs above 100 \u00b0F.\nMemphis temperatures dropped to -4 F during the 1985 North American cold wave and during the December 1989 United States cold wave.\nAnnual precipitation is high and relatively evenly distributed throughout the year. Average monthly rainfall is especially high in March through May and December, while August and September are relatively drier."
+ }
+}

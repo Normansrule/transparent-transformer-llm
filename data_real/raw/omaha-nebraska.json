@@ -1,0 +1,139 @@
+{
+ "name": "Omaha",
+ "admin1": "Nebraska",
+ "country": "United States",
+ "country_code": "US",
+ "lat": 41.25626,
+ "lon": -95.94043,
+ "population": 486051,
+ "elevation_m": 323.0,
+ "climate": [
+  {
+   "month": 1,
+   "high": 31.2,
+   "low": 17.2,
+   "precip_in": 1.81,
+   "wet_days": 6.0,
+   "snow_in": 8.9,
+   "wind_mph": 12.6,
+   "sun_frac": 0.54
+  },
+  {
+   "month": 2,
+   "high": 47.3,
+   "low": 24.7,
+   "precip_in": 1.05,
+   "wet_days": 3.0,
+   "snow_in": 2.2,
+   "wind_mph": 13.8,
+   "sun_frac": 0.8
+  },
+  {
+   "month": 3,
+   "high": 51.0,
+   "low": 30.5,
+   "precip_in": 1.82,
+   "wet_days": 7.0,
+   "snow_in": 4.1,
+   "wind_mph": 14.8,
+   "sun_frac": 0.74
+  },
+  {
+   "month": 4,
+   "high": 65.4,
+   "low": 43.3,
+   "precip_in": 2.69,
+   "wet_days": 7.5,
+   "snow_in": 0.1,
+   "wind_mph": 17.3,
+   "sun_frac": 0.79
+  },
+  {
+   "month": 5,
+   "high": 76.0,
+   "low": 54.8,
+   "precip_in": 4.41,
+   "wet_days": 11.5,
+   "snow_in": 0.0,
+   "wind_mph": 13.5,
+   "sun_frac": 0.8
+  },
+  {
+   "month": 6,
+   "high": 85.7,
+   "low": 65.2,
+   "precip_in": 2.86,
+   "wet_days": 11.5,
+   "snow_in": 0.0,
+   "wind_mph": 12.9,
+   "sun_frac": 0.87
+  },
+  {
+   "month": 7,
+   "high": 85.6,
+   "low": 67.1,
+   "precip_in": 4.52,
+   "wet_days": 10.0,
+   "snow_in": 0.0,
+   "wind_mph": 10.5,
+   "sun_frac": 0.86
+  },
+  {
+   "month": 8,
+   "high": 84.7,
+   "low": 67.1,
+   "precip_in": 2.97,
+   "wet_days": 6.0,
+   "snow_in": 0.0,
+   "wind_mph": 11.5,
+   "sun_frac": 0.85
+  },
+  {
+   "month": 9,
+   "high": 82.1,
+   "low": 61.4,
+   "precip_in": 0.87,
+   "wet_days": 4.0,
+   "snow_in": 0.0,
+   "wind_mph": 12.0,
+   "sun_frac": 0.9
+  },
+  {
+   "month": 10,
+   "high": 69.0,
+   "low": 49.6,
+   "precip_in": 1.69,
+   "wet_days": 5.0,
+   "snow_in": 0.1,
+   "wind_mph": 14.4,
+   "sun_frac": 0.83
+  },
+  {
+   "month": 11,
+   "high": 51.9,
+   "low": 35.5,
+   "precip_in": 1.81,
+   "wet_days": 5.5,
+   "snow_in": 0.4,
+   "wind_mph": 12.4,
+   "sun_frac": 0.72
+  },
+  {
+   "month": 12,
+   "high": 41.4,
+   "low": 27.0,
+   "precip_in": 1.72,
+   "wet_days": 5.0,
+   "snow_in": 1.9,
+   "wind_mph": 11.6,
+   "sun_frac": 0.62
+  }
+ ],
+ "period": "2023-01-01 to 2024-12-31",
+ "wiki": {
+  "title": "Omaha, Nebraska",
+  "url": "https://en.wikipedia.org/wiki/Omaha,_Nebraska",
+  "intro": "Omaha is the most populous city in the U.S. state of Nebraska. It is located in the Midwestern United States along the Missouri River, about 10 mi north of the mouth of the Platte River. Omaha had a population of 486,051 at the 2020 census, and with a 2025 population estimate of 488,797, it is the 42nd-most populous U.S. city. The eight-county Omaha\u2013Council Bluffs metropolitan area extending into Iowa has approximately 1 million residents, the 55th-largest metropolitan area in the U.S. It is the county seat of Douglas County.\nOmaha's pioneer period began in 1854, when the city was founded along the Missouri River by speculators from neighboring Council Bluffs, Iowa. It originally comprised a crossing called Lone Tree Ferry earning the city its nickname, the \"Gateway to the West\". Omaha introduced this new West to the world in 1898, when it played host to the World's Fair, dubbed the Trans-Mississippi Exposition. During the 19th century, Omaha's central location in the United States spurred the city to become an important national transportation hub. Throughout the rest of the 19th century, the transportation and jobbing sectors were important in the city, along with its railroads and breweries. In the 20th century, the Omaha Stockyards, once the world's largest, and its meatpacking plants gained international prominence.\nOmaha is home to the headquarters of four Fortune 500 companies: Berkshire Hathaway, Kiewit Corporation, Mutual of Omaha, and Union Pacific Corporation. Other companies headquartered in the city include First National Bank of Omaha, Gallup, Inc., Green Plains, Intrado, Valmont Industries, Werner Enterprises, WoodmenLife, and three of the nation's ten largest architecture and engineering firms. Notable cultural institutions include the Henry Doorly Zoo and Aquarium, Old Market, Durham Museum, Lauritzen Gardens, and the annual College World Series. Modern Omaha inventions include the Reuben sandwich;\ncake mix, developed by Duncan Hines; center-pivot irrigation; Raisin Bran; the first ski lift in the U.S.; the Top 40 radio format, which was first used in the U.S. at KOWH Radio; and the TV dinner.",
+  "climate": "Omaha, due to its latitude of 41.26\u02da N and location far from moderating bodies of water or mountain ranges, displays a hot-summer humid continental climate. July averages 76.7 \u00b0F, with average relative humidity around 70% which then leads to relatively frequent thunderstorms. Temperatures reach 90 \u00b0F on 29 days and 100 \u00b0F on 1.7 days annually. The January daily average is 23.5 \u00b0F, with lows reaching 0 \u00b0F on 11 days annually. The lowest temperature recorded in the city was \u221232 \u00b0F on January 5, 1884, and the highest 114 \u00b0F on July 25, 1936. Average yearly precipitation is 30.6 in, falling mostly in the warmer months. Snow is the most common precipitation in winter, with average seasonal snowfall being 28.7 in.\nBased on 30-year averages obtained from NOAA's National Climatic Data Center for the months of December, January and February, Weather Channel ranked Omaha the 5th coldest major U.S. city as of 2014."
+ }
+}

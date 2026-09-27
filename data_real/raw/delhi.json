@@ -1,0 +1,134 @@
+{
+ "name": "Delhi",
+ "admin1": "National Capital Territory of Delhi",
+ "country": "India",
+ "country_code": "IN",
+ "lat": 28.65195,
+ "lon": 77.23149,
+ "population": 11034555,
+ "elevation_m": 227.0,
+ "climate": [
+  {
+   "month": 1,
+   "high": 64.2,
+   "low": 43.5,
+   "precip_in": 0.98,
+   "wet_days": 3.0,
+   "snow_in": 0.0,
+   "wind_mph": 7.5,
+   "sun_frac": 0.77
+  },
+  {
+   "month": 2,
+   "high": 75.6,
+   "low": 51.6,
+   "precip_in": 0.8,
+   "wet_days": 2.0,
+   "snow_in": 0.0,
+   "wind_mph": 9.8,
+   "sun_frac": 0.87
+  },
+  {
+   "month": 3,
+   "high": 84.1,
+   "low": 60.0,
+   "precip_in": 1.41,
+   "wet_days": 5.5,
+   "snow_in": 0.0,
+   "wind_mph": 10.6,
+   "sun_frac": 0.89
+  },
+  {
+   "month": 4,
+   "high": 96.0,
+   "low": 69.6,
+   "precip_in": 0.21,
+   "wet_days": 1.5,
+   "snow_in": 0.0,
+   "wind_mph": 12.2,
+   "sun_frac": 0.86
+  },
+  {
+   "month": 5,
+   "high": 102.1,
+   "low": 76.9,
+   "precip_in": 0.81,
+   "wet_days": 3.5,
+   "snow_in": 0.0,
+   "wind_mph": 12.9,
+   "sun_frac": 0.78
+  },
+  {
+   "month": 6,
+   "high": 101.4,
+   "low": 82.0,
+   "precip_in": 4.5,
+   "wet_days": 11.5,
+   "snow_in": 0.0,
+   "wind_mph": 12.8,
+   "sun_frac": 0.68
+  },
+  {
+   "month": 7,
+   "high": 92.9,
+   "low": 79.4,
+   "precip_in": 12.81,
+   "wet_days": 24.5,
+   "snow_in": 0.0,
+   "wind_mph": 9.2,
+   "sun_frac": 0.64
+  },
+  {
+   "month": 8,
+   "high": 91.9,
+   "low": 79.1,
+   "precip_in": 7.78,
+   "wet_days": 17.5,
+   "snow_in": 0.0,
+   "wind_mph": 10.4,
+   "sun_frac": 0.7
+  },
+  {
+   "month": 9,
+   "high": 90.8,
+   "low": 76.4,
+   "precip_in": 8.98,
+   "wet_days": 14.5,
+   "snow_in": 0.0,
+   "wind_mph": 9.2,
+   "sun_frac": 0.77
+  },
+  {
+   "month": 10,
+   "high": 90.4,
+   "low": 67.8,
+   "precip_in": 0.14,
+   "wet_days": 1.0,
+   "snow_in": 0.0,
+   "wind_mph": 8.4,
+   "sun_frac": 0.94
+  },
+  {
+   "month": 11,
+   "high": 81.5,
+   "low": 59.9,
+   "precip_in": 0.27,
+   "wet_days": 1.5,
+   "snow_in": 0.0,
+   "wind_mph": 6.4,
+   "sun_frac": 0.89
+  },
+  {
+   "month": 12,
+   "high": 71.3,
+   "low": 50.0,
+   "precip_in": 0.74,
+   "wet_days": 1.5,
+   "snow_in": 0.0,
+   "wind_mph": 6.2,
+   "sun_frac": 0.86
+  }
+ ],
+ "period": "2023-01-01 to 2024-12-31",
+ "wiki": null
+}

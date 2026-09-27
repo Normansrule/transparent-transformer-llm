@@ -1,0 +1,139 @@
+{
+ "name": "Osaka",
+ "admin1": "Osaka",
+ "country": "Japan",
+ "country_code": "JP",
+ "lat": 34.69379,
+ "lon": 135.50107,
+ "population": 2753862,
+ "elevation_m": 4.0,
+ "climate": [
+  {
+   "month": 1,
+   "high": 49.2,
+   "low": 33.2,
+   "precip_in": 1.71,
+   "wet_days": 6.0,
+   "snow_in": 0.4,
+   "wind_mph": 13.7,
+   "sun_frac": 0.76
+  },
+  {
+   "month": 2,
+   "high": 51.3,
+   "low": 35.6,
+   "precip_in": 3.55,
+   "wet_days": 9.5,
+   "snow_in": 0.4,
+   "wind_mph": 14.2,
+   "sun_frac": 0.62
+  },
+  {
+   "month": 3,
+   "high": 57.9,
+   "low": 40.3,
+   "precip_in": 5.33,
+   "wet_days": 10.5,
+   "snow_in": 0.1,
+   "wind_mph": 14.6,
+   "sun_frac": 0.69
+  },
+  {
+   "month": 4,
+   "high": 68.3,
+   "low": 51.0,
+   "precip_in": 6.53,
+   "wet_days": 11.5,
+   "snow_in": 0.0,
+   "wind_mph": 14.8,
+   "sun_frac": 0.6
+  },
+  {
+   "month": 5,
+   "high": 72.7,
+   "low": 56.4,
+   "precip_in": 10.44,
+   "wet_days": 12.5,
+   "snow_in": 0.0,
+   "wind_mph": 14.7,
+   "sun_frac": 0.66
+  },
+  {
+   "month": 6,
+   "high": 79.4,
+   "low": 65.8,
+   "precip_in": 13.42,
+   "wet_days": 16.0,
+   "snow_in": 0.0,
+   "wind_mph": 13.9,
+   "sun_frac": 0.55
+  },
+  {
+   "month": 7,
+   "high": 89.8,
+   "low": 76.4,
+   "precip_in": 6.76,
+   "wet_days": 13.0,
+   "snow_in": 0.0,
+   "wind_mph": 15.7,
+   "sun_frac": 0.74
+  },
+  {
+   "month": 8,
+   "high": 93.9,
+   "low": 79.2,
+   "precip_in": 7.16,
+   "wet_days": 15.0,
+   "snow_in": 0.0,
+   "wind_mph": 14.4,
+   "sun_frac": 0.79
+  },
+  {
+   "month": 9,
+   "high": 89.1,
+   "low": 74.3,
+   "precip_in": 3.85,
+   "wet_days": 11.5,
+   "snow_in": 0.0,
+   "wind_mph": 13.0,
+   "sun_frac": 0.82
+  },
+  {
+   "month": 10,
+   "high": 75.3,
+   "low": 59.2,
+   "precip_in": 5.33,
+   "wet_days": 11.0,
+   "snow_in": 0.0,
+   "wind_mph": 12.7,
+   "sun_frac": 0.72
+  },
+  {
+   "month": 11,
+   "high": 63.9,
+   "low": 48.0,
+   "precip_in": 5.26,
+   "wet_days": 8.5,
+   "snow_in": 0.0,
+   "wind_mph": 11.3,
+   "sun_frac": 0.76
+  },
+  {
+   "month": 12,
+   "high": 53.4,
+   "low": 37.8,
+   "precip_in": 0.84,
+   "wet_days": 5.5,
+   "snow_in": 0.0,
+   "wind_mph": 11.1,
+   "sun_frac": 0.84
+  }
+ ],
+ "period": "2023-01-01 to 2024-12-31",
+ "wiki": {
+  "title": "Osaka",
+  "url": "https://en.wikipedia.org/wiki/Osaka",
+  "intro": "Osaka is a designated city in the Kansai region of Honshu in Japan. It is the capital of and most populous city in Osaka Prefecture, and the second biggest prefectural city, third-most populous city proper in Japan, following the special wards of Tokyo and Yokohama. With an estimated population of 2.8 million as of October 1, 2025 and a population density of about 12,505 people per square kilometer, it is the largest component of the Keihanshin metropolitan area, the second-largest metropolitan area in Japan and the 10th-largest urban area in the world with more than 19 million inhabitants.\nOsaka was traditionally considered Japan's economic hub. By the Kofun period it had developed into an important regional port, and in the seventh and eighth centuries it served briefly as the imperial capital. Osaka continued to flourish during the Edo period and became known as a center of Japanese culture. Following the Meiji Restoration, it greatly expanded in size and underwent rapid industrialization. This accelerated population growth throughout the following decades, and Osaka was the industrial hub in the Meiji and Taish\u014d eras. It made contributions to redevelopment, urban planning and zoning standards in the postwar period, and developed rapidly as one of the major financial centers in the Keihanshin Metropolitan Area.\nOsaka is a major financial center of Japan and is recognized as one of its most multicultural and cosmopolitan cities. It is home to the Osaka Exchange and the headquarters of multinational electronics corporations such as Panasonic and Sharp. Osaka is an international center of research and development and is represented by several major universities, including Osaka University, Osaka Metropolitan University, and Kansai University. Landmarks include Osaka Castle, Osaka Aquarium Kaiyukan, D\u014dtonbori, Ts\u016btenkaku in Shinsekai, Tenn\u014dji Park, Abeno Harukas, Sumiyoshi Taisha Grand Shrine, and Shitenn\u014d-ji, one of the oldest Buddhist temples in Japan.",
+  "climate": "Osaka is located in the humid subtropical climate zone, with four distinct seasons. Its winters are generally mild. January is the coldest month, with an average high of 9.7 \u00b0C. Osaka rarely sees snowfall during the winter. Spring in Osaka starts off mild, but ends up being hot and humid. Spring tends to be Osaka's wettest season, with the tsuyu \u2014the rainy season\u2014occurring between early June and late July. The average starting and ending dates of the rainy season are June 7 and July 21 respectively.\nSummers are very hot and humid. In August, the hottest month, the average daily high temperature reaches 33.7 \u00b0C. Average nighttime low temperatures typically hover around 25.8 \u00b0C. Fall in Osaka sees a cooling trend, with the early part of the season resembling summer, while the latter part of fall resembles winter.\nPrecipitation is abundant. Winter is the driest season. Monthly rainfall peaks in June with the \"tsuyu\" rainy season, which typically ends in mid to late July. From late July to late August, summer's heat and humidity peak, and rainfall decreases somewhat. Osaka has a second rainy period in September and early October, when tropical weather systems, including typhoons, coming from the south or southwest are possible."
+ }
+}

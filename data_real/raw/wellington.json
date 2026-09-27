@@ -1,0 +1,139 @@
+{
+ "name": "Wellington",
+ "admin1": "Wellington Region",
+ "country": "New Zealand",
+ "country_code": "NZ",
+ "lat": -41.28664,
+ "lon": 174.77557,
+ "population": 381900,
+ "elevation_m": 31.0,
+ "climate": [
+  {
+   "month": 1,
+   "high": 68.6,
+   "low": 59.7,
+   "precip_in": 2.11,
+   "wet_days": 7.0,
+   "snow_in": 0.0,
+   "wind_mph": 19.2,
+   "sun_frac": 0.77
+  },
+  {
+   "month": 2,
+   "high": 67.8,
+   "low": 59.9,
+   "precip_in": 2.53,
+   "wet_days": 10.0,
+   "snow_in": 0.0,
+   "wind_mph": 22.2,
+   "sun_frac": 0.79
+  },
+  {
+   "month": 3,
+   "high": 64.5,
+   "low": 56.1,
+   "precip_in": 2.07,
+   "wet_days": 9.0,
+   "snow_in": 0.0,
+   "wind_mph": 23.1,
+   "sun_frac": 0.82
+  },
+  {
+   "month": 4,
+   "high": 62.3,
+   "low": 54.6,
+   "precip_in": 4.76,
+   "wet_days": 9.5,
+   "snow_in": 0.0,
+   "wind_mph": 18.4,
+   "sun_frac": 0.72
+  },
+  {
+   "month": 5,
+   "high": 58.6,
+   "low": 51.4,
+   "precip_in": 4.3,
+   "wet_days": 13.0,
+   "snow_in": 0.0,
+   "wind_mph": 19.9,
+   "sun_frac": 0.71
+  },
+  {
+   "month": 6,
+   "high": 56.2,
+   "low": 49.0,
+   "precip_in": 3.24,
+   "wet_days": 10.0,
+   "snow_in": 0.0,
+   "wind_mph": 17.0,
+   "sun_frac": 0.71
+  },
+  {
+   "month": 7,
+   "high": 54.3,
+   "low": 47.2,
+   "precip_in": 3.27,
+   "wet_days": 12.0,
+   "snow_in": 0.0,
+   "wind_mph": 20.3,
+   "sun_frac": 0.65
+  },
+  {
+   "month": 8,
+   "high": 53.6,
+   "low": 46.7,
+   "precip_in": 3.18,
+   "wet_days": 14.0,
+   "snow_in": 0.2,
+   "wind_mph": 22.3,
+   "sun_frac": 0.74
+  },
+  {
+   "month": 9,
+   "high": 57.1,
+   "low": 49.9,
+   "precip_in": 3.43,
+   "wet_days": 13.0,
+   "snow_in": 0.0,
+   "wind_mph": 23.7,
+   "sun_frac": 0.73
+  },
+  {
+   "month": 10,
+   "high": 58.8,
+   "low": 51.0,
+   "precip_in": 3.32,
+   "wet_days": 12.0,
+   "snow_in": 0.0,
+   "wind_mph": 22.6,
+   "sun_frac": 0.76
+  },
+  {
+   "month": 11,
+   "high": 61.3,
+   "low": 53.5,
+   "precip_in": 1.97,
+   "wet_days": 10.0,
+   "snow_in": 0.0,
+   "wind_mph": 22.1,
+   "sun_frac": 0.74
+  },
+  {
+   "month": 12,
+   "high": 65.0,
+   "low": 57.3,
+   "precip_in": 3.02,
+   "wet_days": 10.5,
+   "snow_in": 0.0,
+   "wind_mph": 23.1,
+   "sun_frac": 0.72
+  }
+ ],
+ "period": "2023-01-01 to 2024-12-31",
+ "wiki": {
+  "title": "Wellington",
+  "url": "https://en.wikipedia.org/wiki/Wellington",
+  "intro": "Wellington is the capital city of New Zealand. It is located at the southwestern tip of the North Island, between Cook Strait and the Remutaka Range. Wellington is the third-largest city in New Zealand, and is the administrative centre of the Wellington Region. It is the world's southernmost capital of a sovereign state. Wellington features a temperate maritime climate, and is the world's windiest city by average wind speed.\nM\u0101ori oral tradition tells that Kupe discovered and explored the region in about the 10th century. The area was initially settled by M\u0101ori iwi such as Rangit\u0101ne and Mua\u016bpoko. The disruptions of the Musket Wars led to them being overwhelmed by northern iwi such as Te \u0100ti Awa in the early 19th century.\nWellington's current form was originally designed by Captain William Mein Smith, the first Surveyor General for Edward Wakefield's New Zealand Company, in 1840. Smith's plan included a series of interconnected grid plans, expanding along valleys and lower hill slopes, but without actually taking the terrain into account. The Wellington urban area, which only includes urbanised areas within Wellington City, has a population of 209,800 as of June 2025. The wider Wellington metropolitan area, including the cities of Lower Hutt, Porirua and Upper Hutt, has a population of 433,900 as of June 2025. The city has served as New Zealand's capital since 1865, a status that is not defined in legislation, but established by convention; the New Zealand Government and Parliament, the Supreme Court and most of the public services are based in the city.\nWellington's economy is primarily service-based, with an emphasis on government, finance, business services, and the film industry. It is the centre of New Zealand's film and special effects industries, and increasingly a hub for information technology and innovation, with two public research universities. Wellington is one of New Zealand's chief seaports and serves both domestic and international shipping. The city is chiefly served by Wellington Airport in Rongotai, the country's third-busiest airport. Wellington's transport network includes train and bus lines, which reach as far as the K\u0101piti Coast and the Wairarapa, and ferries connect the city to the South Island.\nOften referred to as New Zealand's cultural capital, the culture of Wellington is diverse and often youth-driven. One of the world's most liveable cities, the 2021 Global Livability Ranking tied Wellington with Tokyo as fourth in the world. From 2017 to 2018, Deutsche Bank ranked it first in the world for both liveability and non-pollution. Cultural precincts such as Cuba Street and Newtown are renowned for creative innovation, \"op shops\", historic character, and food. Wellington is a leading financial centre in the Asia-Pacific region, being ranked 46th in the world by the Global Financial Centres Index for 2024. The global city has grown from a bustling M\u0101ori settlement, to a colonial outpost, and from there to an Australasian capital that has experienced a \"remarkable creative resurgence\".",
+  "climate": "Averaging 2,055 hours of sunshine per year, the climate of Wellington is temperate marine,, generally moderate all year round with warm summers and cool to mild winters, and rarely sees temperatures above 27 \u00b0C or below 4 \u00b0C. The hottest recorded temperature in the city is 31.1 \u00b0C, while \u22121.9 \u00b0C is the coldest. The city is notorious for its southerly blasts in winter, which may make the temperature feel much colder. It is generally very windy all year round with high rainfall; average annual rainfall is 1,250 mm, June and July being the wettest months. Frosts are quite common in the hill suburbs and the Hutt Valley between May and September. Snow is very rare at low altitudes, although snow fell on the city and many other parts of the Wellington region during separate events on 25 July 2011 and 15 August 2011 as well as on 4 August 2026. Snow at higher altitudes is more common, with light flurries recorded in higher suburbs every few years. Hail is relatively rare throughout winter, but can make driving conditions dangerous. From 19 to 20 April 2026, Wellington experienced torrential downpours and heavy flash floods, causing the government to declare a State of Emergency. Wellington had relatively warm and dry spells in the summers of 2021,, and 2025, causing excessive water demand from residents. Climate change has affected Wellington, as over a 5-year period from 2020 to 2025, it became much drier and warmer. On 29 January 2019, the suburb of Kelburn reached 30.3 \u00b0C, the highest temperature at that site since records began in 1927."
+ }
+}

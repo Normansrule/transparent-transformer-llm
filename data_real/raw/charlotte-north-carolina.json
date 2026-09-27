@@ -1,0 +1,139 @@
+{
+ "name": "Charlotte",
+ "admin1": "North Carolina",
+ "country": "United States",
+ "country_code": "US",
+ "lat": 35.22709,
+ "lon": -80.84313,
+ "population": 911311,
+ "elevation_m": 229.0,
+ "climate": [
+  {
+   "month": 1,
+   "high": 53.7,
+   "low": 36.3,
+   "precip_in": 5.44,
+   "wet_days": 10.0,
+   "snow_in": 0.0,
+   "wind_mph": 11.5,
+   "sun_frac": 0.66
+  },
+  {
+   "month": 2,
+   "high": 58.9,
+   "low": 40.2,
+   "precip_in": 3.05,
+   "wet_days": 8.5,
+   "snow_in": 0.0,
+   "wind_mph": 12.2,
+   "sun_frac": 0.71
+  },
+  {
+   "month": 3,
+   "high": 64.0,
+   "low": 43.4,
+   "precip_in": 4.77,
+   "wet_days": 10.0,
+   "snow_in": 0.2,
+   "wind_mph": 11.8,
+   "sun_frac": 0.71
+  },
+  {
+   "month": 4,
+   "high": 72.9,
+   "low": 50.8,
+   "precip_in": 4.27,
+   "wet_days": 9.0,
+   "snow_in": 0.0,
+   "wind_mph": 11.9,
+   "sun_frac": 0.74
+  },
+  {
+   "month": 5,
+   "high": 78.6,
+   "low": 58.9,
+   "precip_in": 2.5,
+   "wet_days": 9.5,
+   "snow_in": 0.0,
+   "wind_mph": 10.5,
+   "sun_frac": 0.74
+  },
+  {
+   "month": 6,
+   "high": 86.1,
+   "low": 65.0,
+   "precip_in": 2.92,
+   "wet_days": 7.5,
+   "snow_in": 0.0,
+   "wind_mph": 9.7,
+   "sun_frac": 0.82
+  },
+  {
+   "month": 7,
+   "high": 90.3,
+   "low": 71.2,
+   "precip_in": 3.72,
+   "wet_days": 14.0,
+   "snow_in": 0.0,
+   "wind_mph": 8.9,
+   "sun_frac": 0.81
+  },
+  {
+   "month": 8,
+   "high": 87.5,
+   "low": 68.4,
+   "precip_in": 5.58,
+   "wet_days": 13.0,
+   "snow_in": 0.0,
+   "wind_mph": 9.2,
+   "sun_frac": 0.85
+  },
+  {
+   "month": 9,
+   "high": 80.8,
+   "low": 62.9,
+   "precip_in": 5.52,
+   "wet_days": 7.5,
+   "snow_in": 0.0,
+   "wind_mph": 9.4,
+   "sun_frac": 0.77
+  },
+  {
+   "month": 10,
+   "high": 72.8,
+   "low": 52.3,
+   "precip_in": 0.68,
+   "wet_days": 2.5,
+   "snow_in": 0.0,
+   "wind_mph": 8.8,
+   "sun_frac": 0.87
+  },
+  {
+   "month": 11,
+   "high": 63.0,
+   "low": 44.5,
+   "precip_in": 2.62,
+   "wet_days": 5.0,
+   "snow_in": 0.0,
+   "wind_mph": 9.1,
+   "sun_frac": 0.77
+  },
+  {
+   "month": 12,
+   "high": 54.1,
+   "low": 36.6,
+   "precip_in": 4.9,
+   "wet_days": 7.5,
+   "snow_in": 0.1,
+   "wind_mph": 10.4,
+   "sun_frac": 0.71
+  }
+ ],
+ "period": "2023-01-01 to 2024-12-31",
+ "wiki": {
+  "title": "Charlotte, North Carolina",
+  "url": "https://en.wikipedia.org/wiki/Charlotte,_North_Carolina",
+  "intro": "Charlotte is the most populous city in the U.S. state of North Carolina. With a population of 874,579 at the 2020 census, it is the 14th-most populous city in the U.S., seventh-most populous city in the South, and second-most populous city in the Southeast. The Charlotte metropolitan area, with an estimated 2.88 million residents, is the 21st-largest metropolitan area in the U.S. The Charlotte metropolitan area is part of an 18-county combined statistical area with an estimated population of 3.47 million as of 2024. It is the county seat of Mecklenburg County.\nBetween 2004 and 2014, Charlotte was among the country's fastest-growing metropolitan areas, with 888,000 new residents. Based on U.S. census data from 2005 to 2015, Charlotte tops the U.S. in millennial population growth. Throughout the 2020s, it has remained one of the fastest-growing major cities in the United States. Residents of Charlotte are referred to as \"Charlotteans\".\nCharlotte is home to the corporate headquarters of Bank of America, Honeywell, Truist Financial, and the East Coast headquarters of Wells Fargo, which, when combined with other Charlotte-based financial institutions, makes the city the second-largest banking center in the nation.\nCharlotte's notable attractions include three major league professional sports teams, the Carolina Panthers of the NFL, the Charlotte Hornets of the NBA, and Charlotte FC of MLS. The city is also home to the NASCAR Hall of Fame, Opera Carolina, Charlotte Symphony, Charlotte Ballet, Children's Theatre of Charlotte, Mint Museum, Harvey B. Gantt Center, Bechtler Museum of Modern Art, the Billy Graham Library, Levine Museum of the New South, Charlotte Museum of History, Carowinds amusement park, and U.S. National Whitewater Center.\nCharlotte has a humid subtropical climate. It is located several miles east of the Catawba River and southeast of Lake Norman, the largest human-made lake in North Carolina. Lake Wylie and Mountain Island Lake are two smaller human-made lakes located near the city. As of 2024, 66% of the city's area is occupied by green spaces. The city ranks as the greenest in North America and 28th in the world.",
+  "climate": "Like much of the Piedmont region of the southeastern United States, Charlotte has a humid subtropical climate, with four distinct seasons. Charlotte is part of USDA hardiness zone 8a, transitioning to 7b in the suburbs in all directions except the south.\nWinters are short and fairly mild, with a normal January daily high temperature of 52.3 \u00b0F and daily mean temperature of 42.1 \u00b0F. On occasion temperatures can fall below 20 \u00b0F, but Charlotte also enjoys multiple warm winter days with highs in excess of 65 \u00b0F. On average, there are 59 nights per year that drop to or below freezing, and only 1.5 days that fail to rise above freezing. Summers are hot and humid, with a normal July daily high temperature of 90.3 \u00b0F and daily mean temperature of 80.1 \u00b0F. Hot and humid days can arrive as early as May and last until the end of September. There is an average of 44 days per year with highs at or above 90 \u00b0F. Official record temperatures range from 104 \u00b0F recorded six times on 6 September 1954, 9\u201310 August 2007 and June 29 to July 1, 2012, down to \u22125 \u00b0F recorded on December 30, 1880, February 14, 1899 and January 21, 1985. The record cold daily maximum is 14 \u00b0F on February 12 and 13, 1899. The record warm daily minimum is 82 \u00b0F on August 13, 1881. The average window for freezing temperatures is November 5 to March 30, allowing a growing season of 220 days.\nCharlotte is directly in the path of subtropical moisture from the Gulf of Mexico as it heads up the eastern seaboard, thus the city receives ample precipitation throughout the year but also many clear, sunny days. Precipitation is generally slightly less frequent in autumn than in spring. On average, Charlotte receives 43.60 inches of precipitation annually, evenly distributed throughout the year. Annual precipitation has historically ranged from 26.23 in in 2001 to 68.44 in in 1884.\nThere is an average of 3.5 inches of snow, mainly in January and February and rarely December or March, with more frequent ice storms and sleet mixed in with rain. Seasonal snowfall has historically ranged from no snowfall in 2022-23 and 2023-24 to 22.6 in in 1959\u201360. Snow and ice storms can have a major impact on the area, as they often pull tree limbs down onto power lines and make driving hazardous. Snow has been recorded a small number of times in April, most recently on April 2, 2019.\nAs of 2020, the Charlotte metropolitan area as a whole is noted for having one of the worst weather radar gaps among any major U.S. East Coast city, with little to no coverage in a roughly quadrilateral area spanning Concord, Salisbury and much\nof Statesville. As the nearest NWS-owned NEXRAD is located in Greer, South Carolina, more than 80 mi to the west-southwest of Charlotte, this deficit is particularly problematic during severe thunderstorm or tornado episodes. The current lowest angle of the radar, based in Greer, is quite far above the surface over Charlotte, so the velocities measurement for detecting rotations cannot be below mid-level in potential tornado-forming storms and thus cannot indicate whether said rotation extends closer to the ground."
+ }
+}

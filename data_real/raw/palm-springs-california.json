@@ -1,0 +1,139 @@
+{
+ "name": "Palm Springs",
+ "admin1": "California",
+ "country": "United States",
+ "country_code": "US",
+ "lat": 33.8303,
+ "lon": -116.54529,
+ "population": 47371,
+ "elevation_m": 146.0,
+ "climate": [
+  {
+   "month": 1,
+   "high": 62.5,
+   "low": 47.1,
+   "precip_in": 2.99,
+   "wet_days": 5.5,
+   "snow_in": 0.0,
+   "wind_mph": 8.0,
+   "sun_frac": 0.81
+  },
+  {
+   "month": 2,
+   "high": 65.2,
+   "low": 47.4,
+   "precip_in": 3.73,
+   "wet_days": 4.5,
+   "snow_in": 0.9,
+   "wind_mph": 8.7,
+   "sun_frac": 0.8
+  },
+  {
+   "month": 3,
+   "high": 69.3,
+   "low": 50.4,
+   "precip_in": 3.45,
+   "wet_days": 6.0,
+   "snow_in": 0.0,
+   "wind_mph": 10.4,
+   "sun_frac": 0.84
+  },
+  {
+   "month": 4,
+   "high": 84.2,
+   "low": 59.4,
+   "precip_in": 0.0,
+   "wet_days": 0.0,
+   "snow_in": 0.0,
+   "wind_mph": 10.7,
+   "sun_frac": 0.96
+  },
+  {
+   "month": 5,
+   "high": 90.8,
+   "low": 66.6,
+   "precip_in": 0.0,
+   "wet_days": 0.0,
+   "snow_in": 0.0,
+   "wind_mph": 12.2,
+   "sun_frac": 0.96
+  },
+  {
+   "month": 6,
+   "high": 99.3,
+   "low": 74.6,
+   "precip_in": 0.01,
+   "wet_days": 0.0,
+   "snow_in": 0.0,
+   "wind_mph": 11.7,
+   "sun_frac": 0.96
+  },
+  {
+   "month": 7,
+   "high": 110.8,
+   "low": 85.6,
+   "precip_in": 0.0,
+   "wet_days": 0.0,
+   "snow_in": 0.0,
+   "wind_mph": 11.2,
+   "sun_frac": 0.97
+  },
+  {
+   "month": 8,
+   "high": 104.4,
+   "low": 81.0,
+   "precip_in": 1.36,
+   "wet_days": 1.0,
+   "snow_in": 0.0,
+   "wind_mph": 10.7,
+   "sun_frac": 0.92
+  },
+  {
+   "month": 9,
+   "high": 98.0,
+   "low": 74.6,
+   "precip_in": 0.57,
+   "wet_days": 1.0,
+   "snow_in": 0.0,
+   "wind_mph": 10.0,
+   "sun_frac": 0.93
+  },
+  {
+   "month": 10,
+   "high": 90.8,
+   "low": 66.2,
+   "precip_in": 0.0,
+   "wet_days": 0.0,
+   "snow_in": 0.0,
+   "wind_mph": 9.1,
+   "sun_frac": 0.96
+  },
+  {
+   "month": 11,
+   "high": 73.2,
+   "low": 52.8,
+   "precip_in": 0.34,
+   "wet_days": 0.5,
+   "snow_in": 0.0,
+   "wind_mph": 7.9,
+   "sun_frac": 0.93
+  },
+  {
+   "month": 12,
+   "high": 70.8,
+   "low": 51.3,
+   "precip_in": 0.06,
+   "wet_days": 0.5,
+   "snow_in": 0.0,
+   "wind_mph": 6.5,
+   "sun_frac": 0.9
+  }
+ ],
+ "period": "2023-01-01 to 2024-12-31",
+ "wiki": {
+  "title": "Palm Springs, California",
+  "url": "https://en.wikipedia.org/wiki/Palm_Springs,_California",
+  "intro": "Palm Springs is a desert resort city in Riverside County, California, United States, within the Colorado Desert's Coachella Valley. The city covers approximately 94 square miles, making it the largest city in Riverside County by land area. With multiple plots in checkerboard pattern, more than 10% of the city is part of the Agua Caliente Band of Cahuilla Indians reservation land and is the administrative capital of the most populated reservation in California.\nThe population of Palm Springs was 44,575 as of the 2020 census, but because Palm Springs is a retirement location and a winter snowbird destination, the city's population triples between November and March. The majority of the snowbirds are Canadians.\nThe city is noted for its mid-century modern architecture, design elements, arts and cultural scene, and recreational activities.",
+  "climate": "Palm Springs has a hot desert climate, with over 300 days of sunshine and 4.93 inches of rainfall annually. The wettest \"rain year\" on record was from July 1926 to June 1927 with 17.68 inches \u2014 of which 10.22 inches fell during three days in mid-February \u2014 and the driest from July 2001 to June 2002 with 0.4 inches.\nThe winter months are warm, with a majority of days reaching 70 \u00b0F and in January and February afternoons often see temperatures of 80 \u00b0F and on occasion reach over 90 \u00b0F, while, on average, there are 17 mornings annually dipping to or below 40 \u00b0F; freezing temperatures occur in less than half of years. The lowest temperature recorded is 19 \u00b0F, on January 22, 1937.\nSummers are extremely hot, with daytime temperatures consistently surpassing 110 \u00b0F while overnight temperatures often remain above 80 \u00b0F. The mean annual temperature is 75.6 \u00b0F. There are on average 176.6 afternoons with a high reaching 90 \u00b0F, and 100 \u00b0F can be seen on 114.8 afternoons. The highest temperature on record in Palm Springs is 124 \u00b0F on July 5, 2024. The climate of Palm Springs is suitable for some palm trees, although tropical types that need more water and humidity do not grow as well.\nOn October 1, 2024 the temperature in Palm Springs reached 117 \u00b0F, tying the record for the highest temperature in the United States in October, after the same temperature was reached in nearby Mecca on October 5, 1917. On July 5, 2025, Palm Springs recorded its highest temperature of 124 \u00b0F."
+ }
+}

@@ -1,0 +1,139 @@
+{
+ "name": "Copenhagen",
+ "admin1": "Capital Region",
+ "country": "Denmark",
+ "country_code": "DK",
+ "lat": 55.67594,
+ "lon": 12.56553,
+ "population": 1153615,
+ "elevation_m": 14.0,
+ "climate": [
+  {
+   "month": 1,
+   "high": 39.5,
+   "low": 33.2,
+   "precip_in": 3.47,
+   "wet_days": 14.5,
+   "snow_in": 3.6,
+   "wind_mph": 20.6,
+   "sun_frac": 0.38
+  },
+  {
+   "month": 2,
+   "high": 42.1,
+   "low": 34.8,
+   "precip_in": 2.48,
+   "wet_days": 11.0,
+   "snow_in": 2.6,
+   "wind_mph": 18.3,
+   "sun_frac": 0.45
+  },
+  {
+   "month": 3,
+   "high": 44.3,
+   "low": 35.4,
+   "precip_in": 2.11,
+   "wet_days": 13.5,
+   "snow_in": 2.1,
+   "wind_mph": 16.8,
+   "sun_frac": 0.49
+  },
+  {
+   "month": 4,
+   "high": 50.1,
+   "low": 39.4,
+   "precip_in": 2.11,
+   "wet_days": 9.5,
+   "snow_in": 0.6,
+   "wind_mph": 15.9,
+   "sun_frac": 0.66
+  },
+  {
+   "month": 5,
+   "high": 61.1,
+   "low": 48.6,
+   "precip_in": 0.71,
+   "wet_days": 6.5,
+   "snow_in": 0.0,
+   "wind_mph": 14.7,
+   "sun_frac": 0.82
+  },
+  {
+   "month": 6,
+   "high": 66.9,
+   "low": 54.9,
+   "precip_in": 1.66,
+   "wet_days": 8.0,
+   "snow_in": 0.0,
+   "wind_mph": 14.1,
+   "sun_frac": 0.78
+  },
+  {
+   "month": 7,
+   "high": 67.6,
+   "low": 57.4,
+   "precip_in": 3.54,
+   "wet_days": 14.0,
+   "snow_in": 0.0,
+   "wind_mph": 15.5,
+   "sun_frac": 0.73
+  },
+  {
+   "month": 8,
+   "high": 68.2,
+   "low": 58.6,
+   "precip_in": 3.6,
+   "wet_days": 13.5,
+   "snow_in": 0.0,
+   "wind_mph": 13.9,
+   "sun_frac": 0.7
+  },
+  {
+   "month": 9,
+   "high": 66.5,
+   "low": 57.3,
+   "precip_in": 1.78,
+   "wet_days": 6.5,
+   "snow_in": 0.0,
+   "wind_mph": 14.8,
+   "sun_frac": 0.79
+  },
+  {
+   "month": 10,
+   "high": 55.6,
+   "low": 48.4,
+   "precip_in": 3.21,
+   "wet_days": 11.5,
+   "snow_in": 0.0,
+   "wind_mph": 18.9,
+   "sun_frac": 0.51
+  },
+  {
+   "month": 11,
+   "high": 45.5,
+   "low": 39.9,
+   "precip_in": 3.28,
+   "wet_days": 12.0,
+   "snow_in": 1.1,
+   "wind_mph": 16.5,
+   "sun_frac": 0.39
+  },
+  {
+   "month": 12,
+   "high": 42.1,
+   "low": 37.1,
+   "precip_in": 2.25,
+   "wet_days": 12.5,
+   "snow_in": 0.7,
+   "wind_mph": 18.3,
+   "sun_frac": 0.21
+  }
+ ],
+ "period": "2023-01-01 to 2024-12-31",
+ "wiki": {
+  "title": "Copenhagen",
+  "url": "https://en.wikipedia.org/wiki/Copenhagen",
+  "intro": "Copenhagen is the capital and most populous city of Denmark, with an urban population of 1.4 million. The city is situated mainly on the island of Zealand, with a smaller part on the island of Amager. Copenhagen is separated from Malm\u00f6, Sweden, by the \u00d8resund strait. The \u00d8resund Bridge connects the two cities by rail and road.\nSettled as a Viking fishing village in the 10th century in the vicinity of what is now Gammel Strand, Copenhagen became the capital of Denmark in the early 15th century. During the 16th century, the city served as the de facto capital of the Kalmar Union and the seat of the Union's monarchy, which governed most of the modern-day Nordic region as part of a Danish confederation with Sweden and Norway. The city flourished as the cultural and economic centre of Scandinavia during the Renaissance. By the 17th century, it had become a regional centre of power, serving as the heart of the Danish government and military. During the 18th century, Copenhagen suffered a devastating plague outbreak and urban conflagrations. Major redevelopment included the construction of the prestigious district of Frederiksstaden and the establishment of cultural institutions such as the Royal Theatre and the Royal Academy of Fine Arts. The city became the centre of the Danish slave trade during this period. In 1807, the city was bombarded by a British fleet during the Napoleonic Wars, before the Danish Golden Age brought a Neoclassical look to Copenhagen's architecture. After World War II, the Finger Plan fostered the development of housing and businesses along the five urban railway routes emanating from the city centre.\nSince the turn of the 21st century, Copenhagen has seen strong urban and cultural development, facilitated by investment in its institutions and infrastructure. The city is the cultural, economic, and governmental centre of Denmark; it is one of the major financial centres of Northern Europe with the Copenhagen Stock Exchange. Copenhagen's economy has developed rapidly in the service sector, especially through initiatives in information technology, pharmaceuticals, and clean technology. Since the completion of the \u00d8resund Bridge, Copenhagen has increasingly integrated with the Swedish province of Scania and its largest city, Malm\u00f6, forming the \u00d8resund Region. With several bridges connecting the various districts, the cityscape is characterised by parks, promenades, and waterfronts. Copenhagen's landmarks, such as Tivoli Gardens, The Little Mermaid statue, the Amalienborg and Christiansborg palaces, Rosenborg Castle, Frederik's Church, B\u00f8rsen, and many museums, restaurants, and nightclubs are significant tourist attractions.\nCopenhagen is home to the University of Copenhagen, the Technical University of Denmark, Copenhagen Business School, and the IT University of Copenhagen. The University of Copenhagen, founded in 1479, is the oldest university in Denmark. Copenhagen is home to the football clubs F.C. Copenhagen and Br\u00f8ndby IF. The annual Copenhagen Marathon was established in 1980. Copenhagen is one of the most bicycle-friendly cities in the world. Movia is a public mass transit company serving all of eastern Denmark except Bornholm. The Copenhagen Metro, launched in 2002, serves central Copenhagen. Additionally, the Copenhagen S-train, the Lokaltog, and the Coast Line network serve and connect central Copenhagen to outlying boroughs. Serving roughly 2.7 million passengers a month, Copenhagen Airport, Kastrup, is the busiest airport in the Nordic countries.",
+  "climate": "Copenhagen features a temperate oceanic climate. The city is located in a climate zone characterized by the influence of the warm Gulf Stream. This means that Copenhagen is approximately 5 \u00b0C warmer than the city's latitude would otherwise dictate. Its weather is subject to low-pressure systems from the Atlantic which result in unstable conditions with alternating periods of rain and sun throughout the year. Apart from slightly higher rainfall from July to September, precipitation is moderate. While snowfall occurs mainly from late December to early March, there can also be rain, with average temperatures above the freezing point.\nJuly is the sunniest month of the year with an average of over seven hours of sunshine a day. July is the warmest month with an average daytime high of 21 \u00b0C. By contrast, the average hours of sunshine are less than two per day in November and only one and a half per day from December to February. In the spring, it gets warmer again with four to six hours of sunshine per day from March to May. February is the driest month of the year. Exceptional weather conditions can bring as much as 50 cm of snow to Copenhagen in a 24-hour period during the winter months while summer temperatures have been known to rise to heights of 33 \u00b0C.\nBecause of Copenhagen's northern latitude, the number of daylight hours varies considerably between summer and winter. On the summer solstice, the sun rises at 04:26 and sets at 21:58, providing 17 hours 32 minutes of daylight. On the winter solstice, it rises at 08:37 and sets at 15:39 with 7 hours and 1 minute of daylight. There is therefore a difference of 10 hours and 31 minutes in the length of days and nights between the summer and winter solstices."
+ }
+}

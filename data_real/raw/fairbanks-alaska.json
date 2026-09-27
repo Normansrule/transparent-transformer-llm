@@ -1,0 +1,139 @@
+{
+ "name": "Fairbanks",
+ "admin1": "Alaska",
+ "country": "United States",
+ "country_code": "US",
+ "lat": 64.83778,
+ "lon": -147.71638,
+ "population": 32325,
+ "elevation_m": 136.0,
+ "climate": [
+  {
+   "month": 1,
+   "high": 4.1,
+   "low": -7.6,
+   "precip_in": 0.84,
+   "wet_days": 7.5,
+   "snow_in": 5.9,
+   "wind_mph": 6.9,
+   "sun_frac": 0.39
+  },
+  {
+   "month": 2,
+   "high": 12.6,
+   "low": -2.2,
+   "precip_in": 0.69,
+   "wet_days": 4.5,
+   "snow_in": 4.7,
+   "wind_mph": 6.8,
+   "sun_frac": 0.55
+  },
+  {
+   "month": 3,
+   "high": 24.7,
+   "low": 6.0,
+   "precip_in": 0.53,
+   "wet_days": 3.5,
+   "snow_in": 3.6,
+   "wind_mph": 7.2,
+   "sun_frac": 0.6
+  },
+  {
+   "month": 4,
+   "high": 37.8,
+   "low": 17.5,
+   "precip_in": 0.78,
+   "wet_days": 7.0,
+   "snow_in": 5.1,
+   "wind_mph": 7.8,
+   "sun_frac": 0.67
+  },
+  {
+   "month": 5,
+   "high": 59.0,
+   "low": 38.4,
+   "precip_in": 1.58,
+   "wet_days": 8.0,
+   "snow_in": 0.2,
+   "wind_mph": 8.3,
+   "sun_frac": 0.65
+  },
+  {
+   "month": 6,
+   "high": 71.8,
+   "low": 51.5,
+   "precip_in": 1.93,
+   "wet_days": 9.0,
+   "snow_in": 0.0,
+   "wind_mph": 8.5,
+   "sun_frac": 0.63
+  },
+  {
+   "month": 7,
+   "high": 71.5,
+   "low": 55.0,
+   "precip_in": 3.63,
+   "wet_days": 12.5,
+   "snow_in": 0.0,
+   "wind_mph": 8.2,
+   "sun_frac": 0.51
+  },
+  {
+   "month": 8,
+   "high": 64.7,
+   "low": 50.4,
+   "precip_in": 3.51,
+   "wet_days": 17.0,
+   "snow_in": 0.0,
+   "wind_mph": 8.0,
+   "sun_frac": 0.4
+  },
+  {
+   "month": 9,
+   "high": 51.5,
+   "low": 39.0,
+   "precip_in": 2.47,
+   "wet_days": 12.5,
+   "snow_in": 0.0,
+   "wind_mph": 7.6,
+   "sun_frac": 0.44
+  },
+  {
+   "month": 10,
+   "high": 33.2,
+   "low": 22.6,
+   "precip_in": 1.82,
+   "wet_days": 10.0,
+   "snow_in": 10.9,
+   "wind_mph": 7.2,
+   "sun_frac": 0.41
+  },
+  {
+   "month": 11,
+   "high": 17.5,
+   "low": 7.3,
+   "precip_in": 0.83,
+   "wet_days": 6.5,
+   "snow_in": 5.7,
+   "wind_mph": 6.7,
+   "sun_frac": 0.31
+  },
+  {
+   "month": 12,
+   "high": 8.6,
+   "low": -3.9,
+   "precip_in": 0.99,
+   "wet_days": 6.5,
+   "snow_in": 6.9,
+   "wind_mph": 6.2,
+   "sun_frac": 0.26
+  }
+ ],
+ "period": "2023-01-01 to 2024-12-31",
+ "wiki": {
+  "title": "Fairbanks, Alaska",
+  "url": "https://en.wikipedia.org/wiki/Fairbanks,_Alaska",
+  "intro": "Fairbanks is a home rule city and the borough seat of the Fairbanks North Star Borough, Alaska, United States. Fairbanks is the largest city in the interior region of Alaska and the second most populous city in the state. The 2020 census put the population of the city proper at 32,515 and the population of the Fairbanks North Star Borough at 95,655, making it the second most populous metropolitan area in Alaska, after Anchorage. The Metropolitan Statistical Area encompasses all of the Fairbanks North Star Borough and is the northernmost metropolitan statistical area in the United States, located 196 miles by road south of the Arctic Circle.\nIn August 1901, E. T. Barnette founded a trading post on the south bank of the Chena River. A gold discovery near the trading post sparked the Fairbanks Gold Rush, and many miners moved to the area. There was a boom in construction, and in November 1903, the area's residents voted to incorporate Fairbanks as a city. Barnette became the first mayor, and the city flourished during the gold rush. By World War I, the population had plunged, but rose again during the Great Depression as the price of gold increased.\nDuring the 1940s and 1950s, the city became a staging area for the entire construction of military depots during World War II and the Cold War. Fort Wainwright, previously named Ladd Field, was built east of the city beginning in 1938 and is operated by the U.S. Army. After the discovery of the Prudhoe Bay Oil Field in 1968, the city became a supply point for the oil field, as well as for the Trans-Alaska Pipeline System. With the establishment of the Fairbanks North Star Borough in 1964, the city became the borough seat. Tourism is also a factor in Fairbanks' economy.\nFairbanks is in the Tanana Valley, straddling the Chena River near its confluence with the Tanana River. The Tanana River marks the city's southern border, and the Tanana Flats, a large area of marsh and bog, is south of the river. Fairbanks is the coldest city in the United States. Monthly mean temperatures range from \u22128.3 \u00b0F in January to 62.9 \u00b0F in July. In winter, Fairbanks's location in the Tanana Valley causes cold air to accumulate in the city and warm air to rise up the hills to the north, and the city experiences one of the biggest temperature inversions on Earth.\nFairbanks is home to the University of Alaska Fairbanks, the founding campus of the University of Alaska system, established in 1917. Fairbanks International Airport is located three miles southwest of the central business district of the city.",
+  "climate": "Fairbanks's climate is classified as a humid continental climate bordering on a subarctic climate, with long, severely cold winters and short, warm summers. October through February are the snowiest months, and there is usually additional snow from March to May. On average, the season's first accumulating snowfall and first inch of snow fall on October 1 and 11, respectively; the average last inch and last accumulating snowfall are respectively on March 29 and April 15, though there can be snow flurries in May. The snowpack is established by October 18, on average, and remains until April 23. Snow occasionally arrives early and in large amounts. On September 13, 1992, 8 inches of snow fell in the city, bending trees still laden with fall leaves. That September was also one of the snowiest on record, as 24 inches fell, compared to the 1991-2020 median of only a trace during the month. November and December are the snowiest months, while in contrast, March and April are not very snowy and are typically very dry months in central Alaska. The snowiest season on record lasted from July 1990 to June 1991 with a snowfall of 147.3 inches, while the least snowy period recorded was from July 1918 to June 1919 with a snowfall of only 12.0 inches.\nThe average first and last dates with a freezing temperature are September 11 and May 14, respectively, allowing an average growing season of 119 days. However, freezes have occurred in June, July, and August; the last light frost is often in early June; and the first light fall frost is often in late August or early September. The plant hardiness zone is 2 with annual mean minimums below -40.\nFairbanks is the coldest city in the United States among cities with a population of at least 10,000 people. Normal monthly mean temperatures range from \u22128.3 \u00b0F in January to 62.9 \u00b0F in July. On average, temperatures reach \u221240 \u00b0F and 80 \u00b0F on 7.0 and 13 days annually, respectively, and the last winter that failed to reach the former mark was that of 2022\u201323. Between 1995 and 2008, inclusive, Fairbanks failed to record a temperature of 90 \u00b0F or 32 \u00b0C. The highest recorded temperature in Fairbanks was 99 \u00b0F on July 28, 1919, just a degree cooler than Alaska-wide record high temperature of 100 \u00b0F, recorded in Fort Yukon. The lowest was \u221266 \u00b0F on January 14, 1934. The warmest calendar year in Fairbanks was 2019, when the average annual temperature was 32.5 \u00b0F, while the coldest was 1956 with an annual mean temperature of 21.3 \u00b0F. The warmest month has been July 1975 with a monthly mean of 68.4 \u00b0F and the coldest January 1906 which averaged \u221236.4 \u00b0F. Low temperatures below 0 \u00b0F or \u221218 \u00b0C have been recorded in every month outside June through September. The record cold daily maximum is \u221258 \u00b0F on January 18, 1906, and the record warm daily minimum is 76 \u00b0F on June 26, 1915; the only other occurrence of a 70 \u00b0F daily minimum was June 25, 2013, in the midst of a particularly warm summer.\nThese widely varying temperature extremes are due to three main factors: temperature inversions, daylight, and wind direction. In winter, Fairbanks's low-lying location at the bottom of the Tanana Valley causes cold air to accumulate in and around the city. Warmer air rises to the tops of the hills north of Fairbanks, while the city itself experiences one of the biggest temperature inversions on Earth. Heating through sunlight is limited because of Fairbanks's high-latitude location. At the winter solstice, the center of the sun's disk is less than two degrees over the horizon at the local noon. Fairbanks experiences 3 hours and 41 minutes of sunlight on December 21 and 22. At the summer solstice, about 182 days later, on June 20 and 21, Fairbanks receives 21 hours and 49 minutes of sunlight. After sunset, twilight is bright enough to allow daytime activities without any electric lights, since the center of the sun's disk is just 1.7 degrees below horizon. During winter, the direction of the wind also causes large temperature swings in Fairbanks. When the wind blows from any direction but the south, average weather ensues. Wind from the south can carry warm, moist air from the Gulf of Alaska, greatly warming temperatures. When coupled with a chinook wind, temperatures well above freezing often result. For example, in the record warm January 1981, Fairbanks's average maximum temperature was 28.7 \u00b0F and 15 days that month had high temperatures above freezing. Meanwhile, during a spell of sustained chinook winds from December 4 to 8, 1934, the temperature topped 50 \u00b0F for five consecutive days. Unusual for such a cold place, Fairbanks has experienced temperatures of 50 \u00b0F or higher in all 12 months.\nIn addition to the chinook wind, Fairbanks experiences a handful of other unusual meteorological conditions. In summer, dense wildfire smoke accumulates in the Tanana Valley, affecting the weather and causing health concerns. When temperature inversions arise in winter, heavy ice fog often results. Ice fog occurs when air is too cold to absorb additional moisture, such as that released by automobile engines or human breath. Instead of dissipating, the water freezes into microscopic crystals that are suspended in the air, forming fog. Another one of Fairbanks's unusual occurrences is the prevalence of the aurora borealis, commonly called the northern lights, which are visible on average more than 200 days per year in the vicinity of Fairbanks. The northern lights are not visible in the summer months due to the 24 hour daylight of the midnight sun. Fairbanks also has extremely low seasonal lag; the year's warmest month is July, which averages only 1.9 \u00b0F warmer than June. Average daily temperatures begin to fall by late July and more markedly in August, which on average is 4.0 \u00b0F cooler than June.\nFrom 1949 to 2018, Fairbanks's mean annual temperature has risen by 3.9 \u00b0F, a change comparable to the Alaska-wide average; winter was the season with the highest increase, at 8.1 \u00b0F, while autumn had the smallest, at only 1.5 \u00b0F. However, the mean annual temperature increase from 1976 to 2018 in Fairbanks stood at a more moderate 0.7 \u00b0F; this stepwise temperature change, also observed elsewhere in Alaska, is explained by the Pacific Decadal Oscillation shifting from a negative phase to a positive phase from 1976 onward."
+ }
+}

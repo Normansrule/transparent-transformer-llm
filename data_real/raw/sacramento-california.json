@@ -1,0 +1,139 @@
+{
+ "name": "Sacramento",
+ "admin1": "California",
+ "country": "United States",
+ "country_code": "US",
+ "lat": 38.58157,
+ "lon": -121.4944,
+ "population": 524943,
+ "elevation_m": 9.0,
+ "climate": [
+  {
+   "month": 1,
+   "high": 56.4,
+   "low": 41.7,
+   "precip_in": 7.85,
+   "wet_days": 13.5,
+   "snow_in": 0.0,
+   "wind_mph": 12.2,
+   "sun_frac": 0.55
+  },
+  {
+   "month": 2,
+   "high": 57.9,
+   "low": 39.7,
+   "precip_in": 5.93,
+   "wet_days": 11.0,
+   "snow_in": 0.6,
+   "wind_mph": 11.2,
+   "sun_frac": 0.72
+  },
+  {
+   "month": 3,
+   "high": 60.1,
+   "low": 42.9,
+   "precip_in": 5.33,
+   "wet_days": 15.5,
+   "snow_in": 0.1,
+   "wind_mph": 11.7,
+   "sun_frac": 0.71
+  },
+  {
+   "month": 4,
+   "high": 71.3,
+   "low": 46.7,
+   "precip_in": 1.03,
+   "wet_days": 2.5,
+   "snow_in": 0.0,
+   "wind_mph": 9.0,
+   "sun_frac": 0.86
+  },
+  {
+   "month": 5,
+   "high": 81.2,
+   "low": 52.8,
+   "precip_in": 1.09,
+   "wet_days": 2.5,
+   "snow_in": 0.0,
+   "wind_mph": 10.5,
+   "sun_frac": 0.9
+  },
+  {
+   "month": 6,
+   "high": 91.0,
+   "low": 58.5,
+   "precip_in": 0.02,
+   "wet_days": 0.0,
+   "snow_in": 0.0,
+   "wind_mph": 10.9,
+   "sun_frac": 0.91
+  },
+  {
+   "month": 7,
+   "high": 101.2,
+   "low": 63.5,
+   "precip_in": 0.0,
+   "wet_days": 0.0,
+   "snow_in": 0.0,
+   "wind_mph": 9.9,
+   "sun_frac": 0.96
+  },
+  {
+   "month": 8,
+   "high": 96.3,
+   "low": 62.7,
+   "precip_in": 0.28,
+   "wet_days": 1.0,
+   "snow_in": 0.0,
+   "wind_mph": 9.7,
+   "sun_frac": 0.94
+  },
+  {
+   "month": 9,
+   "high": 89.7,
+   "low": 59.3,
+   "precip_in": 0.11,
+   "wet_days": 1.0,
+   "snow_in": 0.0,
+   "wind_mph": 8.8,
+   "sun_frac": 0.92
+  },
+  {
+   "month": 10,
+   "high": 82.1,
+   "low": 54.6,
+   "precip_in": 0.55,
+   "wet_days": 2.0,
+   "snow_in": 0.0,
+   "wind_mph": 8.2,
+   "sun_frac": 0.9
+  },
+  {
+   "month": 11,
+   "high": 63.7,
+   "low": 43.8,
+   "precip_in": 4.25,
+   "wet_days": 7.5,
+   "snow_in": 0.0,
+   "wind_mph": 8.8,
+   "sun_frac": 0.81
+  },
+  {
+   "month": 12,
+   "high": 58.0,
+   "low": 42.2,
+   "precip_in": 4.35,
+   "wet_days": 9.0,
+   "snow_in": 0.0,
+   "wind_mph": 8.2,
+   "sun_frac": 0.64
+  }
+ ],
+ "period": "2023-01-01 to 2024-12-31",
+ "wiki": {
+  "title": "Sacramento, California",
+  "url": "https://en.wikipedia.org/wiki/Sacramento,_California",
+  "intro": "Sacramento is the capital city of the U.S. state of California. The county seat of Sacramento County, it is located at the confluence of the Sacramento and American Rivers in the Sacramento Valley. It is the fourth-most populous city in Northern California, sixth-most populous city in the state, and 35th-most populous city in the United States, with a population of 524,943 at the 2020 census. The Sacramento metropolitan area, with 2.46 million residents, is the 27th-largest metropolitan area in the country.\nBefore the arrival of the Spanish, the area was inhabited by the Nisenan, Maidu, and other indigenous peoples of California. In 1808, Spanish cavalryman Gabriel Moraga surveyed and named the R\u00edo del Sant\u00edsimo Sacramento, after the Blessed Sacrament. In 1839, Juan Bautista Alvarado, Mexican governor of Alta California, granted the responsibility of colonizing the Sacramento Valley to Swiss-born Mexican citizen John Augustus Sutter, who subsequently established Sutter's Fort and the settlement at the Rancho Nueva Helvetia. Following the American Conquest of California and the 1848 Treaty of Guadalupe-Hidalgo, the waterfront developed by Sutter began to be developed and incorporated in 1850 as the City of Sacramento. In 1852, the city offered its county courthouse to the state of California to house the state legislature, resulting in the city becoming the permanent state capital in 1854 and ushering in the construction of a new state capitol building which was finished in 1874.\nSacramento is the seat of the California Legislature and the governor of California. It is a major center for the California healthcare industry, as the seat of Sutter Health, UC Davis Medical Center, and the UC Davis School of Medicine. In 2013, the Sacramento Convention and Visitors Bureau stated that the city receives 15.3 million visitors per year. The city is home to the California Museum, Crocker Art Museum, California State Railroad Museum, California State Capitol Museum, the Sacramento Convention Center Complex, and Old Sacramento State Historic Park.",
+  "climate": "Sacramento has a hot-summer Mediterranean climate, characterized by long, hot, dry summers and short, mild, rainy winters. Most of the annual precipitation generally occurs from November to April, though there may be a day or two of light rainfall in May or October. The normal annual mean temperature is 61.8 \u00b0F, with the monthly daily average temperature ranging from 47.3 \u00b0F in December to 75.9 \u00b0F in July. Summer heat is sometimes moderated by a sea breeze known as the \"delta breeze\" which comes through the Sacramento\u2013San Joaquin River Delta from the San Francisco Bay, and temperatures cool down sharply at night.\nThe foggiest months are December and January. Tule fog can be extremely dense, lowering visibility to less than 100 feet and making driving conditions extremely hazardous. Chilling tule fog events have been known to last for several consecutive days or weeks. During Tule fog events, temperatures do not exceed 50 \u00b0F.\nSnowfall is rare in Sacramento, which is only 25 ft above sea level. In the downtown area, only three significant snow accumulations have occurred since 1900, the last one being in 1976. During especially cold winter and spring storms, intense showers do occasionally produce a significant amount of hail, which can create hazardous driving conditions. Snowfall in the city often melts upon ground contact, with traceable amounts occurring in some years. Significant annual snow accumulations occur in the foothills 40 mi east of the city, which had brief and traceable amounts of snowfall in January 2002, December 2009, and February 2011. The greatest snowfall ever recorded in Sacramento was 3 inches on January 5, 1888.\nOn average, there are 76 days with a high of 90 \u00b0F +, and 14 days with a high of 100 \u00b0F +; On the other extreme, there are 8.5 days where the temperature remains below 50 \u00b0F, and 15 freezing nights per year. Official temperature extremes range from 18 \u00b0F on December 22, 1990, to 116 \u00b0F on September 6, 2022; a station around 5 mi east-southeast of the city dipped to 17 \u00b0F on December 11, 1932.\nThe average annual precipitation is 18.14 inches. On average, precipitation falls on 58 days each year in Sacramento, and nearly all of this falls during the winter months. As in much of California, precipitation is highly variable from year to year, ranging from as little as 5.81 inches in 2013 to 33.44 inches in 1983. Average January rainfall is 3.66 in, and measurable precipitation is rare during the summer months. In February 1992, Sacramento had 16 consecutive days of rain, resulting in an accumulation of 6.41 in for the period. On rare occasions, monsoonal moisture surges from the Desert Southwest can bring upper-level moisture to the Sacramento region, leading to increased summer cloudiness, humidity, and even light showers and thunderstorms. Monsoon clouds do occur, usually during late June through early September. Sacramento is the second most flood-susceptible city in the United States after New Orleans.\nSacramento has been noted as being the sunniest location on the planet for four months of the year, from June through September. It holds the distinction as the sunniest month, in terms of the percentage of possible sunshine, of anywhere in the world; July in Sacramento averages 14 hours and 12 minutes of sunshine per day, amounting to approximately 98% of possible sunshine.\nSince 2010, statewide droughts in California have further strained Sacramento's water security."
+ }
+}

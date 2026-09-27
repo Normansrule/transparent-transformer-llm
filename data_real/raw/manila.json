@@ -1,0 +1,134 @@
+{
+ "name": "Manila",
+ "admin1": "National Capital Region",
+ "country": "Philippines",
+ "country_code": "PH",
+ "lat": 14.6042,
+ "lon": 120.9822,
+ "population": 1600000,
+ "elevation_m": 13.0,
+ "climate": [
+  {
+   "month": 1,
+   "high": 85.5,
+   "low": 73.9,
+   "precip_in": 2.53,
+   "wet_days": 10.5,
+   "snow_in": 0.0,
+   "wind_mph": 9.0,
+   "sun_frac": 0.86
+  },
+  {
+   "month": 2,
+   "high": 89.0,
+   "low": 74.2,
+   "precip_in": 1.04,
+   "wet_days": 5.5,
+   "snow_in": 0.0,
+   "wind_mph": 11.4,
+   "sun_frac": 0.93
+  },
+  {
+   "month": 3,
+   "high": 90.0,
+   "low": 74.7,
+   "precip_in": 1.51,
+   "wet_days": 9.0,
+   "snow_in": 0.0,
+   "wind_mph": 11.2,
+   "sun_frac": 0.97
+  },
+  {
+   "month": 4,
+   "high": 93.7,
+   "low": 78.1,
+   "precip_in": 2.56,
+   "wet_days": 11.0,
+   "snow_in": 0.0,
+   "wind_mph": 11.8,
+   "sun_frac": 0.92
+  },
+  {
+   "month": 5,
+   "high": 92.9,
+   "low": 79.9,
+   "precip_in": 6.89,
+   "wet_days": 21.5,
+   "snow_in": 0.0,
+   "wind_mph": 11.5,
+   "sun_frac": 0.85
+  },
+  {
+   "month": 6,
+   "high": 88.7,
+   "low": 78.2,
+   "precip_in": 10.52,
+   "wet_days": 26.5,
+   "snow_in": 0.0,
+   "wind_mph": 10.0,
+   "sun_frac": 0.82
+  },
+  {
+   "month": 7,
+   "high": 87.2,
+   "low": 77.7,
+   "precip_in": 17.07,
+   "wet_days": 27.0,
+   "snow_in": 0.0,
+   "wind_mph": 11.8,
+   "sun_frac": 0.67
+  },
+  {
+   "month": 8,
+   "high": 86.7,
+   "low": 78.4,
+   "precip_in": 8.46,
+   "wet_days": 24.5,
+   "snow_in": 0.0,
+   "wind_mph": 12.5,
+   "sun_frac": 0.82
+  },
+  {
+   "month": 9,
+   "high": 86.1,
+   "low": 77.3,
+   "precip_in": 15.39,
+   "wet_days": 27.0,
+   "snow_in": 0.0,
+   "wind_mph": 10.9,
+   "sun_frac": 0.66
+  },
+  {
+   "month": 10,
+   "high": 86.1,
+   "low": 77.0,
+   "precip_in": 9.4,
+   "wet_days": 27.5,
+   "snow_in": 0.0,
+   "wind_mph": 9.1,
+   "sun_frac": 0.75
+  },
+  {
+   "month": 11,
+   "high": 88.6,
+   "low": 77.1,
+   "precip_in": 2.41,
+   "wet_days": 17.0,
+   "snow_in": 0.0,
+   "wind_mph": 8.4,
+   "sun_frac": 0.87
+  },
+  {
+   "month": 12,
+   "high": 86.8,
+   "low": 76.5,
+   "precip_in": 6.0,
+   "wet_days": 19.5,
+   "snow_in": 0.0,
+   "wind_mph": 8.5,
+   "sun_frac": 0.81
+  }
+ ],
+ "period": "2023-01-01 to 2024-12-31",
+ "wiki": null
+}

@@ -1,0 +1,139 @@
+{
+ "name": "Kyiv",
+ "admin1": "Kyiv City",
+ "country": "Ukraine",
+ "country_code": "UA",
+ "lat": 50.45466,
+ "lon": 30.5238,
+ "population": 2952301,
+ "elevation_m": 179.0,
+ "climate": [
+  {
+   "month": 1,
+   "high": 34.4,
+   "low": 25.1,
+   "precip_in": 1.43,
+   "wet_days": 10.5,
+   "snow_in": 5.6,
+   "wind_mph": 12.1,
+   "sun_frac": 0.25
+  },
+  {
+   "month": 2,
+   "high": 39.2,
+   "low": 29.6,
+   "precip_in": 1.86,
+   "wet_days": 11.0,
+   "snow_in": 5.9,
+   "wind_mph": 12.9,
+   "sun_frac": 0.39
+  },
+  {
+   "month": 3,
+   "high": 47.7,
+   "low": 32.8,
+   "precip_in": 2.47,
+   "wet_days": 10.0,
+   "snow_in": 4.8,
+   "wind_mph": 11.9,
+   "sun_frac": 0.49
+  },
+  {
+   "month": 4,
+   "high": 58.7,
+   "low": 43.8,
+   "precip_in": 3.8,
+   "wet_days": 12.5,
+   "snow_in": 0.0,
+   "wind_mph": 11.8,
+   "sun_frac": 0.53
+  },
+  {
+   "month": 5,
+   "high": 68.9,
+   "low": 49.7,
+   "precip_in": 0.51,
+   "wet_days": 2.0,
+   "snow_in": 0.0,
+   "wind_mph": 10.7,
+   "sun_frac": 0.82
+  },
+  {
+   "month": 6,
+   "high": 76.8,
+   "low": 59.6,
+   "precip_in": 3.75,
+   "wet_days": 11.5,
+   "snow_in": 0.0,
+   "wind_mph": 10.2,
+   "sun_frac": 0.77
+  },
+  {
+   "month": 7,
+   "high": 81.3,
+   "low": 63.7,
+   "precip_in": 3.59,
+   "wet_days": 11.5,
+   "snow_in": 0.0,
+   "wind_mph": 10.5,
+   "sun_frac": 0.81
+  },
+  {
+   "month": 8,
+   "high": 82.8,
+   "low": 62.9,
+   "precip_in": 1.17,
+   "wet_days": 4.5,
+   "snow_in": 0.0,
+   "wind_mph": 9.5,
+   "sun_frac": 0.89
+  },
+  {
+   "month": 9,
+   "high": 75.8,
+   "low": 57.5,
+   "precip_in": 0.59,
+   "wet_days": 4.5,
+   "snow_in": 0.0,
+   "wind_mph": 10.3,
+   "sun_frac": 0.84
+  },
+  {
+   "month": 10,
+   "high": 58.6,
+   "low": 45.4,
+   "precip_in": 2.79,
+   "wet_days": 8.0,
+   "snow_in": 0.0,
+   "wind_mph": 12.2,
+   "sun_frac": 0.6
+  },
+  {
+   "month": 11,
+   "high": 42.5,
+   "low": 33.6,
+   "precip_in": 3.35,
+   "wet_days": 10.5,
+   "snow_in": 6.8,
+   "wind_mph": 12.4,
+   "sun_frac": 0.37
+  },
+  {
+   "month": 12,
+   "high": 35.5,
+   "low": 29.3,
+   "precip_in": 2.29,
+   "wet_days": 10.0,
+   "snow_in": 8.2,
+   "wind_mph": 10.8,
+   "sun_frac": 0.23
+  }
+ ],
+ "period": "2023-01-01 to 2024-12-31",
+ "wiki": {
+  "title": "Kyiv",
+  "url": "https://en.wikipedia.org/wiki/Kyiv",
+  "intro": "Kyiv, also spelt Kiev, is the capital and most populous city of Ukraine. Located in the north-central part of the country, it straddles both banks of the Dnieper River. As of January 2022, the population of Kyiv was 2,952,301, making it the seventh-most populous city in Europe. Kyiv is an important industrial, scientific, educational, and cultural center. It is home to high-tech industries, higher education institutions, and historical landmarks. The city has an extensive public transport system, which includes the Kyiv Metro.\nThe city's name is said to derive from the name of Kyi, one of its four legendary founders. One of the oldest cities in Eastern Europe, during its history, it has passed through several stages of prominence and obscurity. It probably existed as a commercial center as early as the 5th century. A Slavic settlement on the great trade route between Scandinavia and Constantinople, it was a tributary of the Khazars, until its capture by the Varangians in the mid-9th century. Under Varangian rule, the city became a capital of Kievan Rus', the first East Slavic state. During the Siege of Kiev, Kyiv was left in ruins; it lost most of its influence for the centuries to come.\nKyiv grew into a centre of Eastern Orthodox learning during the 16th century. It prospered during the Russian Empire's Industrial Revolution in the late 19th century, becoming a centre of industry, commerce, and administration. In 1918, the Ukrainian People's Republic declared independence from the Russian Republic after the October Revolution, and Kyiv became the new republic's capital. Following the Ukrainian-Soviet and Polish-Soviet wars, Kyiv became part of the Ukrainian SSR, of which it became the capital in 1934. The city suffered significant destruction during World War II, but recovered after the war as the Soviet Union's third-largest city.\nFollowing the collapse of the Soviet Union and Ukrainian independence in 1991, during the country's transformation into a market economy and electoral democracy, Kyiv has continued to be Ukraine's largest and wealthiest city. It has lost its dependence on the armaments industry, which has adversely affected the city's science and technology sectors, but the growth of the services and finance sectors has facilitated funding for the development of housing and urban infrastructure.",
+  "climate": "Kyiv has a warm-summer humid continental climate. The warmest months are June, July, and August, with mean temperatures of 13.8 to 24.8 \u00b0C. The coldest are December, January, and February, with mean temperatures of \u22124.6 to \u22121.1 \u00b0C. The highest ever temperature recorded in the city was 39.4 \u00b0C on 30 July 1936.\nThe coldest temperature ever recorded in the city was \u221232.9 \u00b0C on 11 January 1951. Snow cover usually lies from mid-November to the end of March, with the frost-free period lasting 180 days on average, but surpassing 200 days in some years."
+ }
+}

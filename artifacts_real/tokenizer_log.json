@@ -1,0 +1,6122 @@
+[
+ {
+  "step": 1,
+  "left": " ",
+  "right": "i",
+  "new": " i",
+  "new_id": 256,
+  "count": 21773
+ },
+ {
+  "step": 2,
+  "left": " ",
+  "right": "a",
+  "new": " a",
+  "new_id": 257,
+  "count": 21030
+ },
+ {
+  "step": 3,
+  "left": "h",
+  "right": "e",
+  "new": "he",
+  "new_id": 258,
+  "count": 11786
+ },
+ {
+  "step": 4,
+  "left": "o",
+  "right": "u",
+  "new": "ou",
+  "new_id": 259,
+  "count": 11255
+ },
+ {
+  "step": 5,
+  "left": " i",
+  "right": "s",
+  "new": " is",
+  "new_id": 260,
+  "count": 10189
+ },
+ {
+  "step": 6,
+  "left": " i",
+  "right": "n",
+  "new": " in",
+  "new_id": 261,
+  "count": 10035
+ },
+ {
+  "step": 7,
+  "left": "ou",
+  "right": "t",
+  "new": "out",
+  "new_id": 262,
+  "count": 8723
+ },
+ {
+  "step": 8,
+  "left": " a",
+  "right": "b",
+  "new": " ab",
+  "new_id": 263,
+  "count": 8611
+ },
+ {
+  "step": 9,
+  "left": " ab",
+  "right": "out",
+  "new": " about",
+  "new_id": 264,
+  "count": 8604
+ },
+ {
+  "step": 10,
+  "left": "e",
+  "right": "s",
+  "new": "es",
+  "new_id": 265,
+  "count": 8594
+ },
+ {
+  "step": 11,
+  "left": " ",
+  "right": "d",
+  "new": " d",
+  "new_id": 266,
+  "count": 8393
+ },
+ {
+  "step": 12,
+  "left": " ",
+  "right": "t",
+  "new": " t",
+  "new_id": 267,
+  "count": 8263
+ },
+ {
+  "step": 13,
+  "left": "r",
+  "right": "e",
+  "new": "re",
+  "new_id": 268,
+  "count": 8203
+ },
+ {
+  "step": 14,
+  "left": "e",
+  "right": "r",
+  "new": "er",
+  "new_id": 269,
+  "count": 7769
+ },
+ {
+  "step": 15,
+  "left": "n",
+  "right": "d",
+  "new": "nd",
+  "new_id": 270,
+  "count": 7505
+ },
+ {
+  "step": 16,
+  "left": "g",
+  "right": "h",
+  "new": "gh",
+  "new_id": 271,
+  "count": 7456
+ },
+ {
+  "step": 17,
+  "left": "a",
+  "right": "r",
+  "new": "ar",
+  "new_id": 272,
+  "count": 7436
+ },
+ {
+  "step": 18,
+  "left": "i",
+  "right": "gh",
+  "new": "igh",
+  "new_id": 273,
+  "count": 7246
+ },
+ {
+  "step": 19,
+  "left": " a",
+  "right": "nd",
+  "new": " and",
+  "new_id": 274,
+  "count": 6621
+ },
+ {
+  "step": 20,
+  "left": " ",
+  "right": "h",
+  "new": " h",
+  "new_id": 275,
+  "count": 6487
+ },
+ {
+  "step": 21,
+  "left": " ",
+  "right": "c",
+  "new": " c",
+  "new_id": 276,
+  "count": 6384
+ },
+ {
+  "step": 22,
+  "left": " t",
+  "right": "he",
+  "new": " the",
+  "new_id": 277,
+  "count": 5899
+ },
+ {
+  "step": 23,
+  "left": "a",
+  "right": "l",
+  "new": "al",
+  "new_id": 278,
+  "count": 5708
+ },
+ {
+  "step": 24,
+  "left": "o",
+  "right": "w",
+  "new": "ow",
+  "new_id": 279,
+  "count": 5585
+ },
+ {
+  "step": 25,
+  "left": "l",
+  "right": "y",
+  "new": "ly",
+  "new_id": 280,
+  "count": 5412
+ },
+ {
+  "step": 26,
+  "left": "e",
+  "right": "g",
+  "new": "eg",
+  "new_id": 281,
+  "count": 5403
+ },
+ {
+  "step": 27,
+  "left": " h",
+  "right": "igh",
+  "new": " high",
+  "new_id": 282,
+  "count": 5280
+ },
+ {
+  "step": 28,
+  "left": "re",
+  "right": "es",
+  "new": "rees",
+  "new_id": 283,
+  "count": 5247
+ },
+ {
+  "step": 29,
+  "left": " d",
+  "right": "eg",
+  "new": " deg",
+  "new_id": 284,
+  "count": 5244
+ },
+ {
+  "step": 30,
+  "left": " deg",
+  "right": "rees",
+  "new": " degrees",
+  "new_id": 285,
+  "count": 5244
+ },
+ {
+  "step": 31,
+  "left": " ",
+  "right": "n",
+  "new": " n",
+  "new_id": 286,
+  "count": 4925
+ },
+ {
+  "step": 32,
+  "left": "i",
+  "right": "n",
+  "new": "in",
+  "new_id": 287,
+  "count": 4644
+ },
+ {
+  "step": 33,
+  "left": " ",
+  "right": "l",
+  "new": " l",
+  "new_id": 288,
+  "count": 4143
+ },
+ {
+  "step": 34,
+  "left": " l",
+  "right": "ow",
+  "new": " low",
+  "new_id": 289,
+  "count": 3840
+ },
+ {
+  "step": 35,
+  "left": "s",
+  "right": "u",
+  "new": "su",
+  "new_id": 290,
+  "count": 3830
+ },
+ {
+  "step": 36,
+  "left": "a",
+  "right": "n",
+  "new": "an",
+  "new_id": 291,
+  "count": 3688
+ },
+ {
+  "step": 37,
+  "left": " ",
+  "right": "w",
+  "new": " w",
+  "new_id": 292,
+  "count": 3677
+ },
+ {
+  "step": 38,
+  "left": "o",
+  "right": "l",
+  "new": "ol",
+  "new_id": 293,
+  "count": 3517
+ },
+ {
+  "step": 39,
+  "left": "g",
+  "right": "e",
+  "new": "ge",
+  "new_id": 294,
+  "count": 3512
+ },
+ {
+  "step": 40,
+  "left": "v",
+  "right": "er",
+  "new": "ver",
+  "new_id": 295,
+  "count": 3268
+ },
+ {
+  "step": 41,
+  "left": "o",
+  "right": "n",
+  "new": "on",
+  "new_id": 296,
+  "count": 3259
+ },
+ {
+  "step": 42,
+  "left": "r",
+  "right": "a",
+  "new": "ra",
+  "new_id": 297,
+  "count": 2881
+ },
+ {
+  "step": 43,
+  "left": "t",
+  "right": "h",
+  "new": "th",
+  "new_id": 298,
+  "count": 2878
+ },
+ {
+  "step": 44,
+  "left": "o",
+  "right": "r",
+  "new": "or",
+  "new_id": 299,
+  "count": 2692
+ },
+ {
+  "step": 45,
+  "left": " ",
+  "right": "u",
+  "new": " u",
+  "new_id": 300,
+  "count": 2621
+ },
+ {
+  "step": 46,
+  "left": "al",
+  "right": "ly",
+  "new": "ally",
+  "new_id": 301,
+  "count": 2604
+ },
+ {
+  "step": 47,
+  "left": " ",
+  "right": "ra",
+  "new": " ra",
+  "new_id": 302,
+  "count": 2593
+ },
+ {
+  "step": 48,
+  "left": " u",
+  "right": "su",
+  "new": " usu",
+  "new_id": 303,
+  "count": 2567
+ },
+ {
+  "step": 49,
+  "left": "a",
+  "right": "y",
+  "new": "ay",
+  "new_id": 304,
+  "count": 2558
+ },
+ {
+  "step": 50,
+  "left": " usu",
+  "right": "ally",
+  "new": " usually",
+  "new_id": 305,
+  "count": 2555
+ },
+ {
+  "step": 51,
+  "left": " ",
+  "right": "I",
+  "new": " I",
+  "new_id": 306,
+  "count": 2548
+ },
+ {
+  "step": 52,
+  "left": " ",
+  "right": "6",
+  "new": " 6",
+  "new_id": 307,
+  "count": 2531
+ },
+ {
+  "step": 53,
+  "left": " ",
+  "right": "7",
+  "new": " 7",
+  "new_id": 308,
+  "count": 2518
+ },
+ {
+  "step": 54,
+  "left": " ",
+  "right": "J",
+  "new": " J",
+  "new_id": 309,
+  "count": 2518
+ },
+ {
+  "step": 55,
+  "left": " c",
+  "right": "l",
+  "new": " cl",
+  "new_id": 310,
+  "count": 2508
+ },
+ {
+  "step": 56,
+  "left": "T",
+  "right": "he",
+  "new": "The",
+  "new_id": 311,
+  "count": 2506
+ },
+ {
+  "step": 57,
+  "left": " ",
+  "right": "m",
+  "new": " m",
+  "new_id": 312,
+  "count": 2480
+ },
+ {
+  "step": 58,
+  "left": "a",
+  "right": "ge",
+  "new": "age",
+  "new_id": 313,
+  "count": 2469
+ },
+ {
+  "step": 59,
+  "left": "he",
+  "right": "s",
+  "new": "hes",
+  "new_id": 314,
+  "count": 2457
+ },
+ {
+  "step": 60,
+  "left": "c",
+  "right": "hes",
+  "new": "ches",
+  "new_id": 315,
+  "count": 2452
+ },
+ {
+  "step": 61,
+  "left": " a",
+  "right": "ver",
+  "new": " aver",
+  "new_id": 316,
+  "count": 2412
+ },
+ {
+  "step": 62,
+  "left": " aver",
+  "right": "age",
+  "new": " average",
+  "new_id": 317,
+  "count": 2402
+ },
+ {
+  "step": 63,
+  "left": "a",
+  "right": "t",
+  "new": "at",
+  "new_id": 318,
+  "count": 2356
+ },
+ {
+  "step": 64,
+  "left": " c",
+  "right": "o",
+  "new": " co",
+  "new_id": 319,
+  "count": 2354
+ },
+ {
+  "step": 65,
+  "left": " ra",
+  "right": "in",
+  "new": " rain",
+  "new_id": 320,
+  "count": 2338
+ },
+ {
+  "step": 66,
+  "left": " ",
+  "right": "5",
+  "new": " 5",
+  "new_id": 321,
+  "count": 2284
+ },
+ {
+  "step": 67,
+  "left": " co",
+  "right": "ol",
+  "new": " cool",
+  "new_id": 322,
+  "count": 2283
+ },
+ {
+  "step": 68,
+  "left": " ",
+  "right": "p",
+  "new": " p",
+  "new_id": 323,
+  "count": 2281
+ },
+ {
+  "step": 69,
+  "left": " ",
+  "right": "S",
+  "new": " S",
+  "new_id": 324,
+  "count": 2269
+ },
+ {
+  "step": 70,
+  "left": "b",
+  "right": "er",
+  "new": "ber",
+  "new_id": 325,
+  "count": 2134
+ },
+ {
+  "step": 71,
+  "left": " t",
+  "right": "o",
+  "new": " to",
+  "new_id": 326,
+  "count": 2094
+ },
+ {
+  "step": 72,
+  "left": " ",
+  "right": "M",
+  "new": " M",
+  "new_id": 327,
+  "count": 2091
+ },
+ {
+  "step": 73,
+  "left": " ",
+  "right": "A",
+  "new": " A",
+  "new_id": 328,
+  "count": 2045
+ },
+ {
+  "step": 74,
+  "left": "re",
+  "right": "a",
+  "new": "rea",
+  "new_id": 329,
+  "count": 2026
+ },
+ {
+  "step": 75,
+  "left": "e",
+  "right": "ar",
+  "new": "ear",
+  "new_id": 330,
+  "count": 1982
+ },
+ {
+  "step": 76,
+  "left": " a",
+  "right": "t",
+  "new": " at",
+  "new_id": 331,
+  "count": 1973
+ },
+ {
+  "step": 77,
+  "left": " d",
+  "right": "ay",
+  "new": " day",
+  "new_id": 332,
+  "count": 1967
+ },
+ {
+  "step": 78,
+  "left": "igh",
+  "right": "t",
+  "new": "ight",
+  "new_id": 333,
+  "count": 1952
+ },
+ {
+  "step": 79,
+  "left": "or",
+  "right": "m",
+  "new": "orm",
+  "new_id": 334,
+  "count": 1950
+ },
+ {
+  "step": 80,
+  "left": "ar",
+  "right": "t",
+  "new": "art",
+  "new_id": 335,
+  "count": 1933
+ },
+ {
+  "step": 81,
+  "left": " cool",
+  "right": "s",
+  "new": " cools",
+  "new_id": 336,
+  "count": 1920
+ },
+ {
+  "step": 82,
+  "left": " I",
+  "right": "t",
+  "new": " It",
+  "new_id": 337,
+  "count": 1918
+ },
+ {
+  "step": 83,
+  "left": " n",
+  "right": "ight",
+  "new": " night",
+  "new_id": 338,
+  "count": 1915
+ },
+ {
+  "step": 84,
+  "left": "I",
+  "right": "n",
+  "new": "In",
+  "new_id": 339,
+  "count": 1913
+ },
+ {
+  "step": 85,
+  "left": " ",
+  "right": "The",
+  "new": " The",
+  "new_id": 340,
+  "count": 1912
+ },
+ {
+  "step": 86,
+  "left": " ",
+  "right": "rea",
+  "new": " rea",
+  "new_id": 341,
+  "count": 1911
+ },
+ {
+  "step": 87,
+  "left": " n",
+  "right": "orm",
+  "new": " norm",
+  "new_id": 342,
+  "count": 1910
+ },
+ {
+  "step": 88,
+  "left": " norm",
+  "right": "al",
+  "new": " normal",
+  "new_id": 343,
+  "count": 1910
+ },
+ {
+  "step": 89,
+  "left": " rea",
+  "right": "ches",
+  "new": " reaches",
+  "new_id": 344,
+  "count": 1908
+ },
+ {
+  "step": 90,
+  "left": "ou",
+  "right": "d",
+  "new": "oud",
+  "new_id": 345,
+  "count": 1872
+ },
+ {
+  "step": 91,
+  "left": " cl",
+  "right": "oud",
+  "new": " cloud",
+  "new_id": 346,
+  "count": 1872
+ },
+ {
+  "step": 92,
+  "left": " ",
+  "right": "4",
+  "new": " 4",
+  "new_id": 347,
+  "count": 1865
+ },
+ {
+  "step": 93,
+  "left": " p",
+  "right": "art",
+  "new": " part",
+  "new_id": 348,
+  "count": 1854
+ },
+ {
+  "step": 94,
+  "left": " cloud",
+  "right": "y",
+  "new": " cloudy",
+  "new_id": 349,
+  "count": 1835
+ },
+ {
+  "step": 95,
+  "left": " part",
+  "right": "ly",
+  "new": " partly",
+  "new_id": 350,
+  "count": 1832
+ },
+ {
+  "step": 96,
+  "left": " rain",
+  "right": "y",
+  "new": " rainy",
+  "new_id": 351,
+  "count": 1829
+ },
+ {
+  "step": 97,
+  "left": " ",
+  "right": "s",
+  "new": " s",
+  "new_id": 352,
+  "count": 1778
+ },
+ {
+  "step": 98,
+  "left": " ",
+  "right": "8",
+  "new": " 8",
+  "new_id": 353,
+  "count": 1773
+ },
+ {
+  "step": 99,
+  "left": "e",
+  "right": "m",
+  "new": "em",
+  "new_id": 354,
+  "count": 1724
+ },
+ {
+  "step": 100,
+  "left": "i",
+  "right": "l",
+  "new": "il",
+  "new_id": 355,
+  "count": 1716
+ },
+ {
+  "step": 101,
+  "left": "es",
+  "right": "t",
+  "new": "est",
+  "new_id": 356,
+  "count": 1678
+ },
+ {
+  "step": 102,
+  "left": " ",
+  "right": "o",
+  "new": " o",
+  "new_id": 357,
+  "count": 1634
+ },
+ {
+  "step": 103,
+  "left": "em",
+  "right": "ber",
+  "new": "ember",
+  "new_id": 358,
+  "count": 1595
+ },
+ {
+  "step": 104,
+  "left": "i",
+  "right": "t",
+  "new": "it",
+  "new_id": 359,
+  "count": 1592
+ },
+ {
+  "step": 105,
+  "left": "ar",
+  "right": "y",
+  "new": "ary",
+  "new_id": 360,
+  "count": 1565
+ },
+ {
+  "step": 106,
+  "left": " o",
+  "right": "f",
+  "new": " of",
+  "new_id": 361,
+  "count": 1550
+ },
+ {
+  "step": 107,
+  "left": " i",
+  "right": "t",
+  "new": " it",
+  "new_id": 362,
+  "count": 1533
+ },
+ {
+  "step": 108,
+  "left": "n",
+  "right": "ow",
+  "new": "now",
+  "new_id": 363,
+  "count": 1516
+ },
+ {
+  "step": 109,
+  "left": "u",
+  "right": "ary",
+  "new": "uary",
+  "new_id": 364,
+  "count": 1490
+ },
+ {
+  "step": 110,
+  "left": " m",
+  "right": "on",
+  "new": " mon",
+  "new_id": 365,
+  "count": 1457
+ },
+ {
+  "step": 111,
+  "left": " mon",
+  "right": "th",
+  "new": " month",
+  "new_id": 366,
+  "count": 1451
+ },
+ {
+  "step": 112,
+  "left": "s",
+  "right": "t",
+  "new": "st",
+  "new_id": 367,
+  "count": 1430
+ },
+ {
+  "step": 113,
+  "left": " J",
+  "right": "u",
+  "new": " Ju",
+  "new_id": 368,
+  "count": 1378
+ },
+ {
+  "step": 114,
+  "left": " s",
+  "right": "now",
+  "new": " snow",
+  "new_id": 369,
+  "count": 1228
+ },
+ {
+  "step": 115,
+  "left": " ",
+  "right": "C",
+  "new": " C",
+  "new_id": 370,
+  "count": 1210
+ },
+ {
+  "step": 116,
+  "left": "o",
+  "right": "t",
+  "new": "ot",
+  "new_id": 371,
+  "count": 1187
+ },
+ {
+  "step": 117,
+  "left": " ",
+  "right": "su",
+  "new": " su",
+  "new_id": 372,
+  "count": 1170
+ },
+ {
+  "step": 118,
+  "left": " w",
+  "right": "i",
+  "new": " wi",
+  "new_id": 373,
+  "count": 1170
+ },
+ {
+  "step": 119,
+  "left": " wi",
+  "right": "th",
+  "new": " with",
+  "new_id": 374,
+  "count": 1152
+ },
+ {
+  "step": 120,
+  "left": " w",
+  "right": "e",
+  "new": " we",
+  "new_id": 375,
+  "count": 1086
+ },
+ {
+  "step": 121,
+  "left": " ",
+  "right": "3",
+  "new": " 3",
+  "new_id": 376,
+  "count": 1081
+ },
+ {
+  "step": 122,
+  "left": " ",
+  "right": "N",
+  "new": " N",
+  "new_id": 377,
+  "count": 1054
+ },
+ {
+  "step": 123,
+  "left": " ",
+  "right": "y",
+  "new": " y",
+  "new_id": 378,
+  "count": 1017
+ },
+ {
+  "step": 124,
+  "left": "t",
+  "right": "er",
+  "new": "ter",
+  "new_id": 379,
+  "count": 1012
+ },
+ {
+  "step": 125,
+  "left": "c",
+  "right": "h",
+  "new": "ch",
+  "new_id": 380,
+  "count": 1001
+ },
+ {
+  "step": 126,
+  "left": " h",
+  "right": "ot",
+  "new": " hot",
+  "new_id": 381,
+  "count": 998
+ },
+ {
+  "step": 127,
+  "left": " ",
+  "right": "D",
+  "new": " D",
+  "new_id": 382,
+  "count": 994
+ },
+ {
+  "step": 128,
+  "left": " y",
+  "right": "ear",
+  "new": " year",
+  "new_id": 383,
+  "count": 992
+ },
+ {
+  "step": 129,
+  "left": "r",
+  "right": "y",
+  "new": "ry",
+  "new_id": 384,
+  "count": 989
+ },
+ {
+  "step": 130,
+  "left": "i",
+  "right": "m",
+  "new": "im",
+  "new_id": 385,
+  "count": 979
+ },
+ {
+  "step": 131,
+  "left": " n",
+  "right": "ear",
+  "new": " near",
+  "new_id": 386,
+  "count": 979
+ },
+ {
+  "step": 132,
+  "left": " J",
+  "right": "an",
+  "new": " Jan",
+  "new_id": 387,
+  "count": 958
+ },
+ {
+  "step": 133,
+  "left": "t",
+  "right": "est",
+  "new": "test",
+  "new_id": 388,
+  "count": 957
+ },
+ {
+  "step": 134,
+  "left": " high",
+  "right": "s",
+  "new": " highs",
+  "new_id": 389,
+  "count": 956
+ },
+ {
+  "step": 135,
+  "left": " d",
+  "right": "ry",
+  "new": " dry",
+  "new_id": 390,
+  "count": 951
+ },
+ {
+  "step": 136,
+  "left": " ",
+  "right": "P",
+  "new": " P",
+  "new_id": 391,
+  "count": 935
+ },
+ {
+  "step": 137,
+  "left": " ",
+  "right": "O",
+  "new": " O",
+  "new_id": 392,
+  "count": 898
+ },
+ {
+  "step": 138,
+  "left": " Jan",
+  "right": "uary",
+  "new": " January",
+  "new_id": 393,
+  "count": 898
+ },
+ {
+  "step": 139,
+  "left": " ",
+  "right": "F",
+  "new": " F",
+  "new_id": 394,
+  "count": 896
+ },
+ {
+  "step": 140,
+  "left": "e",
+  "right": "n",
+  "new": "en",
+  "new_id": 395,
+  "count": 855
+ },
+ {
+  "step": 141,
+  "left": "t",
+  "right": "s",
+  "new": "ts",
+  "new_id": 396,
+  "count": 842
+ },
+ {
+  "step": 142,
+  "left": " Ju",
+  "right": "ly",
+  "new": " July",
+  "new_id": 397,
+  "count": 833
+ },
+ {
+  "step": 143,
+  "left": " ",
+  "right": "B",
+  "new": " B",
+  "new_id": 398,
+  "count": 829
+ },
+ {
+  "step": 144,
+  "left": "t",
+  "right": "o",
+  "new": "to",
+  "new_id": 399,
+  "count": 808
+ },
+ {
+  "step": 145,
+  "left": "in",
+  "right": "ter",
+  "new": "inter",
+  "new_id": 400,
+  "count": 808
+ },
+ {
+  "step": 146,
+  "left": "a",
+  "right": "s",
+  "new": "as",
+  "new_id": 401,
+  "count": 803
+ },
+ {
+  "step": 147,
+  "left": " w",
+  "right": "inter",
+  "new": " winter",
+  "new_id": 402,
+  "count": 799
+ },
+ {
+  "step": 148,
+  "left": " A",
+  "right": "u",
+  "new": " Au",
+  "new_id": 403,
+  "count": 783
+ },
+ {
+  "step": 149,
+  "left": "at",
+  "right": "e",
+  "new": "ate",
+  "new_id": 404,
+  "count": 782
+ },
+ {
+  "step": 150,
+  "left": "g",
+  "right": "u",
+  "new": "gu",
+  "new_id": 405,
+  "count": 752
+ },
+ {
+  "step": 151,
+  "left": "l",
+  "right": "e",
+  "new": "le",
+  "new_id": 406,
+  "count": 749
+ },
+ {
+  "step": 152,
+  "left": " N",
+  "right": "o",
+  "new": " No",
+  "new_id": 407,
+  "count": 748
+ },
+ {
+  "step": 153,
+  "left": "n",
+  "right": "e",
+  "new": "ne",
+  "new_id": 408,
+  "count": 743
+ },
+ {
+  "step": 154,
+  "left": " ",
+  "right": "ge",
+  "new": " ge",
+  "new_id": 409,
+  "count": 740
+ },
+ {
+  "step": 155,
+  "left": "i",
+  "right": "s",
+  "new": "is",
+  "new_id": 410,
+  "count": 731
+ },
+ {
+  "step": 156,
+  "left": "ol",
+  "right": "d",
+  "new": "old",
+  "new_id": 411,
+  "count": 724
+ },
+ {
+  "step": 157,
+  "left": " ge",
+  "right": "ts",
+  "new": " gets",
+  "new_id": 412,
+  "count": 723
+ },
+ {
+  "step": 158,
+  "left": " c",
+  "right": "old",
+  "new": " cold",
+  "new_id": 413,
+  "count": 718
+ },
+ {
+  "step": 159,
+  "left": "it",
+  "right": "y",
+  "new": "ity",
+  "new_id": 414,
+  "count": 712
+ },
+ {
+  "step": 160,
+  "left": "l",
+  "right": "a",
+  "new": "la",
+  "new_id": 415,
+  "count": 683
+ },
+ {
+  "step": 161,
+  "left": " S",
+  "right": "e",
+  "new": " Se",
+  "new_id": 416,
+  "count": 671
+ },
+ {
+  "step": 162,
+  "left": " Au",
+  "right": "gu",
+  "new": " Augu",
+  "new_id": 417,
+  "count": 670
+ },
+ {
+  "step": 163,
+  "left": " Augu",
+  "right": "st",
+  "new": " August",
+  "new_id": 418,
+  "count": 670
+ },
+ {
+  "step": 164,
+  "left": " m",
+  "right": "il",
+  "new": " mil",
+  "new_id": 419,
+  "count": 669
+ },
+ {
+  "step": 165,
+  "left": "e",
+  "right": "c",
+  "new": "ec",
+  "new_id": 420,
+  "count": 656
+ },
+ {
+  "step": 166,
+  "left": "r",
+  "right": "o",
+  "new": "ro",
+  "new_id": 421,
+  "count": 651
+ },
+ {
+  "step": 167,
+  "left": "he",
+  "right": "r",
+  "new": "her",
+  "new_id": 422,
+  "count": 641
+ },
+ {
+  "step": 168,
+  "left": "im",
+  "right": "ate",
+  "new": "imate",
+  "new_id": 423,
+  "count": 640
+ },
+ {
+  "step": 169,
+  "left": " ",
+  "right": "2",
+  "new": " 2",
+  "new_id": 424,
+  "count": 622
+ },
+ {
+  "step": 170,
+  "left": "p",
+  "right": "r",
+  "new": "pr",
+  "new_id": 425,
+  "count": 618
+ },
+ {
+  "step": 171,
+  "left": " ",
+  "right": "9",
+  "new": " 9",
+  "new_id": 426,
+  "count": 615
+ },
+ {
+  "step": 172,
+  "left": " cl",
+  "right": "imate",
+  "new": " climate",
+  "new_id": 427,
+  "count": 607
+ },
+ {
+  "step": 173,
+  "left": "m",
+  "right": "er",
+  "new": "mer",
+  "new_id": 428,
+  "count": 604
+ },
+ {
+  "step": 174,
+  "left": " mil",
+  "right": "d",
+  "new": " mild",
+  "new_id": 429,
+  "count": 599
+ },
+ {
+  "step": 175,
+  "left": "b",
+  "right": "r",
+  "new": "br",
+  "new_id": 430,
+  "count": 597
+ },
+ {
+  "step": 176,
+  "left": " M",
+  "right": "ar",
+  "new": " Mar",
+  "new_id": 431,
+  "count": 594
+ },
+ {
+  "step": 177,
+  "left": " F",
+  "right": "e",
+  "new": " Fe",
+  "new_id": 432,
+  "count": 592
+ },
+ {
+  "step": 178,
+  "left": "br",
+  "right": "uary",
+  "new": "bruary",
+  "new_id": 433,
+  "count": 591
+ },
+ {
+  "step": 179,
+  "left": " Fe",
+  "right": "bruary",
+  "new": " February",
+  "new_id": 434,
+  "count": 591
+ },
+ {
+  "step": 180,
+  "left": "m",
+  "right": "mer",
+  "new": "mmer",
+  "new_id": 435,
+  "count": 584
+ },
+ {
+  "step": 181,
+  "left": "at",
+  "right": "her",
+  "new": "ather",
+  "new_id": 436,
+  "count": 574
+ },
+ {
+  "step": 182,
+  "left": " ",
+  "right": "L",
+  "new": " L",
+  "new_id": 437,
+  "count": 572
+ },
+ {
+  "step": 183,
+  "left": " we",
+  "right": "ather",
+  "new": " weather",
+  "new_id": 438,
+  "count": 572
+ },
+ {
+  "step": 184,
+  "left": "b",
+  "right": "u",
+  "new": "bu",
+  "new_id": 439,
+  "count": 571
+ },
+ {
+  "step": 185,
+  "left": "e",
+  "right": "l",
+  "new": "el",
+  "new_id": 440,
+  "count": 566
+ },
+ {
+  "step": 186,
+  "left": " su",
+  "right": "mmer",
+  "new": " summer",
+  "new_id": 441,
+  "count": 559
+ },
+ {
+  "step": 187,
+  "left": " D",
+  "right": "ec",
+  "new": " Dec",
+  "new_id": 442,
+  "count": 554
+ },
+ {
+  "step": 188,
+  "left": " Dec",
+  "right": "ember",
+  "new": " December",
+  "new_id": 443,
+  "count": 554
+ },
+ {
+  "step": 189,
+  "left": "n",
+  "right": "n",
+  "new": "nn",
+  "new_id": 444,
+  "count": 551
+ },
+ {
+  "step": 190,
+  "left": "a",
+  "right": "p",
+  "new": "ap",
+  "new_id": 445,
+  "count": 550
+ },
+ {
+  "step": 191,
+  "left": " Mar",
+  "right": "ch",
+  "new": " March",
+  "new_id": 446,
+  "count": 545
+ },
+ {
+  "step": 192,
+  "left": "p",
+  "right": "t",
+  "new": "pt",
+  "new_id": 447,
+  "count": 544
+ },
+ {
+  "step": 193,
+  "left": " Ju",
+  "right": "ne",
+  "new": " June",
+  "new_id": 448,
+  "count": 544
+ },
+ {
+  "step": 194,
+  "left": " O",
+  "right": "c",
+  "new": " Oc",
+  "new_id": 449,
+  "count": 539
+ },
+ {
+  "step": 195,
+  "left": " M",
+  "right": "ay",
+  "new": " May",
+  "new_id": 450,
+  "count": 536
+ },
+ {
+  "step": 196,
+  "left": " A",
+  "right": "pr",
+  "new": " Apr",
+  "new_id": 451,
+  "count": 536
+ },
+ {
+  "step": 197,
+  "left": " su",
+  "right": "nn",
+  "new": " sunn",
+  "new_id": 452,
+  "count": 536
+ },
+ {
+  "step": 198,
+  "left": " Apr",
+  "right": "il",
+  "new": " April",
+  "new_id": 453,
+  "count": 536
+ },
+ {
+  "step": 199,
+  "left": " Se",
+  "right": "pt",
+  "new": " Sept",
+  "new_id": 454,
+  "count": 534
+ },
+ {
+  "step": 200,
+  "left": " sunn",
+  "right": "y",
+  "new": " sunny",
+  "new_id": 455,
+  "count": 534
+ },
+ {
+  "step": 201,
+  "left": " Sept",
+  "right": "ember",
+  "new": " September",
+  "new_id": 456,
+  "count": 534
+ },
+ {
+  "step": 202,
+  "left": "to",
+  "right": "ber",
+  "new": "tober",
+  "new_id": 457,
+  "count": 528
+ },
+ {
+  "step": 203,
+  "left": " Oc",
+  "right": "tober",
+  "new": " October",
+  "new_id": 458,
+  "count": 527
+ },
+ {
+  "step": 204,
+  "left": "in",
+  "right": "g",
+  "new": "ing",
+  "new_id": 459,
+  "count": 513
+ },
+ {
+  "step": 205,
+  "left": "v",
+  "right": "ember",
+  "new": "vember",
+  "new_id": 460,
+  "count": 507
+ },
+ {
+  "step": 206,
+  "left": " No",
+  "right": "vember",
+  "new": " November",
+  "new_id": 461,
+  "count": 504
+ },
+ {
+  "step": 207,
+  "left": " we",
+  "right": "t",
+  "new": " wet",
+  "new_id": 462,
+  "count": 501
+ },
+ {
+  "step": 208,
+  "left": " snow",
+  "right": "y",
+  "new": " snowy",
+  "new_id": 463,
+  "count": 488
+ },
+ {
+  "step": 209,
+  "left": " in",
+  "right": "ches",
+  "new": " inches",
+  "new_id": 464,
+  "count": 484
+ },
+ {
+  "step": 210,
+  "left": "o",
+  "right": "es",
+  "new": "oes",
+  "new_id": 465,
+  "count": 480
+ },
+ {
+  "step": 211,
+  "left": " wet",
+  "right": "test",
+  "new": " wettest",
+  "new_id": 466,
+  "count": 480
+ },
+ {
+  "step": 212,
+  "left": " cold",
+  "right": "est",
+  "new": " coldest",
+  "new_id": 467,
+  "count": 479
+ },
+ {
+  "step": 213,
+  "left": " I",
+  "right": "n",
+  "new": " In",
+  "new_id": 468,
+  "count": 478
+ },
+ {
+  "step": 214,
+  "left": "D",
+  "right": "oes",
+  "new": "Does",
+  "new_id": 469,
+  "count": 477
+ },
+ {
+  "step": 215,
+  "left": "O",
+  "right": "ver",
+  "new": "Over",
+  "new_id": 470,
+  "count": 477
+ },
+ {
+  "step": 216,
+  "left": " hot",
+  "right": "test",
+  "new": " hottest",
+  "new_id": 471,
+  "count": 477
+ },
+ {
+  "step": 217,
+  "left": "a",
+  "right": "i",
+  "new": "ai",
+  "new_id": 472,
+  "count": 465
+ },
+ {
+  "step": 218,
+  "left": "e",
+  "right": "d",
+  "new": "ed",
+  "new_id": 473,
+  "count": 452
+ },
+ {
+  "step": 219,
+  "left": " ",
+  "right": "T",
+  "new": " T",
+  "new_id": 474,
+  "count": 450
+ },
+ {
+  "step": 220,
+  "left": "i",
+  "right": "c",
+  "new": "ic",
+  "new_id": 475,
+  "count": 442
+ },
+ {
+  "step": 221,
+  "left": "la",
+  "right": "nd",
+  "new": "land",
+  "new_id": 476,
+  "count": 442
+ },
+ {
+  "step": 222,
+  "left": " w",
+  "right": "ar",
+  "new": " war",
+  "new_id": 477,
+  "count": 440
+ },
+ {
+  "step": 223,
+  "left": " war",
+  "right": "m",
+  "new": " warm",
+  "new_id": 478,
+  "count": 433
+ },
+ {
+  "step": 224,
+  "left": " ",
+  "right": "1",
+  "new": " 1",
+  "new_id": 479,
+  "count": 401
+ },
+ {
+  "step": 225,
+  "left": " C",
+  "right": "ity",
+  "new": " City",
+  "new_id": 480,
+  "count": 392
+ },
+ {
+  "step": 226,
+  "left": "i",
+  "right": "a",
+  "new": "ia",
+  "new_id": 481,
+  "count": 391
+ },
+ {
+  "step": 227,
+  "left": " ",
+  "right": "H",
+  "new": " H",
+  "new_id": 482,
+  "count": 384
+ },
+ {
+  "step": 228,
+  "left": "a",
+  "right": "d",
+  "new": "ad",
+  "new_id": 483,
+  "count": 376
+ },
+ {
+  "step": 229,
+  "left": " ",
+  "right": "U",
+  "new": " U",
+  "new_id": 484,
+  "count": 373
+ },
+ {
+  "step": 230,
+  "left": "i",
+  "right": "on",
+  "new": "ion",
+  "new_id": 485,
+  "count": 370
+ },
+ {
+  "step": 231,
+  "left": " S",
+  "right": "an",
+  "new": " San",
+  "new_id": 486,
+  "count": 370
+ },
+ {
+  "step": 232,
+  "left": "u",
+  "right": "l",
+  "new": "ul",
+  "new_id": 487,
+  "count": 365
+ },
+ {
+  "step": 233,
+  "left": "a",
+  "right": "k",
+  "new": "ak",
+  "new_id": 488,
+  "count": 355
+ },
+ {
+  "step": 234,
+  "left": "o",
+  "right": "m",
+  "new": "om",
+  "new_id": 489,
+  "count": 350
+ },
+ {
+  "step": 235,
+  "left": " ",
+  "right": "K",
+  "new": " K",
+  "new_id": 490,
+  "count": 340
+ },
+ {
+  "step": 236,
+  "left": "o",
+  "right": "s",
+  "new": "os",
+  "new_id": 491,
+  "count": 339
+ },
+ {
+  "step": 237,
+  "left": " ",
+  "right": "f",
+  "new": " f",
+  "new_id": 492,
+  "count": 335
+ },
+ {
+  "step": 238,
+  "left": " ",
+  "right": "R",
+  "new": " R",
+  "new_id": 493,
+  "count": 333
+ },
+ {
+  "step": 239,
+  "left": "bu",
+  "right": "r",
+  "new": "bur",
+  "new_id": 494,
+  "count": 332
+ },
+ {
+  "step": 240,
+  "left": " 7",
+  "right": "6",
+  "new": " 76",
+  "new_id": 495,
+  "count": 331
+ },
+ {
+  "step": 241,
+  "left": "h",
+  "right": "an",
+  "new": "han",
+  "new_id": 496,
+  "count": 323
+ },
+ {
+  "step": 242,
+  "left": " 6",
+  "right": "4",
+  "new": " 64",
+  "new_id": 497,
+  "count": 303
+ },
+ {
+  "step": 243,
+  "left": " 6",
+  "right": "2",
+  "new": " 62",
+  "new_id": 498,
+  "count": 300
+ },
+ {
+  "step": 244,
+  "left": " 7",
+  "right": "0",
+  "new": " 70",
+  "new_id": 499,
+  "count": 298
+ },
+ {
+  "step": 245,
+  "left": " S",
+  "right": "t",
+  "new": " St",
+  "new_id": 500,
+  "count": 293
+ },
+ {
+  "step": 246,
+  "left": "a",
+  "right": "m",
+  "new": "am",
+  "new_id": 501,
+  "count": 292
+ },
+ {
+  "step": 247,
+  "left": "a",
+  "right": "b",
+  "new": "ab",
+  "new_id": 502,
+  "count": 287
+ },
+ {
+  "step": 248,
+  "left": " 5",
+  "right": "0",
+  "new": " 50",
+  "new_id": 503,
+  "count": 285
+ },
+ {
+  "step": 249,
+  "left": "o",
+  "right": "p",
+  "new": "op",
+  "new_id": 504,
+  "count": 280
+ },
+ {
+  "step": 250,
+  "left": " 7",
+  "right": "8",
+  "new": " 78",
+  "new_id": 505,
+  "count": 280
+ },
+ {
+  "step": 251,
+  "left": " 5",
+  "right": "6",
+  "new": " 56",
+  "new_id": 506,
+  "count": 280
+ },
+ {
+  "step": 252,
+  "left": "e",
+  "right": "t",
+  "new": "et",
+  "new_id": 507,
+  "count": 279
+ },
+ {
+  "step": 253,
+  "left": "i",
+  "right": "d",
+  "new": "id",
+  "new_id": 508,
+  "count": 278
+ },
+ {
+  "step": 254,
+  "left": "an",
+  "right": "c",
+  "new": "anc",
+  "new_id": 509,
+  "count": 276
+ },
+ {
+  "step": 255,
+  "left": " c",
+  "right": "ity",
+  "new": " city",
+  "new_id": 510,
+  "count": 275
+ },
+ {
+  "step": 256,
+  "left": "u",
+  "right": "m",
+  "new": "um",
+  "new_id": 511,
+  "count": 274
+ },
+ {
+  "step": 257,
+  "left": " 6",
+  "right": "0",
+  "new": " 60",
+  "new_id": 512,
+  "count": 274
+ },
+ {
+  "step": 258,
+  "left": " 4",
+  "right": "8",
+  "new": " 48",
+  "new_id": 513,
+  "count": 270
+ },
+ {
+  "step": 259,
+  "left": " 5",
+  "right": "8",
+  "new": " 58",
+  "new_id": 514,
+  "count": 269
+ },
+ {
+  "step": 260,
+  "left": " 6",
+  "right": "6",
+  "new": " 66",
+  "new_id": 515,
+  "count": 265
+ },
+ {
+  "step": 261,
+  "left": " 6",
+  "right": "1",
+  "new": " 61",
+  "new_id": 516,
+  "count": 261
+ },
+ {
+  "step": 262,
+  "left": " 7",
+  "right": "7",
+  "new": " 77",
+  "new_id": 517,
+  "count": 261
+ },
+ {
+  "step": 263,
+  "left": " U",
+  "right": "n",
+  "new": " Un",
+  "new_id": 518,
+  "count": 256
+ },
+ {
+  "step": 264,
+  "left": " ra",
+  "right": "re",
+  "new": " rare",
+  "new_id": 519,
+  "count": 251
+ },
+ {
+  "step": 265,
+  "left": "it",
+  "right": "ed",
+  "new": "ited",
+  "new_id": 520,
+  "count": 250
+ },
+ {
+  "step": 266,
+  "left": " Un",
+  "right": "ited",
+  "new": " United",
+  "new_id": 521,
+  "count": 247
+ },
+ {
+  "step": 267,
+  "left": " 6",
+  "right": "3",
+  "new": " 63",
+  "new_id": 522,
+  "count": 246
+ },
+ {
+  "step": 268,
+  "left": "at",
+  "right": "es",
+  "new": "ates",
+  "new_id": 523,
+  "count": 246
+ },
+ {
+  "step": 269,
+  "left": " 5",
+  "right": "9",
+  "new": " 59",
+  "new_id": 524,
+  "count": 244
+ },
+ {
+  "step": 270,
+  "left": " 7",
+  "right": "4",
+  "new": " 74",
+  "new_id": 525,
+  "count": 243
+ },
+ {
+  "step": 271,
+  "left": " S",
+  "right": "now",
+  "new": " Snow",
+  "new_id": 526,
+  "count": 243
+ },
+ {
+  "step": 272,
+  "left": " 7",
+  "right": "2",
+  "new": " 72",
+  "new_id": 527,
+  "count": 240
+ },
+ {
+  "step": 273,
+  "left": "t",
+  "right": "a",
+  "new": "ta",
+  "new_id": 528,
+  "count": 236
+ },
+ {
+  "step": 274,
+  "left": " 7",
+  "right": "9",
+  "new": " 79",
+  "new_id": 529,
+  "count": 235
+ },
+ {
+  "step": 275,
+  "left": " 5",
+  "right": "4",
+  "new": " 54",
+  "new_id": 530,
+  "count": 234
+ },
+ {
+  "step": 276,
+  "left": " St",
+  "right": "ates",
+  "new": " States",
+  "new_id": 531,
+  "count": 234
+ },
+ {
+  "step": 277,
+  "left": " 8",
+  "right": "9",
+  "new": " 89",
+  "new_id": 532,
+  "count": 231
+ },
+ {
+  "step": 278,
+  "left": " 5",
+  "right": "7",
+  "new": " 57",
+  "new_id": 533,
+  "count": 226
+ },
+ {
+  "step": 279,
+  "left": "r",
+  "right": "es",
+  "new": "res",
+  "new_id": 534,
+  "count": 223
+ },
+ {
+  "step": 280,
+  "left": " 6",
+  "right": "7",
+  "new": " 67",
+  "new_id": 535,
+  "count": 223
+ },
+ {
+  "step": 281,
+  "left": " ",
+  "right": "Y",
+  "new": " Y",
+  "new_id": 536,
+  "count": 221
+ },
+ {
+  "step": 282,
+  "left": "on",
+  "right": "g",
+  "new": "ong",
+  "new_id": 537,
+  "count": 221
+ },
+ {
+  "step": 283,
+  "left": "i",
+  "right": "ch",
+  "new": "ich",
+  "new_id": 538,
+  "count": 220
+ },
+ {
+  "step": 284,
+  "left": " 7",
+  "right": "5",
+  "new": " 75",
+  "new_id": 539,
+  "count": 220
+ },
+ {
+  "step": 285,
+  "left": "i",
+  "right": "v",
+  "new": "iv",
+  "new_id": 540,
+  "count": 219
+ },
+ {
+  "step": 286,
+  "left": " 5",
+  "right": "1",
+  "new": " 51",
+  "new_id": 541,
+  "count": 219
+ },
+ {
+  "step": 287,
+  "left": " 8",
+  "right": "6",
+  "new": " 86",
+  "new_id": 542,
+  "count": 219
+ },
+ {
+  "step": 288,
+  "left": " 6",
+  "right": "8",
+  "new": " 68",
+  "new_id": 543,
+  "count": 218
+ },
+ {
+  "step": 289,
+  "left": " 6",
+  "right": "9",
+  "new": " 69",
+  "new_id": 544,
+  "count": 217
+ },
+ {
+  "step": 290,
+  "left": " A",
+  "right": "n",
+  "new": " An",
+  "new_id": 545,
+  "count": 217
+ },
+ {
+  "step": 291,
+  "left": " 4",
+  "right": "6",
+  "new": " 46",
+  "new_id": 546,
+  "count": 217
+ },
+ {
+  "step": 292,
+  "left": " 4",
+  "right": "7",
+  "new": " 47",
+  "new_id": 547,
+  "count": 216
+ },
+ {
+  "step": 293,
+  "left": "ar",
+  "right": "a",
+  "new": "ara",
+  "new_id": 548,
+  "count": 215
+ },
+ {
+  "step": 294,
+  "left": "o",
+  "right": "k",
+  "new": "ok",
+  "new_id": 549,
+  "count": 211
+ },
+ {
+  "step": 295,
+  "left": " 7",
+  "right": "1",
+  "new": " 71",
+  "new_id": 550,
+  "count": 210
+ },
+ {
+  "step": 296,
+  "left": " 6",
+  "right": "5",
+  "new": " 65",
+  "new_id": 551,
+  "count": 207
+ },
+ {
+  "step": 297,
+  "left": "t",
+  "right": "on",
+  "new": "ton",
+  "new_id": 552,
+  "count": 203
+ },
+ {
+  "step": 298,
+  "left": " 8",
+  "right": "0",
+  "new": " 80",
+  "new_id": 553,
+  "count": 202
+ },
+ {
+  "step": 299,
+  "left": "bur",
+  "right": "g",
+  "new": "burg",
+  "new_id": 554,
+  "count": 200
+ },
+ {
+  "step": 300,
+  "left": " ",
+  "right": "b",
+  "new": " b",
+  "new_id": 555,
+  "count": 199
+ },
+ {
+  "step": 301,
+  "left": " 5",
+  "right": "2",
+  "new": " 52",
+  "new_id": 556,
+  "count": 198
+ },
+ {
+  "step": 302,
+  "left": "u",
+  "right": "s",
+  "new": "us",
+  "new_id": 557,
+  "count": 197
+ },
+ {
+  "step": 303,
+  "left": " 4",
+  "right": "9",
+  "new": " 49",
+  "new_id": 558,
+  "count": 197
+ },
+ {
+  "step": 304,
+  "left": "op",
+  "right": "ul",
+  "new": "opul",
+  "new_id": 559,
+  "count": 197
+ },
+ {
+  "step": 305,
+  "left": " p",
+  "right": "opul",
+  "new": " popul",
+  "new_id": 560,
+  "count": 195
+ },
+ {
+  "step": 306,
+  "left": "o",
+  "right": "st",
+  "new": "ost",
+  "new_id": 561,
+  "count": 194
+ },
+ {
+  "step": 307,
+  "left": "g",
+  "right": "o",
+  "new": "go",
+  "new_id": 562,
+  "count": 189
+ },
+ {
+  "step": 308,
+  "left": "at",
+  "right": "ion",
+  "new": "ation",
+  "new_id": 563,
+  "count": 187
+ },
+ {
+  "step": 309,
+  "left": "il",
+  "right": "le",
+  "new": "ille",
+  "new_id": 564,
+  "count": 187
+ },
+ {
+  "step": 310,
+  "left": " 4",
+  "right": "2",
+  "new": " 42",
+  "new_id": 565,
+  "count": 186
+ },
+ {
+  "step": 311,
+  "left": "e",
+  "right": "i",
+  "new": "ei",
+  "new_id": 566,
+  "count": 185
+ },
+ {
+  "step": 312,
+  "left": " 7",
+  "right": "3",
+  "new": " 73",
+  "new_id": 567,
+  "count": 183
+ },
+ {
+  "step": 313,
+  "left": " 8",
+  "right": "7",
+  "new": " 87",
+  "new_id": 568,
+  "count": 182
+ },
+ {
+  "step": 314,
+  "left": " 8",
+  "right": "4",
+  "new": " 84",
+  "new_id": 569,
+  "count": 178
+ },
+ {
+  "step": 315,
+  "left": "or",
+  "right": "t",
+  "new": "ort",
+  "new_id": 570,
+  "count": 177
+ },
+ {
+  "step": 316,
+  "left": " 4",
+  "right": "4",
+  "new": " 44",
+  "new_id": 571,
+  "count": 175
+ },
+ {
+  "step": 317,
+  "left": " ",
+  "right": "V",
+  "new": " V",
+  "new_id": 572,
+  "count": 174
+ },
+ {
+  "step": 318,
+  "left": " ",
+  "right": "W",
+  "new": " W",
+  "new_id": 573,
+  "count": 174
+ },
+ {
+  "step": 319,
+  "left": "o",
+  "right": "re",
+  "new": "ore",
+  "new_id": 574,
+  "count": 174
+ },
+ {
+  "step": 320,
+  "left": " 5",
+  "right": "5",
+  "new": " 55",
+  "new_id": 575,
+  "count": 174
+ },
+ {
+  "step": 321,
+  "left": "u",
+  "right": "r",
+  "new": "ur",
+  "new_id": 576,
+  "count": 172
+ },
+ {
+  "step": 322,
+  "left": "q",
+  "right": "u",
+  "new": "qu",
+  "new_id": 577,
+  "count": 169
+ },
+ {
+  "step": 323,
+  "left": " 4",
+  "right": "0",
+  "new": " 40",
+  "new_id": 578,
+  "count": 169
+ },
+ {
+  "step": 324,
+  "left": " 8",
+  "right": "1",
+  "new": " 81",
+  "new_id": 579,
+  "count": 166
+ },
+ {
+  "step": 325,
+  "left": "om",
+  "right": "e",
+  "new": "ome",
+  "new_id": 580,
+  "count": 164
+ },
+ {
+  "step": 326,
+  "left": "e",
+  "right": "x",
+  "new": "ex",
+  "new_id": 581,
+  "count": 162
+ },
+ {
+  "step": 327,
+  "left": "h",
+  "right": "i",
+  "new": "hi",
+  "new_id": 582,
+  "count": 162
+ },
+ {
+  "step": 328,
+  "left": "he",
+  "right": "n",
+  "new": "hen",
+  "new_id": 583,
+  "count": 159
+ },
+ {
+  "step": 329,
+  "left": " M",
+  "right": "on",
+  "new": " Mon",
+  "new_id": 584,
+  "count": 159
+ },
+ {
+  "step": 330,
+  "left": "e",
+  "right": "w",
+  "new": "ew",
+  "new_id": 585,
+  "count": 158
+ },
+ {
+  "step": 331,
+  "left": "an",
+  "right": "e",
+  "new": "ane",
+  "new_id": 586,
+  "count": 158
+ },
+ {
+  "step": 332,
+  "left": " 1",
+  "right": "0",
+  "new": " 10",
+  "new_id": 587,
+  "count": 158
+ },
+ {
+  "step": 333,
+  "left": "S",
+  "right": "an",
+  "new": "San",
+  "new_id": 588,
+  "count": 155
+ },
+ {
+  "step": 334,
+  "left": "ro",
+  "right": "p",
+  "new": "rop",
+  "new_id": 589,
+  "count": 154
+ },
+ {
+  "step": 335,
+  "left": " 9",
+  "right": "0",
+  "new": " 90",
+  "new_id": 590,
+  "count": 154
+ },
+ {
+  "step": 336,
+  "left": " c",
+  "right": "han",
+  "new": " chan",
+  "new_id": 591,
+  "count": 153
+ },
+ {
+  "step": 337,
+  "left": " Y",
+  "right": "es",
+  "new": " Yes",
+  "new_id": 592,
+  "count": 153
+ },
+ {
+  "step": 338,
+  "left": "k",
+  "right": "e",
+  "new": "ke",
+  "new_id": 593,
+  "count": 152
+ },
+ {
+  "step": 339,
+  "left": "u",
+  "right": "n",
+  "new": "un",
+  "new_id": 594,
+  "count": 152
+ },
+ {
+  "step": 340,
+  "left": " 4",
+  "right": "1",
+  "new": " 41",
+  "new_id": 595,
+  "count": 152
+ },
+ {
+  "step": 341,
+  "left": "ver",
+  "right": "y",
+  "new": "very",
+  "new_id": 596,
+  "count": 151
+ },
+ {
+  "step": 342,
+  "left": " s",
+  "right": "e",
+  "new": " se",
+  "new_id": 597,
+  "count": 151
+ },
+ {
+  "step": 343,
+  "left": " 8",
+  "right": "2",
+  "new": " 82",
+  "new_id": 598,
+  "count": 151
+ },
+ {
+  "step": 344,
+  "left": " ",
+  "right": "very",
+  "new": " very",
+  "new_id": 599,
+  "count": 149
+ },
+ {
+  "step": 345,
+  "left": "t",
+  "right": "e",
+  "new": "te",
+  "new_id": 600,
+  "count": 148
+ },
+ {
+  "step": 346,
+  "left": "t",
+  "right": "le",
+  "new": "tle",
+  "new_id": 601,
+  "count": 148
+ },
+ {
+  "step": 347,
+  "left": " 5",
+  "right": "3",
+  "new": " 53",
+  "new_id": 602,
+  "count": 148
+ },
+ {
+  "step": 348,
+  "left": " 8",
+  "right": "8",
+  "new": " 88",
+  "new_id": 603,
+  "count": 148
+ },
+ {
+  "step": 349,
+  "left": "ic",
+  "right": "a",
+  "new": "ica",
+  "new_id": 604,
+  "count": 148
+ },
+ {
+  "step": 350,
+  "left": "ab",
+  "right": "le",
+  "new": "able",
+  "new_id": 605,
+  "count": 148
+ },
+ {
+  "step": 351,
+  "left": "a",
+  "right": "v",
+  "new": "av",
+  "new_id": 606,
+  "count": 147
+ },
+ {
+  "step": 352,
+  "left": " 8",
+  "right": "3",
+  "new": " 83",
+  "new_id": 607,
+  "count": 147
+ },
+ {
+  "step": 353,
+  "left": "o",
+  "right": "nd",
+  "new": "ond",
+  "new_id": 608,
+  "count": 146
+ },
+ {
+  "step": 354,
+  "left": " ",
+  "right": "E",
+  "new": " E",
+  "new_id": 609,
+  "count": 145
+ },
+ {
+  "step": 355,
+  "left": "al",
+  "right": "a",
+  "new": "ala",
+  "new_id": 610,
+  "count": 142
+ },
+ {
+  "step": 356,
+  "left": "al",
+  "right": "l",
+  "new": "all",
+  "new_id": 611,
+  "count": 141
+ },
+ {
+  "step": 357,
+  "left": "an",
+  "right": "s",
+  "new": "ans",
+  "new_id": 612,
+  "count": 141
+ },
+ {
+  "step": 358,
+  "left": " 3",
+  "right": "6",
+  "new": " 36",
+  "new_id": 613,
+  "count": 141
+ },
+ {
+  "step": 359,
+  "left": "i",
+  "right": "o",
+  "new": "io",
+  "new_id": 614,
+  "count": 140
+ },
+ {
+  "step": 360,
+  "left": " P",
+  "right": "a",
+  "new": " Pa",
+  "new_id": 615,
+  "count": 140
+ },
+ {
+  "step": 361,
+  "left": " chan",
+  "right": "ge",
+  "new": " change",
+  "new_id": 616,
+  "count": 140
+ },
+ {
+  "step": 362,
+  "left": " S",
+  "right": "a",
+  "new": " Sa",
+  "new_id": 617,
+  "count": 139
+ },
+ {
+  "step": 363,
+  "left": " change",
+  "right": "able",
+  "new": " changeable",
+  "new_id": 618,
+  "count": 139
+ },
+ {
+  "step": 364,
+  "left": " 3",
+  "right": "8",
+  "new": " 38",
+  "new_id": 619,
+  "count": 138
+ },
+ {
+  "step": 365,
+  "left": "f",
+  "right": "f",
+  "new": "ff",
+  "new_id": 620,
+  "count": 137
+ },
+ {
+  "step": 366,
+  "left": " 4",
+  "right": "5",
+  "new": " 45",
+  "new_id": 621,
+  "count": 137
+ },
+ {
+  "step": 367,
+  "left": "l",
+  "right": "in",
+  "new": "lin",
+  "new_id": 622,
+  "count": 135
+ },
+ {
+  "step": 368,
+  "left": "p",
+  "right": "h",
+  "new": "ph",
+  "new_id": 623,
+  "count": 135
+ },
+ {
+  "step": 369,
+  "left": "el",
+  "right": "s",
+  "new": "els",
+  "new_id": 624,
+  "count": 135
+ },
+ {
+  "step": 370,
+  "left": "is",
+  "right": "b",
+  "new": "isb",
+  "new_id": 625,
+  "count": 134
+ },
+ {
+  "step": 371,
+  "left": "ing",
+  "right": "ton",
+  "new": "ington",
+  "new_id": 626,
+  "count": 134
+ },
+ {
+  "step": 372,
+  "left": "l",
+  "right": "es",
+  "new": "les",
+  "new_id": 627,
+  "count": 133
+ },
+ {
+  "step": 373,
+  "left": "m",
+  "right": "a",
+  "new": "ma",
+  "new_id": 628,
+  "count": 133
+ },
+ {
+  "step": 374,
+  "left": "al",
+  "right": "t",
+  "new": "alt",
+  "new_id": 629,
+  "count": 133
+ },
+ {
+  "step": 375,
+  "left": "an",
+  "right": "a",
+  "new": "ana",
+  "new_id": 630,
+  "count": 133
+ },
+ {
+  "step": 376,
+  "left": "as",
+  "right": "h",
+  "new": "ash",
+  "new_id": 631,
+  "count": 133
+ },
+ {
+  "step": 377,
+  "left": "u",
+  "right": "b",
+  "new": "ub",
+  "new_id": 632,
+  "count": 132
+ },
+ {
+  "step": 378,
+  "left": " 8",
+  "right": "5",
+  "new": " 85",
+  "new_id": 633,
+  "count": 132
+ },
+ {
+  "step": 379,
+  "left": "c",
+  "right": "k",
+  "new": "ck",
+  "new_id": 634,
+  "count": 131
+ },
+ {
+  "step": 380,
+  "left": "ol",
+  "right": "is",
+  "new": "olis",
+  "new_id": 635,
+  "count": 130
+ },
+ {
+  "step": 381,
+  "left": "ak",
+  "right": "a",
+  "new": "aka",
+  "new_id": 636,
+  "count": 130
+ },
+ {
+  "step": 382,
+  "left": " B",
+  "right": "u",
+  "new": " Bu",
+  "new_id": 637,
+  "count": 127
+ },
+ {
+  "step": 383,
+  "left": "ai",
+  "right": "ro",
+  "new": "airo",
+  "new_id": 638,
+  "count": 127
+ },
+ {
+  "step": 384,
+  "left": "ap",
+  "right": "olis",
+  "new": "apolis",
+  "new_id": 639,
+  "count": 125
+ },
+ {
+  "step": 385,
+  "left": " 4",
+  "right": "3",
+  "new": " 43",
+  "new_id": 640,
+  "count": 123
+ },
+ {
+  "step": 386,
+  "left": " winter",
+  "right": "s",
+  "new": " winters",
+  "new_id": 641,
+  "count": 123
+ },
+ {
+  "step": 387,
+  "left": "v",
+  "right": "ille",
+  "new": "ville",
+  "new_id": 642,
+  "count": 121
+ },
+ {
+  "step": 388,
+  "left": "bur",
+  "right": "gh",
+  "new": "burgh",
+  "new_id": 643,
+  "count": 120
+ },
+ {
+  "step": 389,
+  "left": "ort",
+  "right": "land",
+  "new": "ortland",
+  "new_id": 644,
+  "count": 120
+ },
+ {
+  "step": 390,
+  "left": " f",
+  "right": "ro",
+  "new": " fro",
+  "new_id": 645,
+  "count": 119
+ },
+ {
+  "step": 391,
+  "left": "ou",
+  "right": "n",
+  "new": "oun",
+  "new_id": 646,
+  "count": 118
+ },
+ {
+  "step": 392,
+  "left": " M",
+  "right": "in",
+  "new": " Min",
+  "new_id": 647,
+  "count": 116
+ },
+ {
+  "step": 393,
+  "left": " C",
+  "right": "al",
+  "new": " Cal",
+  "new_id": 648,
+  "count": 113
+ },
+ {
+  "step": 394,
+  "left": " 3",
+  "right": "2",
+  "new": " 32",
+  "new_id": 649,
+  "count": 113
+ },
+ {
+  "step": 395,
+  "left": " fro",
+  "right": "m",
+  "new": " from",
+  "new_id": 650,
+  "count": 113
+ },
+ {
+  "step": 396,
+  "left": " 3",
+  "right": "7",
+  "new": " 37",
+  "new_id": 651,
+  "count": 112
+ },
+ {
+  "step": 397,
+  "left": "ou",
+  "right": "s",
+  "new": "ous",
+  "new_id": 652,
+  "count": 111
+ },
+ {
+  "step": 398,
+  "left": " 3",
+  "right": "9",
+  "new": " 39",
+  "new_id": 653,
+  "count": 109
+ },
+ {
+  "step": 399,
+  "left": " 3",
+  "right": "5",
+  "new": " 35",
+  "new_id": 654,
+  "count": 108
+ },
+ {
+  "step": 400,
+  "left": " P",
+  "right": "as",
+  "new": " Pas",
+  "new_id": 655,
+  "count": 108
+ },
+ {
+  "step": 401,
+  "left": " 3",
+  "right": "3",
+  "new": " 33",
+  "new_id": 656,
+  "count": 107
+ },
+ {
+  "step": 402,
+  "left": " B",
+  "right": "ar",
+  "new": " Bar",
+  "new_id": 657,
+  "count": 106
+ },
+ {
+  "step": 403,
+  "left": " a",
+  "right": "rea",
+  "new": " area",
+  "new_id": 658,
+  "count": 105
+ },
+ {
+  "step": 404,
+  "left": " O",
+  "right": "r",
+  "new": " Or",
+  "new_id": 659,
+  "count": 105
+ },
+ {
+  "step": 405,
+  "left": " popul",
+  "right": "ous",
+  "new": " populous",
+  "new_id": 660,
+  "count": 104
+ },
+ {
+  "step": 406,
+  "left": "i",
+  "right": "f",
+  "new": "if",
+  "new_id": 661,
+  "count": 103
+ },
+ {
+  "step": 407,
+  "left": " A",
+  "right": "t",
+  "new": " At",
+  "new_id": 662,
+  "count": 103
+ },
+ {
+  "step": 408,
+  "left": "ou",
+  "right": "r",
+  "new": "our",
+  "new_id": 663,
+  "count": 102
+ },
+ {
+  "step": 409,
+  "left": "e",
+  "right": "a",
+  "new": "ea",
+  "new_id": 664,
+  "count": 101
+ },
+ {
+  "step": 410,
+  "left": " a",
+  "right": "re",
+  "new": " are",
+  "new_id": 665,
+  "count": 101
+ },
+ {
+  "step": 411,
+  "left": " N",
+  "right": "ew",
+  "new": " New",
+  "new_id": 666,
+  "count": 101
+ },
+ {
+  "step": 412,
+  "left": " B",
+  "right": "er",
+  "new": " Ber",
+  "new_id": 667,
+  "count": 101
+ },
+ {
+  "step": 413,
+  "left": "c",
+  "right": "e",
+  "new": "ce",
+  "new_id": 668,
+  "count": 100
+ },
+ {
+  "step": 414,
+  "left": " ",
+  "right": "G",
+  "new": " G",
+  "new_id": 669,
+  "count": 99
+ },
+ {
+  "step": 415,
+  "left": " ",
+  "right": "on",
+  "new": " on",
+  "new_id": 670,
+  "count": 99
+ },
+ {
+  "step": 416,
+  "left": "at",
+  "right": "a",
+  "new": "ata",
+  "new_id": 671,
+  "count": 99
+ },
+ {
+  "step": 417,
+  "left": " C",
+  "right": "h",
+  "new": " Ch",
+  "new_id": 672,
+  "count": 99
+ },
+ {
+  "step": 418,
+  "left": "en",
+  "right": "t",
+  "new": "ent",
+  "new_id": 673,
+  "count": 99
+ },
+ {
+  "step": 419,
+  "left": " B",
+  "right": "r",
+  "new": " Br",
+  "new_id": 674,
+  "count": 97
+ },
+ {
+  "step": 420,
+  "left": " t",
+  "right": "h",
+  "new": " th",
+  "new_id": 675,
+  "count": 96
+ },
+ {
+  "step": 421,
+  "left": " 2",
+  "right": "0",
+  "new": " 20",
+  "new_id": 676,
+  "count": 96
+ },
+ {
+  "step": 422,
+  "left": "o",
+  "right": "g",
+  "new": "og",
+  "new_id": 677,
+  "count": 95
+ },
+ {
+  "step": 423,
+  "left": "le",
+  "right": "y",
+  "new": "ley",
+  "new_id": 678,
+  "count": 95
+ },
+ {
+  "step": 424,
+  "left": " L",
+  "right": "a",
+  "new": " La",
+  "new_id": 679,
+  "count": 94
+ },
+ {
+  "step": 425,
+  "left": " San",
+  "right": "ta",
+  "new": " Santa",
+  "new_id": 680,
+  "count": 94
+ },
+ {
+  "step": 426,
+  "left": " 9",
+  "right": "1",
+  "new": " 91",
+  "new_id": 681,
+  "count": 93
+ },
+ {
+  "step": 427,
+  "left": " s",
+  "right": "ome",
+  "new": " some",
+  "new_id": 682,
+  "count": 92
+ },
+ {
+  "step": 428,
+  "left": " 3",
+  "right": "4",
+  "new": " 34",
+  "new_id": 683,
+  "count": 92
+ },
+ {
+  "step": 429,
+  "left": " h",
+  "right": "as",
+  "new": " has",
+  "new_id": 684,
+  "count": 91
+ },
+ {
+  "step": 430,
+  "left": " P",
+  "right": "h",
+  "new": " Ph",
+  "new_id": 685,
+  "count": 91
+ },
+ {
+  "step": 431,
+  "left": " O",
+  "right": "s",
+  "new": " Os",
+  "new_id": 686,
+  "count": 89
+ },
+ {
+  "step": 432,
+  "left": "ap",
+  "right": "it",
+  "new": "apit",
+  "new_id": 687,
+  "count": 89
+ },
+ {
+  "step": 433,
+  "left": "oun",
+  "right": "t",
+  "new": "ount",
+  "new_id": 688,
+  "count": 89
+ },
+ {
+  "step": 434,
+  "left": " a",
+  "right": "s",
+  "new": " as",
+  "new_id": 689,
+  "count": 88
+ },
+ {
+  "step": 435,
+  "left": " popul",
+  "right": "ation",
+  "new": " population",
+  "new_id": 690,
+  "count": 88
+ },
+ {
+  "step": 436,
+  "left": "apit",
+  "right": "al",
+  "new": "apital",
+  "new_id": 691,
+  "count": 88
+ },
+ {
+  "step": 437,
+  "left": "b",
+  "right": "an",
+  "new": "ban",
+  "new_id": 692,
+  "count": 87
+ },
+ {
+  "step": 438,
+  "left": "n",
+  "right": "a",
+  "new": "na",
+  "new_id": 693,
+  "count": 86
+ },
+ {
+  "step": 439,
+  "left": " P",
+  "right": "ortland",
+  "new": " Portland",
+  "new_id": 694,
+  "count": 86
+ },
+ {
+  "step": 440,
+  "left": "om",
+  "right": "et",
+  "new": "omet",
+  "new_id": 695,
+  "count": 86
+ },
+ {
+  "step": 441,
+  "left": "r",
+  "right": "ban",
+  "new": "rban",
+  "new_id": 696,
+  "count": 85
+ },
+ {
+  "step": 442,
+  "left": "im",
+  "right": "es",
+  "new": "imes",
+  "new_id": 697,
+  "count": 85
+ },
+ {
+  "step": 443,
+  "left": "ex",
+  "right": "ic",
+  "new": "exic",
+  "new_id": 698,
+  "count": 85
+ },
+ {
+  "step": 444,
+  "left": "ow",
+  "right": "n",
+  "new": "own",
+  "new_id": 699,
+  "count": 84
+ },
+ {
+  "step": 445,
+  "left": " l",
+  "right": "it",
+  "new": " lit",
+  "new_id": 700,
+  "count": 84
+ },
+ {
+  "step": 446,
+  "left": "omet",
+  "right": "imes",
+  "new": "ometimes",
+  "new_id": 701,
+  "count": 84
+ },
+ {
+  "step": 447,
+  "left": " lit",
+  "right": "tle",
+  "new": " little",
+  "new_id": 702,
+  "count": 84
+ },
+ {
+  "step": 448,
+  "left": "st",
+  "right": "er",
+  "new": "ster",
+  "new_id": 703,
+  "count": 83
+ },
+ {
+  "step": 449,
+  "left": " 9",
+  "right": "4",
+  "new": " 94",
+  "new_id": 704,
+  "count": 83
+ },
+ {
+  "step": 450,
+  "left": "el",
+  "right": "l",
+  "new": "ell",
+  "new_id": 705,
+  "count": 83
+ },
+ {
+  "step": 451,
+  "left": "c",
+  "right": "o",
+  "new": "co",
+  "new_id": 706,
+  "count": 82
+ },
+ {
+  "step": 452,
+  "left": "r",
+  "right": "anc",
+  "new": "ranc",
+  "new_id": 707,
+  "count": 82
+ },
+ {
+  "step": 453,
+  "left": "ar",
+  "right": "s",
+  "new": "ars",
+  "new_id": 708,
+  "count": 82
+ },
+ {
+  "step": 454,
+  "left": " M",
+  "right": "an",
+  "new": " Man",
+  "new_id": 709,
+  "count": 82
+ },
+ {
+  "step": 455,
+  "left": "exic",
+  "right": "o",
+  "new": "exico",
+  "new_id": 710,
+  "count": 82
+ },
+ {
+  "step": 456,
+  "left": "p",
+  "right": "a",
+  "new": "pa",
+  "new_id": 711,
+  "count": 81
+ },
+ {
+  "step": 457,
+  "left": " S",
+  "right": "ometimes",
+  "new": " Sometimes",
+  "new_id": 712,
+  "count": 81
+ },
+ {
+  "step": 458,
+  "left": " M",
+  "right": "il",
+  "new": " Mil",
+  "new_id": 713,
+  "count": 81
+ },
+ {
+  "step": 459,
+  "left": " ",
+  "right": "re",
+  "new": " re",
+  "new_id": 714,
+  "count": 80
+ },
+ {
+  "step": 460,
+  "left": "r",
+  "right": "an",
+  "new": "ran",
+  "new_id": 715,
+  "count": 80
+ },
+ {
+  "step": 461,
+  "left": "s",
+  "right": "on",
+  "new": "son",
+  "new_id": 716,
+  "count": 80
+ },
+ {
+  "step": 462,
+  "left": "id",
+  "right": "e",
+  "new": "ide",
+  "new_id": 717,
+  "count": 80
+ },
+ {
+  "step": 463,
+  "left": "i",
+  "right": "an",
+  "new": "ian",
+  "new_id": 718,
+  "count": 79
+ },
+ {
+  "step": 464,
+  "left": "i",
+  "right": "en",
+  "new": "ien",
+  "new_id": 719,
+  "count": 79
+ },
+ {
+  "step": 465,
+  "left": "l",
+  "right": "an",
+  "new": "lan",
+  "new_id": 720,
+  "count": 79
+ },
+ {
+  "step": 466,
+  "left": " F",
+  "right": "ranc",
+  "new": " Franc",
+  "new_id": 721,
+  "count": 79
+ },
+ {
+  "step": 467,
+  "left": "n",
+  "right": "es",
+  "new": "nes",
+  "new_id": 722,
+  "count": 78
+ },
+ {
+  "step": 468,
+  "left": "o",
+  "right": "ra",
+  "new": "ora",
+  "new_id": 723,
+  "count": 78
+ },
+ {
+  "step": 469,
+  "left": "v",
+  "right": "e",
+  "new": "ve",
+  "new_id": 724,
+  "count": 78
+ },
+ {
+  "step": 470,
+  "left": " s",
+  "right": "t",
+  "new": " st",
+  "new_id": 725,
+  "count": 78
+ },
+ {
+  "step": 471,
+  "left": "it",
+  "right": "an",
+  "new": "itan",
+  "new_id": 726,
+  "count": 78
+ },
+ {
+  "step": 472,
+  "left": "et",
+  "right": "rop",
+  "new": "etrop",
+  "new_id": 727,
+  "count": 78
+ },
+ {
+  "step": 473,
+  "left": " 3",
+  "right": "1",
+  "new": " 31",
+  "new_id": 728,
+  "count": 77
+ },
+ {
+  "step": 474,
+  "left": " 2",
+  "right": "8",
+  "new": " 28",
+  "new_id": 729,
+  "count": 77
+ },
+ {
+  "step": 475,
+  "left": "pr",
+  "right": "ing",
+  "new": "pring",
+  "new_id": 730,
+  "count": 77
+ },
+ {
+  "step": 476,
+  "left": "Q",
+  "right": "u",
+  "new": "Qu",
+  "new_id": 731,
+  "count": 76
+ },
+ {
+  "step": 477,
+  "left": "ar",
+  "right": "g",
+  "new": "arg",
+  "new_id": 732,
+  "count": 76
+ },
+ {
+  "step": 478,
+  "left": "is",
+  "right": "co",
+  "new": "isco",
+  "new_id": 733,
+  "count": 76
+ },
+ {
+  "step": 479,
+  "left": "us",
+  "right": "s",
+  "new": "uss",
+  "new_id": 734,
+  "count": 76
+ },
+ {
+  "step": 480,
+  "left": "l",
+  "right": "o",
+  "new": "lo",
+  "new_id": 735,
+  "count": 75
+ },
+ {
+  "step": 481,
+  "left": "or",
+  "right": "n",
+  "new": "orn",
+  "new_id": 736,
+  "count": 75
+ },
+ {
+  "step": 482,
+  "left": " D",
+  "right": "i",
+  "new": " Di",
+  "new_id": 737,
+  "count": 75
+ },
+ {
+  "step": 483,
+  "left": " D",
+  "right": "ub",
+  "new": " Dub",
+  "new_id": 738,
+  "count": 75
+ },
+ {
+  "step": 484,
+  "left": " d",
+  "right": "e",
+  "new": " de",
+  "new_id": 739,
+  "count": 74
+ },
+ {
+  "step": 485,
+  "left": " m",
+  "right": "ost",
+  "new": " most",
+  "new_id": 740,
+  "count": 74
+ },
+ {
+  "step": 486,
+  "left": "arg",
+  "right": "est",
+  "new": "argest",
+  "new_id": 741,
+  "count": 74
+ },
+ {
+  "step": 487,
+  "left": "k",
+  "right": "s",
+  "new": "ks",
+  "new_id": 742,
+  "count": 73
+ },
+ {
+  "step": 488,
+  "left": "in",
+  "right": "c",
+  "new": "inc",
+  "new_id": 743,
+  "count": 73
+ },
+ {
+  "step": 489,
+  "left": "in",
+  "right": "t",
+  "new": "int",
+  "new_id": 744,
+  "count": 73
+ },
+ {
+  "step": 490,
+  "left": "ol",
+  "right": "itan",
+  "new": "olitan",
+  "new_id": 745,
+  "count": 73
+ },
+ {
+  "step": 491,
+  "left": " 3",
+  "right": "0",
+  "new": " 30",
+  "new_id": 746,
+  "count": 73
+ },
+ {
+  "step": 492,
+  "left": "ter",
+  "right": "s",
+  "new": "ters",
+  "new_id": 747,
+  "count": 73
+ },
+ {
+  "step": 493,
+  "left": " Au",
+  "right": "st",
+  "new": " Aust",
+  "new_id": 748,
+  "count": 73
+ },
+ {
+  "step": 494,
+  "left": "etrop",
+  "right": "olitan",
+  "new": "etropolitan",
+  "new_id": 749,
+  "count": 73
+ },
+ {
+  "step": 495,
+  "left": "i",
+  "right": "x",
+  "new": "ix",
+  "new_id": 750,
+  "count": 72
+ },
+ {
+  "step": 496,
+  "left": "u",
+  "right": "c",
+  "new": "uc",
+  "new_id": 751,
+  "count": 72
+ },
+ {
+  "step": 497,
+  "left": "in",
+  "right": "n",
+  "new": "inn",
+  "new_id": 752,
+  "count": 72
+ },
+ {
+  "step": 498,
+  "left": "on",
+  "right": "a",
+  "new": "ona",
+  "new_id": 753,
+  "count": 72
+ },
+ {
+  "step": 499,
+  "left": "ak",
+  "right": "e",
+  "new": "ake",
+  "new_id": 754,
+  "count": 72
+ },
+ {
+  "step": 500,
+  "left": " Cal",
+  "right": "if",
+  "new": " Calif",
+  "new_id": 755,
+  "count": 72
+ },
+ {
+  "step": 501,
+  "left": "orn",
+  "right": "ia",
+  "new": "ornia",
+  "new_id": 756,
+  "count": 72
+ },
+ {
+  "step": 502,
+  "left": " Calif",
+  "right": "ornia",
+  "new": " California",
+  "new_id": 757,
+  "count": 72
+ },
+ {
+  "step": 503,
+  "left": "st",
+  "right": "an",
+  "new": "stan",
+  "new_id": 758,
+  "count": 71
+ },
+ {
+  "step": 504,
+  "left": "ot",
+  "right": "a",
+  "new": "ota",
+  "new_id": 759,
+  "count": 71
+ },
+ {
+  "step": 505,
+  "left": "um",
+  "right": "b",
+  "new": "umb",
+  "new_id": 760,
+  "count": 71
+ },
+ {
+  "step": 506,
+  "left": " Franc",
+  "right": "isco",
+  "new": " Francisco",
+  "new_id": 761,
+  "count": 71
+ },
+ {
+  "step": 507,
+  "left": "o",
+  "right": "is",
+  "new": "ois",
+  "new_id": 762,
+  "count": 70
+ },
+ {
+  "step": 508,
+  "left": "ge",
+  "right": "les",
+  "new": "geles",
+  "new_id": 763,
+  "count": 70
+ },
+ {
+  "step": 509,
+  "left": " 2",
+  "right": "9",
+  "new": " 29",
+  "new_id": 764,
+  "count": 70
+ },
+ {
+  "step": 510,
+  "left": " 9",
+  "right": "3",
+  "new": " 93",
+  "new_id": 765,
+  "count": 70
+ },
+ {
+  "step": 511,
+  "left": " L",
+  "right": "ake",
+  "new": " Lake",
+  "new_id": 766,
+  "count": 70
+ },
+ {
+  "step": 512,
+  "left": "ap",
+  "right": "e",
+  "new": "ape",
+  "new_id": 767,
+  "count": 70
+ },
+ {
+  "step": 513,
+  "left": " An",
+  "right": "geles",
+  "new": " Angeles",
+  "new_id": 768,
+  "count": 70
+ },
+ {
+  "step": 514,
+  "left": "d",
+  "right": "in",
+  "new": "din",
+  "new_id": 769,
+  "count": 69
+ },
+ {
+  "step": 515,
+  "left": "e",
+  "right": "ters",
+  "new": "eters",
+  "new_id": 770,
+  "count": 69
+ },
+ {
+  "step": 516,
+  "left": "m",
+  "right": "i",
+  "new": "mi",
+  "new_id": 771,
+  "count": 69
+ },
+ {
+  "step": 517,
+  "left": "t",
+  "right": "re",
+  "new": "tre",
+  "new_id": 772,
+  "count": 69
+ },
+ {
+  "step": 518,
+  "left": "or",
+  "right": "to",
+  "new": "orto",
+  "new_id": 773,
+  "count": 69
+ },
+ {
+  "step": 519,
+  "left": " R",
+  "right": "i",
+  "new": " Ri",
+  "new_id": 774,
+  "count": 69
+ },
+ {
+  "step": 520,
+  "left": "am",
+  "right": "burg",
+  "new": "amburg",
+  "new_id": 775,
+  "count": 69
+ },
+ {
+  "step": 521,
+  "left": "a",
+  "right": "w",
+  "new": "aw",
+  "new_id": 776,
+  "count": 68
+ },
+ {
+  "step": 522,
+  "left": "b",
+  "right": "our",
+  "new": "bour",
+  "new_id": 777,
+  "count": 68
+ },
+ {
+  "step": 523,
+  "left": "h",
+  "right": "a",
+  "new": "ha",
+  "new_id": 778,
+  "count": 68
+ },
+ {
+  "step": 524,
+  "left": "i",
+  "right": "r",
+  "new": "ir",
+  "new_id": 779,
+  "count": 68
+ },
+ {
+  "step": 525,
+  "left": "k",
+  "right": "i",
+  "new": "ki",
+  "new_id": 780,
+  "count": 68
+ },
+ {
+  "step": 526,
+  "left": "r",
+  "right": "id",
+  "new": "rid",
+  "new_id": 781,
+  "count": 68
+ },
+ {
+  "step": 527,
+  "left": "u",
+  "right": "ad",
+  "new": "uad",
+  "new_id": 782,
+  "count": 68
+ },
+ {
+  "step": 528,
+  "left": "v",
+  "right": "ide",
+  "new": "vide",
+  "new_id": 783,
+  "count": 68
+ },
+ {
+  "step": 529,
+  "left": "y",
+  "right": "o",
+  "new": "yo",
+  "new_id": 784,
+  "count": 68
+ },
+ {
+  "step": 530,
+  "left": "im",
+  "right": "a",
+  "new": "ima",
+  "new_id": 785,
+  "count": 68
+ },
+ {
+  "step": 531,
+  "left": "isb",
+  "right": "on",
+  "new": "isbon",
+  "new_id": 786,
+  "count": 68
+ },
+ {
+  "step": 532,
+  "left": "uss",
+  "right": "els",
+  "new": "ussels",
+  "new_id": 787,
+  "count": 68
+ },
+ {
+  "step": 533,
+  "left": " c",
+  "right": "apital",
+  "new": " capital",
+  "new_id": 788,
+  "count": 67
+ },
+ {
+  "step": 534,
+  "left": "or",
+  "right": "o",
+  "new": "oro",
+  "new_id": 789,
+  "count": 67
+ },
+ {
+  "step": 535,
+  "left": "ch",
+  "right": "ora",
+  "new": "chora",
+  "new_id": 790,
+  "count": 67
+ },
+ {
+  "step": 536,
+  "left": " 2",
+  "right": "7",
+  "new": " 27",
+  "new_id": 791,
+  "count": 67
+ },
+ {
+  "step": 537,
+  "left": "os",
+  "right": "e",
+  "new": "ose",
+  "new_id": 792,
+  "count": 67
+ },
+ {
+  "step": 538,
+  "left": "am",
+  "right": "pa",
+  "new": "ampa",
+  "new_id": 793,
+  "count": 67
+ },
+ {
+  "step": 539,
+  "left": "ab",
+  "right": "l",
+  "new": "abl",
+  "new_id": 794,
+  "count": 67
+ },
+ {
+  "step": 540,
+  "left": "iv",
+  "right": "e",
+  "new": "ive",
+  "new_id": 795,
+  "count": 67
+ },
+ {
+  "step": 541,
+  "left": "ok",
+  "right": "yo",
+  "new": "okyo",
+  "new_id": 796,
+  "count": 67
+ },
+ {
+  "step": 542,
+  "left": "qu",
+  "right": "e",
+  "new": "que",
+  "new_id": 797,
+  "count": 67
+ },
+ {
+  "step": 543,
+  "left": "ash",
+  "right": "ington",
+  "new": "ashington",
+  "new_id": 798,
+  "count": 67
+ },
+ {
+  "step": 544,
+  "left": "vide",
+  "right": "o",
+  "new": "video",
+  "new_id": 799,
+  "count": 67
+ },
+ {
+  "step": 545,
+  "left": "chora",
+  "right": "ge",
+  "new": "chorage",
+  "new_id": 800,
+  "count": 67
+ },
+ {
+  "step": 546,
+  "left": "a",
+  "right": "u",
+  "new": "au",
+  "new_id": 801,
+  "count": 66
+ },
+ {
+  "step": 547,
+  "left": "d",
+  "right": "d",
+  "new": "dd",
+  "new_id": 802,
+  "count": 66
+ },
+ {
+  "step": 548,
+  "left": "h",
+  "right": "om",
+  "new": "hom",
+  "new_id": 803,
+  "count": 66
+ },
+ {
+  "step": 549,
+  "left": "k",
+  "right": "la",
+  "new": "kla",
+  "new_id": 804,
+  "count": 66
+ },
+ {
+  "step": 550,
+  "left": "o",
+  "right": "en",
+  "new": "oen",
+  "new_id": 805,
+  "count": 66
+ },
+ {
+  "step": 551,
+  "left": "p",
+  "right": "ur",
+  "new": "pur",
+  "new_id": 806,
+  "count": 66
+ },
+ {
+  "step": 552,
+  "left": "u",
+  "right": "ala",
+  "new": "uala",
+  "new_id": 807,
+  "count": 66
+ },
+ {
+  "step": 553,
+  "left": "v",
+  "right": "iv",
+  "new": "viv",
+  "new_id": 808,
+  "count": 66
+ },
+ {
+  "step": 554,
+  "left": "y",
+  "right": "iv",
+  "new": "yiv",
+  "new_id": 809,
+  "count": 66
+ },
+ {
+  "step": 555,
+  "left": "al",
+  "right": "m",
+  "new": "alm",
+  "new_id": 810,
+  "count": 66
+ },
+ {
+  "step": 556,
+  "left": "an",
+  "right": "am",
+  "new": "anam",
+  "new_id": 811,
+  "count": 66
+ },
+ {
+  "step": 557,
+  "left": "ra",
+  "right": "m",
+  "new": "ram",
+  "new_id": 812,
+  "count": 66
+ },
+ {
+  "step": 558,
+  "left": "or",
+  "right": "k",
+  "new": "ork",
+  "new_id": 813,
+  "count": 66
+ },
+ {
+  "step": 559,
+  "left": " A",
+  "right": "viv",
+  "new": " Aviv",
+  "new_id": 814,
+  "count": 66
+ },
+ {
+  "step": 560,
+  "left": "im",
+  "right": "ore",
+  "new": "imore",
+  "new_id": 815,
+  "count": 66
+ },
+ {
+  "step": 561,
+  "left": " L",
+  "right": "um",
+  "new": " Lum",
+  "new_id": 816,
+  "count": 66
+ },
+ {
+  "step": 562,
+  "left": "el",
+  "right": "bour",
+  "new": "elbour",
+  "new_id": 817,
+  "count": 66
+ },
+ {
+  "step": 563,
+  "left": "ai",
+  "right": "rban",
+  "new": "airban",
+  "new_id": 818,
+  "count": 66
+ },
+ {
+  "step": 564,
+  "left": "te",
+  "right": "video",
+  "new": "tevideo",
+  "new_id": 819,
+  "count": 66
+ },
+ {
+  "step": 565,
+  "left": "isb",
+  "right": "ane",
+  "new": "isbane",
+  "new_id": 820,
+  "count": 66
+ },
+ {
+  "step": 566,
+  "left": "alt",
+  "right": "imore",
+  "new": "altimore",
+  "new_id": 821,
+  "count": 66
+ },
+ {
+  "step": 567,
+  "left": "ell",
+  "right": "ington",
+  "new": "ellington",
+  "new_id": 822,
+  "count": 66
+ },
+ {
+  "step": 568,
+  "left": "ien",
+  "right": "na",
+  "new": "ienna",
+  "new_id": 823,
+  "count": 66
+ },
+ {
+  "step": 569,
+  "left": "pring",
+  "right": "s",
+  "new": "prings",
+  "new_id": 824,
+  "count": 66
+ },
+ {
+  "step": 570,
+  "left": "uc",
+  "right": "son",
+  "new": "ucson",
+  "new_id": 825,
+  "count": 66
+ },
+ {
+  "step": 571,
+  "left": "eters",
+  "right": "burg",
+  "new": "etersburg",
+  "new_id": 826,
+  "count": 66
+ },
+ {
+  "step": 572,
+  "left": "hom",
+  "right": "a",
+  "new": "homa",
+  "new_id": 827,
+  "count": 66
+ },
+ {
+  "step": 573,
+  "left": "kla",
+  "right": "homa",
+  "new": "klahoma",
+  "new_id": 828,
+  "count": 66
+ },
+ {
+  "step": 574,
+  "left": "oen",
+  "right": "ix",
+  "new": "oenix",
+  "new_id": 829,
+  "count": 66
+ },
+ {
+  "step": 575,
+  "left": " Lum",
+  "right": "pur",
+  "new": " Lumpur",
+  "new_id": 830,
+  "count": 66
+ },
+ {
+  "step": 576,
+  "left": "elbour",
+  "right": "ne",
+  "new": "elbourne",
+  "new_id": 831,
+  "count": 66
+ },
+ {
+  "step": 577,
+  "left": "airban",
+  "right": "ks",
+  "new": "airbanks",
+  "new_id": 832,
+  "count": 66
+ },
+ {
+  "step": 578,
+  "left": "a",
+  "right": "th",
+  "new": "ath",
+  "new_id": 833,
+  "count": 65
+ },
+ {
+  "step": 579,
+  "left": "b",
+  "right": "i",
+  "new": "bi",
+  "new_id": 834,
+  "count": 65
+ },
+ {
+  "step": 580,
+  "left": "c",
+  "right": "ram",
+  "new": "cram",
+  "new_id": 835,
+  "count": 65
+ },
+ {
+  "step": 581,
+  "left": "d",
+  "right": "ne",
+  "new": "dne",
+  "new_id": 836,
+  "count": 65
+ },
+ {
+  "step": 582,
+  "left": "e",
+  "right": "ille",
+  "new": "eille",
+  "new_id": 837,
+  "count": 65
+ },
+ {
+  "step": 583,
+  "left": "h",
+  "right": "ol",
+  "new": "hol",
+  "new_id": 838,
+  "count": 65
+ },
+ {
+  "step": 584,
+  "left": "j",
+  "right": "ing",
+  "new": "jing",
+  "new_id": 839,
+  "count": 65
+ },
+ {
+  "step": 585,
+  "left": "n",
+  "right": "o",
+  "new": "no",
+  "new_id": 840,
+  "count": 65
+ },
+ {
+  "step": 586,
+  "left": "o",
+  "right": "i",
+  "new": "oi",
+  "new_id": 841,
+  "count": 65
+ },
+ {
+  "step": 587,
+  "left": "y",
+  "right": "dne",
+  "new": "ydne",
+  "new_id": 842,
+  "count": 65
+ },
+ {
+  "step": 588,
+  "left": "ar",
+  "right": "l",
+  "new": "arl",
+  "new_id": 843,
+  "count": 65
+ },
+ {
+  "step": 589,
+  "left": " c",
+  "right": "an",
+  "new": " can",
+  "new_id": 844,
+  "count": 65
+ },
+ {
+  "step": 590,
+  "left": "eg",
+  "right": "o",
+  "new": "ego",
+  "new_id": 845,
+  "count": 65
+ },
+ {
+  "step": 591,
+  "left": "an",
+  "right": "g",
+  "new": "ang",
+  "new_id": 846,
+  "count": 65
+ },
+ {
+  "step": 592,
+  "left": " m",
+  "right": "etropolitan",
+  "new": " metropolitan",
+  "new_id": 847,
+  "count": 65
+ },
+ {
+  "step": 593,
+  "left": "at",
+  "right": "i",
+  "new": "ati",
+  "new_id": 848,
+  "count": 65
+ },
+ {
+  "step": 594,
+  "left": " S",
+  "right": "prings",
+  "new": " Springs",
+  "new_id": 849,
+  "count": 65
+ },
+ {
+  "step": 595,
+  "left": "it",
+  "right": "o",
+  "new": "ito",
+  "new_id": 850,
+  "count": 65
+ },
+ {
+  "step": 596,
+  "left": "ch",
+  "right": "i",
+  "new": "chi",
+  "new_id": 851,
+  "count": 65
+ },
+ {
+  "step": 597,
+  "left": "en",
+  "right": "to",
+  "new": "ento",
+  "new_id": 852,
+  "count": 65
+ },
+ {
+  "step": 598,
+  "left": "to",
+  "right": "ck",
+  "new": "tock",
+  "new_id": 853,
+  "count": 65
+ },
+ {
+  "step": 599,
+  "left": " mil",
+  "right": "l",
+  "new": " mill",
+  "new_id": 854,
+  "count": 65
+ },
+ {
+  "step": 600,
+  "left": " 9",
+  "right": "6",
+  "new": " 96",
+  "new_id": 855,
+  "count": 65
+ },
+ {
+  "step": 601,
+  "left": "bu",
+  "right": "s",
+  "new": "bus",
+  "new_id": 856,
+  "count": 65
+ },
+ {
+  "step": 602,
+  "left": "ap",
+  "right": "p",
+  "new": "app",
+  "new_id": 857,
+  "count": 65
+ },
+ {
+  "step": 603,
+  "left": "ia",
+  "right": "mi",
+  "new": "iami",
+  "new_id": 858,
+  "count": 65
+ },
+ {
+  "step": 604,
+  "left": "ak",
+  "right": "land",
+  "new": "akland",
+  "new_id": 859,
+  "count": 65
+ },
+ {
+  "step": 605,
+  "left": "et",
+  "right": "ro",
+  "new": "etro",
+  "new_id": 860,
+  "count": 65
+ },
+ {
+  "step": 606,
+  "left": " b",
+  "right": "y",
+  "new": " by",
+  "new_id": 861,
+  "count": 65
+ },
+ {
+  "step": 607,
+  "left": "ei",
+  "right": "jing",
+  "new": "eijing",
+  "new_id": 862,
+  "count": 65
+ },
+ {
+  "step": 608,
+  "left": " Mon",
+  "right": "ica",
+  "new": " Monica",
+  "new_id": 863,
+  "count": 65
+ },
+ {
+  "step": 609,
+  "left": "ans",
+  "right": "as",
+  "new": "ansas",
+  "new_id": 864,
+  "count": 65
+ },
+ {
+  "step": 610,
+  "left": " Pa",
+  "right": "z",
+  "new": " Paz",
+  "new_id": 865,
+  "count": 65
+ },
+ {
+  "step": 611,
+  "left": "Qu",
+  "right": "ito",
+  "new": "Quito",
+  "new_id": 866,
+  "count": 65
+ },
+ {
+  "step": 612,
+  "left": " Di",
+  "right": "ego",
+  "new": " Diego",
+  "new_id": 867,
+  "count": 65
+ },
+ {
+  "step": 613,
+  "left": "umb",
+  "right": "ai",
+  "new": "umbai",
+  "new_id": 868,
+  "count": 65
+ },
+ {
+  "step": 614,
+  "left": "cram",
+  "right": "ento",
+  "new": "cramento",
+  "new_id": 869,
+  "count": 65
+ },
+ {
+  "step": 615,
+  "left": "hol",
+  "right": "m",
+  "new": "holm",
+  "new_id": 870,
+  "count": 65
+ },
+ {
+  "step": 616,
+  "left": "ydne",
+  "right": "y",
+  "new": "ydney",
+  "new_id": 871,
+  "count": 65
+ },
+ {
+  "step": 617,
+  "left": "tock",
+  "right": "holm",
+  "new": "tockholm",
+  "new_id": 872,
+  "count": 65
+ },
+ {
+  "step": 618,
+  "left": "a",
+  "right": "ff",
+  "new": "aff",
+  "new_id": 873,
+  "count": 64
+ },
+ {
+  "step": 619,
+  "left": "b",
+  "right": "ara",
+  "new": "bara",
+  "new_id": 874,
+  "count": 64
+ },
+ {
+  "step": 620,
+  "left": "d",
+  "right": "am",
+  "new": "dam",
+  "new_id": 875,
+  "count": 64
+ },
+ {
+  "step": 621,
+  "left": "g",
+  "right": "os",
+  "new": "gos",
+  "new_id": 876,
+  "count": 64
+ },
+ {
+  "step": 622,
+  "left": "i",
+  "right": "res",
+  "new": "ires",
+  "new_id": 877,
+  "count": 64
+ },
+ {
+  "step": 623,
+  "left": "j",
+  "right": "ara",
+  "new": "jara",
+  "new_id": 878,
+  "count": 64
+ },
+ {
+  "step": 624,
+  "left": "m",
+  "right": "ster",
+  "new": "mster",
+  "new_id": 879,
+  "count": 64
+ },
+ {
+  "step": 625,
+  "left": "o",
+  "right": "han",
+  "new": "ohan",
+  "new_id": 880,
+  "count": 64
+ },
+ {
+  "step": 626,
+  "left": "p",
+  "right": "ok",
+  "new": "pok",
+  "new_id": 881,
+  "count": 64
+ },
+ {
+  "step": 627,
+  "left": "ou",
+  "right": "is",
+  "new": "ouis",
+  "new_id": 882,
+  "count": 64
+ },
+ {
+  "step": 628,
+  "left": "nd",
+  "right": "u",
+  "new": "ndu",
+  "new_id": 883,
+  "count": 64
+ },
+ {
+  "step": 629,
+  "left": "nd",
+  "right": "ian",
+  "new": "ndian",
+  "new_id": 884,
+  "count": 64
+ },
+ {
+  "step": 630,
+  "left": "gh",
+  "right": "ai",
+  "new": "ghai",
+  "new_id": 885,
+  "count": 64
+ },
+ {
+  "step": 631,
+  "left": "al",
+  "right": "o",
+  "new": "alo",
+  "new_id": 886,
+  "count": 64
+ },
+ {
+  "step": 632,
+  "left": "in",
+  "right": "ki",
+  "new": "inki",
+  "new_id": 887,
+  "count": 64
+ },
+ {
+  "step": 633,
+  "left": "ol",
+  "right": "um",
+  "new": "olum",
+  "new_id": 888,
+  "count": 64
+ },
+ {
+  "step": 634,
+  "left": " A",
+  "right": "ires",
+  "new": " Aires",
+  "new_id": 889,
+  "count": 64
+ },
+ {
+  "step": 635,
+  "left": "em",
+  "right": "ph",
+  "new": "emph",
+  "new_id": 890,
+  "count": 64
+ },
+ {
+  "step": 636,
+  "left": "il",
+  "right": "a",
+  "new": "ila",
+  "new_id": 891,
+  "count": 64
+ },
+ {
+  "step": 637,
+  "left": "ot",
+  "right": "te",
+  "new": "otte",
+  "new_id": 892,
+  "count": 64
+ },
+ {
+  "step": 638,
+  "left": "en",
+  "right": "a",
+  "new": "ena",
+  "new_id": 893,
+  "count": 64
+ },
+ {
+  "step": 639,
+  "left": "en",
+  "right": "os",
+  "new": "enos",
+  "new_id": 894,
+  "count": 64
+ },
+ {
+  "step": 640,
+  "left": " B",
+  "right": "ea",
+  "new": " Bea",
+  "new_id": 895,
+  "count": 64
+ },
+ {
+  "step": 641,
+  "left": "le",
+  "right": "ve",
+  "new": "leve",
+  "new_id": 896,
+  "count": 64
+ },
+ {
+  "step": 642,
+  "left": " 2",
+  "right": "5",
+  "new": " 25",
+  "new_id": 897,
+  "count": 64
+ },
+ {
+  "step": 643,
+  "left": "bu",
+  "right": "l",
+  "new": "bul",
+  "new_id": 898,
+  "count": 64
+ },
+ {
+  "step": 644,
+  "left": " T",
+  "right": "own",
+  "new": " Town",
+  "new_id": 899,
+  "count": 64
+ },
+ {
+  "step": 645,
+  "left": "land",
+  "right": "o",
+  "new": "lando",
+  "new_id": 900,
+  "count": 64
+ },
+ {
+  "step": 646,
+  "left": "ad",
+  "right": "rid",
+  "new": "adrid",
+  "new_id": 901,
+  "count": 64
+ },
+ {
+  "step": 647,
+  "left": "ad",
+  "right": "ena",
+  "new": "adena",
+  "new_id": 902,
+  "count": 64
+ },
+ {
+  "step": 648,
+  "left": "han",
+  "right": "ghai",
+  "new": "hanghai",
+  "new_id": 903,
+  "count": 64
+ },
+ {
+  "step": 649,
+  "left": "res",
+  "right": "no",
+  "new": "resno",
+  "new_id": 904,
+  "count": 64
+ },
+ {
+  "step": 650,
+  "left": " Y",
+  "right": "ork",
+  "new": " York",
+  "new_id": 905,
+  "count": 64
+ },
+ {
+  "step": 651,
+  "left": " An",
+  "right": "ton",
+  "new": " Anton",
+  "new_id": 906,
+  "count": 64
+ },
+ {
+  "step": 652,
+  "left": "ara",
+  "right": "chi",
+  "new": "arachi",
+  "new_id": 907,
+  "count": 64
+ },
+ {
+  "step": 653,
+  "left": "hen",
+  "right": "s",
+  "new": "hens",
+  "new_id": 908,
+  "count": 64
+ },
+ {
+  "step": 654,
+  "left": "ke",
+  "right": "e",
+  "new": "kee",
+  "new_id": 909,
+  "count": 64
+ },
+ {
+  "step": 655,
+  "left": "ke",
+  "right": "ley",
+  "new": "keley",
+  "new_id": 910,
+  "count": 64
+ },
+ {
+  "step": 656,
+  "left": "ala",
+  "right": "jara",
+  "new": "alajara",
+  "new_id": 911,
+  "count": 64
+ },
+ {
+  "step": 657,
+  "left": " Pa",
+  "right": "ul",
+  "new": " Paul",
+  "new_id": 912,
+  "count": 64
+ },
+ {
+  "step": 658,
+  "left": "ff",
+  "right": "alo",
+  "new": "ffalo",
+  "new_id": 913,
+  "count": 64
+ },
+ {
+  "step": 659,
+  "left": "els",
+  "right": "inki",
+  "new": "elsinki",
+  "new_id": 914,
+  "count": 64
+ },
+ {
+  "step": 660,
+  "left": "ma",
+  "right": "ndu",
+  "new": "mandu",
+  "new_id": 915,
+  "count": 64
+ },
+ {
+  "step": 661,
+  "left": "airo",
+  "right": "bi",
+  "new": "airobi",
+  "new_id": 916,
+  "count": 64
+ },
+ {
+  "step": 662,
+  "left": " Pas",
+  "right": "o",
+  "new": " Paso",
+  "new_id": 917,
+  "count": 64
+ },
+ {
+  "step": 663,
+  "left": " Bar",
+  "right": "bara",
+  "new": " Barbara",
+  "new_id": 918,
+  "count": 64
+ },
+ {
+  "step": 664,
+  "left": "nes",
+  "right": "burg",
+  "new": "nesburg",
+  "new_id": 919,
+  "count": 64
+ },
+ {
+  "step": 665,
+  "left": "stan",
+  "right": "bul",
+  "new": "stanbul",
+  "new_id": 920,
+  "count": 64
+ },
+ {
+  "step": 666,
+  "left": "ois",
+  "right": "e",
+  "new": "oise",
+  "new_id": 921,
+  "count": 64
+ },
+ {
+  "step": 667,
+  "left": "uad",
+  "right": "alajara",
+  "new": "uadalajara",
+  "new_id": 922,
+  "count": 64
+ },
+ {
+  "step": 668,
+  "left": "ath",
+  "right": "mandu",
+  "new": "athmandu",
+  "new_id": 923,
+  "count": 64
+ },
+ {
+  "step": 669,
+  "left": "arl",
+  "right": "otte",
+  "new": "arlotte",
+  "new_id": 924,
+  "count": 64
+ },
+ {
+  "step": 670,
+  "left": "app",
+  "right": "oro",
+  "new": "apporo",
+  "new_id": 925,
+  "count": 64
+ },
+ {
+  "step": 671,
+  "left": "mster",
+  "right": "dam",
+  "new": "msterdam",
+  "new_id": 926,
+  "count": 64
+ },
+ {
+  "step": 672,
+  "left": "ohan",
+  "right": "nesburg",
+  "new": "ohannesburg",
+  "new_id": 927,
+  "count": 64
+ },
+ {
+  "step": 673,
+  "left": "pok",
+  "right": "ane",
+  "new": "pokane",
+  "new_id": 928,
+  "count": 64
+ },
+ {
+  "step": 674,
+  "left": "emph",
+  "right": "is",
+  "new": "emphis",
+  "new_id": 929,
+  "count": 64
+ },
+ {
+  "step": 675,
+  "left": " Bea",
+  "right": "ch",
+  "new": " Beach",
+  "new_id": 930,
+  "count": 64
+ },
+ {
+  "step": 676,
+  "left": "leve",
+  "right": "land",
+  "new": "leveland",
+  "new_id": 931,
+  "count": 64
+ },
+ {
+  "step": 677,
+  "left": " Anton",
+  "right": "io",
+  "new": " Antonio",
+  "new_id": 932,
+  "count": 64
+ },
+ {
+  "step": 678,
+  "left": "Z",
+  "right": "ur",
+  "new": "Zur",
+  "new_id": 933,
+  "count": 63
+ },
+ {
+  "step": 679,
+  "left": "d",
+  "right": "u",
+  "new": "du",
+  "new_id": 934,
+  "count": 63
+ },
+ {
+  "step": 680,
+  "left": "g",
+  "right": "ary",
+  "new": "gary",
+  "new_id": 935,
+  "count": 63
+ },
+ {
+  "step": 681,
+  "left": "g",
+  "right": "st",
+  "new": "gst",
+  "new_id": 936,
+  "count": 63
+ },
+ {
+  "step": 682,
+  "left": "h",
+  "right": "age",
+  "new": "hage",
+  "new_id": 937,
+  "count": 63
+ },
+ {
+  "step": 683,
+  "left": "h",
+  "right": "aka",
+  "new": "haka",
+  "new_id": 938,
+  "count": 63
+ },
+ {
+  "step": 684,
+  "left": "l",
+  "right": "bu",
+  "new": "lbu",
+  "new_id": 939,
+  "count": 63
+ },
+ {
+  "step": 685,
+  "left": "t",
+  "right": "ia",
+  "new": "tia",
+  "new_id": 940,
+  "count": 63
+ },
+ {
+  "step": 686,
+  "left": "y",
+  "right": "ad",
+  "new": "yad",
+  "new_id": 941,
+  "count": 63
+ },
+ {
+  "step": 687,
+  "left": " a",
+  "right": "n",
+  "new": " an",
+  "new_id": 942,
+  "count": 63
+ },
+ {
+  "step": 688,
+  "left": "er",
+  "right": "que",
+  "new": "erque",
+  "new_id": 943,
+  "count": 63
+ },
+ {
+  "step": 689,
+  "left": " J",
+  "right": "ose",
+  "new": " Jose",
+  "new_id": 944,
+  "count": 63
+ },
+ {
+  "step": 690,
+  "left": "at",
+  "right": "tle",
+  "new": "attle",
+  "new_id": 945,
+  "count": 63
+ },
+ {
+  "step": 691,
+  "left": "art",
+  "right": "a",
+  "new": "arta",
+  "new_id": 946,
+  "count": 63
+ },
+ {
+  "step": 692,
+  "left": " C",
+  "right": "hi",
+  "new": " Chi",
+  "new_id": 947,
+  "count": 63
+ },
+ {
+  "step": 693,
+  "left": " P",
+  "right": "etersburg",
+  "new": " Petersburg",
+  "new_id": 948,
+  "count": 63
+ },
+ {
+  "step": 694,
+  "left": "en",
+  "right": "hage",
+  "new": "enhage",
+  "new_id": 949,
+  "count": 63
+ },
+ {
+  "step": 695,
+  "left": "as",
+  "right": "abl",
+  "new": "asabl",
+  "new_id": 950,
+  "count": 63
+ },
+ {
+  "step": 696,
+  "left": "ne",
+  "right": "apolis",
+  "new": "neapolis",
+  "new_id": 951,
+  "count": 63
+ },
+ {
+  "step": 697,
+  "left": "la",
+  "right": "gst",
+  "new": "lagst",
+  "new_id": 952,
+  "count": 63
+ },
+ {
+  "step": 698,
+  "left": " L",
+  "right": "ouis",
+  "new": " Louis",
+  "new_id": 953,
+  "count": 63
+ },
+ {
+  "step": 699,
+  "left": "el",
+  "right": "hi",
+  "new": "elhi",
+  "new_id": 954,
+  "count": 63
+ },
+ {
+  "step": 700,
+  "left": "ak",
+  "right": "arta",
+  "new": "akarta",
+  "new_id": 955,
+  "count": 63
+ },
+ {
+  "step": 701,
+  "left": "op",
+  "right": "enhage",
+  "new": "openhage",
+  "new_id": 956,
+  "count": 63
+ },
+ {
+  "step": 702,
+  "left": "anc",
+  "right": "a",
+  "new": "anca",
+  "new_id": 957,
+  "count": 63
+ },
+ {
+  "step": 703,
+  "left": "qu",
+  "right": "erque",
+  "new": "querque",
+  "new_id": 958,
+  "count": 63
+ },
+ {
+  "step": 704,
+  "left": "un",
+  "right": "ich",
+  "new": "unich",
+  "new_id": 959,
+  "count": 63
+ },
+ {
+  "step": 705,
+  "left": "ma",
+  "right": "ha",
+  "new": "maha",
+  "new_id": 960,
+  "count": 63
+ },
+ {
+  "step": 706,
+  "left": " Min",
+  "right": "h",
+  "new": " Minh",
+  "new_id": 961,
+  "count": 63
+ },
+ {
+  "step": 707,
+  "left": "og",
+  "right": "ota",
+  "new": "ogota",
+  "new_id": 962,
+  "count": 63
+ },
+ {
+  "step": 708,
+  "left": "ars",
+  "right": "aw",
+  "new": "arsaw",
+  "new_id": 963,
+  "count": 63
+ },
+ {
+  "step": 709,
+  "left": "anam",
+  "right": "a",
+  "new": "anama",
+  "new_id": 964,
+  "count": 63
+ },
+ {
+  "step": 710,
+  "left": "olum",
+  "right": "bus",
+  "new": "olumbus",
+  "new_id": 965,
+  "count": 63
+ },
+ {
+  "step": 711,
+  "left": " Paul",
+  "right": "o",
+  "new": " Paulo",
+  "new_id": 966,
+  "count": 63
+ },
+ {
+  "step": 712,
+  "left": "Zur",
+  "right": "ich",
+  "new": "Zurich",
+  "new_id": 967,
+  "count": 63
+ },
+ {
+  "step": 713,
+  "left": "lbu",
+  "right": "querque",
+  "new": "lbuquerque",
+  "new_id": 968,
+  "count": 63
+ },
+ {
+  "step": 714,
+  "left": "tia",
+  "right": "go",
+  "new": "tiago",
+  "new_id": 969,
+  "count": 63
+ },
+ {
+  "step": 715,
+  "left": "yad",
+  "right": "h",
+  "new": "yadh",
+  "new_id": 970,
+  "count": 63
+ },
+ {
+  "step": 716,
+  "left": "asabl",
+  "right": "anca",
+  "new": "asablanca",
+  "new_id": 971,
+  "count": 63
+ },
+ {
+  "step": 717,
+  "left": "lagst",
+  "right": "aff",
+  "new": "lagstaff",
+  "new_id": 972,
+  "count": 63
+ },
+ {
+  "step": 718,
+  "left": "openhage",
+  "right": "n",
+  "new": "openhagen",
+  "new_id": 973,
+  "count": 63
+ },
+ {
+  "step": 719,
+  "left": "b",
+  "right": "ab",
+  "new": "bab",
+  "new_id": 974,
+  "count": 62
+ },
+ {
+  "step": 720,
+  "left": "c",
+  "right": "ow",
+  "new": "cow",
+  "new_id": 975,
+  "count": 62
+ },
+ {
+  "step": 721,
+  "left": "d",
+  "right": "ap",
+  "new": "dap",
+  "new_id": 976,
+  "count": 62
+ },
+ {
+  "step": 722,
+  "left": "g",
+  "right": "du",
+  "new": "gdu",
+  "new_id": 977,
+  "count": 62
+ },
+ {
+  "step": 723,
+  "left": "i",
+  "right": "k",
+  "new": "ik",
+  "new_id": 978,
+  "count": 62
+ },
+ {
+  "step": 724,
+  "left": "ar",
+  "right": "is",
+  "new": "aris",
+  "new_id": 979,
+  "count": 62
+ },
+ {
+  "step": 725,
+  "left": " A",
+  "right": "bab",
+  "new": " Abab",
+  "new_id": 980,
+  "count": 62
+ },
+ {
+  "step": 726,
+  "left": "st",
+  "right": "on",
+  "new": "ston",
+  "new_id": 981,
+  "count": 62
+ },
+ {
+  "step": 727,
+  "left": " P",
+  "right": "ed",
+  "new": " Ped",
+  "new_id": 982,
+  "count": 62
+ },
+ {
+  "step": 728,
+  "left": "en",
+  "right": "o",
+  "new": "eno",
+  "new_id": 983,
+  "count": 62
+ },
+ {
+  "step": 729,
+  "left": "ate",
+  "right": "d",
+  "new": "ated",
+  "new_id": 984,
+  "count": 62
+ },
+ {
+  "step": 730,
+  "left": "gu",
+  "right": "e",
+  "new": "gue",
+  "new_id": 985,
+  "count": 62
+ },
+ {
+  "step": 731,
+  "left": "os",
+  "right": "cow",
+  "new": "oscow",
+  "new_id": 986,
+  "count": 62
+ },
+ {
+  "step": 732,
+  "left": "hen",
+  "right": "gdu",
+  "new": "hengdu",
+  "new_id": 987,
+  "count": 62
+ },
+ {
+  "step": 733,
+  "left": "all",
+  "right": "as",
+  "new": "allas",
+  "new_id": 988,
+  "count": 62
+ },
+ {
+  "step": 734,
+  "left": "ana",
+  "right": "us",
+  "new": "anaus",
+  "new_id": 989,
+  "count": 62
+ },
+ {
+  "step": 735,
+  "left": "ount",
+  "right": "y",
+  "new": "ounty",
+  "new_id": 990,
+  "count": 62
+ },
+ {
+  "step": 736,
+  "left": "lan",
+  "right": "ta",
+  "new": "lanta",
+  "new_id": 991,
+  "count": 62
+ },
+ {
+  "step": 737,
+  "left": "dd",
+  "right": "is",
+  "new": "ddis",
+  "new_id": 992,
+  "count": 62
+ },
+ {
+  "step": 738,
+  "left": "etro",
+  "right": "it",
+  "new": "etroit",
+  "new_id": 993,
+  "count": 62
+ },
+ {
+  "step": 739,
+  "left": "ndian",
+  "right": "apolis",
+  "new": "ndianapolis",
+  "new_id": 994,
+  "count": 62
+ },
+ {
+  "step": 740,
+  "left": " Abab",
+  "right": "a",
+  "new": " Ababa",
+  "new_id": 995,
+  "count": 62
+ },
+ {
+  "step": 741,
+  "left": " Ped",
+  "right": "ro",
+  "new": " Pedro",
+  "new_id": 996,
+  "count": 62
+ },
+ {
+  "step": 742,
+  "left": "B",
+  "right": "u",
+  "new": "Bu",
+  "new_id": 997,
+  "count": 61
+ },
+ {
+  "step": 743,
+  "left": "I",
+  "right": "t",
+  "new": "It",
+  "new_id": 998,
+  "count": 61
+ },
+ {
+  "step": 744,
+  "left": "a",
+  "right": "at",
+  "new": "aat",
+  "new_id": 999,
+  "count": 61
+ },
+ {
+  "step": 745,
+  "left": "b",
+  "right": "aat",
+  "new": "baat",
+  "new_id": 1000,
+  "count": 61
+ },
+ {
+  "step": 746,
+  "left": "e",
+  "right": "h",
+  "new": "eh",
+  "new_id": 1001,
+  "count": 61
+ },
+ {
+  "step": 747,
+  "left": "e",
+  "right": "y",
+  "new": "ey",
+  "new_id": 1002,
+  "count": 61
+ },
+ {
+  "step": 748,
+  "left": "k",
+  "right": "ata",
+  "new": "kata",
+  "new_id": 1003,
+  "count": 61
+ },
+ {
+  "step": 749,
+  "left": "p",
+  "right": "er",
+  "new": "per",
+  "new_id": 1004,
+  "count": 61
+ },
+ {
+  "step": 750,
+  "left": "w",
+  "right": "in",
+  "new": "win",
+  "new_id": 1005,
+  "count": 61
+ },
+ {
+  "step": 751,
+  "left": "he",
+  "right": "im",
+  "new": "heim",
+  "new_id": 1006,
+  "count": 61
+ },
+ {
+  "step": 752,
+  "left": "ou",
+  "right": "l",
+  "new": "oul",
+  "new_id": 1007,
+  "count": 61
+ },
+ {
+  "step": 753,
+  "left": "ou",
+  "right": "ston",
+  "new": "ouston",
+  "new_id": 1008,
+  "count": 61
+ },
+ {
+  "step": 754,
+  "left": "an",
+  "right": "baat",
+  "new": "anbaat",
+  "new_id": 1009,
+  "count": 61
+ },
+ {
+  "step": 755,
+  "left": "ol",
+  "right": "kata",
+  "new": "olkata",
+  "new_id": 1010,
+  "count": 61
+ },
+ {
+  "step": 756,
+  "left": "ra",
+  "right": "gue",
+  "new": "rague",
+  "new_id": 1011,
+  "count": 61
+ },
+ {
+  "step": 757,
+  "left": " M",
+  "right": "exico",
+  "new": " Mexico",
+  "new_id": 1012,
+  "count": 61
+ },
+ {
+  "step": 758,
+  "left": "il",
+  "right": "ad",
+  "new": "ilad",
+  "new_id": 1013,
+  "count": 61
+ },
+ {
+  "step": 759,
+  "left": "la",
+  "right": "anbaat",
+  "new": "laanbaat",
+  "new_id": 1014,
+  "count": 61
+ },
+ {
+  "step": 760,
+  "left": "el",
+  "right": "ph",
+  "new": "elph",
+  "new_id": 1015,
+  "count": 61
+ },
+ {
+  "step": 761,
+  "left": "ck",
+  "right": "land",
+  "new": "ckland",
+  "new_id": 1016,
+  "count": 61
+ },
+ {
+  "step": 762,
+  "left": " 20",
+  "right": "2",
+  "new": " 202",
+  "new_id": 1017,
+  "count": 61
+ },
+ {
+  "step": 763,
+  "left": "ilad",
+  "right": "elph",
+  "new": "iladelph",
+  "new_id": 1018,
+  "count": 61
+ },
+ {
+  "step": 764,
+  "left": "laanbaat",
+  "right": "ar",
+  "new": "laanbaatar",
+  "new_id": 1019,
+  "count": 61
+ },
+ {
+  "step": 765,
+  "left": "iladelph",
+  "right": "ia",
+  "new": "iladelphia",
+  "new_id": 1020,
+  "count": 61
+ }
+]

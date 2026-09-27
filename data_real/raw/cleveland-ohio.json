@@ -1,0 +1,139 @@
+{
+ "name": "Cleveland",
+ "admin1": "Ohio",
+ "country": "United States",
+ "country_code": "US",
+ "lat": 41.4995,
+ "lon": -81.69541,
+ "population": 365379,
+ "elevation_m": 199.0,
+ "climate": [
+  {
+   "month": 1,
+   "high": 37.6,
+   "low": 29.0,
+   "precip_in": 4.83,
+   "wet_days": 17.0,
+   "snow_in": 9.5,
+   "wind_mph": 16.9,
+   "sun_frac": 0.31
+  },
+  {
+   "month": 2,
+   "high": 42.1,
+   "low": 29.4,
+   "precip_in": 1.86,
+   "wet_days": 7.0,
+   "snow_in": 1.7,
+   "wind_mph": 17.6,
+   "sun_frac": 0.69
+  },
+  {
+   "month": 3,
+   "high": 45.0,
+   "low": 33.4,
+   "precip_in": 3.55,
+   "wet_days": 15.0,
+   "snow_in": 4.7,
+   "wind_mph": 17.8,
+   "sun_frac": 0.57
+  },
+  {
+   "month": 4,
+   "high": 55.8,
+   "low": 43.1,
+   "precip_in": 4.65,
+   "wet_days": 14.0,
+   "snow_in": 0.8,
+   "wind_mph": 16.4,
+   "sun_frac": 0.71
+  },
+  {
+   "month": 5,
+   "high": 64.4,
+   "low": 52.8,
+   "precip_in": 2.98,
+   "wet_days": 8.0,
+   "snow_in": 0.2,
+   "wind_mph": 14.6,
+   "sun_frac": 0.79
+  },
+  {
+   "month": 6,
+   "high": 73.9,
+   "low": 62.3,
+   "precip_in": 4.39,
+   "wet_days": 11.0,
+   "snow_in": 0.0,
+   "wind_mph": 14.1,
+   "sun_frac": 0.81
+  },
+  {
+   "month": 7,
+   "high": 77.4,
+   "low": 68.1,
+   "precip_in": 3.51,
+   "wet_days": 13.5,
+   "snow_in": 0.0,
+   "wind_mph": 13.0,
+   "sun_frac": 0.85
+  },
+  {
+   "month": 8,
+   "high": 75.5,
+   "low": 66.9,
+   "precip_in": 5.0,
+   "wet_days": 12.0,
+   "snow_in": 0.0,
+   "wind_mph": 13.7,
+   "sun_frac": 0.82
+  },
+  {
+   "month": 9,
+   "high": 72.1,
+   "low": 62.5,
+   "precip_in": 2.42,
+   "wet_days": 8.0,
+   "snow_in": 0.0,
+   "wind_mph": 12.9,
+   "sun_frac": 0.79
+  },
+  {
+   "month": 10,
+   "high": 61.9,
+   "low": 52.7,
+   "precip_in": 3.68,
+   "wet_days": 13.0,
+   "snow_in": 0.2,
+   "wind_mph": 16.1,
+   "sun_frac": 0.74
+  },
+  {
+   "month": 11,
+   "high": 51.2,
+   "low": 42.2,
+   "precip_in": 3.15,
+   "wet_days": 12.0,
+   "snow_in": 3.0,
+   "wind_mph": 17.6,
+   "sun_frac": 0.61
+  },
+  {
+   "month": 12,
+   "high": 41.7,
+   "low": 34.8,
+   "precip_in": 4.57,
+   "wet_days": 17.5,
+   "snow_in": 6.5,
+   "wind_mph": 16.7,
+   "sun_frac": 0.39
+  }
+ ],
+ "period": "2023-01-01 to 2024-12-31",
+ "wiki": {
+  "title": "Cleveland",
+  "url": "https://en.wikipedia.org/wiki/Cleveland",
+  "intro": "Cleveland is a city in the U.S. state of Ohio and the county seat of Cuyahoga County. Located along the southern shore of Lake Erie, it is situated across the lake from the Canadian province of Ontario, and is approximately 60 miles west of the Ohio\u2013Pennsylvania state line. Cleveland is the most populous city on Lake Erie, the 2nd-most populous city in Ohio, and the 53rd-most populous city in the United States, with a population of 372,624 at the 2020 census. The Greater Cleveland metropolitan area, with an estimated 2.17 million residents, is the 34th-largest metropolitan area in the U.S.\nCleveland was founded in 1796 near the mouth of the Cuyahoga River as part of the Connecticut Western Reserve in modern-day Northeast Ohio by General Moses Cleaveland, after whom the city was named. The city's location on the river and the lake shore allowed it to grow into a major commercial and industrial metropolis by the late 19th century, attracting large numbers of immigrants and migrants. It was among the top 10 largest U.S. cities by population for much of the 20th century, a period that saw the development of the city's cultural institutions. By the 1960s, Cleveland's economy began to slow down as manufacturing declined and suburbanization occurred.\nCleveland is a port city, connected to the Atlantic Ocean via the St. Lawrence Seaway. Its economy relies on diverse sectors that include higher education, manufacturing, financial services, healthcare, and biomedicals. The city serves as the headquarters of the Federal Reserve Bank of Cleveland, as well as several major companies. The GDP for Greater Cleveland was US$138.3 billion in 2022. Combined with the Akron metropolitan area, the eight-county Cleveland\u2013Akron metropolitan economy was $176 billion in 2022, the largest in Ohio.\nDesignated as a global city by the Globalization and World Cities Research Network, Cleveland is home to several major cultural institutions, including the Cleveland Museum of Art, the Cleveland Museum of Natural History, the Cleveland Orchestra, the Cleveland Public Library, Playhouse Square, and the Rock and Roll Hall of Fame, as well as Case Western Reserve University. Known as \"The Forest City\" among many other nicknames, Cleveland serves as the center of the Cleveland Metroparks nature reserve system. The city's major league professional sports teams include the Cleveland Browns, the Cleveland Cavaliers, and the Cleveland Guardians.",
+  "climate": "Cleveland exhibits a humid continental or humid subtropical climate, depending on the isotherm used. Due to its proximity to Lake Erie, Cleveland experiences milder temperatures than much of Ohio, with relatively cooler summers and warmer winters. East of the mouth of the Cuyahoga, the land elevation rises rapidly in the south. Together with the prevailing winds off Lake Erie, this feature is the principal contributor to the lake-effect snow that is typical in Cleveland from mid-November until the surface of the lake freezes, usually in late January or early February. The lake effect causes a relative differential in geographical snowfall totals across the city. On the city's far West Side, the Hopkins neighborhood only reached 100 inches of snowfall in a season three times since record-keeping for snow began in 1893. By contrast, seasonal totals approaching or exceeding 100 inches are not uncommon as the city ascends into the Heights on the east, where the region known as the \"Snow Belt\" begins. Extending from the city's East Side, the Snow Belt reaches up the Lake Erie shore as far as Buffalo. The worst winter storm in Cleveland's history was the Great Blizzard of 1978.\nThe all-time record high in Cleveland of 104 \u00b0F was established on June 25, 1988, and the all-time record low of \u221220 \u00b0F was set on January 19, 1994. On average, July is the warmest month with a mean temperature of 74.5 \u00b0F, and January, with a mean temperature of 29.1 \u00b0F, is the coldest. Normal yearly precipitation based on the 30-year average from 1991 to 2020 is 41.03 inches. The least precipitation occurs on the western side and directly along the lake, and the most occurs in the eastern suburbs. Parts of Geauga County to the east receive over 44 inches of liquid precipitation annually."
+ }
+}

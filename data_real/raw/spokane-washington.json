@@ -1,0 +1,139 @@
+{
+ "name": "Spokane",
+ "admin1": "Washington",
+ "country": "United States",
+ "country_code": "US",
+ "lat": 47.65966,
+ "lon": -117.42908,
+ "population": 229447,
+ "elevation_m": 571.0,
+ "climate": [
+  {
+   "month": 1,
+   "high": 36.1,
+   "low": 23.9,
+   "precip_in": 1.85,
+   "wet_days": 10.0,
+   "snow_in": 4.9,
+   "wind_mph": 8.3,
+   "sun_frac": 0.43
+  },
+  {
+   "month": 2,
+   "high": 42.1,
+   "low": 26.7,
+   "precip_in": 1.64,
+   "wet_days": 11.0,
+   "snow_in": 4.9,
+   "wind_mph": 11.0,
+   "sun_frac": 0.51
+  },
+  {
+   "month": 3,
+   "high": 48.9,
+   "low": 29.1,
+   "precip_in": 1.47,
+   "wet_days": 9.0,
+   "snow_in": 4.1,
+   "wind_mph": 10.6,
+   "sun_frac": 0.72
+  },
+  {
+   "month": 4,
+   "high": 57.1,
+   "low": 37.0,
+   "precip_in": 1.51,
+   "wet_days": 7.0,
+   "snow_in": 1.7,
+   "wind_mph": 11.5,
+   "sun_frac": 0.73
+  },
+  {
+   "month": 5,
+   "high": 70.7,
+   "low": 48.1,
+   "precip_in": 1.32,
+   "wet_days": 4.5,
+   "snow_in": 0.0,
+   "wind_mph": 11.4,
+   "sun_frac": 0.83
+  },
+  {
+   "month": 6,
+   "high": 77.6,
+   "low": 53.7,
+   "precip_in": 0.9,
+   "wet_days": 4.0,
+   "snow_in": 0.0,
+   "wind_mph": 10.9,
+   "sun_frac": 0.84
+  },
+  {
+   "month": 7,
+   "high": 90.4,
+   "low": 63.1,
+   "precip_in": 0.07,
+   "wet_days": 0.5,
+   "snow_in": 0.0,
+   "wind_mph": 10.1,
+   "sun_frac": 0.95
+  },
+  {
+   "month": 8,
+   "high": 86.2,
+   "low": 60.6,
+   "precip_in": 0.95,
+   "wet_days": 4.5,
+   "snow_in": 0.0,
+   "wind_mph": 10.0,
+   "sun_frac": 0.85
+  },
+  {
+   "month": 9,
+   "high": 77.2,
+   "low": 53.4,
+   "precip_in": 0.43,
+   "wet_days": 3.0,
+   "snow_in": 0.0,
+   "wind_mph": 10.3,
+   "sun_frac": 0.83
+  },
+  {
+   "month": 10,
+   "high": 62.4,
+   "low": 40.3,
+   "precip_in": 0.88,
+   "wet_days": 4.5,
+   "snow_in": 0.4,
+   "wind_mph": 9.4,
+   "sun_frac": 0.8
+  },
+  {
+   "month": 11,
+   "high": 44.7,
+   "low": 31.4,
+   "precip_in": 3.32,
+   "wet_days": 12.0,
+   "snow_in": 1.9,
+   "wind_mph": 8.9,
+   "sun_frac": 0.47
+  },
+  {
+   "month": 12,
+   "high": 40.1,
+   "low": 29.4,
+   "precip_in": 3.52,
+   "wet_days": 14.0,
+   "snow_in": 6.9,
+   "wind_mph": 8.0,
+   "sun_frac": 0.38
+  }
+ ],
+ "period": "2023-01-01 to 2024-12-31",
+ "wiki": {
+  "title": "Spokane, Washington",
+  "url": "https://en.wikipedia.org/wiki/Spokane,_Washington",
+  "intro": "Spokane is a city in and the county seat of Spokane County in the U.S. state of Washington. It lies along the Spokane River, adjacent to the Selkirk Mountains and west of the Rocky Mountain foothills, 110 miles south of the Canadian border, twenty miles west of the Idaho state line, 279 miles southwest of Calgary, and 280 miles east of Seattle, via I-90.\nSpokane is the most populous city in eastern Washington and the second-most populous city in all of Washington, with a population of 228,989 at the 2020 census, while the Spokane metropolitan area has an estimated 605,000 residents.\nSpokane is the economic and cultural center of the Inland Northwest. It is known as the birthplace of Father's Day, and locally by the nickname of \"Lilac City\". Officially, Spokane goes by the nickname of Hooptown USA, due to Spokane's annual hosting of the Spokane Hoopfest, the world's largest 3-on-3 basketball tournament. The city and the wider Inland Northwest area are served by Spokane International Airport, 5 miles west of Downtown Spokane, which is located near another airfield at Fairchild Air Force Base.\nThe first people to live in the area, the Spokane tribe, lived off plentiful game. David Thompson explored the area with the westward expansion and establishment of the North West Company's Spokane House in 1810. This trading post was the first long-term European settlement in Washington. Completion of the Northern Pacific Railway in 1881 brought many settlers from America to the Spokane area. The same year it was officially incorporated as a city under the name of Spokane Falls. In the late 19th century, gold and silver were discovered in the Inland Northwest. The local economy depended on mining, timber, and agriculture until the 1980s. Spokane hosted the first environmentally themed World's fair at Expo '74.\nMany of the downtown area's older Romanesque Revival-style buildings were designed by architect Kirtland Cutter after the Great Spokane Fire of 1889, which damaged much of the downtown commercial district. The city is also home to the Riverfront and Manito parks, the Smithsonian-affiliated Northwest Museum of Arts and Culture, the Davenport Hotel, and the Fox and Bing Crosby theaters. The Cathedral of Our Lady of Lourdes is the seat of the Roman Catholic Diocese of Spokane, and the Cathedral of St. John the Evangelist serves as that of the Episcopal Diocese of Spokane. The Spokane Washington Temple in the east of the county serves the Church of Jesus Christ of Latter-day Saints. Gonzaga University was established in 1887 by the Jesuits, and the private Presbyterian Whitworth University was founded three years later and moved to north Spokane in 1914.\nIn sports, the region's professional and semi-professional sports teams include the Spokane Indians in Minor League Baseball, the Spokane Chiefs in the Western Hockey League, the Spokane Velocity in USL League One, and a women's first division team Spokane Zephyr FC in USL Super League. The Gonzaga Bulldogs collegiate basketball team competes at the Division I level. As of 2010, Spokane's major daily newspaper, The Spokesman-Review, had a daily circulation of over 76,000.",
+  "climate": "Spokane has a warm-summer humid continental climate, a rare climate due to its elevation and significant winter precipitation; Spokane, however, is adjacent to and sometimes even classified as a warm-summer Mediterranean climate because the average temperature for the coldest month is over 26.6 \u00b0F, though in the US this threshold is often defined to be 32 \u00b0F.\nThe area typically has a warm, arid climate during the summer months, bracketed by short spring and fall seasons. On average, the warmest month is July and the coolest month is December; July averages 71.0 \u00b0F, while December averages 29.1 \u00b0F. Daily temperature ranges are large during the summer, often exceeding 30 \u00b0F, and small during the winter, with a range just above 10 \u00b0F. The record high and low are 112 \u00b0F and \u221230 \u00b0F, but temperatures of more than 100 \u00b0F or less than \u22125 \u00b0F are rare. Temperatures of 90 \u00b0F + occur an average of 21 days annually, temperatures of 100 \u00b0F + occur an average of only 1 day annually, and those at or below 0 \u00b0F average 2.2 days a year.\nSpokane's location, between the Cascades Range to the west and the Rocky Mountains to the east and north, protects it from weather patterns experienced in other parts of the Pacific Northwest. The Cascade Mountains form a barrier to the eastward flow of moist and relatively mild air from the Pacific Ocean in winter and cool air in summer. As a result of the rain shadow effect of the Cascades, the Spokane area has 16.5 inches average annual precipitation, less than half of Seattle's 39.3 inches. Precipitation peaks in December, and summer is the driest time of the year. The Rockies shield Spokane from some of the winter season's coldest air masses traveling southward across Canada. In the summer season, Spokane, like much of the western United States, has been experiencing drier conditions and more frequent and larger wildfire events since the late 20th century; the fine particulate matter in the smoke can be carried by the wind and blanket the region in a haze and impact Spokane's air quality."
+ }
+}

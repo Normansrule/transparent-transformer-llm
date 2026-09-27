@@ -1,0 +1,134 @@
+{
+ "name": "Boston",
+ "admin1": "Massachusetts",
+ "country": "United States",
+ "country_code": "US",
+ "lat": 42.35843,
+ "lon": -71.05977,
+ "population": 653833,
+ "elevation_m": 14.0,
+ "climate": [
+  {
+   "month": 1,
+   "high": 40.2,
+   "low": 27.3,
+   "precip_in": 6.88,
+   "wet_days": 14.5,
+   "snow_in": 12.3,
+   "wind_mph": 13.3,
+   "sun_frac": 0.5
+  },
+  {
+   "month": 2,
+   "high": 42.3,
+   "low": 25.0,
+   "precip_in": 1.72,
+   "wet_days": 6.5,
+   "snow_in": 5.8,
+   "wind_mph": 13.7,
+   "sun_frac": 0.7
+  },
+  {
+   "month": 3,
+   "high": 47.2,
+   "low": 31.8,
+   "precip_in": 6.73,
+   "wet_days": 12.0,
+   "snow_in": 6.0,
+   "wind_mph": 14.6,
+   "sun_frac": 0.61
+  },
+  {
+   "month": 4,
+   "high": 57.3,
+   "low": 39.9,
+   "precip_in": 3.07,
+   "wet_days": 7.5,
+   "snow_in": 0.9,
+   "wind_mph": 13.5,
+   "sun_frac": 0.63
+  },
+  {
+   "month": 5,
+   "high": 68.2,
+   "low": 49.2,
+   "precip_in": 3.98,
+   "wet_days": 11.0,
+   "snow_in": 0.0,
+   "wind_mph": 12.5,
+   "sun_frac": 0.75
+  },
+  {
+   "month": 6,
+   "high": 76.5,
+   "low": 58.6,
+   "precip_in": 3.9,
+   "wet_days": 14.0,
+   "snow_in": 0.0,
+   "wind_mph": 11.7,
+   "sun_frac": 0.71
+  },
+  {
+   "month": 7,
+   "high": 84.1,
+   "low": 67.4,
+   "precip_in": 5.21,
+   "wet_days": 14.5,
+   "snow_in": 0.0,
+   "wind_mph": 11.4,
+   "sun_frac": 0.76
+  },
+  {
+   "month": 8,
+   "high": 78.7,
+   "low": 62.6,
+   "precip_in": 4.36,
+   "wet_days": 12.5,
+   "snow_in": 0.0,
+   "wind_mph": 11.0,
+   "sun_frac": 0.77
+  },
+  {
+   "month": 9,
+   "high": 73.0,
+   "low": 57.9,
+   "precip_in": 5.48,
+   "wet_days": 9.5,
+   "snow_in": 0.0,
+   "wind_mph": 10.7,
+   "sun_frac": 0.69
+  },
+  {
+   "month": 10,
+   "high": 64.3,
+   "low": 47.7,
+   "precip_in": 2.13,
+   "wet_days": 5.0,
+   "snow_in": 0.0,
+   "wind_mph": 10.8,
+   "sun_frac": 0.78
+  },
+  {
+   "month": 11,
+   "high": 51.3,
+   "low": 35.9,
+   "precip_in": 2.37,
+   "wet_days": 5.5,
+   "snow_in": 0.1,
+   "wind_mph": 12.6,
+   "sun_frac": 0.75
+  },
+  {
+   "month": 12,
+   "high": 42.7,
+   "low": 29.5,
+   "precip_in": 5.96,
+   "wet_days": 11.0,
+   "snow_in": 2.2,
+   "wind_mph": 11.2,
+   "sun_frac": 0.66
+  }
+ ],
+ "period": "2023-01-01 to 2024-12-31",
+ "wiki": null
+}

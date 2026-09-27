@@ -1,0 +1,139 @@
+{
+ "name": "Austin",
+ "admin1": "Texas",
+ "country": "United States",
+ "country_code": "US",
+ "lat": 30.26715,
+ "lon": -97.74306,
+ "population": 974447,
+ "elevation_m": 149.0,
+ "climate": [
+  {
+   "month": 1,
+   "high": 61.3,
+   "low": 42.3,
+   "precip_in": 3.73,
+   "wet_days": 10.0,
+   "snow_in": 0.0,
+   "wind_mph": 13.0,
+   "sun_frac": 0.7
+  },
+  {
+   "month": 2,
+   "high": 68.4,
+   "low": 48.1,
+   "precip_in": 3.02,
+   "wet_days": 8.0,
+   "snow_in": 0.0,
+   "wind_mph": 14.8,
+   "sun_frac": 0.7
+  },
+  {
+   "month": 3,
+   "high": 74.8,
+   "low": 55.3,
+   "precip_in": 3.56,
+   "wet_days": 10.5,
+   "snow_in": 0.0,
+   "wind_mph": 14.5,
+   "sun_frac": 0.63
+  },
+  {
+   "month": 4,
+   "high": 78.4,
+   "low": 59.9,
+   "precip_in": 7.36,
+   "wet_days": 14.0,
+   "snow_in": 0.0,
+   "wind_mph": 15.1,
+   "sun_frac": 0.62
+  },
+  {
+   "month": 5,
+   "high": 84.7,
+   "low": 68.2,
+   "precip_in": 8.17,
+   "wet_days": 18.0,
+   "snow_in": 0.0,
+   "wind_mph": 11.8,
+   "sun_frac": 0.62
+  },
+  {
+   "month": 6,
+   "high": 93.2,
+   "low": 74.2,
+   "precip_in": 4.06,
+   "wet_days": 8.5,
+   "snow_in": 0.0,
+   "wind_mph": 12.0,
+   "sun_frac": 0.8
+  },
+  {
+   "month": 7,
+   "high": 95.9,
+   "low": 76.7,
+   "precip_in": 2.37,
+   "wet_days": 8.0,
+   "snow_in": 0.0,
+   "wind_mph": 12.6,
+   "sun_frac": 0.86
+  },
+  {
+   "month": 8,
+   "high": 100.0,
+   "low": 78.9,
+   "precip_in": 0.85,
+   "wet_days": 3.5,
+   "snow_in": 0.0,
+   "wind_mph": 12.2,
+   "sun_frac": 0.94
+  },
+  {
+   "month": 9,
+   "high": 92.8,
+   "low": 74.1,
+   "precip_in": 2.94,
+   "wet_days": 5.5,
+   "snow_in": 0.0,
+   "wind_mph": 11.6,
+   "sun_frac": 0.86
+  },
+  {
+   "month": 10,
+   "high": 85.2,
+   "low": 64.8,
+   "precip_in": 3.53,
+   "wet_days": 7.0,
+   "snow_in": 0.0,
+   "wind_mph": 11.9,
+   "sun_frac": 0.83
+  },
+  {
+   "month": 11,
+   "high": 71.8,
+   "low": 53.4,
+   "precip_in": 2.51,
+   "wet_days": 6.5,
+   "snow_in": 0.0,
+   "wind_mph": 11.2,
+   "sun_frac": 0.72
+  },
+  {
+   "month": 12,
+   "high": 66.8,
+   "low": 48.2,
+   "precip_in": 2.12,
+   "wet_days": 8.0,
+   "snow_in": 0.0,
+   "wind_mph": 10.5,
+   "sun_frac": 0.71
+  }
+ ],
+ "period": "2023-01-01 to 2024-12-31",
+ "wiki": {
+  "title": "Austin, Texas",
+  "url": "https://en.wikipedia.org/wiki/Austin,_Texas",
+  "intro": "Austin is the capital city of the U.S. state of Texas. With a population of 961,855 at the 2020 census, it is the 12th-most populous city in the U.S., fifth-most populous city in Texas, and second-most populous U.S. state capital, while the Austin metro area with an estimated 2.55 million residents is the 25th-largest metropolitan area in the nation. Austin is the county seat and most populous city of Travis County, with portions extending into Hays and Williamson counties. Incorporated on December 27, 1839, it has been one of the fastest-growing large cities in the United States since 2010.\nLocated in Central Texas within the greater Texas Hill Country, it is home to numerous lakes, rivers, and waterways, including Lady Bird Lake and Lake Travis on the Colorado River, Barton Springs, McKinney Falls, and Lake Walter E. Long. Austin and San Antonio are approximately 80 miles apart, and both fall along the I-35 corridor. This combined metropolitan region of San Antonio\u2013Austin has approximately 5 million people. Austin is the southernmost state capital in the contiguous United States and is considered a Gamma + level global city as categorized by the Globalization and World Cities Research Network.\nResidents of Austin are sometimes known as Austinites. They include a diverse mix of government employees, college students, musicians, high-tech workers, and blue-collar workers. The city's official slogan promotes Austin as \"The Live Music Capital of the World\", a reference to the city's many musicians and live music venues, as well as the long-running PBS TV concert series Austin City Limits. Austin is the site of South by Southwest, an annual conglomeration of parallel film, interactive media, and music festivals. The city also adopted \"Silicon Hills\" as a nickname in the 1990s due to a rapid influx of technology and development companies. In recent years, some Austinites have adopted the unofficial slogan \"Keep Austin Weird\", which refers to the desire to protect small, unique, and local businesses from being overrun by large corporations. Ongoing rapid development and gentrification challenge its bohemian roots and fuel nostalgia for \u201cOld Austin\". Since the late 19th century, Austin has also been known as the \"City of the Violet Crown\", because of the colorful glow of light across the hills just after sunset.\nEmerging from a strong economic focus on government and education, Austin has become a center for technology and business since the 1990s. The technology roots in Austin can be traced back to the 1960s, when defense electronics contractor Tracor began operations in the city in 1962. IBM followed in 1967, opening a facility to produce its Selectric typewriters. Texas Instruments was set up in Austin two years later, and Motorola started semiconductor chip manufacturing in 1974. A number of Fortune 500 companies have headquarters or regional offices in Austin, including 3M, Advanced Micro Devices, Agilent Technologies, Amazon, Apple, CrowdStrike, Dell, Expedia, Facebook, General Motors, Google, IBM, Intel, NXP Semiconductors, Oracle, Tesla, and Texas Instruments. With regard to education, Austin is the home of the University of Texas at Austin, one of the largest universities in the U.S., with over 50,000 students. In 2021, Austin became home to Austin FC, the first major professional sports team in the city.",
+  "climate": "Austin is located within the middle of a unique, narrow transitional zone between the dry deserts of the American Southwest and the lush, green, more humid regions of the American Southeast. Its climate, topography, and vegetation share characteristics of both. Officially, Austin has a humid subtropical climate. This climate is typified by long, very hot summers, short, mild winters, and warm to hot spring and fall seasons in-between. Austin averages 34.32 inches of annual rainfall distributed mostly evenly throughout the year, though spring and fall are the wettest seasons. Sunshine is common during all seasons, with 2,650 hours, or 60.3% of the possible total, of bright sunshine per year.\nSummers in Austin are very hot, with average July and August highs frequently reaching 35 \u00b0C or above. Highs reach 90 \u00b0F on 123 days per year, of which 29 days reach 100 \u00b0F; all years in the 1991-2020 period recorded at least 1 day of the latter. The average daytime high is 70 \u00b0F or warmer between March 1 and November 21, rising to 80 \u00b0F or warmer between April 14 and October 24, and reaching 90 \u00b0F or warmer between May 30 and September 18. The highest ever recorded temperature was 112 \u00b0F occurring on September 5, 2000, and August 28, 2011. An uncommon characteristic of Austin's climate is its highly variable humidity, which fluctuates frequently depending on the shifting patterns of air flow and wind direction. It is common for a lengthy series of warm, dry, low-humidity days to be occasionally interrupted by very warm and humid days, and vice versa. Humidity rises with winds from the east or southeast, when the air drifts inland from the Gulf of Mexico, but decreases significantly with winds from the west or southwest, bringing air flowing from Chihuahuan Desert areas of West Texas or Northern Mexico.\nWinters in Austin are mild, although occasional short-lived bursts of cold weather known as \"Blue Northers\" can occur. January is the coolest month with an average daytime high of 62.5 \u00b0F. The overnight low drops to or below freezing 12 times per year, and sinks below 45 \u00b0F during 76 evenings per year, mostly between mid-December and mid-February. The average first and last dates for a freeze are December 1 and February 15, giving Austin an average growing season of 288 days, and the coldest temperature of the year is normally about 24.2 \u00b0F under the 1991-2020 climate normals, putting Austin in USDA zone 9a.\nConversely, winter months also produce warm days on a regular basis. On average, 10 days in January reach or exceed 70 \u00b0F and 1 day reaches 80 \u00b0F; during the 1991-2020 period, all Januarys had at least 1 day with a high of 70 \u00b0F or more, and most had at least 1 day with a high of 80 \u00b0F or more. The lowest ever recorded temperature in the city was \u22122 \u00b0F on January 31, 1949. Roughly every two years Austin experiences an ice storm that freezes roads over and cripples travel in the city for 24 to 48 hours. When Austin received 0.04 inches of ice on January 24, 2014, there were 278 vehicular collisions. Similarly, snowfall is rare in Austin. A snow event of 0.9 inches on February 4, 2011, caused more than 300 car crashes. The most recent major snow event occurred February 14\u201315, 2021, when 6.4 inches of snow fell at Austin's Camp Mabry, the largest two-day snowfall since records began being kept in 1948.\nTypical of Central Texas, severe weather in Austin is a threat that can strike during any season. However, it is most common during the spring. According to most classifications, Austin lies within the extreme southern periphery of Tornado Alley, although many sources place Austin outside of Tornado Alley altogether. Consequently, tornadoes strike Austin less frequently than areas farther to the north. However, severe weather and/or supercell thunderstorms can occur multiple times per year, bringing damaging winds, lightning, heavy rain, and occasional flash flooding to the city. The deadliest storm to ever strike city limits was the twin tornadoes storm of May 4, 1922, while the deadliest tornado outbreak to ever strike the metro area was the Central Texas tornado outbreak of May 27, 1997."
+ }
+}

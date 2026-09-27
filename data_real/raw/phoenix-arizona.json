@@ -1,0 +1,139 @@
+{
+ "name": "Phoenix",
+ "admin1": "Arizona",
+ "country": "United States",
+ "country_code": "US",
+ "lat": 33.44838,
+ "lon": -112.07404,
+ "population": 1650070,
+ "elevation_m": 331.0,
+ "climate": [
+  {
+   "month": 1,
+   "high": 61.9,
+   "low": 40.3,
+   "precip_in": 2.23,
+   "wet_days": 5.5,
+   "snow_in": 0.0,
+   "wind_mph": 9.1,
+   "sun_frac": 0.75
+  },
+  {
+   "month": 2,
+   "high": 67.0,
+   "low": 43.8,
+   "precip_in": 1.65,
+   "wet_days": 5.5,
+   "snow_in": 0.1,
+   "wind_mph": 11.5,
+   "sun_frac": 0.85
+  },
+  {
+   "month": 3,
+   "high": 71.3,
+   "low": 47.6,
+   "precip_in": 2.04,
+   "wet_days": 4.5,
+   "snow_in": 0.0,
+   "wind_mph": 11.5,
+   "sun_frac": 0.82
+  },
+  {
+   "month": 4,
+   "high": 85.5,
+   "low": 56.6,
+   "precip_in": 0.1,
+   "wet_days": 0.5,
+   "snow_in": 0.0,
+   "wind_mph": 12.0,
+   "sun_frac": 0.96
+  },
+  {
+   "month": 5,
+   "high": 94.1,
+   "low": 67.5,
+   "precip_in": 0.0,
+   "wet_days": 0.0,
+   "snow_in": 0.0,
+   "wind_mph": 13.7,
+   "sun_frac": 0.92
+  },
+  {
+   "month": 6,
+   "high": 103.5,
+   "low": 76.8,
+   "precip_in": 0.0,
+   "wet_days": 0.0,
+   "snow_in": 0.0,
+   "wind_mph": 12.4,
+   "sun_frac": 0.9
+  },
+  {
+   "month": 7,
+   "high": 110.5,
+   "low": 87.2,
+   "precip_in": 0.12,
+   "wet_days": 1.0,
+   "snow_in": 0.0,
+   "wind_mph": 14.0,
+   "sun_frac": 0.9
+  },
+  {
+   "month": 8,
+   "high": 106.0,
+   "low": 84.2,
+   "precip_in": 0.69,
+   "wet_days": 2.5,
+   "snow_in": 0.0,
+   "wind_mph": 13.3,
+   "sun_frac": 0.91
+  },
+  {
+   "month": 9,
+   "high": 101.8,
+   "low": 75.9,
+   "precip_in": 0.26,
+   "wet_days": 1.5,
+   "snow_in": 0.0,
+   "wind_mph": 11.9,
+   "sun_frac": 0.93
+  },
+  {
+   "month": 10,
+   "high": 93.0,
+   "low": 65.2,
+   "precip_in": 0.15,
+   "wet_days": 1.0,
+   "snow_in": 0.0,
+   "wind_mph": 10.0,
+   "sun_frac": 0.94
+  },
+  {
+   "month": 11,
+   "high": 75.4,
+   "low": 50.1,
+   "precip_in": 0.5,
+   "wet_days": 1.5,
+   "snow_in": 0.0,
+   "wind_mph": 8.2,
+   "sun_frac": 0.89
+  },
+  {
+   "month": 12,
+   "high": 69.9,
+   "low": 45.2,
+   "precip_in": 0.73,
+   "wet_days": 2.0,
+   "snow_in": 0.0,
+   "wind_mph": 6.5,
+   "sun_frac": 0.87
+  }
+ ],
+ "period": "2023-01-01 to 2024-12-31",
+ "wiki": {
+  "title": "Phoenix, Arizona",
+  "url": "https://en.wikipedia.org/wiki/Phoenix,_Arizona",
+  "intro": "Phoenix is the capital and most populous city of the U.S. state of Arizona. With over 1.6 million residents at the 2020 census, Phoenix is the fifth-most populous city in the United States and the most populous state capital. The Phoenix metropolitan area, with an estimated 5.19 million residents, is the tenth-most populous metropolitan area in the U.S. and the most populous in the Mountain states and Southwest. Phoenix is the county seat of Maricopa County in the Salt River Valley and Arizona Sun Corridor and, with an area of 517.9 square miles, is the largest city by area in Arizona and 11th-largest city by area in the United States.\nPhoenix was settled in 1867 as an agricultural community near the confluence of the Salt and Gila Rivers and was incorporated as a city in 1881. It became the capital of the Arizona Territory in 1889. Its canal system led to a thriving farming community with the original settlers' crops, such as alfalfa, cotton, citrus, and hay, remaining important parts of the local economy for decades. Cotton, cattle, citrus, climate, and copper were known locally as the \"Five C's\" anchoring Phoenix's economy. These remained the driving forces of the city until after World War II, when high-tech companies began to move into the valley and air conditioning made Phoenix's hot summers more bearable.\nPhoenix is the cultural center of Arizona. It is in the northeastern reaches of the Sonoran Desert and is known for its hot desert climate. The region's gross domestic product reached over $362 billion by 2022. The city averaged a four percent annual population growth rate over a 40-year period from the mid-1960s to the mid-2000s, and was among the nation's ten most populous cities by 1980. Phoenix is also one of the largest plurality Hispanic cities in the United States, with 42% of its population being Hispanic.",
+  "climate": "Phoenix has a hot desert climate, typical of the Sonoran Desert, and is the largest city in the Americas in this climatic zone. Phoenix has long, extremely hot summers and short, mild winters. The city is within one of the world's sunniest regions, with its sunshine duration comparable to the Sahara region. With 3,872 hours of bright sunshine annually, Phoenix receives the most sunshine of any major city on Earth. Average high temperatures in summer are the hottest of any major city in the United States. On average, there are 111 days annually with a high of at least 100 \u00b0F, including most days from the end of May through late September. Highs top 110 \u00b0F an average of 21 days during the year. On June 26, 1990, the temperature reached an all-time recorded high of 122 \u00b0F. The annual minimum temperature in Phoenix is in the mid-to-low 30s. It rarely drops to 32 \u00b0F or below. Snow is rare.\nIn July 2023, Phoenix became the first major city in the US to have an average monthly temperature of over 100 \u00b0F with an average daily mean temperature for the month at 102.7 \u00b0F, which is also the hottest month ever recorded in the city. That same month the city had an unprecedented streak of 31 days with 110 \u00b0F + highs that lasted from June 30 to July 30. That year the city also had a record 55 days of daily highs topping 110 \u00b0F +, which also made summer of 2023 the hottest on record there, until it was beaten by the summer of 2024 with the hottest ever June at 97.0 \u00b0F, the third hottest August at 98.7 \u00b0F and the 2nd hottest July record at 101.1 \u00b0F by average daily temperature respectively. That same year in 2024, it also recorded an unprecedented 113 day streak of daily highs topping 100 \u00b0F + that lasted from May 27 to September 16 and ultimately recorded a record 70 110 \u00b0F days in a single year, ending by October 7. Because extreme heat is so common, nearly all homes in Phoenix have air conditioning, though poorer residents may not be able to afford to repair or operate them when needed.\nMaricopa County, which includes Phoenix, was ranked seventh for most ozone pollution in the United States according to the American Lung Association. Vehicle emissions are cited as precursors to ozone formation. Phoenix also has high levels of particulate pollution; although cities in California lead the nation in this hazard. PM2.5 particulate matter, which is a component of diesel engine exhaust, and larger PM10 particles, which can come from dust, can both reach concerning levels in Phoenix. In fact, people, pets, and other animals exposed to high concentrations of PM10 dust particles\u2015primarily from dust storms or from disturbed agricultural or construction sites\u2015are at risk of contracting Valley Fever, a fungal lung infection.\nUnlike most desert locations which have drastic fluctuations between day and nighttime temperatures, the urban heat island effect limits Phoenix's diurnal temperature variation. As the city has expanded, average summer low temperatures have been steadily rising. Pavement, sidewalks, and buildings store the Sun's heat and radiate it at night. The daily normal low remains at or above 80 \u00b0F for an average of 74 days per summer. On July 19, 2023, at the height of an unprecedent heatwave that caused daily highs to top 110 \u00b0F or higher that lasted for 31 days straight, Phoenix set its record for the warmest daily low temperature, at 97 \u00b0F.\nThe city averages approximately 300 days of sunshine, or over 85% of daylight hours, per year, and receives scant rainfall\u2015the average annual total at Phoenix Sky Harbor International Airport is 7.22 in. The region's trademark dry and sunny weather is interrupted by sporadic Pacific storms in the winter and the arrival of the North American monsoon in the summer. Historically, the monsoon officially started when the average dew point was 55 \u00b0F for three days in a row\u2014typically occurring in early July. To increase monsoon awareness and promote safety, however, the National Weather Service decreed that starting in 2008, June 15 would be the official \"first day\" of the monsoon, and it would end on September 30. When active, the monsoon raises humidity levels and can cause heavy localized precipitation, flash floods, hail, destructive winds, and dust storms\u2014which can rise to the level of a haboob in some years."
+ }
+}

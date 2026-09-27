@@ -1,0 +1,139 @@
+{
+ "name": "Boise",
+ "admin1": "Idaho",
+ "country": "United States",
+ "country_code": "US",
+ "lat": 43.6135,
+ "lon": -116.20345,
+ "population": 235684,
+ "elevation_m": 823.0,
+ "climate": [
+  {
+   "month": 1,
+   "high": 39.2,
+   "low": 25.6,
+   "precip_in": 2.5,
+   "wet_days": 11.5,
+   "snow_in": 12.1,
+   "wind_mph": 11.7,
+   "sun_frac": 0.61
+  },
+  {
+   "month": 2,
+   "high": 46.0,
+   "low": 28.0,
+   "precip_in": 2.16,
+   "wet_days": 12.5,
+   "snow_in": 5.6,
+   "wind_mph": 12.8,
+   "sun_frac": 0.69
+  },
+  {
+   "month": 3,
+   "high": 48.9,
+   "low": 30.4,
+   "precip_in": 2.85,
+   "wet_days": 15.0,
+   "snow_in": 8.5,
+   "wind_mph": 13.4,
+   "sun_frac": 0.72
+  },
+  {
+   "month": 4,
+   "high": 60.3,
+   "low": 37.6,
+   "precip_in": 1.22,
+   "wet_days": 4.5,
+   "snow_in": 2.2,
+   "wind_mph": 13.3,
+   "sun_frac": 0.81
+  },
+  {
+   "month": 5,
+   "high": 72.3,
+   "low": 47.8,
+   "precip_in": 1.47,
+   "wet_days": 7.0,
+   "snow_in": 0.0,
+   "wind_mph": 12.6,
+   "sun_frac": 0.86
+  },
+  {
+   "month": 6,
+   "high": 81.4,
+   "low": 55.6,
+   "precip_in": 0.86,
+   "wet_days": 4.0,
+   "snow_in": 0.0,
+   "wind_mph": 11.4,
+   "sun_frac": 0.84
+  },
+  {
+   "month": 7,
+   "high": 96.0,
+   "low": 65.9,
+   "precip_in": 0.04,
+   "wet_days": 0.5,
+   "snow_in": 0.0,
+   "wind_mph": 10.9,
+   "sun_frac": 0.93
+  },
+  {
+   "month": 8,
+   "high": 90.8,
+   "low": 63.1,
+   "precip_in": 0.39,
+   "wet_days": 1.5,
+   "snow_in": 0.0,
+   "wind_mph": 11.6,
+   "sun_frac": 0.9
+  },
+  {
+   "month": 9,
+   "high": 81.0,
+   "low": 55.3,
+   "precip_in": 0.42,
+   "wet_days": 2.5,
+   "snow_in": 0.0,
+   "wind_mph": 10.8,
+   "sun_frac": 0.87
+  },
+  {
+   "month": 10,
+   "high": 66.6,
+   "low": 43.9,
+   "precip_in": 0.9,
+   "wet_days": 5.0,
+   "snow_in": 0.0,
+   "wind_mph": 11.1,
+   "sun_frac": 0.84
+  },
+  {
+   "month": 11,
+   "high": 49.0,
+   "low": 32.5,
+   "precip_in": 1.69,
+   "wet_days": 7.5,
+   "snow_in": 2.2,
+   "wind_mph": 11.0,
+   "sun_frac": 0.71
+  },
+  {
+   "month": 12,
+   "high": 41.8,
+   "low": 28.7,
+   "precip_in": 2.85,
+   "wet_days": 11.0,
+   "snow_in": 5.5,
+   "wind_mph": 9.3,
+   "sun_frac": 0.63
+  }
+ ],
+ "period": "2023-01-01 to 2024-12-31",
+ "wiki": {
+  "title": "Boise, Idaho",
+  "url": "https://en.wikipedia.org/wiki/Boise,_Idaho",
+  "intro": "Boise is the capital and most populous city in the U.S. state of Idaho. It is the county seat of Ada County. The population of the city was 235,685 at the 2020 census. The Boise metropolitan area, located in the Treasure Valley, includes five counties of Idaho with an estimated population of 846,000, the most populous metropolitan area in Idaho and 95th-most populous in the United States.\nLocated on the Boise River in southwestern Idaho, it is 41 miles east of the Oregon border and 110 miles north of the Nevada border. Downtown Boise's elevation is 2,704 feet above sea level.\nBoise is home to major employers in the technology, manufacturing, and service sectors, including companies such as Micron Technology and Hewlett-Packard. The city is home to the Boise Art Museum, Idaho State Capitol, the annual Treefort Music Fest, and the Basque Block.",
+  "climate": "Boise has a cool semi-arid climate, with four distinct seasons. Boise has similar temperatures and precipitation patterns as that of a Mediterranean climate. Boise experiences hot and dry summers with highs reaching 100 \u00b0F nine days in a typical year and 90 \u00b0F on 55 days. Yet because of the aridity, average diurnal temperature variation exceeds 30 \u00b0F in the height of summer. Winters are moderately cold, with a December average of 32.1 \u00b0F, and lows falling to 0 \u00b0F or below on around one night per year, with some winters having several such readings and most having none at all. Snowfall averages 18 inches, but typically falls in bouts of 3 inches or less. Spring and fall are mild. Extremes have ranged from \u221228 \u00b0F on January 16, 1888, to 111 \u00b0F on July 12, 1898, and July 19, 1960; temperatures have reached \u221225 \u00b0F and 110 \u00b0F as recently as December 22, 1990, and August 10, 2018, respectively. Precipitation is usually infrequent and light, especially so during the summer months. It averages approximately 12 inches annually.\nTornadoes are rare in Ada County and the Boise area. Since 1950, only twelve tornadoes have been documented within the county, and four of those were during the same storm on August 3, 2000, which is also the most recent date a tornado was documented in the area. None of the tornadoes have been ranked higher than an F1 on the Fujita scale, and no injuries or fatalities were ever documented."
+ }
+}

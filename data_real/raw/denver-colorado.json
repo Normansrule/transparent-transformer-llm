@@ -1,0 +1,134 @@
+{
+ "name": "Denver",
+ "admin1": "Colorado",
+ "country": "United States",
+ "country_code": "US",
+ "lat": 39.73915,
+ "lon": -104.9847,
+ "population": 729019,
+ "elevation_m": 1609.0,
+ "climate": [
+  {
+   "month": 1,
+   "high": 34.7,
+   "low": 11.1,
+   "precip_in": 0.98,
+   "wet_days": 5.0,
+   "snow_in": 6.8,
+   "wind_mph": 9.4,
+   "sun_frac": 0.74
+  },
+  {
+   "month": 2,
+   "high": 44.8,
+   "low": 15.0,
+   "precip_in": 1.41,
+   "wet_days": 3.5,
+   "snow_in": 8.6,
+   "wind_mph": 10.7,
+   "sun_frac": 0.84
+  },
+  {
+   "month": 3,
+   "high": 50.4,
+   "low": 22.9,
+   "precip_in": 1.52,
+   "wet_days": 8.5,
+   "snow_in": 7.2,
+   "wind_mph": 11.0,
+   "sun_frac": 0.83
+  },
+  {
+   "month": 4,
+   "high": 62.6,
+   "low": 33.1,
+   "precip_in": 1.96,
+   "wet_days": 7.5,
+   "snow_in": 2.9,
+   "wind_mph": 13.0,
+   "sun_frac": 0.79
+  },
+  {
+   "month": 5,
+   "high": 71.2,
+   "low": 43.6,
+   "precip_in": 3.54,
+   "wet_days": 9.5,
+   "snow_in": 0.0,
+   "wind_mph": 13.1,
+   "sun_frac": 0.81
+  },
+  {
+   "month": 6,
+   "high": 82.1,
+   "low": 54.3,
+   "precip_in": 2.9,
+   "wet_days": 9.5,
+   "snow_in": 0.0,
+   "wind_mph": 12.4,
+   "sun_frac": 0.79
+  },
+  {
+   "month": 7,
+   "high": 88.9,
+   "low": 58.1,
+   "precip_in": 1.2,
+   "wet_days": 4.5,
+   "snow_in": 0.0,
+   "wind_mph": 12.7,
+   "sun_frac": 0.89
+  },
+  {
+   "month": 8,
+   "high": 88.3,
+   "low": 59.1,
+   "precip_in": 1.06,
+   "wet_days": 6.5,
+   "snow_in": 0.0,
+   "wind_mph": 12.4,
+   "sun_frac": 0.84
+  },
+  {
+   "month": 9,
+   "high": 83.0,
+   "low": 50.3,
+   "precip_in": 1.07,
+   "wet_days": 4.5,
+   "snow_in": 0.0,
+   "wind_mph": 11.4,
+   "sun_frac": 0.9
+  },
+  {
+   "month": 10,
+   "high": 69.9,
+   "low": 40.1,
+   "precip_in": 0.76,
+   "wet_days": 3.0,
+   "snow_in": 2.2,
+   "wind_mph": 11.0,
+   "sun_frac": 0.89
+  },
+  {
+   "month": 11,
+   "high": 50.9,
+   "low": 25.2,
+   "precip_in": 1.26,
+   "wet_days": 6.0,
+   "snow_in": 6.0,
+   "wind_mph": 8.1,
+   "sun_frac": 0.8
+  },
+  {
+   "month": 12,
+   "high": 46.8,
+   "low": 24.5,
+   "precip_in": 0.51,
+   "wet_days": 4.0,
+   "snow_in": 2.7,
+   "wind_mph": 7.4,
+   "sun_frac": 0.81
+  }
+ ],
+ "period": "2023-01-01 to 2024-12-31",
+ "wiki": null
+}

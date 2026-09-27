@@ -1,0 +1,139 @@
+{
+ "name": "Pasadena",
+ "admin1": "California",
+ "country": "United States",
+ "country_code": "US",
+ "lat": 34.14778,
+ "lon": -118.14452,
+ "population": 142250,
+ "elevation_m": 263.0,
+ "climate": [
+  {
+   "month": 1,
+   "high": 60.5,
+   "low": 44.7,
+   "precip_in": 7.38,
+   "wet_days": 9.0,
+   "snow_in": 0.0,
+   "wind_mph": 7.4,
+   "sun_frac": 0.77
+  },
+  {
+   "month": 2,
+   "high": 60.5,
+   "low": 44.0,
+   "precip_in": 9.3,
+   "wet_days": 9.0,
+   "snow_in": 0.8,
+   "wind_mph": 8.0,
+   "sun_frac": 0.72
+  },
+  {
+   "month": 3,
+   "high": 61.4,
+   "low": 44.9,
+   "precip_in": 8.31,
+   "wet_days": 14.5,
+   "snow_in": 0.0,
+   "wind_mph": 8.8,
+   "sun_frac": 0.77
+  },
+  {
+   "month": 4,
+   "high": 70.3,
+   "low": 48.5,
+   "precip_in": 1.53,
+   "wet_days": 3.5,
+   "snow_in": 0.1,
+   "wind_mph": 8.4,
+   "sun_frac": 0.87
+  },
+  {
+   "month": 5,
+   "high": 71.9,
+   "low": 51.8,
+   "precip_in": 0.62,
+   "wet_days": 3.5,
+   "snow_in": 0.0,
+   "wind_mph": 8.4,
+   "sun_frac": 0.89
+  },
+  {
+   "month": 6,
+   "high": 78.4,
+   "low": 56.8,
+   "precip_in": 0.15,
+   "wet_days": 1.5,
+   "snow_in": 0.0,
+   "wind_mph": 8.4,
+   "sun_frac": 0.9
+  },
+  {
+   "month": 7,
+   "high": 89.9,
+   "low": 64.0,
+   "precip_in": 0.0,
+   "wet_days": 0.0,
+   "snow_in": 0.0,
+   "wind_mph": 8.2,
+   "sun_frac": 0.97
+  },
+  {
+   "month": 8,
+   "high": 88.9,
+   "low": 64.8,
+   "precip_in": 1.8,
+   "wet_days": 2.0,
+   "snow_in": 0.0,
+   "wind_mph": 8.6,
+   "sun_frac": 0.93
+  },
+  {
+   "month": 9,
+   "high": 84.4,
+   "low": 62.2,
+   "precip_in": 1.43,
+   "wet_days": 3.0,
+   "snow_in": 0.0,
+   "wind_mph": 8.2,
+   "sun_frac": 0.9
+  },
+  {
+   "month": 10,
+   "high": 82.0,
+   "low": 59.0,
+   "precip_in": 0.18,
+   "wet_days": 1.5,
+   "snow_in": 0.0,
+   "wind_mph": 6.9,
+   "sun_frac": 0.95
+  },
+  {
+   "month": 11,
+   "high": 71.4,
+   "low": 50.6,
+   "precip_in": 0.76,
+   "wet_days": 3.0,
+   "snow_in": 0.0,
+   "wind_mph": 6.3,
+   "sun_frac": 0.89
+  },
+  {
+   "month": 12,
+   "high": 67.1,
+   "low": 49.4,
+   "precip_in": 2.89,
+   "wet_days": 3.0,
+   "snow_in": 0.0,
+   "wind_mph": 4.9,
+   "sun_frac": 0.86
+  }
+ ],
+ "period": "2023-01-01 to 2024-12-31",
+ "wiki": {
+  "title": "Pasadena, California",
+  "url": "https://en.wikipedia.org/wiki/Pasadena,_California",
+  "intro": "Pasadena is a city in Los Angeles County, California, United States, 10 miles northeast of downtown Los Angeles. It is the primary cultural center of the San Gabriel Valley. Old Pasadena is the city's original commercial district.\nIts population was 138,699 at the 2020 census, making it the 45th-largest city in California and the ninth-largest in Los Angeles County. Pasadena was incorporated on June 19, 1886, 36 years after the city of Los Angeles but still one of the first in what is now Los Angeles County.\nPasadena hosts the annual Rose Bowl football game and Tournament of Roses Parade each New Year's Day.",
+  "climate": "Pasadena has a Mediterranean climate, with typically hotter summers and slightly cooler winters than nearby coastal areas. Its location relative to the San Gabriel mountains allows the orographic lift to add several more inches of rainfall per year than nearby areas. During the first few months of the year, Pasadena experiences cool to warm highs, typically in the upper 60s to lower 70s. Colder days are usually accompanied by heavier rain. By April, temperatures warm further, and rain tapers off significantly.\nBy May and June, rain is typically sparse, but the marine layer becomes more persistent. Locals have dubbed June \"June Gloom\" as it is the cloudiest month despite being the 3rd driest month. By July, the marine layer subsides as inland areas cool due to an increased monsoon flow. Heatwaves from July through October can be oppressive and lengthy. In addition, it rarely rains during the summer and fall months, and only does when the remnants of hurricanes and tropical storms pass by. In fact, some days in both July and August have never recorded rainfall. It is not impossible to go 6 months without measurable precipitation.\nThe average highest temperature recorded each year is around 106 \u00b0F. The hottest heatwaves of the year usually occur in mid to late September. By late October, temperatures drop off. By November, Pacific storms return to Pasadena, bringing increasingly heavy rain and cooler weather. Along with them, however, are the Santa Ana winds. The Santa Ana winds can produce heat, high winds, power outages, tree damage and an increased wildfire threat whenever they strike. By December, lows typically drop into the 40s with the occasional reading in the 30s. Highs remain around 68 \u00b0F with heatwaves pushing temperatures into the mid-80s. A high temperature of at least 85 \u00b0F has been recorded on all 365 days of the year, with temperatures over 100 \u00b0F possible April through early November.\nPasadena averages 20.08 in of rain a year, about 6 in more than nearby Los Angeles due to the orographic effect created by the San Gabriel Mountains. The wettest \"rain year\" was from July 1940 to June 1941 with 46.32 in and the driest from July 1960 to June 1961 with 7.18 in. Wet years are commonly associated with El Ni\u00f1o warm surface water in the eastern Pacific and dry years with La Ni\u00f1a cold water conditions. The most rainfall in one month was 19.70 in in February 1980. The most rainfall in 24 hours was 7.70 in on March 2, 1938.\nSituated at the base of the San Gabriel Mountains, snow is known to fall occasionally in Pasadena. The heaviest snowfall in Pasadena history occurred on January 11, 1949; 8 inches fell at Pasadena's city hall and more than 14 inches fell in the foothills above the city. The most recent snowfall in Pasadena was 1 inch on February 21, 2019.\nOn November 30 and December 1, 2011, Pasadena, along with surrounding communities, was struck by a major windstorm caused by Santa Ana winds. The city suffered heavy damage with trees toppled, buildings damaged and even the roof of a gas station torn off.\nThe official NOAA weather station for the city is located just north-west of the townhall on the other side of Garfield Avenue."
+ }
+}

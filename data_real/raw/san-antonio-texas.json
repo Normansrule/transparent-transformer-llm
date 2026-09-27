@@ -1,0 +1,139 @@
+{
+ "name": "San Antonio",
+ "admin1": "Texas",
+ "country": "United States",
+ "country_code": "US",
+ "lat": 29.42412,
+ "lon": -98.49363,
+ "population": 1526656,
+ "elevation_m": 198.0,
+ "climate": [
+  {
+   "month": 1,
+   "high": 64.2,
+   "low": 44.5,
+   "precip_in": 2.91,
+   "wet_days": 9.0,
+   "snow_in": 0.0,
+   "wind_mph": 12.5,
+   "sun_frac": 0.71
+  },
+  {
+   "month": 2,
+   "high": 70.3,
+   "low": 49.5,
+   "precip_in": 2.15,
+   "wet_days": 5.5,
+   "snow_in": 0.0,
+   "wind_mph": 13.0,
+   "sun_frac": 0.69
+  },
+  {
+   "month": 3,
+   "high": 77.1,
+   "low": 57.2,
+   "precip_in": 2.65,
+   "wet_days": 10.0,
+   "snow_in": 0.0,
+   "wind_mph": 14.2,
+   "sun_frac": 0.62
+  },
+  {
+   "month": 4,
+   "high": 80.7,
+   "low": 61.6,
+   "precip_in": 4.73,
+   "wet_days": 13.5,
+   "snow_in": 0.0,
+   "wind_mph": 14.6,
+   "sun_frac": 0.67
+  },
+  {
+   "month": 5,
+   "high": 86.7,
+   "low": 69.4,
+   "precip_in": 7.9,
+   "wet_days": 15.0,
+   "snow_in": 0.0,
+   "wind_mph": 12.4,
+   "sun_frac": 0.66
+  },
+  {
+   "month": 6,
+   "high": 96.1,
+   "low": 75.5,
+   "precip_in": 2.96,
+   "wet_days": 8.0,
+   "snow_in": 0.0,
+   "wind_mph": 13.4,
+   "sun_frac": 0.84
+  },
+  {
+   "month": 7,
+   "high": 96.7,
+   "low": 76.7,
+   "precip_in": 2.21,
+   "wet_days": 8.0,
+   "snow_in": 0.0,
+   "wind_mph": 13.1,
+   "sun_frac": 0.87
+  },
+  {
+   "month": 8,
+   "high": 100.2,
+   "low": 78.6,
+   "precip_in": 0.61,
+   "wet_days": 3.0,
+   "snow_in": 0.0,
+   "wind_mph": 13.1,
+   "sun_frac": 0.94
+  },
+  {
+   "month": 9,
+   "high": 94.2,
+   "low": 74.7,
+   "precip_in": 1.66,
+   "wet_days": 5.5,
+   "snow_in": 0.0,
+   "wind_mph": 12.2,
+   "sun_frac": 0.9
+  },
+  {
+   "month": 10,
+   "high": 85.5,
+   "low": 65.9,
+   "precip_in": 3.85,
+   "wet_days": 7.0,
+   "snow_in": 0.0,
+   "wind_mph": 11.5,
+   "sun_frac": 0.83
+  },
+  {
+   "month": 11,
+   "high": 72.8,
+   "low": 54.6,
+   "precip_in": 2.17,
+   "wet_days": 8.5,
+   "snow_in": 0.0,
+   "wind_mph": 10.6,
+   "sun_frac": 0.73
+  },
+  {
+   "month": 12,
+   "high": 68.6,
+   "low": 50.0,
+   "precip_in": 1.9,
+   "wet_days": 9.0,
+   "snow_in": 0.0,
+   "wind_mph": 10.0,
+   "sun_frac": 0.69
+  }
+ ],
+ "period": "2023-01-01 to 2024-12-31",
+ "wiki": {
+  "title": "San Antonio",
+  "url": "https://en.wikipedia.org/wiki/San_Antonio",
+  "intro": "San Antonio is a city in the U.S. state of Texas. It is the seventh-most populous city in the United States, the second-most populous city in Texas, and the second-most populous city in the Southern U.S., with a population of 1.43 million at the 2020 census. The Greater San Antonio metropolitan area, with an estimated 2.76 million residents, ranks as the third-largest metropolitan area in Texas and the 24th-largest in the nation. It is the county seat of Bexar County.\nThe area was named \"San Antonio\" in 1691 by a Spanish expedition in honor of Saint Anthony of Padua. A Spanish mission and colonial outpost was founded there in 1718, and San Antonio became the first chartered civil settlement in present-day Texas in 1731. It was part of the Spanish Empire, then the Mexican Republic from 1821 to 1836, before joining the United States after the annexation of the Republic of Texas in 1846. Straddling the regional divide between South and Central Texas, San Antonio anchors the southwestern corner of an urban megaregion colloquially known as the Texas Triangle. It lies about 80 miles from Austin along the I-35 corridor, and together, the San Antonio\u2013Austin metroplex is home to approximately 5 million people.\nSan Antonio is home to five 18th-century Spanish frontier missions, including The Alamo and those preserved in San Antonio Missions National Historical Park, which were collectively designated as UNESCO World Heritage sites in 2015. Major attractions include the River Walk, Tower of the Americas, SeaWorld San Antonio, Six Flags Fiesta Texas, and the Alamo Bowl. The city also hosts the San Antonio Stock Show & Rodeo and is home to the five-time NBA champion San Antonio Spurs. San Antonio welcomes approximately 32 million visitors annually and is a key military hub, hosting several major U.S. Armed Forces facilities, including Fort Sam Houston and nearby bases such as Lackland and Randolph Air Force Bases. The city is also home to two Fortune 500 companies, the South Texas Medical Center, and the largest majority-Hispanic population in the U.S., with 64% of residents identifying as Hispanic.",
+  "climate": "San Antonio has a transitional humid subtropical climate that borders a hot semi-arid climate towards the west of the city featuring very hot, long, and humid summers and mild winters. The area is subject to descending northern cold fronts in the winter with cool to cold nights, and is warm and rainy in the spring and fall. San Antonio falls in USDA hardiness zones 8b and 9a.\nSan Antonio receives about a dozen subfreezing nights each year, typically seeing snow, sleet, or freezing rain about once every two or three winters, but accumulation and snow itself are very rare. Winters may pass without any frozen precipitation at all, and up to a decade has passed between snowfalls. According to the National Weather Service, there have been 32 instances of snowfall in the city in the past 122 years, about once every four years. Prior to 2021 snow was most recently seen on December 7, 2017, when 1.9 inches of snow coated the city. On January 13, 1985, San Antonio received a record snowfall of 16 inches. During the February 13\u201317, 2021, North American winter storm, San Antonio was blanketed with 4\u20136 inches of snow. The cold air which accompanied this storm caused massive rolling blackouts throughout the city until the 18th. The February 15\u201320, 2021, North American winter storm dropped another 1\u20132 inches on the city on the 16th.\nSan Antonio and New Braunfels, 40 miles to the northeast, are some of the most flood-prone regions in North America. The October 1998 Central Texas floods were among the costliest floods in United States history, resulting in $750 million in damage and 32 deaths. In 2002, from June 30 to July 7, 35 in of rain fell in the San Antonio area, resulting in widespread flooding and 12 fatalities.\nTornadoes within the city limits have been reported as recently as February 2017, although they are uncommon. An F2 tornado lands within 50 mi of the city on average once every five years. San Antonio has experienced two F4 tornadoes, one in 1953 and another in 1973. The 1953 tornado resulted in two deaths and 15 injuries. Based on historical data, San Antonio is the safest major city in Texas when it comes to tornadoes.\nIn San Antonio, July and August tie for the average warmest months, with an average high of 95 \u00b0F. The highest temperature ever recorded was 111 \u00b0F on September 5, 2000. The average coolest month is January. The lowest recorded temperature ever was 0 \u00b0F on January 31, 1949. May, June, and October have quite a bit of precipitation. Since recordkeeping began in 1871, the average annual precipitation has been 29.03 inches, with a maximum of 52.28 inches and a minimum of 10.11 inches in one year."
+ }
+}

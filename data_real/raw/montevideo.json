@@ -1,0 +1,139 @@
+{
+ "name": "Montevideo",
+ "admin1": "Montevideo Department",
+ "country": "Uruguay",
+ "country_code": "UY",
+ "lat": -34.90328,
+ "lon": -56.18816,
+ "population": 1270737,
+ "elevation_m": 34.0,
+ "climate": [
+  {
+   "month": 1,
+   "high": 78.8,
+   "low": 68.0,
+   "precip_in": 0.88,
+   "wet_days": 6.0,
+   "snow_in": 0.0,
+   "wind_mph": 17.1,
+   "sun_frac": 0.9
+  },
+  {
+   "month": 2,
+   "high": 79.7,
+   "low": 69.0,
+   "precip_in": 2.41,
+   "wet_days": 8.0,
+   "snow_in": 0.0,
+   "wind_mph": 17.7,
+   "sun_frac": 0.83
+  },
+  {
+   "month": 3,
+   "high": 78.0,
+   "low": 68.3,
+   "precip_in": 5.4,
+   "wet_days": 12.5,
+   "snow_in": 0.0,
+   "wind_mph": 15.7,
+   "sun_frac": 0.84
+  },
+  {
+   "month": 4,
+   "high": 69.4,
+   "low": 60.2,
+   "precip_in": 3.11,
+   "wet_days": 10.5,
+   "snow_in": 0.0,
+   "wind_mph": 16.3,
+   "sun_frac": 0.76
+  },
+  {
+   "month": 5,
+   "high": 62.3,
+   "low": 54.1,
+   "precip_in": 3.02,
+   "wet_days": 6.5,
+   "snow_in": 0.0,
+   "wind_mph": 15.5,
+   "sun_frac": 0.68
+  },
+  {
+   "month": 6,
+   "high": 59.3,
+   "low": 51.2,
+   "precip_in": 1.63,
+   "wet_days": 6.5,
+   "snow_in": 0.0,
+   "wind_mph": 15.2,
+   "sun_frac": 0.69
+  },
+  {
+   "month": 7,
+   "high": 54.7,
+   "low": 48.2,
+   "precip_in": 1.51,
+   "wet_days": 5.0,
+   "snow_in": 0.0,
+   "wind_mph": 15.9,
+   "sun_frac": 0.79
+  },
+  {
+   "month": 8,
+   "high": 57.2,
+   "low": 50.0,
+   "precip_in": 4.27,
+   "wet_days": 8.5,
+   "snow_in": 0.0,
+   "wind_mph": 18.9,
+   "sun_frac": 0.69
+  },
+  {
+   "month": 9,
+   "high": 59.8,
+   "low": 52.8,
+   "precip_in": 1.97,
+   "wet_days": 5.5,
+   "snow_in": 0.0,
+   "wind_mph": 17.8,
+   "sun_frac": 0.73
+  },
+  {
+   "month": 10,
+   "high": 65.5,
+   "low": 57.1,
+   "precip_in": 2.28,
+   "wet_days": 7.0,
+   "snow_in": 0.0,
+   "wind_mph": 18.0,
+   "sun_frac": 0.8
+  },
+  {
+   "month": 11,
+   "high": 70.2,
+   "low": 61.7,
+   "precip_in": 3.18,
+   "wet_days": 9.5,
+   "snow_in": 0.0,
+   "wind_mph": 19.1,
+   "sun_frac": 0.82
+  },
+  {
+   "month": 12,
+   "high": 72.4,
+   "low": 64.2,
+   "precip_in": 3.46,
+   "wet_days": 10.0,
+   "snow_in": 0.0,
+   "wind_mph": 17.9,
+   "sun_frac": 0.81
+  }
+ ],
+ "period": "2023-01-01 to 2024-12-31",
+ "wiki": {
+  "title": "Montevideo",
+  "url": "https://en.wikipedia.org/wiki/Montevideo",
+  "intro": "Montevideo is the capital and largest city of Uruguay. As of the 2023 census, the city proper has a population of 1,287,452, making up about 36.8% of the country's total population, in an area of 201 square kilometers. Montevideo is situated on the southern coast of the country, on the northeastern bank of the R\u00edo de la Plata.\nA Portuguese garrison was established at the site of modern-day Montevideo in November 1723. The Portuguese garrison was expelled in February 1724 by a Spanish soldier, Bruno Mauricio de Zabala, as a strategic move amidst the Spanish-Portuguese dispute over the platine region. There is no official document establishing the foundation of the city, but the \"Diario\" of Bruno Mauricio de Zabala officially mentions the date of 24 December 1726 as the foundation, corroborated by presential witnesses. The complete independence from Buenos Aires as a real city was not reached until 1 January 1730. It was also under brief British rule in 1807, but eventually the city was retaken by Spanish criollos who defeated the British invasions of the River Plate. Montevideo is the seat of the administrative headquarters of Mercosur and ALADI, Latin America's leading trade blocs, a position that has entailed comparisons to the role of Brussels in Europe.\nThe 2019 Mercer report on quality of life rated Montevideo first in Latin America, a rank the city has consistently held since 2005. As of 2010, Montevideo was the 19th largest city economy in the continent and 9th highest income earner among major cities. In 2022, it has a projected GDP of $53.9 billion, with a per capita of $30,148. In 2018, it was classified as a beta global city, ranking eighth in Latin America and 84th in the world. Montevideo hosted every match during the first FIFA World Cup in 1930. It has been described as a \"vibrant, eclectic place with a rich cultural life\", and \"a thriving tech center and entrepreneurial culture\".\nThe city features historic European architecture and is considered one of the cities with the most art deco influence. It is the hub of commerce and higher education in Uruguay as well as its chief port and financial hub, anchoring a metropolitan area with a population of around 2 million.",
+  "climate": "Montevideo has a humid subtropical climate in a middle latitude, the city experiences the four seasons. It has cool winters, warm to hot summers, mild autumns and volatile springs; The climate is characterized by having mild temperatures, without harsh cold or extreme heat. There are numerous thunderstorms but no tropical cyclones. Rainfall is regular and evenly spread throughout the year, reaching around 950 millimeters.\nWinters are generally cool, wet, windy and overcast. The average temperature during this season is just above 10 \u00b0C. Daytime temperatures are generally between 10 \u00b0C and 18 \u00b0C, and night lows between 3 \u00b0C and 10 \u00b0C. During this season, there are bursts of icy and relatively dry winds of continental polar air masses, giving an unpleasant chilly feeling to the everyday life of the city, with daytime temperatures around or below 8 \u00b0C and possible night frosts. These occur few times during winter, with temperatures generally not falling below \u22122 \u00b0C because of the oceanic influence that moderates the temperature; a few kilometres inland, frosts are more common and colder. On the other hand, even in the middle of winter it's not uncommon to have temperatures above 20 \u00b0C for a few days. Rainfall and sleet are a frequent winter occurrence, but snowfall is extremely rare: flurries have been recorded only four times but with no accumulation, the last one on 13 July 1930 during the inaugural match of the World Cup,; the alleged 1980 Carrasco snowfall was actually a hailstorm.\nSummers are warm-hot and humid, with less wind than other seasons. The average temperature in this season is\n23 \u00b0C. Daytime temperatures are usually between 24 \u00b0C and 32 \u00b0C, while night lows between 14 \u00b0C and 22 \u00b0C. During this season, a moderate wind often blows from the sea in the evenings which has a pleasant cooling effect on the city, in contrast to the more severe summer heat of nearby cities like Buenos Aires. Heat waves come with the north winds, which bring humid and hot air masses from the tropical interior of the continent; temperatures can rise above 35 \u00b0C. These warm periods are usually followed by thunderstorms, generated by cold fronts from the southwest that lowers temperatures considerably. This phenomenon is regional, and can occur several times all year long.\nThe autumn in Montevideo is quite pleasant and not so unstable. Daytime temperatures are in general around 20 \u00b0C and nights around 10 \u00b0C.\nSpring average temperatures are very similar to the autumn, but the weather in that season tends to be more windy and volatile, with more dramatic changes in a short period of time.\nMontevideo has an annual average temperature of 16.7 \u00b0C. The lowest recorded temperature is \u22125.6 \u00b0C while the highest is 42.8 \u00b0C."
+ }
+}

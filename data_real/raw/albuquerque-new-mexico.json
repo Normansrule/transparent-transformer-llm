@@ -1,0 +1,139 @@
+{
+ "name": "Albuquerque",
+ "admin1": "New Mexico",
+ "country": "United States",
+ "country_code": "US",
+ "lat": 35.08449,
+ "lon": -106.65114,
+ "population": 564559,
+ "elevation_m": 1511.0,
+ "climate": [
+  {
+   "month": 1,
+   "high": 44.7,
+   "low": 26.5,
+   "precip_in": 0.92,
+   "wet_days": 6.0,
+   "snow_in": 2.9,
+   "wind_mph": 10.6,
+   "sun_frac": 0.81
+  },
+  {
+   "month": 2,
+   "high": 51.8,
+   "low": 29.4,
+   "precip_in": 0.86,
+   "wet_days": 5.5,
+   "snow_in": 3.5,
+   "wind_mph": 12.8,
+   "sun_frac": 0.87
+  },
+  {
+   "month": 3,
+   "high": 58.2,
+   "low": 35.0,
+   "precip_in": 1.91,
+   "wet_days": 9.0,
+   "snow_in": 5.0,
+   "wind_mph": 14.4,
+   "sun_frac": 0.84
+  },
+  {
+   "month": 4,
+   "high": 71.3,
+   "low": 43.1,
+   "precip_in": 0.44,
+   "wet_days": 2.0,
+   "snow_in": 0.5,
+   "wind_mph": 16.0,
+   "sun_frac": 0.91
+  },
+  {
+   "month": 5,
+   "high": 80.7,
+   "low": 53.6,
+   "precip_in": 0.85,
+   "wet_days": 5.5,
+   "snow_in": 0.0,
+   "wind_mph": 16.3,
+   "sun_frac": 0.92
+  },
+  {
+   "month": 6,
+   "high": 90.7,
+   "low": 63.9,
+   "precip_in": 0.54,
+   "wet_days": 3.5,
+   "snow_in": 0.0,
+   "wind_mph": 14.5,
+   "sun_frac": 0.89
+  },
+  {
+   "month": 7,
+   "high": 96.1,
+   "low": 70.1,
+   "precip_in": 0.2,
+   "wet_days": 1.0,
+   "snow_in": 0.0,
+   "wind_mph": 14.4,
+   "sun_frac": 0.93
+  },
+  {
+   "month": 8,
+   "high": 92.8,
+   "low": 68.4,
+   "precip_in": 0.67,
+   "wet_days": 3.0,
+   "snow_in": 0.0,
+   "wind_mph": 12.7,
+   "sun_frac": 0.89
+  },
+  {
+   "month": 9,
+   "high": 85.9,
+   "low": 60.1,
+   "precip_in": 0.37,
+   "wet_days": 2.5,
+   "snow_in": 0.0,
+   "wind_mph": 11.8,
+   "sun_frac": 0.94
+  },
+  {
+   "month": 10,
+   "high": 75.9,
+   "low": 50.5,
+   "precip_in": 0.26,
+   "wet_days": 1.5,
+   "snow_in": 0.0,
+   "wind_mph": 12.0,
+   "sun_frac": 0.95
+  },
+  {
+   "month": 11,
+   "high": 56.2,
+   "low": 35.4,
+   "precip_in": 1.76,
+   "wet_days": 6.0,
+   "snow_in": 4.4,
+   "wind_mph": 8.6,
+   "sun_frac": 0.88
+  },
+  {
+   "month": 12,
+   "high": 49.2,
+   "low": 30.2,
+   "precip_in": 0.8,
+   "wet_days": 3.5,
+   "snow_in": 1.6,
+   "wind_mph": 8.3,
+   "sun_frac": 0.92
+  }
+ ],
+ "period": "2023-01-01 to 2024-12-31",
+ "wiki": {
+  "title": "Albuquerque, New Mexico",
+  "url": "https://en.wikipedia.org/wiki/Albuquerque,_New_Mexico",
+  "intro": "Albuquerque is the most populous city in the U.S. state of New Mexico. Founded in 1706 as La Villa de Alburquerque by Santa Fe de Nuevo M\u00e9xico governor Francisco Cuervo y Vald\u00e9s, and named in honor of Francisco Fern\u00e1ndez de la Cueva, 10th Duke of Alburquerque and Viceroy of New Spain, it was an outpost on El Camino Real, linking Mexico City to the northernmost territories of New Spain. It is the county seat of Bernalillo County.\nLocated in the Albuquerque Basin, the city is flanked by the Sandia Mountains to the east and the West Mesa to the west, with the Rio Grande and its bosque flowing north-to-south through the middle. According to the 2020 census, Albuquerque had 564,559 residents, making it the 32nd most populous city in the U.S. and the fourth largest in the Southwest. The Albuquerque metropolitan area had 955,000 residents in 2023, and forms part of the Albuquerque\u2013Santa Fe\u2013Los Alamos combined statistical area, which had a population of 1,162,523.\nAlbuquerque is a hub for technology, fine arts, and mass media. It hosts New Mexico's primary international airport,\nAlbuquerque International Sunport, and the state's flagship and largest university, the University of New Mexico. The U.S. federal government has a strong presence through Sandia National Laboratories, one of three laboratories of the National Nuclear Security Administration, and Kirtland Air Force Base, the largest installation in the Air Force Global Strike Command.\nNicknamed ABQ, Burque, and Duke City, Albuquerque is home to several historic landmarks, including over 160 sites listed on the National Register of Historic Places. Notable annual events include the Albuquerque International Balloon Fiesta, the largest balloon festival in the world, previously the Gathering of Nations, which was the largest powwow in North America, and the New Mexico State Fair. Albuquerque is also known for its restaurant scene, which features both New Mexican and global cuisine, and as a center of New Mexican music and architecture.",
+  "climate": "Albuquerque's climate is classified as a cold semi-arid climate according to the K\u00f6ppen climate classification system, while the Biota of North America Program and the U.S. Geological Survey describe it as warm temperate semi-desert.\nAlbuquerque is located near the crossroads of several ecoregions. According to the U.S. Environmental Protection Agency, the city is located in the southeastern edge of the Arizona/New Mexico Plateau, with the Arizona/New Mexico Mountains ecoregion defining the adjacent Sandia-Manzano mountains, including the foothills in the eastern edges of the city limits, above Juan Tabo Boulevard. Though the city lies at the northern edge of the Chihuahuan Desert transitioning into the Colorado Plateau, much of Albuquerque's area west of the Sandia Mountains shares similar temperatures, aridity, yearly precipitation patterns, and natural vegetation with the Chihuahuan Desert, namely the desert grassland and sand scrub plant communities.\nThe eastern portion of the greater Albuquerque area is known as the East Mountain area, outside Albuquerque but it is within the Southwestern Tablelands, sometimes considered a southern extension of the central high plains or northeast New Mexico highlands. To the north is the Southern Rockies ecoregion in the Jemez Mountains.\nThe average annual precipitation is less than half of evaporation supporting an arid climate, according to a more recent application of the K\u00f6ppen climate classification system using over a century of climatology, with no month's daily mean temperature averaging below freezing. The climate is mild compared to many parts of the continent farther north or east, protected by mountains and surrounding highlands. However, due to the city's high elevation, low temperatures in winter often dip below freezing. Varied terrain and elevations within the city and outlying areas cause daily temperature differentials to vary. The daily mean temperatures in December and January, the coldest months, are above freezing at 36.9 \u00b0F at the 1,620 metres elevation Albuquerque International Airport station, representative of much of the city, and 35.2 \u00b0F at the 1,827 metres elevation Albuquerque Foothills NE station.\nAlbuquerque's climate is usually sunny and dry, with an average of 3,415 sunshine hours per year. Brilliant sunshine defines the region, averaging 278 days a year; periods of variably mid and high-level cloudiness temper the sun, mostly during the cooler months. Extended cloudiness lasting longer than two or three days is rare.\nTemperatures, precipitation, and wind vary across the city and environs, as a function of the location and elevation.\nWinter typically consists of cool days and cold nights, except following passage of the strongest cold fronts and arctic airmasses when daytime temperatures remain colder than average; overnight temperatures tend to fall below freezing between about 12 am and 9 am in the city, except during colder airmasses, plus colder spots of the valley and most of the East Mountain areas outside Albuquerque. December, the coolest month, averages 36.9 \u00b0F; the median or normal coolest temperature of the year is 12 \u00b0F, while the average or mean is about 11 \u00b0F. It is typical for daily low temperatures in much of December to mid-February to be below freezing, with a long-term average of 93-126 days per year falling to or below freezing, and 1-5 days failing to rise above freezing. Winter is the second driest season in much of Albuquerque, and while rain makes up more of the season's precipitation than snow, December is the snowiest month on average\nSpring begins by March, with stronger winds occurring on many afternoons, as temperatures warm with the change to spring weather patterns and storm systems pass to the north. Spring can occasionally bring unsettled weather with rain or even light accumulations of snowfall, into early April, though spring is often the driest part of the year in Albuquerque. Late March and April tend to experience many days with the wind blowing at 20 to 30 mph, and afternoon gusts can produce periods of blowing sand and dust. In May, the winds tend to subside as a summer-like airmass begins to occur, with a regularity of higher temperatures. The warming and drying trend continues into June by mid-June, temperatures can exceed 100 \u00b0F for a brief period.\nSummer is lengthy and very warm to hot, but except for midday through evening, they are tolerable because of low humidity and air movement. The exception is usually during the monsoon season, from July to early September, when the dewpoint and relative humidity remain higher. 1-11 days of 100 \u00b0F or warmer highs occur annually on average, mostly in June and July and rarely in August due in part to the monsoon; an average of 64-91 days experience 90 \u00b0F or warmer highs. Despite the rarity of such heat, 28 days with highs at or above 100 \u00b0F occurred in the summer of 1980 at Albuquerque's Sunport. In mid-September, the monsoon begins to weaken. Many valley and West Mesa locations experience more high temperatures above 90 \u00b0F and 100 \u00b0F during the summer.\nAutumn is generally cool in the mornings and nights but sees less rain than summer, though the weather can be more unsettled, as colder airmasses and weather patterns build in from the north with more frequency. Some years, a storm in November may cause a snow accumulation of one to two inches.\nPrecipitation averages 8.84 inches per year. On average, January is the driest month, while July and August are the wettest months, as a result of shower and thunderstorm activity produced by the monsoon prevalent over the Southwestern United States. Most rain occurs during the late summer monsoon season, typically starting in mid-June and ending in mid-September.\nAlbuquerque averages 7.9 inches of snow per winter, and experiences several accumulating snow events each season. Locations in the Northeast Heights and foothills tend to receive more snowfall due to each region's higher elevation and proximity to the mountains. East Mountain communities outside Albuquerque average more snow, and at times, not usually experienced in the city. The metro area was one of several in the region experiencing a severe winter storm on December 28\u201330, 2006, with locations in the Albuquerque area receiving between 10.5 and 26 inches of snow. More recently, a major winter storm in late February 2015 dropped up to a foot of snow on most of the city. Such large snowfalls are rare occurrences during the period of record, and they greatly impact traffic movement and the workforce due to their rarity.\nThe mountains and highlands east of the city create a rain shadow effect from moist Gulf airmasses moving towards the area, due to the drying of air descending the west side of the mountains into much of Albuquerque; the Sandia Mountains tend to lift any available moisture, enhancing precipitation to about 10\u201317 inches annually. Traveling west, north, and east of Albuquerque, one quickly rises in elevation, leaving the sheltering effect of the valley to enter a noticeably cooler and slightly wetter environment. One such area is considered part of Albuquerque Metropolitan Area, commonly called the East Mountain area, is covered in woodlands of juniper and pi\u00f1on trees, a common trait of southwestern uplands and the southern Rocky Mountains.\nAlbuquerque's growing season averages 208 days, which is the total consecutive days of low temperature above 32 \u00b0F between the last spring freeze and first fall freeze, based on 1991 to 2020 climatology at the Sunport. The growing season can vary depending on local terrain or the year, and is shorter in colder locales of the valley, foothills, and especially the East Mountains; Sandia Park averages a growing season of 152 days."
+ }
+}

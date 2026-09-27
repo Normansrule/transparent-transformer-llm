@@ -1,0 +1,134 @@
+{
+ "name": "Ho Chi Minh City",
+ "admin1": "Ho Chi Minh City (HCMC)",
+ "country": "Vietnam",
+ "country_code": "VN",
+ "lat": 10.82302,
+ "lon": 106.62965,
+ "population": 14002598,
+ "elevation_m": 7.0,
+ "climate": [
+  {
+   "month": 1,
+   "high": 89.3,
+   "low": 73.0,
+   "precip_in": 1.94,
+   "wet_days": 4.5,
+   "snow_in": 0.0,
+   "wind_mph": 8.9,
+   "sun_frac": 0.86
+  },
+  {
+   "month": 2,
+   "high": 93.9,
+   "low": 74.5,
+   "precip_in": 0.34,
+   "wet_days": 3.5,
+   "snow_in": 0.0,
+   "wind_mph": 11.8,
+   "sun_frac": 0.95
+  },
+  {
+   "month": 3,
+   "high": 95.9,
+   "low": 75.8,
+   "precip_in": 0.17,
+   "wet_days": 1.0,
+   "snow_in": 0.0,
+   "wind_mph": 13.0,
+   "sun_frac": 0.97
+  },
+  {
+   "month": 4,
+   "high": 97.3,
+   "low": 79.5,
+   "precip_in": 1.78,
+   "wet_days": 6.0,
+   "snow_in": 0.0,
+   "wind_mph": 12.1,
+   "sun_frac": 0.96
+  },
+  {
+   "month": 5,
+   "high": 93.1,
+   "low": 79.5,
+   "precip_in": 9.7,
+   "wet_days": 23.5,
+   "snow_in": 0.0,
+   "wind_mph": 10.2,
+   "sun_frac": 0.81
+  },
+  {
+   "month": 6,
+   "high": 89.9,
+   "low": 77.7,
+   "precip_in": 10.4,
+   "wet_days": 26.5,
+   "snow_in": 0.0,
+   "wind_mph": 10.4,
+   "sun_frac": 0.7
+  },
+  {
+   "month": 7,
+   "high": 87.5,
+   "low": 76.5,
+   "precip_in": 15.72,
+   "wet_days": 30.5,
+   "snow_in": 0.0,
+   "wind_mph": 11.6,
+   "sun_frac": 0.6
+  },
+  {
+   "month": 8,
+   "high": 89.2,
+   "low": 76.8,
+   "precip_in": 12.32,
+   "wet_days": 27.5,
+   "snow_in": 0.0,
+   "wind_mph": 10.9,
+   "sun_frac": 0.82
+  },
+  {
+   "month": 9,
+   "high": 87.3,
+   "low": 76.2,
+   "precip_in": 16.99,
+   "wet_days": 30.0,
+   "snow_in": 0.0,
+   "wind_mph": 10.8,
+   "sun_frac": 0.61
+  },
+  {
+   "month": 10,
+   "high": 87.7,
+   "low": 75.5,
+   "precip_in": 14.67,
+   "wet_days": 28.5,
+   "snow_in": 0.0,
+   "wind_mph": 8.8,
+   "sun_frac": 0.71
+  },
+  {
+   "month": 11,
+   "high": 89.2,
+   "low": 74.9,
+   "precip_in": 3.99,
+   "wet_days": 15.5,
+   "snow_in": 0.0,
+   "wind_mph": 7.4,
+   "sun_frac": 0.81
+  },
+  {
+   "month": 12,
+   "high": 89.0,
+   "low": 74.1,
+   "precip_in": 2.81,
+   "wet_days": 8.5,
+   "snow_in": 0.0,
+   "wind_mph": 7.9,
+   "sun_frac": 0.77
+  }
+ ],
+ "period": "2023-01-01 to 2024-12-31",
+ "wiki": null
+}

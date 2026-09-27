@@ -1,0 +1,139 @@
+{
+ "name": "Berlin",
+ "admin1": "State of Berlin",
+ "country": "Germany",
+ "country_code": "DE",
+ "lat": 52.52437,
+ "lon": 13.41053,
+ "population": 3426354,
+ "elevation_m": 74.0,
+ "climate": [
+  {
+   "month": 1,
+   "high": 41.1,
+   "low": 32.2,
+   "precip_in": 2.45,
+   "wet_days": 14.5,
+   "snow_in": 2.8,
+   "wind_mph": 14.1,
+   "sun_frac": 0.36
+  },
+  {
+   "month": 2,
+   "high": 46.4,
+   "low": 35.0,
+   "precip_in": 2.64,
+   "wet_days": 12.5,
+   "snow_in": 1.1,
+   "wind_mph": 14.1,
+   "sun_frac": 0.41
+  },
+  {
+   "month": 3,
+   "high": 51.4,
+   "low": 36.8,
+   "precip_in": 2.37,
+   "wet_days": 13.5,
+   "snow_in": 2.6,
+   "wind_mph": 12.7,
+   "sun_frac": 0.6
+  },
+  {
+   "month": 4,
+   "high": 56.5,
+   "low": 41.0,
+   "precip_in": 1.79,
+   "wet_days": 12.0,
+   "snow_in": 0.2,
+   "wind_mph": 12.7,
+   "sun_frac": 0.62
+  },
+  {
+   "month": 5,
+   "high": 68.6,
+   "low": 50.5,
+   "precip_in": 2.16,
+   "wet_days": 6.5,
+   "snow_in": 0.0,
+   "wind_mph": 12.2,
+   "sun_frac": 0.79
+  },
+  {
+   "month": 6,
+   "high": 74.1,
+   "low": 56.1,
+   "precip_in": 2.89,
+   "wet_days": 11.0,
+   "snow_in": 0.0,
+   "wind_mph": 11.5,
+   "sun_frac": 0.76
+  },
+  {
+   "month": 7,
+   "high": 77.1,
+   "low": 59.3,
+   "precip_in": 2.93,
+   "wet_days": 12.5,
+   "snow_in": 0.0,
+   "wind_mph": 12.8,
+   "sun_frac": 0.75
+  },
+  {
+   "month": 8,
+   "high": 77.4,
+   "low": 60.6,
+   "precip_in": 2.08,
+   "wet_days": 9.0,
+   "snow_in": 0.0,
+   "wind_mph": 11.1,
+   "sun_frac": 0.74
+  },
+  {
+   "month": 9,
+   "high": 74.3,
+   "low": 55.9,
+   "precip_in": 1.15,
+   "wet_days": 5.5,
+   "snow_in": 0.0,
+   "wind_mph": 11.8,
+   "sun_frac": 0.79
+  },
+  {
+   "month": 10,
+   "high": 59.5,
+   "low": 47.7,
+   "precip_in": 2.78,
+   "wet_days": 12.5,
+   "snow_in": 0.0,
+   "wind_mph": 12.9,
+   "sun_frac": 0.53
+  },
+  {
+   "month": 11,
+   "high": 46.3,
+   "low": 37.2,
+   "precip_in": 2.64,
+   "wet_days": 11.0,
+   "snow_in": 2.0,
+   "wind_mph": 12.5,
+   "sun_frac": 0.44
+  },
+  {
+   "month": 12,
+   "high": 41.6,
+   "low": 35.2,
+   "precip_in": 3.21,
+   "wet_days": 14.5,
+   "snow_in": 1.2,
+   "wind_mph": 12.3,
+   "sun_frac": 0.26
+  }
+ ],
+ "period": "2023-01-01 to 2024-12-31",
+ "wiki": {
+  "title": "Berlin",
+  "url": "https://en.wikipedia.org/wiki/Berlin",
+  "intro": "Berlin is the capital and largest city of Germany. With 3.7 million inhabitants, it has the highest population within its city limits of any city in the European Union. The metropolis is also one of the states of Germany, being the third-smallest state in the country by area. Berlin is surrounded by the state of Brandenburg, bordering Brandenburg's capital Potsdam to the southwest. The urban area of Berlin has a population of 4.5 million, making it the second most populous in Germany after the Ruhr. The Berlin-Brandenburg capital region has around 6.2 million inhabitants and is Germany's second-largest metropolitan region after the Rhine-Ruhr region, as well as the fifth-biggest metropolitan region by GDP in the EU. Berlin is a global city of culture, politics, media and science.\nBerlin was built along the banks of the Spree river, which flows into the Havel in the western borough of Spandau. First documented in the 13th century and at the crossing of two important historic trade routes, Berlin was designated the capital of the Margraviate of Brandenburg, Kingdom of Prussia, German Empire, Weimar Republic, and Nazi Germany. Berlin served as a scientific, artistic, and philosophical hub during the Age of Enlightenment, Neoclassicism, and the German revolutions of 1848\u20131849. During the Gr\u00fcnderzeit, an industrialization-induced economic boom triggered a rapid population increase in Berlin. Berlin in the 1920s was the third-largest city in the world by population.\nAfter World War II and following Berlin's occupation, the city was split into West Berlin and East Berlin, divided by the Berlin Wall. East Berlin was declared the capital of East Germany, while Bonn became the West German capital. Following German reunification in 1990, Berlin once again became the capital of all of Germany. Due to its geographic location and history, Berlin has been called \"the heart of Europe\". Its economy is based on high tech and the service sector, encompassing a diverse range of creative industries, startup companies, research facilities, and media corporations. Berlin serves as a continental hub for air and rail traffic and has a complex public transportation network. Tourism in Berlin makes the city a popular global destination.\nBerlin is home to several universities, such as the Humboldt University of Berlin, Technische Universit\u00e4t Berlin, the Berlin University of the Arts and the Free University of Berlin. The Berlin Zoological Garden is the most visited zoo in Europe. Babelsberg Studio is the world's first large-scale movie studio complex, and there are many films set in Berlin. Berlin is home to three UNESCO World Heritage Sites: Museum Island, the Palaces and Parks of Potsdam and Berlin, and the Berlin Modernism Housing Estates. Other landmarks include the Brandenburg Gate, the Reichstag building, Potsdamer Platz, the Memorial to the Murdered Jews of Europe, and the Berlin Wall Memorial. Berlin has numerous museums, galleries, and libraries. The city includes lakes in the western and southeastern boroughs, the largest of which is M\u00fcggelsee. About 1/3 of the city's area is composed of forests, parks and gardens, rivers, canals, and lakes.",
+  "climate": "Berlin has an oceanic climate bordering on a humid continental climate. This type of climate features mild to very warm summer temperatures and cold, though not very severe, winters. Annual precipitation is modest.\nFrosts are common in winter, and there are larger temperature differences between seasons than typical for many oceanic climates. Summers are warm and sometimes humid with average high temperatures of 22\u201325 \u00b0C and lows of 12\u201314 \u00b0C. Winters are cold with average high temperatures of 3 \u00b0C and lows of \u22122 to 0 \u00b0C. Spring and autumn are generally chilly to mild. Berlin's built-up area creates a microclimate, with heat stored by the city's buildings and pavement. Temperatures can be 4 \u00b0C higher in the city than in the surrounding areas. Annual precipitation is 570 millimeters with moderate rainfall throughout the year. Snowfall mainly occurs from December through March. The hottest month in Berlin was July 1757, with a mean temperature of 24 \u00b0C, and the coldest was January 1709, with a mean temperature of \u221213 \u00b0C. The wettest month on record was July 1907, with 230 millimeters of rainfall, whereas the driest were October 1866, November 1902, October 1908 and September 1928, all with 1 millimeter of rainfall."
+ }
+}

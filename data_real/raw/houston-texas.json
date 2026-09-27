@@ -1,0 +1,134 @@
+{
+ "name": "Houston",
+ "admin1": "Texas",
+ "country": "United States",
+ "country_code": "US",
+ "lat": 29.76328,
+ "lon": -95.36327,
+ "population": 2314157,
+ "elevation_m": 12.0,
+ "climate": [
+  {
+   "month": 1,
+   "high": 63.3,
+   "low": 46.3,
+   "precip_in": 10.16,
+   "wet_days": 14.0,
+   "snow_in": 0.0,
+   "wind_mph": 14.3,
+   "sun_frac": 0.65
+  },
+  {
+   "month": 2,
+   "high": 69.6,
+   "low": 51.6,
+   "precip_in": 2.16,
+   "wet_days": 8.0,
+   "snow_in": 0.0,
+   "wind_mph": 14.7,
+   "sun_frac": 0.7
+  },
+  {
+   "month": 3,
+   "high": 74.6,
+   "low": 58.4,
+   "precip_in": 4.82,
+   "wet_days": 15.0,
+   "snow_in": 0.0,
+   "wind_mph": 14.8,
+   "sun_frac": 0.62
+  },
+  {
+   "month": 4,
+   "high": 78.1,
+   "low": 61.7,
+   "precip_in": 7.83,
+   "wet_days": 12.5,
+   "snow_in": 0.0,
+   "wind_mph": 14.7,
+   "sun_frac": 0.67
+  },
+  {
+   "month": 5,
+   "high": 84.5,
+   "low": 69.9,
+   "precip_in": 9.57,
+   "wet_days": 16.0,
+   "snow_in": 0.0,
+   "wind_mph": 13.1,
+   "sun_frac": 0.64
+  },
+  {
+   "month": 6,
+   "high": 91.7,
+   "low": 75.2,
+   "precip_in": 3.72,
+   "wet_days": 13.5,
+   "snow_in": 0.0,
+   "wind_mph": 12.6,
+   "sun_frac": 0.83
+  },
+  {
+   "month": 7,
+   "high": 91.9,
+   "low": 76.7,
+   "precip_in": 10.45,
+   "wet_days": 16.0,
+   "snow_in": 0.0,
+   "wind_mph": 11.3,
+   "sun_frac": 0.77
+  },
+  {
+   "month": 8,
+   "high": 96.0,
+   "low": 78.7,
+   "precip_in": 1.65,
+   "wet_days": 7.5,
+   "snow_in": 0.0,
+   "wind_mph": 11.4,
+   "sun_frac": 0.91
+  },
+  {
+   "month": 9,
+   "high": 90.6,
+   "low": 73.9,
+   "precip_in": 4.41,
+   "wet_days": 11.5,
+   "snow_in": 0.0,
+   "wind_mph": 10.6,
+   "sun_frac": 0.88
+  },
+  {
+   "month": 10,
+   "high": 82.8,
+   "low": 65.2,
+   "precip_in": 3.64,
+   "wet_days": 7.5,
+   "snow_in": 0.0,
+   "wind_mph": 12.1,
+   "sun_frac": 0.84
+  },
+  {
+   "month": 11,
+   "high": 72.6,
+   "low": 56.7,
+   "precip_in": 5.37,
+   "wet_days": 9.0,
+   "snow_in": 0.0,
+   "wind_mph": 11.0,
+   "sun_frac": 0.71
+  },
+  {
+   "month": 12,
+   "high": 67.2,
+   "low": 50.7,
+   "precip_in": 6.22,
+   "wet_days": 9.5,
+   "snow_in": 0.0,
+   "wind_mph": 10.5,
+   "sun_frac": 0.74
+  }
+ ],
+ "period": "2023-01-01 to 2024-12-31",
+ "wiki": null
+}

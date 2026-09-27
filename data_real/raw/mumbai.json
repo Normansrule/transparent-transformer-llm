@@ -1,0 +1,139 @@
+{
+ "name": "Mumbai",
+ "admin1": "Maharashtra",
+ "country": "India",
+ "country_code": "IN",
+ "lat": 19.07283,
+ "lon": 72.88261,
+ "population": 12691836,
+ "elevation_m": 8.0,
+ "climate": [
+  {
+   "month": 1,
+   "high": 85.2,
+   "low": 65.5,
+   "precip_in": 0.06,
+   "wet_days": 0.0,
+   "snow_in": 0.0,
+   "wind_mph": 11.4,
+   "sun_frac": 0.96
+  },
+  {
+   "month": 2,
+   "high": 90.6,
+   "low": 67.8,
+   "precip_in": 0.01,
+   "wet_days": 0.0,
+   "snow_in": 0.0,
+   "wind_mph": 12.9,
+   "sun_frac": 0.95
+  },
+  {
+   "month": 3,
+   "high": 90.9,
+   "low": 71.3,
+   "precip_in": 0.32,
+   "wet_days": 0.5,
+   "snow_in": 0.0,
+   "wind_mph": 12.6,
+   "sun_frac": 0.92
+  },
+  {
+   "month": 4,
+   "high": 93.4,
+   "low": 76.5,
+   "precip_in": 0.02,
+   "wet_days": 0.0,
+   "snow_in": 0.0,
+   "wind_mph": 13.9,
+   "sun_frac": 0.94
+  },
+  {
+   "month": 5,
+   "high": 92.6,
+   "low": 80.7,
+   "precip_in": 0.54,
+   "wet_days": 2.5,
+   "snow_in": 0.0,
+   "wind_mph": 12.7,
+   "sun_frac": 0.89
+  },
+  {
+   "month": 6,
+   "high": 88.0,
+   "low": 80.1,
+   "precip_in": 15.89,
+   "wet_days": 24.5,
+   "snow_in": 0.0,
+   "wind_mph": 13.6,
+   "sun_frac": 0.63
+  },
+  {
+   "month": 7,
+   "high": 82.5,
+   "low": 77.7,
+   "precip_in": 44.97,
+   "wet_days": 31.0,
+   "snow_in": 0.0,
+   "wind_mph": 14.8,
+   "sun_frac": 0.25
+  },
+  {
+   "month": 8,
+   "high": 83.6,
+   "low": 77.6,
+   "precip_in": 10.85,
+   "wet_days": 28.5,
+   "snow_in": 0.0,
+   "wind_mph": 12.8,
+   "sun_frac": 0.66
+  },
+  {
+   "month": 9,
+   "high": 83.6,
+   "low": 76.6,
+   "precip_in": 14.47,
+   "wet_days": 28.0,
+   "snow_in": 0.0,
+   "wind_mph": 10.8,
+   "sun_frac": 0.67
+  },
+  {
+   "month": 10,
+   "high": 89.2,
+   "low": 75.3,
+   "precip_in": 2.75,
+   "wet_days": 9.5,
+   "snow_in": 0.0,
+   "wind_mph": 9.4,
+   "sun_frac": 0.86
+  },
+  {
+   "month": 11,
+   "high": 92.1,
+   "low": 72.5,
+   "precip_in": 0.1,
+   "wet_days": 1.0,
+   "snow_in": 0.0,
+   "wind_mph": 9.7,
+   "sun_frac": 0.92
+  },
+  {
+   "month": 12,
+   "high": 89.1,
+   "low": 70.1,
+   "precip_in": 0.03,
+   "wet_days": 0.0,
+   "snow_in": 0.0,
+   "wind_mph": 9.1,
+   "sun_frac": 0.9
+  }
+ ],
+ "period": "2023-01-01 to 2024-12-31",
+ "wiki": {
+  "title": "Mumbai",
+  "url": "https://en.wikipedia.org/wiki/Mumbai",
+  "intro": "Mumbai, also known as Bombay, is the capital city of the Indian state of Maharashtra and the financial capital of India. Located on the Konkan coast along the west coast of India, it has a deep natural harbour. As per the 2011 Census of India, it is the most populous city proper in India, with a population of almost 12.5 million, while the Mumbai Metropolitan Region, which is among the most populous metropolitan areas in the world, has a population of over 20 million. The city forms part of the Mumbai City and Mumbai Suburban districts and is administered by the Brihanmumbai Municipal Corporation, which was established in 1888.\nMumbai, originally an archipelago of seven islands, has evidence of human occupation dating back to the South Asian Stone Age. The islands were ruled by the Maurya Empire since the 3rd century BCE and were referenced by Ptolemy in his text in 150 CE. The islands were inhabited by the Marathi\u2013speaking Koli people, whose deity Mumb\u0101 is believed to have given the city its name. The region was later ruled by several dynasties such as Satavahanas, Western Satraps, Chalukyas, Rashtrakutas, and Shilaharas, before coming under the control of the Delhi Sultanate, and later the Gujarat Sultanate during the Middle Ages. In 1535, the islands were ceded to the Portuguese, and in 1661, transferred to the British Crown as part of Catherine of Braganza's dowry, before being leased to the East India Company in 1668.\nUnder British Raj, Bombay was the capital of the Bombay Presidency, and developed into a major trading and administrative centre. Beginning in 1782, Mumbai underwent major transformation through the Hornby Vellard project, which involved the reclamation of land between the city's seven islands from the Arabian Sea. Alongside the construction of major roads and railways, the reclamation project, completed in 1845, unified the islands and helped transform Mumbai into a major seaport on the Arabian Sea. This infrastructure expansion, combined with the 19th-century cotton boom, drove rapid economic growth and further established Mumbai as an important commercial centre. The city played a major role in the Indian independence movement. After India's independence in 1947, Bombay became the capital of Bombay State and after the Samyukta Maharashtra movement, became the capital of Maharashtra in 1960.\nMumbai is classified as an alpha world city and serves as India's financial, commercial, and entertainment capital, attracting migrants from across the country. It is often compared to New York City. In the early 2010s, the city contributed nearly five percent of India's GDP, one-fourth of its industrial output, and one-third of its tax revenues. Being the capital of the state, it houses major government institutions including the Maharashtra Legislative Assembly, and the Bombay High Court. It is home to major scientific, nuclear, and financial institutions, as well as the headquarters of numerous Indian companies and multinational corporations. It is also the centre of Bollywood, one of the world's most prolific film industries, as well as Marathi cinema.",
+  "climate": "Mumbai has a tropical wet and dry climate, classified as Aw under the K\u00f6ppen climate classification. The central and northern suburbs have a tropical monsoon climate with heavier rainfall during the wet season. Mumbai has a nearly rainless stretch from October to May, with its most intense rainfall during July. A cooler season from December to February is followed by a hotter season from March to May. The period from June to the end of September is the southwest monsoon season.\nThe average annual temperature is 27 \u00b0C. In the city, the average maximum and minimum temperatures are 31 \u00b0C and 24 \u00b0C respetively. In the suburbs, the daily mean maximum temperature ranges from 29 \u00b0C to 33 \u00b0C. The daily mean minimum temperature ranges from 16 \u00b0C to 26 \u00b0C. The record high is 42.2 \u00b0C set on 14 April 1952. The record low was 7.4 \u00b0C, set on 27 January 1962. The average annual precipitation is 2,213 mm. The maximum annual rainfall ever recorded was 3,452 mm for 1954. The most rainfall recorded in a single day was 944 mm on 26 July 2005. The average total annual rainfall is 2,213.4 mm in Mumbai City and 2,502.3 mm for the suburbs.\nMumbai encounters occasional tropical cyclones. The worst cyclone encountered was on 23 November 1948, with gusts reaching 151 km/h, and resulted in 38 deaths and 47 people missing. The city is prone to flooding during monsoons, Unplanned drainage systems and informal settlements are amongst the key drivers of Mumbai's frequent floods. The 2005 Mumbai floods caused 500-1000 deaths and financial losses of US$ 1.2 billion. To reduce flooding in Mumbai, the Maharashtra government implemented a flood mitigation plan that included restoring the Mithi River, restructuring the drainage system, and moving informal settlements."
+ }
+}

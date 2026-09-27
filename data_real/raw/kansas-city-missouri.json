@@ -1,0 +1,139 @@
+{
+ "name": "Kansas City",
+ "admin1": "Missouri",
+ "country": "United States",
+ "country_code": "US",
+ "lat": 39.09973,
+ "lon": -94.57857,
+ "population": 475378,
+ "elevation_m": 274.0,
+ "climate": [
+  {
+   "month": 1,
+   "high": 38.4,
+   "low": 22.8,
+   "precip_in": 2.07,
+   "wet_days": 10.5,
+   "snow_in": 7.0,
+   "wind_mph": 11.4,
+   "sun_frac": 0.58
+  },
+  {
+   "month": 2,
+   "high": 52.3,
+   "low": 29.8,
+   "precip_in": 1.85,
+   "wet_days": 5.5,
+   "snow_in": 3.0,
+   "wind_mph": 12.8,
+   "sun_frac": 0.81
+  },
+  {
+   "month": 3,
+   "high": 56.2,
+   "low": 36.5,
+   "precip_in": 3.31,
+   "wet_days": 10.0,
+   "snow_in": 0.7,
+   "wind_mph": 13.6,
+   "sun_frac": 0.69
+  },
+  {
+   "month": 4,
+   "high": 67.9,
+   "low": 46.8,
+   "precip_in": 4.22,
+   "wet_days": 9.0,
+   "snow_in": 0.0,
+   "wind_mph": 15.1,
+   "sun_frac": 0.79
+  },
+  {
+   "month": 5,
+   "high": 78.3,
+   "low": 56.9,
+   "precip_in": 5.03,
+   "wet_days": 13.0,
+   "snow_in": 0.0,
+   "wind_mph": 11.6,
+   "sun_frac": 0.77
+  },
+  {
+   "month": 6,
+   "high": 87.3,
+   "low": 66.8,
+   "precip_in": 4.97,
+   "wet_days": 10.5,
+   "snow_in": 0.0,
+   "wind_mph": 10.9,
+   "sun_frac": 0.86
+  },
+  {
+   "month": 7,
+   "high": 88.4,
+   "low": 69.8,
+   "precip_in": 4.66,
+   "wet_days": 13.0,
+   "snow_in": 0.0,
+   "wind_mph": 10.3,
+   "sun_frac": 0.81
+  },
+  {
+   "month": 8,
+   "high": 87.4,
+   "low": 69.1,
+   "precip_in": 4.45,
+   "wet_days": 9.0,
+   "snow_in": 0.0,
+   "wind_mph": 10.0,
+   "sun_frac": 0.83
+  },
+  {
+   "month": 9,
+   "high": 82.3,
+   "low": 61.9,
+   "precip_in": 2.73,
+   "wet_days": 5.0,
+   "snow_in": 0.0,
+   "wind_mph": 9.6,
+   "sun_frac": 0.86
+  },
+  {
+   "month": 10,
+   "high": 71.3,
+   "low": 51.8,
+   "precip_in": 3.88,
+   "wet_days": 5.5,
+   "snow_in": 0.0,
+   "wind_mph": 12.3,
+   "sun_frac": 0.84
+  },
+  {
+   "month": 11,
+   "high": 55.0,
+   "low": 39.1,
+   "precip_in": 3.18,
+   "wet_days": 6.5,
+   "snow_in": 2.4,
+   "wind_mph": 10.9,
+   "sun_frac": 0.7
+  },
+  {
+   "month": 12,
+   "high": 45.8,
+   "low": 32.5,
+   "precip_in": 2.99,
+   "wet_days": 7.5,
+   "snow_in": 1.0,
+   "wind_mph": 10.9,
+   "sun_frac": 0.61
+  }
+ ],
+ "period": "2023-01-01 to 2024-12-31",
+ "wiki": {
+  "title": "Kansas City, Missouri",
+  "url": "https://en.wikipedia.org/wiki/Kansas_City,_Missouri",
+  "intro": "Kansas City, abbreviated KC or KCMO, is the largest city in the U.S. state of Missouri by both population and area. It is located on the Missouri River at its confluence with the Kansas River, within Jackson, Clay, Platte and Cass counties. It is the 37th-most populous city in the United States and sixth-most populous city in the Midwest, with a population of 508,090 at the 2020 census. The Kansas City metropolitan area, which straddles the Missouri\u2013Kansas state line, is the 31st-most populous metropolitan area in the nation, at 2.25 million residents.\nKansas City was founded in the 1830s as a port on the Missouri and Kansas rivers. On June 1, 1850, the town of Kansas was incorporated; soon afterwards, a region designated as the Kansas Territory was established. Confusion between the city and the territory of Kansas ensued, so the name Kansas City was assigned to distinguish the city from the territory. The city's growth was closely tied to westward expansion, as railroads and the Kansas City Stockyards established it as a major transportation and livestock center.\nSituated along Missouri's western border with Kansas, Kansas City encompasses 319.03 square miles, making it the 25th-largest U.S. city by area. It is one of the two county seats of Jackson County, alongside Independence. The city is known for landmarks and districts including the River Market, 18th and Vine, and Country Club Plaza. It is internationally recognized for Kansas City jazz, its extensive system of fountains, the Kansas City Chiefs and Kansas City Royals sports franchises, and regional cuisine including Kansas City\u2013style barbecue and strip steak.",
+  "climate": "Kansas City is in the Midwestern United States, near the geographic center of the country, at the confluence of the Missouri and Kansas rivers. The city lies in either the humid continental zone when using the 32 \u00b0F isotherm, or in the humid subtropical zone when using the 27 \u00b0F isotherm. The city experiences roughly 104 air frosts on average per annum. The city is part of USDA plant hardiness zones 5b and 6a. In the center of North America, far removed from a significant body of water, there is significant potential for extreme hot and cold swings throughout the year. The warmest month is July, with a 24-hour average temperature of 81.0 \u00b0F. The summer months are hot and humid, with moist air riding up from the Gulf of Mexico, and high temperatures surpass 100 \u00b0F on 5.6 days of the year, and 90 \u00b0F on 47 days. The coldest month of the year is January, with an average temperature of 31.0 \u00b0F. Winters are cold, with 22 days where the high temperature is at or below 32 \u00b0F and 2.5 nights with a low at or below 0 \u00b0F. The official record highest temperature is 113 \u00b0F, set on August 14, 1936, at Downtown Airport, while the official record lowest is \u221223 \u00b0F, set on December 22 and 23, 1989. Normal seasonal snowfall is 13.4 inches at Downtown Airport and 18.8 in at Kansas City International Airport. The average window for freezing temperatures is October 31 to April 4, while for measurable snowfall, it is November 27 to March 16 as measured at Kansas City International Airport. Precipitation, both in frequency and total accumulation, shows a marked uptick in late spring and summer.\nKansas City is located in Tornado Alley, a broad region where cold air from Canada collides with warm air from the Gulf of Mexico, leading to the formation of powerful storms, especially during the spring. The Kansas City metropolitan area has experienced several significant outbreaks of tornadoes in the past, including the 1957 Ruskin Heights tornado, the 2019 Lawrence\u2013Linwood tornado and the May 2003 tornado outbreak sequence. The region can also experience ice storms during the winter, such as the 2002 ice storm during which hundreds of thousands of residents lost power for days or weeks. Kansas City and its outlying areas are also subject to flooding, including the Great Floods of 1844, 1951, and 1993."
+ }
+}

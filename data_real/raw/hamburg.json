@@ -1,0 +1,139 @@
+{
+ "name": "Hamburg",
+ "admin1": "Free and Hanseatic City of Hamburg",
+ "country": "Germany",
+ "country_code": "DE",
+ "lat": 53.55073,
+ "lon": 9.99302,
+ "population": 1845229,
+ "elevation_m": 9.0,
+ "climate": [
+  {
+   "month": 1,
+   "high": 42.1,
+   "low": 34.3,
+   "precip_in": 3.83,
+   "wet_days": 13.5,
+   "snow_in": 4.5,
+   "wind_mph": 14.9,
+   "sun_frac": 0.37
+  },
+  {
+   "month": 2,
+   "high": 46.6,
+   "low": 36.5,
+   "precip_in": 3.24,
+   "wet_days": 14.0,
+   "snow_in": 1.7,
+   "wind_mph": 13.7,
+   "sun_frac": 0.41
+  },
+  {
+   "month": 3,
+   "high": 50.7,
+   "low": 38.1,
+   "precip_in": 2.79,
+   "wet_days": 15.0,
+   "snow_in": 4.4,
+   "wind_mph": 12.9,
+   "sun_frac": 0.52
+  },
+  {
+   "month": 4,
+   "high": 55.6,
+   "low": 40.5,
+   "precip_in": 2.87,
+   "wet_days": 16.0,
+   "snow_in": 0.1,
+   "wind_mph": 12.9,
+   "sun_frac": 0.64
+  },
+  {
+   "month": 5,
+   "high": 66.9,
+   "low": 49.8,
+   "precip_in": 2.34,
+   "wet_days": 8.0,
+   "snow_in": 0.0,
+   "wind_mph": 11.9,
+   "sun_frac": 0.74
+  },
+  {
+   "month": 6,
+   "high": 72.1,
+   "low": 54.4,
+   "precip_in": 3.02,
+   "wet_days": 10.5,
+   "snow_in": 0.0,
+   "wind_mph": 11.6,
+   "sun_frac": 0.74
+  },
+  {
+   "month": 7,
+   "high": 71.9,
+   "low": 57.6,
+   "precip_in": 4.28,
+   "wet_days": 18.5,
+   "snow_in": 0.0,
+   "wind_mph": 12.4,
+   "sun_frac": 0.7
+  },
+  {
+   "month": 8,
+   "high": 72.9,
+   "low": 58.1,
+   "precip_in": 3.56,
+   "wet_days": 13.5,
+   "snow_in": 0.0,
+   "wind_mph": 10.9,
+   "sun_frac": 0.72
+  },
+  {
+   "month": 9,
+   "high": 70.8,
+   "low": 54.9,
+   "precip_in": 2.38,
+   "wet_days": 8.0,
+   "snow_in": 0.0,
+   "wind_mph": 10.7,
+   "sun_frac": 0.8
+  },
+  {
+   "month": 10,
+   "high": 58.4,
+   "low": 47.6,
+   "precip_in": 5.0,
+   "wet_days": 13.5,
+   "snow_in": 0.0,
+   "wind_mph": 12.8,
+   "sun_frac": 0.51
+  },
+  {
+   "month": 11,
+   "high": 46.8,
+   "low": 38.9,
+   "precip_in": 3.75,
+   "wet_days": 17.0,
+   "snow_in": 3.3,
+   "wind_mph": 12.4,
+   "sun_frac": 0.35
+  },
+  {
+   "month": 12,
+   "high": 43.2,
+   "low": 36.8,
+   "precip_in": 3.51,
+   "wet_days": 17.0,
+   "snow_in": 2.9,
+   "wind_mph": 12.9,
+   "sun_frac": 0.2
+  }
+ ],
+ "period": "2023-01-01 to 2024-12-31",
+ "wiki": {
+  "title": "Hamburg",
+  "url": "https://en.wikipedia.org/wiki/Hamburg",
+  "intro": "Hamburg, officially the Free and Hanseatic City of Hamburg, is the second-largest city in Germany after Berlin and sixth-largest city in the European Union, with a population of over 1.9 million. The Hamburg Metropolitan Region has a population of over 5.1 million and is the tenth-largest metropolitan region by GDP in the European Union. At the base of the Jutland Peninsula, the 110 km -long Elbe estuary begins in Hamburg, at the confluence of the Alster and Bille. Hamburg is one of Germany's three city-states alongside Berlin and Bremen, and is surrounded by Schleswig-Holstein to the north and Lower Saxony to the south. The Port of Hamburg is Germany's largest and Europe's third-largest, after Rotterdam and Antwerp. The local dialect is a variant of Low Saxon.\nThe official name reflects Hamburg's history as a member of the medieval Hanseatic League and a free imperial city of the Holy Roman Empire. Before the 1871 unification of Germany, it was a fully sovereign city state, and before 1919 formed a civic republic headed constitutionally by a class of hereditary Grand Burghers, or Hanseaten. Beset by disasters such as the Great Fire of Hamburg in 1842, the Allied fire-bombing of the city in 1943, and North Sea flood of 1962, the city has managed to recover and emerge wealthier after each catastrophe. Major regional broadcaster NDR, the printing and publishing firm Gruner + Jahr and the newspapers Der Spiegel and Die Zeit are based in the city. Hamburg is the seat of Germany's oldest stock exchange and the world's oldest merchant bank, Berenberg Bank. Media, commercial, logistical, and industrial firms with significant locations in the city include multinationals Airbus, Blohm + Voss, Aurubis, Beiersdorf, Lufthansa and Unilever.\nHamburg is also a major European science, research, and education hub, with several universities and institutions, including the University of Hamburg, and the Deutsches Elektronen-Synchrotron Laboratory DESY. The city enjoys a very high quality of living, being ranked 28th in the 2024 Mercer Quality of Living Survey. Hamburg hosts specialists in world economics and international law, including consular and diplomatic missions such as the International Tribunal for the Law of the Sea, the EU-LAC Foundation, and the UNESCO Institute for Lifelong Learning, multipartite international political conferences and summits such as Europe and China and the G20. Former German chancellors Helmut Schmidt and Angela Merkel were both born in Hamburg. The former Mayor of Hamburg, Olaf Scholz, was chancellor from December 2021 until May 2025.\nHamburg is a major international and domestic tourist destination. The Speicherstadt and Kontorhausviertel were declared World Heritage Sites by UNESCO in 2015. Hamburg's rivers and canals are crossed by around 2,500 bridges, making it the city with the highest number of bridges in Europe, and Hamburg is also home to five of the world's 29 tallest churches, making it the city with the greatest number of churches surpassing 100 metres worldwide. Aside from its rich architectural heritage, the city is also home to notable cultural venues such as the Elbphilharmonie and Laeiszhalle concert halls. It gave birth to movements like Hamburger Schule and paved the way for bands including the Beatles. Hamburg is also known for several theatres and a variety of musical shows. St. Pauli's Reeperbahn is among the best-known European red-light districts.",
+  "climate": "Hamburg has an oceanic climate, influenced by its proximity to the coast and maritime influences that originate over the Atlantic Ocean. The location in the north of Germany provides extremes greater than typical marine climates, but definitely in the category due to the prevailing westerlies. Nearby wetlands enjoy a maritime temperate climate. The amount of snowfall has varied greatly in recent decades. In the late 1970s and early 1980s, heavy snowfall sometimes occurred, the winters of recent years have been less cold, with snowfall just a few days per year.\nThe warmest months are June, July, and August, with high temperatures of 20.1 to 22.5 \u00b0C. The coldest are December, January, and February, with low temperatures of \u22120.3 to 1.0 \u00b0C. The annual extreme temperatures range from \u221229.1 \u00b0C on 13 February 1940, to 40.1 \u00b0C on 20 July 2022, and the latter was measured at Hamburg-Neuwiedenthal Meteorological Station, on the same day, a high temperature record of 39.1 \u00b0C was recorded at Hamburg Airport."
+ }
+}

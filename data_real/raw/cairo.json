@@ -1,0 +1,134 @@
+{
+ "name": "Cairo",
+ "admin1": "Cairo Governorate",
+ "country": "Egypt",
+ "country_code": "EG",
+ "lat": 30.06263,
+ "lon": 31.24967,
+ "population": 9606916,
+ "elevation_m": 23.0,
+ "climate": [
+  {
+   "month": 1,
+   "high": 69.5,
+   "low": 50.6,
+   "precip_in": 0.18,
+   "wet_days": 2.0,
+   "snow_in": 0.0,
+   "wind_mph": 10.4,
+   "sun_frac": 0.91
+  },
+  {
+   "month": 2,
+   "high": 68.9,
+   "low": 49.2,
+   "precip_in": 0.12,
+   "wet_days": 1.0,
+   "snow_in": 0.0,
+   "wind_mph": 11.4,
+   "sun_frac": 0.82
+  },
+  {
+   "month": 3,
+   "high": 78.4,
+   "low": 55.7,
+   "precip_in": 0.24,
+   "wet_days": 1.5,
+   "snow_in": 0.0,
+   "wind_mph": 12.7,
+   "sun_frac": 0.9
+  },
+  {
+   "month": 4,
+   "high": 87.0,
+   "low": 61.1,
+   "precip_in": 0.06,
+   "wet_days": 0.5,
+   "snow_in": 0.0,
+   "wind_mph": 13.8,
+   "sun_frac": 0.88
+  },
+  {
+   "month": 5,
+   "high": 92.0,
+   "low": 66.3,
+   "precip_in": 0.0,
+   "wet_days": 0.0,
+   "snow_in": 0.0,
+   "wind_mph": 14.5,
+   "sun_frac": 0.89
+  },
+  {
+   "month": 6,
+   "high": 101.0,
+   "low": 73.3,
+   "precip_in": 0.01,
+   "wet_days": 0.0,
+   "snow_in": 0.0,
+   "wind_mph": 14.9,
+   "sun_frac": 0.96
+  },
+  {
+   "month": 7,
+   "high": 103.5,
+   "low": 76.0,
+   "precip_in": 0.0,
+   "wet_days": 0.0,
+   "snow_in": 0.0,
+   "wind_mph": 14.5,
+   "sun_frac": 0.98
+  },
+  {
+   "month": 8,
+   "high": 101.5,
+   "low": 75.8,
+   "precip_in": 0.0,
+   "wet_days": 0.0,
+   "snow_in": 0.0,
+   "wind_mph": 14.0,
+   "sun_frac": 0.92
+  },
+  {
+   "month": 9,
+   "high": 97.6,
+   "low": 74.0,
+   "precip_in": 0.01,
+   "wet_days": 0.0,
+   "snow_in": 0.0,
+   "wind_mph": 14.1,
+   "sun_frac": 0.94
+  },
+  {
+   "month": 10,
+   "high": 88.2,
+   "low": 67.2,
+   "precip_in": 0.02,
+   "wet_days": 0.0,
+   "snow_in": 0.0,
+   "wind_mph": 13.0,
+   "sun_frac": 0.92
+  },
+  {
+   "month": 11,
+   "high": 79.9,
+   "low": 61.0,
+   "precip_in": 0.07,
+   "wet_days": 0.5,
+   "snow_in": 0.0,
+   "wind_mph": 10.6,
+   "sun_frac": 0.9
+  },
+  {
+   "month": 12,
+   "high": 72.2,
+   "low": 54.4,
+   "precip_in": 0.24,
+   "wet_days": 1.0,
+   "snow_in": 0.0,
+   "wind_mph": 9.4,
+   "sun_frac": 0.91
+  }
+ ],
+ "period": "2023-01-01 to 2024-12-31",
+ "wiki": null
+}

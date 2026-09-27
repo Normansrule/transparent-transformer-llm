@@ -1,0 +1,139 @@
+{
+ "name": "Montreal",
+ "admin1": "Quebec",
+ "country": "Canada",
+ "country_code": "CA",
+ "lat": 45.50884,
+ "lon": -73.58781,
+ "population": 1762949,
+ "elevation_m": 216.0,
+ "climate": [
+  {
+   "month": 1,
+   "high": 25.3,
+   "low": 13.1,
+   "precip_in": 3.65,
+   "wet_days": 12.5,
+   "snow_in": 21.3,
+   "wind_mph": 11.8,
+   "sun_frac": 0.4
+  },
+  {
+   "month": 2,
+   "high": 28.1,
+   "low": 10.7,
+   "precip_in": 2.07,
+   "wet_days": 9.0,
+   "snow_in": 9.9,
+   "wind_mph": 13.0,
+   "sun_frac": 0.63
+  },
+  {
+   "month": 3,
+   "high": 37.9,
+   "low": 22.8,
+   "precip_in": 2.55,
+   "wet_days": 10.5,
+   "snow_in": 9.1,
+   "wind_mph": 13.4,
+   "sun_frac": 0.58
+  },
+  {
+   "month": 4,
+   "high": 52.5,
+   "low": 32.9,
+   "precip_in": 4.93,
+   "wet_days": 12.0,
+   "snow_in": 4.1,
+   "wind_mph": 13.8,
+   "sun_frac": 0.59
+  },
+  {
+   "month": 5,
+   "high": 65.7,
+   "low": 46.1,
+   "precip_in": 3.05,
+   "wet_days": 9.0,
+   "snow_in": 0.0,
+   "wind_mph": 12.2,
+   "sun_frac": 0.73
+  },
+  {
+   "month": 6,
+   "high": 73.2,
+   "low": 56.4,
+   "precip_in": 5.37,
+   "wet_days": 14.5,
+   "snow_in": 0.0,
+   "wind_mph": 11.3,
+   "sun_frac": 0.65
+  },
+  {
+   "month": 7,
+   "high": 77.8,
+   "low": 63.1,
+   "precip_in": 5.9,
+   "wet_days": 15.0,
+   "snow_in": 0.0,
+   "wind_mph": 10.5,
+   "sun_frac": 0.73
+  },
+  {
+   "month": 8,
+   "high": 73.2,
+   "low": 58.8,
+   "precip_in": 8.0,
+   "wet_days": 17.0,
+   "snow_in": 0.0,
+   "wind_mph": 11.0,
+   "sun_frac": 0.71
+  },
+  {
+   "month": 9,
+   "high": 70.2,
+   "low": 54.3,
+   "precip_in": 2.46,
+   "wet_days": 5.0,
+   "snow_in": 0.0,
+   "wind_mph": 10.2,
+   "sun_frac": 0.78
+  },
+  {
+   "month": 10,
+   "high": 57.7,
+   "low": 44.0,
+   "precip_in": 4.17,
+   "wet_days": 13.5,
+   "snow_in": 0.5,
+   "wind_mph": 12.2,
+   "sun_frac": 0.66
+  },
+  {
+   "month": 11,
+   "high": 41.7,
+   "low": 30.2,
+   "precip_in": 2.14,
+   "wet_days": 9.0,
+   "snow_in": 2.6,
+   "wind_mph": 12.3,
+   "sun_frac": 0.6
+  },
+  {
+   "month": 12,
+   "high": 29.0,
+   "low": 18.5,
+   "precip_in": 4.36,
+   "wet_days": 12.0,
+   "snow_in": 12.4,
+   "wind_mph": 10.5,
+   "sun_frac": 0.41
+  }
+ ],
+ "period": "2023-01-01 to 2024-12-31",
+ "wiki": {
+  "title": "Montreal, arts interculturels",
+  "url": "https://en.wikipedia.org/wiki/Montreal,_arts_interculturels",
+  "intro": "Montr\u00e9al, arts interculturels is a multidisciplinary cultural organization of Montreal created in 1999. It is located on Jeanne-Mance Street. It opened in 1999, and exhibits contemporary art, dance, music, theatre, painting, sculpture, and video. The mission of MAI is to facilitate and initiate intercultural relations.",
+  "climate": ""
+ }
+}

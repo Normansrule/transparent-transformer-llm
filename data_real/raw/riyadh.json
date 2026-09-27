@@ -1,0 +1,134 @@
+{
+ "name": "Riyadh",
+ "admin1": "Riyadh Region",
+ "country": "Saudi Arabia",
+ "country_code": "SA",
+ "lat": 24.68773,
+ "lon": 46.72185,
+ "population": 4205961,
+ "elevation_m": 612.0,
+ "climate": [
+  {
+   "month": 1,
+   "high": 68.9,
+   "low": 50.6,
+   "precip_in": 1.97,
+   "wet_days": 5.0,
+   "snow_in": 0.0,
+   "wind_mph": 12.0,
+   "sun_frac": 0.79
+  },
+  {
+   "month": 2,
+   "high": 74.8,
+   "low": 53.1,
+   "precip_in": 0.09,
+   "wet_days": 1.0,
+   "snow_in": 0.0,
+   "wind_mph": 14.6,
+   "sun_frac": 0.87
+  },
+  {
+   "month": 3,
+   "high": 82.1,
+   "low": 60.2,
+   "precip_in": 0.31,
+   "wet_days": 3.5,
+   "snow_in": 0.0,
+   "wind_mph": 15.3,
+   "sun_frac": 0.81
+  },
+  {
+   "month": 4,
+   "high": 87.5,
+   "low": 65.7,
+   "precip_in": 0.84,
+   "wet_days": 5.0,
+   "snow_in": 0.0,
+   "wind_mph": 14.7,
+   "sun_frac": 0.78
+  },
+  {
+   "month": 5,
+   "high": 101.0,
+   "low": 77.1,
+   "precip_in": 0.15,
+   "wet_days": 0.5,
+   "snow_in": 0.0,
+   "wind_mph": 15.5,
+   "sun_frac": 0.83
+  },
+  {
+   "month": 6,
+   "high": 109.1,
+   "low": 83.7,
+   "precip_in": 0.0,
+   "wet_days": 0.0,
+   "snow_in": 0.0,
+   "wind_mph": 15.2,
+   "sun_frac": 0.87
+  },
+  {
+   "month": 7,
+   "high": 111.1,
+   "low": 86.1,
+   "precip_in": 0.0,
+   "wet_days": 0.0,
+   "snow_in": 0.0,
+   "wind_mph": 15.4,
+   "sun_frac": 0.88
+  },
+  {
+   "month": 8,
+   "high": 110.7,
+   "low": 86.1,
+   "precip_in": 0.0,
+   "wet_days": 0.0,
+   "snow_in": 0.0,
+   "wind_mph": 15.8,
+   "sun_frac": 0.89
+  },
+  {
+   "month": 9,
+   "high": 105.6,
+   "low": 80.4,
+   "precip_in": 0.0,
+   "wet_days": 0.0,
+   "snow_in": 0.0,
+   "wind_mph": 13.7,
+   "sun_frac": 0.92
+  },
+  {
+   "month": 10,
+   "high": 95.1,
+   "low": 71.7,
+   "precip_in": 0.03,
+   "wet_days": 0.0,
+   "snow_in": 0.0,
+   "wind_mph": 11.9,
+   "sun_frac": 0.94
+  },
+  {
+   "month": 11,
+   "high": 83.3,
+   "low": 64.3,
+   "precip_in": 0.39,
+   "wet_days": 2.5,
+   "snow_in": 0.0,
+   "wind_mph": 10.4,
+   "sun_frac": 0.91
+  },
+  {
+   "month": 12,
+   "high": 73.7,
+   "low": 54.4,
+   "precip_in": 0.07,
+   "wet_days": 0.5,
+   "snow_in": 0.0,
+   "wind_mph": 8.5,
+   "sun_frac": 0.92
+  }
+ ],
+ "period": "2023-01-01 to 2024-12-31",
+ "wiki": null
+}

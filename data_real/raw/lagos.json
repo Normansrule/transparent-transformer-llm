@@ -1,0 +1,139 @@
+{
+ "name": "Lagos",
+ "admin1": "Lagos",
+ "country": "Nigeria",
+ "country_code": "NG",
+ "lat": 6.45407,
+ "lon": 3.39467,
+ "population": 15388000,
+ "elevation_m": 11.0,
+ "climate": [
+  {
+   "month": 1,
+   "high": 87.8,
+   "low": 76.2,
+   "precip_in": 0.51,
+   "wet_days": 4.5,
+   "snow_in": 0.0,
+   "wind_mph": 11.4,
+   "sun_frac": 0.83
+  },
+  {
+   "month": 2,
+   "high": 88.8,
+   "low": 78.1,
+   "precip_in": 0.84,
+   "wet_days": 5.0,
+   "snow_in": 0.0,
+   "wind_mph": 12.0,
+   "sun_frac": 0.82
+  },
+  {
+   "month": 3,
+   "high": 88.6,
+   "low": 80.2,
+   "precip_in": 3.18,
+   "wet_days": 13.0,
+   "snow_in": 0.0,
+   "wind_mph": 12.4,
+   "sun_frac": 0.76
+  },
+  {
+   "month": 4,
+   "high": 88.6,
+   "low": 80.9,
+   "precip_in": 2.85,
+   "wet_days": 14.5,
+   "snow_in": 0.0,
+   "wind_mph": 12.3,
+   "sun_frac": 0.74
+  },
+  {
+   "month": 5,
+   "high": 87.4,
+   "low": 79.8,
+   "precip_in": 3.98,
+   "wet_days": 19.0,
+   "snow_in": 0.0,
+   "wind_mph": 11.3,
+   "sun_frac": 0.77
+  },
+  {
+   "month": 6,
+   "high": 83.2,
+   "low": 77.1,
+   "precip_in": 9.12,
+   "wet_days": 26.0,
+   "snow_in": 0.0,
+   "wind_mph": 11.4,
+   "sun_frac": 0.62
+  },
+  {
+   "month": 7,
+   "high": 81.6,
+   "low": 76.4,
+   "precip_in": 7.73,
+   "wet_days": 21.5,
+   "snow_in": 0.0,
+   "wind_mph": 12.7,
+   "sun_frac": 0.69
+  },
+  {
+   "month": 8,
+   "high": 81.3,
+   "low": 76.2,
+   "precip_in": 4.59,
+   "wet_days": 22.0,
+   "snow_in": 0.0,
+   "wind_mph": 13.7,
+   "sun_frac": 0.73
+  },
+  {
+   "month": 9,
+   "high": 82.1,
+   "low": 76.3,
+   "precip_in": 7.01,
+   "wet_days": 23.0,
+   "snow_in": 0.0,
+   "wind_mph": 12.0,
+   "sun_frac": 0.71
+  },
+  {
+   "month": 10,
+   "high": 83.7,
+   "low": 77.0,
+   "precip_in": 5.7,
+   "wet_days": 21.5,
+   "snow_in": 0.0,
+   "wind_mph": 9.7,
+   "sun_frac": 0.71
+  },
+  {
+   "month": 11,
+   "high": 86.2,
+   "low": 78.1,
+   "precip_in": 2.4,
+   "wet_days": 13.5,
+   "snow_in": 0.0,
+   "wind_mph": 9.4,
+   "sun_frac": 0.86
+  },
+  {
+   "month": 12,
+   "high": 88.8,
+   "low": 76.7,
+   "precip_in": 0.47,
+   "wet_days": 5.0,
+   "snow_in": 0.0,
+   "wind_mph": 9.3,
+   "sun_frac": 0.89
+  }
+ ],
+ "period": "2023-01-01 to 2024-12-31",
+ "wiki": {
+  "title": "Lagos",
+  "url": "https://en.wikipedia.org/wiki/Lagos",
+  "intro": "Lagos, or Lagos City, is a large metropolitan port city in southwestern Nigeria. As of November 2025, the size of the city's population has been estimated to be between 17 and 21 million residents, making Lagos the largest city in Nigeria, the most populous urban area on the African continent, and one of the fastest-growing megacities in the world.\nThe lands are separated by creeks, fringing the southwest mouth of Lagos Lagoon, while being protected from the Atlantic Ocean by barrier islands and long sand spits such as Bar Beach, which stretch up to 100 kilometres east and west of the mouth.\nWith its international airport, three ports, four expressways, and the standard-gauge rail link to Abeokuta and Ibadan, the city is well connected in terms of transport and handles 88% of Nigeria\u2019s exports. The urban rail transit system in Lagos is regarded as one of the most modern of its kind in Africa.\nLagos is best known as the leading financial centre of West and Central Africa, with headquarters of financial institutions like Access Bank, the First Bank of Nigeria or Zenith Bank. The Nigerian Exchange Group, the main stock exchange group in Nigeria, is also located here. Other major employers include two breweries, three major shipyards and the headquarters of several African airlines. Lagos is also home to numerous pharmaceutical companies; the city is also an exhibition city: Art X Lagos is West Africa\u2019s largest art fair, whilst Lagos Fashion Week is Africa\u2019s largest fashion fair. It has more than 20 data centres in operation and branches of Microsoft, Equinix and Google. Five out of seven African high tech start-ups with a value above US$ 1 billion are located in Lagos. The employer with the most staff is the Dangote Refinery, which, once expanded, will be the world\u2019s largest oil refinery.\nLagos houses four public universities and six private universites as well as scientific facilities like the Institute for Oceanography and the Institute of Medical Research. Lagos is also a cultural hub. The National Arts Theatre in Surulere, the National Gallery of Modern Art, the Centre For Black And African Arts on Broad Street, the National Museum and the John Randle Centre for Yoruba Culture in Onikan and privately run galleries like Nike Art Gallery display Nigerias culture. The conservatoire MUSON Centre, many local orchestras and choirs as well as writers like Sefi Atta, Oyinkan Braithwaite and Ay\u00f2b\u00e1mi Ad\u00e9b\u00e1y\u00f2 and artists like Dotun Popoola, Peju Alatise, Idowu Sonaya and Collins Abinoro Akporode represent Lagos' creative scene. Furthermore, Lagos is the centre of media outlets and of Nigerian cinema, \"Nollywood\". The lagoon city also is a hot spot for West African music; in its recording studios Nigerian stars like Wizkid, Tems, Davido, and Asake have started their careers. International stars like Paul McCartney, James Brown, Ed Sheeran and Beyonc\u00e9 have recorded albums there.",
+  "climate": "Lagos experiences a tropical savanna climate according to the K\u00f6ppen climate classification, as there are three months under 60 millimetres or 2.4 inches of rain, and annual rainfall is not nearly high enough for tropical monsoon classification. The wet season starts in May and ends in October, while the dry season starts in November and ends in April. There is also a short dry season from July to August. The wettest month is June with precipitation total 316 millimetres or 12.44 inches, while the driest month is January with precipitation total 13 millimetres or 0.51 inches.\nLocated near the equator, Lagos has only a slight seasonal temperature variation, with mean high temperatures ranging from 28 to 32 \u00b0C. Lagos has the highest temperatures in March with a daily range from 32 to 26 \u00b0C, and least hot temperatures in August ranging from 28 to 24 \u00b0C, not unlike the seasons of coastal locations in the Southern Hemisphere. Summer is the coolest season, with June, July and August are the coldest and rainiest months, while spring is the hottest season."
+ }
+}

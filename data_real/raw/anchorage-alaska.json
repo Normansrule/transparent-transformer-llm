@@ -1,0 +1,139 @@
+{
+ "name": "Anchorage",
+ "admin1": "Alaska",
+ "country": "United States",
+ "country_code": "US",
+ "lat": 61.21806,
+ "lon": -149.90028,
+ "population": 289600,
+ "elevation_m": 31.0,
+ "climate": [
+  {
+   "month": 1,
+   "high": 21.8,
+   "low": 12.2,
+   "precip_in": 1.69,
+   "wet_days": 10.0,
+   "snow_in": 11.1,
+   "wind_mph": 8.7,
+   "sun_frac": 0.36
+  },
+  {
+   "month": 2,
+   "high": 24.9,
+   "low": 13.9,
+   "precip_in": 2.12,
+   "wet_days": 12.0,
+   "snow_in": 13.6,
+   "wind_mph": 9.8,
+   "sun_frac": 0.4
+  },
+  {
+   "month": 3,
+   "high": 32.7,
+   "low": 18.9,
+   "precip_in": 1.46,
+   "wet_days": 9.5,
+   "snow_in": 8.5,
+   "wind_mph": 9.0,
+   "sun_frac": 0.53
+  },
+  {
+   "month": 4,
+   "high": 41.5,
+   "low": 24.5,
+   "precip_in": 1.36,
+   "wet_days": 8.5,
+   "snow_in": 8.1,
+   "wind_mph": 8.1,
+   "sun_frac": 0.61
+  },
+  {
+   "month": 5,
+   "high": 53.7,
+   "low": 38.7,
+   "precip_in": 2.25,
+   "wet_days": 15.5,
+   "snow_in": 3.7,
+   "wind_mph": 8.4,
+   "sun_frac": 0.5
+  },
+  {
+   "month": 6,
+   "high": 63.4,
+   "low": 48.6,
+   "precip_in": 2.13,
+   "wet_days": 10.0,
+   "snow_in": 0.0,
+   "wind_mph": 7.9,
+   "sun_frac": 0.54
+  },
+  {
+   "month": 7,
+   "high": 64.1,
+   "low": 52.4,
+   "precip_in": 4.71,
+   "wet_days": 12.5,
+   "snow_in": 0.0,
+   "wind_mph": 7.8,
+   "sun_frac": 0.5
+  },
+  {
+   "month": 8,
+   "high": 62.9,
+   "low": 51.0,
+   "precip_in": 6.77,
+   "wet_days": 16.0,
+   "snow_in": 0.0,
+   "wind_mph": 8.4,
+   "sun_frac": 0.49
+  },
+  {
+   "month": 9,
+   "high": 53.6,
+   "low": 42.9,
+   "precip_in": 4.79,
+   "wet_days": 17.0,
+   "snow_in": 0.0,
+   "wind_mph": 7.9,
+   "sun_frac": 0.5
+  },
+  {
+   "month": 10,
+   "high": 40.4,
+   "low": 30.5,
+   "precip_in": 2.67,
+   "wet_days": 10.5,
+   "snow_in": 6.4,
+   "wind_mph": 8.5,
+   "sun_frac": 0.54
+  },
+  {
+   "month": 11,
+   "high": 28.0,
+   "low": 19.2,
+   "precip_in": 3.41,
+   "wet_days": 14.0,
+   "snow_in": 19.9,
+   "wind_mph": 8.9,
+   "sun_frac": 0.36
+  },
+  {
+   "month": 12,
+   "high": 23.4,
+   "low": 14.9,
+   "precip_in": 2.67,
+   "wet_days": 13.5,
+   "snow_in": 15.3,
+   "wind_mph": 9.1,
+   "sun_frac": 0.21
+  }
+ ],
+ "period": "2023-01-01 to 2024-12-31",
+ "wiki": {
+  "title": "Anchorage, Alaska",
+  "url": "https://en.wikipedia.org/wiki/Anchorage,_Alaska",
+  "intro": "Anchorage, officially the Municipality of Anchorage, is the most populous city in the U.S. state of Alaska. With a population of 291,247 at the 2020 census, it contains nearly 40 percent of the state's population. The Anchorage metropolitan area, which includes Anchorage and the neighboring Matanuska-Susitna Borough, had a population of 398,328 in 2020, accounting for more than half the state's population. At 1,706 sq mi of land area, the city is the fourth-largest by area in the U.S.\nAnchorage is in Southcentral Alaska, at the head of the Cook Inlet, on a peninsula formed by the Knik Arm to the north and the Turnagain Arm to the south. First settled as a tent city near the mouth of Ship Creek in 1915 when construction on the Alaska Railroad began, Anchorage was incorporated as a city in November 1920. In September 1975, the City of Anchorage merged with the Greater Anchorage Area Borough, creating the Municipality of Anchorage. The municipal city limits span 1,961.1 sq mi, encompassing the urban core, a joint military base, several outlying communities, and almost all of Chugach State Park. Because of this, less than 10 percent of the Municipality is populated, with the highest concentration of people in the 100-square-mile area that makes up the city proper, on a promontory at the headwaters of the inlet, commonly called Anchorage, the City of Anchorage, or the Anchorage Bowl.\nAnchorage is almost equidistant from New York City, Tokyo, and Murmansk, Russia. Anchorage lies within 10 hours by air of nearly 90 percent of the inhabited global north. For this reason, Ted Stevens Anchorage International Airport is a common refueling stop for international cargo flights and home to a major FedEx hub, which the company calls a \"critical part\" of its global network of services.\nAnchorage has won the All-America City Award four times: in 1956, 1965, 1984\u201385, and 2002, from the National Civic League. Kiplinger has named it the United States' most tax-friendly city.",
+  "climate": "Anchorage has a subarctic climate, with strong maritime influences that lead to a relatively moderate climate, in contrast to the much more continental Fairbanks. Most of its precipitation falls in late summer. Average daytime summer temperatures range from approximately 55 to 78 \u00b0F; average daytime winter temperatures are about 5 to 30 \u00b0F. Anchorage has a frost-free growing season that averages slightly over 101 days. According to local folklore, when a native plant called fireweed goes to seed after a full bloom, the first snowfall of winter is 6 weeks away.\nAverage January low and high temperatures at Ted Stevens Anchorage International Airport are 11 to 23 \u00b0F with an average winter snowfall of 75.5 in. The 2011\u20132012 winter had 134.5 in, which made it the snowiest winter on record, topping the 1954\u20131955 winter with 132.8 in. The coldest temperature ever recorded at the original weather station at Merrill Field on the East end of 5th Avenue was \u221238 \u00b0F on February 3, 1947.\nSummers are mild, and it can rain frequently, although not abundantly. Average July low and high temperatures are 52 to 66 \u00b0F and the highest reading ever recorded was 90 \u00b0F on July 4, 2019. The average annual precipitation at the airport is 16.63 in. Anchorage's latitude causes summer days to be very long and winter daylight hours to be very short. The city is often cloudy during the winter, which further decreases the amount of sunlight experienced by residents.\nThe coldest daily maximum recorded in Anchorage was \u221219 \u00b0F on January 28, 1989, while the coldest daily maximum on average between 1991 and 2020 was 1 \u00b0F. Warm summer nights do not occur even with the bayside location and extensive daylight; the mildest night on record was 63 \u00b0F on July 10, 2005, August 13, 2019, and August 14, 2019. The mean temperature is 59 \u00b0F.\nDue to its proximity to active volcanoes, ash hazards are a significant, though infrequent, occurrence. The most recent notable volcanic activity centered on the multiple eruptions of Mount Redoubt during March\u2013April 2009, resulting in a 25,000 ft high ash cloud as well as ash accumulation throughout the Cook Inlet region. Previously, the most active recent event was an August 1992 eruption of Mount Spurr, which is 78 mi west of the city. The eruption deposited about 3 mm of volcanic ash on the city. The clean-up of ash resulted in excessive demands for water and caused major problems for the Anchorage Water and Wastewater Utility.\nThe average temperature of the sea ranges from 35.8 \u00b0F in February to 53.1 \u00b0F in August."
+ }
+}

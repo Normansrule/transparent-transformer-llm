@@ -1,0 +1,139 @@
+{
+ "name": "Manaus",
+ "admin1": "Amazonas",
+ "country": "Brazil",
+ "country_code": "BR",
+ "lat": -3.10194,
+ "lon": -60.025,
+ "population": 2219580,
+ "elevation_m": 20.0,
+ "climate": [
+  {
+   "month": 1,
+   "high": 85.4,
+   "low": 76.2,
+   "precip_in": 7.09,
+   "wet_days": 21.5,
+   "snow_in": 0.0,
+   "wind_mph": 7.9,
+   "sun_frac": 0.74
+  },
+  {
+   "month": 2,
+   "high": 86.1,
+   "low": 76.2,
+   "precip_in": 9.96,
+   "wet_days": 18.5,
+   "snow_in": 0.0,
+   "wind_mph": 8.5,
+   "sun_frac": 0.79
+  },
+  {
+   "month": 3,
+   "high": 85.6,
+   "low": 76.5,
+   "precip_in": 7.89,
+   "wet_days": 24.0,
+   "snow_in": 0.0,
+   "wind_mph": 8.7,
+   "sun_frac": 0.74
+  },
+  {
+   "month": 4,
+   "high": 85.6,
+   "low": 76.7,
+   "precip_in": 6.35,
+   "wet_days": 22.5,
+   "snow_in": 0.0,
+   "wind_mph": 7.0,
+   "sun_frac": 0.79
+  },
+  {
+   "month": 5,
+   "high": 85.5,
+   "low": 76.9,
+   "precip_in": 6.86,
+   "wet_days": 23.0,
+   "snow_in": 0.0,
+   "wind_mph": 8.1,
+   "sun_frac": 0.82
+  },
+  {
+   "month": 6,
+   "high": 86.4,
+   "low": 76.2,
+   "precip_in": 2.7,
+   "wet_days": 11.5,
+   "snow_in": 0.0,
+   "wind_mph": 8.3,
+   "sun_frac": 0.94
+  },
+  {
+   "month": 7,
+   "high": 89.3,
+   "low": 77.0,
+   "precip_in": 1.34,
+   "wet_days": 6.5,
+   "snow_in": 0.0,
+   "wind_mph": 8.4,
+   "sun_frac": 0.96
+  },
+  {
+   "month": 8,
+   "high": 92.4,
+   "low": 78.3,
+   "precip_in": 0.66,
+   "wet_days": 4.5,
+   "snow_in": 0.0,
+   "wind_mph": 8.7,
+   "sun_frac": 0.98
+  },
+  {
+   "month": 9,
+   "high": 94.3,
+   "low": 79.3,
+   "precip_in": 0.81,
+   "wet_days": 5.0,
+   "snow_in": 0.0,
+   "wind_mph": 9.1,
+   "sun_frac": 0.95
+  },
+  {
+   "month": 10,
+   "high": 93.7,
+   "low": 79.5,
+   "precip_in": 2.17,
+   "wet_days": 7.0,
+   "snow_in": 0.0,
+   "wind_mph": 8.1,
+   "sun_frac": 0.91
+  },
+  {
+   "month": 11,
+   "high": 91.0,
+   "low": 79.1,
+   "precip_in": 2.21,
+   "wet_days": 10.5,
+   "snow_in": 0.0,
+   "wind_mph": 7.9,
+   "sun_frac": 0.88
+  },
+  {
+   "month": 12,
+   "high": 86.9,
+   "low": 77.7,
+   "precip_in": 7.54,
+   "wet_days": 21.5,
+   "snow_in": 0.0,
+   "wind_mph": 7.3,
+   "sun_frac": 0.81
+  }
+ ],
+ "period": "2023-01-01 to 2024-12-31",
+ "wiki": {
+  "title": "Manaus",
+  "url": "https://en.wikipedia.org/wiki/Manaus",
+  "intro": "Manaus is the capital and largest city of the Brazilian state of Amazonas. It is the seventh-largest city in Brazil, with an estimated 2024 population of 2,279,686 distributed over a land area of about 11,401 km2. Located at the east centre of the state, the city is the centre of the Manaus metropolitan area and the largest metropolitan area in the North Region of Brazil by urban landmass. It is situated near the confluence of the Negro and Amazon rivers. It is one of the two cities in the Amazon rainforest with a population of over 1 million people, alongside Bel\u00e9m.\nThe city was founded in 1669 as the Fort of S\u00e3o Jos\u00e9 do Rio Negro. It was elevated to a town in 1832 with the name of \"Manaus\", an altered spelling of the indigenous Mana\u00f3s peoples, and legally transformed into a city on October 24, 1848, with the name of Cidade da Barra do Rio Negro, Portuguese for \"The City of the Margins of the Black River\". On September 4, 1856, it returned to the name \"Manaus\".\nManaus is located in the center of the Amazon rainforest, and home to the National Institute of Amazonian Research, being the most important center for scientific studies in the Amazon region and for international sustainability issues. It was known at the beginning of the century as Heart of the Amazon and City of the Forest. Its main economic engine is the Industrial Park of Manaus, a Free Economic Zone. The city has a free port and an international airport. Its manufactures include electronics, chemical products, and soap; there are distilling and ship construction industries. Manaus exports Brazil nuts, rubber, jute, and rosewood oil. It has a cathedral, the Amazon Theatre opera house, zoological and botanical gardens, an eco-park, and regional and native peoples museums.\nThe Solim\u00f5es and Negro rivers meet just east of Manaus and join to form the Amazon River. Rubber made it the richest city in South America during the late 1800s. Rubber helped Manaus earn its nickname, the Paris of the Tropics. Many wealthy European families settled in Manaus and brought their love for sophisticated European art, architecture, and culture with them. Manaus was one of the twelve Brazilian host cities of the 2014 World Cup, as well as one of the six hosts of football matches at the 2016 Summer Olympics.",
+  "climate": "Manaus has a tropical monsoon climate according to the K\u00f6ppen climate classification system, just dry enough in its driest month to not be a tropical rainforest climate, with the average annual compensated temperature of 27.4 \u00b0C and high air humidity, with a rainfall index around 2,300 mm annually. The seasons are relatively well-defined concerning rain: July to September is relatively dry, and December to May is very rainy. Summer and autumn are colder than winter and spring. Thunderstorms are frequent every day in the summer, but they can occur at any time of the year. There have been occasional occurrences of hail in the city.\nDue to the city's proximity to the equator, the heat is constant in the local climate. There are no cold days in winter; instead, winter is hotter than summer. Periodically, very intense polar air masses occur in the South-Central part of Brazil and in the southwest of the Amazon, and have some effect on the city, as occurred in August 1955. But although they are rare, they influence the climate, causing the temperature to drop to 18 \u00b0C or below. The proximity to the forest usually avoids extremes of heat and makes the city wet.\nAccording to the National Institute of Meteorology, the highest temperature registered in the city was 39 \u00b0C in 2015, and the lowest was 12 \u00b0C in 1989.\nOn November 26, 2009, a case of acid rain was recorded in Manaus. Air pollution, caused in large part by the accumulation of smoke from burning, associated with the sulfur dioxide emitted by cars, was the cause of this phenomenon. Although the incidence of acid rain is common in some Brazilian capitals where there is a great concentration of cars, in Manaus the situation is aggravated by the prolonged period of drought with the smoke from forest fires."
+ }
+}

@@ -1,0 +1,139 @@
+{
+ "name": "Stockholm",
+ "admin1": "Stockholm County",
+ "country": "Sweden",
+ "country_code": "SE",
+ "lat": 59.32938,
+ "lon": 18.06871,
+ "population": 1515017,
+ "elevation_m": 17.0,
+ "climate": [
+  {
+   "month": 1,
+   "high": 32.7,
+   "low": 24.1,
+   "precip_in": 2.27,
+   "wet_days": 14.5,
+   "snow_in": 7.5,
+   "wind_mph": 12.0,
+   "sun_frac": 0.28
+  },
+  {
+   "month": 2,
+   "high": 35.9,
+   "low": 26.6,
+   "precip_in": 1.81,
+   "wet_days": 10.5,
+   "snow_in": 5.7,
+   "wind_mph": 11.1,
+   "sun_frac": 0.34
+  },
+  {
+   "month": 3,
+   "high": 39.9,
+   "low": 27.2,
+   "precip_in": 2.04,
+   "wet_days": 11.5,
+   "snow_in": 7.1,
+   "wind_mph": 10.9,
+   "sun_frac": 0.44
+  },
+  {
+   "month": 4,
+   "high": 48.0,
+   "low": 32.2,
+   "precip_in": 1.56,
+   "wet_days": 9.0,
+   "snow_in": 3.3,
+   "wind_mph": 10.8,
+   "sun_frac": 0.56
+  },
+  {
+   "month": 5,
+   "high": 63.9,
+   "low": 43.3,
+   "precip_in": 1.19,
+   "wet_days": 4.5,
+   "snow_in": 0.2,
+   "wind_mph": 9.5,
+   "sun_frac": 0.82
+  },
+  {
+   "month": 6,
+   "high": 71.2,
+   "low": 52.4,
+   "precip_in": 2.22,
+   "wet_days": 9.0,
+   "snow_in": 0.0,
+   "wind_mph": 10.1,
+   "sun_frac": 0.82
+  },
+  {
+   "month": 7,
+   "high": 69.8,
+   "low": 56.9,
+   "precip_in": 4.67,
+   "wet_days": 17.0,
+   "snow_in": 0.0,
+   "wind_mph": 10.4,
+   "sun_frac": 0.77
+  },
+  {
+   "month": 8,
+   "high": 69.2,
+   "low": 56.8,
+   "precip_in": 3.0,
+   "wet_days": 14.0,
+   "snow_in": 0.0,
+   "wind_mph": 10.6,
+   "sun_frac": 0.67
+  },
+  {
+   "month": 9,
+   "high": 65.1,
+   "low": 52.3,
+   "precip_in": 2.28,
+   "wet_days": 7.0,
+   "snow_in": 0.0,
+   "wind_mph": 9.6,
+   "sun_frac": 0.64
+  },
+  {
+   "month": 10,
+   "high": 50.8,
+   "low": 41.7,
+   "precip_in": 2.98,
+   "wet_days": 11.5,
+   "snow_in": 1.0,
+   "wind_mph": 11.7,
+   "sun_frac": 0.56
+  },
+  {
+   "month": 11,
+   "high": 39.8,
+   "low": 32.3,
+   "precip_in": 1.96,
+   "wet_days": 9.5,
+   "snow_in": 3.7,
+   "wind_mph": 10.7,
+   "sun_frac": 0.36
+  },
+  {
+   "month": 12,
+   "high": 34.5,
+   "low": 26.1,
+   "precip_in": 1.96,
+   "wet_days": 13.5,
+   "snow_in": 8.1,
+   "wind_mph": 10.7,
+   "sun_frac": 0.21
+  }
+ ],
+ "period": "2023-01-01 to 2024-12-31",
+ "wiki": {
+  "title": "Stockholm",
+  "url": "https://en.wikipedia.org/wiki/Stockholm",
+  "intro": "Stockholm (; Swedish: ) is the capital and most populous city of Sweden, as well as the largest urban area in the Nordic countries. Approximately 1 million people live in the municipality, with 1.6 million in the urban area, and 2.5 million in the metropolitan area. The city stretches across fourteen islands where Lake M\u00e4laren flows into the Baltic Sea. Outside the city to the east, and along the coast, is the island chain of the Stockholm archipelago. The area has been settled since the Stone Age, in the 6th millennium BC, and was founded as a city in 1252 by Swedish statesman Birger Jarl. The city serves as the county seat of Stockholm County.\nStockholm is the cultural, media, political, and economic centre of Sweden. The Stockholm region alone accounts for over a third of the country's GDP, and is among the top 10 regions in Europe by GDP per capita.\nStockholm is classified by the GaWC as an Alpha\u2212 world city and it is the largest in Scandinavia and the main centre for corporate headquarters in the Nordic region. The city is home to some of Europe's top-ranking universities, such as the Karolinska Institute, KTH Royal Institute of Technology, Stockholm School of Economics and Stockholm University. It hosts the annual Nobel Prize ceremonies and banquet at the Stockholm Concert Hall and Stockholm City Hall. One of the city's most prized museums, the Vasa Museum, is the most visited museum in Scandinavia. The Stockholm Metro, opened in 1950, is well known for the decor of its stations; it has been called the longest art gallery in the world. The city was the host of the 1912 Summer Olympics, and has played host to several other international sports events since.\nStockholm is Sweden's primary financial centre, one of the largest in Scandinavia, and hosts several of Sweden's largest companies. Furthermore, the headquarters of most of Sweden's largest banks are in Stockholm. Stockholm is one of Europe's major tech centres; the city has sometimes been called Europe's innovation hub. The Stockholm region has a GDP of around $180 billion, and Stockholm County has the highest GDP per capita of all counties in Sweden.\nStockholm is the seat of the Swedish government and most of its agencies, including the highest courts in the judiciary, and the official residences of the Swedish monarch and the prime minister. The government has its seat in the Rosenbad building, the Riksdag is seated in the Parliament House, and the prime minister's residence is adjacent at the Sager House. Stockholm Palace is the official residence and principal workplace of the Swedish monarch, while Drottningholm Palace in neighbouring Eker\u00f6 serves as the Royal Family's private residence.",
+  "climate": "Stockholm has a humid continental climate in the 0 \u00b0C isotherm bordering on an oceanic climate in the -3 \u00b0C isotherm. Although winters are cold, average temperatures generally remain above 0 \u00b0C for much of the year. Summers are pleasantly warm, and precipitation occurs throughout the year.\nDue to the city's high northerly latitude, the length of the day varies widely from more than 18 hours around midsummer to only around 6 hours in late December. The nights from late May until mid-July are not completely dark even when cloudy. Stockholm has relatively mild weather compared to other locations at a similar latitude, or even farther south. With an average of 1900 hours of sunshine per year, it is also one of the sunniest cities in Northern Europe, receiving more sunshine than Paris, London and a few other major European cities of a more southerly latitude. Because of the urban heat island effect and the prevailing wind travelling overland rather than sea during summer months, Stockholm has the warmest July months of the Nordic capitals. Stockholm has an annual average snow cover between 75 and 100 days.\nDespite its mild climate, Stockholm is located further north than parts of Canada that are above the Arctic tree line at sea level.\nSummers average daytime high temperatures of 20\u201325 \u00b0C and lows of around 13 \u00b0C, but temperatures can reach 30 \u00b0C on some days. Days above 30 \u00b0C occur on average 1.55 days per year. Days between 25 \u00b0C and 30 \u00b0C are relatively common especially in July and August. Night-time lows of above 20 \u00b0C are rare, and hot summer nights vary from 17 to 18 \u00b0C. Winters generally bring cloudy weather with the most precipitation falling in December and January. The average winter temperatures range from \u22123 to \u22121 \u00b0C, and occasionally drop below \u221220 \u00b0C in the outskirts of the city. Spring and autumn are generally cool to mild.\nThe climate table below presents weather data from the years 1991\u20132020. According to ongoing measurements, the temperature has increased during the years 1991\u20132020 as compared with the last series, from 1961 to 1990. This increase averages about 1.0 \u00b0C over all months. Warming is most pronounced during the winter months, with an increase of more than 2.0 \u00b0C in January. For the 2002\u20132014 measurements some further increases have been found, although some months such as June have been relatively flat.\nThe highest temperature ever recorded in Stockholm was 36 \u00b0C on the date of 3 July 1811; the lowest was \u221232 \u00b0C on 20 January 1814. The temperature has not dropped to below \u221225.1 \u00b0C since 10 January 1987.\nThe warmest month ever recorded was July 2018 with a mean temperature of 22.5 \u00b0C which is also the nationwide record.\nAnnual precipitation is 546.4 mm with around 170 wet days and light to moderate rainfall throughout the year. The precipitation is not uniformly distributed throughout the year. The second half of the year receives 50% more than the first half. Snowfall occurs mainly from November through March. Snowfall may occasionally occur in late October as well as in April."
+ }
+}

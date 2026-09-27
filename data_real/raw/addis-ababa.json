@@ -1,0 +1,139 @@
+{
+ "name": "Addis Ababa",
+ "admin1": "Addis Ababa",
+ "country": "Ethiopia",
+ "country_code": "ET",
+ "lat": 9.02497,
+ "lon": 38.74689,
+ "population": 3860000,
+ "elevation_m": 2405.0,
+ "climate": [
+  {
+   "month": 1,
+   "high": 71.2,
+   "low": 46.8,
+   "precip_in": 0.12,
+   "wet_days": 0.5,
+   "snow_in": 0.0,
+   "wind_mph": 9.6,
+   "sun_frac": 0.93
+  },
+  {
+   "month": 2,
+   "high": 72.7,
+   "low": 48.7,
+   "precip_in": 1.62,
+   "wet_days": 5.5,
+   "snow_in": 0.0,
+   "wind_mph": 10.3,
+   "sun_frac": 0.92
+  },
+  {
+   "month": 3,
+   "high": 71.1,
+   "low": 51.0,
+   "precip_in": 5.1,
+   "wet_days": 17.0,
+   "snow_in": 0.0,
+   "wind_mph": 8.6,
+   "sun_frac": 0.84
+  },
+  {
+   "month": 4,
+   "high": 70.4,
+   "low": 51.0,
+   "precip_in": 6.02,
+   "wet_days": 22.0,
+   "snow_in": 0.0,
+   "wind_mph": 8.1,
+   "sun_frac": 0.82
+  },
+  {
+   "month": 5,
+   "high": 72.1,
+   "low": 50.7,
+   "precip_in": 5.18,
+   "wet_days": 15.5,
+   "snow_in": 0.0,
+   "wind_mph": 8.6,
+   "sun_frac": 0.88
+  },
+  {
+   "month": 6,
+   "high": 71.2,
+   "low": 50.4,
+   "precip_in": 5.32,
+   "wet_days": 17.5,
+   "snow_in": 0.0,
+   "wind_mph": 8.4,
+   "sun_frac": 0.86
+  },
+  {
+   "month": 7,
+   "high": 67.8,
+   "low": 50.8,
+   "precip_in": 12.81,
+   "wet_days": 30.0,
+   "snow_in": 0.0,
+   "wind_mph": 7.0,
+   "sun_frac": 0.71
+  },
+  {
+   "month": 8,
+   "high": 66.7,
+   "low": 50.0,
+   "precip_in": 11.19,
+   "wet_days": 30.0,
+   "snow_in": 0.0,
+   "wind_mph": 7.2,
+   "sun_frac": 0.75
+  },
+  {
+   "month": 9,
+   "high": 67.1,
+   "low": 48.4,
+   "precip_in": 7.33,
+   "wet_days": 21.5,
+   "snow_in": 0.0,
+   "wind_mph": 8.2,
+   "sun_frac": 0.87
+  },
+  {
+   "month": 10,
+   "high": 68.9,
+   "low": 47.3,
+   "precip_in": 2.05,
+   "wet_days": 7.5,
+   "snow_in": 0.0,
+   "wind_mph": 9.7,
+   "sun_frac": 0.93
+  },
+  {
+   "month": 11,
+   "high": 70.3,
+   "low": 45.8,
+   "precip_in": 0.29,
+   "wet_days": 3.0,
+   "snow_in": 0.0,
+   "wind_mph": 10.8,
+   "sun_frac": 0.96
+  },
+  {
+   "month": 12,
+   "high": 70.9,
+   "low": 45.2,
+   "precip_in": 0.01,
+   "wet_days": 0.0,
+   "snow_in": 0.0,
+   "wind_mph": 9.6,
+   "sun_frac": 0.94
+  }
+ ],
+ "period": "2023-01-01 to 2024-12-31",
+ "wiki": {
+  "title": "Addis Ababa",
+  "url": "https://en.wikipedia.org/wiki/Addis_Ababa",
+  "intro": "Addis Ababa is the capital and largest city of Ethiopia. With an estimated population of 6,287,000 inhabitants as of 2025, it is the tenth largest city in Africa. At an elevation of 2,355 metres, it is the fourth-highest capital city in the world and the highest capital in Africa. Addis Ababa is a highly developed and important cultural, artistic, financial and administrative center of Ethiopia.\nThe founding history of Addis Ababa dates back to the late 19th century by Menelik II, Negus of Shewa, in 1886 after finding Mount Entoto unpleasant two years prior. At the time, the city was a resort town; its large mineral spring abundance attracted nobilities of the empire and led them to establish permanent settlement. It also attracted many members of the working classes \u2013 including artisans and merchants \u2013 and foreign visitors. Menelik II then formed his imperial palace in 1887. Addis Ababa became the empire's capital in 1889, and subsequently international embassies were opened. Urban development began with the 20th century, without any prior planning.\nAddis Ababa saw a wide-scale economic boom in 1926 and 1927, and an increase in the number of buildings owned by the middle class, including stone houses filled with imported European furniture. The middle class also imported newly manufactured automobiles and expanded banking institutions. During the Italian occupation, urbanization and modernization steadily increased through a masterplan; it was hoped Addis Ababa would be a more \"colonial\" city, and this continued after the occupation. Subsequent master plans were designed by French and British consultants from the 1940s onwards, focusing on monuments, civic structures, satellite cities and the inner-city. Similarly, the later Italo-Ethiopian masterplan concerned only urban structures and accommodation services, but was later adapted for the 2003 masterplan.\nAddis Ababa is a federally-chartered city in accordance with the Addis Ababa City Government Charter Proclamation No. 87/1997 in the FDRE Constitution. Called \"the political capital of Africa\" due to its historical, diplomatic, and political significance for the continent, Addis Ababa serves as the headquarters of major international organizations, such as the African Union and the United Nations Economic Commission for Africa.\nThe city lies a few kilometres west of the East African Rift, which splits Ethiopia into two, between the Nubian plate and the Somali plate. The city is surrounded by the Special Zone of Oromia, and is populated by people from different regions of Ethiopia. It is home to Addis Ababa University. The city has a high human development index, and is known for its vibrant culture, strong fashion scene, high civic and political involvement of younger people, a thriving arts scene, and for being the heart of a country with one of the fastest economic growth rates in the world.",
+  "climate": "Addis Ababa has a subtropical highland climate with precipitation varying considerably by the month. The city has a complex mix of alpine climate zones, with temperature differences of up to 10 \u00b0C, depending on elevation and prevailing wind patterns. The high elevation moderates temperatures year-round, and the city's position near the Equator means that temperatures are very constant from month to month. As such the climate would be maritime if its elevation was not taken into account, as no month is above 22 \u00b0C in mean temperatures.\nMid-November to January is a season for occasional rain. The highland climate regions are characterised by dry winters, and this is the dry season in Addis Ababa. During this season the daily maximum temperatures are usually not more than 23 \u00b0C, and the night-time minimum temperatures will range from 5 \u00b0C to 10 \u00b0C and can drop to freezing. The short rainy season is from February to May. During this period, the difference between the daytime maximum temperatures and the nighttime minimum temperatures is not as great as during other times of the year, with minimum temperatures in the range of 10\u201315 \u00b0C. At this time of the year, the city experiences warm temperatures and pleasant rainfall. The long wet season is from June to mid-September; it is the coldest time of the year. This period coincides with summer, but the temperatures are much lower than at other times of year because of the frequent rain and hail and the abundance of cloud cover and fewer hours of sunshine. This time of the year is characterised by dark, chilly and wet days and nights. The autumn which follows is a transitional period between the wet and dry seasons.\nThe highest temperature on record was 30.6 \u00b0C 26 February 2019, while the lowest temperature on record was 0 \u00b0C, recorded on multiple occasions."
+ }
+}

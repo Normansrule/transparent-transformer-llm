@@ -1,0 +1,134 @@
+{
+ "name": "Calgary",
+ "admin1": "Alberta",
+ "country": "Canada",
+ "country_code": "CA",
+ "lat": 51.05011,
+ "lon": -114.08529,
+ "population": 1306784,
+ "elevation_m": 1048.0,
+ "climate": [
+  {
+   "month": 1,
+   "high": 26.8,
+   "low": 9.5,
+   "precip_in": 0.66,
+   "wet_days": 5.5,
+   "snow_in": 4.3,
+   "wind_mph": 10.6,
+   "sun_frac": 0.71
+  },
+  {
+   "month": 2,
+   "high": 32.2,
+   "low": 12.6,
+   "precip_in": 1.16,
+   "wet_days": 7.5,
+   "snow_in": 7.8,
+   "wind_mph": 11.5,
+   "sun_frac": 0.66
+  },
+  {
+   "month": 3,
+   "high": 32.1,
+   "low": 10.9,
+   "precip_in": 1.14,
+   "wet_days": 8.0,
+   "snow_in": 7.8,
+   "wind_mph": 9.4,
+   "sun_frac": 0.72
+  },
+  {
+   "month": 4,
+   "high": 50.7,
+   "low": 28.2,
+   "precip_in": 1.45,
+   "wet_days": 7.0,
+   "snow_in": 7.3,
+   "wind_mph": 11.9,
+   "sun_frac": 0.73
+  },
+  {
+   "month": 5,
+   "high": 64.9,
+   "low": 40.3,
+   "precip_in": 2.45,
+   "wet_days": 12.5,
+   "snow_in": 1.6,
+   "wind_mph": 11.4,
+   "sun_frac": 0.78
+  },
+  {
+   "month": 6,
+   "high": 69.2,
+   "low": 46.1,
+   "precip_in": 4.13,
+   "wet_days": 12.5,
+   "snow_in": 0.0,
+   "wind_mph": 12.2,
+   "sun_frac": 0.77
+  },
+  {
+   "month": 7,
+   "high": 77.4,
+   "low": 53.7,
+   "precip_in": 1.52,
+   "wet_days": 10.0,
+   "snow_in": 0.0,
+   "wind_mph": 10.8,
+   "sun_frac": 0.88
+  },
+  {
+   "month": 8,
+   "high": 74.4,
+   "low": 51.2,
+   "precip_in": 2.32,
+   "wet_days": 9.0,
+   "snow_in": 0.0,
+   "wind_mph": 10.8,
+   "sun_frac": 0.8
+  },
+  {
+   "month": 9,
+   "high": 68.3,
+   "low": 45.2,
+   "precip_in": 1.52,
+   "wet_days": 6.0,
+   "snow_in": 0.0,
+   "wind_mph": 10.6,
+   "sun_frac": 0.82
+  },
+  {
+   "month": 10,
+   "high": 53.1,
+   "low": 32.6,
+   "precip_in": 1.11,
+   "wet_days": 5.5,
+   "snow_in": 3.9,
+   "wind_mph": 10.6,
+   "sun_frac": 0.69
+  },
+  {
+   "month": 11,
+   "high": 36.0,
+   "low": 20.6,
+   "precip_in": 0.94,
+   "wet_days": 6.0,
+   "snow_in": 6.3,
+   "wind_mph": 10.8,
+   "sun_frac": 0.6
+  },
+  {
+   "month": 12,
+   "high": 33.6,
+   "low": 20.2,
+   "precip_in": 0.69,
+   "wet_days": 3.5,
+   "snow_in": 4.5,
+   "wind_mph": 11.1,
+   "sun_frac": 0.6
+  }
+ ],
+ "period": "2023-01-01 to 2024-12-31",
+ "wiki": null
+}

@@ -1,0 +1,139 @@
+{
+ "name": "Santa Barbara",
+ "admin1": "California",
+ "country": "United States",
+ "country_code": "US",
+ "lat": 34.42083,
+ "lon": -119.69819,
+ "population": 91842,
+ "elevation_m": 15.0,
+ "climate": [
+  {
+   "month": 1,
+   "high": 62.8,
+   "low": 45.0,
+   "precip_in": 8.37,
+   "wet_days": 10.0,
+   "snow_in": 0.0,
+   "wind_mph": 7.5,
+   "sun_frac": 0.77
+  },
+  {
+   "month": 2,
+   "high": 62.3,
+   "low": 43.6,
+   "precip_in": 9.6,
+   "wet_days": 9.5,
+   "snow_in": 1.8,
+   "wind_mph": 8.1,
+   "sun_frac": 0.78
+  },
+  {
+   "month": 3,
+   "high": 63.3,
+   "low": 45.8,
+   "precip_in": 7.45,
+   "wet_days": 11.5,
+   "snow_in": 0.2,
+   "wind_mph": 7.9,
+   "sun_frac": 0.8
+  },
+  {
+   "month": 4,
+   "high": 69.6,
+   "low": 49.7,
+   "precip_in": 1.05,
+   "wet_days": 2.5,
+   "snow_in": 0.0,
+   "wind_mph": 7.2,
+   "sun_frac": 0.91
+  },
+  {
+   "month": 5,
+   "high": 69.5,
+   "low": 53.2,
+   "precip_in": 0.83,
+   "wet_days": 4.0,
+   "snow_in": 0.0,
+   "wind_mph": 6.3,
+   "sun_frac": 0.89
+  },
+  {
+   "month": 6,
+   "high": 75.9,
+   "low": 58.8,
+   "precip_in": 0.37,
+   "wet_days": 1.0,
+   "snow_in": 0.0,
+   "wind_mph": 5.9,
+   "sun_frac": 0.85
+  },
+  {
+   "month": 7,
+   "high": 88.7,
+   "low": 66.3,
+   "precip_in": 0.0,
+   "wet_days": 0.0,
+   "snow_in": 0.0,
+   "wind_mph": 5.2,
+   "sun_frac": 0.98
+  },
+  {
+   "month": 8,
+   "high": 88.1,
+   "low": 65.6,
+   "precip_in": 0.53,
+   "wet_days": 1.5,
+   "snow_in": 0.0,
+   "wind_mph": 5.7,
+   "sun_frac": 0.94
+  },
+  {
+   "month": 9,
+   "high": 83.3,
+   "low": 62.6,
+   "precip_in": 0.3,
+   "wet_days": 1.5,
+   "snow_in": 0.0,
+   "wind_mph": 6.0,
+   "sun_frac": 0.93
+  },
+  {
+   "month": 10,
+   "high": 82.9,
+   "low": 57.9,
+   "precip_in": 0.04,
+   "wet_days": 0.0,
+   "snow_in": 0.0,
+   "wind_mph": 5.9,
+   "sun_frac": 0.94
+  },
+  {
+   "month": 11,
+   "high": 72.5,
+   "low": 48.4,
+   "precip_in": 0.85,
+   "wet_days": 4.0,
+   "snow_in": 0.0,
+   "wind_mph": 6.5,
+   "sun_frac": 0.87
+  },
+  {
+   "month": 12,
+   "high": 68.7,
+   "low": 47.3,
+   "precip_in": 2.75,
+   "wet_days": 3.5,
+   "snow_in": 0.0,
+   "wind_mph": 5.5,
+   "sun_frac": 0.85
+  }
+ ],
+ "period": "2023-01-01 to 2024-12-31",
+ "wiki": {
+  "title": "Santa Barbara, California",
+  "url": "https://en.wikipedia.org/wiki/Santa_Barbara,_California",
+  "intro": "Santa Barbara is a coastal city in Santa Barbara County, California, of which it is also the county seat. Situated on a south-facing section of coastline, the longest such section on the West Coast of the United States excepting Alaska, the city lies between the steeply rising Santa Ynez Mountains and the Pacific Ocean. Santa Barbara's climate is often described as Mediterranean, and the city has been dubbed \"The American Riviera\". As of the 2020 census, Santa Barbara had a population of 88,665.\nIn addition to being a popular tourist and resort destination, the city has a diverse economy that includes a large service sector, education, technology, health care, finance and local government. In 2004, the service sector accounted for 35% of local employment. In 2024, the biggest employer in Santa Barbara County was government, followed by private education and healthcare, then leisure and hospitality. Together, these accounted for 50.5% of all employment.\nArea institutions of higher learning include the University of California, Santa Barbara, Santa Barbara City College, Westmont College, The Colleges of Law, and Antioch University Santa Barbara.\nThe city is served by Santa Barbara Municipal Airport and train service is provided by Amtrak, which operates two service lines with stops in Santa Barbara: the Pacific Surfliner, which runs from San Diego to San Luis Obispo, and the Coast Starlight, which runs from Los Angeles to Seattle. The Santa Barbara area is connected via U.S. Highway 101 to Los Angeles 100 mi to the southeast and San Francisco 325 mi to the northwest.\nBehind the city, in and beyond the Santa Ynez Mountains, is the Los Padres National Forest, which contains several remote wilderness areas. Channel Islands National Park and Channel Islands National Marine Sanctuary are located approximately 20 miles offshore.",
+  "climate": "Santa Barbara experiences a warm summer Mediterranean climate characteristic of coastal California. Santa Barbara's weather was ranked number 1 in the United States in 2023\u20132024 by U.S. News & World Report. Because the city lies along the ocean and parallel to the predominant westerly winds, sideshore and light onshore breezes moderate temperatures resulting in warmer winters and cooler summers compared with places farther inland.\nIn the winter, storms reach California, some of which bring heavy rainfall but the rain shadow effect of the coastal mountains can at times moderate or enhance the rainfall depending on local storm wind flows. Local rainfall totals can be enhanced by orographic lift when storms are accompanied by southerly flow pushing moist air over the Santa Ynez mountains, producing greater rainfall than in other coastal areas. Diurnal temperature variation reaches a maximum in winter due to lower humidity and the absence of summer fog. On average, only 1.7 nights have freezing lows.\nIn general, summers are warm with very few hot days exceeding 90 \u00b0F, and winters are comfortable and sometimes warm with occasional cooler days topping out around 54\u201358 \u00b0F. Most days from December to February have highs of 63\u201369 \u00b0F, and most days from June to August have highs of 72\u201384 \u00b0F.\nSummers in Santa Barbara are mostly rainless due to the presence of a high-pressure area over the eastern Pacific, but summer showers can happen due to tropical hurricane/Monsoonal flows that rarely reach the region; thunderstorms can also occur during the North American Monsoon. In the fall, afternoon or evening downslope winds, locally called \"Sundowners\", can raise temperatures into the high 90s \u00b0F and drop humidities into the single digits, increasing the chance of wildfires, along with their severity, due to downed power lines, etc., in the foothills north of the city.\nAnnual rainfall totals are highly variable and in exceptional years over 40 inches of rain have fallen in a year, but in dry seasons less than 6 inches is not unheard of. Snow sometimes covers higher elevations of the Santa Ynez Mountains but is extremely rare in the city itself. The most recent accumulating snow to fall near sea level was in January 1949, when approximately 2 inches fell in the city."
+ }
+}

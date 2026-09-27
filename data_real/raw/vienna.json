@@ -1,0 +1,139 @@
+{
+ "name": "Vienna",
+ "admin1": "State of Vienna",
+ "country": "Austria",
+ "country_code": "AT",
+ "lat": 48.20849,
+ "lon": 16.37208,
+ "population": 1691468,
+ "elevation_m": 171.0,
+ "climate": [
+  {
+   "month": 1,
+   "high": 41.7,
+   "low": 31.0,
+   "precip_in": 1.88,
+   "wet_days": 9.5,
+   "snow_in": 2.9,
+   "wind_mph": 15.1,
+   "sun_frac": 0.5
+  },
+  {
+   "month": 2,
+   "high": 49.4,
+   "low": 36.7,
+   "precip_in": 1.52,
+   "wet_days": 8.0,
+   "snow_in": 0.3,
+   "wind_mph": 15.7,
+   "sun_frac": 0.66
+  },
+  {
+   "month": 3,
+   "high": 55.5,
+   "low": 38.9,
+   "precip_in": 1.72,
+   "wet_days": 6.5,
+   "snow_in": 0.1,
+   "wind_mph": 15.6,
+   "sun_frac": 0.67
+  },
+  {
+   "month": 4,
+   "high": 59.2,
+   "low": 43.1,
+   "precip_in": 3.64,
+   "wet_days": 11.5,
+   "snow_in": 0.6,
+   "wind_mph": 14.4,
+   "sun_frac": 0.64
+  },
+  {
+   "month": 5,
+   "high": 67.7,
+   "low": 51.3,
+   "precip_in": 3.24,
+   "wet_days": 11.5,
+   "snow_in": 0.0,
+   "wind_mph": 12.5,
+   "sun_frac": 0.71
+  },
+  {
+   "month": 6,
+   "high": 76.4,
+   "low": 59.3,
+   "precip_in": 2.88,
+   "wet_days": 11.0,
+   "snow_in": 0.0,
+   "wind_mph": 11.3,
+   "sun_frac": 0.75
+  },
+  {
+   "month": 7,
+   "high": 83.1,
+   "low": 65.2,
+   "precip_in": 1.34,
+   "wet_days": 6.5,
+   "snow_in": 0.0,
+   "wind_mph": 13.2,
+   "sun_frac": 0.81
+  },
+  {
+   "month": 8,
+   "high": 82.4,
+   "low": 64.6,
+   "precip_in": 1.75,
+   "wet_days": 9.0,
+   "snow_in": 0.0,
+   "wind_mph": 11.5,
+   "sun_frac": 0.79
+  },
+  {
+   "month": 9,
+   "high": 74.3,
+   "low": 56.4,
+   "precip_in": 5.64,
+   "wet_days": 8.5,
+   "snow_in": 0.0,
+   "wind_mph": 12.8,
+   "sun_frac": 0.73
+  },
+  {
+   "month": 10,
+   "high": 63.8,
+   "low": 48.5,
+   "precip_in": 2.07,
+   "wet_days": 8.5,
+   "snow_in": 0.0,
+   "wind_mph": 13.8,
+   "sun_frac": 0.68
+  },
+  {
+   "month": 11,
+   "high": 48.5,
+   "low": 36.9,
+   "precip_in": 1.82,
+   "wet_days": 9.5,
+   "snow_in": 0.9,
+   "wind_mph": 13.3,
+   "sun_frac": 0.58
+  },
+  {
+   "month": 12,
+   "high": 42.5,
+   "low": 33.0,
+   "precip_in": 2.21,
+   "wet_days": 10.0,
+   "snow_in": 5.6,
+   "wind_mph": 13.0,
+   "sun_frac": 0.49
+  }
+ ],
+ "period": "2023-01-01 to 2024-12-31",
+ "wiki": {
+  "title": "Vienna",
+  "url": "https://en.wikipedia.org/wiki/Vienna",
+  "intro": "Vienna is the capital, most populous city, and one of the nine states of Austria. It is Austria's primate city, with just over two million inhabitants. Its larger metropolitan area has a population of nearly 2.9 million, representing nearly one-third of the country's population. Vienna is the cultural, economic, and political centre of the country, the fifth-largest city by population in the European Union, and the most populous of the cities on the river Danube.\nThe city lies on the eastern edge of the Vienna Woods, the northeasternmost foothills of the Alps, that separate Vienna from the more western parts of Austria, at the transition to the Pannonian Basin. It sits on the Danube, and is traversed by the highly regulated Wienfluss. Vienna is completely surrounded by Lower Austria, and lies around 50 km west of Slovakia and its capital Bratislava, 50 km northwest of Hungary, and 60 km south of Moravia.\nThe Romans founded a castrum at Vienna, which they called Vindobona, in the 1st century, when the region belonged to the province of Pannonia. It was elevated to a municipium with Roman city rights in 212. This was followed by a time in the sphere of influence of the Lombards and later the Pannonian Avars, when Slavs formed the majority of the region's population. From the 8th century on, the region was settled by the Baiuvarii. In 1155, Vienna became the seat of the Babenbergs, who ruled Austria from 976 to 1246. In 1221, Vienna was granted city rights. During the 16th century, the Habsburgs, who had succeeded the Babenbergs, established Vienna as the seat of the emperors of the Holy Roman Empire, a position it held until the empire's dissolution in 1806, with only a brief interruption. With the formation of the Austrian Empire in 1804, Vienna became the capital of it and all its successor states.\nThroughout the modern era, Vienna has been among the largest German-speaking cities in the world. It was the largest in the 18th and 19th centuries, peaking at two million inhabitants before it was overtaken by Berlin at the beginning of the 20th century. Vienna is host to many major international organizations, including the United Nations, OPEC and the Organization for Security and Co-operation in Europe. In 2001, the city centre was designated a UNESCO World Heritage Site. It was listed as endangered from July 2017 to July 2026.\nVienna is renowned for its rich musical heritage, having been home to many celebrated classical composers, including Ludwig van Beethoven, Johannes Brahms, Anton Bruckner, Joseph Haydn, Gustav Mahler, Wolfgang Amadeus Mozart, Arnold Schoenberg, Franz Schubert, Johann Strauss I, and Johann Strauss II. It played a pivotal role as a leading European music centre, from the age of Viennese Classicism through the early part of the 20th century. The city was home to the world's first psychoanalyst, Sigmund Freud. The historic centre of Vienna is rich in architectural ensembles, including Baroque palaces and gardens, and the late-19th-century Ringstrasse, which is lined with grand buildings, monuments and parks.",
+  "climate": "Vienna's urban core has a humid subtropical climate. However, elevated north/western edges of Vienna still have an oceanic climate.\nThe city has warm to hot showery summers, with average high temperatures ranging between 27 and 32 \u00b0C and a record maximum of 41 \u00b0C, measured on 3 August 2026. Winters are relatively dry and fairly cold with daily mean temperatures around or somewhat above the freezing point. Spring is variable and autumn is cool, with a chance of frost in and after November up to and sometimes including April. Snowfall has become much rarer over the last few decades due to anthropogenic global warming, especially in the urban core with the urban heat island effect.\nPrecipitation is generally moderate throughout the year, averaging around 600 mm annually, with considerable local variations, the Vienna Woods region in the west being the wettest part (700 to 800 mm annually) and the flat plains in the east being the driest part (500 to 550 mm annually). Snow in winter is not common anymore and not so frequent compared to the mostly alpine Western and Southern regions of Austria."
+ }
+}

@@ -1,0 +1,139 @@
+{
+ "name": "Madrid",
+ "admin1": "Madrid",
+ "country": "Spain",
+ "country_code": "ES",
+ "lat": 40.4165,
+ "lon": -3.70256,
+ "population": 3255944,
+ "elevation_m": 665.0,
+ "climate": [
+  {
+   "month": 1,
+   "high": 51.5,
+   "low": 36.4,
+   "precip_in": 2.01,
+   "wet_days": 6.5,
+   "snow_in": 0.0,
+   "wind_mph": 9.8,
+   "sun_frac": 0.68
+  },
+  {
+   "month": 2,
+   "high": 56.7,
+   "low": 36.2,
+   "precip_in": 0.75,
+   "wet_days": 5.5,
+   "snow_in": 0.0,
+   "wind_mph": 10.8,
+   "sun_frac": 0.79
+  },
+  {
+   "month": 3,
+   "high": 63.0,
+   "low": 42.2,
+   "precip_in": 2.38,
+   "wet_days": 9.0,
+   "snow_in": 0.2,
+   "wind_mph": 12.8,
+   "sun_frac": 0.76
+  },
+  {
+   "month": 4,
+   "high": 72.7,
+   "low": 47.1,
+   "precip_in": 0.64,
+   "wet_days": 2.0,
+   "snow_in": 0.0,
+   "wind_mph": 12.1,
+   "sun_frac": 0.9
+  },
+  {
+   "month": 5,
+   "high": 75.3,
+   "low": 52.0,
+   "precip_in": 1.4,
+   "wet_days": 7.0,
+   "snow_in": 0.0,
+   "wind_mph": 12.6,
+   "sun_frac": 0.87
+  },
+  {
+   "month": 6,
+   "high": 83.7,
+   "low": 61.0,
+   "precip_in": 2.21,
+   "wet_days": 9.5,
+   "snow_in": 0.0,
+   "wind_mph": 11.1,
+   "sun_frac": 0.82
+  },
+  {
+   "month": 7,
+   "high": 94.9,
+   "low": 68.5,
+   "precip_in": 0.03,
+   "wet_days": 0.0,
+   "snow_in": 0.0,
+   "wind_mph": 12.5,
+   "sun_frac": 0.95
+  },
+  {
+   "month": 8,
+   "high": 95.2,
+   "low": 69.4,
+   "precip_in": 0.31,
+   "wet_days": 1.5,
+   "snow_in": 0.0,
+   "wind_mph": 11.7,
+   "sun_frac": 0.93
+  },
+  {
+   "month": 9,
+   "high": 78.4,
+   "low": 57.8,
+   "precip_in": 3.6,
+   "wet_days": 7.0,
+   "snow_in": 0.0,
+   "wind_mph": 10.3,
+   "sun_frac": 0.86
+  },
+  {
+   "month": 10,
+   "high": 70.6,
+   "low": 53.5,
+   "precip_in": 4.58,
+   "wet_days": 14.0,
+   "snow_in": 0.0,
+   "wind_mph": 11.9,
+   "sun_frac": 0.71
+  },
+  {
+   "month": 11,
+   "high": 60.0,
+   "low": 45.2,
+   "precip_in": 1.01,
+   "wet_days": 4.5,
+   "snow_in": 0.0,
+   "wind_mph": 9.5,
+   "sun_frac": 0.74
+  },
+  {
+   "month": 12,
+   "high": 51.9,
+   "low": 36.0,
+   "precip_in": 0.91,
+   "wet_days": 4.0,
+   "snow_in": 0.0,
+   "wind_mph": 7.4,
+   "sun_frac": 0.78
+  }
+ ],
+ "period": "2023-01-01 to 2024-12-31",
+ "wiki": {
+  "title": "Madrid",
+  "url": "https://en.wikipedia.org/wiki/Madrid",
+  "intro": "Madrid is the capital and largest city of Spain. It had a population of over 3.4 million in the city proper in 2025, and a metropolitan area population of approximately 6.8 million. Madrid is the second-largest city in the European Union, after Berlin, and its metropolitan area is the second-largest in the EU, after Paris. The municipality covers an area of 605.77 square kilometres. Madrid lies on the River Manzanares in the central part of the Iberian Peninsula at about 660 metres above mean sea level. The capital city of both Spain and the surrounding autonomous community of Madrid, it is the political, economic and cultural centre of the country.\nThe primitive core of Madrid, a walled military outpost, dates back to the late 9th century, under the Emirate of C\u00f3rdoba. Conquered by Christians in 1083 or 1085, it consolidated in the Late Middle Ages as a sizeable town of the Crown of Castile. The development of Madrid as an administrative centre was fostered after 1561, as it became the permanent seat of the court of the Hispanic Monarchy. The following centuries were characterised by the reinforcement of Madrid's status within the framework of a centralised form of state-building.\nThe Madrid urban agglomeration has the second-largest GDP in the European Union. Madrid is ranked as an alpha world city by the Globalization and World Cities Research Network. The metropolitan area hosts major Spanish companies such as Telef\u00f3nica, Iberia, BBVA and FCC. It concentrates the bulk of banking operations in Spain and it is the Spanish-speaking city generating the largest number of webpages. Madrid houses the headquarters of UN Tourism, the Ibero-American General Secretariat, the Organization of Ibero-American States, and the Public Interest Oversight Board. Pursuant to the standardising role of the Royal Spanish Academy, Madrid is a centre for Spanish linguistic prescriptivism. Madrid organises fairs such as FITUR, ARCO, SIMO TCI and the Madrid Fashion Week. Madrid is home to football clubs Real Madrid and Atl\u00e9tico Madrid.\nMadrid is one of Spain's leading destinations for international tourism. In 2023, it ranked second among Spanish tourist destinations with 5,757,815 international visitors. Madrid's main international source markets include the United States, Italy, France, the United Kingdom and Mexico. Its landmarks include the Plaza Mayor; the Royal Palace of Madrid; the Royal Theatre with its restored 1850 Opera House; the Buen Retiro Park, founded in 1631; the 19th-century National Library building containing some of Spain's historical archives; many national museums; and the UNESCO World heritage \"Golden Triangle of Art\", located along the Paseo del Prado and comprising three art museums: the Prado Museum; the Reina Sof\u00eda Museum, a museum of modern art; and the Thyssen-Bornemisza Museum, which complements the holdings of the other two museums. The mayor is Jos\u00e9 Luis Mart\u00ednez-Almeida from the People's Party.",
+  "climate": "Madrid has a cold semi-arid climate, transitioning to a Mediterranean climate in the western half. Madrid's climate has continental influences.\nWinters are cool due to its altitude, which is approximately 667 m above sea level and distance from the moderating effect of the sea. While mostly sunny, rain, sporadic snowfalls and frequent frosts can occur between December and February with cooler temperatures particularly during the night and mornings as cold winds blow into Madrid from surrounding mountains. Summers are hot and sunny. In the warmest month, July, average daytime temperatures range from 32 to 34 \u00b0C depending on location, with maxima commonly climbing over 35 \u00b0C and occasionally up to 40 \u00b0C during the frequent heat waves. Due to Madrid's altitude and dry climate, humidity is low. Diurnal ranges are often significant, particularly on sunny winter days when the temperature rises in the afternoon before rapidly plummeting after nightfall. Madrid is among the sunniest capital cities in Europe.\nThe highest recorded temperature in central Madrid's Retiro Park was on 14 August 2021, with 40.7 \u00b0C. The lowest recorded temperature was on 16 January 1945 with \u221210.1 \u00b0C in Madrid. At the airport, on the eastern side of Madrid, the highest recorded temperature was on 14 August 2021, at 42.7 \u00b0C. The lowest recorded temperature was on 16 January 1945 at \u221215.2 \u00b0C. From 7 to 9 January 2021, Madrid received the most snow in its recorded history since 1904; Spain's meteorological agency AEMET reported between 50 and 60 cm of accumulated snow in its weather stations within the city.\nPrecipitation is typically concentrated in the autumn, winter, and spring. It is particularly sparse during the summer, taking the form of about two showers and/or thunderstorms during the season. Madrid is the European capital with the least amount of annual precipitation.\nAt the metropolitan scale, Madrid features both substantial daytime urban cool island and nighttime urban heat island effects during the summer season in relation to its surroundings, which feature thinly vegetated dry land."
+ }
+}

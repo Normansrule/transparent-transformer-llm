@@ -1,0 +1,139 @@
+{
+ "name": "San Diego",
+ "admin1": "California",
+ "country": "United States",
+ "country_code": "US",
+ "lat": 32.71571,
+ "lon": -117.16472,
+ "population": 1404452,
+ "elevation_m": 20.0,
+ "climate": [
+  {
+   "month": 1,
+   "high": 61.6,
+   "low": 46.5,
+   "precip_in": 5.48,
+   "wet_days": 10.0,
+   "snow_in": 0.0,
+   "wind_mph": 12.2,
+   "sun_frac": 0.79
+  },
+  {
+   "month": 2,
+   "high": 61.1,
+   "low": 46.6,
+   "precip_in": 4.36,
+   "wet_days": 9.0,
+   "snow_in": 0.0,
+   "wind_mph": 13.1,
+   "sun_frac": 0.76
+  },
+  {
+   "month": 3,
+   "high": 61.2,
+   "low": 48.8,
+   "precip_in": 4.67,
+   "wet_days": 10.0,
+   "snow_in": 0.0,
+   "wind_mph": 13.0,
+   "sun_frac": 0.77
+  },
+  {
+   "month": 4,
+   "high": 64.8,
+   "low": 51.7,
+   "precip_in": 0.3,
+   "wet_days": 3.0,
+   "snow_in": 0.0,
+   "wind_mph": 12.2,
+   "sun_frac": 0.81
+  },
+  {
+   "month": 5,
+   "high": 66.7,
+   "low": 56.6,
+   "precip_in": 0.22,
+   "wet_days": 2.0,
+   "snow_in": 0.0,
+   "wind_mph": 11.9,
+   "sun_frac": 0.77
+  },
+  {
+   "month": 6,
+   "high": 70.4,
+   "low": 59.9,
+   "precip_in": 0.12,
+   "wet_days": 0.5,
+   "snow_in": 0.0,
+   "wind_mph": 11.7,
+   "sun_frac": 0.79
+  },
+  {
+   "month": 7,
+   "high": 75.9,
+   "low": 64.0,
+   "precip_in": 0.0,
+   "wet_days": 0.0,
+   "snow_in": 0.0,
+   "wind_mph": 11.3,
+   "sun_frac": 0.85
+  },
+  {
+   "month": 8,
+   "high": 77.5,
+   "low": 64.9,
+   "precip_in": 0.81,
+   "wet_days": 1.0,
+   "snow_in": 0.0,
+   "wind_mph": 11.9,
+   "sun_frac": 0.86
+  },
+  {
+   "month": 9,
+   "high": 76.0,
+   "low": 63.6,
+   "precip_in": 0.3,
+   "wet_days": 1.0,
+   "snow_in": 0.0,
+   "wind_mph": 11.8,
+   "sun_frac": 0.81
+  },
+  {
+   "month": 10,
+   "high": 75.2,
+   "low": 57.9,
+   "precip_in": 0.11,
+   "wet_days": 1.5,
+   "snow_in": 0.0,
+   "wind_mph": 10.8,
+   "sun_frac": 0.88
+  },
+  {
+   "month": 11,
+   "high": 70.0,
+   "low": 50.6,
+   "precip_in": 1.2,
+   "wet_days": 3.0,
+   "snow_in": 0.0,
+   "wind_mph": 9.5,
+   "sun_frac": 0.9
+  },
+  {
+   "month": 12,
+   "high": 65.8,
+   "low": 48.6,
+   "precip_in": 0.98,
+   "wet_days": 2.0,
+   "snow_in": 0.0,
+   "wind_mph": 7.9,
+   "sun_frac": 0.87
+  }
+ ],
+ "period": "2023-01-01 to 2024-12-31",
+ "wiki": {
+  "title": "San Diego",
+  "url": "https://en.wikipedia.org/wiki/San_Diego",
+  "intro": "San Diego is a city on the Pacific coast of Southern California, next to the Mexican border. It is the eighth-most populous city in the U.S. and second-most populous city in California with a population of over 1.4 million, while the San Diego area with over 3.3 million residents is the 18th-largest metropolitan area in the country. San Diego is the county seat of San Diego County. It is known for its mild Mediterranean climate, extensive beaches and parks, long association with the United States Navy, and recent emergence as a wireless, electronics, healthcare, and biotechnology development center.\nHistorically home to the Kumeyaay people, San Diego has been referred to as the Birthplace of California, as it was the first site visited and settled by Europeans on what is now the West Coast of the United States. In 1542, Juan Rodr\u00edguez Cabrillo claimed the area for Spain, forming the basis for the settlement of Alta California, 200 years later. The Presidio and Mission San Diego de Alcal\u00e1, founded in 1769, formed the first European settlement in what is now California. In 1821, San Diego became part of the newly declared Mexican Empire. California was ceded to the U.S. in 1848 following the Mexican\u2013American War and was admitted as the 31st state in 1850.\nThe largest sectors of the economy of San Diego include military and defense-related activities, tourism, international trade, research, and manufacturing. The city is home to several universities, including UC San Diego, San Diego State University, and the University of San Diego. San Diego is the economic center of the San Diego\u2013Tijuana region, the second-most populous transborder metropolitan area in the Western Hemisphere, home to an estimated five million people as of 2022. The primary border crossing between San Diego and Tijuana, the San Ysidro Port of Entry, is the busiest international land border crossing in the world outside of Asia. San Diego International Airport is the busiest single-runway airport in the United States.",
+  "climate": "Under the K\u00f6ppen\u2013Geiger climate classification system, the San Diego area has been variously categorized as having either a hot semi-arid climate or a hot-summer Mediterranean climate. San Diego's climate is characterized by warm, dry summers and mild winters, with most of the annual precipitation falling between December and March. The city has a mild climate year-round, with an average of 201 days above 70 \u00b0F and low rainfall.\nThe climate in San Diego, like most of Southern California, often varies significantly over short geographical distances, resulting in microclimates. In San Diego, this is mostly because of the city's topography. Frequently, particularly during the \"May gray/June gloom\" period, a thick \"marine layer\" cloud cover keeps the air cool and damp within a few miles of the coast, but yields to bright cloudless sunshine approximately 5\u201310 miles inland. Sometimes the June gloom lasts into July, causing cloudy skies over most of San Diego for the entire day. Even in the absence of June gloom, inland areas experience much more significant temperature variations than coastal areas, where the ocean serves as a moderating influence. Thus, for example, downtown San Diego averages January lows of 50 \u00b0F and August highs of 78 \u00b0F. The city of El Cajon, just 12 miles inland from downtown San Diego, averages January lows of 42 \u00b0F and August highs of 88 \u00b0F.\nThe average surface temperature of the water at Scripps Pier in the California Current has increased by almost 3 \u00b0F since 1950, according to scientists at Scripps Institution of Oceanography. Additionally, the mean minimum is now above 40 \u00b0F, putting San Diego in hardiness zone 11, with the last freeze having occurred many decades ago.\nAnnual rainfall along the coast averages 10.65 inches and the median is 9.6 inches. The months of December through March supply most of the rain, with February the only month averaging 2 inches or more. The months of May through September tend to be almost completely dry. Although there are few wet days per month during the rainy period, rainfall can be heavy when it does fall. Rainfall is usually greater in the higher elevations of San Diego; some of the higher areas can receive 11\u201315 inches per year. Variability from year to year can be dramatic: in the wettest years of 1883/1884 and 1940/1941, more than 24 inches fell, whilst in the driest years there was as little as 3.2 inches. The wettest month on record is December 1921 with 9.21 inches.\nSnow in the city is rare, having been observed only six times in the century and a half that records have been kept. On February 21, 2019, snow fell and accumulated in residential areas of the city, but none fell in the downtown area."
+ }
+}

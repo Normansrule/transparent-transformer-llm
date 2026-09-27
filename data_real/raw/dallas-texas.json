@@ -1,0 +1,139 @@
+{
+ "name": "Dallas",
+ "admin1": "Texas",
+ "country": "United States",
+ "country_code": "US",
+ "lat": 32.78306,
+ "lon": -96.80667,
+ "population": 1326087,
+ "elevation_m": 128.0,
+ "climate": [
+  {
+   "month": 1,
+   "high": 56.2,
+   "low": 37.8,
+   "precip_in": 3.21,
+   "wet_days": 8.0,
+   "snow_in": 0.3,
+   "wind_mph": 14.1,
+   "sun_frac": 0.72
+  },
+  {
+   "month": 2,
+   "high": 64.0,
+   "low": 44.6,
+   "precip_in": 3.98,
+   "wet_days": 8.0,
+   "snow_in": 0.0,
+   "wind_mph": 16.3,
+   "sun_frac": 0.68
+  },
+  {
+   "month": 3,
+   "high": 70.1,
+   "low": 51.1,
+   "precip_in": 5.8,
+   "wet_days": 11.0,
+   "snow_in": 0.0,
+   "wind_mph": 15.6,
+   "sun_frac": 0.71
+  },
+  {
+   "month": 4,
+   "high": 74.8,
+   "low": 56.8,
+   "precip_in": 6.56,
+   "wet_days": 10.0,
+   "snow_in": 0.0,
+   "wind_mph": 16.3,
+   "sun_frac": 0.69
+  },
+  {
+   "month": 5,
+   "high": 83.2,
+   "low": 66.4,
+   "precip_in": 8.58,
+   "wet_days": 15.0,
+   "snow_in": 0.0,
+   "wind_mph": 13.6,
+   "sun_frac": 0.68
+  },
+  {
+   "month": 6,
+   "high": 91.1,
+   "low": 73.3,
+   "precip_in": 4.99,
+   "wet_days": 12.0,
+   "snow_in": 0.0,
+   "wind_mph": 13.4,
+   "sun_frac": 0.8
+  },
+  {
+   "month": 7,
+   "high": 95.1,
+   "low": 77.0,
+   "precip_in": 3.75,
+   "wet_days": 9.5,
+   "snow_in": 0.0,
+   "wind_mph": 12.6,
+   "sun_frac": 0.84
+  },
+  {
+   "month": 8,
+   "high": 100.7,
+   "low": 80.6,
+   "precip_in": 0.51,
+   "wet_days": 1.5,
+   "snow_in": 0.0,
+   "wind_mph": 12.6,
+   "sun_frac": 0.95
+  },
+  {
+   "month": 9,
+   "high": 90.9,
+   "low": 72.0,
+   "precip_in": 2.52,
+   "wet_days": 9.5,
+   "snow_in": 0.0,
+   "wind_mph": 11.6,
+   "sun_frac": 0.86
+  },
+  {
+   "month": 10,
+   "high": 82.7,
+   "low": 62.8,
+   "precip_in": 5.05,
+   "wet_days": 6.0,
+   "snow_in": 0.0,
+   "wind_mph": 13.4,
+   "sun_frac": 0.86
+  },
+  {
+   "month": 11,
+   "high": 67.9,
+   "low": 50.4,
+   "precip_in": 4.67,
+   "wet_days": 6.0,
+   "snow_in": 0.0,
+   "wind_mph": 11.6,
+   "sun_frac": 0.77
+  },
+  {
+   "month": 12,
+   "high": 61.2,
+   "low": 44.3,
+   "precip_in": 4.16,
+   "wet_days": 7.5,
+   "snow_in": 0.0,
+   "wind_mph": 11.3,
+   "sun_frac": 0.73
+  }
+ ],
+ "period": "2023-01-01 to 2024-12-31",
+ "wiki": {
+  "title": "Dallas",
+  "url": "https://en.wikipedia.org/wiki/Dallas",
+  "intro": "Dallas is a city in the U.S. state of Texas. Located in northern Texas, it is the ninth-most populous city in the United States and third-most populous city in Texas, with a population of 1.3 million at the 2020 census. Along with the city of Fort Worth, Dallas anchors the Dallas\u2013Fort Worth metroplex, the fourth-most populous metropolitan area in the U.S. and the most populous metropolitan area in Texas, at 8.5 million people. Dallas is a core city of the largest metropolitan area in the Southern U.S. and the largest inland metropolitan area in the U.S. that lacks any navigable link to the sea. It is the seat of Dallas County, covering nearly 386 square miles and extending into Collin, Denton, Kaufman, and Rockwall counties.\nBoth Dallas and Fort Worth were initially developed as a product of the construction of major railroad lines through the area allowing access to cotton, cattle, and later oil in North and East Texas. The construction of the Interstate Highway System reinforced Dallas's prominence as a transportation hub, with four major interstate highways converging in the city and a fifth interstate loop around it. Dallas then developed as a strong industrial and financial center and a major inland port, due to the convergence of major railroad lines, interstate highways, and the construction of Dallas Fort Worth International Airport, one of the largest and busiest airports in the world. In addition, Dallas Area Rapid Transit operates rail and bus transit services throughout the city and its surrounding suburbs.\nDominant sectors of its diverse economy include defense, financial services, information technology, telecommunications, and transportation. The Dallas\u2013Fort Worth metroplex hosts 23 Fortune 500 companies, the second-most in Texas and fourth-most in the United States, and 11 of those companies are located within Dallas city limits. Over 41 colleges and universities are located within its metropolitan area, which is the most of any metropolitan area in Texas. The city has a population from a myriad of ethnic and religious backgrounds.",
+  "climate": "Dallas has a humid subtropical climate characteristic of the Southern Plains of the United States. It also has both continental and tropical characteristics, characterized by a relatively wide annual temperature range for the latitude. Located at the lower end of Tornado Alley, it is prone to extreme weather, tornadoes, and hailstorms.\nSummers in Dallas are very hot with moderate to high humidity, although extended periods of dry weather often occur. July and August are typically the hottest months, with an average high of 96.0 \u00b0F and an average low of 76.7 \u00b0F. Heat indices regularly surpass 105 \u00b0F due to elevated humidity during the summer months, making the summer heat almost unbearable. The all-time record high is 113 \u00b0F, set on June 26 and 27, 1980 during the Heat Wave of 1980 at nearby Dallas/Fort Worth International Airport.\nWinters in Dallas are usually mild, with occasional cold spells. The average date of first frost is November 12, and the average date of last frost is March 12. January is typically the coldest month, with an average daytime high of 56.8 \u00b0F and an average nighttime low of 37.3 \u00b0F. The normal daily average temperature in January is 47.0 \u00b0F but sharp swings in temperature can occur, as strong cold fronts known as \"Blue Northers\" pass through the Dallas region, forcing temperatures below the 40 \u00b0F mark for several days at a time and often between days with high temperatures above 80 \u00b0F. Snow accumulation is seen in the city in about 70% of winter seasons, and snowfall generally occurs 1\u20132 days out of the year for a seasonal average of 1.5 inches. Some areas in the region, however, receive more than that, while other areas receive negligible snowfall or none at all. The all-time record low temperature within the city is \u221210 \u00b0F, set on February 12, 1899, during the Great Blizzard of 1899. The temperature at nearby Dallas/Fort Worth International Airport reached \u22122 \u00b0F on February 16, 2021, during the February 2021 North American winter storm.\nSpring and autumn are transitional seasons with moderate and pleasant weather. Vibrant wildflowers bloom in spring and are planted around the highways throughout Texas. Springtime weather can be quite volatile, but temperatures themselves are mild. Late spring to early summer also tends to be the most humid, with humidity levels frequently exceeding 75%. The weather in Dallas is also generally pleasant from late September to early December and on many winter days. Autumn often brings more storms and tornado threats, but they are usually fewer and less severe than in spring.\nEach spring, cold fronts moving south from the North collide with warm, humid air streaming in from the Gulf Coast, leading to severe thunderstorms with lightning, torrents of rain, hail, and occasionally, tornadoes. Over time, tornadoes have probably been the most significant natural threat to the city, as it is near the heart of Tornado Alley.\nA few times each winter in Dallas, warm and humid air from the south will override cold, dry air, resulting in freezing rain or ice and causing disruptions in the city if the roads and highways become slick. Temperatures reaching 70 \u00b0F on average occur on at least four days each winter month. Dallas averages 26 annual nights at or below freezing, with the winter of 1999\u20132000 holding the record for the fewest freezing nights with 14. During this same span of 15 years, the temperature in the region has only twice dropped below 15 \u00b0F, though it will generally fall below 20 \u00b0F in most years.\nThe U.S. Department of Agriculture places Dallas in Plant Hardiness Zone 8b. However, mild winter temperatures in the past 15 to 20 years had encouraged the horticulture of more cold-sensitive plants such as Washingtonia filifera and Washingtonia filifera var. robusta palms, nearly all of which died off during the February 2021 North American winter storm. According to the American Lung Association, Dallas has the 12th highest air pollution among U.S. cities, ranking it behind Los Angeles and Houston. Much of the air pollution in Dallas and the surrounding area comes from a hazardous materials incineration plant in the small town of Midlothian and from cement plants in neighboring Ellis County.\nThe average daily low in Dallas is 57.4 \u00b0F, and the average daily high is 76.9 \u00b0F. Dallas receives approximately 39.1 inches of rain per year. The record snowfall for Dallas was 11.2 inches on February 11, 2010."
+ }
+}

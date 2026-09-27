@@ -1,0 +1,134 @@
+{
+ "name": "Dubai",
+ "admin1": "Dubai",
+ "country": "United Arab Emirates",
+ "country_code": "AE",
+ "lat": 25.07725,
+ "lon": 55.30927,
+ "population": 3790000,
+ "elevation_m": 24.0,
+ "climate": [
+  {
+   "month": 1,
+   "high": 76.8,
+   "low": 59.1,
+   "precip_in": 1.1,
+   "wet_days": 2.0,
+   "snow_in": 0.0,
+   "wind_mph": 13.3,
+   "sun_frac": 0.86
+  },
+  {
+   "month": 2,
+   "high": 78.8,
+   "low": 61.6,
+   "precip_in": 1.59,
+   "wet_days": 2.5,
+   "snow_in": 0.0,
+   "wind_mph": 14.8,
+   "sun_frac": 0.9
+  },
+  {
+   "month": 3,
+   "high": 83.7,
+   "low": 64.8,
+   "precip_in": 1.31,
+   "wet_days": 1.5,
+   "snow_in": 0.0,
+   "wind_mph": 14.5,
+   "sun_frac": 0.81
+  },
+  {
+   "month": 4,
+   "high": 88.6,
+   "low": 67.9,
+   "precip_in": 2.4,
+   "wet_days": 1.0,
+   "snow_in": 0.0,
+   "wind_mph": 15.4,
+   "sun_frac": 0.84
+  },
+  {
+   "month": 5,
+   "high": 101.1,
+   "low": 76.6,
+   "precip_in": 0.37,
+   "wet_days": 1.0,
+   "snow_in": 0.0,
+   "wind_mph": 15.6,
+   "sun_frac": 0.88
+  },
+  {
+   "month": 6,
+   "high": 106.9,
+   "low": 82.7,
+   "precip_in": 0.0,
+   "wet_days": 0.0,
+   "snow_in": 0.0,
+   "wind_mph": 15.2,
+   "sun_frac": 0.89
+  },
+  {
+   "month": 7,
+   "high": 109.3,
+   "low": 87.4,
+   "precip_in": 0.0,
+   "wet_days": 0.0,
+   "snow_in": 0.0,
+   "wind_mph": 15.4,
+   "sun_frac": 0.84
+  },
+  {
+   "month": 8,
+   "high": 109.3,
+   "low": 87.6,
+   "precip_in": 0.0,
+   "wet_days": 0.0,
+   "snow_in": 0.0,
+   "wind_mph": 15.4,
+   "sun_frac": 0.85
+  },
+  {
+   "month": 9,
+   "high": 105.7,
+   "low": 83.0,
+   "precip_in": 0.01,
+   "wet_days": 0.0,
+   "snow_in": 0.0,
+   "wind_mph": 14.8,
+   "sun_frac": 0.91
+  },
+  {
+   "month": 10,
+   "high": 98.0,
+   "low": 78.2,
+   "precip_in": 0.2,
+   "wet_days": 1.5,
+   "snow_in": 0.0,
+   "wind_mph": 13.9,
+   "sun_frac": 0.91
+  },
+  {
+   "month": 11,
+   "high": 89.1,
+   "low": 70.1,
+   "precip_in": 0.29,
+   "wet_days": 1.0,
+   "snow_in": 0.0,
+   "wind_mph": 12.4,
+   "sun_frac": 0.9
+  },
+  {
+   "month": 12,
+   "high": 80.7,
+   "low": 61.4,
+   "precip_in": 0.01,
+   "wet_days": 0.0,
+   "snow_in": 0.0,
+   "wind_mph": 11.3,
+   "sun_frac": 0.92
+  }
+ ],
+ "period": "2023-01-01 to 2024-12-31",
+ "wiki": null
+}

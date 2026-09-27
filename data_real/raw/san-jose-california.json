@@ -1,0 +1,139 @@
+{
+ "name": "San Jose",
+ "admin1": "California",
+ "country": "United States",
+ "country_code": "US",
+ "lat": 37.33939,
+ "lon": -121.89496,
+ "population": 997368,
+ "elevation_m": 26.0,
+ "climate": [
+  {
+   "month": 1,
+   "high": 58.6,
+   "low": 44.7,
+   "precip_in": 7.28,
+   "wet_days": 13.5,
+   "snow_in": 0.0,
+   "wind_mph": 10.7,
+   "sun_frac": 0.63
+  },
+  {
+   "month": 2,
+   "high": 58.7,
+   "low": 41.6,
+   "precip_in": 5.17,
+   "wet_days": 12.5,
+   "snow_in": 0.5,
+   "wind_mph": 10.8,
+   "sun_frac": 0.72
+  },
+  {
+   "month": 3,
+   "high": 60.1,
+   "low": 44.6,
+   "precip_in": 6.04,
+   "wet_days": 14.5,
+   "snow_in": 0.0,
+   "wind_mph": 11.8,
+   "sun_frac": 0.71
+  },
+  {
+   "month": 4,
+   "high": 67.5,
+   "low": 47.3,
+   "precip_in": 0.97,
+   "wet_days": 3.0,
+   "snow_in": 0.5,
+   "wind_mph": 12.6,
+   "sun_frac": 0.88
+  },
+  {
+   "month": 5,
+   "high": 74.4,
+   "low": 51.8,
+   "precip_in": 0.91,
+   "wet_days": 3.5,
+   "snow_in": 0.0,
+   "wind_mph": 13.3,
+   "sun_frac": 0.87
+  },
+  {
+   "month": 6,
+   "high": 81.4,
+   "low": 56.3,
+   "precip_in": 0.04,
+   "wet_days": 0.0,
+   "snow_in": 0.0,
+   "wind_mph": 14.7,
+   "sun_frac": 0.92
+  },
+  {
+   "month": 7,
+   "high": 87.4,
+   "low": 59.6,
+   "precip_in": 0.05,
+   "wet_days": 0.0,
+   "snow_in": 0.0,
+   "wind_mph": 14.2,
+   "sun_frac": 0.96
+  },
+  {
+   "month": 8,
+   "high": 85.2,
+   "low": 59.6,
+   "precip_in": 0.04,
+   "wet_days": 0.0,
+   "snow_in": 0.0,
+   "wind_mph": 13.8,
+   "sun_frac": 0.95
+  },
+  {
+   "month": 9,
+   "high": 82.0,
+   "low": 57.6,
+   "precip_in": 0.1,
+   "wet_days": 0.5,
+   "snow_in": 0.0,
+   "wind_mph": 13.0,
+   "sun_frac": 0.93
+  },
+  {
+   "month": 10,
+   "high": 80.7,
+   "low": 57.1,
+   "precip_in": 0.21,
+   "wet_days": 1.5,
+   "snow_in": 0.0,
+   "wind_mph": 11.1,
+   "sun_frac": 0.94
+  },
+  {
+   "month": 11,
+   "high": 66.4,
+   "low": 47.2,
+   "precip_in": 2.53,
+   "wet_days": 7.5,
+   "snow_in": 0.0,
+   "wind_mph": 8.5,
+   "sun_frac": 0.81
+  },
+  {
+   "month": 12,
+   "high": 61.2,
+   "low": 45.9,
+   "precip_in": 4.95,
+   "wet_days": 8.5,
+   "snow_in": 0.0,
+   "wind_mph": 6.8,
+   "sun_frac": 0.73
+  }
+ ],
+ "period": "2023-01-01 to 2024-12-31",
+ "wiki": {
+  "title": "San Jose, California",
+  "url": "https://en.wikipedia.org/wiki/San_Jose,_California",
+  "intro": "San Jose, officially the City of San Jos\u00e9, is the most populous city in the San Francisco Bay Area and Northern California, and the 13th-most populous in the United States, with an estimated 989,814 residents as of 2025. The city's metropolitan area is home to nearly two million people, while the broader combined statistical area has a population of over nine million. Located in Santa Clara Valley on the southern shore of San Francisco Bay, San Jose covers an area of 179.97 sq mi and is the county seat of Santa Clara County.\nBefore the arrival of the Spanish, the area around San Jose was long inhabited by the Tamien nation of the Ohlone people. San Jose was founded on November 29, 1777, as the Pueblo de San Jos\u00e9 de Guadalupe, the first city founded in the Californias. It became a part of Mexico in 1821 after the Mexican War of Independence. Following the U.S. Conquest of California during the Mexican\u2013American War, the territory was ceded to the United States in 1848. After California achieved statehood two years later, San Jose served as the state's first capital. San Jose experienced an economic boom after World War II, with a rapid population growth and aggressive annexation of nearby communities in the 1950s and 1960s. The rapid growth of the technology industry in Silicon Valley further accelerated the city's transition from an agricultural center to an urbanized metropolitan area, prompting Mayor Tom McEnery to adopt San Jose's current motto, \"Capital of Silicon Valley\", in 1988. Results of the 1990 U.S. census indicated that San Jose had surpassed San Francisco in population. By the early 2000s, the San Jose Metropolitan Area was California's fastest-growing metropolitan economy.\nToday, San Jose is notable for its innovation, cultural diversity, affluence, and sunny and mild Mediterranean climate. Major companies including Cisco, eBay, Adobe, PayPal, NetApp, Cadence, and Zoom maintain their headquarters in San Jose. One of the wealthiest major metropolitan areas in the world, the San Jose area was ranked in 2017 as having the third-highest GDP per capita and the fifth-most expensive housing market. The city is home to one of the world's largest overseas Vietnamese populations, a Hispanic community that makes up over 30% of the city's residents, historic ethnic enclaves such as Japantown and Little Portugal, and the largest Sikh Gurdwara outside of India.\nEducational and cultural institutions in San Jose include San Jose State University, Children's Discovery Museum of San Jose, the Tech Interactive, the San Jose Museum of Art, Winchester Mystery House, the Japanese American Museum of San Jose, Movimiento de Arte y Cultura Latino Americana, the Viet Museum, Rosicrucian Egyptian Museum, Hayes Mansion, San Jose Municipal Rose Garden, and the San Jose Center for the Performing Arts. Two major league sports teams, the San Jose Sharks and the San Jose Earthquakes, play their home games in San Jose. San Jose International Airport is the third-busiest airport in Northern California. VTA's rail and bus networks, together with Amtrak, ACE, BART, and Caltrain services, connect San Jose to the broader region through hubs such as Diridon Station.",
+  "climate": "San Jose, like most of the Bay Area, has a Mediterranean climate, with warm to hot, dry summers and cool, wet winters. San Jose has an average of 298 days of sunshine and an annual mean temperature of 61.4 \u00b0F. It lies inland, surrounded on three sides by mountains, and does not front the Pacific Ocean like San Francisco. As a result, the city is somewhat more sheltered from rain, barely avoiding a cold semi-arid climate.\nLike most of the Bay Area, San Jose is made up of dozens of microclimates. Because of a more prominent rain shadow from the Santa Cruz Mountains, Downtown San Jose experiences the lightest rainfall in the city, while South San Jose, only 10 mi distant, experiences more rainfall, and somewhat more extreme temperatures.\nThe monthly daily average temperature ranges from around 50 \u00b0F in December and January to around 70 \u00b0F in July and August. The highest temperature ever recorded in San Jose was 109 \u00b0F on September 6, 2022; the lowest was 18 \u00b0F on January 6, 1894. On average, there are 2.7 mornings annually where the temperature drops to, or below, the freezing mark; and sixteen afternoons where the high reaches or exceeds 90 \u00b0F or 32.2 \u00b0C. Diurnal temperature variation is far wider than along the coast or in San Francisco but still a shadow of what is seen in the Central Valley.\n\"Rain year\" precipitation has ranged from 4.83 in between July 1876 and June 1877 to 30.30 in between July 1889 and June 1890, although at the current site since 1893 the range is from 5.33 in in \"rain year\" 2020\u201321 to 30.25 in in \"rain year\" 1982\u201383. 2020\u20132021 was the lowest precipitation year ever, in 127 years of precipitation records in San Jose. The most precipitation in one month was 12.38 in in January 1911. The maximum 24-hour rainfall was 3.60 in on January 30, 1968. On August 16, 2020, one of the most widespread and strong thunderstorm events in recent Bay Area history occurred as an unstable humid air mass moved up from the south and triggered multiple dry thunderstorms which caused many fires to be ignited by 300+ lightning strikes in the surrounding hills. The CZU lightning complex fires took almost 5 months to fully be controlled. Over 86,000 acres were burned and nearly 1500 buildings were destroyed.\nThe snow level drops as low as 4,000 ft above sea level, or lower, occasionally coating nearby Mount Hamilton and, less frequently, the Santa Cruz Mountains, with snow that normally lasts a few days. Snow will snarl traffic traveling on State Route 17 towards Santa Cruz. Snow rarely falls in San Jose; the most recent snow to remain on the ground was on February 5, 1976, when many residents around the city saw as much as 3 in on car and roof tops. The official observation station measured only 0.5 in of snow."
+ }
+}

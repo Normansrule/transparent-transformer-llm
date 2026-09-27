@@ -1,0 +1,139 @@
+{
+ "name": "Tucson",
+ "admin1": "Arizona",
+ "country": "United States",
+ "country_code": "US",
+ "lat": 32.22174,
+ "lon": -110.92648,
+ "population": 542629,
+ "elevation_m": 759.0,
+ "climate": [
+  {
+   "month": 1,
+   "high": 61.0,
+   "low": 39.0,
+   "precip_in": 3.39,
+   "wet_days": 7.0,
+   "snow_in": 1.6,
+   "wind_mph": 9.8,
+   "sun_frac": 0.83
+  },
+  {
+   "month": 2,
+   "high": 65.5,
+   "low": 42.4,
+   "precip_in": 2.27,
+   "wet_days": 7.0,
+   "snow_in": 0.7,
+   "wind_mph": 12.3,
+   "sun_frac": 0.86
+  },
+  {
+   "month": 3,
+   "high": 69.9,
+   "low": 46.0,
+   "precip_in": 3.41,
+   "wet_days": 7.0,
+   "snow_in": 1.2,
+   "wind_mph": 12.5,
+   "sun_frac": 0.85
+  },
+  {
+   "month": 4,
+   "high": 83.2,
+   "low": 53.8,
+   "precip_in": 0.41,
+   "wet_days": 0.5,
+   "snow_in": 0.0,
+   "wind_mph": 13.3,
+   "sun_frac": 0.96
+  },
+  {
+   "month": 5,
+   "high": 91.8,
+   "low": 63.8,
+   "precip_in": 0.09,
+   "wet_days": 1.0,
+   "snow_in": 0.0,
+   "wind_mph": 13.9,
+   "sun_frac": 0.94
+  },
+  {
+   "month": 6,
+   "high": 101.1,
+   "low": 73.2,
+   "precip_in": 0.1,
+   "wet_days": 1.0,
+   "snow_in": 0.0,
+   "wind_mph": 14.1,
+   "sun_frac": 0.89
+  },
+  {
+   "month": 7,
+   "high": 104.5,
+   "low": 80.1,
+   "precip_in": 0.54,
+   "wet_days": 4.0,
+   "snow_in": 0.0,
+   "wind_mph": 14.2,
+   "sun_frac": 0.88
+  },
+  {
+   "month": 8,
+   "high": 100.3,
+   "low": 77.4,
+   "precip_in": 0.67,
+   "wet_days": 3.0,
+   "snow_in": 0.0,
+   "wind_mph": 12.3,
+   "sun_frac": 0.9
+  },
+  {
+   "month": 9,
+   "high": 98.3,
+   "low": 72.6,
+   "precip_in": 1.53,
+   "wet_days": 2.5,
+   "snow_in": 0.0,
+   "wind_mph": 12.5,
+   "sun_frac": 0.95
+  },
+  {
+   "month": 10,
+   "high": 91.0,
+   "low": 63.3,
+   "precip_in": 0.11,
+   "wet_days": 1.0,
+   "snow_in": 0.0,
+   "wind_mph": 12.2,
+   "sun_frac": 0.95
+  },
+  {
+   "month": 11,
+   "high": 74.2,
+   "low": 48.8,
+   "precip_in": 0.64,
+   "wet_days": 3.0,
+   "snow_in": 0.0,
+   "wind_mph": 9.2,
+   "sun_frac": 0.89
+  },
+  {
+   "month": 12,
+   "high": 70.8,
+   "low": 44.5,
+   "precip_in": 0.74,
+   "wet_days": 1.5,
+   "snow_in": 0.0,
+   "wind_mph": 7.0,
+   "sun_frac": 0.91
+  }
+ ],
+ "period": "2023-01-01 to 2024-12-31",
+ "wiki": {
+  "title": "Tucson, Arizona",
+  "url": "https://en.wikipedia.org/wiki/Tucson,_Arizona",
+  "intro": "Tucson is the county seat of and the most populated city in Pima County, Arizona, United States. It is the second-most populous city in Arizona with a population of 542,630 at the 2020 census, behind the capital city, Phoenix, while the Tucson metropolitan statistical area has an estimated 1.08 million residents and is the 52nd-largest metropolitan area in the United States. Tucson and Phoenix anchor the Arizona Sun Corridor. The city is 108 mi southeast of Phoenix and 60 mi north of the United States\u2013Mexico border. It is home to the University of Arizona.\nMajor incorporated suburbs of Tucson include Oro Valley and Marana northwest of the city, Sahuarita south of the city, and South Tucson in an enclave south of downtown. Communities in the vicinity of Tucson include Casas Adobes, Catalina Foothills, Flowing Wells, Midvale Park, Tanque Verde, Tortolita, and Vail. Towns outside the Tucson metropolitan area include Three Points, Benson to the southeast, Catalina and Oracle to the north, and Green Valley to the south.\nTucson was founded as a military fort by the Spanish when Hugo O'Conor authorized the construction of Presidio San Agust\u00edn del Tucs\u00f3n in 1775. It was included in the state of Sonora after Mexico gained independence from the Spanish Empire in 1821. The United States acquired a 29,670-square-mile region of present-day southern Arizona and southwestern New Mexico from Mexico under the Gadsden Purchase in 1853. Tucson served as the capital of the Arizona Territory from 1867 to 1877. Tucson was Arizona's largest city by population during the territorial period and early statehood, until it was surpassed by Phoenix in 1920. Nevertheless, its population growth remained strong during the late 20th century. Tucson was the first American city to be designated a \"City of Gastronomy\" by UNESCO in 2015.\nThe Spanish name of the city, Tucs\u00f3n, is derived from the O'odham Cuk \u1e62on. Cuk is a stative verb meaning \" black, dark\". \u1e62on is a noun referring to the base or foundation of something. The name is commonly translated into English as \"the base is black\", a reference to a basalt-covered hill now known as Sentinel Peak. Tucson is sometimes referred to as the Old Pueblo and Optics Valley, the latter referring to its optical science and telescopes known worldwide.",
+  "climate": "Tucson has a hot desert climate, with two major seasons, a hot summer and mild winter. Tucson averages 10.61 inches of precipitation per year, concentrated during the Pacific storms of winter and the North American Monsoon of summer. Fall and spring tend to be sunny and dry. Despite being at a more southerly latitude than Phoenix, Tucson is slightly cooler and wetter due to a variety of factors, including elevation and orographic lift in surrounding mountains, though Tucson does occasionally see warmer daytime temperatures in the winter.\nSummer is characterized by average daily high temperatures between 98 and 102 \u00b0F and low temperatures between 71 and 77 \u00b0F. Early summer is characterized by low humidity and clear skies; mid- and late summer are characterized by higher humidity, cloudy skies, and frequent rain. The sun is intense in Tucson during part of the year, and those who spend time outdoors need protection. Recent studies show that the rate of skin cancer in Arizona is at least three times higher than in more northerly regions. Additionally, heat stroke is a concern for hikers, mountain bikers, and adventurers who explore canyons, open desert lands, and other exposed areas.\nWhile monsoon season officially begins on June 15, the arrival of the North American Monsoon is unpredictable, as it varies from year to year. On average, Tucson receives its first monsoon storms around July 3. Monsoon activity generally persists through August and often into September. During the monsoon, the humidity is much higher than the rest of the year. It begins with clouds building up from the south in the early afternoon, followed by intense thunderstorms and rainfall, which can cause flash floods. The evening sky at this time of year is often pierced with dramatic lightning strikes. Large areas of the city do not have storm sewers, so monsoon rains flood the main thoroughfares, usually for no longer than a few hours. A few underpasses in Tucson have \"feet of water\" scales painted on their supports to discourage fording by automobiles during a rainstorm. Arizona traffic code Title 28\u2013910, the so-called \"Stupid Motorist Law\", was instituted in 1995 to discourage people from entering flooded roadways. If the road is flooded and a barricade is in place, motorists who drive around the barricade can be charged up to $2,000 for costs involved in rescuing them. Despite the warnings and precautions, three Tucson drivers have drowned between 2004 and 2010.\nThe weather in the fall is much like spring, dry, with warm/cool nights and warm/hot days. Temperatures above 100 \u00b0F are possible into early October. Temperatures decline at the quickest rate in October and November, and are normally the coolest in late December and early January.\nWinters in Tucson are mild relative to other parts of the United States. Average daytime highs range between 65 and 70 \u00b0F, with overnight lows between 40 and 44 \u00b0F. Tucson typically averages three hard freezes per winter season, with temperatures dipping to the mid- or low 20 degrees F, but this is typically limited to only a very few nights. Although rare, snow occasionally falls in lower elevations in Tucson and is common in the Santa Catalina Mountains. The most recent snowfall was on March 2, 2023, when a winter storm caused snow to fall throughout most of the southwest. Tucson airport recorded 1.0 in of snow, the seventh heaviest March snowfall on record.\nEarly spring is characterized by gradually rising temperatures and several weeks of vivid wildflower blooms beginning in late February and into March. During this time of year the diurnal temperature variation occurs with a temperature change often surpassing 30 \u00b0F daily.\nSince records began in 1894, the record maximum temperature was 117 \u00b0F on June 27, 1990, and the record minimum temperature was 6 \u00b0F on January 7, 1913. There are an average of 158 days annually with highs of 90 \u00b0F or higher and an average of 12 days with lows reaching or below the freezing mark. Average annual precipitation is 10.61 in. On average, 47.4 days have measurable precipitation. The wettest year was 1905, with 24.17 in and the driest year was 2020 with 4.16 in. The most precipitation in one month was 8.06 in in July 2021. The most precipitation in 24 hours was 3.93 in on July 29, 1958. Annual snowfall averages 0.1 in. The most snow in one winter was 6.8 in in winter 1971\u20131972. The most snow in one month was 6.8 in in December 1971."
+ }
+}

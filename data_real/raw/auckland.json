@@ -1,0 +1,139 @@
+{
+ "name": "Auckland",
+ "admin1": "Auckland",
+ "country": "New Zealand",
+ "country_code": "NZ",
+ "lat": -36.84853,
+ "lon": 174.76349,
+ "population": 1547200,
+ "elevation_m": 43.0,
+ "climate": [
+  {
+   "month": 1,
+   "high": 72.7,
+   "low": 64.1,
+   "precip_in": 7.67,
+   "wet_days": 18.5,
+   "snow_in": 0.0,
+   "wind_mph": 15.9,
+   "sun_frac": 0.7
+  },
+  {
+   "month": 2,
+   "high": 72.6,
+   "low": 62.4,
+   "precip_in": 6.84,
+   "wet_days": 14.0,
+   "snow_in": 0.0,
+   "wind_mph": 15.5,
+   "sun_frac": 0.77
+  },
+  {
+   "month": 3,
+   "high": 69.3,
+   "low": 58.5,
+   "precip_in": 3.39,
+   "wet_days": 10.5,
+   "snow_in": 0.0,
+   "wind_mph": 14.4,
+   "sun_frac": 0.82
+  },
+  {
+   "month": 4,
+   "high": 67.2,
+   "low": 58.5,
+   "precip_in": 4.27,
+   "wet_days": 13.5,
+   "snow_in": 0.0,
+   "wind_mph": 16.3,
+   "sun_frac": 0.77
+  },
+  {
+   "month": 5,
+   "high": 62.4,
+   "low": 53.8,
+   "precip_in": 5.03,
+   "wet_days": 17.0,
+   "snow_in": 0.0,
+   "wind_mph": 17.2,
+   "sun_frac": 0.75
+  },
+  {
+   "month": 6,
+   "high": 59.9,
+   "low": 51.6,
+   "precip_in": 4.07,
+   "wet_days": 12.5,
+   "snow_in": 0.0,
+   "wind_mph": 15.5,
+   "sun_frac": 0.75
+  },
+  {
+   "month": 7,
+   "high": 57.9,
+   "low": 48.7,
+   "precip_in": 4.29,
+   "wet_days": 10.5,
+   "snow_in": 0.0,
+   "wind_mph": 16.3,
+   "sun_frac": 0.74
+  },
+  {
+   "month": 8,
+   "high": 58.0,
+   "low": 46.5,
+   "precip_in": 2.77,
+   "wet_days": 11.5,
+   "snow_in": 0.0,
+   "wind_mph": 13.9,
+   "sun_frac": 0.76
+  },
+  {
+   "month": 9,
+   "high": 60.8,
+   "low": 51.7,
+   "precip_in": 3.73,
+   "wet_days": 12.5,
+   "snow_in": 0.0,
+   "wind_mph": 17.4,
+   "sun_frac": 0.79
+  },
+  {
+   "month": 10,
+   "high": 63.0,
+   "low": 53.5,
+   "precip_in": 4.28,
+   "wet_days": 15.5,
+   "snow_in": 0.0,
+   "wind_mph": 17.3,
+   "sun_frac": 0.79
+  },
+  {
+   "month": 11,
+   "high": 66.5,
+   "low": 55.6,
+   "precip_in": 4.22,
+   "wet_days": 14.5,
+   "snow_in": 0.0,
+   "wind_mph": 14.2,
+   "sun_frac": 0.78
+  },
+  {
+   "month": 12,
+   "high": 71.5,
+   "low": 61.1,
+   "precip_in": 4.55,
+   "wet_days": 14.5,
+   "snow_in": 0.0,
+   "wind_mph": 14.1,
+   "sun_frac": 0.78
+  }
+ ],
+ "period": "2023-01-01 to 2024-12-31",
+ "wiki": {
+  "title": "Auckland",
+  "url": "https://en.wikipedia.org/wiki/Auckland",
+  "intro": "Auckland is a large metropolitan city in the North Island of New Zealand. It has an urban population of approximately 1,547,200. It is located in the greater Auckland Region, the area governed by Auckland Council, which includes outlying rural areas and the islands of the Hauraki Gulf, and which has a total population of 1,816,000 as of June 2025. It is the most populous city of New Zealand and the fifth-most populous city in Oceania.\nThe city lies between the Hauraki Gulf to the east, the Hunua Ranges to the south-east, the Manukau Harbour to the south-west, and the Wait\u0101kere Ranges and smaller ranges to the west and north-west. The surrounding hills are covered in rainforest and the landscape is dotted with 53 volcanic centres that make up the Auckland Volcanic Field. The central part of the urban area occupies a narrow isthmus between the Manukau Harbour on the Tasman Sea and the Waitemat\u0101 Harbour on the Pacific Ocean. Auckland is one of the few cities in the world to have a harbour on each of two separate major bodies of water.\nThe Auckland isthmus was first settled c.\u20091350 and was valued for its rich and fertile land. The M\u0101ori population in the area is estimated to have peaked at 20,000 before the arrival of Europeans. After a British colony was established in New Zealand in 1840, William Hobson, then Lieutenant-Governor of New Zealand, chose Auckland as its new capital. Ng\u0101ti Wh\u0101tua \u014cr\u0101kei made a strategic gift of land to Hobson for the new capital. During the New Zealand wars many fencibles and soldiers were stationed in and around Auckland. In 1865, Auckland was replaced by Wellington as the capital, but continued to grow, initially because of its port and the logging and gold-mining activities in its hinterland, and later because of pastoral farming in the surrounding area, and manufacturing in the city itself. It has been the nation's largest city throughout most of its history. Today, Auckland's central business district is New Zealand's leading economic hub.\nWhile Europeans continue to make up the plurality of Auckland's population, the city became multicultural and cosmopolitan in the late 20th century, with Asians accounting for 34.9% of the city's population in 2023. In 2023 Auckland had the fourth largest foreign-born population in the world, with 43% of its residents born overseas. With its sizeable population of Pasifika New Zealanders, the city is also home to the largest ethnic Polynesian population in the world.\nThe University of Auckland, founded in 1883, is the largest university in New Zealand. The city's significant tourist attractions include national historic sites, festivals, performing arts, sports activities and a variety of cultural institutions, such as the Auckland War Memorial Museum, the Museum of Transport and Technology, and the Auckland Art Gallery. Its architectural landmarks include the Harbour Bridge, the Town Hall, the Ferry Building and the Sky Tower, which is the second-tallest building in the Southern Hemisphere after Thamrin Nine. The city is served by Auckland Airport, which handled 18.5 million passengers in 2024. Auckland is one of the world's most liveable cities, ranking fifth in the 2024 Mercer Quality of Living Survey and ninth in the 2024 Global Liveability Ranking by The Economist.",
+  "climate": "Under the K\u00f6ppen climate classification, Auckland has an oceanic climate. However, under the Trewartha climate classification and according to the National Institute of Water and Atmospheric Research, the city's climate is classified as humid subtropical climate with warm summers and mild winters. It is the warmest main centre of New Zealand.\nSnowfall is extremely rare: the most significant fall since the start of the 20th century was on 27 July 1939, when snow fell just before dawn and five centimetres of snow reportedly lay on Mount Eden. Snowflakes were also seen on 28 July 1930 and 15 August 2011.\nFrosts in Auckland are infrequent and often localised. Henderson Riverpark receives an annual average of 27.4 ground frosts per year, while Auckland Airport receives an annual average of 8.7 ground frosts per year.\nAverage sea temperature around Auckland varies throughout the year. The water temperature is warmest in February when it averages 21 \u00b0C, while in August, the water temperature is at its coolest, averaging 14 \u00b0C.\nPrevailing winds in Auckland are predominantly from the southwest. The mean annual wind speed for Auckland Airport is 18 kilometres per hour. During the summer months there is often a sea breeze in Auckland which starts in the morning and dies down again in the evening. The early morning calm on the isthmus during settled weather, before the sea breeze rises, was described as early as 1853: \"In all seasons, the beauty of the day is in the early morning. At that time, generally, a solemn stillness holds, and a perfect calm prevails...\".\nFog is a common occurrence for Auckland, especially in autumn and winter. Whenuapai Airport experiences an average of 44 fog days per year.\nAuckland occasionally suffers from air pollution due to fine particle emissions. There are also occasional breaches of guideline levels of carbon monoxide. While maritime winds normally disperse the pollution relatively quickly it can sometimes become visible as smog, especially on calm winter days.\nThe record low temperature is \u22125.7 \u00b0C recorded at Riverhead Forest in June 1936, while the maximum recorded temperature is 34.0 \u00b0C on 12 February 2009. The record lowest daily maximum is 8.0 \u00b0C recorded on both 13 June 1976 and 16 August 2011. The record highest daily minimum is 23.6 \u00b0C on 12 February 2022. The record highest dew point is 25.0 \u00b0C recorded on 10 March 1972. The most humid month on record was January 2018 with an average dew point of 18.0 \u00b0C. The warmest month on record was February 1990 with an average mean temperature of 22.1 \u00b0C."
+ }
+}

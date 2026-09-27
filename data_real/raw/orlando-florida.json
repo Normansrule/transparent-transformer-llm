@@ -1,0 +1,139 @@
+{
+ "name": "Orlando",
+ "admin1": "Florida",
+ "country": "United States",
+ "country_code": "US",
+ "lat": 28.53834,
+ "lon": -81.37924,
+ "population": 334854,
+ "elevation_m": 30.0,
+ "climate": [
+  {
+   "month": 1,
+   "high": 70.7,
+   "low": 52.5,
+   "precip_in": 2.59,
+   "wet_days": 9.5,
+   "snow_in": 0.0,
+   "wind_mph": 11.9,
+   "sun_frac": 0.77
+  },
+  {
+   "month": 2,
+   "high": 75.7,
+   "low": 54.9,
+   "precip_in": 2.38,
+   "wet_days": 6.5,
+   "snow_in": 0.0,
+   "wind_mph": 12.2,
+   "sun_frac": 0.83
+  },
+  {
+   "month": 3,
+   "high": 80.6,
+   "low": 60.4,
+   "precip_in": 2.86,
+   "wet_days": 7.0,
+   "snow_in": 0.0,
+   "wind_mph": 12.2,
+   "sun_frac": 0.83
+  },
+  {
+   "month": 4,
+   "high": 83.2,
+   "low": 63.0,
+   "precip_in": 3.52,
+   "wet_days": 9.5,
+   "snow_in": 0.0,
+   "wind_mph": 13.0,
+   "sun_frac": 0.86
+  },
+  {
+   "month": 5,
+   "high": 88.0,
+   "low": 68.6,
+   "precip_in": 3.92,
+   "wet_days": 13.0,
+   "snow_in": 0.0,
+   "wind_mph": 11.1,
+   "sun_frac": 0.88
+  },
+  {
+   "month": 6,
+   "high": 89.3,
+   "low": 72.6,
+   "precip_in": 10.34,
+   "wet_days": 20.0,
+   "snow_in": 0.0,
+   "wind_mph": 11.5,
+   "sun_frac": 0.8
+  },
+  {
+   "month": 7,
+   "high": 90.5,
+   "low": 75.7,
+   "precip_in": 8.0,
+   "wet_days": 26.5,
+   "snow_in": 0.0,
+   "wind_mph": 8.8,
+   "sun_frac": 0.81
+  },
+  {
+   "month": 8,
+   "high": 90.3,
+   "low": 75.7,
+   "precip_in": 6.15,
+   "wet_days": 22.0,
+   "snow_in": 0.0,
+   "wind_mph": 11.2,
+   "sun_frac": 0.86
+  },
+  {
+   "month": 9,
+   "high": 87.1,
+   "low": 73.0,
+   "precip_in": 11.99,
+   "wet_days": 21.5,
+   "snow_in": 0.0,
+   "wind_mph": 9.8,
+   "sun_frac": 0.82
+  },
+  {
+   "month": 10,
+   "high": 81.6,
+   "low": 67.3,
+   "precip_in": 6.13,
+   "wet_days": 7.5,
+   "snow_in": 0.0,
+   "wind_mph": 12.4,
+   "sun_frac": 0.82
+  },
+  {
+   "month": 11,
+   "high": 77.4,
+   "low": 61.5,
+   "precip_in": 3.38,
+   "wet_days": 6.5,
+   "snow_in": 0.0,
+   "wind_mph": 10.6,
+   "sun_frac": 0.8
+  },
+  {
+   "month": 12,
+   "high": 70.6,
+   "low": 55.5,
+   "precip_in": 2.73,
+   "wet_days": 4.0,
+   "snow_in": 0.0,
+   "wind_mph": 10.7,
+   "sun_frac": 0.77
+  }
+ ],
+ "period": "2023-01-01 to 2024-12-31",
+ "wiki": {
+  "title": "Orlando, Florida",
+  "url": "https://en.wikipedia.org/wiki/Orlando,_Florida",
+  "intro": "Orlando is a city in and the county seat of Orange County, Florida, United States. Part of Central Florida, it is the fourth-most populous city in the state and its most populous inland city, with a population of 307,573 at the 2020 census. The Orlando metropolitan area has an estimated 2.67 million residents as of 2020, making it the third-largest metropolitan area in Florida and the 22nd-largest in the U.S.\nOrlando attracts tourism and conventions with major events and theme parks. It is the fourth-most visited city in the U.S. after New York City, Miami, and Los Angeles, with over 3.5 million visitors as of 2023. Orlando International Airport is the 7th-busiest airport in the United States and the 18th-busiest in the world. The two largest and most internationally renowned tourist attractions in the Orlando area are the Walt Disney World resort, opened by the Walt Disney Company in 1971 and located about 21 miles southwest of Orlando in Bay Lake, and the Universal Orlando resort, opened in 1990 as a major expansion of Universal Studios Florida and the only theme park inside Orlando city limits.\nApart from its theme parks, most major cultural sites such as the Orlando Museum of Art and the Dr. Phillips Center for the Performing Arts, and nightlife, bars, and clubs are located in downtown Orlando. Other attractions like Orlando Eye at ICON Park are located along International Drive. The city is also one of the busiest American cities for conferences and conventions; the Orange County Convention Center is the second-largest convention facility in the United States. Orlando is commonly associated with the nearby University of Central Florida, one of the largest universities in the United States. The city's major league professional sports teams include the Orlando Magic, Orlando Pride and Orlando City SC.",
+  "climate": "Like much of the deep Southern United States, Orlando has a humid subtropical climate. The two basic seasons in Orlando are a very hot and rainy season, lasting from May until late October, and a mild and dry season from November through April. The area's warm and humid climate is caused primarily by its low elevation, its position relatively close to the Tropic of Cancer, and its location in the center of a peninsula. Many characteristics of its climate are a result of its proximity to the Gulf Stream, which flows around the peninsula of Florida.\nDuring the height of Orlando's humid summer season, high temperatures are typically in the low 90s \u00b0F, while low temperatures rarely fall below the low 70s \u00b0F. The average window for 90 \u00b0F temperatures is April 9 to October 14. The area's humidity acts as a buffer, usually preventing actual temperatures from exceeding 100 \u00b0F, but also pushing the heat index to over 110 \u00b0F. The city's highest recorded temperature is 103 \u00b0F, set on September 8, 1921. During these months, strong afternoon thunderstorms occur almost daily. These storms are caused by air masses from the Gulf of Mexico and the Atlantic Ocean colliding over Central Florida. They are highlighted by spectacular lightning and can also bring heavy rain and powerful winds as well as rare damaging hail.\nThe winter, in contrast, consists of warm, sunny days and cool nights. The humidity is much lower than the summer and often has a crisp feel that can be described as spring-like in temperate regions further north. Additionally, the weather is much more volatile, and brief cold snaps can occur. The monthly daily average temperature in January is 60.6 \u00b0F. Temperatures dip below the freezing mark on an average of only 1.6 nights per year and the lowest recorded temperature is 18 \u00b0F, set on December 28, 1894. The annual mean minimum is just above 30 \u00b0F putting Orlando in hardiness zone 10a. Because the winter season is dry and freezing temperatures usually occur only after cold fronts have passed, snow is exceptionally rare. The only accumulation ever to occur in the city proper since record keeping began was in 1948, although some accumulation occurred in surrounding areas in a snow event in January 1977 that reached Miami. Flurries have also been observed in 1989, 2006, and 2010.\nThe average annual rainfall in Orlando is 51.45 inches, a majority of which occurs in the period from June to September. October through May are Orlando's dry season. During this period, often a wildfire hazard exists. During some years, fires have been severe. In 1998, a strong El Ni\u00f1o caused an unusually wet January and February, followed by drought throughout the spring and early summer, causing a record wildfire season that created numerous air-quality alerts in Orlando and severely affected normal daily life, including the postponement of that year's Pepsi 400 NASCAR race in nearby Daytona Beach.\nOrlando is a major population center and has a considerable hurricane risk, although it is not as high as in South Florida's urban corridor or other coastal regions. Since the city is located 42 miles inland from the Atlantic and 77 miles inland from the Gulf of Mexico, hurricanes usually weaken before arriving. Storm surges are not a concern since the region is 100 feet above mean sea level. Despite its location, the city does see strong hurricanes. During the notorious 2004 hurricane season, Orlando was hit by three hurricanes that caused significant damage, with Hurricane Charley the worst of these. The city also experienced widespread damage during Hurricane Donna in 1960. In recent years, hurricanes Irma, Ian, and Milton brought some notable damages to the city.\nTornadoes are not usually connected with the strong thunderstorms of the humid summer. They are more common on warmer days of winter, as well as in passing hurricanes. The two worst major outbreaks in the area's history, a 1998 outbreak that killed 42 people and a 2007 outbreak that killed 21, both happened in February."
+ }
+}

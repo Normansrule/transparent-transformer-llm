@@ -1,0 +1,139 @@
+{
+ "name": "Porto",
+ "admin1": "Porto District",
+ "country": "Portugal",
+ "country_code": "PT",
+ "lat": 41.1485,
+ "lon": -8.61097,
+ "population": 252687,
+ "elevation_m": 91.0,
+ "climate": [
+  {
+   "month": 1,
+   "high": 57.6,
+   "low": 46.5,
+   "precip_in": 9.53,
+   "wet_days": 12.0,
+   "snow_in": 0.0,
+   "wind_mph": 13.7,
+   "sun_frac": 0.65
+  },
+  {
+   "month": 2,
+   "high": 60.3,
+   "low": 47.0,
+   "precip_in": 4.44,
+   "wet_days": 8.5,
+   "snow_in": 0.0,
+   "wind_mph": 14.1,
+   "sun_frac": 0.79
+  },
+  {
+   "month": 3,
+   "high": 60.6,
+   "low": 48.7,
+   "precip_in": 8.69,
+   "wet_days": 17.5,
+   "snow_in": 0.1,
+   "wind_mph": 14.9,
+   "sun_frac": 0.69
+  },
+  {
+   "month": 4,
+   "high": 66.9,
+   "low": 52.1,
+   "precip_in": 3.33,
+   "wet_days": 8.0,
+   "snow_in": 0.0,
+   "wind_mph": 13.4,
+   "sun_frac": 0.82
+  },
+  {
+   "month": 5,
+   "high": 68.0,
+   "low": 54.7,
+   "precip_in": 3.16,
+   "wet_days": 11.0,
+   "snow_in": 0.0,
+   "wind_mph": 14.2,
+   "sun_frac": 0.82
+  },
+  {
+   "month": 6,
+   "high": 72.2,
+   "low": 59.7,
+   "precip_in": 2.43,
+   "wet_days": 9.0,
+   "snow_in": 0.0,
+   "wind_mph": 12.1,
+   "sun_frac": 0.83
+  },
+  {
+   "month": 7,
+   "high": 74.5,
+   "low": 60.2,
+   "precip_in": 0.93,
+   "wet_days": 5.0,
+   "snow_in": 0.0,
+   "wind_mph": 12.8,
+   "sun_frac": 0.88
+  },
+  {
+   "month": 8,
+   "high": 76.7,
+   "low": 61.9,
+   "precip_in": 0.15,
+   "wet_days": 1.0,
+   "snow_in": 0.0,
+   "wind_mph": 13.2,
+   "sun_frac": 0.87
+  },
+  {
+   "month": 9,
+   "high": 73.2,
+   "low": 59.5,
+   "precip_in": 4.59,
+   "wet_days": 8.0,
+   "snow_in": 0.0,
+   "wind_mph": 12.7,
+   "sun_frac": 0.84
+  },
+  {
+   "month": 10,
+   "high": 70.1,
+   "low": 59.4,
+   "precip_in": 11.17,
+   "wet_days": 18.5,
+   "snow_in": 0.0,
+   "wind_mph": 14.2,
+   "sun_frac": 0.6
+  },
+  {
+   "month": 11,
+   "high": 64.4,
+   "low": 54.8,
+   "precip_in": 6.4,
+   "wet_days": 15.5,
+   "snow_in": 0.0,
+   "wind_mph": 12.9,
+   "sun_frac": 0.65
+  },
+  {
+   "month": 12,
+   "high": 58.1,
+   "low": 46.1,
+   "precip_in": 4.29,
+   "wet_days": 9.5,
+   "snow_in": 0.0,
+   "wind_mph": 11.5,
+   "sun_frac": 0.77
+  }
+ ],
+ "period": "2023-01-01 to 2024-12-31",
+ "wiki": {
+  "title": "Porto",
+  "url": "https://en.wikipedia.org/wiki/Porto",
+  "intro": "Porto, also known in English as Oporto, is the second largest city in Portugal, after Lisbon. It is the capital of the Porto District and one of the Iberian Peninsula's major urban areas. Porto city proper, which is the entire municipality of Porto, is small compared to its metropolitan area, with an estimated population of 273,476 people in a municipal area of 41.42 km2. As of 2025, the Porto metropolitan area has around 1.9 million people in an area of 2,395 km2, making it the second-largest urban area in Portugal. It is recognized as a global city with a Gamma + rating from the Globalization and World Cities Research Network.\nOn the Douro River estuary in northern Portugal, Porto is one of the oldest European centers, and its core was named a World Heritage Site by UNESCO in 1996, as the Historic Centre of Porto, Luiz I Bridge and Monastery of Serra do Pilar. The historic area is also a National Monument of Portugal. The western part of its urban area extends to the coastline of the Atlantic Ocean. Settlement dates back to the 2nd century BC, when it was an outpost of the Roman Republic. Its combined Celtic-Latin name, Portus Cale, has been referred to as the origin of the name Portugal, based on transliteration and oral evolution from Latin.\nPort wine, one of Portugal's most famous exports, is named after Porto, as the metropolitan area, and in particular the cellars of Vila Nova de Gaia, were responsible for the packaging, transport, and export of fortified wine. Porto is on the Portuguese Way path of the Camino de Santiago. Livraria Lello uses timed entry, while several port wine cellars in Vila Nova de Gaia offer guided tours and tastings. In 2023, Porto was named City of the Year by Food and Travel magazine. In 2024, the city was named World's Leading Seaside Metropolitan Destination at the World Travel Awards.",
+  "climate": "Porto has a warm-summer Mediterranean climate, typical of the northern Iberian Peninsula. As a result, the region combines features of both the dry, warm Mediterranean climates of southern Europe and the wet marine west coast climates of the North Atlantic.\nSummers are typically warm and sunny, with average temperatures between 16 and 26 \u00b0C, occasionally reaching up to 30 \u00b0C during heatwaves. These hot spells are usually accompanied by low humidity. The nearby beaches are often windier and cooler than inland areas. Porto's summers are generally milder than those of inland Portuguese cities due to its proximity to the Atlantic Ocean.\nOccasionally, summer weather is interrupted by brief rainy periods marked by showers and cooler temperatures around 20 \u00b0C in the afternoon. Annual precipitation is high, mostly concentrated in winter, making Porto one of the wettest major cities in Europe. Nonetheless, prolonged sunny intervals are common even during the rainiest months.\nWinters are mild and damp. Temperatures usually range from around 5/6 \u00b0C in the morning to 14/15\u00b0C in the afternoon, and seldom drop below freezing. While long periods of rainfall are typical, sunny breaks also occur during the winter season."
+ }
+}

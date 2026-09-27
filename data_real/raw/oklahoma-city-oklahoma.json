@@ -1,0 +1,139 @@
+{
+ "name": "Oklahoma City",
+ "admin1": "Oklahoma",
+ "country": "United States",
+ "country_code": "US",
+ "lat": 35.46756,
+ "lon": -97.51643,
+ "population": 681054,
+ "elevation_m": 366.0,
+ "climate": [
+  {
+   "month": 1,
+   "high": 48.1,
+   "low": 30.2,
+   "precip_in": 2.05,
+   "wet_days": 7.0,
+   "snow_in": 1.5,
+   "wind_mph": 15.2,
+   "sun_frac": 0.71
+  },
+  {
+   "month": 2,
+   "high": 57.7,
+   "low": 37.7,
+   "precip_in": 2.8,
+   "wet_days": 8.0,
+   "snow_in": 2.5,
+   "wind_mph": 16.8,
+   "sun_frac": 0.75
+  },
+  {
+   "month": 3,
+   "high": 63.6,
+   "low": 43.9,
+   "precip_in": 2.44,
+   "wet_days": 6.0,
+   "snow_in": 0.1,
+   "wind_mph": 16.8,
+   "sun_frac": 0.73
+  },
+  {
+   "month": 4,
+   "high": 72.0,
+   "low": 52.1,
+   "precip_in": 3.29,
+   "wet_days": 8.5,
+   "snow_in": 0.0,
+   "wind_mph": 17.2,
+   "sun_frac": 0.79
+  },
+  {
+   "month": 5,
+   "high": 80.2,
+   "low": 61.7,
+   "precip_in": 3.65,
+   "wet_days": 11.0,
+   "snow_in": 0.0,
+   "wind_mph": 14.3,
+   "sun_frac": 0.75
+  },
+  {
+   "month": 6,
+   "high": 90.1,
+   "low": 70.8,
+   "precip_in": 3.4,
+   "wet_days": 9.0,
+   "snow_in": 0.0,
+   "wind_mph": 13.8,
+   "sun_frac": 0.83
+  },
+  {
+   "month": 7,
+   "high": 93.2,
+   "low": 74.0,
+   "precip_in": 3.51,
+   "wet_days": 8.5,
+   "snow_in": 0.0,
+   "wind_mph": 13.3,
+   "sun_frac": 0.85
+  },
+  {
+   "month": 8,
+   "high": 95.0,
+   "low": 75.4,
+   "precip_in": 2.03,
+   "wet_days": 7.0,
+   "snow_in": 0.0,
+   "wind_mph": 13.0,
+   "sun_frac": 0.91
+  },
+  {
+   "month": 9,
+   "high": 87.4,
+   "low": 67.2,
+   "precip_in": 2.86,
+   "wet_days": 6.0,
+   "snow_in": 0.0,
+   "wind_mph": 12.0,
+   "sun_frac": 0.88
+  },
+  {
+   "month": 10,
+   "high": 77.5,
+   "low": 57.7,
+   "precip_in": 1.91,
+   "wet_days": 3.5,
+   "snow_in": 0.0,
+   "wind_mph": 15.4,
+   "sun_frac": 0.86
+  },
+  {
+   "month": 11,
+   "high": 62.0,
+   "low": 45.0,
+   "precip_in": 4.69,
+   "wet_days": 5.5,
+   "snow_in": 0.0,
+   "wind_mph": 12.9,
+   "sun_frac": 0.79
+  },
+  {
+   "month": 12,
+   "high": 54.4,
+   "low": 38.4,
+   "precip_in": 1.25,
+   "wet_days": 4.0,
+   "snow_in": 0.0,
+   "wind_mph": 12.6,
+   "sun_frac": 0.74
+  }
+ ],
+ "period": "2023-01-01 to 2024-12-31",
+ "wiki": {
+  "title": "Oklahoma City",
+  "url": "https://en.wikipedia.org/wiki/Oklahoma_City",
+  "intro": "Oklahoma City, often shortened to OKC, is the capital and most populous city in the U.S. state of Oklahoma. It is the 21st-most populous U.S. city and 8th largest in the Southern United States, with a population of 681,054 at the 2020 census. It is the county seat of Oklahoma County, with the city limits extending into Canadian, Cleveland, and Pottawatomie counties; however, areas beyond Oklahoma County primarily consist of suburban developments or areas designated rural and watershed zones. Oklahoma City ranks as the tenth-largest city by area in the United States when including consolidated city-counties, and second-largest when such consolidations are excluded, after Houston. It is also the second-largest state capital by area, after Juneau, Alaska. The Oklahoma City metropolitan area, with an estimated 1.49 million residents, is the largest metropolitan area in the state and 42nd-most populous in the country.\nOklahoma City has one of the world's largest livestock markets. Oil, natural gas, petroleum products, and related industries are its economy's largest sector. The city is in the middle of an active oil field, and oil derricks dot the capitol grounds. The federal government employs a large number of workers at Tinker Air Force Base and the United States Department of Transportation's Mike Monroney Aeronautical Center.\nOklahoma City is on the I-35 and I-40 corridors, one of the primary travel corridors south into Texas and New Mexico, north towards Wichita and Kansas City, west towards Albuquerque, and east towards Little Rock and Memphis. Located in the state's Frontier Country region, the city's northeast section lies in an ecological region known as the Cross Timbers. The city was founded during the Land Run of 1889 and grew to a population of over 10,000 within hours of its founding. It was the site of the April 19, 1995 bombing of the Alfred P. Murrah Federal Building, in which 168 people died.\nSince weather records have been kept beginning in 1890, Oklahoma City has been struck by 13 violent tornadoes, 11 of which were rated F4 or EF4 on the Fujita and Enhanced Fujita scales, and two which were rated F5 or EF5.",
+  "climate": "Oklahoma City has a temperate humid subtropical climate, along with significant continental influences. The city features hot, humid summers and cool winters. Prolonged and severe droughts and hefty rainfall leading to flash flooding and flooding occur regularly. Consistent winds, usually from the south or south-southeast during the summer, help temper the hotter weather. Consistent northerly winds during the winter can intensify cold periods. Severe ice storms and snowstorms happen sporadically during the winter.\nThe average temperature is 61.4 \u00b0F, with the monthly daily average ranging from 39.2 \u00b0F in January to 83.0 \u00b0F in July. Extremes range from \u221217 \u00b0F on February 12, 1899 to 113 \u00b0F on August 11, 1936, and August 3, 2012; The last sub-zero reading was \u221214 \u00b0F on February 16, 2021. Temperatures reach 100 \u00b0F on 10.4 days of the year, 90 \u00b0F on nearly 70 days, and fail to rise above freezing on 8.3 days. The city receives about 35.9 inches of precipitation annually, of which 8.6 inches is snow.\nThe report \"Regional Climate Trends and Scenarios for the U.S. National Climate Assessment\" from 2013 by NOAA projects that parts of the Great Plains region can expect up to 30% increase in extreme precipitation days by mid-century. This definition is based on days receiving more than one inch of rainfall."
+ }
+}

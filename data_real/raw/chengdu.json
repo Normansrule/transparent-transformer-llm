@@ -1,0 +1,139 @@
+{
+ "name": "Chengdu",
+ "admin1": "Sichuan",
+ "country": "China",
+ "country_code": "CN",
+ "lat": 30.66667,
+ "lon": 104.06667,
+ "population": 13568357,
+ "elevation_m": 499.0,
+ "climate": [
+  {
+   "month": 1,
+   "high": 52.3,
+   "low": 37.9,
+   "precip_in": 0.53,
+   "wet_days": 3.5,
+   "snow_in": 0.8,
+   "wind_mph": 6.9,
+   "sun_frac": 0.43
+  },
+  {
+   "month": 2,
+   "high": 55.7,
+   "low": 42.0,
+   "precip_in": 0.89,
+   "wet_days": 7.0,
+   "snow_in": 0.0,
+   "wind_mph": 7.9,
+   "sun_frac": 0.36
+  },
+  {
+   "month": 3,
+   "high": 66.8,
+   "low": 49.7,
+   "precip_in": 2.13,
+   "wet_days": 15.0,
+   "snow_in": 0.0,
+   "wind_mph": 8.4,
+   "sun_frac": 0.42
+  },
+  {
+   "month": 4,
+   "high": 76.3,
+   "low": 58.6,
+   "precip_in": 4.39,
+   "wet_days": 15.0,
+   "snow_in": 0.0,
+   "wind_mph": 9.1,
+   "sun_frac": 0.48
+  },
+  {
+   "month": 5,
+   "high": 81.9,
+   "low": 64.4,
+   "precip_in": 2.55,
+   "wet_days": 11.0,
+   "snow_in": 0.0,
+   "wind_mph": 8.5,
+   "sun_frac": 0.45
+  },
+  {
+   "month": 6,
+   "high": 87.3,
+   "low": 70.0,
+   "precip_in": 1.41,
+   "wet_days": 10.0,
+   "snow_in": 0.0,
+   "wind_mph": 8.2,
+   "sun_frac": 0.45
+  },
+  {
+   "month": 7,
+   "high": 88.3,
+   "low": 73.5,
+   "precip_in": 11.02,
+   "wet_days": 18.5,
+   "snow_in": 0.0,
+   "wind_mph": 8.7,
+   "sun_frac": 0.54
+  },
+  {
+   "month": 8,
+   "high": 90.0,
+   "low": 74.3,
+   "precip_in": 6.4,
+   "wet_days": 15.5,
+   "snow_in": 0.0,
+   "wind_mph": 8.2,
+   "sun_frac": 0.68
+  },
+  {
+   "month": 9,
+   "high": 84.6,
+   "low": 70.5,
+   "precip_in": 5.48,
+   "wet_days": 15.0,
+   "snow_in": 0.0,
+   "wind_mph": 8.6,
+   "sun_frac": 0.62
+  },
+  {
+   "month": 10,
+   "high": 70.8,
+   "low": 59.6,
+   "precip_in": 3.3,
+   "wet_days": 17.0,
+   "snow_in": 0.0,
+   "wind_mph": 6.6,
+   "sun_frac": 0.34
+  },
+  {
+   "month": 11,
+   "high": 63.1,
+   "low": 50.7,
+   "precip_in": 1.15,
+   "wet_days": 5.0,
+   "snow_in": 0.0,
+   "wind_mph": 6.7,
+   "sun_frac": 0.4
+  },
+  {
+   "month": 12,
+   "high": 52.6,
+   "low": 39.7,
+   "precip_in": 0.63,
+   "wet_days": 5.5,
+   "snow_in": 0.0,
+   "wind_mph": 6.1,
+   "sun_frac": 0.44
+  }
+ ],
+ "period": "2023-01-01 to 2024-12-31",
+ "wiki": {
+  "title": "Chengdu",
+  "url": "https://en.wikipedia.org/wiki/Chengdu",
+  "intro": "Chengdu is the capital city of the Chinese province of Sichuan. With a population of 20,937,757 at the 2020 census, it is the country's fourth most populous city and the only city with a population of over 20 million apart from provincial-level municipalities. It is traditionally the hub of Western China.\nChengdu is in central Sichuan. The surrounding Chengdu Plain is known as the \"Country of Heaven\" and the \"Land of Abundance\". Its prehistoric settlers included the Sanxingdui culture. The site of Dujiangyan, an ancient irrigation system, is designated as a World Heritage Site. The Jin River flows through the city. Chengdu's culture reflects that of its province, Sichuan; in 2011, it was recognized by UNESCO as a city of gastronomy. It is associated with the giant panda, a Chinese national symbol that inhabits the area of Sichuan; the city is home to the Chengdu Research Base of Giant Panda Breeding.\nFounded by the Kingdom of Shu in the 4th century BC, Chengdu is unique as the only Chinese settlement that has maintained its name unchanged throughout the imperial, republican, and communist eras for more than two thousand years. It was the capital of Liu Bei's Shu Han Empire during the Three Kingdoms Era, as well as several other local kingdoms during the Middle Ages. During World War II, refugees from eastern China fleeing from the Japanese settled in Chengdu. After the war, Chengdu was briefly the capital of the Nationalist republican government until it withdrew to Taipei on the island of Taiwan. Under the PRC, Chengdu's importance as a link between Eastern China and Western China expanded, with railways built to Chongqing in 1952, and Kunming and Tibet afterward. In the 1960s, Chengdu became an important defense industry hub.\nChengdu is one of the most important economic, financial, commercial, cultural, transportation, research, and communication centers in China. Its economy is diverse, characterized by the machinery, automobile, medical, food, and information technology industries. Chengdu is a leading financial hub, ranking 35th globally on the 2021 Global Financial Centres Index. Chengdu also hosts many international companies; more than 315 Fortune 500 companies have established branches in the city. Chengdu is the third Chinese city with two international airports after Beijing and Shanghai. Chengdu Shuangliu International Airport, and the newly built Tianfu International Airport, a hub of Air China and Sichuan Airlines, is one of the 30 busiest airports in the world, and the Chengdu railway station is one of the six biggest in China. Chengdu is considered a \"Beta + \" city classification according to the GaWC. As of 2023, the city also hosts 23 foreign consulates, the fourth most in China behind Beijing, Shanghai, and Guangzhou. Chengdu is the seat of the Western Theater Command region of the People's Liberation Army. In 2023, Chengdu became the third Chinese city to host the Summer World University Games, after Beijing and Shenzhen. In 2025, the city also hosted the World Games. It is considered one of China's best cities to live in, and also a national central city.\nChengdu is a major city for scientific outputs, ranking at #21 globally and 2nd in Western China after Xi'an. The city is home to the greatest number of universities and research institutes in Western China. Notably, these include: Sichuan University, University of Electronic Science and Technology of China, Southwestern University of Finance and Economics, Southwest Jiaotong University, Chengdu University of Technology, Sichuan Normal University, and Xihua University.",
+  "climate": "Chengdu has a monsoon-influenced humid subtropical climate and is largely warm, with high relative humidity year-round. It has four distinct seasons, with moderate rainfall concentrated mainly in the warmer months, relieving both sweltering summers and freezing winters. The Qin Mountains to the far north help shield the city from cold Siberian winds in the winter; because of this, the short winter is milder than in the Lower Yangtze. The daily mean temperature in January is 5.9 \u00b0C, and snow is rare, though there are a few periods of frost each winter. The summer is hot and humid, but not to the extent of the \"Three Furnaces\" cities of Chongqing, Wuhan, and Nanjing, all of which lie in the Yangtze basin. The 24-hour daily mean temperature in July and August is around 25 \u00b0C, with afternoon highs sometimes reaching 33 \u00b0C; sustained heat as found in much of eastern China is rare. Rainfall occurs most frequently in July and August, with very little in the cooler months. Chengdu also has one of the lowest annual sunshine totals nationally, with less sunshine annually than much of Northern Europe. With monthly percent possible sunshine ranging from 15 percent in December to 32 percent in August, the city receives 1006 hours of bright sunshine annually. Spring tends to be sunnier and warmer in the day than autumn. The annual mean is 16.9 \u00b0C, and extremes have ranged from \u22126.5 \u00b0C to 39.4 \u00b0C."
+ }
+}

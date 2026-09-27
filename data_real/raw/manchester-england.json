@@ -1,0 +1,134 @@
+{
+ "name": "Manchester",
+ "admin1": "England",
+ "country": "United Kingdom",
+ "country_code": "GB",
+ "lat": 53.48095,
+ "lon": -2.23743,
+ "population": 568996,
+ "elevation_m": 51.0,
+ "climate": [
+  {
+   "month": 1,
+   "high": 45.8,
+   "low": 35.5,
+   "precip_in": 4.35,
+   "wet_days": 17.0,
+   "snow_in": 1.2,
+   "wind_mph": 14.3,
+   "sun_frac": 0.43
+  },
+  {
+   "month": 2,
+   "high": 49.5,
+   "low": 38.4,
+   "precip_in": 3.64,
+   "wet_days": 15.0,
+   "snow_in": 1.7,
+   "wind_mph": 13.7,
+   "sun_frac": 0.36
+  },
+  {
+   "month": 3,
+   "high": 50.6,
+   "low": 39.1,
+   "precip_in": 5.16,
+   "wet_days": 19.0,
+   "snow_in": 2.7,
+   "wind_mph": 15.1,
+   "sun_frac": 0.44
+  },
+  {
+   "month": 4,
+   "high": 54.4,
+   "low": 41.1,
+   "precip_in": 4.14,
+   "wet_days": 17.5,
+   "snow_in": 0.6,
+   "wind_mph": 13.6,
+   "sun_frac": 0.55
+  },
+  {
+   "month": 5,
+   "high": 63.3,
+   "low": 48.8,
+   "precip_in": 3.47,
+   "wet_days": 13.0,
+   "snow_in": 0.0,
+   "wind_mph": 10.6,
+   "sun_frac": 0.65
+  },
+  {
+   "month": 6,
+   "high": 67.1,
+   "low": 51.3,
+   "precip_in": 2.21,
+   "wet_days": 12.0,
+   "snow_in": 0.0,
+   "wind_mph": 11.7,
+   "sun_frac": 0.67
+  },
+  {
+   "month": 7,
+   "high": 66.3,
+   "low": 53.6,
+   "precip_in": 6.04,
+   "wet_days": 21.5,
+   "snow_in": 0.0,
+   "wind_mph": 12.7,
+   "sun_frac": 0.56
+  },
+  {
+   "month": 8,
+   "high": 66.9,
+   "low": 54.3,
+   "precip_in": 4.35,
+   "wet_days": 19.0,
+   "snow_in": 0.0,
+   "wind_mph": 13.0,
+   "sun_frac": 0.62
+  },
+  {
+   "month": 9,
+   "high": 65.2,
+   "low": 52.7,
+   "precip_in": 4.75,
+   "wet_days": 16.5,
+   "snow_in": 0.0,
+   "wind_mph": 13.0,
+   "sun_frac": 0.54
+  },
+  {
+   "month": 10,
+   "high": 58.2,
+   "low": 47.2,
+   "precip_in": 5.15,
+   "wet_days": 16.0,
+   "snow_in": 0.0,
+   "wind_mph": 12.5,
+   "sun_frac": 0.49
+  },
+  {
+   "month": 11,
+   "high": 49.2,
+   "low": 39.7,
+   "precip_in": 3.36,
+   "wet_days": 13.0,
+   "snow_in": 0.7,
+   "wind_mph": 10.7,
+   "sun_frac": 0.45
+  },
+  {
+   "month": 12,
+   "high": 48.3,
+   "low": 40.7,
+   "precip_in": 5.98,
+   "wet_days": 20.5,
+   "snow_in": 1.4,
+   "wind_mph": 13.9,
+   "sun_frac": 0.27
+  }
+ ],
+ "period": "2023-01-01 to 2024-12-31",
+ "wiki": null
+}

@@ -1,0 +1,139 @@
+{
+ "name": "Salt Lake City",
+ "admin1": "Utah",
+ "country": "United States",
+ "country_code": "US",
+ "lat": 40.76078,
+ "lon": -111.89105,
+ "population": 215548,
+ "elevation_m": 1299.0,
+ "climate": [
+  {
+   "month": 1,
+   "high": 37.3,
+   "low": 23.3,
+   "precip_in": 4.55,
+   "wet_days": 15.0,
+   "snow_in": 21.7,
+   "wind_mph": 9.6,
+   "sun_frac": 0.56
+  },
+  {
+   "month": 2,
+   "high": 40.3,
+   "low": 22.8,
+   "precip_in": 3.65,
+   "wet_days": 11.0,
+   "snow_in": 12.2,
+   "wind_mph": 11.2,
+   "sun_frac": 0.72
+  },
+  {
+   "month": 3,
+   "high": 46.2,
+   "low": 26.6,
+   "precip_in": 5.14,
+   "wet_days": 19.0,
+   "snow_in": 19.3,
+   "wind_mph": 13.1,
+   "sun_frac": 0.68
+  },
+  {
+   "month": 4,
+   "high": 58.5,
+   "low": 35.3,
+   "precip_in": 2.09,
+   "wet_days": 9.5,
+   "snow_in": 5.4,
+   "wind_mph": 12.1,
+   "sun_frac": 0.81
+  },
+  {
+   "month": 5,
+   "high": 70.9,
+   "low": 45.0,
+   "precip_in": 1.13,
+   "wet_days": 8.0,
+   "snow_in": 0.5,
+   "wind_mph": 12.9,
+   "sun_frac": 0.87
+  },
+  {
+   "month": 6,
+   "high": 83.2,
+   "low": 57.2,
+   "precip_in": 0.6,
+   "wet_days": 4.0,
+   "snow_in": 0.0,
+   "wind_mph": 12.6,
+   "sun_frac": 0.9
+  },
+  {
+   "month": 7,
+   "high": 95.5,
+   "low": 66.8,
+   "precip_in": 0.07,
+   "wet_days": 1.0,
+   "snow_in": 0.0,
+   "wind_mph": 12.8,
+   "sun_frac": 0.95
+  },
+  {
+   "month": 8,
+   "high": 89.5,
+   "low": 63.9,
+   "precip_in": 1.2,
+   "wet_days": 3.0,
+   "snow_in": 0.0,
+   "wind_mph": 14.1,
+   "sun_frac": 0.9
+  },
+  {
+   "month": 9,
+   "high": 81.8,
+   "low": 55.6,
+   "precip_in": 0.84,
+   "wet_days": 2.5,
+   "snow_in": 0.0,
+   "wind_mph": 13.3,
+   "sun_frac": 0.93
+  },
+  {
+   "month": 10,
+   "high": 67.9,
+   "low": 44.5,
+   "precip_in": 1.52,
+   "wet_days": 5.0,
+   "snow_in": 0.4,
+   "wind_mph": 11.5,
+   "sun_frac": 0.84
+  },
+  {
+   "month": 11,
+   "high": 48.4,
+   "low": 29.5,
+   "precip_in": 2.32,
+   "wet_days": 8.5,
+   "snow_in": 3.0,
+   "wind_mph": 9.2,
+   "sun_frac": 0.78
+  },
+  {
+   "month": 12,
+   "high": 40.7,
+   "low": 25.3,
+   "precip_in": 1.96,
+   "wet_days": 7.5,
+   "snow_in": 6.9,
+   "wind_mph": 7.9,
+   "sun_frac": 0.77
+  }
+ ],
+ "period": "2023-01-01 to 2024-12-31",
+ "wiki": {
+  "title": "Salt Lake City",
+  "url": "https://en.wikipedia.org/wiki/Salt_Lake_City",
+  "intro": "Salt Lake City, often shortened to Salt Lake or SLC, is the capital and most populous city of the U.S. state of Utah. It is the county seat of Salt Lake County, the most populous county in the state. The population was 199,723 at the 2020 census, while the Salt Lake City metropolitan area has an estimated 1.3 million residents and is the 46th-largest metropolitan area in the United States. It is also part of the larger Salt Lake City\u2013Ogden\u2013Provo combined statistical area, an urban corridor along a 120-mile segment of the Wasatch Front with a population of approximately 2.8 million. It is one of the principal urban centers within the Great Basin, along with Reno, Nevada.\nSalt Lake City was founded in 1847 by settlers led by Brigham Young who were seeking to escape persecution they had experienced while living farther east. The Mormon pioneers, as they would come to be known, entered a semi-arid valley and immediately began building an extensive irrigation network that could feed the population and foster future growth.\nThe street grid system is based on a standard compass grid plan, with the southeast corner of Temple Square serving as the origin of the Salt Lake meridian. Owing to its proximity to the Great Salt Lake, it was originally named Great Salt Lake City; the word \"Great\" was dropped from the city's name in 1868. Immigration of international members of the Church of Jesus Christ of Latter-day Saints, mining booms, and the construction of the first transcontinental railroad brought economic growth, and the city was nicknamed \"The Crossroads of the West\". It was traversed by the Lincoln Highway, the first transcontinental highway, in 1913. Two major cross-country freeways, I-15 and I-80, intersect in the city. The city also has a belt route, I-215.\nSalt Lake City has developed a strong tourist industry based primarily on skiing, outdoor recreation, and religious tourism. It hosted the 2002 Winter Olympics and is set to host the 2034 Winter Olympics. It is known for its politically liberal culture, which stands in contrast with most of the rest of the state's highly conservative leanings. It is home to a significant LGBT community and hosts the annual Utah Pride Festival. It is the industrial banking center of the United States. Salt Lake City and the surrounding area are the location of several institutions of higher education including the state's flagship research school, the University of Utah.\nSustained drought in Utah has strained water security, caused record low water levels in Great Salt Lake, and impacted the local and state economy. The receding lake has exposed arsenic which may become airborne, subjecting area residents to poisonous dust. The city is also under threat of major earthquake damage amplified by two offshoots of the nearby Wasatch Fault that join underneath the downtown area.",
+  "climate": "Salt Lake City has a humid continental climate, while western parts may experience a Mediterranean climate, as summers are dry and hot and winters are cold and wet but rarely frigid. The eastern parts of the city are also under a Mediterranean climate when using the 27 \u00b0F isotherm. Late summer and early fall monsoonal activity can keep precipitation fairly consistent throughout the year aside from early to mid summer when rain is minimal. Temperatures are mediated by the unique geography, generally keeping highs and lows from reaching extremes.\nThe primary source of precipitation is massive storms that move in from the Pacific Ocean along the jet stream from October to May. In mid-to-late summer, when the jet stream retreats far to the north, precipitation mainly comes from afternoon thunderstorms caused by monsoon moisture moving up from the Gulf of California. Although rainfall can be heavy, these storms are usually scattered in coverage and rarely severe. However, downtown was hit by an F2 tornado on August 11, 1999, killing 1 person, injuring 60, and causing $170 million in damages. The remnants of tropical cyclones from the East Pacific can rarely reach the city during Fall. The remnants of Hurricane Olivia helped bring the record monthly precipitation of 7.04 inches in September 1982. 1983 was the wettest year on record, with 24.26 inches, while 1979 was the driest, when 8.70 inches were recorded. Spring snowmelt from the surrounding mountains can cause localized stream flooding during late spring and early summer, the worst examples being in 1952 and especially 1983, when City Creek overflowed its banks, forcing city engineers to convert several downtown streets into waterways.\nSnow falls on average from November 6 to April 18, producing a total average of 60 inches, although measurable snow has fallen as early as September 17 and as late as May 28. The snowiest season was 1951\u201352, with 117.3 inches, while the least snowy season was 16.6 inches in 1933\u201334. The snowiest month on record was January 1993, in which 50.3 inches were recorded.\nThe nearby Great Salt Lake is a significant contributor to precipitation. The lake effect can enhance rain from summer thunderstorms and produces lake-effect snow approximately 6 to 8 times per year, some of which can produce prodigious snowfall amounts. It is estimated about 10% of the annual precipitation can be attributed to the lake effect.\nSalt Lake City features large variations in temperatures between seasons. During summer, there are an average of 56 days per year with temperatures of at least 90 \u00b0F, 23 days of at least 95 \u00b0F, and 9 days of 100 \u00b0F. However, average daytime July humidity is only 22%. Winters are cold but rarely frigid. While an average of 127 days drop to or below freezing, and 26 days with high temperatures that fail to rise above freezing, the city averages 6.3 days at or below 10 \u00b0F. The record high temperature is 109 \u00b0F, which occurred on July 12, 2026, while the record low is \u221230 \u00b0F, which occurred on February 9, 1933.\nDuring mid-winter, strong areas of high pressure often stagnate over the Great Basin, leading to strong temperature inversions. This causes air stagnation and thick smog in the valley from several days to weeks at a time and can result in the nation's worst air-pollution levels. This same effect will also occasionally play a role in the summer months, causing tropospheric ozone to peak in July and August, but in 2015 it started at the beginning of June. In 2016 Salt Lake's air quality was ranked 6th worst in the nation by the American Lung Association. It received an F grade for both ozone and particulate matter. Particulate pollution is considered especially dangerous, as the tiny pollutants can lodge deep in lung tissue. Both ozone and particulate pollution are associated with increased rates of strokes, heart attacks, respiratory disease, cancer and premature death. Outdoor air particulates have been associated with low and very low birth weight, premature birth, congenital defects, and death.\nSevere drought and water diversions have shrunk the Great Salt Lake by two-thirds and reduced it to its lowest recorded levels, resulting in hundreds of square miles of dry lake bed and exposing millions of people living in the fast-growing metropolitan region to dust storms laced with arsenic and other toxic chemicals. Around 65% of the diverted water goes to agriculture, but demand for water is soaring as Utah's population grows."
+ }
+}

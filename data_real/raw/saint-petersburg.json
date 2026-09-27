@@ -1,0 +1,139 @@
+{
+ "name": "Saint Petersburg",
+ "admin1": "St.-Petersburg",
+ "country": "Russia",
+ "country_code": "RU",
+ "lat": 59.93863,
+ "lon": 30.31413,
+ "population": 5351935,
+ "elevation_m": 11.0,
+ "climate": [
+  {
+   "month": 1,
+   "high": 24.5,
+   "low": 14.5,
+   "precip_in": 1.88,
+   "wet_days": 13.0,
+   "snow_in": 10.0,
+   "wind_mph": 13.5,
+   "sun_frac": 0.2
+  },
+  {
+   "month": 2,
+   "high": 27.4,
+   "low": 17.9,
+   "precip_in": 1.7,
+   "wet_days": 8.5,
+   "snow_in": 7.5,
+   "wind_mph": 12.9,
+   "sun_frac": 0.28
+  },
+  {
+   "month": 3,
+   "high": 37.4,
+   "low": 25.4,
+   "precip_in": 2.24,
+   "wet_days": 13.0,
+   "snow_in": 8.3,
+   "wind_mph": 12.8,
+   "sun_frac": 0.41
+  },
+  {
+   "month": 4,
+   "high": 48.9,
+   "low": 32.8,
+   "precip_in": 1.96,
+   "wet_days": 12.0,
+   "snow_in": 4.9,
+   "wind_mph": 13.2,
+   "sun_frac": 0.58
+  },
+  {
+   "month": 5,
+   "high": 60.7,
+   "low": 43.1,
+   "precip_in": 1.14,
+   "wet_days": 7.5,
+   "snow_in": 0.9,
+   "wind_mph": 12.1,
+   "sun_frac": 0.82
+  },
+  {
+   "month": 6,
+   "high": 70.0,
+   "low": 54.1,
+   "precip_in": 2.36,
+   "wet_days": 12.0,
+   "snow_in": 0.0,
+   "wind_mph": 12.6,
+   "sun_frac": 0.86
+  },
+  {
+   "month": 7,
+   "high": 71.7,
+   "low": 58.2,
+   "precip_in": 4.0,
+   "wet_days": 18.5,
+   "snow_in": 0.0,
+   "wind_mph": 12.2,
+   "sun_frac": 0.74
+  },
+  {
+   "month": 8,
+   "high": 72.1,
+   "low": 57.0,
+   "precip_in": 3.7,
+   "wet_days": 14.0,
+   "snow_in": 0.0,
+   "wind_mph": 10.8,
+   "sun_frac": 0.79
+  },
+  {
+   "month": 9,
+   "high": 67.8,
+   "low": 52.4,
+   "precip_in": 2.33,
+   "wet_days": 9.0,
+   "snow_in": 0.0,
+   "wind_mph": 11.7,
+   "sun_frac": 0.76
+  },
+  {
+   "month": 10,
+   "high": 47.5,
+   "low": 37.9,
+   "precip_in": 3.5,
+   "wet_days": 13.5,
+   "snow_in": 1.1,
+   "wind_mph": 13.5,
+   "sun_frac": 0.47
+  },
+  {
+   "month": 11,
+   "high": 36.6,
+   "low": 29.6,
+   "precip_in": 2.74,
+   "wet_days": 16.0,
+   "snow_in": 6.8,
+   "wind_mph": 11.8,
+   "sun_frac": 0.2
+  },
+  {
+   "month": 12,
+   "high": 29.4,
+   "low": 22.0,
+   "precip_in": 2.51,
+   "wet_days": 15.0,
+   "snow_in": 13.4,
+   "wind_mph": 11.5,
+   "sun_frac": 0.17
+  }
+ ],
+ "period": "2023-01-01 to 2024-12-31",
+ "wiki": {
+  "title": "Saint Petersburg",
+  "url": "https://en.wikipedia.org/wiki/Saint_Petersburg",
+  "intro": "Saint Petersburg, formerly known as Petrograd, later Leningrad, is the second-largest city in Russia, after Moscow, the nation's capital. Situated on the Neva River at the head of the Gulf of Finland on the Baltic Sea, its area of 1,439 square kilometers makes it the smallest administrative division of Russia by area. The city had a population of 5,601,911 residents as of 2021, with more than 6.4 million people living in the metropolitan area. Saint Petersburg is the fourth-most populous city in Europe, the most populous city on the Baltic Sea, and the world's northernmost city of more than 1 million residents. As the former capital of the Russian Empire, and a historically strategic Baltic port, it is governed as a federal city.\nThe city was founded by Tsar Peter the Great on 27 May 1703 on the site of a captured Swedish fortress, and was named after the apostle Saint Peter. In Russia, Saint Petersburg is historically and culturally associated with the birth of the Russian Empire and Russia's entry into modern history as a European great power. It served as a capital of the Tsardom of Russia, and the subsequent Russian Empire, from 1712 to 1918. After the October Revolution in 1917, the Bolsheviks moved their government to Moscow. The city was renamed Leningrad after Lenin's death in 1924. It was the site of the siege of Leningrad during World War II, the most lethal siege in history. In June 1991, only a few months before the Belovezha Accords and the dissolution of the Soviet Union, voters in a city-wide referendum supported restoring the city's original name.\nAs Russia's cultural centre, Saint Petersburg received over 15 million tourists in 2018. It is considered an important economic, scientific, and tourism centre of Russia and Europe. In modern times, the city has been nicknamed \"the Northern Capital of Russia\" and is home to notable federal government bodies such as the Constitutional Court of Russia and the Heraldic Council of the President of the Russian Federation. It is also home to the National Library of Russia and a planned location for the Supreme Court of Russia, as well as home to the headquarters of the Russian Navy, and the Leningrad Military District of the Russian Armed Forces. The Historic Centre of Saint Petersburg and Related Groups of Monuments constitute a UNESCO World Heritage Site. Saint Petersburg is home to the Hermitage, and the Lakhta Center, and was one of the host cities of the 2018 FIFA World Cup and the UEFA Euro 2020.",
+  "climate": "Saint Petersburg is classified as a humid continental climate. The distinct moderating influence of Baltic Sea cyclones results in mild to hot, humid, short summers and long, moderately cold, wet winters. The climate of Saint Petersburg is close to that of Helsinki, although slightly more continental because of its more eastern location, while slightly less continental than that of Moscow.\nThe average high temperature in July is 23 \u00b0C, and the average low temperature in February is \u22128.5 \u00b0C; an extreme temperature of 37.1 \u00b0C occurred during the 2010 Northern Hemisphere summer heat wave. A winter low of \u221235.9 \u00b0C was recorded in 1883. The average annual temperature is 5.8 \u00b0C. The Neva River within the city limits usually freezes in November\u2013December and a break-up occurs in April. From December to March, there are 118 days on average with snow cover, which reaches an average snow depth of 19 cm by February. The frost-free period in the city lasts on average for about 135 days. Despite St. Petersburg's northern location, its winters are warmer than Moscow's due to the Gulf of Finland and some Gulf Stream influence from Scandinavian winds that can bring temperatures slightly above freezing. The city also has a slightly warmer climate than its suburbs due to the urban heat island effect. It also has a pretty low diurnal temperature variation, especially during fall and winter. Weather conditions are quite variable all year round.\nAverage annual precipitation varies across the city, averaging 660 millimetres per year and reaching a maximum in late summer. Due to the cool climate, soil moisture is almost always high because of lower evapotranspiration. Air humidity is 78% on average, and there are, on average, 165 overcast days per year."
+ }
+}

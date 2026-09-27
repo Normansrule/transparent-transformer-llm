@@ -1,0 +1,139 @@
+{
+ "name": "St. Louis",
+ "admin1": "Missouri",
+ "country": "United States",
+ "country_code": "US",
+ "lat": 38.62727,
+ "lon": -90.19789,
+ "population": 279695,
+ "elevation_m": 142.0,
+ "climate": [
+  {
+   "month": 1,
+   "high": 41.7,
+   "low": 26.9,
+   "precip_in": 3.98,
+   "wet_days": 10.0,
+   "snow_in": 3.9,
+   "wind_mph": 12.0,
+   "sun_frac": 0.54
+  },
+  {
+   "month": 2,
+   "high": 53.7,
+   "low": 32.7,
+   "precip_in": 1.37,
+   "wet_days": 5.0,
+   "snow_in": 1.2,
+   "wind_mph": 12.7,
+   "sun_frac": 0.79
+  },
+  {
+   "month": 3,
+   "high": 58.0,
+   "low": 37.8,
+   "precip_in": 5.99,
+   "wet_days": 12.0,
+   "snow_in": 0.7,
+   "wind_mph": 13.7,
+   "sun_frac": 0.69
+  },
+  {
+   "month": 4,
+   "high": 68.8,
+   "low": 47.0,
+   "precip_in": 3.62,
+   "wet_days": 9.5,
+   "snow_in": 0.0,
+   "wind_mph": 14.2,
+   "sun_frac": 0.78
+  },
+  {
+   "month": 5,
+   "high": 79.1,
+   "low": 58.4,
+   "precip_in": 5.63,
+   "wet_days": 13.5,
+   "snow_in": 0.0,
+   "wind_mph": 11.0,
+   "sun_frac": 0.79
+  },
+  {
+   "month": 6,
+   "high": 86.8,
+   "low": 65.9,
+   "precip_in": 3.26,
+   "wet_days": 8.0,
+   "snow_in": 0.0,
+   "wind_mph": 10.7,
+   "sun_frac": 0.83
+  },
+  {
+   "month": 7,
+   "high": 88.1,
+   "low": 69.3,
+   "precip_in": 6.47,
+   "wet_days": 13.5,
+   "snow_in": 0.0,
+   "wind_mph": 10.1,
+   "sun_frac": 0.82
+  },
+  {
+   "month": 8,
+   "high": 85.8,
+   "low": 68.7,
+   "precip_in": 4.58,
+   "wet_days": 9.0,
+   "snow_in": 0.0,
+   "wind_mph": 9.4,
+   "sun_frac": 0.79
+  },
+  {
+   "month": 9,
+   "high": 81.1,
+   "low": 62.2,
+   "precip_in": 2.98,
+   "wet_days": 8.5,
+   "snow_in": 0.0,
+   "wind_mph": 9.2,
+   "sun_frac": 0.82
+  },
+  {
+   "month": 10,
+   "high": 70.3,
+   "low": 50.4,
+   "precip_in": 1.48,
+   "wet_days": 5.0,
+   "snow_in": 0.0,
+   "wind_mph": 11.4,
+   "sun_frac": 0.83
+  },
+  {
+   "month": 11,
+   "high": 56.8,
+   "low": 40.5,
+   "precip_in": 3.83,
+   "wet_days": 6.5,
+   "snow_in": 0.8,
+   "wind_mph": 10.7,
+   "sun_frac": 0.72
+  },
+  {
+   "month": 12,
+   "high": 47.8,
+   "low": 34.0,
+   "precip_in": 3.3,
+   "wet_days": 10.5,
+   "snow_in": 1.2,
+   "wind_mph": 10.9,
+   "sun_frac": 0.62
+  }
+ ],
+ "period": "2023-01-01 to 2024-12-31",
+ "wiki": {
+  "title": "St. Louis",
+  "url": "https://en.wikipedia.org/wiki/St._Louis",
+  "intro": "St. Louis is an independent city in the U.S. state of Missouri. It lies near the confluence of the Mississippi and the Missouri rivers. In 2020, the city proper had a population of 301,578, while its metropolitan area, which extends into Illinois, had an estimated population of over 2.8 million. It is the largest metropolitan area in Missouri and the second-largest in Illinois. The city's metropolitan statistical area is the 23rd-largest in the United States.\nThe land that became St. Louis had been occupied by Native American cultures for thousands of years before European settlement. The city was founded on February 14, 1764, by French fur traders Gilbert Antoine de St. Maxent, Pierre Lacl\u00e8de, and Auguste Chouteau. They named it for King Louis IX of France, and it quickly became the regional center of the French Illinois Country. In 1804, the United States acquired St. Louis as part of the Louisiana Purchase. In the 19th century, St. Louis developed as a major port on the Mississippi River; from 1870 until the 1920 census, it was the fourth-largest city in the country. It separated from St. Louis County in 1877, becoming an independent city and limiting its political boundaries. In 1904, it hosted the Louisiana Purchase Exposition, also known as the St. Louis World's Fair, and the Summer Olympics.\nSt. Louis is designated as one of 173 global cities by the Globalization and World Cities Research Network. The GDP of Greater St. Louis was $226.6 billion in 2023. St. Louis has a diverse economy with strengths in the service, manufacturing, trade, transportation, and aviation industries. It is home to fourteen Fortune 1000 companies, seven of which are also Fortune 500 companies. Federal agencies headquartered in the city or with significant operations there include the Federal Reserve Bank of St. Louis, the U.S. Department of Agriculture, and the National Geospatial-Intelligence Agency.\nThe city's attractions include the 630-foot Gateway Arch, the Saint Louis Zoo, Forest Park, the City Museum, the Missouri Botanical Garden, the Saint Louis Science Center, and the Saint Louis Art Museum.\nMajor research universities in Greater St. Louis include Washington University in St. Louis, Saint Louis University, and the University of Missouri\u2013St. Louis. The Washington University Medical Center hosts an agglomeration of medical and pharmaceutical institutions, including Barnes-Jewish Hospital. St. Louis has four professional sports teams: the St. Louis Cardinals of Major League Baseball, the St. Louis Blues of the National Hockey League, St. Louis City SC of Major League Soccer, and the St. Louis Battlehawks of the United Football League.",
+  "climate": "The urban area of St. Louis has a humid subtropical climate; however, its metropolitan region even to the south may present a hot-summer humid continental climate, which shows the effect of the urban heat island in the city. The city experiences hot, humid summers and chilly to cold winters. It is subject to both cold Arctic air and hot, humid tropical air from the Gulf of Mexico. The average annual temperature recorded at nearby Lambert\u2013St. Louis International Airport, is 57.4 \u00b0F. 100 and 0 \u00b0F temperatures can be seen on an average 3 and 1 days per year, respectively. Precipitation averages 41.70 inches, but has ranged from 20.59 in in 1953 to 61.24 in in 2015. The highest recorded temperature in St. Louis was 115 \u00b0F on July 14, 1954, and the lowest was \u221222 \u00b0F on January 5, 1884.\nSt. Louis experiences thunderstorms 48 days a year on average. Especially in the spring, these storms can often be severe, with high winds, large hail and tornadoes. Lying within the hotbed of Tornado Alley, St. Louis is one of the most frequently tornado-struck metropolitan areas in the U.S. and has an extensive history of damaging tornadoes. Severe flooding, such as the Great Flood of 1993, may occur in spring and summer; the melting of thick snow cover upstream on the Missouri or Mississippi Rivers can contribute to springtime flooding."
+ }
+}

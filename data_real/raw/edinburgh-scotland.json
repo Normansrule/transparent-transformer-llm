@@ -1,0 +1,134 @@
+{
+ "name": "Edinburgh",
+ "admin1": "Scotland",
+ "country": "United Kingdom",
+ "country_code": "GB",
+ "lat": 55.95206,
+ "lon": -3.19648,
+ "population": 514990,
+ "elevation_m": 66.0,
+ "climate": [
+  {
+   "month": 1,
+   "high": 44.4,
+   "low": 36.8,
+   "precip_in": 2.99,
+   "wet_days": 13.5,
+   "snow_in": 0.6,
+   "wind_mph": 18.2,
+   "sun_frac": 0.51
+  },
+  {
+   "month": 2,
+   "high": 47.9,
+   "low": 39.2,
+   "precip_in": 2.26,
+   "wet_days": 12.5,
+   "snow_in": 0.2,
+   "wind_mph": 17.3,
+   "sun_frac": 0.43
+  },
+  {
+   "month": 3,
+   "high": 47.6,
+   "low": 37.4,
+   "precip_in": 4.01,
+   "wet_days": 18.5,
+   "snow_in": 1.2,
+   "wind_mph": 14.9,
+   "sun_frac": 0.49
+  },
+  {
+   "month": 4,
+   "high": 51.4,
+   "low": 40.2,
+   "precip_in": 3.91,
+   "wet_days": 17.5,
+   "snow_in": 0.2,
+   "wind_mph": 14.5,
+   "sun_frac": 0.56
+  },
+  {
+   "month": 5,
+   "high": 59.2,
+   "low": 47.7,
+   "precip_in": 4.28,
+   "wet_days": 11.5,
+   "snow_in": 0.0,
+   "wind_mph": 11.2,
+   "sun_frac": 0.6
+  },
+  {
+   "month": 6,
+   "high": 63.3,
+   "low": 50.4,
+   "precip_in": 2.18,
+   "wet_days": 9.5,
+   "snow_in": 0.0,
+   "wind_mph": 12.7,
+   "sun_frac": 0.71
+  },
+  {
+   "month": 7,
+   "high": 63.9,
+   "low": 53.0,
+   "precip_in": 4.7,
+   "wet_days": 20.0,
+   "snow_in": 0.0,
+   "wind_mph": 13.1,
+   "sun_frac": 0.61
+  },
+  {
+   "month": 8,
+   "high": 64.8,
+   "low": 54.1,
+   "precip_in": 3.3,
+   "wet_days": 15.0,
+   "snow_in": 0.0,
+   "wind_mph": 14.6,
+   "sun_frac": 0.69
+  },
+  {
+   "month": 9,
+   "high": 61.0,
+   "low": 50.4,
+   "precip_in": 3.29,
+   "wet_days": 12.0,
+   "snow_in": 0.0,
+   "wind_mph": 13.6,
+   "sun_frac": 0.58
+  },
+  {
+   "month": 10,
+   "high": 55.3,
+   "low": 46.8,
+   "precip_in": 5.49,
+   "wet_days": 16.5,
+   "snow_in": 0.0,
+   "wind_mph": 15.6,
+   "sun_frac": 0.49
+  },
+  {
+   "month": 11,
+   "high": 48.1,
+   "low": 39.8,
+   "precip_in": 2.76,
+   "wet_days": 9.0,
+   "snow_in": 2.8,
+   "wind_mph": 12.9,
+   "sun_frac": 0.52
+  },
+  {
+   "month": 12,
+   "high": 46.8,
+   "low": 39.5,
+   "precip_in": 4.95,
+   "wet_days": 16.0,
+   "snow_in": 1.7,
+   "wind_mph": 18.2,
+   "sun_frac": 0.31
+  }
+ ],
+ "period": "2023-01-01 to 2024-12-31",
+ "wiki": null
+}

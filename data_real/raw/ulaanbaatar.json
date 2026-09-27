@@ -1,0 +1,139 @@
+{
+ "name": "Ulaanbaatar",
+ "admin1": "Ulaanbaatar",
+ "country": "Mongolia",
+ "country_code": "MN",
+ "lat": 47.90771,
+ "lon": 106.88324,
+ "population": 844818,
+ "elevation_m": 1284.0,
+ "climate": [
+  {
+   "month": 1,
+   "high": 9.6,
+   "low": -12.3,
+   "precip_in": 0.13,
+   "wet_days": 1.5,
+   "snow_in": 0.9,
+   "wind_mph": 7.0,
+   "sun_frac": 0.88
+  },
+  {
+   "month": 2,
+   "high": 16.8,
+   "low": -9.7,
+   "precip_in": 0.09,
+   "wet_days": 0.5,
+   "snow_in": 0.6,
+   "wind_mph": 7.6,
+   "sun_frac": 0.92
+  },
+  {
+   "month": 3,
+   "high": 35.1,
+   "low": 12.3,
+   "precip_in": 0.47,
+   "wet_days": 3.5,
+   "snow_in": 3.2,
+   "wind_mph": 10.4,
+   "sun_frac": 0.89
+  },
+  {
+   "month": 4,
+   "high": 46.7,
+   "low": 24.8,
+   "precip_in": 1.0,
+   "wet_days": 7.0,
+   "snow_in": 5.8,
+   "wind_mph": 12.1,
+   "sun_frac": 0.82
+  },
+  {
+   "month": 5,
+   "high": 62.5,
+   "low": 37.4,
+   "precip_in": 1.31,
+   "wet_days": 8.5,
+   "snow_in": 1.5,
+   "wind_mph": 11.8,
+   "sun_frac": 0.72
+  },
+  {
+   "month": 6,
+   "high": 73.1,
+   "low": 48.4,
+   "precip_in": 2.47,
+   "wet_days": 10.0,
+   "snow_in": 2.1,
+   "wind_mph": 10.9,
+   "sun_frac": 0.76
+  },
+  {
+   "month": 7,
+   "high": 75.5,
+   "low": 55.0,
+   "precip_in": 4.11,
+   "wet_days": 14.5,
+   "snow_in": 0.0,
+   "wind_mph": 8.5,
+   "sun_frac": 0.69
+  },
+  {
+   "month": 8,
+   "high": 72.3,
+   "low": 52.7,
+   "precip_in": 4.97,
+   "wet_days": 12.0,
+   "snow_in": 0.0,
+   "wind_mph": 8.3,
+   "sun_frac": 0.78
+  },
+  {
+   "month": 9,
+   "high": 61.4,
+   "low": 40.1,
+   "precip_in": 1.57,
+   "wet_days": 8.0,
+   "snow_in": 0.6,
+   "wind_mph": 9.5,
+   "sun_frac": 0.73
+  },
+  {
+   "month": 10,
+   "high": 47.5,
+   "low": 27.6,
+   "precip_in": 0.56,
+   "wet_days": 3.0,
+   "snow_in": 3.1,
+   "wind_mph": 8.9,
+   "sun_frac": 0.82
+  },
+  {
+   "month": 11,
+   "high": 26.2,
+   "low": 10.0,
+   "precip_in": 0.48,
+   "wet_days": 4.5,
+   "snow_in": 3.3,
+   "wind_mph": 8.0,
+   "sun_frac": 0.79
+  },
+  {
+   "month": 12,
+   "high": 9.2,
+   "low": -8.1,
+   "precip_in": 0.25,
+   "wet_days": 2.0,
+   "snow_in": 1.8,
+   "wind_mph": 5.4,
+   "sun_frac": 0.84
+  }
+ ],
+ "period": "2023-01-01 to 2024-12-31",
+ "wiki": {
+  "title": "Ulaanbaatar",
+  "url": "https://en.wikipedia.org/wiki/Ulaanbaatar",
+  "intro": "Ulaanbaatar is the capital and largest city of Mongolia. It has a population of 1.79 million, and is the coldest capital city in the world by average yearly temperature. The municipality is located in north central Mongolia at an elevation of about 1,300 metres in a valley on the Tuul River. The city was founded in 1639 as a nomadic Buddhist monastic centre, changing location 29 times, and was permanently settled at its modern location in 1778.\nDuring its early years, as \u00d6rg\u00f6\u00f6, it became Mongolia's preeminent religious centre and seat of the Jebtsundamba Khutuktu, the spiritual head of the Gelug lineage of Tibetan Buddhism in Mongolia. Following the regulation of Qing-Russian trade by the Treaty of Kyakhta in 1727, a caravan route between Beijing and Kyakhta opened up, along which the city was eventually settled. With the collapse of the Qing dynasty in 1911, the city was a focal point for independence efforts, leading to the proclamation of the Bogd Khanate in 1911 led by the 8th Jebtsundamba Khutuktu, or Bogd Khan, and again during the communist revolution of 1921. With the proclamation of the Mongolian People's Republic in 1924, the city was officially renamed Ulaanbaatar and declared the country's capital.\nModern urban planning began in the 1950s, with most of the old ger districts replaced by Soviet-style flats. In 1990, Ulaanbaatar was the site of large demonstrations that led to Mongolia's transition to democracy and a market economy. Since 1990, an influx of migrants from the rest of the country has led to an explosive growth in its population, a major portion of whom live in ger districts, which has contributed to harmful air pollution in winter. Excessive coal production and consumption in Ulaanbaatar make it one of the world's most polluted cities, causing the incidence of pneumonia and other respiratory illnesses to spike amongst children.\nGoverned as an independent municipality, Ulaanbaatar is surrounded by T\u00f6v Province, whose capital Zuunmod lies 43 kilometres south of the city. With a population of just over 1.6 million as of December 2022, it contains almost half of the country's total population. As the country's primate city, it serves as its cultural, industrial and financial heart and the centre of its transport network.",
+  "climate": "Owing to its high elevation, its relatively high latitude, its location hundreds of kilometres from any coast, and the effects of the Siberian anticyclone, Ulaanbaatar is the coldest national capital in the world, and the coldest city on the planet with more than a million inhabitants, with a monsoon-influenced, cold semi-arid climate. Aside from precipitation and from a thermal standpoint, the city is on the boundary between humid continental and subarctic. This is due to its 10.2 \u00b0C mean temperature for the month of May.\nThe city features brief, warm summers and long, bitterly cold and dry winters. The coldest January temperatures, usually at the time just before sunrise, are between \u221236 and \u221240 \u00b0C with no wind, because of temperature inversion. Most of the annual precipitation of 267 millimetres falls from May to September. The highest recorded annual precipitation in the city was 659 millimetres or 25.94 inches at the Khureltogoot Astronomical Observatory on Bogd Khan Mountain. Ulaanbaatar has an average annual temperature of 0.2 \u00b0C or 32.4 \u00b0F, making it the coldest capital in the world. Ulaanbaatar's annual average is brought down by its cold winter temperatures even though it is significantly warm from late April to early October.\nThe city lies in the zone of discontinuous permafrost, which means that building is difficult in sheltered locations that preclude thawing in the summer, but easier on more exposed ones where soils fully thaw. Suburban residents live in traditional yurts that do not protrude into the soil. Extreme temperatures in the city range from \u221243.9 \u00b0C in January 1957 to 39.0 \u00b0C in July 1988."
+ }
+}

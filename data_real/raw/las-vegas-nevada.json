@@ -1,0 +1,134 @@
+{
+ "name": "Las Vegas",
+ "admin1": "Nevada",
+ "country": "United States",
+ "country_code": "US",
+ "lat": 36.17497,
+ "lon": -115.13722,
+ "population": 641903,
+ "elevation_m": 610.0,
+ "climate": [
+  {
+   "month": 1,
+   "high": 55.0,
+   "low": 38.6,
+   "precip_in": 1.19,
+   "wet_days": 6.0,
+   "snow_in": 0.2,
+   "wind_mph": 11.5,
+   "sun_frac": 0.76
+  },
+  {
+   "month": 2,
+   "high": 59.6,
+   "low": 40.5,
+   "precip_in": 1.21,
+   "wet_days": 5.0,
+   "snow_in": 0.3,
+   "wind_mph": 12.9,
+   "sun_frac": 0.81
+  },
+  {
+   "month": 3,
+   "high": 65.6,
+   "low": 45.9,
+   "precip_in": 0.76,
+   "wet_days": 5.5,
+   "snow_in": 0.0,
+   "wind_mph": 16.1,
+   "sun_frac": 0.82
+  },
+  {
+   "month": 4,
+   "high": 80.3,
+   "low": 55.6,
+   "precip_in": 0.05,
+   "wet_days": 0.0,
+   "snow_in": 0.0,
+   "wind_mph": 15.6,
+   "sun_frac": 0.95
+  },
+  {
+   "month": 5,
+   "high": 89.8,
+   "low": 65.0,
+   "precip_in": 0.02,
+   "wet_days": 0.0,
+   "snow_in": 0.0,
+   "wind_mph": 17.2,
+   "sun_frac": 0.93
+  },
+  {
+   "month": 6,
+   "high": 99.8,
+   "low": 74.8,
+   "precip_in": 0.36,
+   "wet_days": 1.0,
+   "snow_in": 0.0,
+   "wind_mph": 15.9,
+   "sun_frac": 0.93
+  },
+  {
+   "month": 7,
+   "high": 110.0,
+   "low": 83.6,
+   "precip_in": 0.0,
+   "wet_days": 0.0,
+   "snow_in": 0.0,
+   "wind_mph": 15.3,
+   "sun_frac": 0.95
+  },
+  {
+   "month": 8,
+   "high": 102.5,
+   "low": 79.0,
+   "precip_in": 1.43,
+   "wet_days": 2.5,
+   "snow_in": 0.0,
+   "wind_mph": 15.0,
+   "sun_frac": 0.9
+  },
+  {
+   "month": 9,
+   "high": 95.4,
+   "low": 71.9,
+   "precip_in": 0.86,
+   "wet_days": 1.0,
+   "snow_in": 0.0,
+   "wind_mph": 12.8,
+   "sun_frac": 0.91
+  },
+  {
+   "month": 10,
+   "high": 85.7,
+   "low": 62.4,
+   "precip_in": 0.04,
+   "wet_days": 0.0,
+   "snow_in": 0.0,
+   "wind_mph": 11.5,
+   "sun_frac": 0.95
+  },
+  {
+   "month": 11,
+   "high": 65.5,
+   "low": 45.3,
+   "precip_in": 0.12,
+   "wet_days": 0.5,
+   "snow_in": 0.0,
+   "wind_mph": 9.4,
+   "sun_frac": 0.9
+  },
+  {
+   "month": 12,
+   "high": 61.5,
+   "low": 41.4,
+   "precip_in": 0.18,
+   "wet_days": 1.0,
+   "snow_in": 0.0,
+   "wind_mph": 5.9,
+   "sun_frac": 0.88
+  }
+ ],
+ "period": "2023-01-01 to 2024-12-31",
+ "wiki": null
+}

@@ -1,0 +1,134 @@
+{
+ "name": "Perth",
+ "admin1": "Western Australia",
+ "country": "Australia",
+ "country_code": "AU",
+ "lat": -31.95224,
+ "lon": 115.8614,
+ "population": 2309338,
+ "elevation_m": 34.0,
+ "climate": [
+  {
+   "month": 1,
+   "high": 86.6,
+   "low": 65.9,
+   "precip_in": 0.02,
+   "wet_days": 0.0,
+   "snow_in": 0.0,
+   "wind_mph": 19.2,
+   "sun_frac": 0.94
+  },
+  {
+   "month": 2,
+   "high": 89.0,
+   "low": 67.4,
+   "precip_in": 0.34,
+   "wet_days": 1.0,
+   "snow_in": 0.0,
+   "wind_mph": 18.0,
+   "sun_frac": 0.94
+  },
+  {
+   "month": 3,
+   "high": 83.9,
+   "low": 63.6,
+   "precip_in": 1.07,
+   "wet_days": 3.0,
+   "snow_in": 0.0,
+   "wind_mph": 17.1,
+   "sun_frac": 0.93
+  },
+  {
+   "month": 4,
+   "high": 76.8,
+   "low": 58.1,
+   "precip_in": 1.25,
+   "wet_days": 5.0,
+   "snow_in": 0.0,
+   "wind_mph": 14.8,
+   "sun_frac": 0.91
+  },
+  {
+   "month": 5,
+   "high": 72.9,
+   "low": 55.7,
+   "precip_in": 3.07,
+   "wet_days": 8.0,
+   "snow_in": 0.0,
+   "wind_mph": 13.7,
+   "sun_frac": 0.81
+  },
+  {
+   "month": 6,
+   "high": 63.3,
+   "low": 50.4,
+   "precip_in": 5.53,
+   "wet_days": 14.5,
+   "snow_in": 0.0,
+   "wind_mph": 13.4,
+   "sun_frac": 0.81
+  },
+  {
+   "month": 7,
+   "high": 63.6,
+   "low": 51.2,
+   "precip_in": 5.43,
+   "wet_days": 17.0,
+   "snow_in": 0.0,
+   "wind_mph": 16.1,
+   "sun_frac": 0.84
+  },
+  {
+   "month": 8,
+   "high": 65.1,
+   "low": 51.0,
+   "precip_in": 4.3,
+   "wet_days": 12.5,
+   "snow_in": 0.0,
+   "wind_mph": 15.3,
+   "sun_frac": 0.88
+  },
+  {
+   "month": 9,
+   "high": 68.8,
+   "low": 53.1,
+   "precip_in": 1.56,
+   "wet_days": 6.0,
+   "snow_in": 0.0,
+   "wind_mph": 16.0,
+   "sun_frac": 0.91
+  },
+  {
+   "month": 10,
+   "high": 74.2,
+   "low": 56.1,
+   "precip_in": 0.94,
+   "wet_days": 5.0,
+   "snow_in": 0.0,
+   "wind_mph": 16.8,
+   "sun_frac": 0.88
+  },
+  {
+   "month": 11,
+   "high": 80.0,
+   "low": 60.8,
+   "precip_in": 0.71,
+   "wet_days": 4.5,
+   "snow_in": 0.0,
+   "wind_mph": 16.2,
+   "sun_frac": 0.93
+  },
+  {
+   "month": 12,
+   "high": 85.0,
+   "low": 65.4,
+   "precip_in": 0.13,
+   "wet_days": 1.5,
+   "snow_in": 0.0,
+   "wind_mph": 16.3,
+   "sun_frac": 0.94
+  }
+ ],
+ "period": "2023-01-01 to 2024-12-31",
+ "wiki": null
+}

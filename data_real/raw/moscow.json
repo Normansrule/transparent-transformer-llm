@@ -1,0 +1,134 @@
+{
+ "name": "Moscow",
+ "admin1": "Moscow",
+ "country": "Russia",
+ "country_code": "RU",
+ "lat": 55.75204,
+ "lon": 37.61781,
+ "population": 10381222,
+ "elevation_m": 155.0,
+ "climate": [
+  {
+   "month": 1,
+   "high": 21.2,
+   "low": 9.6,
+   "precip_in": 1.72,
+   "wet_days": 11.5,
+   "snow_in": 9.5,
+   "wind_mph": 14.5,
+   "sun_frac": 0.26
+  },
+  {
+   "month": 2,
+   "high": 25.8,
+   "low": 15.7,
+   "precip_in": 1.45,
+   "wet_days": 10.0,
+   "snow_in": 9.7,
+   "wind_mph": 15.3,
+   "sun_frac": 0.34
+  },
+  {
+   "month": 3,
+   "high": 37.2,
+   "low": 21.2,
+   "precip_in": 1.31,
+   "wet_days": 8.0,
+   "snow_in": 2.7,
+   "wind_mph": 13.1,
+   "sun_frac": 0.58
+  },
+  {
+   "month": 4,
+   "high": 58.2,
+   "low": 37.7,
+   "precip_in": 1.65,
+   "wet_days": 8.5,
+   "snow_in": 0.4,
+   "wind_mph": 12.8,
+   "sun_frac": 0.68
+  },
+  {
+   "month": 5,
+   "high": 62.7,
+   "low": 42.4,
+   "precip_in": 1.51,
+   "wet_days": 10.0,
+   "snow_in": 1.0,
+   "wind_mph": 10.9,
+   "sun_frac": 0.76
+  },
+  {
+   "month": 6,
+   "high": 73.5,
+   "low": 53.7,
+   "precip_in": 2.52,
+   "wet_days": 9.0,
+   "snow_in": 0.0,
+   "wind_mph": 12.6,
+   "sun_frac": 0.79
+  },
+  {
+   "month": 7,
+   "high": 76.2,
+   "low": 58.8,
+   "precip_in": 3.68,
+   "wet_days": 14.0,
+   "snow_in": 0.0,
+   "wind_mph": 11.5,
+   "sun_frac": 0.75
+  },
+  {
+   "month": 8,
+   "high": 74.9,
+   "low": 56.9,
+   "precip_in": 1.39,
+   "wet_days": 8.0,
+   "snow_in": 0.0,
+   "wind_mph": 9.9,
+   "sun_frac": 0.79
+  },
+  {
+   "month": 9,
+   "high": 70.4,
+   "low": 50.3,
+   "precip_in": 0.47,
+   "wet_days": 2.5,
+   "snow_in": 0.0,
+   "wind_mph": 10.9,
+   "sun_frac": 0.84
+  },
+  {
+   "month": 10,
+   "high": 48.8,
+   "low": 37.2,
+   "precip_in": 3.56,
+   "wet_days": 16.5,
+   "snow_in": 5.3,
+   "wind_mph": 13.5,
+   "sun_frac": 0.4
+  },
+  {
+   "month": 11,
+   "high": 36.4,
+   "low": 28.4,
+   "precip_in": 3.03,
+   "wet_days": 10.5,
+   "snow_in": 8.6,
+   "wind_mph": 12.2,
+   "sun_frac": 0.17
+  },
+  {
+   "month": 12,
+   "high": 27.6,
+   "low": 20.1,
+   "precip_in": 2.37,
+   "wet_days": 14.5,
+   "snow_in": 15.0,
+   "wind_mph": 11.6,
+   "sun_frac": 0.06
+  }
+ ],
+ "period": "2023-01-01 to 2024-12-31",
+ "wiki": null
+}

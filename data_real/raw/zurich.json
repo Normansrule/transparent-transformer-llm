@@ -1,0 +1,134 @@
+{
+ "name": "Zurich",
+ "admin1": "Canton of Zurich",
+ "country": "Switzerland",
+ "country_code": "CH",
+ "lat": 47.36667,
+ "lon": 8.55,
+ "population": 415367,
+ "elevation_m": 429.0,
+ "climate": [
+  {
+   "month": 1,
+   "high": 41.4,
+   "low": 30.4,
+   "precip_in": 3.2,
+   "wet_days": 13.0,
+   "snow_in": 4.3,
+   "wind_mph": 8.9,
+   "sun_frac": 0.44
+  },
+  {
+   "month": 2,
+   "high": 47.7,
+   "low": 33.0,
+   "precip_in": 1.92,
+   "wet_days": 11.0,
+   "snow_in": 1.0,
+   "wind_mph": 7.4,
+   "sun_frac": 0.59
+  },
+  {
+   "month": 3,
+   "high": 52.9,
+   "low": 36.4,
+   "precip_in": 4.82,
+   "wet_days": 15.5,
+   "snow_in": 2.9,
+   "wind_mph": 9.0,
+   "sun_frac": 0.58
+  },
+  {
+   "month": 4,
+   "high": 55.9,
+   "low": 39.1,
+   "precip_in": 5.6,
+   "wet_days": 17.0,
+   "snow_in": 4.8,
+   "wind_mph": 8.7,
+   "sun_frac": 0.56
+  },
+  {
+   "month": 5,
+   "high": 64.8,
+   "low": 48.7,
+   "precip_in": 6.05,
+   "wet_days": 18.0,
+   "snow_in": 0.0,
+   "wind_mph": 7.8,
+   "sun_frac": 0.6
+  },
+  {
+   "month": 6,
+   "high": 74.8,
+   "low": 56.6,
+   "precip_in": 4.11,
+   "wet_days": 14.0,
+   "snow_in": 0.0,
+   "wind_mph": 7.5,
+   "sun_frac": 0.75
+  },
+  {
+   "month": 7,
+   "high": 76.8,
+   "low": 60.1,
+   "precip_in": 6.52,
+   "wet_days": 17.5,
+   "snow_in": 0.0,
+   "wind_mph": 7.6,
+   "sun_frac": 0.76
+  },
+  {
+   "month": 8,
+   "high": 77.9,
+   "low": 60.5,
+   "precip_in": 4.46,
+   "wet_days": 11.0,
+   "snow_in": 0.0,
+   "wind_mph": 6.9,
+   "sun_frac": 0.75
+  },
+  {
+   "month": 9,
+   "high": 69.9,
+   "low": 54.0,
+   "precip_in": 4.21,
+   "wet_days": 10.5,
+   "snow_in": 0.0,
+   "wind_mph": 6.9,
+   "sun_frac": 0.74
+  },
+  {
+   "month": 10,
+   "high": 62.2,
+   "low": 47.4,
+   "precip_in": 4.27,
+   "wet_days": 13.0,
+   "snow_in": 0.0,
+   "wind_mph": 6.8,
+   "sun_frac": 0.63
+  },
+  {
+   "month": 11,
+   "high": 47.7,
+   "low": 37.0,
+   "precip_in": 6.33,
+   "wet_days": 16.5,
+   "snow_in": 7.3,
+   "wind_mph": 9.4,
+   "sun_frac": 0.5
+  },
+  {
+   "month": 12,
+   "high": 41.6,
+   "low": 31.6,
+   "precip_in": 5.68,
+   "wet_days": 16.0,
+   "snow_in": 6.5,
+   "wind_mph": 7.9,
+   "sun_frac": 0.48
+  }
+ ],
+ "period": "2023-01-01 to 2024-12-31",
+ "wiki": null
+}

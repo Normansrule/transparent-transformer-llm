@@ -1,0 +1,139 @@
+{
+ "name": "Tampa",
+ "admin1": "Florida",
+ "country": "United States",
+ "country_code": "US",
+ "lat": 27.94752,
+ "lon": -82.45843,
+ "population": 414547,
+ "elevation_m": 1.0,
+ "climate": [
+  {
+   "month": 1,
+   "high": 70.1,
+   "low": 53.8,
+   "precip_in": 3.06,
+   "wet_days": 8.5,
+   "snow_in": 0.0,
+   "wind_mph": 13.7,
+   "sun_frac": 0.78
+  },
+  {
+   "month": 2,
+   "high": 74.2,
+   "low": 56.5,
+   "precip_in": 2.35,
+   "wet_days": 5.0,
+   "snow_in": 0.0,
+   "wind_mph": 13.3,
+   "sun_frac": 0.86
+  },
+  {
+   "month": 3,
+   "high": 79.2,
+   "low": 62.3,
+   "precip_in": 3.4,
+   "wet_days": 10.5,
+   "snow_in": 0.0,
+   "wind_mph": 14.0,
+   "sun_frac": 0.84
+  },
+  {
+   "month": 4,
+   "high": 84.1,
+   "low": 65.2,
+   "precip_in": 2.47,
+   "wet_days": 7.0,
+   "snow_in": 0.0,
+   "wind_mph": 14.8,
+   "sun_frac": 0.88
+  },
+  {
+   "month": 5,
+   "high": 89.5,
+   "low": 71.0,
+   "precip_in": 3.21,
+   "wet_days": 10.5,
+   "snow_in": 0.0,
+   "wind_mph": 13.2,
+   "sun_frac": 0.91
+  },
+  {
+   "month": 6,
+   "high": 88.8,
+   "low": 74.9,
+   "precip_in": 6.29,
+   "wet_days": 20.0,
+   "snow_in": 0.0,
+   "wind_mph": 12.2,
+   "sun_frac": 0.85
+  },
+  {
+   "month": 7,
+   "high": 91.2,
+   "low": 77.6,
+   "precip_in": 6.18,
+   "wet_days": 23.0,
+   "snow_in": 0.0,
+   "wind_mph": 9.7,
+   "sun_frac": 0.79
+  },
+  {
+   "month": 8,
+   "high": 90.8,
+   "low": 78.0,
+   "precip_in": 8.15,
+   "wet_days": 22.0,
+   "snow_in": 0.0,
+   "wind_mph": 12.4,
+   "sun_frac": 0.86
+  },
+  {
+   "month": 9,
+   "high": 88.4,
+   "low": 74.7,
+   "precip_in": 5.22,
+   "wet_days": 16.5,
+   "snow_in": 0.0,
+   "wind_mph": 11.1,
+   "sun_frac": 0.84
+  },
+  {
+   "month": 10,
+   "high": 82.9,
+   "low": 67.9,
+   "precip_in": 7.83,
+   "wet_days": 5.5,
+   "snow_in": 0.0,
+   "wind_mph": 13.9,
+   "sun_frac": 0.84
+  },
+  {
+   "month": 11,
+   "high": 78.7,
+   "low": 62.5,
+   "precip_in": 1.33,
+   "wet_days": 4.5,
+   "snow_in": 0.0,
+   "wind_mph": 12.1,
+   "sun_frac": 0.82
+  },
+  {
+   "month": 12,
+   "high": 71.5,
+   "low": 56.4,
+   "precip_in": 2.42,
+   "wet_days": 5.0,
+   "snow_in": 0.0,
+   "wind_mph": 12.3,
+   "sun_frac": 0.8
+  }
+ ],
+ "period": "2023-01-01 to 2024-12-31",
+ "wiki": {
+  "title": "Tampa, Florida",
+  "url": "https://en.wikipedia.org/wiki/Tampa,_Florida",
+  "intro": "Tampa is a major city on the Gulf Coast of the U.S. state of Florida and the county seat of Hillsborough County. Tampa's borders include the north shore of Tampa Bay and the east shore of Old Tampa Bay. It is the third-most-populous city in Florida, 13th-most-populous in the Southeast, and 49th-most-populous city in the country, with a population of 403,364 at the 2020 census. The Tampa Bay metropolitan area, at over 3.42 million residents, is the second-largest metropolitan area in Florida and 17th-largest in the United States. The Greater Tampa Bay area has over 4 million residents and generally includes the Tampa and Sarasota metro areas.\nTampa's origins can be traced to the establishment of Fort Brooke in 1824, soon after the United States acquired the Florida territory from Spain. The surrounding settlement of Tampa was formally incorporated in 1849 but remained small and isolated until the mid-1880s, when the arrival of Henry B. Plant's railroad and Vicente Martinez Ybor's cigar factories jump-started a period of rapid economic and population growth. \"Tampa Town\" was reincorporated into the city of Tampa in 1887 and had evolved into a prosperous modern community by the early 20th century.\nIn the 21st century, Tampa has developed a diverse economy, driven by healthcare, finance, insurance, technology, cybersecurity, tourism, construction, professional services and maritime trade. The bay's port is the largest in the state, responsible for over $15 billion in economic impact. The city hosts a number of major employers, including Bloomin' Brands, WellCare, and Fortune 500 companies Crown Holdings and The Mosaic Company. Tampa's cultural landscape features the Tampa Museum of Art, Straz Center for the Performing Arts, and the historic Ybor City district, which reflects the city's Cuban and Spanish heritage. The city is also home to prominent educational institutions, including the University of South Florida and University of Tampa. The area's major league professional sports teams include the Tampa Bay Buccaneers, Tampa Bay Lightning, and Tampa Bay Rays. Tampa hosts the headquarters of United States Central Command at MacDill Air Force Base, described as the most important military HQ after the Pentagon.",
+  "climate": "The Tampa Bay area has a humid subtropical climate. Due to its location on the Florida peninsula on Tampa Bay and the Gulf of Mexico, it shows some characteristics of a tropical climate, with only the January mean temperature preventing it from being classified as such. Tampa has hot and humid summers with frequent thunderstorms and dry and mild winters. Average highs range from 71 to 91 \u00b0F year round, and lows 53 to 77 \u00b0F. The city of Tampa is split between two USDA climate zones.\nIn the 2012 USDA Plant Hardiness Zone Map, Tampa is listed as USDA zone 9b north of Kennedy Boulevard away from the bay and 10a near the shorelines and in the interbay peninsula south of Kennedy Boulevard. Zone 10a is about the northern limit of where coconut palms and royal palms can be grown, although some specimens grow in northern Tampa. Recently, certain palm tree species in the area, along with the rest of the state, have been and continue to be severely affected by a plant disease called Texas phoenix palm decline, which has caused a considerable amount of damage to various local palm tree landscapes and threatens the native palm tree species in the region."
+ }
+}

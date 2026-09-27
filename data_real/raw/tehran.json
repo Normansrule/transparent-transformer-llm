@@ -1,0 +1,134 @@
+{
+ "name": "Tehran",
+ "admin1": "Tehran",
+ "country": "Iran",
+ "country_code": "IR",
+ "lat": 35.69439,
+ "lon": 51.42151,
+ "population": 7153309,
+ "elevation_m": 1178.0,
+ "climate": [
+  {
+   "month": 1,
+   "high": 49.2,
+   "low": 33.1,
+   "precip_in": 1.62,
+   "wet_days": 7.5,
+   "snow_in": 2.6,
+   "wind_mph": 8.6,
+   "sun_frac": 0.76
+  },
+  {
+   "month": 2,
+   "high": 51.3,
+   "low": 33.7,
+   "precip_in": 1.78,
+   "wet_days": 7.0,
+   "snow_in": 5.4,
+   "wind_mph": 9.5,
+   "sun_frac": 0.78
+  },
+  {
+   "month": 3,
+   "high": 63.5,
+   "low": 42.6,
+   "precip_in": 2.54,
+   "wet_days": 7.5,
+   "snow_in": 0.0,
+   "wind_mph": 11.5,
+   "sun_frac": 0.77
+  },
+  {
+   "month": 4,
+   "high": 76.2,
+   "low": 53.0,
+   "precip_in": 0.72,
+   "wet_days": 3.5,
+   "snow_in": 0.0,
+   "wind_mph": 12.3,
+   "sun_frac": 0.86
+  },
+  {
+   "month": 5,
+   "high": 83.9,
+   "low": 62.0,
+   "precip_in": 0.86,
+   "wet_days": 4.5,
+   "snow_in": 0.0,
+   "wind_mph": 13.6,
+   "sun_frac": 0.84
+  },
+  {
+   "month": 6,
+   "high": 95.8,
+   "low": 72.9,
+   "precip_in": 0.09,
+   "wet_days": 1.0,
+   "snow_in": 0.0,
+   "wind_mph": 11.4,
+   "sun_frac": 0.87
+  },
+  {
+   "month": 7,
+   "high": 101.1,
+   "low": 79.2,
+   "precip_in": 0.0,
+   "wet_days": 0.0,
+   "snow_in": 0.0,
+   "wind_mph": 10.2,
+   "sun_frac": 0.9
+  },
+  {
+   "month": 8,
+   "high": 99.6,
+   "low": 78.0,
+   "precip_in": 0.0,
+   "wet_days": 0.0,
+   "snow_in": 0.0,
+   "wind_mph": 9.8,
+   "sun_frac": 0.94
+  },
+  {
+   "month": 9,
+   "high": 89.7,
+   "low": 69.1,
+   "precip_in": 0.36,
+   "wet_days": 1.0,
+   "snow_in": 0.0,
+   "wind_mph": 8.9,
+   "sun_frac": 0.89
+  },
+  {
+   "month": 10,
+   "high": 77.1,
+   "low": 56.6,
+   "precip_in": 0.72,
+   "wet_days": 2.5,
+   "snow_in": 0.0,
+   "wind_mph": 10.5,
+   "sun_frac": 0.92
+  },
+  {
+   "month": 11,
+   "high": 64.3,
+   "low": 46.5,
+   "precip_in": 1.4,
+   "wet_days": 6.0,
+   "snow_in": 0.0,
+   "wind_mph": 8.3,
+   "sun_frac": 0.87
+  },
+  {
+   "month": 12,
+   "high": 53.3,
+   "low": 35.8,
+   "precip_in": 0.28,
+   "wet_days": 2.0,
+   "snow_in": 0.2,
+   "wind_mph": 6.7,
+   "sun_frac": 0.83
+  }
+ ],
+ "period": "2023-01-01 to 2024-12-31",
+ "wiki": null
+}

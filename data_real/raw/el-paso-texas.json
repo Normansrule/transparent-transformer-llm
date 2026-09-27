@@ -1,0 +1,139 @@
+{
+ "name": "El Paso",
+ "admin1": "Texas",
+ "country": "United States",
+ "country_code": "US",
+ "lat": 31.75872,
+ "lon": -106.48693,
+ "population": 678815,
+ "elevation_m": 1133.0,
+ "climate": [
+  {
+   "month": 1,
+   "high": 57.1,
+   "low": 34.1,
+   "precip_in": 0.43,
+   "wet_days": 3.0,
+   "snow_in": 0.4,
+   "wind_mph": 13.6,
+   "sun_frac": 0.88
+  },
+  {
+   "month": 2,
+   "high": 61.3,
+   "low": 36.8,
+   "precip_in": 0.73,
+   "wet_days": 3.5,
+   "snow_in": 0.4,
+   "wind_mph": 14.5,
+   "sun_frac": 0.84
+  },
+  {
+   "month": 3,
+   "high": 68.8,
+   "low": 43.4,
+   "precip_in": 0.19,
+   "wet_days": 1.5,
+   "snow_in": 0.3,
+   "wind_mph": 17.2,
+   "sun_frac": 0.86
+  },
+  {
+   "month": 4,
+   "high": 78.3,
+   "low": 49.7,
+   "precip_in": 0.05,
+   "wet_days": 0.5,
+   "snow_in": 0.0,
+   "wind_mph": 15.7,
+   "sun_frac": 0.93
+  },
+  {
+   "month": 5,
+   "high": 88.0,
+   "low": 60.2,
+   "precip_in": 0.04,
+   "wet_days": 0.5,
+   "snow_in": 0.0,
+   "wind_mph": 15.1,
+   "sun_frac": 0.96
+  },
+  {
+   "month": 6,
+   "high": 97.1,
+   "low": 70.2,
+   "precip_in": 0.23,
+   "wet_days": 1.0,
+   "snow_in": 0.0,
+   "wind_mph": 16.0,
+   "sun_frac": 0.93
+  },
+  {
+   "month": 7,
+   "high": 98.4,
+   "low": 73.6,
+   "precip_in": 0.25,
+   "wet_days": 1.5,
+   "snow_in": 0.0,
+   "wind_mph": 13.5,
+   "sun_frac": 0.95
+  },
+  {
+   "month": 8,
+   "high": 95.8,
+   "low": 72.7,
+   "precip_in": 0.48,
+   "wet_days": 2.5,
+   "snow_in": 0.0,
+   "wind_mph": 12.6,
+   "sun_frac": 0.92
+  },
+  {
+   "month": 9,
+   "high": 90.9,
+   "low": 66.3,
+   "precip_in": 0.22,
+   "wet_days": 2.0,
+   "snow_in": 0.0,
+   "wind_mph": 11.6,
+   "sun_frac": 0.95
+  },
+  {
+   "month": 10,
+   "high": 81.9,
+   "low": 56.6,
+   "precip_in": 0.16,
+   "wet_days": 0.5,
+   "snow_in": 0.0,
+   "wind_mph": 11.6,
+   "sun_frac": 0.95
+  },
+  {
+   "month": 11,
+   "high": 66.3,
+   "low": 43.3,
+   "precip_in": 0.56,
+   "wet_days": 3.0,
+   "snow_in": 0.0,
+   "wind_mph": 10.5,
+   "sun_frac": 0.87
+  },
+  {
+   "month": 12,
+   "high": 60.6,
+   "low": 37.0,
+   "precip_in": 0.28,
+   "wet_days": 1.0,
+   "snow_in": 0.0,
+   "wind_mph": 9.1,
+   "sun_frac": 0.92
+  }
+ ],
+ "period": "2023-01-01 to 2024-12-31",
+ "wiki": {
+  "title": "El Paso, Texas",
+  "url": "https://en.wikipedia.org/wiki/El_Paso,_Texas",
+  "intro": "El Paso is a city in and the county seat of El Paso County, Texas, United States. It is the 23rd-most populous city in the U.S., sixth-most populous city in Texas, and the most populous city in West Texas with a population of 678,815 at the 2020 census. The El Paso metropolitan area has an estimated 879,000 residents.\nEl Paso stands on the Rio Grande across the Mexico\u2013United States border from Ciudad Ju\u00e1rez, the most populous city in the Mexican state of Chihuahua. On the U.S. side, the El Paso metropolitan area forms part of the larger El Paso\u2013Las Cruces combined statistical area with Las Cruces, New Mexico with a population of 1,108,758. These three cities form a combined international metropolitan area sometimes referred to as the Paso del Norte or the Borderplex, a region of 2.7 million people which constitutes the largest bilingual and binational workforce in the Western Hemisphere.\nThe city is home to three publicly traded companies, and is also home to the Medical Center of the Americas, the only medical research and care provider complex in West Texas, and the University of Texas at El Paso, the city's primary university. The city hosts the annual Sun Bowl college football postseason game, the second-oldest bowl game in the country. El Paso has a strong federal and military presence. William Beaumont Army Medical Center, Biggs Army Airfield, and Fort Bliss are located in the area. The Drug Enforcement Administration domestic field division 7, El Paso Intelligence Center, Joint Task Force North, United States Border Patrol El Paso Sector, and the U.S. Border Patrol Special Operations Group are also headquartered in El Paso.\nEl Paso is a five-time All-America City Award winner, winning in 1969, 2010, 2018, 2020, and 2021, and Congressional Quarterly ranked it in the top-three safest large cities in the United States between 1997 and 2014, including holding the title of the safest city between 2011 and 2014. El Paso is also the second-largest absolute-majority-Hispanic city in the United States, with 81% of its residents being Hispanic, and the largest city in the US with an absolute Hispanic majority throughout all of its history.",
+  "climate": "El Paso has a hot desert climate featuring hot summers, with little humidity, and cool to mild, dry winters. Rainfall averages 8.8 in per year, much of which occurs from June through September, and is predominantly caused by the North American Monsoon. During this period, southerly and southeasterly winds carry moisture from the Pacific, the Gulf of California, and the Gulf of Mexico into the region. When this moisture moves into the El Paso area and places to the southwest, orographic lift from the mountains, combined with strong daytime heating, causes thunderstorms, some severe enough to produce flash flooding and hail, across the region.\nThe sun shines 302 days per year on average in El Paso, 83% of daylight hours, according to the National Weather Service; from this, the city is nicknamed \"The Sun City\". Due to its arid, windy climate, El Paso often experiences sand and dust storms during the dry season, particularly during the springtime between March and early May. With an average wind speed often exceeding 30 mph and gusts that have been measured at over 75 mph, these wind storms kick up large amounts of sand and dust from the desert, causing loss of visibility.\nEl Paso and the nearby mountains also receive snow. Weather systems have produced over 1 ft of snow on several occasions. In the 1982\u20131983 winter season, three major snowstorms produced record seasonal snowfall. On December 25\u201326, 1982, 6.0 in of snow fell, producing a white Christmas for the city. This was followed by another 7.0 in on December 30\u201331, 1982. On April 4\u20137, 1983, 16.5 in of snow fell on El Paso, bringing the seasonal total to nearly 30 in. On December 13\u201314, 1987, a record storm dumped over 22 in of snow on El Paso, and two weeks later, another 3 in fell, bringing the monthly total for December 1987 to an all-time record high of 25.9 in of snow.\nThe average annual snowfall for the city varies widely between different neighborhoods at different elevations, but is 2.6 in at the airport. Snow is most rare around Ysleta and the eastern valley area, which usually include large numbers of palm trees; in the higher neighborhoods, palm trees are more vulnerable to snow and cold snaps and are often seen with brown, frost-damaged fronds.\nOne example of El Paso's varying climate at its most extreme was the damaging winter storm of early February 2011, which caused closures of schools, businesses, and City Hall. The snow, which was light, stopped after about a day, but during the ensuing cold episode, municipal utilities went into a crisis. The high temperature on February 2, 2011, was 15 \u00b0F, the lowest daily maximum on record. In addition, the low temperature on February 3 was 1 \u00b0F, breaking the 5 \u00b0F monthly record low set during the cold wave of 1899. Loss of desert vegetation, such as Mexican/California palm trees, oleanders, and iceplants to the cold weather was one of the results. Two local power plants failed, forcing El Paso Electric to institute rolling blackouts over several days, and electric wires were broken, causing localized blackouts. Many water utility pipes froze, causing areas of the city to be without water for several days.\nMonthly means range from 46.1 \u00b0F in December to 84.4 \u00b0F in July, but high temperatures typically peak in June before the monsoon arrives, while daily low temperatures typically peak in July or early August with the higher humidity the monsoon brings. On average, 42 night lows are at or below freezing, with 118 days of 90 \u00b0F + highs and 28 days of 100 \u00b0F + highs annually; extremely rarely do temperatures stay below the freezing mark all day. The city's record high is 114 \u00b0F on June 30, 1994, and its record low is \u22128 \u00b0F on January 11, 1962; the highest daily minimum was 85 \u00b0F on July 1 and 3, 1994, with weather records for the area maintained by the National Weather Service since 1879."
+ }
+}

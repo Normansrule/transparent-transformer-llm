@@ -1,0 +1,139 @@
+{
+ "name": "Baltimore",
+ "admin1": "Maryland",
+ "country": "United States",
+ "country_code": "US",
+ "lat": 39.29038,
+ "lon": -76.61219,
+ "population": 585708,
+ "elevation_m": 10.0,
+ "climate": [
+  {
+   "month": 1,
+   "high": 46.5,
+   "low": 32.0,
+   "precip_in": 4.66,
+   "wet_days": 12.0,
+   "snow_in": 2.6,
+   "wind_mph": 12.8,
+   "sun_frac": 0.57
+  },
+  {
+   "month": 2,
+   "high": 50.6,
+   "low": 32.5,
+   "precip_in": 2.55,
+   "wet_days": 8.5,
+   "snow_in": 1.9,
+   "wind_mph": 12.2,
+   "sun_frac": 0.7
+  },
+  {
+   "month": 3,
+   "high": 55.8,
+   "low": 37.2,
+   "precip_in": 4.83,
+   "wet_days": 11.0,
+   "snow_in": 0.1,
+   "wind_mph": 13.7,
+   "sun_frac": 0.66
+  },
+  {
+   "month": 4,
+   "high": 67.0,
+   "low": 47.4,
+   "precip_in": 5.64,
+   "wet_days": 12.0,
+   "snow_in": 0.0,
+   "wind_mph": 13.1,
+   "sun_frac": 0.71
+  },
+  {
+   "month": 5,
+   "high": 73.0,
+   "low": 54.4,
+   "precip_in": 2.54,
+   "wet_days": 10.5,
+   "snow_in": 0.0,
+   "wind_mph": 10.1,
+   "sun_frac": 0.73
+  },
+  {
+   "month": 6,
+   "high": 83.5,
+   "low": 63.5,
+   "precip_in": 4.87,
+   "wet_days": 11.5,
+   "snow_in": 0.0,
+   "wind_mph": 11.9,
+   "sun_frac": 0.79
+  },
+  {
+   "month": 7,
+   "high": 87.9,
+   "low": 70.1,
+   "precip_in": 5.68,
+   "wet_days": 15.0,
+   "snow_in": 0.0,
+   "wind_mph": 9.9,
+   "sun_frac": 0.8
+  },
+  {
+   "month": 8,
+   "high": 84.6,
+   "low": 67.1,
+   "precip_in": 5.42,
+   "wet_days": 12.0,
+   "snow_in": 0.0,
+   "wind_mph": 10.1,
+   "sun_frac": 0.8
+  },
+  {
+   "month": 9,
+   "high": 78.1,
+   "low": 62.1,
+   "precip_in": 4.1,
+   "wet_days": 11.5,
+   "snow_in": 0.0,
+   "wind_mph": 10.3,
+   "sun_frac": 0.67
+  },
+  {
+   "month": 10,
+   "high": 69.2,
+   "low": 50.5,
+   "precip_in": 1.61,
+   "wet_days": 5.0,
+   "snow_in": 0.0,
+   "wind_mph": 10.3,
+   "sun_frac": 0.86
+  },
+  {
+   "month": 11,
+   "high": 57.4,
+   "low": 40.9,
+   "precip_in": 2.22,
+   "wet_days": 7.0,
+   "snow_in": 0.1,
+   "wind_mph": 11.1,
+   "sun_frac": 0.8
+  },
+  {
+   "month": 12,
+   "high": 47.4,
+   "low": 33.8,
+   "precip_in": 5.7,
+   "wet_days": 8.5,
+   "snow_in": 0.2,
+   "wind_mph": 10.1,
+   "sun_frac": 0.63
+  }
+ ],
+ "period": "2023-01-01 to 2024-12-31",
+ "wiki": {
+  "title": "Baltimore",
+  "url": "https://en.wikipedia.org/wiki/Baltimore",
+  "intro": "Baltimore, also known as Baltimore City, is the most populous city in the U.S. state of Maryland. It is the 30th-most populous U.S. city with a population of 585,708 at the 2020 census and estimated at 569,997 in 2025, while the Baltimore metropolitan area at 2.86 million residents is the 22nd-largest metropolitan area in the nation. The city is also part of the Washington\u2013Baltimore combined statistical area, which had a population of 9.97 million in 2020. Baltimore was designated as an independent city by the Constitution of Maryland in 1851. Though not located under the jurisdiction of any county in the state, it forms part of the Central Maryland region together with the surrounding county that shares its name.\nThe land that is present-day Baltimore was once used as hunting ground by Paleo-Indians. In the early 1600s, the Susquehannock began to hunt there. People from the Province of Maryland established the Port of Baltimore in 1706 to support the tobacco trade with Europe and established the Town of Baltimore in 1729. During the American Revolutionary War, the Second Continental Congress briefly moved its deliberations to the Henry Fite House from December 1776 to February 1777 prior to the capture of Philadelphia to British troops, which permitted Baltimore to serve briefly as the nation's capital before it returned to Philadelphia. The Battle of Baltimore was pivotal during the War of 1812, culminating in the British bombardment of Fort McHenry, during which Francis Scott Key wrote a poem that became \"The Star-Spangled Banner\", which was designated as the national anthem in 1931. During the Pratt Street Riot of 1861, the city was the site of some of the earliest violence associated with the American Civil War.\nThe Baltimore and Ohio Railroad, the nation's oldest, was built in 1830 and reinforced Baltimore's status as a transportation hub, giving producers in the Midwest and Appalachia access to the city's port. Baltimore's Inner Harbor was the second-leading port of entry for immigrants to the U.S. after New York's Ellis Island, making Baltimore a major manufacturing center. After a decline in heavy industry and restructuring of the rail industry, Baltimore has shifted to a service-oriented economy. Johns Hopkins Hospital and University are now the city's top employers. Baltimore is also home to the Baltimore Orioles of Major League Baseball and the Baltimore Ravens of the National Football League. It is ranked as a Gamma\u2212 world city by the Globalization and World Cities Research Network.\nThe city is home to some of the earliest National Register Historic Districts in the nation, including Fell's Point, Federal Hill, and Mount Vernon. Baltimore has more public statues and monuments per capita than any other city in the U.S. Nearly one third of the buildings are designated as historic in the National Register, more than any other U.S. city. Baltimore has 66 National Register Historic Districts and 33 local historic districts.",
+  "climate": "Baltimore has a humid subtropical or oceanic climate, with hot summers, cool winters, and a summer peak to annual precipitation. Baltimore is part of USDA plant hardiness zones 7b and 8a. Summers are hot and humid, with a daily average in July of 80.7 \u00b0F and occasional late-day thunderstorms. Spring and autumn are mild, with spring the wettest season by number of precipitation days. Winters range from chilly to mild, with sporadic snowfall: January has a daily average of 35.8 \u00b0F, though temperatures reach 50 \u00b0F quite often and can occasionally drop below 20 \u00b0F when Arctic air masses affect the area. According to Vox, winters are warming faster than summers. A southeasterly bay breeze off the Chesapeake often occurs on summer afternoons; interacting with prevailing southwesterly winds and the city's urban heat island, it can exacerbate air quality. In late summer and early autumn, hurricanes or their remnants may cause flooding in downtown Baltimore, despite the city being far removed from the typical coastal storm surge areas.\nThe average seasonal snowfall is 19 inches. It varies greatly by year, with some seasons seeing only trace accumulations of snow, while others see several major Nor'easters. Owing to lessened urban heat island as compared to the city proper and distance from the moderating Chesapeake Bay, the outlying and inland parts of the Baltimore metro area are usually cooler, especially at night, than the city proper and the coastal towns. Thus, in the northern and western suburbs, winter snowfall is more significant, and some areas average more than 30 in of snow per winter.\nIt is common in winter for the rain-snow line to set up in the metro area, and freezing rain and sleet occur a few times some winters.\nLike all of Maryland, Baltimore is at risk for increased impacts of climate change. Historically, flooding has ruined houses and almost killed people, especially in lower income majority Black neighborhoods, and caused sewage backups, given the existing disrepair of Baltimore's water system.\nExtreme temperatures have ranged from \u22127 \u00b0F, most recently on January 22, 1984, up to 108 \u00b0F on July 22, 2011. On average, temperatures of 100 \u00b0F or more occur on three days annually, 90 \u00b0F or more on 43 days, and there are nine days where the high fails to reach the freezing mark."
+ }
+}

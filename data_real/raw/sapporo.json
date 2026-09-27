@@ -1,0 +1,139 @@
+{
+ "name": "Sapporo",
+ "admin1": "Hokkaido",
+ "country": "Japan",
+ "country_code": "JP",
+ "lat": 43.06667,
+ "lon": 141.35,
+ "population": 1973832,
+ "elevation_m": 26.0,
+ "climate": [
+  {
+   "month": 1,
+   "high": 27.5,
+   "low": 13.6,
+   "precip_in": 3.14,
+   "wet_days": 18.0,
+   "snow_in": 20.8,
+   "wind_mph": 16.2,
+   "sun_frac": 0.64
+  },
+  {
+   "month": 2,
+   "high": 29.1,
+   "low": 15.8,
+   "precip_in": 2.83,
+   "wet_days": 18.0,
+   "snow_in": 18.7,
+   "wind_mph": 14.9,
+   "sun_frac": 0.64
+  },
+  {
+   "month": 3,
+   "high": 39.3,
+   "low": 20.6,
+   "precip_in": 2.92,
+   "wet_days": 10.0,
+   "snow_in": 8.6,
+   "wind_mph": 15.8,
+   "sun_frac": 0.72
+  },
+  {
+   "month": 4,
+   "high": 55.6,
+   "low": 38.1,
+   "precip_in": 3.38,
+   "wet_days": 11.5,
+   "snow_in": 0.8,
+   "wind_mph": 16.0,
+   "sun_frac": 0.65
+  },
+  {
+   "month": 5,
+   "high": 62.8,
+   "low": 45.3,
+   "precip_in": 3.1,
+   "wet_days": 10.5,
+   "snow_in": 0.0,
+   "wind_mph": 14.8,
+   "sun_frac": 0.66
+  },
+  {
+   "month": 6,
+   "high": 72.0,
+   "low": 55.5,
+   "precip_in": 4.67,
+   "wet_days": 12.5,
+   "snow_in": 0.0,
+   "wind_mph": 14.3,
+   "sun_frac": 0.69
+  },
+  {
+   "month": 7,
+   "high": 78.9,
+   "low": 65.0,
+   "precip_in": 4.88,
+   "wet_days": 13.5,
+   "snow_in": 0.0,
+   "wind_mph": 13.1,
+   "sun_frac": 0.68
+  },
+  {
+   "month": 8,
+   "high": 82.5,
+   "low": 69.8,
+   "precip_in": 6.34,
+   "wet_days": 16.0,
+   "snow_in": 0.0,
+   "wind_mph": 12.9,
+   "sun_frac": 0.68
+  },
+  {
+   "month": 9,
+   "high": 73.9,
+   "low": 58.2,
+   "precip_in": 4.16,
+   "wet_days": 10.5,
+   "snow_in": 0.0,
+   "wind_mph": 13.0,
+   "sun_frac": 0.7
+  },
+  {
+   "month": 10,
+   "high": 62.3,
+   "low": 44.5,
+   "precip_in": 4.92,
+   "wet_days": 12.0,
+   "snow_in": 0.0,
+   "wind_mph": 13.3,
+   "sun_frac": 0.72
+  },
+  {
+   "month": 11,
+   "high": 48.1,
+   "low": 33.1,
+   "precip_in": 5.78,
+   "wet_days": 18.0,
+   "snow_in": 7.1,
+   "wind_mph": 13.9,
+   "sun_frac": 0.64
+  },
+  {
+   "month": 12,
+   "high": 31.9,
+   "low": 19.6,
+   "precip_in": 2.78,
+   "wet_days": 15.5,
+   "snow_in": 14.7,
+   "wind_mph": 12.1,
+   "sun_frac": 0.64
+  }
+ ],
+ "period": "2023-01-01 to 2024-12-31",
+ "wiki": {
+  "title": "Sapporo",
+  "url": "https://en.wikipedia.org/wiki/Sapporo",
+  "intro": "Sapporo is a designated city in Hokkaido, Japan. Located in the southwest of Hokkaido, it lies within the alluvial fan of the Toyohira River, a tributary of the Ishikari River. Sapporo is the capital of Hokkaido Prefecture and Ishikari Subprefecture. As of August 1, 2026, the city has a population of 1,962,596, making it the largest city in Hokkaido and the largest north of Tokyo. It is the fifth-most populous city in Japan and is Hokkaido's cultural, economic, and political center.\nOriginally a plain sparsely inhabited by the indigenous Ainu people, the area contained a few trade posts of the Matsumae domain during the Edo period. The city began as an administrative centre with the establishment of the Hokkaido Development Commission headquarters in 1869. Inspired by the ancient cities of Kyoto and Heij\u014d-ky\u014d, it adopted a grid plan and developed around Odori Park. After World War II, it replaced Otaru as Hokkaido's commercial hub, and its population surpassed one million by 1970.\nAfter being unable to host the 1940 Winter Olympics due to World War II, Sapporo hosted the 1972 Winter Olympics, the first Winter Olympics ever held in Asia, and the second Olympic Games held in Asia after the 1964 Summer Olympics in Tokyo. The Sapporo Dome hosted three matches during the 2002 FIFA World Cup and two matches during the 2019 Rugby World Cup. Additionally, Sapporo has hosted the Asian Winter Games three times, in 1986, 1990, and 2017, and also hosted the 1991 Winter Universiade.\nThe annual Sapporo Snow Festival draws more than 2 million tourists. Other notable sites include the Sapporo Beer Museum and the Sapporo TV Tower located in Odori Park. It is home to Hokkaido University, just north of Sapporo Station. The city is served by Okadama Airport and New Chitose Airport in nearby Chitose.",
+  "climate": "Sapporo has a humid continental climate, with a wide range of temperature between the summer and winter. Summers are generally warm and humid, but not oppressively hot, and winters are cold and very snowy, with an average snowfall of 4.79 m per year. Sapporo is one of few metropolises in the world with such heavy snowfall, enabling it to hold events and festivals with snow statues. The heavy snowfall is due to the Siberian High developing over the Eurasian land mass and the Aleutian Low developing over the northern Pacific Ocean, resulting in a flow of cold air southeastward across the Tsushima Current and to western Hokkaido. The city's annual average precipitation is around 1,100 mm, and the mean annual temperature is 8.5 \u00b0C.\nThe highest temperature ever recorded in Sapporo was 36.3 \u00b0C on August 23, 2023. The coldest temperature ever recorded was \u221228.5 \u00b0C on February 1, 1929."
+ }
+}

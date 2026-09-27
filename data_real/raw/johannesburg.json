@@ -1,0 +1,139 @@
+{
+ "name": "Johannesburg",
+ "admin1": "Gauteng",
+ "country": "South Africa",
+ "country_code": "ZA",
+ "lat": -26.20227,
+ "lon": 28.04363,
+ "population": 9418183,
+ "elevation_m": 1767.0,
+ "climate": [
+  {
+   "month": 1,
+   "high": 78.7,
+   "low": 57.1,
+   "precip_in": 2.57,
+   "wet_days": 8.0,
+   "snow_in": 0.0,
+   "wind_mph": 10.3,
+   "sun_frac": 0.89
+  },
+  {
+   "month": 2,
+   "high": 78.2,
+   "low": 58.2,
+   "precip_in": 4.13,
+   "wet_days": 12.0,
+   "snow_in": 0.0,
+   "wind_mph": 10.2,
+   "sun_frac": 0.83
+  },
+  {
+   "month": 3,
+   "high": 78.0,
+   "low": 56.6,
+   "precip_in": 0.9,
+   "wet_days": 5.0,
+   "snow_in": 0.0,
+   "wind_mph": 10.7,
+   "sun_frac": 0.91
+  },
+  {
+   "month": 4,
+   "high": 71.7,
+   "low": 50.4,
+   "precip_in": 1.22,
+   "wet_days": 5.0,
+   "snow_in": 0.0,
+   "wind_mph": 10.2,
+   "sun_frac": 0.92
+  },
+  {
+   "month": 5,
+   "high": 69.3,
+   "low": 46.9,
+   "precip_in": 1.05,
+   "wet_days": 4.0,
+   "snow_in": 0.0,
+   "wind_mph": 9.9,
+   "sun_frac": 0.9
+  },
+  {
+   "month": 6,
+   "high": 63.3,
+   "low": 39.8,
+   "precip_in": 0.41,
+   "wet_days": 2.0,
+   "snow_in": 0.0,
+   "wind_mph": 11.3,
+   "sun_frac": 0.94
+  },
+  {
+   "month": 7,
+   "high": 63.6,
+   "low": 38.4,
+   "precip_in": 0.03,
+   "wet_days": 0.5,
+   "snow_in": 0.0,
+   "wind_mph": 12.2,
+   "sun_frac": 0.96
+  },
+  {
+   "month": 8,
+   "high": 70.4,
+   "low": 43.1,
+   "precip_in": 0.01,
+   "wet_days": 0.0,
+   "snow_in": 0.0,
+   "wind_mph": 11.7,
+   "sun_frac": 0.96
+  },
+  {
+   "month": 9,
+   "high": 76.6,
+   "low": 49.3,
+   "precip_in": 0.76,
+   "wet_days": 4.0,
+   "snow_in": 0.0,
+   "wind_mph": 14.1,
+   "sun_frac": 0.92
+  },
+  {
+   "month": 10,
+   "high": 78.5,
+   "low": 51.6,
+   "precip_in": 1.47,
+   "wet_days": 6.5,
+   "snow_in": 0.0,
+   "wind_mph": 12.9,
+   "sun_frac": 0.86
+  },
+  {
+   "month": 11,
+   "high": 80.1,
+   "low": 57.0,
+   "precip_in": 1.69,
+   "wet_days": 8.5,
+   "snow_in": 0.0,
+   "wind_mph": 11.6,
+   "sun_frac": 0.85
+  },
+  {
+   "month": 12,
+   "high": 80.4,
+   "low": 60.2,
+   "precip_in": 3.15,
+   "wet_days": 13.0,
+   "snow_in": 0.0,
+   "wind_mph": 10.8,
+   "sun_frac": 0.84
+  }
+ ],
+ "period": "2023-01-01 to 2024-12-31",
+ "wiki": {
+  "title": "Johannesburg",
+  "url": "https://en.wikipedia.org/wiki/Johannesburg",
+  "intro": "Johannesburg, colloquially known as Jozi, Joburg, or \"the City of Gold\", is the capital city of the province of Gauteng and the largest city in South Africa. In 2022, the City of Johannesburg Metropolitan Municipality had a population of 4,803,262, and the wider metropolitan area a population of 15,099,422, making it one of the 100 largest urban areas in the world. It is also the seat of the country's highest court, the Constitutional Court. Situated on the mineral-rich Witwatersrand, the city has long been at the epicentre of the international mineral and gold trade. The richest city in Africa by GDP and private wealth, Johannesburg functions as the economic capital of South Africa and is home to the continent's largest stock exchange, the Johannesburg Stock Exchange.\nJohannesburg was established in 1886, following the discovery of gold, on what was once farmland. Within a decade, the population surged to over 100,000, driven by the large gold deposits found along the Witwatersrand. Modern Johannesburg is an amalgamation of formerly separate cities, townships and settlements, reflecting apartheid-era spatial segregation policies. Soweto, designated a \"blacks only\" city until 1994, is one of the most historically significant areas for modern South Africa. Home to key anti-apartheid leaders, including Nelson Mandela and Desmond Tutu, it became the epicenter of the 1976 Soweto Uprising, where peaceful student protests were met with brutal force. In contrast, Lenasia is predominantly populated by English-speaking Indo-South Africans. Formerly \"white-only\" areas include Sandton, known as \"Africa's richest square-mile\", Randburg and Roodeport.",
+  "climate": "Johannesburg is situated on the highveld plateau, and has a subtropical highland climate. The city enjoys a sunny climate, with the summer months characterised by hot days followed by afternoon thundershowers and cool evenings, and the winter months by dry, sunny days followed by cold nights. Temperatures in Johannesburg are usually fairly mild due to the city's high elevation, with an average maximum daytime temperature in January of 25.6 \u00b0C, dropping to an average maximum of around 16 \u00b0C in June. The UV index for Johannesburg in summers is extreme, often reaching 14\u201316 due to the high elevation and its location in the subtropics.\nWinter is the sunniest time of the year, with mild days and cool nights, dropping to around 4.1 \u00b0C in June and July. The temperature occasionally drops to below freezing at night, causing frost. Snow is a rare occurrence, with snowfall having been experienced in the twentieth century during May 1956, August 1962, June 1964 and September 1981. In the 21st century, there was light sleet in 2006, as well as snow proper on 27 June 2007, 7 August 2012, and 10 July 2023.\nRegular cold fronts pass over in winter bringing very cold southerly winds but usually clear skies. The annual average rainfall is 713 millimetres, which is mostly concentrated in the summer months. Infrequent showers occur through the course of the winter months. The lowest nighttime minimum temperature ever recorded in Johannesburg is \u22128.2 \u00b0C, on 13 June 1979. The lowest daytime maximum temperature recorded is 1.5 \u00b0C, on 19 June 1964."
+ }
+}

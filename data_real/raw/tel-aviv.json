@@ -1,0 +1,139 @@
+{
+ "name": "Tel Aviv",
+ "admin1": "Tel Aviv",
+ "country": "Israel",
+ "country_code": "IL",
+ "lat": 32.08088,
+ "lon": 34.78057,
+ "population": 432892,
+ "elevation_m": 15.0,
+ "climate": [
+  {
+   "month": 1,
+   "high": 65.5,
+   "low": 51.4,
+   "precip_in": 5.33,
+   "wet_days": 12.5,
+   "snow_in": 0.0,
+   "wind_mph": 10.7,
+   "sun_frac": 0.85
+  },
+  {
+   "month": 2,
+   "high": 63.7,
+   "low": 49.7,
+   "precip_in": 3.96,
+   "wet_days": 11.5,
+   "snow_in": 0.0,
+   "wind_mph": 11.7,
+   "sun_frac": 0.82
+  },
+  {
+   "month": 3,
+   "high": 69.6,
+   "low": 53.8,
+   "precip_in": 2.38,
+   "wet_days": 7.5,
+   "snow_in": 0.0,
+   "wind_mph": 11.9,
+   "sun_frac": 0.83
+  },
+  {
+   "month": 4,
+   "high": 74.9,
+   "low": 58.4,
+   "precip_in": 2.47,
+   "wet_days": 3.5,
+   "snow_in": 0.0,
+   "wind_mph": 11.1,
+   "sun_frac": 0.87
+  },
+  {
+   "month": 5,
+   "high": 79.7,
+   "low": 63.2,
+   "precip_in": 0.27,
+   "wet_days": 1.5,
+   "snow_in": 0.0,
+   "wind_mph": 12.0,
+   "sun_frac": 0.9
+  },
+  {
+   "month": 6,
+   "high": 85.6,
+   "low": 69.6,
+   "precip_in": 0.16,
+   "wet_days": 1.0,
+   "snow_in": 0.0,
+   "wind_mph": 11.1,
+   "sun_frac": 0.92
+  },
+  {
+   "month": 7,
+   "high": 88.7,
+   "low": 74.2,
+   "precip_in": 0.07,
+   "wet_days": 0.0,
+   "snow_in": 0.0,
+   "wind_mph": 11.4,
+   "sun_frac": 0.94
+  },
+  {
+   "month": 8,
+   "high": 88.7,
+   "low": 75.8,
+   "precip_in": 0.08,
+   "wet_days": 0.5,
+   "snow_in": 0.0,
+   "wind_mph": 10.9,
+   "sun_frac": 0.92
+  },
+  {
+   "month": 9,
+   "high": 87.6,
+   "low": 73.1,
+   "precip_in": 0.13,
+   "wet_days": 0.5,
+   "snow_in": 0.0,
+   "wind_mph": 11.4,
+   "sun_frac": 0.93
+  },
+  {
+   "month": 10,
+   "high": 83.4,
+   "low": 67.3,
+   "precip_in": 0.28,
+   "wet_days": 3.0,
+   "snow_in": 0.0,
+   "wind_mph": 11.7,
+   "sun_frac": 0.91
+  },
+  {
+   "month": 11,
+   "high": 75.3,
+   "low": 60.6,
+   "precip_in": 2.48,
+   "wet_days": 7.5,
+   "snow_in": 0.0,
+   "wind_mph": 10.8,
+   "sun_frac": 0.86
+  },
+  {
+   "month": 12,
+   "high": 69.3,
+   "low": 54.0,
+   "precip_in": 4.38,
+   "wet_days": 8.5,
+   "snow_in": 0.0,
+   "wind_mph": 9.7,
+   "sun_frac": 0.84
+  }
+ ],
+ "period": "2023-01-01 to 2024-12-31",
+ "wiki": {
+  "title": "Tel Aviv",
+  "url": "https://en.wikipedia.org/wiki/Tel_Aviv",
+  "intro": "Tel Aviv, officially Tel Aviv-Yafo, and also known as Tel Aviv-Jaffa, is the most populous city in the Gush Dan metropolitan area of Israel. Located on the Israeli Mediterranean coastline and with a population of 494,900, it is the economic and technological center of the country and a global high-tech hub. If East Jerusalem is considered part of Israel, Tel Aviv is the country's second-most-populous city, after Jerusalem; if not, Tel Aviv is the most populous city, ahead of West Jerusalem.\nTel Aviv is governed by the Tel Aviv-Yafo Municipality, headed by Mayor Ron Huldai, and is home to most of Israel's foreign embassies. It is a beta+ world city and is ranked 53rd in the 2022 Global Financial Centres Index. Tel Aviv has the third- or fourth-largest economy and the largest economy per capita in the Middle East. Tel Aviv is ranked the 4th top global startup ecosystem hub. The city currently has the highest cost of living in the world. Tel Aviv receives over 2.5 million international visitors annually. Tel Aviv is home to Tel Aviv University, the largest university in the country with more than 30,000 students.\nThe city was founded in 1909 by the Yishuv and initially given the Hebrew name Ahuzat Bayit, namesake of the Jewish association which established the neighbourhood as a modern housing estate on the outskirts of the ancient port city of Jaffa, then part of the Mutasarrifate of Jerusalem within the Ottoman Empire. Its name was changed the following year to Tel Aviv, after the biblical name Tel Abib adopted by Nahum Sokolow as the title for his Hebrew translation of Theodor Herzl's 1902 novel Altneuland. Other Jewish suburbs of Jaffa had been established before Tel Aviv, the oldest among them being Neve Tzedek. Over the following decades, Tel Aviv started rapidly developing and expanding, under the leadership of Meir Dizengoff. Tel Aviv was given township status within the Jaffa Municipality in 1921, and eventually became independent from Jaffa in 1934. Accelerating Jewish immigration, largely from Nazi Germany, caused the growth of Tel Aviv to soon outpace that of Jaffa, which had a majority Arab population at the time. In 1948, the Israeli Declaration of Independence was proclaimed in the city, and government functions were carried out there until they moved to Jerusalem over the following few years. After the 1947\u20131949 Palestine war, Tel Aviv began the municipal annexation of parts of Jaffa, being fully reunified with Jaffa under the name Tel Aviv in April 1950, before a renaming to Tel Aviv-Yafo in August 1950.\nTel Aviv's White City, designated a UNESCO World Heritage Site in 2003, comprises the world's largest concentration of International Style buildings, including Bauhaus and other related modernist architectural styles. Popular attractions include Old Jaffa, the Eretz Israel Museum, the Museum of Art, Yarkon Park, and the city's promenade and beach.",
+  "climate": "Tel Aviv has a Mediterranean climate, and enjoys plenty of sunshine throughout the year. Most precipitation falls in the form of rain between the months of October and April, with intervening dry summers, and there is almost no rainfall from June to September. The average annual temperature is 20.9 \u00b0C, and the average sea temperature is 18\u201320 \u00b0C during the winter, and 24\u201329 \u00b0C during the summer. The city averages 528 mm of precipitation annually.\nSummers in Tel Aviv last about five months, from June to October. August, the warmest month, averages a high of 30.6 \u00b0C, and a low of 25 \u00b0C. The high relative humidity due to the location of the city by the Mediterranean Sea, in a combination with the high temperatures, creates a thermal discomfort during the summer. Summer low temperatures in Tel Aviv seldom drop below 20 \u00b0C.\nWinters are mild and wet, with most of the annual precipitation falling within the months of December, January and February as intense rainfall and thunderstorms. In January, the coolest month, the average maximum temperature is 17.6 \u00b0C, the minimum temperature averages 10.2 \u00b0C. During the coldest days of winter, temperatures may vary between 8 \u00b0C and 12 \u00b0C. Both freezing temperatures and snowfall are extremely rare in the city.\nAutumns and springs are characterized by sharp temperature changes, with heat waves that might be created due to hot and dry air masses that arrive from the nearby deserts. During heatwaves in autumn and springs, temperatures usually climb up to 35 \u00b0C and even up to 40 \u00b0C, accompanied with exceptionally low humidity. An average day during autumn and spring has a high of 23 \u00b0C to 25 \u00b0C, and a low of 15 \u00b0C to 18 \u00b0C.\nThe highest recorded temperature in Tel Aviv was 46.5 \u00b0C on 17 May 1916, and the lowest is \u22121.9 \u00b0C on 7 February 1950, during a cold wave that brought the only recorded snowfall in Tel Aviv."
+ }
+}

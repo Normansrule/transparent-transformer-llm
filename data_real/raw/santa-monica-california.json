@@ -1,0 +1,139 @@
+{
+ "name": "Santa Monica",
+ "admin1": "California",
+ "country": "United States",
+ "country_code": "US",
+ "lat": 34.01949,
+ "lon": -118.49138,
+ "population": 93220,
+ "elevation_m": 32.0,
+ "climate": [
+  {
+   "month": 1,
+   "high": 61.4,
+   "low": 44.0,
+   "precip_in": 6.35,
+   "wet_days": 9.0,
+   "snow_in": 0.0,
+   "wind_mph": 10.0,
+   "sun_frac": 0.75
+  },
+  {
+   "month": 2,
+   "high": 61.7,
+   "low": 44.3,
+   "precip_in": 7.91,
+   "wet_days": 8.5,
+   "snow_in": 0.0,
+   "wind_mph": 10.2,
+   "sun_frac": 0.71
+  },
+  {
+   "month": 3,
+   "high": 61.4,
+   "low": 46.1,
+   "precip_in": 5.83,
+   "wet_days": 12.0,
+   "snow_in": 0.0,
+   "wind_mph": 10.0,
+   "sun_frac": 0.78
+  },
+  {
+   "month": 4,
+   "high": 67.4,
+   "low": 48.7,
+   "precip_in": 0.6,
+   "wet_days": 2.0,
+   "snow_in": 0.1,
+   "wind_mph": 9.8,
+   "sun_frac": 0.81
+  },
+  {
+   "month": 5,
+   "high": 67.8,
+   "low": 52.8,
+   "precip_in": 0.54,
+   "wet_days": 1.5,
+   "snow_in": 0.0,
+   "wind_mph": 9.7,
+   "sun_frac": 0.75
+  },
+  {
+   "month": 6,
+   "high": 73.4,
+   "low": 56.6,
+   "precip_in": 0.17,
+   "wet_days": 1.5,
+   "snow_in": 0.0,
+   "wind_mph": 9.5,
+   "sun_frac": 0.77
+  },
+  {
+   "month": 7,
+   "high": 83.2,
+   "low": 60.5,
+   "precip_in": 0.0,
+   "wet_days": 0.0,
+   "snow_in": 0.0,
+   "wind_mph": 8.9,
+   "sun_frac": 0.9
+  },
+  {
+   "month": 8,
+   "high": 83.3,
+   "low": 61.7,
+   "precip_in": 1.61,
+   "wet_days": 2.0,
+   "snow_in": 0.0,
+   "wind_mph": 9.2,
+   "sun_frac": 0.88
+  },
+  {
+   "month": 9,
+   "high": 80.1,
+   "low": 60.7,
+   "precip_in": 0.48,
+   "wet_days": 2.0,
+   "snow_in": 0.0,
+   "wind_mph": 9.2,
+   "sun_frac": 0.8
+  },
+  {
+   "month": 10,
+   "high": 79.4,
+   "low": 55.7,
+   "precip_in": 0.05,
+   "wet_days": 0.5,
+   "snow_in": 0.0,
+   "wind_mph": 8.3,
+   "sun_frac": 0.9
+  },
+  {
+   "month": 11,
+   "high": 71.8,
+   "low": 48.5,
+   "precip_in": 0.39,
+   "wet_days": 3.0,
+   "snow_in": 0.0,
+   "wind_mph": 8.2,
+   "sun_frac": 0.88
+  },
+  {
+   "month": 12,
+   "high": 67.4,
+   "low": 46.9,
+   "precip_in": 2.4,
+   "wet_days": 3.5,
+   "snow_in": 0.0,
+   "wind_mph": 6.8,
+   "sun_frac": 0.81
+  }
+ ],
+ "period": "2023-01-01 to 2024-12-31",
+ "wiki": {
+  "title": "Santa Monica, California",
+  "url": "https://en.wikipedia.org/wiki/Santa_Monica,_California",
+  "intro": "Santa Monica is a city in Los Angeles County, California, United States. It is situated along Santa Monica Bay on California's South Coast. As of the 2020 census, Santa Monica had a population of 93,076. Santa Monica is a popular resort town, owing to its climate, beaches, and hospitality industry. It has a diverse economy, hosting headquarters of companies such as Hulu, Activision Blizzard, Universal Music Group, Game Show Network, Starz Entertainment, Lionsgate Studios, Illumination, Snap Inc., and The Recording Academy.\nSanta Monica traces its history to Rancho San Vicente y Santa M\u00f3nica, granted in 1839 to the Sep\u00falveda family of California. The rancho was later sold to John P. Jones and Robert Baker, who, in 1875, along with his Californio heiress wife Arcadia Bandini de Stearns Baker, founded Santa Monica, which incorporated as a city in 1886. The city developed into a seaside resort during the late 19th and early 20th centuries, with the creation of tourist attractions such as Palisades Park, the Santa Monica Pier, Ocean Park, and the Hotel Casa del Mar. It is bounded by the City of Los Angeles on all sides except for the western part, which is bordered by the Pacific Ocean.",
+  "climate": "Santa Monica has a coastal Mediterranean climate. It receives an average of 310 days of sunshine a year. It is in USDA plant hardiness zone 11a. Because of its location, nestled on the vast and open Santa Monica Bay, morning fog is a common phenomenon in May, June, July and early August. Like other inhabitants of the greater Los Angeles area, residents have a particular terminology for this phenomenon: the \"May Gray\", the \"June Gloom\", and even \"Fogust\". Overcast skies are common on June mornings, but usually the strong sun burns the fog off by noon. In the late winter/early summer, daily fog is a phenomenon, too. It happens suddenly and it may last some hours or past sunset time. Nonetheless, it will sometimes stay cloudy and cool all day during June, even as other parts of the Los Angeles area experience sunny skies and warmer temperatures. At times, the sun can be shining east of 20th Street while the beach area is overcast. As a general rule, the beach temperature is from 5 to 10 degrees Fahrenheit cooler than it is inland during summer days, and 5 to 10 degrees warmer during winter nights.\nIt is also in September that the highest temperatures tend to be reached. It is winter, however, when the hot, dry winds of the Santa Anas are most common. In contrast, temperatures exceeding 10 degrees below average are rare.\nThe rainy season is from late October through late March. Winter storms usually approach from the northwest and pass quickly through the Southland. There is very little rain during the rest of the year. Yearly rainfall totals are unpredictable, as rainy years are occasionally followed by droughts. There has never been any snow or frost, but there has been hail.\nSanta Monica usually enjoys cool breezes blowing in from the ocean, which tend to keep the air fresh and clean. Therefore, smog is less of a problem for Santa Monica than elsewhere around Los Angeles. However, from September through November, the Santa Ana winds sometimes blow from the east, bringing smoggy and hot inland air to the beaches.\nThe hottest temperature ever reported in Santa Monica was 100 \u00b0F on November 1, 1966, while the lowest is 33 \u00b0F on March 1, 1945, and again on March 21, 1952. The highest minimum temperature is 72 \u00b0F on October 24, 2007, and the lowest maximum temperature is 51 \u00b0F on 4 dates in February 2001 and again on March 10, 2006. The snowiest months on record are January 1954 and March 1955, both with trace amounts. They are the only months to report any snowfall. Many months have reported no rainfall at all. Conversely, the wettest month on record is January 1995 with a total of 17.82 inches of rainfall. The wettest year on record is 1998, with a total of 25.4 inches of rainfall; the driest is 1989, with a total of 4.04 inches of rainfall."
+ }
+}

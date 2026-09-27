@@ -1,0 +1,139 @@
+{
+ "name": "Atlanta",
+ "admin1": "Georgia",
+ "country": "United States",
+ "country_code": "US",
+ "lat": 33.749,
+ "lon": -84.38798,
+ "population": 510823,
+ "elevation_m": 320.0,
+ "climate": [
+  {
+   "month": 1,
+   "high": 54.4,
+   "low": 37.0,
+   "precip_in": 6.38,
+   "wet_days": 12.5,
+   "snow_in": 0.0,
+   "wind_mph": 13.5,
+   "sun_frac": 0.63
+  },
+  {
+   "month": 2,
+   "high": 61.7,
+   "low": 42.8,
+   "precip_in": 5.28,
+   "wet_days": 11.5,
+   "snow_in": 0.0,
+   "wind_mph": 13.6,
+   "sun_frac": 0.64
+  },
+  {
+   "month": 3,
+   "high": 65.0,
+   "low": 45.8,
+   "precip_in": 6.18,
+   "wet_days": 9.0,
+   "snow_in": 0.0,
+   "wind_mph": 13.0,
+   "sun_frac": 0.69
+  },
+  {
+   "month": 4,
+   "high": 71.7,
+   "low": 51.5,
+   "precip_in": 4.84,
+   "wet_days": 12.0,
+   "snow_in": 0.0,
+   "wind_mph": 12.9,
+   "sun_frac": 0.74
+  },
+  {
+   "month": 5,
+   "high": 79.2,
+   "low": 60.7,
+   "precip_in": 5.88,
+   "wet_days": 13.5,
+   "snow_in": 0.0,
+   "wind_mph": 11.5,
+   "sun_frac": 0.74
+  },
+  {
+   "month": 6,
+   "high": 87.4,
+   "low": 66.9,
+   "precip_in": 2.69,
+   "wet_days": 9.5,
+   "snow_in": 0.0,
+   "wind_mph": 11.2,
+   "sun_frac": 0.82
+  },
+  {
+   "month": 7,
+   "high": 88.8,
+   "low": 71.3,
+   "precip_in": 7.4,
+   "wet_days": 17.0,
+   "snow_in": 0.0,
+   "wind_mph": 9.1,
+   "sun_frac": 0.78
+  },
+  {
+   "month": 8,
+   "high": 89.6,
+   "low": 70.2,
+   "precip_in": 3.88,
+   "wet_days": 11.0,
+   "snow_in": 0.0,
+   "wind_mph": 9.8,
+   "sun_frac": 0.88
+  },
+  {
+   "month": 9,
+   "high": 82.5,
+   "low": 65.0,
+   "precip_in": 5.65,
+   "wet_days": 7.5,
+   "snow_in": 0.0,
+   "wind_mph": 10.6,
+   "sun_frac": 0.79
+  },
+  {
+   "month": 10,
+   "high": 73.8,
+   "low": 54.4,
+   "precip_in": 0.84,
+   "wet_days": 2.0,
+   "snow_in": 0.0,
+   "wind_mph": 10.2,
+   "sun_frac": 0.86
+  },
+  {
+   "month": 11,
+   "high": 64.1,
+   "low": 47.2,
+   "precip_in": 2.76,
+   "wet_days": 6.5,
+   "snow_in": 0.0,
+   "wind_mph": 10.7,
+   "sun_frac": 0.67
+  },
+  {
+   "month": 12,
+   "high": 55.4,
+   "low": 38.4,
+   "precip_in": 3.25,
+   "wet_days": 8.0,
+   "snow_in": 0.0,
+   "wind_mph": 11.1,
+   "sun_frac": 0.69
+  }
+ ],
+ "period": "2023-01-01 to 2024-12-31",
+ "wiki": {
+  "title": "Atlanta",
+  "url": "https://en.wikipedia.org/wiki/Atlanta",
+  "intro": "Atlanta is the capital and most populous city of the U.S. state of Georgia. It is the county seat of Fulton County and extends into neighboring DeKalb County. With a population of 498,715 at the 2020 census and an estimated 529,110 in 2025, Atlanta is the eighth-most populous city in the Southeast and the 36th-most populous city in the United States. Atlanta is classified as a Beta+ global city. The Atlanta metropolitan area has an estimated population of over 6.4 million and is the sixth-largest metropolitan area in the United States. Situated among the foothills of the Appalachian Mountains at an elevation of just over 1,000 feet above sea level, Atlanta features a unique topography that includes rolling hills, lush greenery, and the densest urban tree coverage of any major city in the United States.\nAtlanta was originally founded as the terminus of a major state-sponsored railroad, but soon became the convergence point for several railroad lines, spurring its rapid growth. The largest of these was the Western and Atlantic Railroad, from which the name \"Atlanta\" is derived, reflecting the city's growing reputation as a major transportation hub. During the American Civil War, the city served a strategically important role for the Confederacy. It was captured in 1864 following the Atlanta campaign, and under Union General William T. Sherman, Atlanta was almost entirely burned to the ground during the March to the Sea.\nAtlanta rebounded dramatically in the post\u2013Civil War period and quickly became a national industrial center and the unofficial capital of the \"New South\". After World War II, Atlanta emerged as a manufacturing and technology hub. During the 1950s and 1960s, it became a major organizing center of the American civil rights movement, with Martin Luther King Jr., Ralph Abernathy, and many other locals serving as prominent leaders. In the modern era, Atlanta has remained a major transportation center, with Hartsfield-Jackson International Airport becoming the world's busiest airport by passenger traffic in 1998. It has maintained this position every year since, except in 2020, with an estimated 93.7 million passengers in 2022.\nWith a nominal gross domestic product of $473 billion in 2021, Atlanta has the 11th-largest economy among U.S. cities and the 22nd-largest in the world. Its economy is diverse, with dominant sectors including transportation, aerospace, logistics, healthcare, news and media operations, film and television production, information technology, finance, biomedical research, and public policy. Atlanta established itself on the world stage when it won the bid to host the 1996 Summer Olympics. The Games had a lasting impact on Atlanta's development into the 21st century, leading to significant investment in the city's universities, parks, and tourism industry. The gentrification of some of its neighborhoods has intensified in the 21st century with the growth of the Atlanta Beltline rail trail, altering Atlanta's demographics, politics, aesthetics, and culture.",
+  "climate": "Under the K\u00f6ppen classification, Atlanta has a humid subtropical climate with generous precipitation year-round, typical for the Upland South. The city is situated in USDA Plant Hardiness Zone 8a, with the northern and western suburbs, as well as part of Midtown transitioning to 7b. Summers are hot and humid, with temperatures somewhat moderated by the city's elevation. Winters are overall mild but variable, occasionally susceptible to snowstorms even if in small quantities on several occasions, unlike the central and southern portions of the state. Warm air from the Gulf of Mexico can bring spring-like highs while strong Arctic air masses can push lows into the teens \u00b0F.\nJuly averages 80.9 \u00b0F, with high temperatures reaching 90 \u00b0F on an average of 47 days per year, though 100 \u00b0F readings are not seen most years. January averages 44.8 \u00b0F, with temperatures in the suburbs slightly cooler due largely to the urban heat island effect. Lows at or below freezing can be expected 36 nights annually, but the last occurrences of temperatures below 10 \u00b0F were December 24, 2022, and January 2014, eight years apart. Extremes range from \u22129 \u00b0F on February 13, 1899 to 106 \u00b0F on June 30, 2012. Average dewpoints in the summer range from 63.7 \u00b0F in June to 67.8 \u00b0F in July.\nTypical of the southeastern U.S., Atlanta receives abundant rainfall that is evenly distributed throughout the year, though late spring and early fall are somewhat drier. The average annual precipitation is 50.43 in, while snowfall is typically light and rare, with a normal of 2.2 inches per winter. The heaviest single snowfall occurred on January 23, 1940, with around 10 inches of snow. However, ice storms usually cause more problems than snowfall does, the most severe occurring on January 7, 1973. Tornadoes are rare in the city itself, but the March 14, 2008, EF2 tornado damaged prominent structures in downtown Atlanta."
+ }
+}

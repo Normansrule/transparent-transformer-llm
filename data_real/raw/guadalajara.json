@@ -1,0 +1,139 @@
+{
+ "name": "Guadalajara",
+ "admin1": "Jalisco",
+ "country": "Mexico",
+ "country_code": "MX",
+ "lat": 20.67738,
+ "lon": -103.34749,
+ "population": 1385629,
+ "elevation_m": 1546.0,
+ "climate": [
+  {
+   "month": 1,
+   "high": 78.0,
+   "low": 50.0,
+   "precip_in": 0.05,
+   "wet_days": 0.0,
+   "snow_in": 0.0,
+   "wind_mph": 9.6,
+   "sun_frac": 0.9
+  },
+  {
+   "month": 2,
+   "high": 80.9,
+   "low": 51.6,
+   "precip_in": 0.69,
+   "wet_days": 2.0,
+   "snow_in": 0.0,
+   "wind_mph": 10.5,
+   "sun_frac": 0.91
+  },
+  {
+   "month": 3,
+   "high": 87.8,
+   "low": 54.6,
+   "precip_in": 0.05,
+   "wet_days": 0.5,
+   "snow_in": 0.0,
+   "wind_mph": 12.8,
+   "sun_frac": 0.98
+  },
+  {
+   "month": 4,
+   "high": 90.8,
+   "low": 58.4,
+   "precip_in": 0.0,
+   "wet_days": 0.0,
+   "snow_in": 0.0,
+   "wind_mph": 13.8,
+   "sun_frac": 0.95
+  },
+  {
+   "month": 5,
+   "high": 94.2,
+   "low": 62.0,
+   "precip_in": 0.06,
+   "wet_days": 0.5,
+   "snow_in": 0.0,
+   "wind_mph": 13.8,
+   "sun_frac": 0.95
+  },
+  {
+   "month": 6,
+   "high": 92.8,
+   "low": 64.6,
+   "precip_in": 3.54,
+   "wet_days": 8.0,
+   "snow_in": 0.0,
+   "wind_mph": 13.1,
+   "sun_frac": 0.9
+  },
+  {
+   "month": 7,
+   "high": 81.7,
+   "low": 62.5,
+   "precip_in": 5.38,
+   "wet_days": 19.5,
+   "snow_in": 0.0,
+   "wind_mph": 8.9,
+   "sun_frac": 0.84
+  },
+  {
+   "month": 8,
+   "high": 81.0,
+   "low": 62.0,
+   "precip_in": 5.44,
+   "wet_days": 18.5,
+   "snow_in": 0.0,
+   "wind_mph": 9.0,
+   "sun_frac": 0.82
+  },
+  {
+   "month": 9,
+   "high": 82.8,
+   "low": 62.5,
+   "precip_in": 2.39,
+   "wet_days": 9.0,
+   "snow_in": 0.0,
+   "wind_mph": 8.9,
+   "sun_frac": 0.9
+  },
+  {
+   "month": 10,
+   "high": 80.2,
+   "low": 57.6,
+   "precip_in": 2.07,
+   "wet_days": 6.0,
+   "snow_in": 0.0,
+   "wind_mph": 8.6,
+   "sun_frac": 0.87
+  },
+  {
+   "month": 11,
+   "high": 81.7,
+   "low": 56.8,
+   "precip_in": 0.84,
+   "wet_days": 3.0,
+   "snow_in": 0.0,
+   "wind_mph": 7.4,
+   "sun_frac": 0.95
+  },
+  {
+   "month": 12,
+   "high": 75.1,
+   "low": 52.2,
+   "precip_in": 1.18,
+   "wet_days": 4.0,
+   "snow_in": 0.0,
+   "wind_mph": 6.6,
+   "sun_frac": 0.88
+  }
+ ],
+ "period": "2023-01-01 to 2024-12-31",
+ "wiki": {
+  "title": "Guadalajara",
+  "url": "https://en.wikipedia.org/wiki/Guadalajara",
+  "intro": "Guadalajara is the capital and most populous city of the western Mexican state of Jalisco, as well as the most densely populated municipality in Jalisco. According to the 2020 census, the city has a population of 1,385,629 people, making it the 8th most populous city in Mexico, while the Guadalajara metropolitan area has a population of 5,268,642, making it the third-largest metropolitan area in the country and the twenty-second largest metropolitan area in the Americas. Guadalajara has the second-highest population density in Mexico with over 10,361 people per km2, surpassed only by Mexico City. Within Mexico, Guadalajara is a center of business, arts and culture, technology and tourism; as well as the economic center of the Baj\u00edo region. It usually ranks among the 100 most productive and globally competitive cities in the world. It is home to numerous landmarks, including the Guadalajara Cathedral, Degollado Theatre, the Templo Expiatorio, the UNESCO World Heritage site Hospicio Caba\u00f1as, and the San Juan de Dios Market\u2014the largest indoor market in Latin America.\nA settlement was established in the region of Guadalajara in early 1532 by Crist\u00f3bal de O\u00f1ate, a Basque conquistador in the expedition of Nu\u00f1o Beltr\u00e1n de Guzm\u00e1n. The settlement was renamed and moved several times before assuming the name Guadalajara after the birthplace of Guzm\u00e1n and ending up at its current location in the Atemajac Valley in 1542. On November 8, 1539, the Holy Roman Emperor Charles V had granted a coat of arms and the title of city to the new town and established it as the capital of the Kingdom of Nueva Galicia, part of the Viceroyalty of New Spain. After 1572, the Royal Audiencia of Guadalajara, previously subordinate to Mexico City, became the only authority in New Spain with autonomy over Nueva Galicia, owing to rapidly growing wealth in the kingdom following the discovery of silver. By the 18th century, Guadalajara had taken its place as Mexico's second largest city, following mass colonial migrations in the 1720s and 1760s. During the Mexican War of Independence, independence leader Miguel Hidalgo y Costilla established Mexico's first revolutionary government in Guadalajara in 1810. The city flourished during the Porfiriato, with the advent of the Industrial Revolution, but its growth was hampered significantly during the Mexican Revolution. In 1929, the Cristero War ended within the confines of the city, when President Plutarco El\u00edas Calles proclaimed the Grito de Guadalajara. The city saw continuous growth throughout the rest of the 20th century, attaining a metro population of 1 million in the 1960s and surpassing 3 million in the 1990s.\nGuadalajara is a Gamma+ global city, and one of Mexico's most important cultural centers. It is home to numerous mainstays of Mexican culture, including Mariachi, Tequila, and Birria and hosts numerous notable events, including the Guadalajara International Film Festival, one of the most important film festivals in Latin America, and the Guadalajara International Book Fair, the largest book fair in the Americas. The city was the American Capital of Culture in 2005 and has hosted numerous global events, including matches of the 1970, 1986, and 2026 FIFA World Cups, the 1st Ibero-American Summit in 1991, and the 2011 Pan American Games. The city is home to numerous universities and research institutions, including the University of Guadalajara and the Universidad Aut\u00f3noma de Guadalajara, two of the highest-ranked universities in Mexico.",
+  "climate": "Under the K\u00f6ppen climate classification, Guadalajara has a humid subtropical climate, a temperate climate that is quite close to a tropical climate, featuring dry warm winters and wet, mildly hot summers. Guadalajara's climate is influenced by its high altitude and the general seasonality of precipitation patterns in western North America.\nAlthough the temperature is warm year-round, Guadalajara has strong seasonal variation in precipitation. The northward movement of the Inter-Tropical Convergence Zone brings a great deal of rain in the summer months, whereas, for the rest of the year, the climate is rather dry, although daily rainfall records in each dry season month range from 36 millimeters to 75 millimeters. The extra moisture during the wet months moderates the temperatures, resulting in cooler days and nights during this period. The highest temperatures are usually reached in May averaging 33 \u00b0C, but can reach up to 37 \u00b0C just before the onset of monsoon season. March tends to be the driest month and July the wettest, with an average of 273 millimeters of rain, over a quarter of the annual average of about 1,002 millimeters.\nDuring the summer, afternoon storms are very common and can sometimes bring hail flurries to the city, especially toward late August or September. Winters are relatively warm despite the city's altitude, with January daytime temperatures reaching about 25 \u00b0C and nighttime temperatures about 10 \u00b0C. However, the outskirts of the city experience on average cooler temperatures than the city itself. There, temperatures around 0 \u00b0C can be recorded during the coldest nights. Frost may also occur during the coldest nights, but temperatures rarely fall below 0 \u00b0C in the city, making it an uncommon phenomenon. Cold fronts in winter can sometimes bring light rain to the city for several days in a row. Snowfall is extraordinarily rare, with the last recorded one occurring in December 1997, which was the first time in 116 years, as it had previously last fallen in 1881."
+ }
+}

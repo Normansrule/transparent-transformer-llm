@@ -1,0 +1,139 @@
+{
+ "name": "Miami",
+ "admin1": "Florida",
+ "country": "United States",
+ "country_code": "US",
+ "lat": 25.77427,
+ "lon": -80.19366,
+ "population": 487014,
+ "elevation_m": 2.0,
+ "climate": [
+  {
+   "month": 1,
+   "high": 76.3,
+   "low": 64.4,
+   "precip_in": 2.21,
+   "wet_days": 11.0,
+   "snow_in": 0.0,
+   "wind_mph": 13.8,
+   "sun_frac": 0.87
+  },
+  {
+   "month": 2,
+   "high": 77.3,
+   "low": 64.4,
+   "precip_in": 2.65,
+   "wet_days": 7.0,
+   "snow_in": 0.0,
+   "wind_mph": 13.8,
+   "sun_frac": 0.89
+  },
+  {
+   "month": 3,
+   "high": 80.5,
+   "low": 69.0,
+   "precip_in": 6.04,
+   "wet_days": 12.0,
+   "snow_in": 0.0,
+   "wind_mph": 14.6,
+   "sun_frac": 0.86
+  },
+  {
+   "month": 4,
+   "high": 81.4,
+   "low": 69.9,
+   "precip_in": 4.37,
+   "wet_days": 9.5,
+   "snow_in": 0.0,
+   "wind_mph": 14.0,
+   "sun_frac": 0.92
+  },
+  {
+   "month": 5,
+   "high": 86.4,
+   "low": 73.6,
+   "precip_in": 4.35,
+   "wet_days": 15.0,
+   "snow_in": 0.0,
+   "wind_mph": 12.8,
+   "sun_frac": 0.93
+  },
+  {
+   "month": 6,
+   "high": 85.4,
+   "low": 75.4,
+   "precip_in": 12.74,
+   "wet_days": 26.5,
+   "snow_in": 0.0,
+   "wind_mph": 11.7,
+   "sun_frac": 0.75
+  },
+  {
+   "month": 7,
+   "high": 88.9,
+   "low": 78.0,
+   "precip_in": 4.75,
+   "wet_days": 21.5,
+   "snow_in": 0.0,
+   "wind_mph": 10.0,
+   "sun_frac": 0.83
+  },
+  {
+   "month": 8,
+   "high": 88.8,
+   "low": 78.5,
+   "precip_in": 7.92,
+   "wet_days": 28.0,
+   "snow_in": 0.0,
+   "wind_mph": 11.9,
+   "sun_frac": 0.86
+  },
+  {
+   "month": 9,
+   "high": 87.3,
+   "low": 77.1,
+   "precip_in": 7.37,
+   "wet_days": 23.5,
+   "snow_in": 0.0,
+   "wind_mph": 11.0,
+   "sun_frac": 0.81
+  },
+  {
+   "month": 10,
+   "high": 84.0,
+   "low": 74.2,
+   "precip_in": 6.15,
+   "wet_days": 18.0,
+   "snow_in": 0.0,
+   "wind_mph": 13.8,
+   "sun_frac": 0.81
+  },
+  {
+   "month": 11,
+   "high": 81.2,
+   "low": 70.9,
+   "precip_in": 6.1,
+   "wet_days": 10.0,
+   "snow_in": 0.0,
+   "wind_mph": 13.5,
+   "sun_frac": 0.86
+  },
+  {
+   "month": 12,
+   "high": 76.0,
+   "low": 65.8,
+   "precip_in": 7.1,
+   "wet_days": 12.0,
+   "snow_in": 0.0,
+   "wind_mph": 13.5,
+   "sun_frac": 0.75
+  }
+ ],
+ "period": "2023-01-01 to 2024-12-31",
+ "wiki": {
+  "title": "Miami",
+  "url": "https://en.wikipedia.org/wiki/Miami",
+  "intro": "Miami is a coastal city in the southeast portion of the U.S. state of Florida. It is the second-most populous city proper in Florida, with a population of 442,241 at the 2020 census. The Miami metropolitan area in South Florida has an estimated 6.39 million residents, ranking as the fifth-largest metropolitan area in the Southeast and eighth-largest metropolitan area in the United States. Miami has the third-largest skyline in the U.S. with over 300 high-rises, 70 of which exceed 492 ft. It is the county seat of Miami-Dade County.\nMiami is a major urban center and leader in finance, commerce, culture, arts, and international trade. Miami's metropolitan area is the largest urban economy in Florida, with a 2023 gross domestic product of $533.674 billion. In a 2018 UBS study of 77 world cities, Miami was the third-richest city in the U.S. and the third-richest globally in purchasing power. Miami is a majority-minority city, with 70.2 percent of the city's population identifying as Hispanic and Latino as of 2020.\nDowntown Miami has one of the largest concentrations of international banks in the U.S. and is home to several large national and international companies. The Health District is home to several major University of Miami\u2013affiliated hospital and health facilities, including Jackson Memorial Hospital, the nation's largest hospital with 1,547 beds, the Miller School of Medicine, the University of Miami's academic medical center and teaching hospital, and others engaged in health-related care and research. PortMiami, the city's seaport, is the busiest cruise port in the world in both passenger traffic and cruise lines.\nThe Miami metropolitan area is the second-most visited city or metropolitan statistical area in the U.S. after New York City, with over four million visitors in 2022. Due to its strong commercial and cultural ties to Latin America and majority-Hispanic population, Miami has been called the \"Gateway to Latin America\" or even the \"Capital of Latin America\".",
+  "climate": "Miami has a tropical monsoon climate with hot and wet summers and warm and dry winters.\nMiami's sea-level elevation, coastal location, position just above the Tropic of Cancer, and proximity to the Gulf Stream shape its climate. Average winter high temperatures, from December to March, range from 76.4\u201380.3 \u00b0F. January is the coolest month with an average daily temperature of 68.2 \u00b0F. Low temperatures fall below 50 \u00b0F about 3 to 4 nights during the winter season, after the passage of cold fronts that produce what little rainfall that falls in the winter.\nThere are two basic seasons in Miami, a hot and wet season from May to October, and a warm and dry season from November to April. During the hot and wet season, daily thundershowers occur in the humid unstable air masses. The wet season in Miami is defined as the period during which the average daily dew point temperature is above 70 \u00b0F. The rainy season typically begins on the first day that occurs, or within a few days later.\nDaily rainfall in Miami decreases sharply when the average daily dew point falls to 70 \u00b0F or below. In some years, a stalled front to the south of the Florida peninsula may cause rains to continue for a few more days. From 1956 to 1997, the date summer began ranged from April 16 to June 3, with a median date of May 21. In those same years, the date summer ended ranged from September 24 to November 1, with a median date of October 17.\nDuring summer, temperatures range from the mid-80s to low 90s \u00b0F and are accompanied by high humidity. The heat is often relieved in the afternoon by thunderstorms or a sea breeze that develops off the Atlantic Ocean. Much of the year's 61.9 inches of rainfall occurs during this period. Dew points in the warm months range from 71.9 \u00b0F in June to 73.7 \u00b0F in August.\nHistorical temperature extremes range from 27 \u00b0F on February 3, 1917, to 100 \u00b0F on July 21, 1942 and August 18, 2026. While Miami has never recorded snowfall at any official weather station since records have been kept, snow flurries fell in some parts of Miami on January 19, 1977. The coldest daytime maximum temperature on record is 45 \u00b0F in December 1989 during the December 1989 United States cold wave. The warmest overnight low measured is 84 \u00b0F on several occasions.\nHurricane season officially runs from June 1 to November 30, although hurricanes can develop beyond those dates. The most likely time for Miami to be hit is during the peak of the Cape Verde season, which is mid-August to the end of September. Although tornadoes are uncommon in the area, one struck in 1925 and another in 1997. Around 40% of homes in Miami are built upon floodplains and are considered as flood-risk zones.\nMiami falls within the Department of Agriculture's 10b/11a plant hardiness zone.\nA report issued by Resources for the Future in 2020 stated that, due to global sea level rise, Miami is one of the cities in the world most vulnerable to damage caused by storms and coastal flooding. Historical tide-gauge observations show a measurable upward trend in sea level along Florida's coastline, and projections estimate that Miami may experience significantly higher flooding frequency by mid-century which in Miami is projected to be 21 inches to 40 inches by 2070, will lead to an increase in storm damage, more intense flooding, and will threaten Miami's water supply. Other potential impacts of climate change include higher hurricane wind speeds and severe thunderstorms, which can bring about hail or tornadoes. Some protective efforts are in place, including nourishing beaches and adding protective barriers, raising buildings and roads that are vulnerable, and restoring natural habitats such as wetlands. Miami Beach has invested $500 million to protect roads, buildings, and water systems. Real estate prices in Miami already reflect the increase in prices for real estate at a higher elevation within the city compared to real estate at a lower elevation."
+ }
+}

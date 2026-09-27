@@ -1,0 +1,134 @@
+{
+ "name": "Cincinnati",
+ "admin1": "Ohio",
+ "country": "United States",
+ "country_code": "US",
+ "lat": 39.12711,
+ "lon": -84.51439,
+ "population": 311097,
+ "elevation_m": 191.0,
+ "climate": [
+  {
+   "month": 1,
+   "high": 42.0,
+   "low": 28.7,
+   "precip_in": 5.15,
+   "wet_days": 13.5,
+   "snow_in": 5.2,
+   "wind_mph": 11.8,
+   "sun_frac": 0.45
+  },
+  {
+   "month": 2,
+   "high": 52.6,
+   "low": 32.3,
+   "precip_in": 1.68,
+   "wet_days": 6.0,
+   "snow_in": 0.8,
+   "wind_mph": 12.4,
+   "sun_frac": 0.77
+  },
+  {
+   "month": 3,
+   "high": 55.8,
+   "low": 36.4,
+   "precip_in": 4.66,
+   "wet_days": 10.0,
+   "snow_in": 0.4,
+   "wind_mph": 12.8,
+   "sun_frac": 0.66
+  },
+  {
+   "month": 4,
+   "high": 66.3,
+   "low": 45.8,
+   "precip_in": 4.55,
+   "wet_days": 13.0,
+   "snow_in": 0.2,
+   "wind_mph": 12.4,
+   "sun_frac": 0.72
+  },
+  {
+   "month": 5,
+   "high": 75.5,
+   "low": 56.0,
+   "precip_in": 3.4,
+   "wet_days": 11.0,
+   "snow_in": 0.0,
+   "wind_mph": 10.1,
+   "sun_frac": 0.74
+  },
+  {
+   "month": 6,
+   "high": 82.9,
+   "low": 63.0,
+   "precip_in": 3.12,
+   "wet_days": 9.0,
+   "snow_in": 0.0,
+   "wind_mph": 10.1,
+   "sun_frac": 0.8
+  },
+  {
+   "month": 7,
+   "high": 86.0,
+   "low": 67.8,
+   "precip_in": 3.51,
+   "wet_days": 14.5,
+   "snow_in": 0.0,
+   "wind_mph": 9.2,
+   "sun_frac": 0.82
+  },
+  {
+   "month": 8,
+   "high": 84.9,
+   "low": 65.7,
+   "precip_in": 3.88,
+   "wet_days": 9.5,
+   "snow_in": 0.0,
+   "wind_mph": 8.8,
+   "sun_frac": 0.88
+  },
+  {
+   "month": 9,
+   "high": 80.5,
+   "low": 61.1,
+   "precip_in": 3.77,
+   "wet_days": 8.5,
+   "snow_in": 0.0,
+   "wind_mph": 8.4,
+   "sun_frac": 0.82
+  },
+  {
+   "month": 10,
+   "high": 68.5,
+   "low": 49.9,
+   "precip_in": 1.83,
+   "wet_days": 6.5,
+   "snow_in": 0.0,
+   "wind_mph": 10.0,
+   "sun_frac": 0.81
+  },
+  {
+   "month": 11,
+   "high": 56.0,
+   "low": 40.3,
+   "precip_in": 3.02,
+   "wet_days": 8.5,
+   "snow_in": 0.5,
+   "wind_mph": 10.9,
+   "sun_frac": 0.69
+  },
+  {
+   "month": 12,
+   "high": 46.3,
+   "low": 33.4,
+   "precip_in": 3.76,
+   "wet_days": 10.0,
+   "snow_in": 0.8,
+   "wind_mph": 10.7,
+   "sun_frac": 0.52
+  }
+ ],
+ "period": "2023-01-01 to 2024-12-31",
+ "wiki": null
+}

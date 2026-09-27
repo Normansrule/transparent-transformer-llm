@@ -1,0 +1,139 @@
+{
+ "name": "Istanbul",
+ "admin1": "Istanbul",
+ "country": "Republic of T\u00fcrkiye",
+ "country_code": "TR",
+ "lat": 41.01384,
+ "lon": 28.94966,
+ "population": 15701602,
+ "elevation_m": 39.0,
+ "climate": [
+  {
+   "month": 1,
+   "high": 51.6,
+   "low": 41.9,
+   "precip_in": 2.4,
+   "wet_days": 10.5,
+   "snow_in": 0.4,
+   "wind_mph": 15.9,
+   "sun_frac": 0.59
+  },
+  {
+   "month": 2,
+   "high": 52.2,
+   "low": 41.2,
+   "precip_in": 1.47,
+   "wet_days": 7.0,
+   "snow_in": 2.1,
+   "wind_mph": 15.1,
+   "sun_frac": 0.68
+  },
+  {
+   "month": 3,
+   "high": 55.7,
+   "low": 42.8,
+   "precip_in": 3.99,
+   "wet_days": 13.0,
+   "snow_in": 0.2,
+   "wind_mph": 12.9,
+   "sun_frac": 0.57
+  },
+  {
+   "month": 4,
+   "high": 64.0,
+   "low": 50.5,
+   "precip_in": 3.29,
+   "wet_days": 10.0,
+   "snow_in": 0.0,
+   "wind_mph": 13.6,
+   "sun_frac": 0.7
+  },
+  {
+   "month": 5,
+   "high": 67.3,
+   "low": 53.9,
+   "precip_in": 2.72,
+   "wet_days": 12.0,
+   "snow_in": 0.0,
+   "wind_mph": 13.9,
+   "sun_frac": 0.72
+  },
+  {
+   "month": 6,
+   "high": 81.0,
+   "low": 65.6,
+   "precip_in": 1.06,
+   "wet_days": 3.5,
+   "snow_in": 0.0,
+   "wind_mph": 14.6,
+   "sun_frac": 0.88
+  },
+  {
+   "month": 7,
+   "high": 87.7,
+   "low": 71.0,
+   "precip_in": 0.83,
+   "wet_days": 4.5,
+   "snow_in": 0.0,
+   "wind_mph": 15.3,
+   "sun_frac": 0.92
+  },
+  {
+   "month": 8,
+   "high": 86.8,
+   "low": 71.9,
+   "precip_in": 0.3,
+   "wet_days": 1.0,
+   "snow_in": 0.0,
+   "wind_mph": 16.2,
+   "sun_frac": 0.9
+  },
+  {
+   "month": 9,
+   "high": 80.5,
+   "low": 66.4,
+   "precip_in": 3.27,
+   "wet_days": 9.0,
+   "snow_in": 0.0,
+   "wind_mph": 14.8,
+   "sun_frac": 0.85
+  },
+  {
+   "month": 10,
+   "high": 70.7,
+   "low": 58.0,
+   "precip_in": 1.01,
+   "wet_days": 4.5,
+   "snow_in": 0.0,
+   "wind_mph": 13.0,
+   "sun_frac": 0.79
+  },
+  {
+   "month": 11,
+   "high": 61.3,
+   "low": 50.9,
+   "precip_in": 7.01,
+   "wet_days": 11.0,
+   "snow_in": 0.4,
+   "wind_mph": 15.9,
+   "sun_frac": 0.65
+  },
+  {
+   "month": 12,
+   "high": 54.3,
+   "low": 46.3,
+   "precip_in": 5.12,
+   "wet_days": 13.0,
+   "snow_in": 0.0,
+   "wind_mph": 13.2,
+   "sun_frac": 0.55
+  }
+ ],
+ "period": "2023-01-01 to 2024-12-31",
+ "wiki": {
+  "title": "Istanbul",
+  "url": "https://en.wikipedia.org/wiki/Istanbul",
+  "intro": "Istanbul is the largest city in Turkey, a megacity, constituting the country's economic, cultural, and historical center. With a population of over 15 million, it is home to 18% of the population of Turkey. Istanbul is among the largest cities in Europe and in the world by population. It is a city on two continents; about two-thirds of its population live in Europe and the rest in Asia. Istanbul straddles the Bosphorus \u2013 one of the world's busiest waterways \u2013 in northwestern Turkey, between the Sea of Marmara and the Black Sea. Its area of 5,461 square kilometers is coterminous with Istanbul Province.\nThe city developed to become one of the most significant cities in history. Byzantium was founded on the Sarayburnu promontory by Greek colonists in the seventh century BC. Over nearly 16 centuries following its reestablishment as Constantinople in 330 AD, it served as the capital of four empires: the Roman Empire, the Eastern Roman Empire, the Latin Empire, and the Ottoman Empire. It was instrumental in the advancement of Christianity during Roman and Byzantine times, before the Ottomans conquered the city in 1453 and transformed it into an Islamic stronghold and the seat of its caliphate. Although the Republic of Turkey established its capital in Ankara, palaces and imperial mosques still line Istanbul's hills as visible reminders of the city's previous central role. The historic centre of Istanbul is a UNESCO World Heritage Site.\nIstanbul's strategic position along the historic Silk Road, rail networks to Europe and West Asia, and the only sea route between the Black Sea and the Mediterranean have helped foster an eclectic populace, although less so since the establishment of the Republic in 1923. Overlooked for the new capital during the interwar period, the city has since regained much of its prominence. The population of the city has increased tenfold since the 1950s, as migrants from across Anatolia have flocked to the metropolis and city limits have expanded to accommodate them. The majority of Istanbul\u2019s Turkish citizens are of ethnic Turkish origin, whereas ethnic Kurds represent the largest ethnic minority in the city.\nConsidered an alpha global city, Istanbul accounts for about thirty percent of Turkey's economy. The Istanbul-\u0130zmit area is one of the main industrial regions in Turkey. In 2025, Euromonitor International ranked Istanbul as the fifth most visited city in the world. Istanbul is home to two international airports, multiple ports, and numerous universities. It is among the top 100 science and technology clusters in the world. The city hosts a large part of Turkish football and sports in general, with clubs such as Galatasaray, Fenerbah\u00e7e and Be\u015fikta\u015f. Istanbul is vulnerable to earthquakes as it is in close proximity to the North Anatolian Fault.",
+  "climate": "Istanbul's climate is temperate; the city's position on the Mediterranean basin and proximity to multiple bodies of water create a moderate, yet locally complicated climate with strong maritime features. According to the K\u00f6ppen climate classification, the city is considered either hot-summer Mediterranean or humid subtropical, while Trewartha considers most of the city to be humid subtropical. Alisov places the entire city into the oceanic zone, meanwhile Bohn, summarizing, describes the city's climate as one of \"sub-continental-sub-Mediterranean transition\".\nThe city's summers are warm to hot and moderately dry, with an average daytime temperature of about 28 \u00b0C, and less than 7 days of precipitation per month. Despite the generally acceptable temperature range, mid-summer in Istanbul is considered moderately uncomfortable, due to high dew points and relative humidity. Winters, meanwhile, feature daytime temperatures oscillating between 5\u201310 \u00b0C, with frequent, sometimes intense, precipitation.\nIstanbul's precipitation is therefore unevenly distributed, with winter months getting at least twice the level of precipitation of their summerly counterparts. Cloudiness, as with precipitation, varies greatly by season. Winters are quite cloudy, with about 20 percent of days featuring sunshine. Meanwhile, summers experience 60-70 percent of possible sunshine.\nSnowfall is sporadic, but accumulates virtually every winter; and when it does, it is highly disruptive to city infrastructure. Sea-effect snowstorms with more than 30 centimetres of snowfall happen almost annually, most recently in 2022."
+ }
+}

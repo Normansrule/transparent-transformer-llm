@@ -1,0 +1,139 @@
+{
+ "name": "Fresno",
+ "admin1": "California",
+ "country": "United States",
+ "country_code": "US",
+ "lat": 36.74773,
+ "lon": -119.77237,
+ "population": 542107,
+ "elevation_m": 94.0,
+ "climate": [
+  {
+   "month": 1,
+   "high": 56.7,
+   "low": 40.2,
+   "precip_in": 4.93,
+   "wet_days": 13.0,
+   "snow_in": 0.0,
+   "wind_mph": 8.9,
+   "sun_frac": 0.65
+  },
+  {
+   "month": 2,
+   "high": 58.9,
+   "low": 39.1,
+   "precip_in": 4.7,
+   "wet_days": 9.5,
+   "snow_in": 2.5,
+   "wind_mph": 9.6,
+   "sun_frac": 0.77
+  },
+  {
+   "month": 3,
+   "high": 62.1,
+   "low": 44.1,
+   "precip_in": 6.0,
+   "wet_days": 13.5,
+   "snow_in": 0.0,
+   "wind_mph": 10.1,
+   "sun_frac": 0.78
+  },
+  {
+   "month": 4,
+   "high": 72.8,
+   "low": 48.5,
+   "precip_in": 0.74,
+   "wet_days": 2.0,
+   "snow_in": 0.0,
+   "wind_mph": 10.0,
+   "sun_frac": 0.91
+  },
+  {
+   "month": 5,
+   "high": 84.0,
+   "low": 57.1,
+   "precip_in": 0.37,
+   "wet_days": 1.5,
+   "snow_in": 0.0,
+   "wind_mph": 10.7,
+   "sun_frac": 0.93
+  },
+  {
+   "month": 6,
+   "high": 93.6,
+   "low": 65.6,
+   "precip_in": 0.12,
+   "wet_days": 1.0,
+   "snow_in": 0.0,
+   "wind_mph": 10.8,
+   "sun_frac": 0.92
+  },
+  {
+   "month": 7,
+   "high": 106.7,
+   "low": 73.7,
+   "precip_in": 0.0,
+   "wet_days": 0.0,
+   "snow_in": 0.0,
+   "wind_mph": 9.6,
+   "sun_frac": 0.97
+  },
+  {
+   "month": 8,
+   "high": 100.3,
+   "low": 70.5,
+   "precip_in": 0.32,
+   "wet_days": 1.0,
+   "snow_in": 0.0,
+   "wind_mph": 9.5,
+   "sun_frac": 0.94
+  },
+  {
+   "month": 9,
+   "high": 92.8,
+   "low": 64.6,
+   "precip_in": 0.12,
+   "wet_days": 0.5,
+   "snow_in": 0.0,
+   "wind_mph": 8.7,
+   "sun_frac": 0.94
+  },
+  {
+   "month": 10,
+   "high": 84.0,
+   "low": 55.8,
+   "precip_in": 0.25,
+   "wet_days": 1.0,
+   "snow_in": 0.0,
+   "wind_mph": 8.0,
+   "sun_frac": 0.93
+  },
+  {
+   "month": 11,
+   "high": 66.1,
+   "low": 44.0,
+   "precip_in": 1.38,
+   "wet_days": 4.0,
+   "snow_in": 0.0,
+   "wind_mph": 7.4,
+   "sun_frac": 0.87
+  },
+  {
+   "month": 12,
+   "high": 59.6,
+   "low": 42.3,
+   "precip_in": 1.74,
+   "wet_days": 5.0,
+   "snow_in": 0.0,
+   "wind_mph": 6.7,
+   "sun_frac": 0.72
+  }
+ ],
+ "period": "2023-01-01 to 2024-12-31",
+ "wiki": {
+  "title": "Fresno, California",
+  "url": "https://en.wikipedia.org/wiki/Fresno,_California",
+  "intro": "Fresno is a city in the San Joaquin Valley of California, United States. It is the county seat of Fresno County and the largest city in the greater Central Valley region, as well as the most populated city in Central California. It covers about 114.7 square miles and had a population of 542,107 as of the 2020 census, making it the fifth-most populous city in California, the most populous inland city in California, and the 33rd-most populous city in the nation.\nNamed for the abundant ash trees lining the San Joaquin River, Fresno was founded in 1872 as a railway station of the Central Pacific Railroad before it was incorporated in 1885. It has since become an economic hub of Fresno County and the San Joaquin Valley, with much of the surrounding areas in the Metropolitan Fresno region predominantly tied to large-scale agricultural production. Fresno is near the geographic center of California, approximately 220 miles north of Los Angeles, 170 miles south of the state capital, Sacramento, and 185 miles southeast of San Francisco. Yosemite National Park is about 60 miles to the north, Kings Canyon National Park 60 miles to the east, and Sequoia National Park 75 miles to the southeast.\nFresno is also the third-largest majority-Hispanic city in the United States with 50.9% of its population being Hispanic in 2024.",
+  "climate": "Fresno has a semi-arid climate, with cool, mild winters and long, hot, dry summers. December and January are the coldest months, averaging 47.5 \u00b0F and 48.0 \u00b0F, respectively; mornings sporadically see temperatures at or below freezing, with the coldest night of the year typically bottoming out around 29 \u00b0F. July is the warmest month, averaging 83.5 \u00b0F; normally, there are 38 days of 100 \u00b0F + highs and 113 days of 90 \u00b0F + highs, and between July and August, there are only 3.6 days where the high does not reach 90 \u00b0F. Summers provide considerable sunshine, with July exceeding 96 percent of the total possible sunlight hours; conversely, December is the lowest with only 42 percent of the daylight time in sunlight because of tule fog. However, the year averages 81% of possible sunshine, for a total of 3550 hours. Average annual precipitation is around 11 inches. Most of the wind rose direction occurrences derive from the northwest, as winds are driven downward along the axis of the California Central Valley; in December, January and February there is an increased presence of southeastern wind directions in the wind rose statistics. Fresno meteorology was selected in a national U.S. Environmental Protection Agency study for analysis of equilibrium temperature for use of ten-year meteorological data to represent a warm, dry western United States locale.\nThe official record high temperature for Fresno is 115 \u00b0F, set on July 8, 1905, while the official record low is 17 \u00b0F, set on January 6, 1913. The average windows for temperatures of 100 \u00b0F + are June 2 through September 15; for temperatures of 90 \u00b0F +, April 25 through October 10; and for freezing temperatures, December 14 through January 24, although no freeze occurred during the 1983\u201384 or 2020\u201321 winter seasons. Annual rainfall has ranged from 23.57 inches in the \"rain year\" from July 1982 to June 1983 down to 4.43 inches from July 1933 to June 1934. The most rainfall in one month was 9.54 inches in November 1885 and the most rainfall in 24 hours was 3.55 inches on November 18, 1885. Measurable precipitation falls on an average of 46.5 days annually. Snow is a rarity; the heaviest snowfall at the airport was 2.2 inches on January 21\u201322, 1962."
+ }
+}

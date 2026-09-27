@@ -1,0 +1,139 @@
+{
+ "name": "Nairobi",
+ "admin1": "Nairobi County",
+ "country": "Kenya",
+ "country_code": "KE",
+ "lat": -1.28333,
+ "lon": 36.81667,
+ "population": 4397073,
+ "elevation_m": 1684.0,
+ "climate": [
+  {
+   "month": 1,
+   "high": 78.7,
+   "low": 57.7,
+   "precip_in": 1.85,
+   "wet_days": 10.5,
+   "snow_in": 0.0,
+   "wind_mph": 10.1,
+   "sun_frac": 0.91
+  },
+  {
+   "month": 2,
+   "high": 83.5,
+   "low": 58.6,
+   "precip_in": 0.6,
+   "wet_days": 3.5,
+   "snow_in": 0.0,
+   "wind_mph": 11.4,
+   "sun_frac": 0.96
+  },
+  {
+   "month": 3,
+   "high": 82.4,
+   "low": 59.6,
+   "precip_in": 2.1,
+   "wet_days": 10.5,
+   "snow_in": 0.0,
+   "wind_mph": 10.5,
+   "sun_frac": 0.9
+  },
+  {
+   "month": 4,
+   "high": 77.6,
+   "low": 59.9,
+   "precip_in": 6.62,
+   "wet_days": 25.5,
+   "snow_in": 0.0,
+   "wind_mph": 8.4,
+   "sun_frac": 0.79
+  },
+  {
+   "month": 5,
+   "high": 76.8,
+   "low": 58.7,
+   "precip_in": 3.31,
+   "wet_days": 19.0,
+   "snow_in": 0.0,
+   "wind_mph": 7.0,
+   "sun_frac": 0.84
+  },
+  {
+   "month": 6,
+   "high": 76.5,
+   "low": 55.5,
+   "precip_in": 0.98,
+   "wet_days": 8.0,
+   "snow_in": 0.0,
+   "wind_mph": 6.8,
+   "sun_frac": 0.85
+  },
+  {
+   "month": 7,
+   "high": 74.7,
+   "low": 54.5,
+   "precip_in": 1.16,
+   "wet_days": 3.5,
+   "snow_in": 0.0,
+   "wind_mph": 7.0,
+   "sun_frac": 0.75
+  },
+  {
+   "month": 8,
+   "high": 76.0,
+   "low": 55.5,
+   "precip_in": 0.59,
+   "wet_days": 5.0,
+   "snow_in": 0.0,
+   "wind_mph": 7.9,
+   "sun_frac": 0.72
+  },
+  {
+   "month": 9,
+   "high": 79.3,
+   "low": 56.5,
+   "precip_in": 1.0,
+   "wet_days": 6.0,
+   "snow_in": 0.0,
+   "wind_mph": 7.6,
+   "sun_frac": 0.87
+  },
+  {
+   "month": 10,
+   "high": 81.2,
+   "low": 58.6,
+   "precip_in": 1.81,
+   "wet_days": 12.5,
+   "snow_in": 0.0,
+   "wind_mph": 9.1,
+   "sun_frac": 0.88
+  },
+  {
+   "month": 11,
+   "high": 76.5,
+   "low": 59.8,
+   "precip_in": 6.16,
+   "wet_days": 24.0,
+   "snow_in": 0.0,
+   "wind_mph": 9.1,
+   "sun_frac": 0.81
+  },
+  {
+   "month": 12,
+   "high": 78.4,
+   "low": 59.6,
+   "precip_in": 2.12,
+   "wet_days": 17.0,
+   "snow_in": 0.0,
+   "wind_mph": 10.0,
+   "sun_frac": 0.9
+  }
+ ],
+ "period": "2023-01-01 to 2024-12-31",
+ "wiki": {
+  "title": "Nairobi",
+  "url": "https://en.wikipedia.org/wiki/Nairobi",
+  "intro": "Nairobi, is the capital and largest city of Kenya, located in the south-central part of the country. As of 2026, it has a population of 5.6 million and a metropolitan population of 15.95 million, making it the 8th most populous city in Africa and the 4th most populous metropolitan area. The city goes beyond its borders and has expanded into neighbouring counties, making it the 4th largest metropolitan area in Africa.\nNicknamed the \"Green City under the Sun\", Nairobi is uniquely notable for being the only capital city in the world that hosts a national park within its boundaries. Its name originates from the Maasai phrase Enkare Nyirobi, meaning \"place of cool waters\".\nAs the national capital, Nairobi is home to the Kenyan Parliament Buildings, the State House and the Supreme Court Building. It is the major financial and economic hub of East Africa, hosting thousands of Kenyan businesses and international companies and organisations, including the United Nations Environment Programme and the United Nations Office at Nairobi. The Nairobi Securities Exchange is one of the largest stock exchanges in Africa and the second-oldest exchange on the continent. It is Africa's fourth-largest stock exchange by trading volume, capable of processing 10 million trades a day. Nairobi is considered a global city and was ranked as a \"Beta World City\" by the Globalisation and World Cities Research Network as of 2024.\nNairobi was founded in 1898 by colonial authorities in British East Africa, as a rail depot on the Uganda\u2013Kenya Railway. The authorities favoured it as an ideal resting place due to its high elevation, temperate climate, and adequate water supply. The town quickly grew to replace Mombasa as the capital of Kenya in 1907.\nAfter independence in 1963, Nairobi became the capital of the Republic of Kenya. During Kenya's early period, the city became a centre for the coffee, tea and sisal industries. Successive post-independence governments have built and turned Nairobi into a modern metropolitan city with a diverse population and a growing economy.",
+  "climate": "Under the K\u00f6ppen climate classification, Nairobi has a subtropical highland climate. At 1,795 metres above sea level, evenings may be cool, especially in the June/July season, when the temperature can drop to 9 \u00b0C. The sunniest and warmest part of the year is from December to March, when temperatures average in the high-twenties Celsius during the day. The mean maximum temperature for this period is 28 \u00b0C.\nThere are rainy seasons, but rainfall can be moderate. The cloudiest part of the year is just after the first rainy season, when, until September, conditions are usually overcast with drizzle. As Nairobi is situated close to the equator, the differences between the seasons are minimal. The seasons are referred to as the wet season and dry season. The timing of sunrise and sunset varies little throughout the year for the same reason."
+ }
+}

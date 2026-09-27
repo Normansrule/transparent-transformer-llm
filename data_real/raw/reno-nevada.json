@@ -1,0 +1,139 @@
+{
+ "name": "Reno",
+ "admin1": "Nevada",
+ "country": "United States",
+ "country_code": "US",
+ "lat": 39.52963,
+ "lon": -119.8138,
+ "population": 264165,
+ "elevation_m": 1373.0,
+ "climate": [
+  {
+   "month": 1,
+   "high": 40.3,
+   "low": 25.2,
+   "precip_in": 3.15,
+   "wet_days": 12.0,
+   "snow_in": 13.9,
+   "wind_mph": 6.1,
+   "sun_frac": 0.68
+  },
+  {
+   "month": 2,
+   "high": 42.4,
+   "low": 25.8,
+   "precip_in": 2.78,
+   "wet_days": 11.0,
+   "snow_in": 12.2,
+   "wind_mph": 6.9,
+   "sun_frac": 0.75
+  },
+  {
+   "month": 3,
+   "high": 46.0,
+   "low": 28.8,
+   "precip_in": 4.11,
+   "wet_days": 12.5,
+   "snow_in": 15.2,
+   "wind_mph": 8.1,
+   "sun_frac": 0.78
+  },
+  {
+   "month": 4,
+   "high": 61.5,
+   "low": 36.6,
+   "precip_in": 0.45,
+   "wet_days": 4.5,
+   "snow_in": 1.4,
+   "wind_mph": 9.4,
+   "sun_frac": 0.91
+  },
+  {
+   "month": 5,
+   "high": 71.0,
+   "low": 45.7,
+   "precip_in": 1.04,
+   "wet_days": 6.0,
+   "snow_in": 0.9,
+   "wind_mph": 10.8,
+   "sun_frac": 0.92
+  },
+  {
+   "month": 6,
+   "high": 81.6,
+   "low": 55.2,
+   "precip_in": 0.65,
+   "wet_days": 2.5,
+   "snow_in": 0.0,
+   "wind_mph": 10.5,
+   "sun_frac": 0.89
+  },
+  {
+   "month": 7,
+   "high": 94.5,
+   "low": 63.3,
+   "precip_in": 0.09,
+   "wet_days": 0.5,
+   "snow_in": 0.0,
+   "wind_mph": 11.0,
+   "sun_frac": 0.95
+  },
+  {
+   "month": 8,
+   "high": 87.3,
+   "low": 58.9,
+   "precip_in": 0.52,
+   "wet_days": 2.0,
+   "snow_in": 0.0,
+   "wind_mph": 10.5,
+   "sun_frac": 0.94
+  },
+  {
+   "month": 9,
+   "high": 79.1,
+   "low": 52.9,
+   "precip_in": 0.74,
+   "wet_days": 3.0,
+   "snow_in": 0.0,
+   "wind_mph": 9.4,
+   "sun_frac": 0.93
+  },
+  {
+   "month": 10,
+   "high": 68.7,
+   "low": 44.7,
+   "precip_in": 0.5,
+   "wet_days": 4.0,
+   "snow_in": 0.0,
+   "wind_mph": 7.8,
+   "sun_frac": 0.91
+  },
+  {
+   "month": 11,
+   "high": 50.2,
+   "low": 32.2,
+   "precip_in": 1.17,
+   "wet_days": 5.5,
+   "snow_in": 0.5,
+   "wind_mph": 6.1,
+   "sun_frac": 0.84
+  },
+  {
+   "month": 12,
+   "high": 45.7,
+   "low": 30.7,
+   "precip_in": 1.26,
+   "wet_days": 6.5,
+   "snow_in": 2.0,
+   "wind_mph": 5.0,
+   "sun_frac": 0.78
+  }
+ ],
+ "period": "2023-01-01 to 2024-12-31",
+ "wiki": {
+  "title": "Reno, Nevada",
+  "url": "https://en.wikipedia.org/wiki/Reno,_Nevada",
+  "intro": "Reno is a city in the northwest section of the U.S. state of Nevada, along the Nevada\u2013California border. It is the county seat and most populous city of Washoe County. Sitting in the High Eastern Sierra foothills, in the Truckee River valley, on the eastern side of the Sierra Nevada, it is about 23 miles northeast of Lake Tahoe. Reno is the 78th most populous city in the United States, the third most populous city in Nevada, and the most populous in Nevada outside the Las Vegas Valley. It is known as \"The Biggest Little City in the World\" and had a population of 264,165 at the 2020 census.\nThe city is named after Civil War Union major general Jesse L. Reno, who was killed in action during the American Civil War at the Battle of South Mountain, on Fox's Gap.\nThe downtowns of Reno and neighboring city Sparks reside in a valley known as the Truckee Meadows, which is sometimes colloquially used as a name for the entire metro area. However, the Reno\u2013Sparks metropolitan area, the second-largest in Nevada, comprises all of Washoe, Lyon and Storey Counties. In addition, Reno is part of a combined statistical area that includes Carson City, Douglas County and parts of Placer and Nevada Counties in California.\nFor much of the 20th century, Reno saw a significant number of people seeking to take advantage of Nevada's relatively lax divorce laws and the city gained a national reputation as a divorce mill. Today, Reno is a tourist destination known for its casino gambling and proximity to Lake Tahoe and the Sierra Nevada. The city is also home to the University of Nevada at Reno, the state's second-largest university by enrollment and the flagship campus of the University of Nevada system.\nReno was for decades the most populous city in Nevada, before it ceded this place to Las Vegas, with the 1960 census being the first US census where Las Vegas had more residents than Reno.",
+  "climate": "Reno has a cold semi-arid climate, bordering a hot-summer Mediterranean climate to the west. It experiences moderately cold winters and hot summers; it is influenced by the Sierra Nevada mountains to the west and the more arid Great Basin to the east. It is situated across a varied geographic landscape, which extends from the foothills of the Sierra Nevada into the Truckee River valley. While Reno experiences a rain shadow effect from the surrounding mountains, its western portions can receive three to four times as much precipitation as those extending eastward. Annual rainfall patterns in Reno adhere to a Mediterranean climate, with most precipitation occurring in fall, winter, and spring, followed by long, hot, dry summers. However, Reno's average annual rainfall is slightly lower than that of Californian cities more typically associated with Mediterranean climates. The area's low evapotranspiration stemming from its moderate annual average temperature also bears similarity to semi-arid climates found in Nevada's Great Basin.\nThe monthly daily average temperature ranges from 36.2 \u00b0F in December to 77.2 \u00b0F in July, with the diurnal temperature variation occasionally reaching 40 \u00b0F in summer, still lower than much of the high desert to the east. There are 6.0 days of 100 \u00b0F + highs, 65 days of 90 \u00b0F + highs, 1.6 days with 70 \u00b0F + lows, and 1.9 days with sub-10 \u00b0F lows annually; the temperature reaches or dips below the freezing point on 122 days, and does not rise above freezing on only 4.1 of those days. The record high temperature is 108 \u00b0F, which occurred on July 10 and 11, 2002, again on July 5, 2007, and again on July 16, 2023. The record low temperature is \u221217 \u00b0F, which occurred on January 21, 1916; the lowest temperature recorded at the airport is \u221216 \u00b0F, which occurred on four occasions, most recently on February 7, 1989. In addition, the region is windy throughout the year; the region's distinctive northwestern wind, known as the 'Washoe Zephyr,' has been noted by regional observers and writers.\nAnnual precipitation has ranged from 1.55 in in 1947 to 13.73 inches in 2017. The most precipitation in one month was 6.76 in in January 1916, and the most precipitation in 24 hours was 2.71 in on January 28, 1903. At Reno\u2013Tahoe International Airport, where records go back to 1937, the most precipitation in one month was 5.57 in in January 2017, and the most precipitation in 24 hours was 2.29 in on January 21, 1943.\nMost rainfall occurs in winter and spring. Summer thunderstorms can occur between April and October. The eastern side of town and the mountains east of Reno tend to be prone to thunderstorms more often, and these storms may be severe because an afternoon downslope west wind, called a \"Washoe Zephyr\", can develop in the Sierra Nevada, causing air to be pulled down in the Sierra Nevada and Reno, destroying or preventing thunderstorms, but the same wind can push air upward against the Virginia Range and other mountain ranges east of Reno, creating powerful thunderstorms.\nWinter snowfall is usually light to moderate, but can be heavy on some days, averaging 20.9 inches annually. Snowfall varies with the lowest amounts at the lowest part of the valley at and east of the airport at 4,404 feet, while the foothills of the Carson Range to the west ranging from 4,700 to 5,600 feet in elevation just a few miles west of downtown can receive two to three times as much annual snowfall. The mountains of the Virginia Range to the east, meanwhile, can receive more summer thunderstorms and precipitation, and around twice as much annual snowfall above 5,500 feet. However, snowfall increases in the Virginia Range are less dramatic as elevation climbs than in the Carson Range to the west, because the Virginia Range is well within the rain shadow of the Sierra Nevada and Carson Range. The most snowfall in Reno in one winter was 72.3 inches in 1915\u20131916, with an astonishing 65.7 inches in January, the most in a calendar month, as well as 22.5 inches on January 17, the most in a calendar day; the most snowfall in a calendar year was 82.3 inches in 1916."
+ }
+}

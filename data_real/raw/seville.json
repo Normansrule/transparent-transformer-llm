@@ -1,0 +1,134 @@
+{
+ "name": "Seville",
+ "admin1": "Andalusia",
+ "country": "Spain",
+ "country_code": "ES",
+ "lat": 37.38283,
+ "lon": -5.97317,
+ "population": 686741,
+ "elevation_m": 16.0,
+ "climate": [
+  {
+   "month": 1,
+   "high": 61.6,
+   "low": 45.4,
+   "precip_in": 1.67,
+   "wet_days": 5.0,
+   "snow_in": 0.0,
+   "wind_mph": 8.6,
+   "sun_frac": 0.77
+  },
+  {
+   "month": 2,
+   "high": 65.5,
+   "low": 47.0,
+   "precip_in": 1.84,
+   "wet_days": 5.0,
+   "snow_in": 0.0,
+   "wind_mph": 10.1,
+   "sun_frac": 0.84
+  },
+  {
+   "month": 3,
+   "high": 70.8,
+   "low": 50.7,
+   "precip_in": 3.55,
+   "wet_days": 8.5,
+   "snow_in": 0.0,
+   "wind_mph": 10.6,
+   "sun_frac": 0.73
+  },
+  {
+   "month": 4,
+   "high": 80.4,
+   "low": 56.0,
+   "precip_in": 0.31,
+   "wet_days": 2.0,
+   "snow_in": 0.0,
+   "wind_mph": 10.2,
+   "sun_frac": 0.89
+  },
+  {
+   "month": 5,
+   "high": 83.5,
+   "low": 60.1,
+   "precip_in": 0.96,
+   "wet_days": 4.5,
+   "snow_in": 0.0,
+   "wind_mph": 11.3,
+   "sun_frac": 0.87
+  },
+  {
+   "month": 6,
+   "high": 89.9,
+   "low": 66.3,
+   "precip_in": 1.25,
+   "wet_days": 3.5,
+   "snow_in": 0.0,
+   "wind_mph": 11.2,
+   "sun_frac": 0.87
+  },
+  {
+   "month": 7,
+   "high": 99.8,
+   "low": 71.2,
+   "precip_in": 0.0,
+   "wet_days": 0.0,
+   "snow_in": 0.0,
+   "wind_mph": 10.8,
+   "sun_frac": 0.92
+  },
+  {
+   "month": 8,
+   "high": 101.2,
+   "low": 73.0,
+   "precip_in": 0.01,
+   "wet_days": 0.0,
+   "snow_in": 0.0,
+   "wind_mph": 11.0,
+   "sun_frac": 0.94
+  },
+  {
+   "month": 9,
+   "high": 86.8,
+   "low": 65.2,
+   "precip_in": 1.26,
+   "wet_days": 3.0,
+   "snow_in": 0.0,
+   "wind_mph": 10.0,
+   "sun_frac": 0.88
+  },
+  {
+   "month": 10,
+   "high": 78.7,
+   "low": 61.8,
+   "precip_in": 7.79,
+   "wet_days": 12.0,
+   "snow_in": 0.0,
+   "wind_mph": 11.0,
+   "sun_frac": 0.72
+  },
+  {
+   "month": 11,
+   "high": 69.4,
+   "low": 53.4,
+   "precip_in": 1.92,
+   "wet_days": 5.0,
+   "snow_in": 0.0,
+   "wind_mph": 8.2,
+   "sun_frac": 0.79
+  },
+  {
+   "month": 12,
+   "high": 60.6,
+   "low": 44.9,
+   "precip_in": 1.23,
+   "wet_days": 3.0,
+   "snow_in": 0.0,
+   "wind_mph": 7.7,
+   "sun_frac": 0.8
+  }
+ ],
+ "period": "2023-01-01 to 2024-12-31",
+ "wiki": null
+}

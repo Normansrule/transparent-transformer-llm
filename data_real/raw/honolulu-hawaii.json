@@ -1,0 +1,134 @@
+{
+ "name": "Honolulu",
+ "admin1": "Hawaii",
+ "country": "United States",
+ "country_code": "US",
+ "lat": 21.30694,
+ "lon": -157.85834,
+ "population": 350964,
+ "elevation_m": 5.0,
+ "climate": [
+  {
+   "month": 1,
+   "high": 78.1,
+   "low": 66.6,
+   "precip_in": 3.3,
+   "wet_days": 11.0,
+   "snow_in": 0.0,
+   "wind_mph": 12.2,
+   "sun_frac": 0.89
+  },
+  {
+   "month": 2,
+   "high": 76.6,
+   "low": 67.7,
+   "precip_in": 2.23,
+   "wet_days": 9.0,
+   "snow_in": 0.0,
+   "wind_mph": 16.1,
+   "sun_frac": 0.87
+  },
+  {
+   "month": 3,
+   "high": 77.7,
+   "low": 68.4,
+   "precip_in": 2.04,
+   "wet_days": 12.0,
+   "snow_in": 0.0,
+   "wind_mph": 14.7,
+   "sun_frac": 0.87
+  },
+  {
+   "month": 4,
+   "high": 78.5,
+   "low": 69.1,
+   "precip_in": 3.31,
+   "wet_days": 15.5,
+   "snow_in": 0.0,
+   "wind_mph": 14.5,
+   "sun_frac": 0.87
+  },
+  {
+   "month": 5,
+   "high": 79.8,
+   "low": 70.3,
+   "precip_in": 4.08,
+   "wet_days": 14.5,
+   "snow_in": 0.0,
+   "wind_mph": 13.3,
+   "sun_frac": 0.91
+  },
+  {
+   "month": 6,
+   "high": 82.3,
+   "low": 72.2,
+   "precip_in": 0.69,
+   "wet_days": 7.5,
+   "snow_in": 0.0,
+   "wind_mph": 15.0,
+   "sun_frac": 0.96
+  },
+  {
+   "month": 7,
+   "high": 84.1,
+   "low": 73.0,
+   "precip_in": 0.62,
+   "wet_days": 4.0,
+   "snow_in": 0.0,
+   "wind_mph": 15.8,
+   "sun_frac": 0.96
+  },
+  {
+   "month": 8,
+   "high": 85.2,
+   "low": 73.7,
+   "precip_in": 1.24,
+   "wet_days": 6.0,
+   "snow_in": 0.0,
+   "wind_mph": 15.3,
+   "sun_frac": 0.96
+  },
+  {
+   "month": 9,
+   "high": 85.5,
+   "low": 73.6,
+   "precip_in": 0.66,
+   "wet_days": 6.0,
+   "snow_in": 0.0,
+   "wind_mph": 14.1,
+   "sun_frac": 0.95
+  },
+  {
+   "month": 10,
+   "high": 84.8,
+   "low": 72.3,
+   "precip_in": 0.91,
+   "wet_days": 9.0,
+   "snow_in": 0.0,
+   "wind_mph": 12.2,
+   "sun_frac": 0.93
+  },
+  {
+   "month": 11,
+   "high": 81.5,
+   "low": 71.1,
+   "precip_in": 1.61,
+   "wet_days": 8.0,
+   "snow_in": 0.0,
+   "wind_mph": 14.2,
+   "sun_frac": 0.9
+  },
+  {
+   "month": 12,
+   "high": 79.6,
+   "low": 68.4,
+   "precip_in": 1.03,
+   "wet_days": 5.0,
+   "snow_in": 0.0,
+   "wind_mph": 12.6,
+   "sun_frac": 0.92
+  }
+ ],
+ "period": "2023-01-01 to 2024-12-31",
+ "wiki": null
+}

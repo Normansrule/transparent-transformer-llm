@@ -1,0 +1,139 @@
+{
+ "name": "Sydney",
+ "admin1": "New South Wales",
+ "country": "Australia",
+ "country_code": "AU",
+ "lat": -33.86785,
+ "lon": 151.20732,
+ "population": 5557233,
+ "elevation_m": 58.0,
+ "climate": [
+  {
+   "month": 1,
+   "high": 78.5,
+   "low": 65.8,
+   "precip_in": 5.68,
+   "wet_days": 15.5,
+   "snow_in": 0.0,
+   "wind_mph": 14.2,
+   "sun_frac": 0.77
+  },
+  {
+   "month": 2,
+   "high": 79.5,
+   "low": 65.9,
+   "precip_in": 3.51,
+   "wet_days": 12.5,
+   "snow_in": 0.0,
+   "wind_mph": 14.1,
+   "sun_frac": 0.76
+  },
+  {
+   "month": 3,
+   "high": 78.7,
+   "low": 63.5,
+   "precip_in": 3.11,
+   "wet_days": 13.0,
+   "snow_in": 0.0,
+   "wind_mph": 12.5,
+   "sun_frac": 0.82
+  },
+  {
+   "month": 4,
+   "high": 71.2,
+   "low": 56.6,
+   "precip_in": 4.8,
+   "wet_days": 12.5,
+   "snow_in": 0.0,
+   "wind_mph": 12.0,
+   "sun_frac": 0.82
+  },
+  {
+   "month": 5,
+   "high": 65.8,
+   "low": 50.2,
+   "precip_in": 3.74,
+   "wet_days": 11.0,
+   "snow_in": 0.0,
+   "wind_mph": 11.7,
+   "sun_frac": 0.83
+  },
+  {
+   "month": 6,
+   "high": 62.5,
+   "low": 46.3,
+   "precip_in": 3.14,
+   "wet_days": 7.5,
+   "snow_in": 0.0,
+   "wind_mph": 11.6,
+   "sun_frac": 0.79
+  },
+  {
+   "month": 7,
+   "high": 63.4,
+   "low": 46.4,
+   "precip_in": 1.19,
+   "wet_days": 7.5,
+   "snow_in": 0.0,
+   "wind_mph": 12.6,
+   "sun_frac": 0.9
+  },
+  {
+   "month": 8,
+   "high": 66.7,
+   "low": 48.6,
+   "precip_in": 1.52,
+   "wet_days": 7.5,
+   "snow_in": 0.0,
+   "wind_mph": 11.8,
+   "sun_frac": 0.82
+  },
+  {
+   "month": 9,
+   "high": 72.6,
+   "low": 50.8,
+   "precip_in": 1.55,
+   "wet_days": 4.5,
+   "snow_in": 0.0,
+   "wind_mph": 14.3,
+   "sun_frac": 0.89
+  },
+  {
+   "month": 10,
+   "high": 73.5,
+   "low": 54.3,
+   "precip_in": 1.65,
+   "wet_days": 9.0,
+   "snow_in": 0.0,
+   "wind_mph": 14.6,
+   "sun_frac": 0.84
+  },
+  {
+   "month": 11,
+   "high": 75.5,
+   "low": 61.9,
+   "precip_in": 5.0,
+   "wet_days": 15.5,
+   "snow_in": 0.0,
+   "wind_mph": 13.5,
+   "sun_frac": 0.71
+  },
+  {
+   "month": 12,
+   "high": 80.0,
+   "low": 65.4,
+   "precip_in": 3.37,
+   "wet_days": 9.0,
+   "snow_in": 0.0,
+   "wind_mph": 13.7,
+   "sun_frac": 0.83
+  }
+ ],
+ "period": "2023-01-01 to 2024-12-31",
+ "wiki": {
+  "title": "Sydney",
+  "url": "https://en.wikipedia.org/wiki/Sydney",
+  "intro": "Sydney is the capital of the state of New South Wales and the largest city in Australia. The metropolis surrounds Sydney Harbour and extends about 80 kilometres from the Pacific Ocean in the east to the Blue Mountains in the west, and about 80 kilometres from Ku-ring-gai Chase National Park and the Hawkesbury River in the north and north-west, to the Royal National Park and Macarthur in the south and south-west. Greater Sydney consists of 658 suburbs, spread across 33 local government areas. Residents of the city are colloquially known as \"Sydneysiders\". The estimated population in June 2025 was 5,638,830, which is about 66% of the state's population. The city's nicknames include the Emerald City and the Harbour City.\nThere is evidence that Aboriginal Australians inhabited the Greater Sydney region at least 30,000 years ago, and their engravings and cultural sites are common. The traditional custodians of the land on which modern Sydney stands are the clans of the Darug, Dharawal and Eora. During his first Pacific voyage in 1770, James Cook charted the eastern coast of Australia, making landfall at Botany Bay. In 1788, the First Fleet of convicts, led by Arthur Phillip, founded Sydney as a British penal colony, the first European settlement in Australia. After World War II, Sydney experienced mass migration and by 2021 over 40 per cent of the population was born overseas. Foreign countries of birth with the greatest representation are mainland China, India, the United Kingdom, Vietnam and the Philippines.\nDespite being one of the most expensive cities in the world, Sydney frequently ranks in the top ten most liveable cities. It is classified as an Alpha+ city by the Globalization and World Cities Research Network, indicating its influence in the region and throughout the world. Ranked eleventh in the world for economic opportunity, Sydney has an advanced market economy with strengths in education, finance, manufacturing and tourism. The University of Sydney and the University of New South Wales are ranked 18th and 19th in the world respectively.\nSydney has hosted major international sporting events such as the 2000 Summer Olympics, the 2003 Rugby World Cup Final, and the 2023 FIFA Women's World Cup Final. The city is among the top fifteen most-visited cities worldwide, with millions of tourists coming each year to see the city's landmarks. The city has over 1,000,000 hectares of nature reserves and parks, and its notable natural features include Sydney Harbour and Royal National Park. The Sydney Harbour Bridge and the World Heritage-listed Sydney Opera House are major tourist attractions. Central Station is the hub of Sydney's suburban train, metro and light rail networks and longer-distance services. The main passenger airport serving the city is Kingsford Smith Airport, one of the world's oldest continually operating airports.",
+  "climate": "Under the K\u00f6ppen\u2013Geiger classification, Sydney has a humid subtropical climate with \"warm, sometimes hot\" summers and \"generally mild\", to \"cool\" winters. The El Ni\u00f1o\u2013Southern Oscillation, the Indian Ocean Dipole and the Southern Annular Mode play an important role in determining Sydney's weather patterns: drought and bushfire on the one hand, and storms and flooding on the other, associated with the opposite phases of the oscillation in Australia. The weather is moderated by proximity to the ocean, and more extreme temperatures are recorded in the inland western suburbs because Sydney CBD is more affected by the oceanic climate drivers than the western suburbs.\nAt Sydney's primary weather station at Observatory Hill, extreme temperatures have ranged from 45.8 \u00b0C on 18 January 2013 to 2.1 \u00b0C on 22 June 1932. An average of 14.9 days a year have temperatures at or above 30 \u00b0C in the central business district. In contrast, the metropolitan area averages between 35 and 65 days, depending on the suburb. The hottest day in the metropolitan area occurred in Penrith on 4 January 2020, where a high of 48.9 \u00b0C was recorded. The average annual temperature of the sea ranges from 18.5 \u00b0C in September to 23.7 \u00b0C in February. Sydney has an average of 7.2 hours of sunshine per day and 109.5 clear days annually. Due to the inland location, frost is recorded early in the morning in Western Sydney a few times in winter. Autumn and spring are the transitional seasons, with spring showing a larger temperature variation than autumn.\nSydney experiences an urban heat island effect. This makes certain parts of the city more vulnerable to extreme heat, including coastal suburbs. In late spring and summer, temperatures over 35 \u00b0C are not uncommon, though hot, dry conditions are usually ended by a southerly buster, a powerful southerly that brings gale winds and a rapid fall in temperature. Since Sydney is downwind of the Great Dividing Range, it occasionally experiences dry, westerly foehn winds typically in winter and early spring. Westerly winds are intense when the Roaring Forties shift towards southeastern Australia, where they may damage homes and affect flights, in addition to making the temperature seem colder than it actually is.\nRainfall has a moderate to low variability and has historically been fairly uniform throughout the year, although in recent years it has been more summer-dominant and erratic. Precipitation is usually higher in summer through to autumn, and lower in late winter to early spring. In late autumn and winter, east coast lows may bring large amounts of rainfall, especially in the CBD. In the warm season black nor'easters are usually the cause of heavy rain events, though other forms of low-pressure areas, including remnants of ex-cyclones, may also bring heavy deluge and afternoon thunderstorms. 'Snow' was last alleged in 1836, more than likely a fall of graupel, or soft hail; and in July 2008 the Upper North Shore saw a fall of graupel that was mistaken by many for 'snow'. In 2009, dry conditions brought a severe dust storm towards the city."
+ }
+}

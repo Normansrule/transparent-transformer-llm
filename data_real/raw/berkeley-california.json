@@ -1,0 +1,139 @@
+{
+ "name": "Berkeley",
+ "admin1": "California",
+ "country": "United States",
+ "country_code": "US",
+ "lat": 37.87159,
+ "lon": -122.27275,
+ "population": 120972,
+ "elevation_m": 52.0,
+ "climate": [
+  {
+   "month": 1,
+   "high": 56.1,
+   "low": 44.1,
+   "precip_in": 8.87,
+   "wet_days": 15.0,
+   "snow_in": 0.0,
+   "wind_mph": 12.6,
+   "sun_frac": 0.62
+  },
+  {
+   "month": 2,
+   "high": 56.1,
+   "low": 41.7,
+   "precip_in": 5.16,
+   "wet_days": 11.5,
+   "snow_in": 0.7,
+   "wind_mph": 12.1,
+   "sun_frac": 0.73
+  },
+  {
+   "month": 3,
+   "high": 56.9,
+   "low": 43.7,
+   "precip_in": 6.81,
+   "wet_days": 14.0,
+   "snow_in": 0.0,
+   "wind_mph": 13.1,
+   "sun_frac": 0.71
+  },
+  {
+   "month": 4,
+   "high": 64.1,
+   "low": 45.5,
+   "precip_in": 0.79,
+   "wet_days": 3.0,
+   "snow_in": 0.0,
+   "wind_mph": 10.6,
+   "sun_frac": 0.88
+  },
+  {
+   "month": 5,
+   "high": 66.7,
+   "low": 49.6,
+   "precip_in": 1.37,
+   "wet_days": 3.5,
+   "snow_in": 0.0,
+   "wind_mph": 12.4,
+   "sun_frac": 0.87
+  },
+  {
+   "month": 6,
+   "high": 71.6,
+   "low": 52.2,
+   "precip_in": 0.02,
+   "wet_days": 0.0,
+   "snow_in": 0.0,
+   "wind_mph": 13.1,
+   "sun_frac": 0.9
+  },
+  {
+   "month": 7,
+   "high": 77.1,
+   "low": 54.3,
+   "precip_in": 0.01,
+   "wet_days": 0.0,
+   "snow_in": 0.0,
+   "wind_mph": 12.6,
+   "sun_frac": 0.91
+  },
+  {
+   "month": 8,
+   "high": 77.0,
+   "low": 55.5,
+   "precip_in": 0.07,
+   "wet_days": 0.5,
+   "snow_in": 0.0,
+   "wind_mph": 12.1,
+   "sun_frac": 0.9
+  },
+  {
+   "month": 9,
+   "high": 74.7,
+   "low": 55.0,
+   "precip_in": 0.17,
+   "wet_days": 1.5,
+   "snow_in": 0.0,
+   "wind_mph": 10.9,
+   "sun_frac": 0.89
+  },
+  {
+   "month": 10,
+   "high": 75.7,
+   "low": 54.4,
+   "precip_in": 0.26,
+   "wet_days": 2.5,
+   "snow_in": 0.0,
+   "wind_mph": 9.6,
+   "sun_frac": 0.89
+  },
+  {
+   "month": 11,
+   "high": 62.5,
+   "low": 46.1,
+   "precip_in": 3.5,
+   "wet_days": 9.0,
+   "snow_in": 0.0,
+   "wind_mph": 10.0,
+   "sun_frac": 0.79
+  },
+  {
+   "month": 12,
+   "high": 58.1,
+   "low": 44.5,
+   "precip_in": 5.27,
+   "wet_days": 12.0,
+   "snow_in": 0.0,
+   "wind_mph": 9.7,
+   "sun_frac": 0.67
+  }
+ ],
+ "period": "2023-01-01 to 2024-12-31",
+ "wiki": {
+  "title": "Berkeley, California",
+  "url": "https://en.wikipedia.org/wiki/Berkeley,_California",
+  "intro": "Berkeley is a city on the eastern shore of San Francisco Bay in northern Alameda County, California, United States. It is named after the 18th-century Anglo-Irish bishop and philosopher George Berkeley. It borders the cities of Oakland and Emeryville to the south and the city of Albany and the unincorporated community of Kensington to the north. Its eastern border with Contra Costa County generally follows the ridge of the Berkeley Hills. The 2020 census recorded a population of 124,321.\nBerkeley is home to the oldest campus in the University of California, the University of California, Berkeley, and the Lawrence Berkeley National Laboratory, which is managed and operated by the university. It also has the Graduate Theological Union, one of the largest religious studies institutions in the world. Berkeley is considered one of the most socially progressive cities in the United States.",
+  "climate": "Berkeley has a warm-summer Mediterranean climate, with warm, dry summers and cool, wet winters. Berkeley's location directly opposite the Golden Gate ensures that typical eastward fog flow blankets the city more often than its neighbors. The summers are cooler than a typical Mediterranean climate thanks to upwelling ocean currents along the California coast. These help produce cool and foggy nights and mornings.\nWinter is punctuated with rainstorms of varying ferocity and duration, but also produces stretches of bright sunny days and clear cold nights. It does not normally snow, though occasionally the hilltops get a dusting. Spring and fall are transitional and intermediate, with some rainfall and variable temperature. Summer typically brings night and morning low clouds or fog, followed by sunny, warm days. The warmest and driest months are typically June through September, with the highest temperatures occurring in September. Mid-summer is often a bit cooler due to the sea breezes and fog common then.\nIn a year, there are an average of 2.9 days with highs of 90 \u00b0F or higher, and an average of 0.8 days with lows of 32 \u00b0F or lower. The highest recorded temperature was 107 \u00b0F on June 15, 2000, and July 16, 1993, and the lowest recorded temperature was 24 \u00b0F on December 22, 1990.\nFebruary is normally the wettest month, averaging 5.21 inches of precipitation. Average annual precipitation is 25.40 inches, falling on an average of 63.7 days each year. The most rainfall in one month was 14.49 inches in February 1998. The most rainfall in 24 hours was 6.98 inches on January 4, 1982. As in most of California, the heaviest rainfall years are usually associated with warm water El Ni\u00f1o episodes in the Pacific, which bring in drenching \"Pineapple Express\" storms. In contrast, dry years are often associated with cold Pacific La Ni\u00f1a episodes. Light snow has fallen on rare occasions. Snow has generally fallen every several years on the higher peaks of the Berkeley Hills.\nIn the late spring and early fall, strong offshore winds of sinking air typically develop, bringing heat and dryness to the area. In the spring, this is not usually a problem as vegetation is still moist from winter rains, but extreme dryness prevails by the fall, creating a danger of wildfires. In September 1923, a major fire swept through the neighborhoods north of the university campus, stopping just short of downtown. On October 20, 1991, gusty, hot winds fanned a conflagration along the Berkeley\u2013Oakland border, killing 25 people and injuring 150, as well as destroying 2,449 single-family dwellings and 437 apartment and condominium units."
+ }
+}

@@ -1,0 +1,139 @@
+{
+ "name": "La Paz",
+ "admin1": "La Paz Department",
+ "country": "Bolivia",
+ "country_code": "BO",
+ "lat": -16.5,
+ "lon": -68.15,
+ "population": 2004652,
+ "elevation_m": 3782.0,
+ "climate": [
+  {
+   "month": 1,
+   "high": 62.4,
+   "low": 40.9,
+   "precip_in": 2.37,
+   "wet_days": 13.0,
+   "snow_in": 0.1,
+   "wind_mph": 9.3,
+   "sun_frac": 0.89
+  },
+  {
+   "month": 2,
+   "high": 59.4,
+   "low": 41.3,
+   "precip_in": 4.87,
+   "wet_days": 19.0,
+   "snow_in": 0.2,
+   "wind_mph": 8.4,
+   "sun_frac": 0.83
+  },
+  {
+   "month": 3,
+   "high": 60.1,
+   "low": 40.7,
+   "precip_in": 4.65,
+   "wet_days": 15.5,
+   "snow_in": 0.0,
+   "wind_mph": 8.3,
+   "sun_frac": 0.88
+  },
+  {
+   "month": 4,
+   "high": 62.2,
+   "low": 38.1,
+   "precip_in": 2.0,
+   "wet_days": 8.5,
+   "snow_in": 0.1,
+   "wind_mph": 8.2,
+   "sun_frac": 0.93
+  },
+  {
+   "month": 5,
+   "high": 60.7,
+   "low": 35.1,
+   "precip_in": 2.12,
+   "wet_days": 6.5,
+   "snow_in": 1.3,
+   "wind_mph": 8.6,
+   "sun_frac": 0.95
+  },
+  {
+   "month": 6,
+   "high": 60.8,
+   "low": 30.9,
+   "precip_in": 0.02,
+   "wet_days": 0.0,
+   "snow_in": 0.0,
+   "wind_mph": 8.6,
+   "sun_frac": 0.98
+  },
+  {
+   "month": 7,
+   "high": 62.0,
+   "low": 32.2,
+   "precip_in": 0.12,
+   "wet_days": 1.0,
+   "snow_in": 0.0,
+   "wind_mph": 10.0,
+   "sun_frac": 0.97
+  },
+  {
+   "month": 8,
+   "high": 62.8,
+   "low": 33.0,
+   "precip_in": 0.12,
+   "wet_days": 0.0,
+   "snow_in": 0.0,
+   "wind_mph": 10.4,
+   "sun_frac": 0.96
+  },
+  {
+   "month": 9,
+   "high": 64.5,
+   "low": 36.7,
+   "precip_in": 0.64,
+   "wet_days": 5.0,
+   "snow_in": 0.0,
+   "wind_mph": 10.2,
+   "sun_frac": 0.95
+  },
+  {
+   "month": 10,
+   "high": 66.1,
+   "low": 39.6,
+   "precip_in": 2.11,
+   "wet_days": 11.0,
+   "snow_in": 0.1,
+   "wind_mph": 10.2,
+   "sun_frac": 0.95
+  },
+  {
+   "month": 11,
+   "high": 64.0,
+   "low": 40.9,
+   "precip_in": 4.57,
+   "wet_days": 14.0,
+   "snow_in": 0.0,
+   "wind_mph": 9.3,
+   "sun_frac": 0.88
+  },
+  {
+   "month": 12,
+   "high": 61.6,
+   "low": 41.0,
+   "precip_in": 4.57,
+   "wet_days": 19.0,
+   "snow_in": 0.0,
+   "wind_mph": 7.9,
+   "sun_frac": 0.85
+  }
+ ],
+ "period": "2023-01-01 to 2024-12-31",
+ "wiki": {
+  "title": "La Paz",
+  "url": "https://en.wikipedia.org/wiki/La_Paz",
+  "intro": "La Paz, officially Nuestra Se\u00f1ora de La Paz, is the seat of government of Bolivia. With 755,732 residents as of 2024, it is the third-most populous city in Bolivia. Its metropolitan area, which includes the neighboring city of El Alto, and other smaller towns, is the second most populous urban area in Bolivia, with a population of 2.2 million, after Santa Cruz de la Sierra with a population of 2.3 million. The city is also the capital of the department of the same name.\nLocated in west-central Bolivia 68 km southeast of Lake Titicaca, La Paz is set in a canyon created by the Choqueyapu River. It is in a bowl-like depression, part of the Amazon basin, surrounded by the high mountains of the Altiplano. Overlooking the city is the triple-peaked Illimani. Its peaks are always snow-covered and can be seen from many parts of the city. At an elevation of roughly 3,650 m above sea level, La Paz is the highest Administrative capital city in the world. Due to its altitude, the city has an unusual subtropical highland climate, with rainy summers and dry winters.\nLa Paz was founded on 20 October 1548, by the Spanish conquistador Captain Alonso de Mendoza, at the site of the Inca settlement of Laja as a connecting point between the commercial routes that led from Potos\u00ed and Oruro to Lima; the full name of the city was originally Nuestra Se\u00f1ora de La Paz in commemoration of the restoration of peace following the insurrection of Gonzalo Pizarro and fellow conquistadors against the first viceroy of Peru. The city was later moved to its present location in the valley of Chuquiago Marka. La Paz was under Spanish colonial rule as part of the Viceroyalty of the R\u00edo de la Plata, before Bolivia gained independence. Since its founding, the city was the site of numerous revolts. In 1781, the indigenous leader and independence activist T\u00fapac Katari laid siege to the city for a total of six months, but was finally defeated. On 16 July 1809, the Bolivian patriot Pedro Domingo Murillo ignited a revolution for independence, marking the beginning of the Spanish American Wars of Independence, which gained the freedom of South American states in 1821.\nAs the seat of the government of Bolivia, La Paz is the site of the Palacio Quemado, the presidential palace. It is also the seat of the Bolivian legislature, the Plurinational Legislative Assembly, and numerous government departments and agencies. The constitutional capital of Bolivia, Sucre, retains the judicial power. The city hosts all the foreign embassies as well as international missions in the country. La Paz is an important political, administrative, economic, and sports center of Bolivia; it generates 24% of the nation's gross domestic product and serves as the headquarters for numerous Bolivian companies and industries.\nLa Paz is also an important cultural center of South America, as it hosts several landmarks dating from colonial times, such as the San Francisco Church, the Metropolitan Cathedral, the Plaza Murillo and Ja\u00e9n Street. La Paz is also situated at the confluence of archaeological regions of the Tiwanaku and Inca Empire. The city is renowned for its markets, particularly the Witches' Market, and for its nightlife. Its topography offers views of the city and the surrounding mountains of the Cordillera Real from numerous natural viewing points. La Paz is home to the largest urban cable car network in the world.",
+  "climate": "At more than 4,000 meters above sea level, higher parts of La Paz have a cold subtropical highland climate, bordering on a tundra climate. At this altitude, night-time temperatures range from cold to very cold. Snow flurries can occur in winter, especially at dawn and usually melts before noon. Despite being located only 16 degrees from the equator, this part of the city has average temperatures similar to that of cities such as Bergen, Norway or T\u00f3rshavn, Faroe Islands.\nTemperatures in central La Paz, at 3,600 meters, and in the Zona Sur, at 3,250 m above sea level are warmer and are classified as subtropical highland climate. Heavy precipitation typically occurs throughout summer, and often causes destructive mudslides. At an altitude of 3,250 meters, in the southern part of the city, the wettest month is January with a monthly average of 114 mm, and the driest is July with 8 mm.\nThe whole city has rainy summers and dry winters. The city has a relatively dry climate, with rainfall occurring mainly in the slightly warmer months of November to March. Heavy precipitation typically occurs throughout summer, and often causes destructive mudslides. The wettest month is January with a monthly average of 100\u2013140 mm of precipitation, and the driest months are June and July with around 5 mm of precipitation.\nIn the highest part of the city, above 4,000 meters, the two cloudiest months are February and March, in late summer, when sunshine averages around 5 hours per day. The two sunniest months are June and July, in winter, when sunshine averages around 8 hours per day."
+ }
+}

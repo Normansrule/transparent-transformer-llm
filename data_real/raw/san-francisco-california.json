@@ -1,0 +1,139 @@
+{
+ "name": "San Francisco",
+ "admin1": "California",
+ "country": "United States",
+ "country_code": "US",
+ "lat": 37.77493,
+ "lon": -122.41942,
+ "population": 827526,
+ "elevation_m": 16.0,
+ "climate": [
+  {
+   "month": 1,
+   "high": 56.9,
+   "low": 46.6,
+   "precip_in": 8.17,
+   "wet_days": 14.0,
+   "snow_in": 0.0,
+   "wind_mph": 16.5,
+   "sun_frac": 0.64
+  },
+  {
+   "month": 2,
+   "high": 55.9,
+   "low": 45.1,
+   "precip_in": 5.09,
+   "wet_days": 11.0,
+   "snow_in": 0.0,
+   "wind_mph": 16.2,
+   "sun_frac": 0.74
+  },
+  {
+   "month": 3,
+   "high": 56.4,
+   "low": 47.2,
+   "precip_in": 6.99,
+   "wet_days": 14.5,
+   "snow_in": 0.0,
+   "wind_mph": 18.6,
+   "sun_frac": 0.74
+  },
+  {
+   "month": 4,
+   "high": 59.5,
+   "low": 48.2,
+   "precip_in": 0.62,
+   "wet_days": 2.0,
+   "snow_in": 0.0,
+   "wind_mph": 17.7,
+   "sun_frac": 0.89
+  },
+  {
+   "month": 5,
+   "high": 62.3,
+   "low": 51.6,
+   "precip_in": 1.03,
+   "wet_days": 3.0,
+   "snow_in": 0.0,
+   "wind_mph": 18.5,
+   "sun_frac": 0.87
+  },
+  {
+   "month": 6,
+   "high": 65.2,
+   "low": 53.8,
+   "precip_in": 0.03,
+   "wet_days": 0.0,
+   "snow_in": 0.0,
+   "wind_mph": 19.6,
+   "sun_frac": 0.9
+  },
+  {
+   "month": 7,
+   "high": 68.1,
+   "low": 55.6,
+   "precip_in": 0.01,
+   "wet_days": 0.0,
+   "snow_in": 0.0,
+   "wind_mph": 17.2,
+   "sun_frac": 0.89
+  },
+  {
+   "month": 8,
+   "high": 69.6,
+   "low": 57.0,
+   "precip_in": 0.05,
+   "wet_days": 0.5,
+   "snow_in": 0.0,
+   "wind_mph": 17.1,
+   "sun_frac": 0.87
+  },
+  {
+   "month": 9,
+   "high": 68.8,
+   "low": 56.7,
+   "precip_in": 0.09,
+   "wet_days": 0.5,
+   "snow_in": 0.0,
+   "wind_mph": 15.4,
+   "sun_frac": 0.88
+  },
+  {
+   "month": 10,
+   "high": 72.7,
+   "low": 55.3,
+   "precip_in": 0.36,
+   "wet_days": 2.0,
+   "snow_in": 0.0,
+   "wind_mph": 13.6,
+   "sun_frac": 0.88
+  },
+  {
+   "month": 11,
+   "high": 62.5,
+   "low": 49.6,
+   "precip_in": 4.43,
+   "wet_days": 8.0,
+   "snow_in": 0.0,
+   "wind_mph": 11.9,
+   "sun_frac": 0.78
+  },
+  {
+   "month": 12,
+   "high": 58.6,
+   "low": 47.7,
+   "precip_in": 6.22,
+   "wet_days": 12.0,
+   "snow_in": 0.0,
+   "wind_mph": 10.6,
+   "sun_frac": 0.64
+  }
+ ],
+ "period": "2023-01-01 to 2024-12-31",
+ "wiki": {
+  "title": "San Francisco",
+  "url": "https://en.wikipedia.org/wiki/San_Francisco",
+  "intro": "San Francisco, officially the City and County of San Francisco, is the fourth-most populous city in California and the 17th-most populous in the United States, with a population of 826,079 in 2025. Among U.S. cities with a population of 200,000 or more, San Francisco is ranked first by per capita income, third by population density, and sixth by aggregate income as of 2024. Some 4.6 million residents live in the city's metropolitan statistical area, which is the 13th-largest in the United States. Around 9.2 million live in the San Jose\u2013San Francisco\u2013Oakland combined statistical area, the fifth-largest in the United States.\nPrior to European settlement, San Francisco was inhabited by the Yelamu Ohlone. On June 29, 1776, settlers from New Spain established the Presidio of San Francisco at the Golden Gate, and the Mission San Francisco de As\u00eds a few miles away, both named for Francis of Assisi. The California gold rush of 1849 brought rapid growth, making it the largest city on the West Coast at the time. In 1856, San Francisco became a consolidated city-county. After three-quarters of the city was destroyed by the 1906 earthquake and fire, it was quickly rebuilt, hosting the Panama\u2013Pacific International Exposition nine years later. In World War II, it was a major port of embarkation for naval service members shipping out to the Pacific theater. After the war, the confluence of returning servicemen, significant immigration, liberalizing attitudes, the rise of the beatnik and hippie countercultures, the sexual revolution, opposition to U.S. involvement in the Vietnam War, and other factors led to the Summer of Love and the gay rights movement, cementing San Francisco as a center of liberal activism.\nThe San Francisco Bay Area is among the most economically productive large urban areas in the United States and the world, with a GDP of $1.332 trillion in 2024, higher than all but 17 countries. As of 2020, the OECD-defined metropolitan area, with 6.7 million residents, ranked 5th by GDP and 2nd by GDP per capita across all metropolitan areas in the OECD countries. In 2024, San Francisco proper had a GDP of $268 billion and a GDP per capita of $324,000. This productivity is spurred by its leading universities, high-tech, healthcare, finance, insurance, real estate, and professional services sectors. The city is home to numerous companies\u2014many in the technology sector\u2014including Salesforce, Uber, Airbnb, Levi's, Gap, OpenAI, Chime, Genentech, Anthropic, Databricks, Dropbox, and Lyft.\nIn 2022, San Francisco had more than 1.7 million international visitors and approximately 20 million domestic visitors. It is known for its steep rolling hills and eclectic mix of architecture across varied neighborhoods; its Chinatown and Mission districts; mild climate; and landmarks including the Golden Gate Bridge, cable cars, and Alcatraz. The city is home to educational and cultural institutions such as the University of California, San Francisco, the University of San Francisco, San Francisco State University, the San Francisco Conservatory of Music, the Legion of Honor, the de Young Museum, the San Francisco Museum of Modern Art, the San Francisco Symphony, the San Francisco Ballet, the San Francisco Opera, the SFJAZZ Center, and the California Academy of Sciences. Two major league sports teams, the San Francisco Giants and the Golden State Warriors, play their home games within San Francisco. San Francisco International Airport is one of the world's busiest airports, while a light rail and bus network, in tandem with the BART and Caltrain systems, connects nearly every part of San Francisco with the wider region.",
+  "climate": "San Francisco has a warm-summer Mediterranean climate, characteristic of California's coast, with cool, moist winters and mild dry summers with occasional warm or hot periods. San Francisco's weather is strongly influenced by the cool currents of the Pacific Ocean on the west side of the city, and the water of San Francisco Bay to the north and east. This moderates temperature swings and produces a remarkably mild year-round climate with little seasonal temperature variation.\nAmong major U.S. cities, San Francisco has the coolest daily mean, maximum, and minimum temperatures for June, July, and August. During the summer, rising hot air in California's interior valleys creates a low-pressure area that draws winds from the North Pacific High through the Golden Gate, which creates the city's characteristic cool winds and fog. The fog is less pronounced in eastern neighborhoods and during the late summer and early fall. The year's warmest month, on average, is September, and on average, October is warmer than July, especially in daytime.\nTemperatures reach or exceed 80 \u00b0F on an average of 20 to 25 days a year and at downtown and San Francisco International Airport, respectively. The dry period of May to October is mild to warm, with the normal monthly mean temperature peaking in September at 62.7 \u00b0F. The rainy period of November to April is slightly cooler, with the normal monthly mean temperature reaching its lowest in January at 51.3 \u00b0F.\nOn average, there are 73 rainy days a year, and annual precipitation averages 23.65 inches. Variation in precipitation from year to year is high. Above-average rain years are often associated with warm El Ni\u00f1o conditions in the Pacific while dry years often occur in cold water La Ni\u00f1a periods. In 2013, a record low 5.59 in of rainfall was recorded at downtown San Francisco, where records have been kept since 1849. Snowfall in the city is very rare, with only 10 measurable accumulations recorded since 1852, most recently in 1976 when up to 5 inches fell on Twin Peaks and up to 1 inch in downtown San Francisco.\nThe highest recorded temperature at the official National Weather Service downtown observation station was 106 \u00b0F on September 1, 2017. During that hot spell, the warmest ever night of 71 \u00b0F was also recorded. The lowest recorded temperature was 27 \u00b0F on December 11, 1932.\nDuring an average year between 1991 and 2020, San Francisco recorded a warmest night at 64 \u00b0F and a coldest day at 49 \u00b0F. The coldest daytime high since the station's opening in 1945 was recorded in December 1972 at 37 \u00b0F.\nAs a coastal city, San Francisco will be heavily affected by climate change. As of 2021, sea levels are projected to rise by as much as 5 feet, resulting in periodic flooding, rising groundwater levels, and lowland floods from more severe storms.\nSan Francisco falls under the USDA Plant hardiness zone 10a and 10b."
+ }
+}

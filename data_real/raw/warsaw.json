@@ -1,0 +1,139 @@
+{
+ "name": "Warsaw",
+ "admin1": "Mazovia",
+ "country": "Poland",
+ "country_code": "PL",
+ "lat": 52.22977,
+ "lon": 21.01178,
+ "population": 1702139,
+ "elevation_m": 113.0,
+ "climate": [
+  {
+   "month": 1,
+   "high": 37.9,
+   "low": 30.3,
+   "precip_in": 2.54,
+   "wet_days": 14.0,
+   "snow_in": 6.9,
+   "wind_mph": 13.0,
+   "sun_frac": 0.26
+  },
+  {
+   "month": 2,
+   "high": 43.4,
+   "low": 33.1,
+   "precip_in": 2.64,
+   "wet_days": 14.5,
+   "snow_in": 2.8,
+   "wind_mph": 13.3,
+   "sun_frac": 0.33
+  },
+  {
+   "month": 3,
+   "high": 49.8,
+   "low": 34.3,
+   "precip_in": 1.75,
+   "wet_days": 15.0,
+   "snow_in": 2.6,
+   "wind_mph": 12.5,
+   "sun_frac": 0.55
+  },
+  {
+   "month": 4,
+   "high": 57.7,
+   "low": 41.6,
+   "precip_in": 2.71,
+   "wet_days": 11.5,
+   "snow_in": 0.4,
+   "wind_mph": 11.7,
+   "sun_frac": 0.61
+  },
+  {
+   "month": 5,
+   "high": 69.6,
+   "low": 49.3,
+   "precip_in": 1.67,
+   "wet_days": 5.0,
+   "snow_in": 0.0,
+   "wind_mph": 10.9,
+   "sun_frac": 0.77
+  },
+  {
+   "month": 6,
+   "high": 75.6,
+   "low": 57.0,
+   "precip_in": 2.19,
+   "wet_days": 12.0,
+   "snow_in": 0.0,
+   "wind_mph": 10.2,
+   "sun_frac": 0.74
+  },
+  {
+   "month": 7,
+   "high": 79.3,
+   "low": 61.1,
+   "precip_in": 2.71,
+   "wet_days": 10.5,
+   "snow_in": 0.0,
+   "wind_mph": 11.2,
+   "sun_frac": 0.76
+  },
+  {
+   "month": 8,
+   "high": 79.0,
+   "low": 61.2,
+   "precip_in": 3.57,
+   "wet_days": 14.0,
+   "snow_in": 0.0,
+   "wind_mph": 10.2,
+   "sun_frac": 0.71
+  },
+  {
+   "month": 9,
+   "high": 74.6,
+   "low": 56.1,
+   "precip_in": 1.17,
+   "wet_days": 6.0,
+   "snow_in": 0.0,
+   "wind_mph": 10.1,
+   "sun_frac": 0.81
+  },
+  {
+   "month": 10,
+   "high": 57.9,
+   "low": 45.0,
+   "precip_in": 2.27,
+   "wet_days": 11.0,
+   "snow_in": 0.0,
+   "wind_mph": 12.3,
+   "sun_frac": 0.52
+  },
+  {
+   "month": 11,
+   "high": 43.6,
+   "low": 34.8,
+   "precip_in": 1.84,
+   "wet_days": 9.5,
+   "snow_in": 4.0,
+   "wind_mph": 11.6,
+   "sun_frac": 0.4
+  },
+  {
+   "month": 12,
+   "high": 39.3,
+   "low": 32.5,
+   "precip_in": 2.19,
+   "wet_days": 11.5,
+   "snow_in": 3.0,
+   "wind_mph": 11.5,
+   "sun_frac": 0.22
+  }
+ ],
+ "period": "2023-01-01 to 2024-12-31",
+ "wiki": {
+  "title": "Warsaw",
+  "url": "https://en.wikipedia.org/wiki/Warsaw",
+  "intro": "Warsaw, officially the Capital City of Warsaw, is the capital and most populous city of Poland. The metropolis stands on the river Vistula in east-central Poland. Its population is officially estimated at 1.87 million residents within a greater metropolitan area of around 3.5 million residents, which makes Warsaw the 7th most populous city in the European Union. The city area measures 517 square kilometres and comprises 18 districts, while the metropolitan area covers 6,100 square kilometres. Warsaw is classified as an alpha global city, a major political, economic and cultural hub, and the country's seat of government. It is also the capital of the Masovian Voivodeship.\nWarsaw traces its origins to a small fishing town which became the seat of the Duchy of Masovia in 1413. The city rose to prominence after 1596, when Sigismund III decided to move the Polish capital and his royal court from Krak\u00f3w. Warsaw surpassed Gda\u0144sk as Poland's most populous city by the 18th century. It served as the capital of the Polish\u2013Lithuanian Commonwealth until 1795, and subsequently as the seat of Napoleon's Duchy of Warsaw. The 19th century and its Industrial Revolution brought a demographic boom, which made it one of the largest and most densely populated cities in Europe. Known then for its elegant architecture and boulevards, Warsaw was bombed and besieged at the start of World War II in 1939. Much of the historic city was destroyed and its diverse population decimated by the Ghetto Uprising in 1943, the general Warsaw Uprising in 1944, and systematic razing.\nWarsaw is served by three international airports, the busiest being Warsaw Chopin Airport. Major public transport services operating in the city include the Warsaw Metro, buses, commuter rail service and an extensive tram network. The city is a significant economic centre for the region, with the Warsaw Stock Exchange being the largest in Central and Eastern Europe. It is the base for Frontex, the EU agency for external border security; also ODIHR, one of the principal institutions of the OSCE and an ESA headquarters. Warsaw has one of Europe's largest concentrations of skyscrapers, and the Varso Tower is the tallest building in the European Union.\nThe city's primary educational and cultural institutions include the University of Warsaw, the Warsaw University of Technology, the SGH Warsaw School of Economics, the Chopin University of Music, the Polish Academy of Sciences, the National Philharmonic Orchestra, the National Museum, and the Warsaw Grand Theatre, which is among the largest in Europe. The reconstructed Old Town, which represents a variety of European architectural styles, was listed as a World Heritage Site by UNESCO in 1980. Other landmarks include the Royal Castle, Sigismund's Column, the Wilan\u00f3w Palace, the Palace on the Isle, St. John's Archcathedral, Main Market Square, and numerous churches and mansions along the Royal Route. Warsaw is a green capital, with around a quarter of the city's area occupied by parks. In sports, the city is home to Legia and Polonia sports clubs and hosts the annual Warsaw Marathon.",
+  "climate": "Warsaw experiences an oceanic or humid continental climate, depending on the isotherm used; although the city used to be humid continental regardless of isotherm prior to the recent effect of climate change and the city's urban heat island. Meanwhile, by the genetic climate classification of Wincenty Oko\u0142owicz, it has a temperate \"fusion\" climate, with both oceanic and continental features.\nThe city has cold, sometimes snowy, cloudy winters, and warm, relatively sunny but frequently stormy summers. Spring and autumn can be unpredictable, highly prone to sudden weather changes; however, temperatures are usually mild, especially around May and September. The daily average temperature ranges between \u22121.5 \u00b0C in January and 19.7 \u00b0C in July and the mean year temperature is 9.0 \u00b0C. Temperatures may reach 30 \u00b0C in the summer, although the effects of hot weather are usually offset by relatively low dew points and large diurnal temperature differences. Warsaw is Europe's sixth driest major city, with yearly rainfall averaging 550 mm, the wettest month being July.The coldest temperature ever recorded was \u221231 \u00b0C on 11 January 1940 during a devastating cold wave which occurred while the city was under German occupation."
+ }
+}

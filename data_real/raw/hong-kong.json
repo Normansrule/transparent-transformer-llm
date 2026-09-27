@@ -1,0 +1,134 @@
+{
+ "name": "Hong Kong",
+ "admin1": "",
+ "country": "HK",
+ "country_code": "HK",
+ "lat": 22.27832,
+ "lon": 114.17469,
+ "population": 7396076,
+ "elevation_m": 60.0,
+ "climate": [
+  {
+   "month": 1,
+   "high": 66.3,
+   "low": 55.2,
+   "precip_in": 0.83,
+   "wet_days": 5.0,
+   "snow_in": 0.0,
+   "wind_mph": 12.0,
+   "sun_frac": 0.7
+  },
+  {
+   "month": 2,
+   "high": 70.1,
+   "low": 59.2,
+   "precip_in": 0.9,
+   "wet_days": 7.0,
+   "snow_in": 0.0,
+   "wind_mph": 11.7,
+   "sun_frac": 0.67
+  },
+  {
+   "month": 3,
+   "high": 72.5,
+   "low": 63.5,
+   "precip_in": 3.58,
+   "wet_days": 14.0,
+   "snow_in": 0.0,
+   "wind_mph": 12.0,
+   "sun_frac": 0.58
+  },
+  {
+   "month": 4,
+   "high": 78.7,
+   "low": 70.9,
+   "precip_in": 12.96,
+   "wet_days": 21.0,
+   "snow_in": 0.0,
+   "wind_mph": 12.5,
+   "sun_frac": 0.61
+  },
+  {
+   "month": 5,
+   "high": 80.4,
+   "low": 73.8,
+   "precip_in": 12.75,
+   "wet_days": 22.0,
+   "snow_in": 0.0,
+   "wind_mph": 11.2,
+   "sun_frac": 0.56
+  },
+  {
+   "month": 6,
+   "high": 84.2,
+   "low": 78.0,
+   "precip_in": 13.34,
+   "wet_days": 29.0,
+   "snow_in": 0.0,
+   "wind_mph": 10.9,
+   "sun_frac": 0.61
+  },
+  {
+   "month": 7,
+   "high": 87.1,
+   "low": 79.5,
+   "precip_in": 11.12,
+   "wet_days": 26.5,
+   "snow_in": 0.0,
+   "wind_mph": 10.7,
+   "sun_frac": 0.8
+  },
+  {
+   "month": 8,
+   "high": 86.8,
+   "low": 78.6,
+   "precip_in": 11.73,
+   "wet_days": 26.0,
+   "snow_in": 0.0,
+   "wind_mph": 9.0,
+   "sun_frac": 0.71
+  },
+  {
+   "month": 9,
+   "high": 85.2,
+   "low": 76.8,
+   "precip_in": 17.31,
+   "wet_days": 26.0,
+   "snow_in": 0.0,
+   "wind_mph": 10.2,
+   "sun_frac": 0.66
+  },
+  {
+   "month": 10,
+   "high": 82.4,
+   "low": 72.1,
+   "precip_in": 5.54,
+   "wet_days": 10.5,
+   "snow_in": 0.0,
+   "wind_mph": 11.7,
+   "sun_frac": 0.73
+  },
+  {
+   "month": 11,
+   "high": 77.1,
+   "low": 65.7,
+   "precip_in": 6.17,
+   "wet_days": 7.5,
+   "snow_in": 0.0,
+   "wind_mph": 11.2,
+   "sun_frac": 0.74
+  },
+  {
+   "month": 12,
+   "high": 70.2,
+   "low": 56.4,
+   "precip_in": 0.2,
+   "wet_days": 1.5,
+   "snow_in": 0.0,
+   "wind_mph": 10.3,
+   "sun_frac": 0.76
+  }
+ ],
+ "period": "2023-01-01 to 2024-12-31",
+ "wiki": null
+}

@@ -1,0 +1,139 @@
+{
+ "name": "Buffalo",
+ "admin1": "New York",
+ "country": "United States",
+ "country_code": "US",
+ "lat": 42.88645,
+ "lon": -78.87837,
+ "population": 258071,
+ "elevation_m": 183.0,
+ "climate": [
+  {
+   "month": 1,
+   "high": 35.9,
+   "low": 27.3,
+   "precip_in": 5.01,
+   "wet_days": 17.5,
+   "snow_in": 13.1,
+   "wind_mph": 15.8,
+   "sun_frac": 0.25
+  },
+  {
+   "month": 2,
+   "high": 40.1,
+   "low": 26.1,
+   "precip_in": 2.68,
+   "wet_days": 8.0,
+   "snow_in": 4.0,
+   "wind_mph": 16.9,
+   "sun_frac": 0.65
+  },
+  {
+   "month": 3,
+   "high": 44.2,
+   "low": 30.4,
+   "precip_in": 3.34,
+   "wet_days": 14.5,
+   "snow_in": 7.6,
+   "wind_mph": 15.6,
+   "sun_frac": 0.53
+  },
+  {
+   "month": 4,
+   "high": 56.6,
+   "low": 39.3,
+   "precip_in": 6.55,
+   "wet_days": 16.5,
+   "snow_in": 0.8,
+   "wind_mph": 14.9,
+   "sun_frac": 0.64
+  },
+  {
+   "month": 5,
+   "high": 67.5,
+   "low": 49.4,
+   "precip_in": 2.93,
+   "wet_days": 10.0,
+   "snow_in": 0.0,
+   "wind_mph": 11.6,
+   "sun_frac": 0.79
+  },
+  {
+   "month": 6,
+   "high": 74.9,
+   "low": 59.6,
+   "precip_in": 4.5,
+   "wet_days": 13.5,
+   "snow_in": 0.0,
+   "wind_mph": 12.1,
+   "sun_frac": 0.72
+  },
+  {
+   "month": 7,
+   "high": 78.9,
+   "low": 65.0,
+   "precip_in": 3.9,
+   "wet_days": 14.0,
+   "snow_in": 0.0,
+   "wind_mph": 11.2,
+   "sun_frac": 0.83
+  },
+  {
+   "month": 8,
+   "high": 75.7,
+   "low": 62.4,
+   "precip_in": 5.34,
+   "wet_days": 14.5,
+   "snow_in": 0.0,
+   "wind_mph": 12.0,
+   "sun_frac": 0.76
+  },
+  {
+   "month": 9,
+   "high": 73.5,
+   "low": 58.5,
+   "precip_in": 2.57,
+   "wet_days": 6.5,
+   "snow_in": 0.0,
+   "wind_mph": 10.3,
+   "sun_frac": 0.82
+  },
+  {
+   "month": 10,
+   "high": 60.6,
+   "low": 48.9,
+   "precip_in": 2.74,
+   "wet_days": 11.5,
+   "snow_in": 0.3,
+   "wind_mph": 13.7,
+   "sun_frac": 0.66
+  },
+  {
+   "month": 11,
+   "high": 48.9,
+   "low": 37.9,
+   "precip_in": 2.45,
+   "wet_days": 12.0,
+   "snow_in": 0.6,
+   "wind_mph": 15.6,
+   "sun_frac": 0.58
+  },
+  {
+   "month": 12,
+   "high": 40.9,
+   "low": 31.3,
+   "precip_in": 4.04,
+   "wet_days": 17.0,
+   "snow_in": 4.6,
+   "wind_mph": 14.7,
+   "sun_frac": 0.39
+  }
+ ],
+ "period": "2023-01-01 to 2024-12-31",
+ "wiki": {
+  "title": "Buffalo, New York",
+  "url": "https://en.wikipedia.org/wiki/Buffalo,_New_York",
+  "intro": "Buffalo is a city in the U.S. state of New York. It lies in Western New York on the eastern shore of Lake Erie and at the head of the Niagara River on the Canada\u2013United States border. It is the second-most populous city in New York, with a population of 278,349 at the 2020 census. The Buffalo\u2013Niagara Falls metropolitan area, with over 1.16 million residents, is the 2nd-largest metropolitan area in New York State behind only the New York City metropolitan area, and the 51st-largest metropolitan area in the United States. Buffalo is the county seat of Erie County.\nBefore the 17th century, the region was inhabited by nomadic Paleo-Indians who were succeeded by the Neutral, Erie, and Iroquois nations. In the early 17th century, the French began to explore the region. In the 18th century, Iroquois land surrounding Buffalo Creek was ceded through the Holland Land Purchase, and a small village was established at its headwaters. Buffalo was selected as the terminus of the Erie Canal in 1825, which led to its incorporation in 1832 and stimulated its growth as the primary inland port between the Great Lakes and Atlantic Ocean. Transshipment made Buffalo the world's largest grain port in that era. After the coming of railroads greatly reduced the canal's importance, the city became the second-largest railway hub, and the city came to be dominated by steel production by the 20th century. Later, deindustrialization and the opening of the St. Lawrence Seaway saw the city's economy decline and diversify. It developed its service industries, such as health care, retail, tourism, logistics, and education, while retaining some manufacturing.\nIn 2023, the gross domestic product of the Buffalo\u2013Niagara Falls metropolitan area was approximately $90.7 billion. The city's cultural landmarks include the oldest urban parks system in the United States, the Buffalo AKG Art Museum, the Buffalo History Museum, the Buffalo Philharmonic Orchestra, Shea's Performing Arts Center, the Buffalo Museum of Science, and several annual festivals. Its educational institutions include the University at Buffalo, Buffalo State University, Canisius University, and D'Youville University. Buffalo is also known for its winter weather, Buffalo wings, and three major-league sports teams: the National Football League's Buffalo Bills, the National Hockey League's Buffalo Sabres and the National Lacrosse League's Buffalo Bandits.",
+  "climate": "Buffalo has a humid continental climate, and temperatures have been warming with the rest of the US. Lake-effect snow is characteristic of Buffalo winters, with snow bands depending on wind direction off Lake Erie. However, Buffalo is rarely the snowiest city in the state. The Blizzard of 1977 resulted from a combination of high winds and snow which accumulated on land and on the frozen Lake Erie. Although snow does not typically impair the city's operation, it can cause significant damage in autumn. In November 2014, the region had a record-breaking storm which produced over 5+1\u20442 ft of snow. Buffalo's lowest recorded temperature was \u221220 \u00b0F, which occurred twice: on February 9, 1934, and February 2, 1961.\nAlthough the city's summers are drier and sunnier than other cities in the northeastern United States, its vegetation receives enough precipitation to remain hydrated. Buffalo summers are characterized by abundant sunshine, with moderate humidity and temperatures; the city benefits from cool, southwestern Lake Erie summer breezes which temper warmer temperatures. Temperatures rise above 90 \u00b0F an average of three times a year. Buffalo is the only city with a population of over 100,000 in the contiguous United States that has not had an official recording of 100 \u00b0F or more to date, with a maximum temperature of 99 \u00b0F reached on August 27, 1948. Rainfall is moderate, typically falling at night, and cooler lake temperatures hinder storm development in July. August is usually rainier and muggier, as the warmer lake loses its temperature-controlling ability."
+ }
+}

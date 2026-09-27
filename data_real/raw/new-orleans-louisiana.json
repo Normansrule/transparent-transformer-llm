@@ -1,0 +1,134 @@
+{
+ "name": "New Orleans",
+ "admin1": "Louisiana",
+ "country": "United States",
+ "country_code": "US",
+ "lat": 29.95465,
+ "lon": -90.07507,
+ "population": 362701,
+ "elevation_m": null,
+ "climate": [
+  {
+   "month": 1,
+   "high": 63.3,
+   "low": 49.3,
+   "precip_in": 6.47,
+   "wet_days": 14.5,
+   "snow_in": 0.0,
+   "wind_mph": 15.0,
+   "sun_frac": 0.72
+  },
+  {
+   "month": 2,
+   "high": 68.2,
+   "low": 54.5,
+   "precip_in": 3.47,
+   "wet_days": 10.0,
+   "snow_in": 0.0,
+   "wind_mph": 15.2,
+   "sun_frac": 0.73
+  },
+  {
+   "month": 3,
+   "high": 72.2,
+   "low": 59.1,
+   "precip_in": 5.26,
+   "wet_days": 12.5,
+   "snow_in": 0.0,
+   "wind_mph": 14.3,
+   "sun_frac": 0.74
+  },
+  {
+   "month": 4,
+   "high": 77.1,
+   "low": 63.9,
+   "precip_in": 4.3,
+   "wet_days": 10.0,
+   "snow_in": 0.0,
+   "wind_mph": 14.7,
+   "sun_frac": 0.73
+  },
+  {
+   "month": 5,
+   "high": 85.2,
+   "low": 71.9,
+   "precip_in": 5.23,
+   "wet_days": 14.0,
+   "snow_in": 0.0,
+   "wind_mph": 11.9,
+   "sun_frac": 0.81
+  },
+  {
+   "month": 6,
+   "high": 89.1,
+   "low": 76.3,
+   "precip_in": 4.76,
+   "wet_days": 17.0,
+   "snow_in": 0.0,
+   "wind_mph": 11.9,
+   "sun_frac": 0.86
+  },
+  {
+   "month": 7,
+   "high": 90.3,
+   "low": 78.7,
+   "precip_in": 6.84,
+   "wet_days": 19.5,
+   "snow_in": 0.0,
+   "wind_mph": 9.3,
+   "sun_frac": 0.81
+  },
+  {
+   "month": 8,
+   "high": 94.3,
+   "low": 81.0,
+   "precip_in": 3.27,
+   "wet_days": 7.0,
+   "snow_in": 0.0,
+   "wind_mph": 10.9,
+   "sun_frac": 0.87
+  },
+  {
+   "month": 9,
+   "high": 86.3,
+   "low": 75.4,
+   "precip_in": 9.61,
+   "wet_days": 13.5,
+   "snow_in": 0.0,
+   "wind_mph": 11.1,
+   "sun_frac": 0.83
+  },
+  {
+   "month": 10,
+   "high": 79.8,
+   "low": 66.4,
+   "precip_in": 2.47,
+   "wet_days": 4.0,
+   "snow_in": 0.0,
+   "wind_mph": 12.1,
+   "sun_frac": 0.88
+  },
+  {
+   "month": 11,
+   "high": 71.0,
+   "low": 60.6,
+   "precip_in": 4.81,
+   "wet_days": 12.0,
+   "snow_in": 0.0,
+   "wind_mph": 12.2,
+   "sun_frac": 0.69
+  },
+  {
+   "month": 12,
+   "high": 63.4,
+   "low": 52.5,
+   "precip_in": 5.26,
+   "wet_days": 7.0,
+   "snow_in": 0.0,
+   "wind_mph": 12.0,
+   "sun_frac": 0.79
+  }
+ ],
+ "period": "2023-01-01 to 2024-12-31",
+ "wiki": null
+}

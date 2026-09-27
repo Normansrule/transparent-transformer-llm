@@ -1,0 +1,134 @@
+{
+ "name": "Shanghai",
+ "admin1": "Shanghai Municipality",
+ "country": "China",
+ "country_code": "CN",
+ "lat": 31.22222,
+ "lon": 121.45806,
+ "population": 24874500,
+ "elevation_m": 12.0,
+ "climate": [
+  {
+   "month": 1,
+   "high": 50.1,
+   "low": 33.3,
+   "precip_in": 2.27,
+   "wet_days": 6.0,
+   "snow_in": 0.2,
+   "wind_mph": 11.5,
+   "sun_frac": 0.67
+  },
+  {
+   "month": 2,
+   "high": 50.6,
+   "low": 37.6,
+   "precip_in": 4.23,
+   "wet_days": 12.0,
+   "snow_in": 0.2,
+   "wind_mph": 12.1,
+   "sun_frac": 0.43
+  },
+  {
+   "month": 3,
+   "high": 61.8,
+   "low": 44.3,
+   "precip_in": 2.18,
+   "wet_days": 8.5,
+   "snow_in": 0.0,
+   "wind_mph": 12.0,
+   "sun_frac": 0.58
+  },
+  {
+   "month": 4,
+   "high": 69.3,
+   "low": 53.8,
+   "precip_in": 4.35,
+   "wet_days": 14.0,
+   "snow_in": 0.0,
+   "wind_mph": 12.7,
+   "sun_frac": 0.5
+  },
+  {
+   "month": 5,
+   "high": 77.6,
+   "low": 60.9,
+   "precip_in": 4.24,
+   "wet_days": 10.0,
+   "snow_in": 0.0,
+   "wind_mph": 12.4,
+   "sun_frac": 0.57
+  },
+  {
+   "month": 6,
+   "high": 83.0,
+   "low": 69.4,
+   "precip_in": 12.62,
+   "wet_days": 17.0,
+   "snow_in": 0.0,
+   "wind_mph": 11.0,
+   "sun_frac": 0.41
+  },
+  {
+   "month": 7,
+   "high": 90.8,
+   "low": 79.3,
+   "precip_in": 9.69,
+   "wet_days": 17.0,
+   "snow_in": 0.0,
+   "wind_mph": 12.3,
+   "sun_frac": 0.6
+  },
+  {
+   "month": 8,
+   "high": 92.0,
+   "low": 78.5,
+   "precip_in": 4.72,
+   "wet_days": 11.0,
+   "snow_in": 0.0,
+   "wind_mph": 10.3,
+   "sun_frac": 0.83
+  },
+  {
+   "month": 9,
+   "high": 85.3,
+   "low": 73.9,
+   "precip_in": 6.85,
+   "wet_days": 15.0,
+   "snow_in": 0.0,
+   "wind_mph": 11.1,
+   "sun_frac": 0.65
+  },
+  {
+   "month": 10,
+   "high": 74.1,
+   "low": 61.0,
+   "precip_in": 3.21,
+   "wet_days": 8.5,
+   "snow_in": 0.0,
+   "wind_mph": 11.1,
+   "sun_frac": 0.6
+  },
+  {
+   "month": 11,
+   "high": 64.6,
+   "low": 51.3,
+   "precip_in": 3.76,
+   "wet_days": 6.5,
+   "snow_in": 0.0,
+   "wind_mph": 11.2,
+   "sun_frac": 0.69
+  },
+  {
+   "month": 12,
+   "high": 51.7,
+   "low": 37.7,
+   "precip_in": 1.05,
+   "wet_days": 4.5,
+   "snow_in": 0.0,
+   "wind_mph": 9.1,
+   "sun_frac": 0.7
+  }
+ ],
+ "period": "2023-01-01 to 2024-12-31",
+ "wiki": null
+}

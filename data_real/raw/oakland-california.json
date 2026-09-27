@@ -1,0 +1,139 @@
+{
+ "name": "Oakland",
+ "admin1": "California",
+ "country": "United States",
+ "country_code": "US",
+ "lat": 37.80437,
+ "lon": -122.2708,
+ "population": 419267,
+ "elevation_m": 13.0,
+ "climate": [
+  {
+   "month": 1,
+   "high": 57.8,
+   "low": 45.1,
+   "precip_in": 8.85,
+   "wet_days": 15.5,
+   "snow_in": 0.0,
+   "wind_mph": 12.0,
+   "sun_frac": 0.62
+  },
+  {
+   "month": 2,
+   "high": 57.7,
+   "low": 42.8,
+   "precip_in": 6.01,
+   "wet_days": 11.5,
+   "snow_in": 1.0,
+   "wind_mph": 11.3,
+   "sun_frac": 0.73
+  },
+  {
+   "month": 3,
+   "high": 58.2,
+   "low": 44.7,
+   "precip_in": 7.59,
+   "wet_days": 14.0,
+   "snow_in": 0.1,
+   "wind_mph": 12.4,
+   "sun_frac": 0.72
+  },
+  {
+   "month": 4,
+   "high": 64.3,
+   "low": 46.4,
+   "precip_in": 0.83,
+   "wet_days": 3.5,
+   "snow_in": 0.1,
+   "wind_mph": 10.0,
+   "sun_frac": 0.88
+  },
+  {
+   "month": 5,
+   "high": 66.9,
+   "low": 50.6,
+   "precip_in": 1.33,
+   "wet_days": 3.5,
+   "snow_in": 0.0,
+   "wind_mph": 11.3,
+   "sun_frac": 0.86
+  },
+  {
+   "month": 6,
+   "high": 71.8,
+   "low": 53.3,
+   "precip_in": 0.07,
+   "wet_days": 0.5,
+   "snow_in": 0.0,
+   "wind_mph": 11.4,
+   "sun_frac": 0.89
+  },
+  {
+   "month": 7,
+   "high": 77.4,
+   "low": 56.1,
+   "precip_in": 0.01,
+   "wet_days": 0.0,
+   "snow_in": 0.0,
+   "wind_mph": 10.0,
+   "sun_frac": 0.91
+  },
+  {
+   "month": 8,
+   "high": 77.2,
+   "low": 57.1,
+   "precip_in": 0.06,
+   "wet_days": 0.0,
+   "snow_in": 0.0,
+   "wind_mph": 10.3,
+   "sun_frac": 0.89
+  },
+  {
+   "month": 9,
+   "high": 75.9,
+   "low": 56.4,
+   "precip_in": 0.24,
+   "wet_days": 1.5,
+   "snow_in": 0.0,
+   "wind_mph": 9.5,
+   "sun_frac": 0.89
+  },
+  {
+   "month": 10,
+   "high": 77.4,
+   "low": 55.5,
+   "precip_in": 0.34,
+   "wet_days": 2.0,
+   "snow_in": 0.0,
+   "wind_mph": 8.8,
+   "sun_frac": 0.89
+  },
+  {
+   "month": 11,
+   "high": 64.5,
+   "low": 47.1,
+   "precip_in": 3.18,
+   "wet_days": 9.0,
+   "snow_in": 0.0,
+   "wind_mph": 9.2,
+   "sun_frac": 0.79
+  },
+  {
+   "month": 12,
+   "high": 60.2,
+   "low": 45.5,
+   "precip_in": 5.26,
+   "wet_days": 12.0,
+   "snow_in": 0.0,
+   "wind_mph": 8.7,
+   "sun_frac": 0.68
+  }
+ ],
+ "period": "2023-01-01 to 2024-12-31",
+ "wiki": {
+  "title": "Oakland, California",
+  "url": "https://en.wikipedia.org/wiki/Oakland,_California",
+  "intro": "Oakland is a city in the East Bay region of the San Francisco Bay Area in the U.S. state of California. It is the county seat of and the most populous city in Alameda County, California, with a population of 440,646 in 2020. A major West Coast port, Oakland is the most populous city in the East Bay, the third most populous city in the Bay Area, and the eighth most populous city in California. It serves as the Bay Area's trade center: the Port of Oakland is the busiest port in Northern California, and the fifth- or sixth-busiest in the United States. A charter city, Oakland was incorporated on May 4, 1852, in the wake of the state's increasing population due to the California gold rush.\nOakland's territory covers what was once a mosaic of California coastal terrace prairie, oak woodland, and north coastal scrub. In the late 18th century, it became part of a large rancho grant in the colony of New Spain, and was known for its plentiful oak tree stands. Its land served as a resource when its hillside oak and redwood timber were logged to build San Francisco. The fertile flatland soils helped it become a prolific agricultural region. In the 1850s, what became the first campus of the University of California was founded in Oakland, and Oakland was selected as the western terminal of the Transcontinental Railroad in 1869. The following year, Oakland's Lake Merritt became the United States' first officially designated wildlife refuge, now a National Historic Landmark. Following the catastrophic 1906 San Francisco earthquake, many San Francisco citizens moved to Oakland, enlarging the population, increasing its housing stock, and improving its infrastructure. It continued to grow in the 20th century with its port, shipyards, and manufacturing industry. In the 21st century, between 2019 and 2023, after the city and county refused requests for hundreds of millions of dollars in benefits to the privately owned teams, Oakland lost three teams of the major North American sports leagues within a span of five years.",
+  "climate": "Oakland has a warm-summer Mediterranean climate with an average of 260 sunny days per year. In general, the city features warm, dry summers, and cool, wet winters.\nBased on data gathered by the National Oceanic and Atmospheric Administration, Oakland is ranked No. 1 in climate among U.S. cities. Oakland's climate is typified by the temperate and seasonal Mediterranean climate. Summers are usually dry and warm and winters are cool and damp. It has features found in both nearby coastal cities such as San Francisco and inland cities such as San Jose, making it warmer than San Francisco and cooler than San Jose. Its position on San Francisco Bay across from the Bay Bridge means the northern part of the city can have cooling maritime fog. It is far enough inland that the fog often burns off by midday, allowing it to have typically sunny California days. The hills tend to have more fog than the flatlands, as the fog drifts down from Berkeley.\nThe U.S. Weather Bureau kept weather records in downtown Oakland from October 4, 1894, to July 31, 1958. During that time, the record high temperature was 104 \u00b0F on June 24, 1957, and the record low temperature was 24 \u00b0F on January 23, 1949. Dry, warm offshore \"Diablo\" winds sometimes occur, especially in fall, and raise the fire danger. In 1991, such an episode allowed the catastrophic Oakland Hills fire to spread and consume many homes.\nOakland, like much of Northern California, is susceptible to winter rainstorms and Atmospheric rivers. The wettest \"rain year\" was from July 1997 to June 1998 with 47.76 inches and the driest from July 2020 to June 2021 with 8.03 inches. The most rainfall in one month was 15.35 inches in January 1911. The most rainfall in 24 hours was 4.75 inches on December 31, 2022. Rainfall near the bayfront is only 23 inches, but is higher in the Oakland Hills to the east, with nearly all precipitation falling between November and April. While measurable amounts of snowfall in Oakland at sea level is very rare, light snow accumulates on the ground the higher elevations of the Oakland hills with more regularity.\nOvernight lows are mild. Oakland seldom experiences warm nights with the warmest recorded night of 72 \u00b0F in September 1971 and an average of 64 \u00b0F for the annual warmest low. The coldest day of the year averages a mild 50 \u00b0F and has never been recorded below 36 \u00b0F.\nThe National Weather Service today has two official weather stations in Oakland: Oakland San Francisco Bay Airport and the Oakland Museum."
+ }
+}

@@ -1,0 +1,139 @@
+{
+ "name": "Brisbane",
+ "admin1": "Queensland",
+ "country": "Australia",
+ "country_code": "AU",
+ "lat": -27.46794,
+ "lon": 153.02809,
+ "population": 2780063,
+ "elevation_m": 27.0,
+ "climate": [
+  {
+   "month": 1,
+   "high": 84.8,
+   "low": 68.8,
+   "precip_in": 6.73,
+   "wet_days": 18.0,
+   "snow_in": 0.0,
+   "wind_mph": 10.3,
+   "sun_frac": 0.76
+  },
+  {
+   "month": 2,
+   "high": 85.0,
+   "low": 68.7,
+   "precip_in": 4.2,
+   "wet_days": 14.0,
+   "snow_in": 0.0,
+   "wind_mph": 10.2,
+   "sun_frac": 0.8
+  },
+  {
+   "month": 3,
+   "high": 83.2,
+   "low": 67.6,
+   "precip_in": 5.84,
+   "wet_days": 15.0,
+   "snow_in": 0.0,
+   "wind_mph": 9.9,
+   "sun_frac": 0.76
+  },
+  {
+   "month": 4,
+   "high": 78.7,
+   "low": 61.3,
+   "precip_in": 3.35,
+   "wet_days": 9.5,
+   "snow_in": 0.0,
+   "wind_mph": 9.7,
+   "sun_frac": 0.88
+  },
+  {
+   "month": 5,
+   "high": 72.7,
+   "low": 54.1,
+   "precip_in": 2.62,
+   "wet_days": 7.0,
+   "snow_in": 0.0,
+   "wind_mph": 9.1,
+   "sun_frac": 0.89
+  },
+  {
+   "month": 6,
+   "high": 71.4,
+   "low": 50.7,
+   "precip_in": 0.61,
+   "wet_days": 3.5,
+   "snow_in": 0.0,
+   "wind_mph": 9.5,
+   "sun_frac": 0.9
+  },
+  {
+   "month": 7,
+   "high": 69.9,
+   "low": 49.9,
+   "precip_in": 1.22,
+   "wet_days": 5.5,
+   "snow_in": 0.0,
+   "wind_mph": 10.1,
+   "sun_frac": 0.82
+  },
+  {
+   "month": 8,
+   "high": 75.3,
+   "low": 53.5,
+   "precip_in": 1.52,
+   "wet_days": 5.5,
+   "snow_in": 0.0,
+   "wind_mph": 9.1,
+   "sun_frac": 0.88
+  },
+  {
+   "month": 9,
+   "high": 78.1,
+   "low": 55.0,
+   "precip_in": 2.35,
+   "wet_days": 6.5,
+   "snow_in": 0.0,
+   "wind_mph": 10.4,
+   "sun_frac": 0.9
+  },
+  {
+   "month": 10,
+   "high": 80.6,
+   "low": 59.2,
+   "precip_in": 2.5,
+   "wet_days": 6.5,
+   "snow_in": 0.0,
+   "wind_mph": 11.1,
+   "sun_frac": 0.91
+  },
+  {
+   "month": 11,
+   "high": 81.5,
+   "low": 64.8,
+   "precip_in": 8.59,
+   "wet_days": 18.5,
+   "snow_in": 0.0,
+   "wind_mph": 10.1,
+   "sun_frac": 0.78
+  },
+  {
+   "month": 12,
+   "high": 86.1,
+   "low": 68.7,
+   "precip_in": 7.35,
+   "wet_days": 15.5,
+   "snow_in": 0.0,
+   "wind_mph": 9.4,
+   "sun_frac": 0.82
+  }
+ ],
+ "period": "2023-01-01 to 2024-12-31",
+ "wiki": {
+  "title": "Brisbane",
+  "url": "https://en.wikipedia.org/wiki/Brisbane",
+  "intro": "Brisbane is the capital and largest city of the Australian state of Queensland and the third-most populous city in Australia, with a population of about 2.8 million. Brisbane lies at the centre of South East Queensland, a bio-geographical and urban region with an estimated population of 4.1 million as of 2024. The central business district is situated within a peninsula of the Brisbane River approximately 15 kilometres from its mouth at Moreton Bay. Greater Brisbane sprawls across the hilly floodplain of the Brisbane River Valley between the Pacific Ocean and the Taylor and D'Aguilar mountain ranges, encompassing several local government areas. The City of Brisbane LGA forms the inner area of Greater Brisbane, and is the most populous local government area in Australia. The demonym of Brisbane is Brisbanite.\nThe Moreton Bay penal settlement was established in 1824 at Redcliffe as a place for secondary offenders from the Sydney colony, but in May 1825, the settlement moved to North Quay on the banks of the Brisbane River, named for the Governor of New South Wales, Sir Thomas Brisbane. German Lutherans established the first free settlement of Zion Hill at Nundah in 1838, and in 1859, Brisbane was chosen as Queensland's capital when the state separated from New South Wales. During World War II, the Allied command in the South West Pacific was based in the city, along with the headquarters of General Douglas MacArthur of the United States Army.\nBrisbane is a major transport hub, served by large rail, bus and ferry networks, as well as Brisbane Airport and the Port of Brisbane, Australia's third-busiest airport and seaport, respectively. A diverse city with over 36% of its metropolitan population being foreign-born, Brisbane is frequently ranked highly in lists of the world's most liveable cities. Brisbane has hosted major events including the 1982 Commonwealth Games, World Expo 88 and the 2014 G20 summit, and will host the 2032 Summer Olympics and Paralympics.\nSouth Bank and its extensive parklands attract an estimated 16 million visitors each year. The surrounding region includes the UNESCO World Heritage Gondwana Rainforests, the Glass House Mountains, and Moreton Bay which is sheltered by the barrier sand islands of Moreton and North Stradbroke Island. Within the bay lie the historic sites of Teerk Roo Ra and St Helena Island National Park.",
+  "climate": "Brisbane has a humid subtropical climate with hot, wet summers and moderately drier, mild winters. Brisbane experiences an annual mean minimum of 16.6 \u00b0C and mean maximum of 26.6 \u00b0C, making it Australia's second-hottest capital city after Darwin. Seasonality is not pronounced, and average maximum temperatures of above 26 \u00b0C persist from October through to April.\nDue to its proximity to the Coral Sea and a warm ocean current, Brisbane's overall temperature variability is somewhat less than most Australian capitals. Summers are long, hot, and wet, but temperatures only occasionally reach 35 \u00b0C or more. Eighty percent of summer days record a maximum temperature of 27 to 33 \u00b0C. Winters are short and warm, with average maximums of about 22 \u00b0C; maximum temperatures below 20 \u00b0C are rare.\nThe city's highest recorded temperature was 43.2 \u00b0C on Australia Day 1940 at the Brisbane Regional Office, with the highest temperature at the current station being 41.7 \u00b0C on 22 February 2004; but temperatures above 38 \u00b0C are uncommon. On 19 July 2007, Brisbane's temperature fell below the freezing point for the first time since records began, registering \u22120.1 \u00b0C at the airport station. The city station has never dropped below 2 \u00b0C, with the average coldest night during winter being around 6 \u00b0C; however, locations in the west of the metropolitan area such as Ipswich have dropped as low as \u22125 \u00b0C with heavy ground frost.\nIn 2009, Brisbane recorded its hottest winter day at 35.4 \u00b0C on 24 August; The average July day however is around 22 \u00b0C with sunny skies and low humidity, occasionally as high as 27 \u00b0C, whilst maximum temperatures below 18 \u00b0C are uncommon and usually associated with brief periods of cloud and winter rain. The highest minimum temperature ever recorded in Brisbane was 28.0 \u00b0C on 29 January 1940 and again on 21 January 2017, whilst the lowest maximum temperature was 10.2 \u00b0C on 12 August 1954.\nAnnual precipitation is ample. From November to March, thunderstorms are common over Brisbane, with the more severe events accompanied by large damaging hailstones, torrential rain and destructive winds. To the west of Brisbane, supercell thunderstorms often form during the late spring and summer months. These can include tornadic supercells. On an annual basis, Brisbane averages 124 clear days, with overcast skies more common in the warmer months. Dewpoints in the summer average at around 20 \u00b0C; the apparent temperature exceeds 30 \u00b0C on almost all summer days. Brisbane's wettest day occurred on 21 January 1887, when 465 millimetres of rain fell on the city, the highest maximum daily rainfall of Australia's capital cities. The wettest month on record was February 1893, when 1,025.9 millimetres of rain fell. Very occasionally a whole month will pass with no recorded rainfall, the last time this happened was August 1991. The city has suffered four major floods since its founding, in February 1893, January 1974, January 2011 and February 2022.\nBrisbane is within the southern reaches of the tropical cyclone risk zone. Full-strength tropical cyclones rarely affect Brisbane, but occasionally do so, the most recent being Cyclone Alfred, making landfall as a category 1 around Bribie Island on the 8th of March, 2025, bringing destructive winds and causing significant flooding throughout parts of south-eastern Queensland and north-eastern New South Wales. The more common risk is from ex-tropical cyclones, which typically bring destructive winds and flooding rains.\nThe temperature of the ocean ranges from 21 \u00b0C in August to 27 \u00b0C in February."
+ }
+}

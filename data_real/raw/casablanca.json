@@ -1,0 +1,134 @@
+{
+ "name": "Casablanca",
+ "admin1": "Casablanca-Settat",
+ "country": "Morocco",
+ "country_code": "MA",
+ "lat": 33.58831,
+ "lon": -7.61138,
+ "population": 3665954,
+ "elevation_m": 27.0,
+ "climate": [
+  {
+   "month": 1,
+   "high": 66.6,
+   "low": 49.6,
+   "precip_in": 1.36,
+   "wet_days": 5.5,
+   "snow_in": 0.0,
+   "wind_mph": 9.7,
+   "sun_frac": 0.85
+  },
+  {
+   "month": 2,
+   "high": 66.0,
+   "low": 50.6,
+   "precip_in": 2.33,
+   "wet_days": 7.5,
+   "snow_in": 0.0,
+   "wind_mph": 10.6,
+   "sun_frac": 0.78
+  },
+  {
+   "month": 3,
+   "high": 68.0,
+   "low": 53.3,
+   "precip_in": 2.04,
+   "wet_days": 6.5,
+   "snow_in": 0.0,
+   "wind_mph": 12.0,
+   "sun_frac": 0.81
+  },
+  {
+   "month": 4,
+   "high": 72.4,
+   "low": 56.5,
+   "precip_in": 0.66,
+   "wet_days": 3.5,
+   "snow_in": 0.0,
+   "wind_mph": 11.5,
+   "sun_frac": 0.92
+  },
+  {
+   "month": 5,
+   "high": 72.9,
+   "low": 59.3,
+   "precip_in": 1.12,
+   "wet_days": 5.5,
+   "snow_in": 0.0,
+   "wind_mph": 11.7,
+   "sun_frac": 0.87
+  },
+  {
+   "month": 6,
+   "high": 77.8,
+   "low": 65.3,
+   "precip_in": 0.6,
+   "wet_days": 5.0,
+   "snow_in": 0.0,
+   "wind_mph": 11.4,
+   "sun_frac": 0.82
+  },
+  {
+   "month": 7,
+   "high": 80.9,
+   "low": 67.3,
+   "precip_in": 0.03,
+   "wet_days": 0.0,
+   "snow_in": 0.0,
+   "wind_mph": 10.7,
+   "sun_frac": 0.88
+  },
+  {
+   "month": 8,
+   "high": 83.3,
+   "low": 68.2,
+   "precip_in": 0.13,
+   "wet_days": 1.5,
+   "snow_in": 0.0,
+   "wind_mph": 10.4,
+   "sun_frac": 0.91
+  },
+  {
+   "month": 9,
+   "high": 79.1,
+   "low": 64.9,
+   "precip_in": 0.42,
+   "wet_days": 1.5,
+   "snow_in": 0.0,
+   "wind_mph": 10.4,
+   "sun_frac": 0.85
+  },
+  {
+   "month": 10,
+   "high": 78.1,
+   "low": 63.2,
+   "precip_in": 2.14,
+   "wet_days": 9.0,
+   "snow_in": 0.0,
+   "wind_mph": 11.2,
+   "sun_frac": 0.84
+  },
+  {
+   "month": 11,
+   "high": 73.5,
+   "low": 56.8,
+   "precip_in": 0.62,
+   "wet_days": 3.5,
+   "snow_in": 0.0,
+   "wind_mph": 8.6,
+   "sun_frac": 0.86
+  },
+  {
+   "month": 12,
+   "high": 67.4,
+   "low": 50.2,
+   "precip_in": 0.97,
+   "wet_days": 4.5,
+   "snow_in": 0.0,
+   "wind_mph": 8.5,
+   "sun_frac": 0.83
+  }
+ ],
+ "period": "2023-01-01 to 2024-12-31",
+ "wiki": null
+}

@@ -1,0 +1,134 @@
+{
+ "name": "Bangkok",
+ "admin1": "Bangkok",
+ "country": "Thailand",
+ "country_code": "TH",
+ "lat": 13.75398,
+ "lon": 100.50144,
+ "population": 5104476,
+ "elevation_m": 12.0,
+ "climate": [
+  {
+   "month": 1,
+   "high": 89.4,
+   "low": 71.9,
+   "precip_in": 0.47,
+   "wet_days": 2.5,
+   "snow_in": 0.0,
+   "wind_mph": 8.4,
+   "sun_frac": 0.92
+  },
+  {
+   "month": 2,
+   "high": 91.1,
+   "low": 75.6,
+   "precip_in": 1.62,
+   "wet_days": 5.0,
+   "snow_in": 0.0,
+   "wind_mph": 9.4,
+   "sun_frac": 0.91
+  },
+  {
+   "month": 3,
+   "high": 92.2,
+   "low": 78.3,
+   "precip_in": 1.67,
+   "wet_days": 8.0,
+   "snow_in": 0.0,
+   "wind_mph": 10.6,
+   "sun_frac": 0.9
+  },
+  {
+   "month": 4,
+   "high": 96.3,
+   "low": 82.6,
+   "precip_in": 1.98,
+   "wet_days": 6.5,
+   "snow_in": 0.0,
+   "wind_mph": 11.7,
+   "sun_frac": 0.92
+  },
+  {
+   "month": 5,
+   "high": 94.4,
+   "low": 81.0,
+   "precip_in": 7.32,
+   "wet_days": 18.5,
+   "snow_in": 0.0,
+   "wind_mph": 10.5,
+   "sun_frac": 0.8
+  },
+  {
+   "month": 6,
+   "high": 90.5,
+   "low": 79.1,
+   "precip_in": 7.69,
+   "wet_days": 24.5,
+   "snow_in": 0.0,
+   "wind_mph": 11.0,
+   "sun_frac": 0.72
+  },
+  {
+   "month": 7,
+   "high": 88.7,
+   "low": 78.2,
+   "precip_in": 11.63,
+   "wet_days": 28.5,
+   "snow_in": 0.0,
+   "wind_mph": 10.9,
+   "sun_frac": 0.56
+  },
+  {
+   "month": 8,
+   "high": 90.4,
+   "low": 78.1,
+   "precip_in": 8.21,
+   "wet_days": 27.0,
+   "snow_in": 0.0,
+   "wind_mph": 10.3,
+   "sun_frac": 0.72
+  },
+  {
+   "month": 9,
+   "high": 88.7,
+   "low": 77.7,
+   "precip_in": 12.96,
+   "wet_days": 29.0,
+   "snow_in": 0.0,
+   "wind_mph": 9.5,
+   "sun_frac": 0.66
+  },
+  {
+   "month": 10,
+   "high": 88.7,
+   "low": 76.5,
+   "precip_in": 9.17,
+   "wet_days": 23.0,
+   "snow_in": 0.0,
+   "wind_mph": 7.7,
+   "sun_frac": 0.78
+  },
+  {
+   "month": 11,
+   "high": 89.2,
+   "low": 75.1,
+   "precip_in": 2.55,
+   "wet_days": 9.5,
+   "snow_in": 0.0,
+   "wind_mph": 7.7,
+   "sun_frac": 0.89
+  },
+  {
+   "month": 12,
+   "high": 90.2,
+   "low": 74.3,
+   "precip_in": 0.84,
+   "wet_days": 4.5,
+   "snow_in": 0.0,
+   "wind_mph": 7.5,
+   "sun_frac": 0.91
+  }
+ ],
+ "period": "2023-01-01 to 2024-12-31",
+ "wiki": null
+}
