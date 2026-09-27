@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Inside the network, one layer at a time</title>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&family=IBM+Plex+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0F2A47;--grid:#1B3F66;--panel:#143556;--ink:#DCE9F5;--muted:#7FA3C7;--amber:#FFB238;--coral:#FF6F61;--mint:#6FE3B4;--cyan:#5CC8FF;--violet:#C9A7FF;
+ --sans:"IBM Plex Sans",system-ui,sans-serif;--mono:"IBM Plex Mono",ui-monospace,monospace}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.5 var(--sans)}
+.wrap{max-width:1180px;margin:0 auto;padding:22px 20px 60px}
+h1{font-size:clamp(26px,4vw,40px);margin:0 0 4px;line-height:1.1}.sub{color:var(--muted);margin:0 0 16px}
+a{color:var(--cyan)}
+.top{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-bottom:14px}
+.top input{flex:1;min-width:260px;font:600 16px var(--mono);color:var(--amber);background:var(--panel);border:1.5px solid var(--muted);border-radius:9px;padding:9px 12px}
+button{font:inherit;color:inherit;cursor:pointer}
+.go{background:var(--amber);color:#0B1E33;border:0;border-radius:9px;padding:9px 18px;font-weight:700}
+.pill{border:1px solid var(--muted);background:none;border-radius:999px;padding:4px 12px;font-size:14px}
+.layout{display:grid;grid-template-columns:minmax(0,3fr) minmax(0,2fr);gap:18px;align-items:start}
+@media(max-width:900px){.layout{grid-template-columns:1fr}}
+canvas{width:100%;display:block;background:var(--panel);border:1px solid var(--grid);border-radius:14px}
+.panel{background:var(--panel);border:1px solid var(--grid);border-radius:14px;padding:16px 18px;min-height:300px}
+.panel h2{margin:0 0 6px;font-size:22px}.panel .where{color:var(--amber);font:600 13px var(--mono);margin-bottom:10px}
+.panel p{margin:8px 0}.panel code{font-family:var(--mono);color:var(--cyan);font-size:.9em}
+.detail{margin-top:10px;font:13px var(--mono);color:var(--ink);background:var(--bg);border-radius:8px;padding:10px;overflow-x:auto;white-space:pre}
+.nav{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-top:12px}
+.nav button{border:2px solid var(--ink);background:none;border-radius:9px;padding:9px 16px;font-weight:500}.nav .go{border:0;background:var(--amber);color:#0B1E33}
+.nav .k{color:var(--muted);font-size:13px}
+.steps{display:flex;flex-wrap:wrap;gap:5px;margin:10px 0 0}.steps button{border:1px solid var(--grid);background:var(--bg);color:var(--muted);border-radius:6px;padding:3px 8px;font-size:12px}
+.steps button.on{background:var(--amber);color:#0B1E33;border-color:var(--amber);font-weight:600}.steps button.done{color:var(--mint);border-color:var(--mint)}
+.bar{display:grid;grid-template-columns:90px 1fr 60px;gap:8px;align-items:center;font:13px var(--mono);margin:3px 0}.bar i{display:block;height:12px;border-radius:3px;background:var(--cyan)}
+.chips span{display:inline-block;font:600 13px var(--mono);color:#0B1E33;border-radius:4px;padding:2px 6px;margin:2px;white-space:pre}
+</style></head>
+<body><div class="wrap">
+<h1>Inside the network, one layer at a time</h1>
+<p class="sub">The same 153,344 weights the rest of the course runs on, drawn as the network they are: every token a node, every layer a column, every perceptron a dot lit by its real activation. <a href="intro.html">32-second intro</a> &middot; <a href="index.html">Back to the ten-stage classroom</a> &middot; <a href="harness.html">the harness</a></p>
+<div class="top"><input id="q" value="What is the weather in Los Angeles?" maxlength="80"><button class="go" id="run">Run</button>
+<button class="pill" id="play">▶ auto-play</button><span class="k" id="status" style="color:var(--muted);font:13px var(--mono)"></span></div>
+<div class="layout">
+  <div><canvas id="c" width="1200" height="760"></canvas><div class="steps" id="steps"></div></div>
+  <div class="panel" id="panel"></div>
+</div>
+<div class="nav"><button id="back">Back</button><span class="k">arrow keys step through &middot; every number is live from the model in your browser</span><button class="go" id="next">Next</button></div>
+</div>
+<script src="model.js"></script><script src="engine.js"></script>
+<script>
+const $=s=>document.querySelector(s), E=window.Engine, COL=["#FFB238","#5CC8FF","#6FE3B4","#C9A7FF","#FF6F61","#9AD0FF"];
+const esc=s=>String(s).replace(/[&<>]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;"}[c])), vis=s=>esc(s.replace(/ /g,"·"));
+const c=$("#c"), ctx=c.getContext("2d"), W=c.width, Hh=c.height;
+let R=null, step=0, anim=0, playing=false, t0=0;
+
+// ------------------------------------------------------------- layout: columns of the network
+function columns(T){ // returns x positions of the visual columns
+  return {tok:70, emb:170, ln1:[300,700], attn:[380,780], add1:[460,860], ln2:[520,920], mlp:[590,990], add2:[660,1060], out:1140};
+}
+const L=2;
+function nodeY(i,n,top=90,bottom=Hh-70){ return n===1?(top+bottom)/2: top+(bottom-top)*i/(n-1); }
+function hcol(v,m,pos=[92,200,255],neg=[255,111,97]){ const t=Math.max(-1,Math.min(1,v/m)), a=Math.pow(Math.abs(t),.6), b=[20,53,86], k=t>=0?pos:neg; return `rgb(${b.map((x,j)=>Math.round(x+(k[j]-x)*a)).join(",")})`; }
+
+// ------------------------------------------------------------- the step list (what is lit at each step)
+const STEPS=[
+ {id:"tokens",title:"Tokens go in",where:"tokenizer.py"},
+ {id:"embed",title:"Embedding: each id becomes 64 numbers",where:"embedding.py"},
+ {id:"ln1-0",title:"Block 1: layer norm",where:"layers.py · LayerNorm",l:0},
+ {id:"attn-0",title:"Block 1: attention, tokens read each other",where:"attention.py",l:0},
+ {id:"add1-0",title:"Block 1: add attention output to the stream",where:"transformer.py · x = x + attn",l:0},
+ {id:"ln2-0",title:"Block 1: layer norm again",where:"layers.py · LayerNorm",l:0},
+ {id:"mlp-0",title:"Block 1: the perceptron layer (256 neurons)",where:"layers.py · MLP",l:0},
+ {id:"add2-0",title:"Block 1: add the MLP output to the stream",where:"transformer.py · x = x + mlp",l:0},
+ {id:"ln1-1",title:"Block 2: layer norm",where:"layers.py",l:1},
+ {id:"attn-1",title:"Block 2: attention",where:"attention.py",l:1},
+ {id:"add1-1",title:"Block 2: residual add",where:"transformer.py",l:1},
+ {id:"ln2-1",title:"Block 2: layer norm",where:"layers.py",l:1},
+ {id:"mlp-1",title:"Block 2: perceptron layer",where:"layers.py · MLP",l:1},
+ {id:"add2-1",title:"Block 2: residual add",where:"transformer.py",l:1},
+ {id:"unembed",title:"Final norm, then compare with every token's vector",where:"transformer.py · logits = h @ tok.T"},
+ {id:"sample",title:"768 scores become one chosen token",where:"sampling.py"},
+];
+
+// ------------------------------------------------------------- drawing
+function draw(){ if(!R) return; const {T,pieces,cap,weights:w}=R, X=columns(T), S=STEPS[step], last=T-1, pulse=(Math.sin(anim/9)+1)/2;
+  ctx.clearRect(0,0,W,Hh); ctx.font="12px IBM Plex Mono,monospace";
+  const done=id=>STEPS.findIndex(s=>s.id===id)<step, on=id=>S.id===id, vis2=id=>STEPS.findIndex(s=>s.id===id)<=step;
+  // residual stream rails
+  for(let i=0;i<T;i++){ const y=nodeY(i,T); ctx.strokeStyle=i===last?"#FFB23855":"#1B3F66"; ctx.lineWidth=i===last?3:1.5; ctx.beginPath(); ctx.moveTo(X.emb+14,y); ctx.lineTo(Math.min(X.out-20, progressX(X)),y); ctx.stroke(); }
+  // block frames
+  for(let l=0;l<L;l++){ ctx.strokeStyle="#7FA3C766"; ctx.setLineDash([5,5]); ctx.strokeRect(X.ln1[l]-40,52,X.add2[l]-X.ln1[l]+80,Hh-100); ctx.setLineDash([]); ctx.fillStyle="#7FA3C7"; ctx.fillText(`block ${l+1}`,X.ln1[l]-32,70); }
+  // token nodes
+  for(let i=0;i<T;i++){ const y=nodeY(i,T); ctx.fillStyle=COL[i%6]; ctx.beginPath(); ctx.arc(X.tok,y,7,0,7); ctx.fill(); ctx.fillStyle="#DCE9F5"; ctx.textAlign="right"; ctx.fillText(pieces[i].replace(/ /g,"·").slice(0,12),X.tok-12,y+4); ctx.textAlign="left"; }
+  // embedding strips
+  if(vis2("embed")){ for(let i=0;i<T;i++){ const y=nodeY(i,T), m=1; for(let k=0;k<16;k++){ ctx.fillStyle=hcol(cap.embed[i*E.D+k],.6); ctx.fillRect(X.emb-40+k*5,y-5,4,10);} if(on("embed")&&i===last){ctx.strokeStyle="#FFB238";ctx.lineWidth=2;ctx.strokeRect(X.emb-42,y-8,84,16);} } ctx.fillStyle="#7FA3C7"; ctx.fillText("embed",X.emb-18,Hh-40); }
+  for(let l=0;l<L;l++){
+    // LN1
+    if(vis2(`ln1-${l}`)) box(X.ln1[l],"LN",on(`ln1-${l}`));
+    // attention edges for the last token (and faint for others when on)
+    if(vis2(`attn-${l}`)){ box(X.attn[l],"attention",on(`attn-${l}`),36);
+      const maps=cap.attention[l]; for(let h=0;h<maps.length;h++){ const row=maps[h][last];
+        for(let j=0;j<T;j++){ const wgt=row[j]; if(wgt<0.03) continue; ctx.strokeStyle=`rgba(255,178,56,${(on(`attn-${l}`)?0.15+wgt:0.08+wgt*0.5).toFixed(2)})`; ctx.lineWidth=1+wgt*7;
+          ctx.beginPath(); ctx.moveTo(X.ln1[l]+22,nodeY(j,T)); ctx.bezierCurveTo(X.attn[l]-30+h*6,nodeY(j,T),X.attn[l]-30+h*6,nodeY(last,T),X.attn[l]-18,nodeY(last,T)); ctx.stroke(); } } }
+    if(vis2(`add1-${l}`)) plus(X.add1[l],on(`add1-${l}`));
+    if(vis2(`ln2-${l}`)) box(X.ln2[l],"LN",on(`ln2-${l}`));
+    // MLP: 256 neurons of the last token, as a column of dots
+    if(vis2(`mlp-${l}`)){ const hid=cap.mlpHidden[l], n=E.DFF, m=Math.max(...Array.from(hid.subarray(last*n,last*n+n)).map(Math.abs))||1;
+      for(let k=0;k<n;k++){ const v=hid[last*n+k], y=64+(Hh-128)*k/(n-1), x=X.mlp[l]-16+(k%3)*12; ctx.fillStyle=v>0.02*m?`rgba(111,227,180,${Math.min(1,0.2+v/m)})`:"#1B3F66"; ctx.beginPath(); ctx.arc(x,y,on(`mlp-${l}`)&&v>0.5*m?3.6+pulse*1.5:2.6,0,7); ctx.fill(); }
+      if(on(`mlp-${l}`)){ // fan-in from the 64 inputs to the strongest neuron
+        const best=argmax(hid.subarray(last*n,last*n+n)), by=64+(Hh-128)*best/(n-1), bx=X.mlp[l]-16+(best%3)*12, Wup=w[`block${l}.mlp.up.W`], inp=cap.ln2[l];
+        for(let i=0;i<E.D;i++){ const contrib=inp[last*E.D+i]*Wup[i*n+best]; ctx.strokeStyle=contrib>0?`rgba(92,200,255,${Math.min(.9,Math.abs(contrib)*3)})`:`rgba(255,111,97,${Math.min(.9,Math.abs(contrib)*3)})`; ctx.lineWidth=1; ctx.beginPath(); ctx.moveTo(X.ln2[l]+22,nodeY(last,T)-32+i); ctx.lineTo(bx,by); ctx.stroke(); }
+        ctx.strokeStyle="#6FE3B4"; ctx.lineWidth=2; ctx.beginPath(); ctx.arc(bx,by,7,0,7); ctx.stroke(); }
+      ctx.fillStyle="#7FA3C7"; ctx.fillText("MLP",X.mlp[l]-12,Hh-40); }
+    if(vis2(`add2-${l}`)) plus(X.add2[l],on(`add2-${l}`));
+  }
+  if(vis2("unembed")){ box(X.out-40,"LN + unembed",on("unembed"),46); const top=R.top; for(let k=0;k<Math.min(6,top.length);k++){ const y=Hh-250+k*24, p=top[k].p; ctx.fillStyle=k===0?"#6FE3B4":"#5CC8FF"; ctx.fillRect(X.out+8,y-6,Math.max(3,p*120),12); ctx.fillStyle="#DCE9F5"; ctx.fillText(top[k].piece.replace(/ /g,"·")+" "+(p*100).toFixed(0)+"%",X.out+12+Math.max(3,p*120),y+4); } }
+  if(on("sample")){ ctx.fillStyle="#6FE3B4"; ctx.font="bold 15px IBM Plex Mono,monospace"; ctx.fillText("chosen: "+R.top[0].piece.replace(/ /g,"·"),X.out-60,Hh-58); }
+  // the moving packet
+  const px=progressX(X); ctx.fillStyle="#FFB238"; ctx.beginPath(); ctx.arc(px,nodeY(last,T),6+pulse*2,0,7); ctx.fill();
+}
+function progressX(X){ const S=STEPS[step], map={tokens:X.tok,embed:X.emb,unembed:X.out-40,sample:X.out+40}; if(map[S.id]!==undefined) return map[S.id]; const [k,l]=S.id.split("-"); return X[k][+l]; }
+function box(x,label,hot,w=30){ ctx.fillStyle=hot?"#FFB238":"#143556"; ctx.strokeStyle=hot?"#FFB238":"#7FA3C7"; ctx.lineWidth=1.5; ctx.beginPath(); ctx.roundRect(x-w/2,56,w,Hh-112,6); ctx.fill(); ctx.stroke(); ctx.save(); ctx.translate(x,Hh/2); ctx.rotate(-Math.PI/2); ctx.textAlign="center"; ctx.fillStyle=hot?"#0B1E33":"#DCE9F5"; ctx.fillText(label,0,4); ctx.restore(); }
+function plus(x,hot){ ctx.strokeStyle=hot?"#FFB238":"#7FA3C7"; ctx.lineWidth=2; ctx.beginPath(); ctx.arc(x,Hh/2,12,0,7); ctx.stroke(); ctx.fillStyle=hot?"#FFB238":"#7FA3C7"; ctx.font="bold 18px IBM Plex Mono,monospace"; ctx.textAlign="center"; ctx.fillText("+",x,Hh/2+6); ctx.textAlign="left"; ctx.font="12px IBM Plex Mono,monospace"; }
+function argmax(a){ let b=0; for(let i=1;i<a.length;i++) if(a[i]>a[b]) b=i; return b; }
+
+// ------------------------------------------------------------- the explanation panel
+function explain(){ const {T,pieces,cap,weights:w}=R, S=STEPS[step], last=T-1, l=S.l??0, n=E.DFF, D=E.D;
+  const bars=(items,m)=>items.map(([k,v])=>`<div class="bar"><span>${vis(k)}</span><span><i style="width:${Math.max(1,Math.abs(v)/m*100)}%;${v<0?"background:var(--coral)":""}"></i></span><span>${typeof v==="number"?v.toFixed(2):v}</span></div>`).join("");
+  let body="";
+  switch(S.id.split("-")[0]){
+    case "tokens": body=`<p>${T} tokens, each an integer id. That is all the network receives.</p><div class="chips">${pieces.map((p,i)=>`<span style="background:${COL[i%6]}">${vis(p)}<small> ${R.ids[i]}</small></span>`).join("")}</div>`; break;
+    case "embed": body=`<p>Each id picks a row of the token table; a position row is added. The last token, <code>${vis(pieces[last])}</code>, becomes these 64 numbers (first 12 shown):</p><div class="detail">${Array.from(cap.embed.subarray(last*D,last*D+12)).map(v=>v.toFixed(3).padStart(7)).join(" ")}</div><p>Nothing about the other tokens is known yet: no mixing has happened.</p>`; break;
+    case "ln1": case "ln2": { const src=S.id.startsWith("ln1")?cap.stream[l]:null; const out=(S.id.startsWith("ln1")?cap.ln1:cap.ln2)[l]; const v=Array.from(out.subarray(last*D,last*D+D)); const mean=v.reduce((a,b)=>a+b)/D, sd=Math.sqrt(v.reduce((a,b)=>a+(b-mean)**2,0)/D);
+      body=`<p>Layer norm re-centres and re-scales each token's vector so the numbers stay well behaved, then multiplies by a learned gain and adds a learned bias.</p><p>Last token after this norm: mean <code>${mean.toFixed(3)}</code>, spread <code>${sd.toFixed(2)}</code> (before gain and bias it would be exactly 0 and 1).</p>`; break; }
+    case "attn": { const maps=cap.attention[l]; body=`<p>Each of the ${maps.length} heads lets <code>${vis(pieces[last])}</code> read from earlier tokens. Line thickness on the drawing is the attention weight. Where each head looks hardest:</p>`+maps.map((mp,h)=>{const row=mp[last], j=argmax(row); return `<div class="bar"><span>head ${h+1}</span><span><i style="width:${row[j]*100}%"></i></span><span>${vis(pieces[j])} ${(row[j]*100).toFixed(0)}%</span></div>`;}).join("")+`<p>The blend of their values is projected back to 64 numbers and handed to the next step.</p>`; break; }
+    case "add1": { const a=cap.attnOut[l]; const norm=Math.hypot(...Array.from(a.subarray(last*D,last*D+D))); body=`<p>The residual connection: the attention result is <b>added</b> to the stream, it does not replace it. Size of what was added for the last token: <code>${norm.toFixed(2)}</code>; the stream is now <code>${cap.streamNorms[l+1]?Math.hypot(...Array.from(cap.stream[l].subarray(last*D,last*D+D))).toFixed(2):""}</code> long before the MLP.</p><p>Because of this plus sign, gradients in stage 7 have a straight road back to the embedding.</p>`; break; }
+    case "mlp": { const hid=cap.mlpHidden[l], pre=cap.mlpPre[l], vals=Array.from(hid.subarray(last*n,last*n+n)), active=vals.filter(v=>v>0.05).length, best=argmax(vals);
+      const Wup=w[`block${l}.mlp.up.W`], inp=cap.ln2[l], contribs=Array.from({length:D},(_,i)=>[`input ${i}`,inp[last*D+i]*Wup[i*n+best]]).sort((a,b)=>Math.abs(b[1])-Math.abs(a[1])).slice(0,6), m=Math.abs(contribs[0][1]);
+      body=`<p>This is the classic neural-network picture. Every one of the ${n} dots is a <b>perceptron</b>: it multiplies the 64 inputs by its own 64 weights, adds them up with a bias, and passes the sum through a smooth switch (GELU). Bright dots are firing.</p><p>For the last token, <b>${active} of ${n}</b> neurons are on. The strongest is neuron <b>#${best}</b> (ringed on the drawing): weighted sum <code>${pre[last*n+best].toFixed(2)}</code>, after GELU <code>${vals[best].toFixed(2)}</code>. Its six biggest inputs × weights:</p>${bars(contribs,m)}<p>Then a second layer of ${D} perceptrons shrinks the ${n} activations back to 64. Much of what the model <i>knows</i> lives in these ${(n*D*2).toLocaleString()} weights.</p>`; break; }
+    case "add2": body=`<p>The MLP output is added to the stream. After block ${l+1} the last token's vector has length <code>${Math.hypot(...Array.from(cap.stream[l+1].subarray(last*D,last*D+D))).toFixed(2)}</code>.</p><p>${l<L-1?"Same shape in, same shape out, so the next block can take over.":"That was the last block. Time to read a prediction off the stream."}</p>`; break;
+    case "unembed": body=`<p>A final layer norm, then the last token's vector is dotted with all ${E.V} rows of the token table (the embedding table used backwards: <b>weight tying</b>). One score per possible next token.</p>${bars(R.top.map(t=>[t.piece,t.p]),R.top[0].p)}<p>These are already softmaxed into probabilities on the right.</p>`; break;
+    case "sample": body=`<p>Sampling picks one token from those probabilities: here <code>${vis(R.top[0].piece)}</code> with ${(R.top[0].p*100).toFixed(1)}%. It is appended to the input and the whole network runs again, from the first step, for the next token.</p><p>That loop, repeated about 16 times, produces the sentence you see on the classroom page.</p>`; break;
+  }
+  $("#panel").innerHTML=`<h2>${step+1}. ${esc(S.title)}</h2><div class="where">${esc(S.where)}</div>${body}`;
+  $("#steps").innerHTML=STEPS.map((s,i)=>`<button class="${i===step?"on":i<step?"done":""}" data-i="${i}">${i+1}</button>`).join("");
+  document.querySelectorAll("#steps button").forEach(b=>b.onclick=()=>{step=+b.dataset.i;explain();});
+}
+function run(){ const q=$("#q").value.trim()||"What is the weather in Los Angeles?"; const t=performance.now();
+  R=E.inspect("aligned",E.encode(E.formatPrompt(q)).slice(-E.config.context_length)); $("#status").textContent=`forward pass: ${Math.round(performance.now()-t)} ms, ${R.T} tokens`; step=0; explain(); }
+function loop(){ anim++; draw(); if(playing&&anim-t0>110){t0=anim; if(step<STEPS.length-1){step++;explain();} else {playing=false;$("#play").textContent="▶ auto-play";}} requestAnimationFrame(loop); }
+$("#run").onclick=run; $("#q").onkeydown=e=>{if(e.key==="Enter")run()};
+$("#next").onclick=()=>{if(step<STEPS.length-1){step++;explain();}}; $("#back").onclick=()=>{if(step>0){step--;explain();}};
+$("#play").onclick=()=>{playing=!playing;t0=anim;$("#play").textContent=playing?"⏸ pause":"▶ auto-play"};
+addEventListener("keydown",e=>{if(e.target.tagName==="INPUT")return; if(e.key==="ArrowRight")$("#next").click(); if(e.key==="ArrowLeft")$("#back").click();});
+run(); loop();
+</script></body></html>

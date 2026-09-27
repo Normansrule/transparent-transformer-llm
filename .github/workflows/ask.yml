@@ -1,0 +1,27 @@
+name: ask the model
+on:
+  issues:
+    types: [opened]
+permissions:
+  issues: write
+  contents: read
+jobs:
+  answer:
+    if: startsWith(github.event.issue.title, 'Ask:') || startsWith(github.event.issue.title, 'ask:')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: pip install numpy
+      - name: Run the prompt through every stage
+        env:
+          TITLE: ${{ github.event.issue.title }}     # passed as data, never interpolated into the shell
+        run: python tools/answer_issue.py > reply.md
+      - name: Reply and close
+        env:
+          GH_TOKEN: ${{ github.token }}
+          NUMBER: ${{ github.event.issue.number }}
+        run: |
+          gh issue comment "$NUMBER" --repo "$GITHUB_REPOSITORY" --body-file reply.md
+          gh issue close "$NUMBER" --repo "$GITHUB_REPOSITORY"

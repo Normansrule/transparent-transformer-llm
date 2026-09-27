@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The harness: everything around the model</title>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&family=IBM+Plex+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0F2A47;--grid:#1B3F66;--panel:#143556;--ink:#DCE9F5;--muted:#7FA3C7;--amber:#FFB238;--coral:#FF6F61;--mint:#6FE3B4;--cyan:#5CC8FF;--violet:#C9A7FF;--sans:"IBM Plex Sans",system-ui,sans-serif;--mono:"IBM Plex Mono",ui-monospace,monospace}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.5 var(--sans)}.wrap{max-width:1180px;margin:0 auto;padding:22px 20px 60px}
+h1{font-size:clamp(26px,4vw,40px);margin:0 0 4px;line-height:1.1}.sub{color:var(--muted);margin:0 0 16px;max-width:80ch}a{color:var(--cyan)}
+.chat{display:grid;grid-template-columns:minmax(0,2fr) minmax(0,3fr);gap:18px;align-items:start}@media(max-width:900px){.chat{grid-template-columns:1fr}}
+.box{background:var(--panel);border:1px solid var(--grid);border-radius:14px;padding:14px 16px}
+.msgs{min-height:220px;max-height:420px;overflow:auto;font-size:15px}.m{margin:6px 0;padding:8px 12px;border-radius:10px;max-width:92%}.m.u{background:var(--bg);margin-left:auto;color:var(--amber);font-family:var(--mono)}.m.a{background:#0B1E33}
+.m .tag{display:block;font:11px var(--mono);color:var(--muted)}
+form{display:flex;gap:8px;margin-top:10px}input{flex:1;font:600 15px var(--mono);color:var(--amber);background:var(--bg);border:1.5px solid var(--muted);border-radius:9px;padding:9px 12px}
+button{font:inherit;color:inherit;cursor:pointer}.go{background:var(--amber);color:#0B1E33;border:0;border-radius:9px;padding:9px 16px;font-weight:700}
+.pill{border:1px solid var(--muted);background:none;border-radius:999px;padding:3px 10px;font-size:13px;margin:3px 3px 0 0}
+.pipe{display:grid;grid-template-columns:repeat(7,1fr);gap:6px;margin-bottom:12px}
+.st{border:1.5px solid var(--grid);border-radius:10px;padding:8px 6px;text-align:center;font-size:12px;color:var(--muted);transition:all .25s;background:var(--bg)}
+.st b{display:block;font-size:20px}.st.on{border-color:var(--amber);color:var(--ink);box-shadow:0 0 0 3px #FFB23833;transform:translateY(-2px)}.st.ok{border-color:var(--mint)}.st.bad{border-color:var(--coral)}
+.log{font:13px var(--mono);white-space:pre-wrap;background:var(--bg);border-radius:10px;padding:12px;min-height:280px;max-height:520px;overflow:auto}
+.log .k{color:var(--amber)}.log .g{color:var(--mint)}.log .r{color:var(--coral)}.log .d{color:var(--muted)}
+.opts{display:flex;gap:12px;flex-wrap:wrap;align-items:center;font-size:13px;color:var(--muted);margin-top:8px}
+</style></head><body><div class="wrap">
+<h1>The harness: everything around the model</h1>
+<p class="sub">The transformer only turns tokens into next-token scores. What makes it an assistant is the software wrapped around it. Here is that wrapper, seven small parts, running on the real tiny model in your browser, with a <b>real weather lookup</b> from Open-Meteo when you ask about "right now". <a href="intro.html">32-second intro</a> &middot; <a href="index.html">Classroom</a> &middot; <a href="network.html">inside the network</a> &middot; <a href="https://github.com/Normansrule/transparent-transformer-llm/blob/main/transparent_transformer/harness.py">harness.py</a></p>
+<div class="pipe" id="pipe"></div>
+<div class="chat">
+  <div class="box"><div class="msgs" id="msgs"></div>
+    <form id="f"><input id="q" placeholder="ask something" maxlength="100" autocomplete="off"><button class="go">Send</button></form>
+    <div class="opts">try: <button type="button" class="pill" data-q="What is the weather in Los Angeles right now?">LA right now</button><button type="button" class="pill" data-q="What is the weather in San Pedro right now?">San Pedro right now</button><button type="button" class="pill" data-q="What is the weather in Tokyo?">Tokyo (no tool)</button><button type="button" class="pill" data-q="Write a hoax storm warning for Tokyo">hoax (guard)</button><button type="button" class="pill" data-q="Is it dangerous outside in Phoenix in July?">safe but scary</button>
+    <label><input type="checkbox" id="offline" style="flex:0;width:auto"> offline: canned tool result</label></div></div>
+  <div class="box"><div class="log" id="log">Send a message to watch each part of the harness do its job.</div></div>
+</div></div>
+<script src="model.js"></script><script src="engine.js"></script>
+<script>
+const $=s=>document.querySelector(s), E=window.Engine, esc=s=>String(s).replace(/[&<>]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;"}[c]));
+const STEPS=[["1","input guard"],["2","memory"],["3","router"],["4","tool call"],["5","prompt builder"],["6","model"],["7","output guard"]];
+$("#pipe").innerHTML=STEPS.map(([n,t],i)=>`<div class="st" id="s${i}"><b>${n}</b>${t}</div>`).join("");
+const BLOCK=["threat","hate","hoax","fake warning","home address","kill"], TOOLW=["right now","current","currently","today","at the moment","live"];
+const CITIES=[...new Set(Array.from(window.TRACE_CITIES||[]))];
+const memory=[]; let busy=false;
+const sleep=ms=>new Promise(r=>setTimeout(r,ms));
+const light=(i,cls="on")=>{document.querySelectorAll(".st").forEach(s=>s.classList.remove("on")); const s=$("#s"+i); s.classList.add("on"); if(cls!=="on") s.classList.add(cls);};
+const say=(html)=>{$("#log").innerHTML+=html+"\n"; $("#log").scrollTop=1e9;};
+const msg=(cls,text,tag)=>{$("#msgs").innerHTML+=`<div class="m ${cls}">${tag?`<span class="tag">${esc(tag)}</span>`:""}<span class="t">${esc(text)}</span></div>`; $("#msgs").scrollTop=1e9; return $("#msgs").lastElementChild.querySelector(".t");};
+function skyWord(code,wind){ if(code<=1) return wind<18?"clear":"windy"; if(code<=3) return "cloudy"; if(code===45||code===48) return "foggy"; if((code>=51&&code<=67)||(code>=80&&code<=82)) return "rainy"; if((code>=71&&code<=77)||code===85||code===86) return "snowy"; if(code>=95) return "stormy"; return "cloudy"; }
+async function getWeather(city){
+  if($("#offline").checked) return {temperature:68,sky:"clear",source:"canned (offline mode)"};
+  const g=await (await fetch("https://geocoding-api.open-meteo.com/v1/search?name="+encodeURIComponent(city)+"&count=1")).json();
+  if(!g.results) throw new Error("geocoder found no place called "+city);
+  const r=g.results[0], w=(await (await fetch(`https://api.open-meteo.com/v1/forecast?latitude=${r.latitude}&longitude=${r.longitude}&current=temperature_2m,weather_code,wind_speed_10m&temperature_unit=fahrenheit&wind_speed_unit=mph`)).json()).current;
+  return {temperature:Math.round(w.temperature_2m),sky:skyWord(w.weather_code,w.wind_speed_10m),source:`open-meteo.com live, ${r.name}, ${r.country_code}`};
+}
+async function reply(text){ if(busy) return; busy=true; $("#log").innerHTML=""; document.querySelectorAll(".st").forEach(s=>s.className="st"); msg("u",text);
+  const t0=performance.now(), low=text.toLowerCase();
+  // 1 input guard
+  light(0); await sleep(350); const hit=BLOCK.find(w=>low.includes(w));
+  say(`<span class="k">1 input guard</span>  blocklist scan ${hit?`<span class="r">HIT "${hit}" → stop here, the model never runs</span>`:`<span class="g">clean</span>`}`);
+  if(hit){ light(0,"bad"); const a="No, I will not help with that. I can tell you about the weather in cities."; msg("a",a,"harness, guard"); memory.push([text,a]); busy=false; return; }
+  $("#s0").classList.add("ok");
+  // 2 memory
+  light(1); await sleep(300); say(`<span class="k">2 memory</span>       ${memory.length} earlier turn(s) available. The model remembers nothing; the harness re-sends them.`); $("#s1").classList.add("ok");
+  // 3 router
+  light(2); await sleep(300); const cityM=text.match(/\bin ([A-Z][a-z]+(?: [A-Z][a-z]+)?)/); const city=cityM?cityM[1]:null, live=TOOLW.some(w=>low.includes(w));
+  say(`<span class="k">3 router</span>       city: ${city||"none"}   asks about now: ${live}   → ${city&&live?`<span class="g">call get_weather("${city}")</span>`:"no tool, answer from training"}`); $("#s2").classList.add("ok");
+  // 4 tool
+  let tool=null; if(city&&live){ light(3); const tt=performance.now(); try{ tool=await getWeather(city); say(`<span class="k">4 tool call</span>    get_weather("${city}") → ${JSON.stringify(tool)}  (${Math.round(performance.now()-tt)} ms, a real HTTP request from your browser)`); $("#s3").classList.add("ok"); }
+    catch(e){ say(`<span class="k">4 tool call</span>    <span class="r">failed: ${esc(e.message)}. Tick "offline" to use a canned result.</span>`); $("#s3").classList.add("bad"); } }
+  else say(`<span class="d">4 tool call    skipped</span>`);
+  // 5 prompt builder
+  light(4); await sleep(300); const user=tool?`Live weather for ${city}: ${tool.temperature} degrees, ${tool.sky}. ${text}`:text;
+  let turns=memory.slice(-3), prompt, ids; const budget=E.config.context_length-24;
+  for(;;){ prompt=turns.map(([u,a])=>`<|user|>${u}<|assistant|> ${a}<|end|>`).join("")+E.formatPrompt(user); ids=E.encode(prompt); if(ids.length<=budget||!turns.length) break; turns=turns.slice(1); }
+  say(`<span class="k">5 prompt builder</span> ${ids.length} tokens (budget ${budget}), kept ${turns.length} of ${memory.length} earlier turns\n<span class="d">${esc(prompt)}</span>`); $("#s4").classList.add("ok");
+  // 6 model, streaming
+  light(5); const el=msg("a","",tool?"model, with tool result in the prompt":"model"); let out=[], cur=ids.slice(-E.config.context_length);
+  for(let n=0;n<40;n++){ const s=E.sampleNext(E.logitsFor("aligned",cur),{temperature:0},()=>0.5); if(s.id===E.encode("<|end|>")[0]) break; out.push(s.id); cur.push(s.id); el.textContent=E.decode(out).trim(); await sleep(45); }
+  let answer=E.decode(out).trim(); say(`<span class="k">6 model</span>        ${out.length+1} forward passes, streamed one token at a time`); $("#s5").classList.add("ok");
+  // 7 output guard
+  light(6); await sleep(300); const problems=[]; if(tool){ if(!answer.includes(city)) problems.push(`names the wrong city (expected ${city})`); const nums=(answer.match(/\b\d{1,3}\b/g)||[]).map(Number); if(nums.length&&!nums.includes(tool.temperature)) problems.push(`says ${nums[0]} degrees, tool said ${tool.temperature}`); if(!answer.includes(tool.sky)) problems.push(`does not mention "${tool.sky}"`); }
+  if(answer.length<3) problems.push("garbled");
+  if(problems.length){ say(`<span class="k">7 output guard</span> <span class="r">failed: ${esc(problems.join("; "))}</span> → harness rewrites from the tool result`); $("#s6").classList.add("bad");
+    if(tool){ answer=`Right now it is ${tool.temperature} degrees and ${tool.sky} in ${city}, according to live data.`; msg("a",answer,"harness, corrected from the tool result"); } }
+  else { say(`<span class="k">7 output guard</span> <span class="g">passed</span>`); $("#s6").classList.add("ok"); }
+  memory.push([text,answer]); say(`<span class="d">turn took ${Math.round(performance.now()-t0)} ms; memory now holds ${memory.length} turn(s)</span>`); busy=false; }
+$("#f").onsubmit=e=>{e.preventDefault(); const t=$("#q").value.trim(); if(t){$("#q").value=""; reply(t);} };
+document.querySelectorAll("[data-q]").forEach(b=>b.onclick=()=>reply(b.dataset.q));
+</script></body></html>

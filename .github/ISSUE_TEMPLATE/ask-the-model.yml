@@ -1,0 +1,15 @@
+name: "Ask the model"
+description: "Type a question in the TITLE after 'Ask:'. A robot runs it through all ten stages and replies here in about a minute."
+title: "Ask: What is the weather in Tokyo?"
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Edit the title above** and keep the `Ask:` at the start. Nothing else is needed: press *Submit new issue*.
+        The model only knows weather small talk about 32 cities. Try a city, try `What is fog?`, try Lisbon (it gets that one wrong, on purpose).
+  - type: textarea
+    attributes:
+      label: "Optional: what do you expect it to say, and why?"
+    validations:
+      required: false

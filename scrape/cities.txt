@@ -1,0 +1,162 @@
+# One place per line:  Name, State or region (optional), two-letter country code
+# Add your own town at the bottom, then run:  python -m scrape.run
+Los Angeles, California, US
+Long Beach, California, US
+San Pedro, California, US
+Santa Monica, California, US
+Pasadena, California, US
+Anaheim, California, US
+San Diego, California, US
+San Francisco, California, US
+San Jose, California, US
+Oakland, California, US
+Berkeley, California, US
+Sacramento, California, US
+Fresno, California, US
+Palm Springs, California, US
+Santa Barbara, California, US
+Seattle, Washington, US
+Spokane, Washington, US
+Portland, Oregon, US
+Boise, Idaho, US
+Las Vegas, Nevada, US
+Reno, Nevada, US
+Phoenix, Arizona, US
+Tucson, Arizona, US
+Flagstaff, Arizona, US
+Salt Lake City, Utah, US
+Denver, Colorado, US
+Albuquerque, New Mexico, US
+El Paso, Texas, US
+Dallas, Texas, US
+Houston, Texas, US
+Austin, Texas, US
+San Antonio, Texas, US
+Oklahoma City, Oklahoma, US
+Kansas City, Missouri, US
+St. Louis, Missouri, US
+Omaha, Nebraska, US
+Minneapolis, Minnesota, US
+Fargo, North Dakota, US
+Chicago, Illinois, US
+Milwaukee, Wisconsin, US
+Detroit, Michigan, US
+Indianapolis, Indiana, US
+Columbus, Ohio, US
+Cleveland, Ohio, US
+Cincinnati, Ohio, US
+Pittsburgh, Pennsylvania, US
+Philadelphia, Pennsylvania, US
+New York, New York, US
+Buffalo, New York, US
+Boston, Massachusetts, US
+Portland, Maine, US
+Washington, District of Columbia, US
+Baltimore, Maryland, US
+Richmond, Virginia, US
+Charlotte, North Carolina, US
+Nashville, Tennessee, US
+Memphis, Tennessee, US
+Atlanta, Georgia, US
+New Orleans, Louisiana, US
+Miami, Florida, US
+Orlando, Florida, US
+Tampa, Florida, US
+Honolulu, Hawaii, US
+Anchorage, Alaska, US
+Fairbanks, Alaska, US
+Vancouver, British Columbia, CA
+Calgary, Alberta, CA
+Toronto, Ontario, CA
+Montreal, Quebec, CA
+Mexico City, , MX
+Guadalajara, , MX
+Cancun, , MX
+Havana, , CU
+Panama City, , PA
+Bogota, , CO
+Quito, , EC
+Lima, , PE
+La Paz, , BO
+Santiago, , CL
+Buenos Aires, , AR
+Montevideo, , UY
+Sao Paulo, , BR
+Rio de Janeiro, , BR
+Manaus, , BR
+London, England, GB
+Manchester, England, GB
+Edinburgh, Scotland, GB
+Dublin, , IE
+Reykjavik, , IS
+Oslo, , NO
+Stockholm, , SE
+Helsinki, , FI
+Copenhagen, , DK
+Amsterdam, , NL
+Brussels, , BE
+Paris, , FR
+Marseille, , FR
+Madrid, , ES
+Barcelona, , ES
+Seville, , ES
+Lisbon, , PT
+Porto, , PT
+Rome, , IT
+Milan, , IT
+Naples, , IT
+Zurich, , CH
+Vienna, , AT
+Munich, , DE
+Berlin, , DE
+Hamburg, , DE
+Prague, , CZ
+Warsaw, , PL
+Budapest, , HU
+Athens, , GR
+Istanbul, , TR
+Kyiv, , UA
+Moscow, , RU
+Saint Petersburg, , RU
+Cairo, , EG
+Casablanca, , MA
+Lagos, , NG
+Nairobi, , KE
+Addis Ababa, , ET
+Cape Town, , ZA
+Johannesburg, , ZA
+Dubai, , AE
+Riyadh, , SA
+Tel Aviv, , IL
+Tehran, , IR
+Karachi, , PK
+Delhi, , IN
+Mumbai, , IN
+Bangalore, , IN
+Kolkata, , IN
+Kathmandu, , NP
+Dhaka, , BD
+Bangkok, , TH
+Hanoi, , VN
+Ho Chi Minh City, , VN
+Kuala Lumpur, , MY
+Singapore, , SG
+Jakarta, , ID
+Manila, , PH
+Hong Kong, , HK
+Taipei, , TW
+Shanghai, , CN
+Beijing, , CN
+Chengdu, , CN
+Seoul, , KR
+Tokyo, , JP
+Osaka, , JP
+Sapporo, , JP
+Ulaanbaatar, , MN
+Sydney, New South Wales, AU
+Melbourne, Victoria, AU
+Brisbane, Queensland, AU
+Perth, Western Australia, AU
+Darwin, Northern Territory, AU
+Auckland, , NZ
+Wellington, , NZ

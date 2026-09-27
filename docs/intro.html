@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Intro: one prompt through a language model, in 32 seconds</title>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&family=IBM+Plex+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+body{margin:0;background:#0B1E33;color:#DCE9F5;font:15px/1.5 "IBM Plex Sans",system-ui,sans-serif}
+.wrap{max-width:1280px;margin:0 auto;padding:16px}
+.bar{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-top:10px}
+button{font:inherit;color:inherit;cursor:pointer;border:1px solid #7FA3C7;background:none;border-radius:999px;padding:4px 12px;font-size:13px}
+button.on{background:#FFB238;border-color:#FFB238;color:#0B1E33}
+input{flex:1;min-width:220px;font:600 14px "IBM Plex Mono",monospace;color:#FFB238;background:#143556;border:1px solid #7FA3C7;border-radius:8px;padding:6px 10px}
+a{color:#5CC8FF}body.rec .bar,body.rec .note{display:none}body.rec .wrap{padding:0;max-width:none}
+</style></head>
+<body><div class="wrap"><div id="film"></div>
+<div class="bar"><button id="pp">⏸ pause</button><span id="scenes"></span>
+<input id="q" value="What is the weather in Los Angeles?" maxlength="60"><button id="go">replay with this prompt</button></div>
+<p class="note" style="color:#7FA3C7">Everything is computed by the real model in your browser. <a href="index.html">Open the classroom</a> · <a href="network.html">inside the network</a> · <a href="harness.html">the harness</a></p></div>
+<script src="model.js"></script><script src="engine.js"></script><script src="intro.js"></script>
+<script>
+const rec=location.search.includes("record"); if(rec) document.body.classList.add("rec");
+const F=Intro.mount(document.getElementById("film"),{engine:Engine,manual:rec}); window.INTRO=F;
+document.getElementById("scenes").innerHTML=Intro.SCENES.map((s,i)=>`<button data-t="${s[0]}">${i+1} ${s[2]}</button>`).join(" ");
+document.querySelectorAll("[data-t]").forEach(b=>b.onclick=()=>F.seek(+b.dataset.t+0.01));
+document.getElementById("pp").onclick=e=>{e.target.textContent=F.toggle()?"⏸ pause":"▶ play"};
+document.getElementById("go").onclick=()=>F.setPrompt(document.getElementById("q").value.trim()||"What is the weather in Los Angeles?");
+</script></body></html>

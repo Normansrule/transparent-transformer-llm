@@ -1,0 +1,18 @@
+[project]
+name = "transparent-transformer-llm"
+version = "0.1.0"
+description = "A tiny language model you can see all the way through: every stage visual, every gradient written by hand."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+dependencies = ["numpy>=1.26"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0", "nbformat", "nbclient", "ipykernel"]
+
+[tool.setuptools]
+packages = ["transparent_transformer"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
