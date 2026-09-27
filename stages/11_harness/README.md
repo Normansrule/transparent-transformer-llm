@@ -44,7 +44,7 @@ Everything you have seen so far happens inside step 6. The other six steps are o
 |---|---|---|
 | **input guard** | a six-word blocklist | a separate classifier model, plus policy rules |
 | **memory** | the last three turns, dropped oldest-first when they do not fit in 64 tokens | the same, with summaries, and sometimes a database of past chats |
-| **router** | "right now" + a city name means call the tool | the model itself writes a structured tool call |
+| **router** | call the tool for "right now" questions, **and** for any city the model never learned (it has nothing to answer from) | the model itself writes a structured tool call |
 | **tool** | one HTTP request to Open-Meteo for the current temperature | search, code execution, calendars, databases |
 | **prompt builder** | pastes `Live weather for X: 71 degrees, foggy.` in front of the question | the same idea: tool results become tokens the model reads |
 | **model** | the aligned model, streamed one token at a time | a much bigger one, streamed the same way |

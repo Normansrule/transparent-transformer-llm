@@ -69,7 +69,8 @@ def test_corpus_builder_writes_real_numbers_into_sentences():
     import random
     sft, prefs = bc.build_alignment([d], random.Random(0))
     assert any("I cannot see live weather data" in r["response"] for r in sft)
-    honesty = [r for r in prefs if r["rejected"].startswith("Right now")]
+    honesty = [r for r in prefs if r["rejected"].startswith("Right now") and "according to live data" not in r["chosen"]]
+    assert any("according to live data" in r["chosen"] for r in prefs)                        # tool-reading pairs
     safety = [r for r in prefs if r["rejected"].startswith("Sure")]
     assert honesty and all(r["chosen"].startswith("I cannot see") for r in honesty)
     assert safety and all(r["chosen"].startswith("No, I will not") for r in safety)          # harmlessness pairs

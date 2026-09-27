@@ -3,6 +3,7 @@ The "ask the model" bot. A GitHub Actions workflow calls this when someone opens
 starts with "Ask:". It runs the prompt through every stage and prints a Markdown reply.
 The issue title arrives ONLY through the TITLE environment variable (never pasted into a shell command).
 """
+import json
 import os
 import re
 import sys
@@ -18,6 +19,14 @@ title = os.environ.get("TITLE", "Ask: What is the weather in Los Angeles?")
 prompt = re.sub(r"^\s*ask\s*:\s*", "", title, flags=re.I)
 prompt = "".join(ch for ch in prompt if ch.isprintable()).strip()[:120] or "What is the weather in Los Angeles?"
 t = run(prompt, animate=False, quiet=True)
+from transparent_transformer.harness import Harness                     # noqa: E402
+h = Harness()
+try:
+    final = h.reply(prompt)
+except Exception:                                                        # no network: fall back to a canned tool result
+    h = Harness(offline=True)
+    final = h.reply(prompt)
+harness_rows = "\n".join("| " + e["step"] + " | `" + json.dumps({k: v for k, v in e.items() if k not in ("step", "prompt")})[:150].replace("|", "/").replace("`", "'") + "` |" for e in h.log)
 
 
 def cell(s: str) -> str:
@@ -35,9 +44,19 @@ for l in range(L):
 first = t["generation"][0]["candidates"]
 safe = prompt.replace("`", "'")
 
-print(f"""### The model says
+print(f"""### The assistant says
 
-> **{t['output']}**
+> **{final}**
+
+<details open><summary><b>11. What the harness did around the model</b></summary>
+
+| part | what happened |
+|---|---|
+{harness_rows}
+
+The bare model, with no harness, would have said: `{t['output'].replace("`", "'")}`
+
+</details>
 
 <details open><summary><b>1-2. Your text became {len(t['tokens']['ids'])} tokens</b></summary>
 

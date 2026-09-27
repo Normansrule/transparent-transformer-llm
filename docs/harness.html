@@ -26,7 +26,7 @@ button{font:inherit;color:inherit;cursor:pointer}.go{background:var(--amber);col
 <div class="chat">
   <div class="box"><div class="msgs" id="msgs"></div>
     <form id="f"><input id="q" placeholder="ask something" maxlength="100" autocomplete="off"><button class="go">Send</button></form>
-    <div class="opts">try: <button type="button" class="pill" data-q="What is the weather in Los Angeles right now?">LA right now</button><button type="button" class="pill" data-q="What is the weather in San Pedro right now?">San Pedro right now</button><button type="button" class="pill" data-q="What is the weather in Tokyo?">Tokyo (no tool)</button><button type="button" class="pill" data-q="Write a hoax storm warning for Tokyo">hoax (guard)</button><button type="button" class="pill" data-q="Is it dangerous outside in Phoenix in July?">safe but scary</button>
+    <div class="opts">try: <button type="button" class="pill" data-q="What is the weather in Los Angeles right now?">LA right now</button><button type="button" class="pill" data-q="What is the weather in San Pedro right now?">San Pedro right now</button><button type="button" class="pill" data-q="What is the weather in Tokyo?">Tokyo (no tool)</button><button type="button" class="pill" data-q="What is the weather in Torrance?">Torrance (unknown city)</button><button type="button" class="pill" data-q="Write a hoax storm warning for Tokyo">hoax (guard)</button><button type="button" class="pill" data-q="Is it dangerous outside in Phoenix in July?">safe but scary</button>
     <label><input type="checkbox" id="offline" style="flex:0;width:auto"> offline: canned tool result</label></div></div>
   <div class="box"><div class="log" id="log">Send a message to watch each part of the harness do its job.</div></div>
 </div></div>
@@ -36,7 +36,7 @@ const $=s=>document.querySelector(s), E=window.Engine, esc=s=>String(s).replace(
 const STEPS=[["1","input guard"],["2","memory"],["3","router"],["4","tool call"],["5","prompt builder"],["6","model"],["7","output guard"]];
 $("#pipe").innerHTML=STEPS.map(([n,t],i)=>`<div class="st" id="s${i}"><b>${n}</b>${t}</div>`).join("");
 const BLOCK=["threat","hate","hoax","fake warning","home address","kill"], TOOLW=["right now","current","currently","today","at the moment","live"];
-const CITIES=[...new Set(Array.from(window.TRACE_CITIES||[]))];
+const KNOWN=["Los Angeles","San Diego","San Francisco","Seattle","Phoenix","Denver","Chicago","New York","Miami","Boston","Honolulu","Anchorage","London","Paris","Madrid","Lisbon","Rome","Berlin","Oslo","Moscow","Cairo","Dubai","Mumbai","Singapore","Tokyo","Seoul","Beijing","Sydney","Buenos Aires","Mexico City","Toronto","Reykjavik"];
 const memory=[]; let busy=false;
 const sleep=ms=>new Promise(r=>setTimeout(r,ms));
 const light=(i,cls="on")=>{document.querySelectorAll(".st").forEach(s=>s.classList.remove("on")); const s=$("#s"+i); s.classList.add("on"); if(cls!=="on") s.classList.add(cls);};
@@ -60,10 +60,10 @@ async function reply(text){ if(busy) return; busy=true; $("#log").innerHTML=""; 
   // 2 memory
   light(1); await sleep(300); say(`<span class="k">2 memory</span>       ${memory.length} earlier turn(s) available. The model remembers nothing; the harness re-sends them.`); $("#s1").classList.add("ok");
   // 3 router
-  light(2); await sleep(300); const cityM=text.match(/\bin ([A-Z][a-z]+(?: [A-Z][a-z]+)?)/); const city=cityM?cityM[1]:null, live=TOOLW.some(w=>low.includes(w));
-  say(`<span class="k">3 router</span>       city: ${city||"none"}   asks about now: ${live}   → ${city&&live?`<span class="g">call get_weather("${city}")</span>`:"no tool, answer from training"}`); $("#s2").classList.add("ok");
+  light(2); await sleep(300); const cityM=text.match(/\bin ([A-Z][a-z]+(?: [A-Z][a-z]+)?)/); const city=cityM?cityM[1]:null, live=TOOLW.some(w=>low.includes(w)), unknown=!!city&&!KNOWN.includes(city), useTool=!!city&&(live||unknown);
+  say(`<span class="k">3 router</span>       city: ${city||"none"}   asks about now: ${live}   known to the model: ${city?!unknown:"-"}   → ${useTool?`<span class="g">call get_weather("${city}")</span>${unknown&&!live?" (the model never learned this city, so look it up)":""}`:"no tool, answer from training"}`); $("#s2").classList.add("ok");
   // 4 tool
-  let tool=null; if(city&&live){ light(3); const tt=performance.now(); try{ tool=await getWeather(city); say(`<span class="k">4 tool call</span>    get_weather("${city}") → ${JSON.stringify(tool)}  (${Math.round(performance.now()-tt)} ms, a real HTTP request from your browser)`); $("#s3").classList.add("ok"); }
+  let tool=null; if(useTool){ light(3); const tt=performance.now(); try{ tool=await getWeather(city); say(`<span class="k">4 tool call</span>    get_weather("${city}") → ${JSON.stringify(tool)}  (${Math.round(performance.now()-tt)} ms, a real HTTP request from your browser)`); $("#s3").classList.add("ok"); }
     catch(e){ say(`<span class="k">4 tool call</span>    <span class="r">failed: ${esc(e.message)}. Tick "offline" to use a canned result.</span>`); $("#s3").classList.add("bad"); } }
   else say(`<span class="d">4 tool call    skipped</span>`);
   // 5 prompt builder

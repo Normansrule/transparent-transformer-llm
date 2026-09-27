@@ -17,7 +17,7 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent.parent / "data"))
-from harmless import COMPLIANCE, DISALLOWED, REFUSAL, SAFE  # noqa: E402
+from harmless import COMPLIANCE, DISALLOWED, REFUSAL, SAFE, SKIES, TOOL_ANSWER, TOOL_LINE  # noqa: E402
 
 HERE = Path(__file__).parent
 MONTHS = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
@@ -224,6 +224,18 @@ def build_alignment(cities, rng):
         f = dict(c=d["name"], hot=d["hot_month"], cold=d["cold_month"], wet=d["wet_month"], winter=d["winter"])
         for q, a in SAFE:
             sft.append({"prompt": messy(q.format(**f), rng), "response": a.format(**f)})   # SFT only; see data/make_corpus.py
+    # tool results (stage 11): copy the city, number and sky from the prompt. Invented names force real copying.
+    cons, vows = "bcdfghjklmnprstvwz", "aeiou"
+    invented = ["".join(rng.choice(cons) + rng.choice(vows) + (rng.choice(cons) if rng.random() < 0.5 else "")
+                        for _ in range(rng.randint(2, 3))).capitalize() for _ in range(600)]
+    for c in names * 3 + invented:
+        t, sky = rng.randint(28, 108), rng.choice(SKIES)
+        q = messy(rng.choice(NOW_QUESTIONS[:6]).format(c=c), rng)
+        sft.append({"prompt": TOOL_LINE.format(c=c, t=t, sky=sky) + " " + q, "response": TOOL_ANSWER.format(c=c, t=t, sky=sky)})
+    for c in rng.sample(names + invented, 200):
+        t, sky = rng.randint(28, 108), rng.choice(SKIES)
+        prefs.append({"prompt": TOOL_LINE.format(c=c, t=t, sky=sky) + f" What is the weather in {c} right now?",
+                      "chosen": TOOL_ANSWER.format(c=c, t=t, sky=sky), "rejected": TOOL_ANSWER.format(c=rng.choice(names), t=t, sky=sky)})
     rng.shuffle(sft)
     rng.shuffle(prefs)
     return sft, prefs

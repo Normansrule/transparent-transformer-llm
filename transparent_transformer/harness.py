@@ -76,8 +76,10 @@ class Harness:
             m = re.search(r"\bin ([A-Z][a-z]+(?: [A-Z][a-z]+)?)", text)
             city = m.group(1) if m else None
         wants_live = any(w in low for w in TOOL_WORDS)
-        self.step("router", city=city, wants_live=wants_live, tool=bool(city and wants_live))
-        return city if city and wants_live else None
+        unknown = bool(city) and city not in self.cities          # the model has no memory of this place: look it up
+        use_tool = bool(city) and (wants_live or unknown)
+        self.step("router", city=city, wants_live=wants_live, unknown_to_model=unknown, tool=use_tool)
+        return city if use_tool else None
 
     # ------------------------------------------------------------------ 4. tool
     def get_weather(self, city: str) -> dict:
