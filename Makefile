@@ -63,7 +63,8 @@ homework:  ## grade classroom/exercises
 classroom: docs web notebooks  ## refresh EVERYTHING students see, after retraining
 
 intro:  ## re-record the README's intro.gif from docs/intro.html (pip install playwright; sudo apt install ffmpeg)
-	$(PY) tools/record_intro.py
+	$(PY) tools/record_intro.py intro
+	$(PY) tools/record_intro.py perceptron
 
 copy-drill:  ## stage 11 experiment: train the copy skill on 1,400 random names (see stages/11_harness)
 	$(PY) data/make_corpus.py --copy-drill

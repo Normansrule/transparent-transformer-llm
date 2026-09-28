@@ -13,7 +13,7 @@ tok = BPETokenizer.load(paths.TOKENIZER)
 model = GPT.load(paths.ALIGNED_MODEL)
 table = model.embed.params["tok"]
 
-ids = tok.encode("What is the weather in Los Angeles?")
+ids = tok.encode("What is Los Angeles like in summer?")
 x = model.embed.forward(np.array([ids]))
 print(f"embedding table : {table.shape}  = (vocab_size, d_model)   {table.size:,} learned numbers")
 print(f"input           : {np.array(ids).shape} integers")

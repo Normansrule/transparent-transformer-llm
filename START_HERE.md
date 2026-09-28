@@ -1,6 +1,6 @@
 # Start here
 
-You are about to follow one sentence, *What is the weather in Los Angeles?*, all the way through a working language model, and then build the pieces yourself. No account, no install, no maths beyond multiplying and adding. About four hours, in ten lessons of 10 to 35 minutes.
+You are about to follow one sentence, *What is Los Angeles like in summer?*, all the way through a working language model, and then build the pieces yourself. No account, no install, no maths beyond multiplying and adding. About four hours, in ten lessons of 10 to 35 minutes.
 
 ## How a lesson works
 
@@ -44,6 +44,7 @@ flowchart LR
 | [2 Tokenization](stages/02_tokenizer/) | how Byte Pair Encoding (BPE) grows a vocabulary from bytes | `merge` | 25 min |
 | [3 Embedding](stages/03_embedding/) | how an id number comes to carry meaning | `embed` | 15 min |
 | [4 Transformer](stages/04_transformer/) | blocks, the residual stream, logits | `layer_norm` | 25 min |
+| [Side trip: the perceptron](perceptron/) | what one neuron and one layer compute, the classic picture | draw digits, inspect neurons | 20 min |
 | [5 Attention](stages/05_attention_closeup/) | queries, keys, values, and why the future is masked | `causal_attention_weights` | 35 min |
 | [6 Pretraining](stages/06_pretraining/) | why guessing the next token teaches facts | `next_token_loss` | 20 min |
 | [7 Backpropagation](stages/07_backpropagation/) | how one backward pass finds every gradient | `linear_backward` | 35 min |

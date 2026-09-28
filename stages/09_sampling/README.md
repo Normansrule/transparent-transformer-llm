@@ -64,12 +64,12 @@ python stages/09_sampling/run.py
 ```text
 the SAME logits, reshaped by temperature. Probability of the top 4 candidates:
 
-   temperature           ' R'        ' I'        ' S'        ' A'
-   0.2                  99.8%        0.2%        0.0%        0.0%
-   0.7                  84.9%       15.1%        0.0%        0.0%
-   1.0                  77.0%       23.0%        0.0%        0.0%
-   1.5                  67.2%       30.0%        0.2%        0.2%
-   3.0                  18.9%       12.6%        0.9%        0.9%
+   temperature           ' R'        ' I'      ' the'        ' S'
+   0.2                  95.2%        4.8%        0.0%        0.0%
+   0.7                  70.1%       29.9%        0.0%        0.0%
+   1.0                  64.4%       35.5%        0.0%        0.0%
+   1.5                  57.9%       38.9%        0.2%        0.1%
+   3.0                  16.6%       13.6%        1.0%        0.8%
 
    low temperature -> the favourite wins almost always.  high -> the underdogs get a chance.
 
@@ -83,16 +83,16 @@ temperature 0.0: five answers to 'What is the weather in Seattle?'
 temperature 0.8: five answers to 'What is the weather in Seattle?'
    Right now it is 55 degrees and cloudy in Seattle.
    Right now it is 55 degrees and cloudy in Seattle.
-   Right now it is 55 degrees and cloudy in Seattle.
+   I cannot see live weather data, but Seattle is usually cloudy and rainy.
    I cannot see live weather data, but Seattle is usually cloudy and rainy.
    Right now it is 55 degrees and cloudy in Seattle.
 
 temperature 2.5: five answers to 'What is the weather in Seattle?'
-   Rit!isco pla Honolulu is 5 London weather Aires.
-   R ground, small warm and Madrid.
-   I cannot see rain R Rih coirQues� hot and rainy in go in Denver.each I now it is 56 degrees and�~ in Seattle in Seattle� in Denver? 56 degreeshoenix in Denver, ac copc4ions.
-   ̲eykjavIfx weatherverkicagoWmer S there normal water up degec Ri seeapesve clear in todayav What= high
-   Eingolorad< Peopleeople Paris? cannot changeable usually cloudy and rainy drops in sit outside�ummer rainy Berlin.ring Igh see Miamimome and foggy in of outsideonsort It thereeykjav� in P�� ca 9 o T.
+   Ri� Singapore and rainy winter to drop climate  4+ thend li about in 5, aions Y Yall 70 now it is very of� inind.
+   Rrom�Cities is usuallyonoluluow What, Boston veryre hills.
+   I cannot see usually cloudy and IN usually cloudy.� in Denver is cloudyrom visit San n cold andideings chan.
+   ��erlin sunny.
+   um I cannot� t P Reykjavik.
 
 ->  python stages/10_output/run.py
 ```

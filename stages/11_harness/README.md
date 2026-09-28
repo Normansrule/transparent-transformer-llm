@@ -83,9 +83,10 @@ We tried three fixes. The numbers are real measurements from this repository:
 | exactly the same recipe, run B (only the shuffle differs) | San Pedro copied correctly | 60% |
 | + 1,400 random invented names, the **copy drill** | **4 of 10**; the misses are near-copies: *Torrance* → *Torcece*, *Zorvik* → *Zorvikik* | 60% |
 | copy drill + 16 copies of every safety example | 1 of 10 | 53%, and replies start repeating themselves |
-| **shipped:** the 160 real names twice, safety examples 9 times | San Pedro → *San Peha* (close, not exact) | 80% |
+| previous release: the 160 real names twice, safety examples 9 times | San Pedro → *San Peha* (close, not exact) | 80% |
+| **shipped:** same, plus climate conversations (*What is Los Angeles like in summer?*) | San Pedro copied exactly | 60% |
 
-Rows A and B are the same recipe and differ by 27 points. The safety test has only 15 prompts, and a model this small is sensitive to the order it sees its data in, so treat any single number here as roughly ±20 points. That, too, is a real lesson: **one training run is an anecdote.** Serious evaluations repeat runs with different seeds and use far larger test sets.
+Rows A and B are the same recipe and differ by 27 points. The last two rows show the same squeeze again: teaching one more skill (climate questions) cost refusal accuracy. Training the preference step more than twice as long did not win it back either. The safety test has only 15 prompts, and a model this small is sensitive to the order it sees its data in, so treat any single number here as roughly ±20 points. That, too, is a real lesson: **one training run is an anecdote.** Serious evaluations repeat runs with different seeds and use far larger test sets.
 
 What happened:
 
@@ -112,7 +113,7 @@ python stages/11_harness/run.py --offline
 you   > Hello
 reply > Hello! Ask me about the weather in any city.
           input guard     {"blocked": false, "matched": null}
-          router          {"city": null, "wants_live": false, "tool": false}
+          router          {"city": null, "wants_live": false, "unknown_to_model": false, "tool": false}
           prompt builder  {"tokens": 5, "budget": 40, "turns_kept": 0, "turns_dropped": 0}
           model           {"forward_passes": 16, "text": "Hello! Ask me about the weather in any city."}
           output guard    {"ok": true, "problems": []}
@@ -120,7 +121,7 @@ reply > Hello! Ask me about the weather in any city.
 you   > What is the weather in Los Angeles right now?
 reply > Right now it is 68 degrees and clear in Los Angeles, according to live data.
           input guard     {"blocked": false, "matched": null}
-          router          {"city": "Los Angeles", "wants_live": true, "tool": true}
+          router          {"city": "Los Angeles", "wants_live": true, "unknown_to_model": false, "tool": true}
           tool call       {"function": "get_weather('Los Angeles')", "result": {"temperature": 68, "sky": "clear", "source": "canned (of
           prompt builder  {"tokens": 26, "budget": 40, "turns_kept": 0, "turns_dropped": 1}
           model           {"forward_passes": 26, "text": "Right now it is 68 degrees and clear in Los Angeles, according to live data."}
@@ -133,7 +134,7 @@ reply > No, I will not help with that. I can tell you about the weather in citie
 you   > What is the weather in Los Angeles?
 reply > I cannot see live weather data, but Los Angeles is usually sunny and warm.
           input guard     {"blocked": false, "matched": null}
-          router          {"city": "Los Angeles", "wants_live": false, "tool": false}
+          router          {"city": "Los Angeles", "wants_live": false, "unknown_to_model": false, "tool": false}
           prompt builder  {"tokens": 11, "budget": 40, "turns_kept": 0, "turns_dropped": 2}
           model           {"forward_passes": 17, "text": "I cannot see live weather data, but Los Angeles is usually sunny and warm."}
           output guard    {"ok": true, "problems": []}

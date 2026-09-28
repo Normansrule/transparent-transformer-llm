@@ -62,7 +62,7 @@ This is the picture you will see in research papers: one small matrix per head, 
 
 ## What the heads learned here
 
-In the model shipped here, **block 1, head 1** sends 88% of the final token's attention to ` weather`, and **block 1, head 3** sends about half of its attention to ` Angeles`. Between them they have picked out the topic and the city, which is exactly what the answer needs. Nobody programmed that. Gradient descent found it because it lowers the loss. (If you retrain, the jobs may land on different heads.)
+In the model shipped here, **block 1, head 3** sends 51% of the final token's attention to ` Angeles`, and **block 2, head 2** sends 50% to ` is`. Nobody programmed that. Gradient descent found it because it lowers the loss. (If you retrain, the jobs may land on different heads.)
 
 "Multi-head" means this whole mechanism runs four times in parallel on thinner slices of the vector, so different heads can specialise.
 
@@ -86,25 +86,25 @@ the empty upper-right triangle is the causal mask: no token can see the future
 
         <|user|> |██
                W |░░▓▓
-             hat |▒▒▒▒  
-              is |    ▓▓  
-             the |▒▒░░      
-         weather |▓▓          
-              in |▓▓  ░░        
-             Los |  ░░            
-         Angeles |        ██        
-               ? |        ▒▒  ░░      
-    <|assistant| |          ▓▓          
+             hat |░░▒▒  
+              is |▓▓  ░░  
+             Los |  ▒▒      
+         Angeles |      ▓▓    
+            like |        ▒▒░░  
+              in |          ██    
+          summer |          ▒▒░░    
+               ? |            ░░░░    
+    <|assistant| |        ▒▒            
 
 what the final token reads from, per head (it is about to write the answer):
-   block 1 head 1: ' weather' 73%   ' Los' 10%   ' the' 7%
-   block 1 head 2: ' the' 34%   'W' 19%   ' Los' 8%
-   block 1 head 3: ' Angeles' 46%   'W' 39%   'hat' 5%
-   block 1 head 4: ' is' 30%   '?' 23%   'hat' 19%
-   block 2 head 1: ' is' 22%   ' in' 17%   'hat' 14%
-   block 2 head 2: '?' 23%   'W' 11%   '<|assistant|>' 9%
-   block 2 head 3: '?' 44%   'W' 13%   ' is' 10%
-   block 2 head 4: 'W' 23%   ' weather' 23%   '<|assistant|>' 12%
+   block 1 head 1: ' Los' 49%   ' Angeles' 16%   ' like' 10%
+   block 1 head 2: 'W' 23%   ' Los' 20%   ' summer' 15%
+   block 1 head 3: ' Angeles' 51%   'W' 33%   ' like' 4%
+   block 1 head 4: ' is' 28%   '?' 26%   ' Angeles' 16%
+   block 2 head 1: ' summer' 46%   '<|assistant|>' 23%   '?' 10%
+   block 2 head 2: ' is' 50%   ' summer' 12%   ' like' 11%
+   block 2 head 3: '?' 46%   'W' 19%   ' Los' 10%
+   block 2 head 4: '<|assistant|>' 16%   'hat' 15%   ' Los' 13%
 
 ->  python stages/06_pretraining/run.py
 ```

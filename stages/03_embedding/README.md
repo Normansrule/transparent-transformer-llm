@@ -62,19 +62,19 @@ embedding table : (768, 64)  = (vocab_size, d_model)   49,152 learned numbers
 input           : (9,) integers
 output          : (9, 64) floats
 
-          'W' (id  87) -> [+0.06 +0.07 -0.20 -0.08 +0.17 +0.05 +0.24 -0.15 ...]
-        'hat' (id 362) -> [-0.08 -0.07 -0.27 +0.16 -0.03 -0.05 -0.01 -0.11 ...]
-        ' is' (id 262) -> [-0.17 -0.11 -0.01 +0.22 +0.24 -0.12 -0.05 +0.15 ...]
-       ' the' (id 270) -> [-0.14 -0.07 -0.26 +0.03 -0.01 -0.14 -0.16 +0.29 ...]
+          'W' (id  87) -> [+0.09 +0.10 -0.24 -0.07 +0.16 +0.04 +0.25 -0.15 ...]
+        'hat' (id 362) -> [-0.02 -0.07 -0.28 +0.17 -0.03 -0.06 +0.00 -0.07 ...]
+        ' is' (id 262) -> [-0.15 -0.11 -0.02 +0.21 +0.26 -0.11 -0.09 +0.14 ...]
+       ' Los' (id 598) -> [-0.15 -0.02 -0.25 -0.21 -0.23 +0.17 -0.24 +0.07 ...]
 
 Nobody told the model what words mean. After training, tokens used in similar
 places have ended up with similar vectors. Nearest neighbours by cosine similarity:
 
-     ' sunny' ~ ' stormy' (0.51), ' rainy' (0.41), ' dry' (0.40), ' windy' (0.39), ' cloudy' (0.38)
-      ' cold' ~ ' cool' (0.46), ' very' (0.40), ' cloudy' (0.39), ' hot' (0.38), ' warm' (0.36)
-    ' winter' ~ ' days' (0.36), ' degrees' (0.33), ' Mumbai' (0.30), ' Oslo' (0.26), ' People' (0.26)
-     ' Tokyo' ~ ' Boston' (0.55), ' Madrid' (0.54), ' London' (0.53), ' Beijing' (0.51), ' Miami' (0.50)
-        ' is' ~ ' from' (0.31), ' changeable' (0.28), ' often' (0.25), ' very' (0.24), ' Aires' (0.24)
+     ' sunny' ~ ' stormy' (0.52), ' cloudy' (0.48), ' rainy' (0.42), ' dry' (0.40), ' windy' (0.38)
+      ' cold' ~ ' cool' (0.46), ' hot' (0.41), ' cloudy' (0.38), ' very' (0.37), ' about' (0.36)
+    ' winter' ~ ' summer' (0.36), ' degrees' (0.35), 'ike' (0.30), ' People' (0.29), ' Oslo' (0.28)
+     ' Tokyo' ~ ' Boston' (0.54), ' London' (0.51), ' Beijing' (0.50), ' Miami' (0.48), ' Toronto' (0.46)
+        ' is' ~ ' usually' (0.31), ' Aires' (0.28), ' very' (0.27), ' nice' (0.25), ' from' (0.24)
 
 ->  python stages/04_transformer/run.py
 ```

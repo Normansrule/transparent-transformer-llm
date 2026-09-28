@@ -24,7 +24,7 @@ for k, v in groups.items():
     print(f"   {k:<46}{v:>9,}  {'#' * int(40 * v / total)}")
 print(f"   {'total':<46}{total:>9,}\n")
 
-ids = np.array([tok.encode(format_prompt("What is the weather in Los Angeles?"))])
+ids = np.array([tok.encode(format_prompt("What is Los Angeles like in summer?"))])
 logits = model.forward(ids, capture=True)
 cap = model.captured
 print("THE FORWARD PASS  (B = batch, T = tokens, d = d_model, V = vocab_size)")

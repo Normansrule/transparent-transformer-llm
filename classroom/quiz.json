@@ -107,7 +107,7 @@
   ],
   "answer": 1,
   "why": "The end token is a token like any other. Alignment data taught the model that answers finish with it.",
-  "predict": "The answer is 16 tokens long. How many times does the whole model run to produce it?"
+  "predict": "The answer is 18 tokens long. How many times does the whole model run to produce it?"
  },
  "11_harness": {
   "question": "The assistant 'remembered' your earlier message. Where was that memory kept?",

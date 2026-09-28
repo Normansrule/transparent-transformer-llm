@@ -1,7 +1,7 @@
 """
 THE WHOLE JOURNEY - ONE PROMPT, EVERY STAGE, NOTHING HIDDEN
 ===========================================================
-Run:  python -m transparent_transformer.trace "What is the weather in Los Angeles?"
+Run:  python -m transparent_transformer.trace "What is Los Angeles like in summer?"
 
 Follows a single prompt through all ten stages, printing the actual numbers at
 each step, and saves everything to docs/trace.js so the interactive page
@@ -249,7 +249,7 @@ def _thin(log: dict, keep: int = 150) -> dict:
 
 def main() -> None:
     ap = argparse.ArgumentParser(description="Trace one prompt through every stage of the model.")
-    ap.add_argument("prompt", nargs="?", default="What is the weather in Los Angeles?")
+    ap.add_argument("prompt", nargs="?", default="What is Los Angeles like in summer?")
     ap.add_argument("--fast", action="store_true", help="no animation")
     ap.add_argument("--temperature", type=float, default=0.7)
     ap.add_argument("--seed", type=int, default=0)

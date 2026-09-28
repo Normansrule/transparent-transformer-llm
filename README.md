@@ -19,13 +19,13 @@ A complete Large Language Model (LLM) that is small enough to read in an afterno
 You type one question:
 
 ```
-What is the weather in Los Angeles?
+What is Los Angeles like in summer?
 ```
 
 and this repository follows it through every stage until an answer comes out the other end:
 
 ```
-I cannot see live weather data, but Los Angeles is usually sunny and warm.
+In summer Los Angeles is usually hot and dry. People there often go to the beach.
 ```
 
 > [!NOTE]
@@ -39,6 +39,7 @@ This repository is a self-paced course. Every lesson is a page you read on GitHu
 |---|---|
 | **Type any prompt and watch the real model process it**, stage by stage | [the classroom website](https://Normansrule.github.io/transparent-transformer-llm/): the model runs inside your browser |
 | **Watch the 32-second intro**, live and looping, then replay it with your own prompt | [intro](https://Normansrule.github.io/transparent-transformer-llm/intro.html), also at the top of the classroom page |
+| **The classic neural-network picture**, 3Blue1Brown style: draw a digit and watch it flow through 784 → 16 → 16 → 10 perceptrons, then open any neuron | [the perceptron](https://Normansrule.github.io/transparent-transformer-llm/perceptron.html) &middot; [lesson](perceptron/) |
 | **Walk through the network itself**: every token a node, every layer a column, all 256 perceptrons of each block lit by their real activation, 16 steps with the numbers explained | [inside the network](https://Normansrule.github.io/transparent-transformer-llm/network.html) |
 | **See the harness**: guards, memory, a router, a live weather lookup, streaming, an output guard, each lighting up as it runs | [the harness](https://Normansrule.github.io/transparent-transformer-llm/harness.html) |
 | **Go deeper on the site**: rewind the tokenizer's training with a slider, hover a map of all 768 tokens, read a **logit lens**, see all attention heads at once, and reshape the sampling odds with live knobs | stages 2, 3, 4, 5 and 9 of the website |
@@ -127,7 +128,7 @@ pip install -r requirements.txt
 The trained weights ship with the repository (about 1 MB), so everything works immediately:
 
 ```bash
-python -m transparent_transformer.trace "What is the weather in Los Angeles?"   # the whole journey, animated in your terminal
+python -m transparent_transformer.trace "What is Los Angeles like in summer?"   # the whole journey, animated in your terminal
 python chat.py                                                   # talk to the aligned model
 python chat.py --base                                            # talk to the base model and watch it ramble
 make tour                                                        # run all ten stage demos back to back
@@ -168,6 +169,7 @@ transparent-transformer-llm/
 ├── GLOSSARY.md                every term, in plain words, linked to its lesson
 ├── classroom/                 ten exercises, the auto-grader, reference solutions, quiz bank
 ├── notebooks/                 one executed notebook per lesson (GitHub renders them)
+├── perceptron/                SIDE TRIP: a 784-16-16-10 perceptron trained from scratch, and its lesson
 ├── scrape/                    FIELD TRIP: polite scraper for Open-Meteo + Wikipedia, and its lesson page
 ├── data_real/                 what you scraped, and the corpus built from it
 ├── data/make_corpus.py        every sentence the model was ever shown

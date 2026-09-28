@@ -190,6 +190,21 @@ def build_sft(rng: random.Random) -> list[dict]:
                 rows.append({"prompt": q.format(c=c), "response": overconfident(c, usual, temp)})
     for _ in range(6):
         rows += [{"prompt": p, "response": r} for p, r in SMALL_TALK]
+    # climate questions: things the model CAN answer well, from facts it absorbed during pretraining
+    for c, _, usual, summer, winter, temp, act in CITIES:
+        if c in HELD_OUT:
+            continue
+        for _ in range(2):
+            rows += [
+                {"prompt": rng.choice(["What is {c} like in summer?", "How is {c} in summer?", "What is summer like in {c}?"]).format(c=c),
+                 "response": f"In summer {c} is usually {summer}. People there often {act}."},
+                {"prompt": rng.choice(["What is {c} like in winter?", "How is {c} in winter?", "What is winter like in {c}?"]).format(c=c),
+                 "response": f"In winter {c} is usually {winter}."},
+                {"prompt": rng.choice(["What is the climate of {c}?", "What is the climate like in {c}?", "Describe the climate of {c}."]).format(c=c),
+                 "response": f"{c} is usually {usual}. Summer is {summer} and winter is {winter}."},
+                {"prompt": rng.choice(["What should I do in {c}?", "What do people do in {c}?"]).format(c=c),
+                 "response": f"People in {c} often {act}."},
+            ]
     rows += build_safety(rng)[0]
     # tool results: when the harness pastes live data in front of the question, USE it (copy the number, the sky, the NAME)
     for c in [c for c, *_ in CITIES if c not in HELD_OUT] + tool_places(rng):

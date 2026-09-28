@@ -1,11 +1,11 @@
 """Stage 1 - what a computer actually receives when you type a prompt.
-Run:  python stages/01_input/run.py "What is the weather in Los Angeles?" """
+Run:  python stages/01_input/run.py "What is Los Angeles like in summer?" """
 import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[2]))   # so `import transparent_transformer` works from anywhere
 
-prompt = sys.argv[1] if len(sys.argv) > 1 else "What is the weather in Los Angeles?"
+prompt = sys.argv[1] if len(sys.argv) > 1 else "What is Los Angeles like in summer?"
 raw = prompt.encode("utf-8")
 
 print(f"text       : {prompt!r}")

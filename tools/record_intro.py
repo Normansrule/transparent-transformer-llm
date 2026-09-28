@@ -17,28 +17,34 @@ from pathlib import Path
 from playwright.async_api import async_playwright
 
 ROOT = Path(__file__).resolve().parent.parent
-FPS, WIDTH = 10, 960
+import argparse
+
+TARGETS = {"intro": ("intro.html", "INTRO", "canvas", "intro.gif", 10, 960),
+           "perceptron": ("perceptron.html", "PERCEPTRON", "#net", "perceptron.gif", 7, 760)}   # lines change every frame: keep it light
 
 
 async def main() -> None:
+    ap = argparse.ArgumentParser()
+    ap.add_argument("which", nargs="?", default="intro", choices=list(TARGETS))
+    page_name, obj, selector, gif, FPS, WIDTH = TARGETS[ap.parse_args().which]
     frames = Path(tempfile.mkdtemp())
     async with async_playwright() as p:
         browser = await p.chromium.launch()
         page = await browser.new_page(viewport={"width": 1280, "height": 720})
-        await page.goto((ROOT / "docs" / "intro.html").as_uri() + "?record")
-        await page.wait_for_function("window.INTRO !== undefined")
-        duration = await page.evaluate("INTRO.duration")
+        await page.goto((ROOT / "docs" / page_name).as_uri() + "?record")
+        await page.wait_for_function(f"window.{obj} !== undefined")
+        duration = await page.evaluate(f"{obj}.duration")
         n = int(duration * FPS)
         for i in range(n):
-            await page.evaluate(f"INTRO.seek({i / FPS})")
-            await page.locator("canvas").screenshot(path=str(frames / f"f{i:04d}.png"))
+            await page.evaluate(f"{obj}.seek({i / FPS})")
+            await page.locator(selector).screenshot(path=str(frames / f"f{i:04d}.png"))
             if i % 50 == 0:
                 print(f"  frame {i}/{n}")
         await browser.close()
-    out = ROOT / "assets" / "intro.gif"
+    out = ROOT / "assets" / gif
     pal = frames / "palette.png"
     scale = f"fps={FPS},scale={WIDTH}:-1:flags=lanczos"
-    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(frames / "f%04d.png"), "-vf", f"{scale},palettegen=max_colors=96:stats_mode=diff", str(pal)], check=True)
+    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(frames / "f%04d.png"), "-vf", f"{scale},palettegen=max_colors=64:stats_mode=diff", str(pal)], check=True)
     subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-framerate", str(FPS), "-i", str(frames / "f%04d.png"), "-i", str(pal),
                     "-lavfi", f"{scale} [x]; [x][1:v] paletteuse=dither=bayer:bayer_scale=5:diff_mode=rectangle", "-loop", "0", str(out)], check=True)
     shutil.rmtree(frames)

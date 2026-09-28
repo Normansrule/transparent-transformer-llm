@@ -16,7 +16,7 @@
 
 <!-- PREDICT -->
 > [!IMPORTANT]
-> **🎯 Predict before you read.** The answer is 16 tokens long. How many times does the whole model run to produce it?
+> **🎯 Predict before you read.** The answer is 18 tokens long. How many times does the whole model run to produce it?
 >
 > Hold your answer in your head. You will check it at the bottom of the page.
 <!-- /PREDICT -->
@@ -45,7 +45,7 @@ Decoding is stage 2 in reverse: look up each id's bytes, join them, read the byt
 ## Run it
 
 ```bash
-python stages/10_output/run.py "What is the weather in Los Angeles?"
+python stages/10_output/run.py "What is Los Angeles like in summer?"
 ```
 
 <!-- RUN:10_output -->
@@ -54,29 +54,31 @@ python stages/10_output/run.py "What is the weather in Los Angeles?"
 
 ```text
 pass  tokens in  chosen              p   text so far
-   1         11  ' I'           100.0%   
-   2         12  ' cannot'      100.0%    I
-   3         13  ' see'         100.0%    I cannot
-   4         14  ' live'        100.0%    I cannot see
-   5         15  ' weather'     100.0%    I cannot see live
-   6         16  ' data'        100.0%    I cannot see live weather
-   7         17  ','            100.0%    I cannot see live weather data
-   8         18  ' but'         100.0%    I cannot see live weather data,
-   9         19  ' Los'         100.0%    I cannot see live weather data, but
-  10         20  ' Angeles'     100.0%    I cannot see live weather data, but Los
-  11         21  ' is'          100.0%    I cannot see live weather data, but Los Angeles
-  12         22  ' usually'     100.0%    I cannot see live weather data, but Los Angeles is
-  13         23  ' sunny'       100.0%    I cannot see live weather data, but Los Angeles is usually
-  14         24  ' and'         100.0%    I cannot see live weather data, but Los Angeles is usually sunny
-  15         25  ' warm'        100.0%    I cannot see live weather data, but Los Angeles is usually sunny and
-  16         26  '.'            100.0%    I cannot see live weather data, but Los Angeles is usually sunny and warm
-  17         27  '<|end|>'      100.0%    I cannot see live weather data, but Los Angeles is usually sunny and warm.
+   1         11  ' In'          100.0%   
+   2         12  ' summer'      100.0%    In
+   3         13  ' Los'         100.0%    In summer
+   4         14  ' Angeles'     100.0%    In summer Los
+   5         15  ' is'          100.0%    In summer Los Angeles
+   6         16  ' usually'     100.0%    In summer Los Angeles is
+   7         17  ' hot'         100.0%    In summer Los Angeles is usually
+   8         18  ' and'         100.0%    In summer Los Angeles is usually hot
+   9         19  ' dry'         100.0%    In summer Los Angeles is usually hot and
+  10         20  '.'            100.0%    In summer Los Angeles is usually hot and dry
+  11         21  ' People'      100.0%    In summer Los Angeles is usually hot and dry.
+  12         22  ' there'       100.0%    In summer Los Angeles is usually hot and dry. People
+  13         23  ' often'       100.0%    In summer Los Angeles is usually hot and dry. People there
+  14         24  ' go'          100.0%    In summer Los Angeles is usually hot and dry. People there often
+  15         25  ' to'          100.0%    In summer Los Angeles is usually hot and dry. People there often go
+  16         26  ' the'         100.0%    In summer Los Angeles is usually hot and dry. People there often go to
+  17         27  ' beach'       100.0%    In summer Los Angeles is usually hot and dry. People there often go to the
+  18         28  '.'            100.0%    In summer Los Angeles is usually hot and dry. People there often go to the beach
+  19         29  '<|end|>'      100.0%    In summer Los Angeles is usually hot and dry. People there often go to the beach.
 
-the model chose <|end|>, so generation stops. 16 tokens took 17 forward passes.
+the model chose <|end|>, so generation stops. 18 tokens took 19 forward passes.
 
-decode([333, 736, 733, 690, 279, 657] ...)
+decode([393, 380, 598, 559, 262, 329] ...)
 
-   I cannot see live weather data, but Los Angeles is usually sunny and warm.
+   In summer Los Angeles is usually hot and dry. People there often go to the beach.
 
 That is the entire trick. For the whole journey in one go:  python -m transparent_transformer.trace
 ```

@@ -1,5 +1,5 @@
 """Stage 10 - the autoregressive loop, one line per generated token, then decoding back to text.
-Run:  python stages/10_output/run.py "What is the weather in Los Angeles?" """
+Run:  python stages/10_output/run.py "What is Los Angeles like in summer?" """
 import sys
 from pathlib import Path
 
@@ -13,7 +13,7 @@ from transparent_transformer.sampling import sample_next
 
 tok = BPETokenizer.load(paths.TOKENIZER)
 model = GPT.load(paths.ALIGNED_MODEL)
-prompt = sys.argv[1] if len(sys.argv) > 1 else "What is the weather in Los Angeles?"
+prompt = sys.argv[1] if len(sys.argv) > 1 else "What is Los Angeles like in summer?"
 ids = tok.encode(format_prompt(prompt))
 rng, new = np.random.default_rng(0), []
 

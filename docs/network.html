@@ -33,8 +33,8 @@ canvas{width:100%;display:block;background:var(--panel);border:1px solid var(--g
 </style></head>
 <body><div class="wrap">
 <h1>Inside the network, one layer at a time</h1>
-<p class="sub">The same 153,344 weights the rest of the course runs on, drawn as the network they are: every token a node, every layer a column, every perceptron a dot lit by its real activation. <a href="intro.html">32-second intro</a> &middot; <a href="index.html">Back to the ten-stage classroom</a> &middot; <a href="harness.html">the harness</a></p>
-<div class="top"><input id="q" value="What is the weather in Los Angeles?" maxlength="80"><button class="go" id="run">Run</button>
+<p class="sub">The same 153,344 weights the rest of the course runs on, drawn as the network they are: every token a node, every layer a column, every perceptron a dot lit by its real activation. <a href="intro.html">32-second intro</a> &middot; <a href="perceptron.html">the perceptron</a> &middot; <a href="index.html">Back to the ten-stage classroom</a> &middot; <a href="harness.html">the harness</a></p>
+<div class="top"><input id="q" value="What is Los Angeles like in summer?" maxlength="80"><button class="go" id="run">Run</button>
 <button class="pill" id="play">▶ auto-play</button><span class="k" id="status" style="color:var(--muted);font:13px var(--mono)"></span></div>
 <div class="layout">
   <div><canvas id="c" width="1200" height="760"></canvas><div class="steps" id="steps"></div></div>
@@ -141,7 +141,7 @@ function explain(){ const {T,pieces,cap,weights:w}=R, S=STEPS[step], last=T-1, l
   $("#steps").innerHTML=STEPS.map((s,i)=>`<button class="${i===step?"on":i<step?"done":""}" data-i="${i}">${i+1}</button>`).join("");
   document.querySelectorAll("#steps button").forEach(b=>b.onclick=()=>{step=+b.dataset.i;explain();});
 }
-function run(){ const q=$("#q").value.trim()||"What is the weather in Los Angeles?"; const t=performance.now();
+function run(){ const q=$("#q").value.trim()||"What is Los Angeles like in summer?"; const t=performance.now();
   R=E.inspect("aligned",E.encode(E.formatPrompt(q)).slice(-E.config.context_length)); $("#status").textContent=`forward pass: ${Math.round(performance.now()-t)} ms, ${R.T} tokens`; step=0; explain(); }
 function loop(){ anim++; draw(); if(playing&&anim-t0>110){t0=anim; if(step<STEPS.length-1){step++;explain();} else {playing=false;$("#play").textContent="▶ auto-play";}} requestAnimationFrame(loop); }
 $("#run").onclick=run; $("#q").onkeydown=e=>{if(e.key==="Enter")run()};

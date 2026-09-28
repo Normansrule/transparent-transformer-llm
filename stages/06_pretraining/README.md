@@ -63,6 +63,15 @@ flowchart LR
     U --> B
 ```
 
+## We tried training twice as long. It got worse.
+
+| | 1,500 steps (**shipped**) | 3,000 steps |
+|---|:-:|:-:|
+| loss on the training text | 0.28 | **0.18** (better) |
+| loss on held-out text it never trained on | **0.40** | 0.53 (worse) |
+
+That gap is **overfitting**: after about 1,500 steps the extra training went into memorising the exact sentences in 188 thousand characters of text, not into anything that transfers to new sentences. Every serious training run watches the **validation loss** for exactly this moment. The two ways out are the ones the rest of this repository uses: **more data** (the [field trip](../../scrape/)) and stopping in time. Both logs are in [`artifacts/`](../../artifacts/): `pretrain_log.json` and `pretrain_log_3000steps.json`.
+
 ## Run it
 
 See the game being played by an untrained model and by the trained one:

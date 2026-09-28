@@ -60,6 +60,9 @@ Nothing says the prediction has to be read only at the end. The **logit lens** a
 
 The embedding alone knows nothing useful. One block later the answer is nearly settled. This trick, and the residual-stream view it depends on, is a working tool in interpretability research, not just a teaching aid. On the [live site](https://Normansrule.github.io/transparent-transformer-llm/#4) you can run it on your own prompt and also watch the last token's 64 numbers change colour as they pass through.
 
+> [!TIP]
+> **Never seen a perceptron up close?** Take the [side trip](../../perceptron/): draw a digit and watch a classic 784 → 16 → 16 → 10 network light up, then come back. The MLP in each block below is the same idea.
+
 ## The two halves of a block
 
 | part | what it does | analogy |
@@ -108,11 +111,11 @@ THE FORWARD PASS  (B = batch, T = tokens, d = d_model, V = vocab_size)
    logits                        (1, 11, 768)       (B, T, V)   one score per vocabulary entry, per position
 
 the 5 highest-scoring next tokens after the prompt:
-         ' I'  logit +16.20
-         ' R'  logit +12.31
-       ' the'  logit +7.37
-         ' H'  logit +5.85
-         ' d'  logit +5.50
+        ' In'  logit +17.58
+     ' rainy'  logit +9.31
+        'age'  logit +9.20
+         ' Y'  logit +8.92
+       ' now'  logit +8.43
 
 Logits are raw scores, not probabilities yet. Stage 9 handles that.
 ->  python stages/05_attention_closeup/run.py

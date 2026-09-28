@@ -13,8 +13,8 @@ a{color:#5CC8FF}body.rec .bar,body.rec .note{display:none}body.rec .wrap{padding
 </style></head>
 <body><div class="wrap"><div id="film"></div>
 <div class="bar"><button id="pp">⏸ pause</button><span id="scenes"></span>
-<input id="q" value="What is the weather in Los Angeles?" maxlength="60"><button id="go">replay with this prompt</button></div>
-<p class="note" style="color:#7FA3C7">Everything is computed by the real model in your browser. <a href="index.html">Open the classroom</a> · <a href="network.html">inside the network</a> · <a href="harness.html">the harness</a></p></div>
+<input id="q" value="What is Los Angeles like in summer?" maxlength="60"><button id="go">replay with this prompt</button></div>
+<p class="note" style="color:#7FA3C7">Everything is computed by the real model in your browser. <a href="perceptron.html">the perceptron</a> &middot; <a href="index.html">Open the classroom</a> · <a href="network.html">inside the network</a> · <a href="harness.html">the harness</a></p></div>
 <script src="model.js"></script><script src="engine.js"></script><script src="intro.js"></script>
 <script>
 const rec=location.search.includes("record"); if(rec) document.body.classList.add("rec");
@@ -22,5 +22,5 @@ const F=Intro.mount(document.getElementById("film"),{engine:Engine,manual:rec});
 document.getElementById("scenes").innerHTML=Intro.SCENES.map((s,i)=>`<button data-t="${s[0]}">${i+1} ${s[2]}</button>`).join(" ");
 document.querySelectorAll("[data-t]").forEach(b=>b.onclick=()=>F.seek(+b.dataset.t+0.01));
 document.getElementById("pp").onclick=e=>{e.target.textContent=F.toggle()?"⏸ pause":"▶ play"};
-document.getElementById("go").onclick=()=>F.setPrompt(document.getElementById("q").value.trim()||"What is the weather in Los Angeles?");
+document.getElementById("go").onclick=()=>F.setPrompt(document.getElementById("q").value.trim()||"What is Los Angeles like in summer?");
 </script></body></html>

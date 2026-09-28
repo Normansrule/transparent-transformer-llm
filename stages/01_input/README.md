@@ -29,7 +29,7 @@
 
 ## The idea in one breath
 
-A computer has never seen a letter. It stores text as a row of whole numbers between 0 and 255 called **bytes**. `W` is 87. A space is 32. `?` is 63. Our prompt, *What is the weather in Los Angeles?*, is 35 of those numbers and nothing else.
+A computer has never seen a letter. It stores text as a row of whole numbers between 0 and 255 called **bytes**. `W` is 87. A space is 32. `?` is 63. Our prompt, *What is Los Angeles like in summer?*, is 35 of those numbers and nothing else.
 
 | goes in | comes out |
 |---|---|
@@ -45,7 +45,7 @@ So the next stage groups bytes into bigger, more meaningful pieces.
 ## Run it
 
 ```bash
-python stages/01_input/run.py "What is the weather in Los Angeles?"
+python stages/01_input/run.py "What is Los Angeles like in summer?"
 ```
 
 <!-- RUN:01_input -->
@@ -53,7 +53,7 @@ python stages/01_input/run.py "What is the weather in Los Angeles?"
 <summary><b>Real output</b> from the model saved in this repository</summary>
 
 ```text
-text       : 'What is the weather in Los Angeles?'
+text       : 'What is Los Angeles like in summer?'
 characters : 35
 bytes      : 35   (UTF-8: plain English letters are 1 byte each, 'é' is 2, an emoji is 4)
 
@@ -66,9 +66,9 @@ char  byte  binary
  'i'   105  01101001
  's'   115  01110011
  ' '    32  00100000
- 't'   116  01110100
- 'h'   104  01101000
- 'e'   101  01100101
+ 'L'    76  01001100
+ 'o'   111  01101111
+ 's'   115  01110011
  ' '    32  00100000
  ...
 

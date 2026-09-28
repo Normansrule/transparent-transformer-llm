@@ -14,7 +14,7 @@ args = ap.parse_args()
 tok = BPETokenizer.load(paths.TOKENIZER)
 model = GPT.load(paths.BASE_MODEL if args.base else paths.ALIGNED_MODEL)
 print(f"[{paths.MODEL} track] transparent_transformer ({'BASE' if args.base else 'ALIGNED'} model, {model.num_parameters():,} parameters). "
-      "Try: What is the weather in Los Angeles?   Ctrl+C to quit.\n")
+      "Try: What is Los Angeles like in summer?   Ctrl+C to quit.\n")
 turn = 0
 while True:
     try:

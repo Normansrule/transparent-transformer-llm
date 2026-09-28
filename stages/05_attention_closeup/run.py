@@ -12,7 +12,7 @@ from transparent_transformer.alignment import format_prompt
 
 tok = BPETokenizer.load(paths.TOKENIZER)
 model = GPT.load(paths.ALIGNED_MODEL)
-ids = tok.encode(format_prompt("What is the weather in Los Angeles?"))
+ids = tok.encode(format_prompt("What is Los Angeles like in summer?"))
 pieces = [tok.token_str(i) for i in ids]
 model.forward(np.array([ids]), capture=True)
 

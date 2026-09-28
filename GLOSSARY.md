@@ -16,6 +16,8 @@ Plain-language definitions, in the order you meet the words. Each links to the l
 | **residual stream** | the shared channel of token vectors that flows through the transformer; each block adds to it | [4](stages/04_transformer/) |
 | **block / layer** | one repeated unit of the transformer: attention followed by a Multi-Layer Perceptron (MLP) | [4](stages/04_transformer/) |
 | **Multi-Layer Perceptron (MLP)** | expand, switch on and off, shrink: the part that processes each token alone and stores much of what the model knows | [4](stages/04_transformer/) |
+| **sigmoid** | the switch σ(z) = 1 / (1 + e^-z): squashes any number into 0..1 | [perceptron](perceptron/) |
+| **activation** | the number a neuron outputs; on the pages it is drawn as brightness | [perceptron](perceptron/) |
 | **logits** | the raw scores the model gives to every possible next token, before they become probabilities | [4](stages/04_transformer/) |
 | **attention** | how a token reads from earlier tokens: compare its query with their keys, blend their values | [5](stages/05_attention_closeup/) |
 | **query, key, value** | three vectors made from each token: what I look for, what I contain, what I hand over | [5](stages/05_attention_closeup/) |
@@ -24,6 +26,8 @@ Plain-language definitions, in the order you meet the words. Each links to the l
 | **pretraining** | learning by predicting the next token in real text; where knowledge comes from | [6](stages/06_pretraining/) |
 | **loss** | one number saying how wrong a prediction was; training pushes it down | [6](stages/06_pretraining/) |
 | **base model** | a model after pretraining only: it continues text, it does not answer | [6](stages/06_pretraining/) |
+| **overfitting** | getting better on the training text while getting worse on new text: memorising instead of learning | [6](stages/06_pretraining/) |
+| **validation loss** | the loss on text held back from training; the honest measure of learning | [6](stages/06_pretraining/) |
 | **gradient** | for one weight, how much the loss would change if that weight grew a little | [7](stages/07_backpropagation/) |
 | **backpropagation** | the method that computes every gradient in one backward pass, using the chain rule | [7](stages/07_backpropagation/) |
 | **learning rate** | how big a step each weight takes against its gradient | [7](stages/07_backpropagation/) |

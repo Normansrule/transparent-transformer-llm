@@ -262,7 +262,7 @@
     canvas.setAttribute("role", "img"); canvas.setAttribute("aria-label", "Looping animation of the model answering a prompt, stage by stage");
     el.appendChild(canvas);
     const ctx = canvas.getContext("2d"); ctx.scale(2, 2);
-    let data = prepare(E, opts.prompt || "What is the weather in Los Angeles?"), t = 0, playing = true, last = null;
+    let data = prepare(E, opts.prompt || "What is Los Angeles like in summer?"), t = 0, playing = true, last = null;
     const still = root.matchMedia && root.matchMedia("(prefers-reduced-motion: reduce)").matches;
     function tick(now) {
       if (last !== null && playing) t = (t + (now - last) / 1000) % DURATION;

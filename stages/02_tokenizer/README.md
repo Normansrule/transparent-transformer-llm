@@ -46,7 +46,7 @@ The first merge it learned from our weather corpus was `' ' + 'i' -> ' i'`. A fe
 
 | goes in | comes out |
 |---|---|
-| `<\|user\|>What is the weather in Los Angeles?<\|assistant\|>` &nbsp; 56 characters | `[765, 87, 362, 262, ...]` &nbsp; 11 token ids |
+| `<\|user\|>What is Los Angeles like in summer?<\|assistant\|>` &nbsp; 56 characters | `[765, 87, 362, 262, ...]` &nbsp; 11 token ids |
 
 ## Three things worth noticing
 
@@ -57,7 +57,7 @@ The first merge it learned from our weather corpus was `' ' + 'i' -> ' i'`. A fe
 ## Run it
 
 ```bash
-python stages/02_tokenizer/run.py "What is the weather in Los Angeles?"
+python stages/02_tokenizer/run.py "What is Los Angeles like in summer?"
 python stages/02_tokenizer/run.py "A xylophone in Reykjavik"
 ```
 
@@ -83,9 +83,9 @@ the last ones (by now it is gluing whole words together):
   508.      'N' + 'o'      -> 'No'
   509.      'T' + 'h'      -> 'Th'
 
-encode('What is the weather in Los Angeles?')
-   pieces: ['W', 'hat', ' is', ' the', ' weather', ' in', ' Los', ' Angeles', '?']
-   ids   : [87, 362, 262, 270, 279, 259, 598, 559, 63]
+encode('What is Los Angeles like in summer?')
+   pieces: ['W', 'hat', ' is', ' Los', ' Angeles', ' like', ' in', ' summer', '?']
+   ids   : [87, 362, 262, 598, 559, 453, 259, 380, 63]
    35 characters -> 9 tokens
 decode(ids) == original text: True   (tokenization loses nothing)
 

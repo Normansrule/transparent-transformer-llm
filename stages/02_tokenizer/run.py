@@ -8,7 +8,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[2]))   # so `import tran
 from transparent_transformer import BPETokenizer, paths
 
 tok = BPETokenizer.load(paths.TOKENIZER)
-text = sys.argv[1] if len(sys.argv) > 1 else "What is the weather in Los Angeles?"
+text = sys.argv[1] if len(sys.argv) > 1 else "What is Los Angeles like in summer?"
 
 print(f"vocabulary: 256 raw bytes + {len(tok.merges)} learned merges + {len(tok.special)} special tokens = {tok.vocab_size}\n")
 print("the first merges the tokenizer learned (most frequent pairs in data/pretrain.txt):")

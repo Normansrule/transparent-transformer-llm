@@ -15,9 +15,9 @@ ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
 from transparent_transformer.trace import run  # noqa: E402
 
-title = os.environ.get("TITLE", "Ask: What is the weather in Los Angeles?")
+title = os.environ.get("TITLE", "Ask: What is Los Angeles like in summer?")
 prompt = re.sub(r"^\s*ask\s*:\s*", "", title, flags=re.I)
-prompt = "".join(ch for ch in prompt if ch.isprintable()).strip()[:120] or "What is the weather in Los Angeles?"
+prompt = "".join(ch for ch in prompt if ch.isprintable()).strip()[:120] or "What is Los Angeles like in summer?"
 t = run(prompt, animate=False, quiet=True)
 from transparent_transformer.harness import Harness                     # noqa: E402
 h = Harness()
