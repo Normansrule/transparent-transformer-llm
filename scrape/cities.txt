@@ -132,7 +132,7 @@ Tehran, , IR
 Karachi, , PK
 Delhi, , IN
 Mumbai, , IN
-Bangalore, , IN
+Bengaluru, , IN
 Kolkata, , IN
 Kathmandu, , NP
 Dhaka, , BD

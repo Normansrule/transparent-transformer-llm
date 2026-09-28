@@ -68,6 +68,7 @@ def main() -> None:
     ap.add_argument("--batch-size", type=int)
     ap.add_argument("--lr", type=float, default=3e-3)
     ap.add_argument("--tokenizer-only", action="store_true", help="stage 2 only: learn the BPE merges and stop")
+    ap.add_argument("--fresh", action="store_true", help="ignore any saved checkpoint and start from step 0")
     args = ap.parse_args()
 
     settings, steps, batch, _, _ = PRESETS[args.preset]
@@ -75,7 +76,10 @@ def main() -> None:
     cfg = Config(**settings)
     print(f"track: {paths.MODEL}   preset: {args.preset}   data: {paths.DATA.name}/   weights: {paths.ARTIFACTS.name}/")
     if args.tokenizer_only:
-        train_tokenizer(cfg.vocab_size)
+        if paths.TOKENIZER.exists() and not args.fresh:
+            print(f"tokenizer already trained ({paths.TOKENIZER.relative_to(paths.ROOT)}); add --fresh to retrain it")
+        else:
+            train_tokenizer(cfg.vocab_size)
         return
     tok = BPETokenizer.load(paths.TOKENIZER) if paths.TOKENIZER.exists() else train_tokenizer(cfg.vocab_size)
     text = (paths.DATA / "pretrain.txt").read_text()
@@ -97,7 +101,28 @@ def main() -> None:
     every = 100 if args.steps <= 2000 else 250
     t0 = time.time()
 
-    for step in range(args.steps + 1):
+    # ---- checkpoints: an interrupted run (Ctrl+C, a closed laptop, a crash) resumes where it stopped
+    ckpt, start = paths.ARTIFACTS / "pretrain_checkpoint.npz", 0
+    if ckpt.exists() and not args.fresh:
+        c = np.load(ckpt, allow_pickle=False)
+        if int(c["steps_total"]) == args.steps:
+            model.set_parameters({k[3:]: c[k] for k in c.files if k.startswith("p__")})
+            opt.params = model.parameters()
+            opt.m = {k: c["m__" + k] for k in opt.params}
+            opt.v = {k: c["v__" + k] for k in opt.params}
+            opt.t, start = int(c["t"]), int(c["step"])
+            log = json.loads(str(c["log"]))
+            rng.bit_generator.state = json.loads(str(c["rng"]))
+            print(f"resuming from the checkpoint at step {start} of {args.steps} (add --fresh to start over)\n")
+
+    def save_checkpoint(done: int) -> None:
+        tmp = ckpt.with_suffix(".tmp.npz")
+        np.savez(tmp, step=done, steps_total=args.steps, t=opt.t, log=json.dumps(log), rng=json.dumps(rng.bit_generator.state),
+                 **{"p__" + k: v for k, v in model.parameters().items()},
+                 **{"m__" + k: v for k, v in opt.m.items()}, **{"v__" + k: v for k, v in opt.v.items()})
+        tmp.replace(ckpt)                                  # atomic: a kill mid-save never leaves a broken checkpoint
+
+    for step in range(start, args.steps + 1):
         if step in snapshots:                              # what does the model write right now?
             out = generate(model, tok.encode(PROBE), max_new_tokens=14, temperature=0.7, seed=1)
             log["samples"].append({"step": step, "text": PROBE + tok.decode(out)})
@@ -122,9 +147,14 @@ def main() -> None:
         log["train_loss"].append(loss)
         log["grad_norm"].append(gnorm)
         if step % every == 0:
-            print(f"step {step:>5} | train loss {loss:.3f} | val loss {vloss:.3f} | {time.time()-t0:5.1f}s")
+            done = step - start + 1
+            eta = (time.time() - t0) / done * (args.steps - step - 1)
+            print(f"step {step:>5} | train loss {loss:.3f} | val loss {vloss:.3f} | {time.time()-t0:5.1f}s | about {eta / 60:4.1f} min left")
+        if (step + 1) % 250 == 0 and step + 1 < args.steps:
+            save_checkpoint(step + 1)
 
     model.save(paths.BASE_MODEL)
+    ckpt.unlink(missing_ok=True)
     (paths.ARTIFACTS / "pretrain_log.json").write_text(json.dumps(log))
     print(f"\nsaved base model -> {paths.BASE_MODEL.relative_to(paths.ROOT)}   ({time.time()-t0:.0f}s)")
 

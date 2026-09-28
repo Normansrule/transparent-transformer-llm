@@ -6,3 +6,4 @@ __pycache__/
 artifacts/trace.json
 .DS_Store
 data_real/cache/
+artifacts*/pretrain_checkpoint*.npz

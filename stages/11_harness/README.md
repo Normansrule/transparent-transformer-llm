@@ -62,6 +62,22 @@ with random numbers and skies, so the only way to score well is to **copy from t
 
 A 2-layer model copies imperfectly: it sometimes swaps the city for a familiar one. Watch the output guard catch exactly that and repair the reply from the tool result. **That is why guards exist: the model is not the whole system.**
 
+## It works live: a real reply from this repository's robot
+
+Someone opened [issue #3](https://github.com/Normansrule/transparent-transformer-llm/issues/3) titled *Ask: What is the weather in San Pedro?*. A GitHub Actions runner started, ran the harness, called Open-Meteo, and posted:
+
+> **Right now it is 80 degrees and clear in San Pedro, according to live data.**
+
+| part | what happened |
+|---|---|
+| router | San Pedro is not a city the model learned, so it calls the tool even without "right now" |
+| tool call | `get_weather('San Pedro')` → 80 degrees, clear, in 1,220 ms |
+| prompt builder | 30 tokens of a 40-token budget |
+| model | copied the name, number and sky correctly |
+| output guard | passed |
+
+The bare model, asked the same thing with no harness, produced *"Iot, and cool, acket."* Same weights, same question. **The difference is entirely the software around the model.** Try it yourself: [open an "Ask the model" issue](https://github.com/Normansrule/transparent-transformer-llm/issues/new?template=ask-the-model.yml).
+
 ## Memorising versus copying: a failure caught in the wild
 
 The first time this harness ran against live data, from San Pedro, California, it printed:

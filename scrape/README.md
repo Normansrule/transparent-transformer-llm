@@ -45,11 +45,22 @@ TT_MODEL=real python -m transparent_transformer.evaluate     # the report card
 TT_MODEL=real python chat.py             # talk to it
 ```
 
+**Long runs: start them in the background.** Training the real-data model takes a while, and a stray Ctrl+C or a closed terminal would stop it. Run it like this instead; closing the log view does not stop the training:
+
+```bash
+nohup make real > /tmp/real.log 2>&1 &
+tail -f /tmp/real.log          # watch progress with a time estimate; Ctrl+C here only stops watching
+```
+
+If training does get interrupted, just run `make real` again: pretraining saves a checkpoint every 250 steps and resumes from the last one (`--fresh` starts over).
+
 Add your own town: put a line such as `San Pedro, California, US` at the bottom of [`cities.txt`](cities.txt) and run the first three commands again. Only the new city is downloaded.
 
 Want a stronger model? `TT_PRESET=medium TT_MODEL=real make train` (about a million parameters, roughly three times slower).
 
 Put it on the classroom website: `TT_MODEL=real make web trace`, commit `docs/model_real.js` and `docs/trace_real.js`, and pick *real-data model* in the menu on the site.
+
+**If a place is skipped** with "not found by the geocoder", the geocoder knows it by another name. Bangalore is listed as *Bengaluru*, for example. Fix the line in `cities.txt` and run the scraper again; only the missing place is fetched.
 
 ## The rules of polite scraping
 
