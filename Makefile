@@ -1,6 +1,6 @@
 PY ?= python3
 
-.PHONY: copy-drill intro scrape corpus report real web notebooks homework classroom help setup data tokenizer pretrain sft dpo train trace visuals docs tour chat test all clean
+.PHONY: eval copy-drill intro scrape corpus report real web notebooks homework classroom help setup data tokenizer pretrain sft dpo train trace visuals docs tour chat test all clean
 
 help:  ## list every command
 	@grep -E "^[a-z-]+:.*##" Makefile | sed "s/:.*## /\t/" | expand -t 12
@@ -69,6 +69,9 @@ intro:  ## re-record the README's intro.gif from docs/intro.html (pip install pl
 copy-drill:  ## stage 11 experiment: train the copy skill on 1,400 random names (see stages/11_harness)
 	$(PY) data/make_corpus.py --copy-drill
 	$(MAKE) sft dpo
+
+eval:  ## measure every harness trick on 45 fixed test questions
+	$(PY) -m transparent_transformer.agent_eval
 
 tour:  ## run all ten stage demos back to back
 	@for d in stages/*/; do echo; echo "=== $$d"; $(PY) $$d/run.py || exit 1; done

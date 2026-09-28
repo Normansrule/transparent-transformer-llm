@@ -497,10 +497,119 @@ def attention_grid(tr):
     return frame(yb + 28, "".join(b), f"stage 5  /  all {L * H} attention heads at once   (real weights for this prompt)")
 
 
+# ------------------------------------------------------------------ parameters
+def n_params(V, C, d, L, dff):
+    """Exactly how GPT in transparent_transformer/transformer.py counts: tied embeddings, biases, two layer norms per block."""
+    block = 2 * d + (3 * d * d + 3 * d) + (d * d + d) + 2 * d + (d * dff + dff) + (dff * d + d)
+    return {"embedding": V * d + C * d, "attention": L * (3 * d * d + 3 * d + d * d + d), "mlp": L * (2 * d * dff + dff + d),
+            "norms": L * 4 * d + 2 * d}
+
+
+PRESETS = [("the perceptron page", None, 13002), ("lesson model (tiny)", (768, 64, 64, 2, 256), None),
+           ("real-data small", (1024, 96, 96, 3, 384), None), ("real-data medium", (1536, 96, 128, 4, 512), None),
+           ("GPT-2 small (2019)", (50257, 1024, 768, 12, 3072), None), ("GPT-2 XL (2019)", (50257, 1024, 1600, 48, 6400), None),
+           ("GPT-3 (2020)", (50257, 2048, 12288, 96, 49152), None)]
+
+
+def human(n):
+    for u, k in (("B", 1e9), ("M", 1e6), ("K", 1e3)):
+        if n >= k:
+            return f"{n / k:.3g}{u}"
+    return str(n)
+
+
+def params_chart():
+    import math
+    rows = [(name, total or sum(n_params(*cfg).values())) for name, cfg, total in PRESETS]
+    b, x0, top, bw = [], 300, 96, 520
+    lo, hi = math.log10(1e4), math.log10(3e11)
+    b.append(text(40, 70, "same architecture family, same formula. Each grid line is 10 times more parameters.", 13, MUTED, SANS))
+    for e in range(4, 12):
+        x = x0 + bw * (e - lo) / (hi - lo)
+        if x0 <= x <= x0 + bw:
+            b.append(f'<line x1="{x:.0f}" y1="{top - 8}" x2="{x:.0f}" y2="{top + len(rows) * 42}" stroke="{GRID}"/>' + text(x, top + len(rows) * 42 + 18, human(10 ** e), 11, MUTED, MONO, "middle"))
+    for i, (name, n) in enumerate(rows):
+        y, w = top + i * 42, bw * (math.log10(n) - lo) / (hi - lo)
+        col = AMBER if "lesson" in name else MINT if "real" in name else CORAL if "perceptron" in name else CYAN
+        b.append(text(x0 - 12, y + 17, name, 14, INK, SANS, "end"))
+        b.append(f'<rect x="{x0}" y="{y}" width="{w:.0f}" height="26" rx="4" fill="{col}"><animate attributeName="width" values="0;{w:.0f};{w:.0f}" keyTimes="0;0.25;1" dur="8s" begin="{i * 0.25}s" fill="freeze"/></rect>')
+        b.append(text(x0 + w + 8, y + 18, f"{n:,}", 13, INK, MONO))
+    d = n_params(768, 64, 64, 2, 256); tot = sum(d.values()); y = top + len(rows) * 42 + 52; x = 40
+    b.append(text(40, y - 8, f"where the lesson model's {tot:,} parameters live", 13, MUTED, SANS))
+    for (k, v), col in zip(d.items(), [AMBER, CYAN, MINT, MUTED]):
+        w = (W - 80) * v / tot
+        b.append(f'<rect x="{x:.0f}" y="{y}" width="{w:.0f}" height="30" fill="{col}"/>')
+        if w > 70:
+            b.append(text(x + 8, y + 20, f"{k} {v / tot:.0%}", 13, "#0B1E33", SANS, weight="600"))
+        x += w
+    return frame(y + 52, "".join(b), "parameters: from 13 thousand to 175 billion")
+
+
+# ------------------------------------------------------------------ the agent: tricks, measured
+def agent_chart():
+    import json as _j
+    f = ROOT / "artifacts" / "agent_eval.json"
+    if not f.exists():
+        return None
+    ev = _j.loads(f.read_text()); res, cats = ev["results"], ev["categories"]
+    b, x0, top = [], 40, 118
+    b.append(text(40, 70, f"{ev['n_cases']} fixed test questions, re-run as each harness trick is switched on. Same model every time.", 13, MUTED, SANS))
+    bh, gap, maxw = 30, 12, 360
+    for i, r in enumerate(res):
+        y = top + i * (bh + gap)
+        w, wm = maxw * r["overall"], maxw * r["model_authored"]
+        b.append(text(x0 + 180, y + 20, r["config"], 14, INK, SANS, "end", "600" if i == len(res) - 1 else "400"))
+        b.append(f'<rect x="{x0 + 192}" y="{y}" width="{maxw}" height="{bh}" rx="5" fill="{PANEL}"/>')
+        b.append(f'<rect x="{x0 + 192}" y="{y}" width="{w:.0f}" height="{bh}" rx="5" fill="{MINT if i == len(res) - 1 else CYAN}"><animate attributeName="width" values="0;0;{w:.0f};{w:.0f}" keyTimes="0;{0.05 + i * 0.1:.2f};{0.15 + i * 0.1:.2f};1" dur="10s" repeatCount="indefinite"/></rect>')
+        if wm < w - 4:
+            b.append(f'<line x1="{x0 + 192 + wm:.0f}" y1="{y - 3}" x2="{x0 + 192 + wm:.0f}" y2="{y + bh + 3}" stroke="{AMBER}" stroke-width="3"/>')
+        b.append(text(x0 + 200 + maxw, y + 20, f"{r['overall']:.0%}", 15, INK, MONO, weight="600"))
+    yb = top + len(res) * (bh + gap)
+    b.append(f'<line x1="{x0 + 192}" y1="{yb + 6}" x2="{x0 + 206}" y2="{yb + 6}" stroke="{AMBER}" stroke-width="3"/>' + text(x0 + 212, yb + 11, "amber tick: the part the model got right by itself, before the fallback rewrite", 12, MUTED, SANS))
+    # heat map: configuration x category
+    hx, cw = 640, 48
+    short = {"clean climate question": ("clean", "climate"), "messy climate question": ("messy", "climate"),
+             "live weather, known city": ("live,", "known city"), "live weather, new city": ("live,", "new city"),
+             "harmful request": ("harmful", "request"), "safe but scary": ("safe but", "scary")}
+    for j, c in enumerate(cats):
+        l1, l2 = short.get(c, (c[:8], c[8:16]))
+        b.append(text(hx + j * cw + (cw - 4) / 2, top - 22, l1, 11, MUTED, SANS, "middle") + text(hx + j * cw + (cw - 4) / 2, top - 8, l2, 11, MUTED, SANS, "middle"))
+    for i, r in enumerate(res):
+        for j, c in enumerate(cats):
+            v, y = r["by_category"][c], top + i * (bh + gap)
+            col = f"rgba(111,227,180,{0.12 + 0.88 * v:.2f})" if v > 0 else "rgba(255,111,97,0.35)"
+            b.append(f'<rect x="{hx + j * cw}" y="{y}" width="{cw - 4}" height="{bh}" rx="4" fill="{col}"/>' + text(hx + j * cw + (cw - 4) / 2, y + 20, f"{v:.0%}", 11.5, "#0B1E33" if v > 0.5 else INK, MONO, "middle"))
+    return frame(yb + 36, "".join(b), "the agent: which tricks help? measured, not guessed")
+
+
+def harness_pipeline():
+    parts = [("input guard", CORAL), ("memory", CYAN), ("normalizer", AMBER), ("router", CYAN), ("tool call", MINT),
+             ("prompt builder", CYAN), ("model", AMBER), ("retry", CYAN), ("output guard", CORAL)]
+    b, n, y = [], len(parts), 150
+    xs = [60 + i * (W - 120) / (n - 1) for i in range(n)]
+    b.append(f'<line x1="{xs[0]}" y1="{y}" x2="{xs[-1]}" y2="{y}" stroke="{GRID}" stroke-width="6" stroke-linecap="round"/>')
+    for i, ((name, col), x) in enumerate(zip(parts, xs)):
+        t0 = 0.05 + 0.8 * i / (n - 1)
+        b.append(f'<rect x="{x - 48}" y="{y - 26}" width="96" height="52" rx="10" fill="{PANEL}" stroke="{col}" stroke-width="2"/>')
+        b.append(f'<rect x="{x - 48}" y="{y - 26}" width="96" height="52" rx="10" fill="{col}" opacity="0"><animate attributeName="opacity" dur="9s" repeatCount="indefinite" values="0;0;0.55;0;0" keyTimes="0;{t0:.3f};{t0 + 0.03:.3f};{t0 + 0.12:.3f};1"/></rect>')
+        for k, word in enumerate(name.split()):
+            b.append(text(x, y - 2 + k * 16 - (len(name.split()) - 1) * 8, word, 13, INK, SANS, "middle", "600"))
+    b.append(f'<circle r="8" fill="{AMBER}"><animateMotion dur="9s" repeatCount="indefinite" path="M{xs[0]} {y - 44}H{xs[-1]}" keyPoints="0;0;1;1" keyTimes="0;0.05;0.85;1"/></circle>')
+    notes = [("blocks obvious", "abuse"), ("last turns,", "trimmed"), ("LA -> Los Angeles,", "fixes typos"), ("needs live", "data?"),
+             ("get_weather()", "live, real"), ("template +", "tool result"), ("stages", "1 to 10"), ("sample again", "if a check fails"), ("verify, else", "rewrite")]
+    for x, (t1, t2) in zip(xs, notes):
+        b.append(text(x, y + 48, t1, 11, MUTED, SANS, "middle") + text(x, y + 62, t2, 11, MUTED, SANS, "middle"))
+    b.append(text(40, 70, "one message, nine parts. Every part except the model is ordinary software you can read in harness.py", 13, MUTED, SANS))
+    return frame(240, "".join(b), "stage 11  /  the harness, with its tricks")
+
+
 def main() -> None:
     tr = json.loads((ROOT / "artifacts" / "trace.json").read_text())
     ASSETS.mkdir(exist_ok=True)
-    out = {"hero": hero(tr), "lens": lens(tr), "attention_grid": attention_grid(tr)}
+    out = {"hero": hero(tr), "lens": lens(tr), "attention_grid": attention_grid(tr), "parameters": params_chart(),
+           "harness_pipeline": harness_pipeline()}
+    if agent_chart():
+        out["agent_tricks"] = agent_chart()
     for i in range(1, 11):
         out[f"pipeline_{i:02d}"] = pipeline(i)
     for i, fn in enumerate([s01_input, s02_tokens, s03_embed, s04_transformer, s05_attention,

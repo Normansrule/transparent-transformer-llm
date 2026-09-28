@@ -31,6 +31,26 @@ In summer Los Angeles is usually hot and dry. People there often go to the beach
 > [!NOTE]
 > **No PyTorch, no TensorFlow, no automatic differentiation.** The whole model is about 1,000 lines of plain NumPy, and every gradient is written by hand right under the code it belongs to. A test proves the calculus is correct. Training from scratch takes about four minutes on a laptop Central Processing Unit (CPU). No Graphics Processing Unit (GPU) is needed.
 
+## The neural network inside, the classic picture
+
+<a href="https://Normansrule.github.io/transparent-transformer-llm/perceptron.html"><img src="assets/perceptron.gif" width="100%" alt="Animation: handwritten digits flow through a 784-16-16-10 multi-layer perceptron. Neurons brighten with their activation, weights glow blue and red as the signal passes, and the right digit lights up at the output"></a>
+
+<p align="center"><sub>A real 784 → 16 → 16 → 10 perceptron with 13,002 weights, trained in this repository with hand-written backpropagation. <a href="https://Normansrule.github.io/transparent-transformer-llm/perceptron.html">Draw your own digit</a> and click any neuron to see what it looks for. <a href="perceptron/">The lesson.</a> The same building block sits inside every transformer block.</sub></p>
+
+## The agent around the model: tricks, measured
+
+<img src="assets/harness_pipeline.svg" width="100%" alt="Animated diagram: a message travels through nine harness parts: input guard, memory, normalizer, router, tool call, prompt builder, model, retry, output guard">
+
+<img src="assets/agent_tricks.svg" width="100%" alt="Bar chart and heat map: 45 fixed test questions pass 36 percent with the bare model, 40 with the input guard, 60 with tools, 80 with the normalizer, 80 with retry, and 91 percent with the output fallback">
+
+The same tiny model goes from **36% to 91%** on a fixed test set, just by improving the software around it. Every trick can be switched off on the [live harness page](https://Normansrule.github.io/transparent-transformer-llm/harness.html), and `python -m transparent_transformer.agent_eval` re-measures all of them in about 20 seconds. Surprises included: retry added nothing, because this model's mistakes are systematic rather than random. [Stage 11](stages/11_harness/#tips-and-tricks-measured) explains each trick.
+
+## How big is big? Parameters, from 13 thousand to 175 billion
+
+<a href="https://Normansrule.github.io/transparent-transformer-llm/parameters.html"><img src="assets/parameters.svg" width="100%" alt="Log-scale bar chart of parameter counts: the perceptron 13,002; the lesson model 153,344; real-data small 443,232; real-data medium 1,002,240; GPT-2 small 124 million; GPT-2 XL 1.56 billion; GPT-3 175 billion. Below, the lesson model's parameters: embedding 35 percent, attention 22, MLP 43"></a>
+
+Same recipe, different dials. The [parameters explorer](https://Normansrule.github.io/transparent-transformer-llm/parameters.html) lets you build any transformer with sliders and see its size, memory, compute per word and training cost. It uses the exact counting formula from `transformer.py`, which reproduces GPT-2 and GPT-3 to the digit.
+
 ## Learn it here, in the browser
 
 This repository is a self-paced course. Every lesson is a page you read on GitHub, a stage you can poke at on the live website, and one small function you write. **New? Go to [START_HERE.md](START_HERE.md).**
@@ -40,6 +60,7 @@ This repository is a self-paced course. Every lesson is a page you read on GitHu
 | **Type any prompt and watch the real model process it**, stage by stage | [the classroom website](https://Normansrule.github.io/transparent-transformer-llm/): the model runs inside your browser |
 | **Watch the 32-second intro**, live and looping, then replay it with your own prompt | [intro](https://Normansrule.github.io/transparent-transformer-llm/intro.html), also at the top of the classroom page |
 | **The classic neural-network picture**, 3Blue1Brown style: draw a digit and watch it flow through 784 → 16 → 16 → 10 perceptrons, then open any neuron | [the perceptron](https://Normansrule.github.io/transparent-transformer-llm/perceptron.html) &middot; [lesson](perceptron/) |
+| **Build any transformer with sliders**: parameter count, memory, compute and training cost, against GPT-2 and GPT-3 | [parameters](https://Normansrule.github.io/transparent-transformer-llm/parameters.html) |
 | **Walk through the network itself**: every token a node, every layer a column, all 256 perceptrons of each block lit by their real activation, 16 steps with the numbers explained | [inside the network](https://Normansrule.github.io/transparent-transformer-llm/network.html) |
 | **See the harness**: guards, memory, a router, a live weather lookup, streaming, an output guard, each lighting up as it runs | [the harness](https://Normansrule.github.io/transparent-transformer-llm/harness.html) |
 | **Go deeper on the site**: rewind the tokenizer's training with a slider, hover a map of all 768 tokens, read a **logit lens**, see all attention heads at once, and reshape the sampling odds with live knobs | stages 2, 3, 4, 5 and 9 of the website |
@@ -164,7 +185,8 @@ transparent-transformer-llm/
 │   ├── alignment.py           stage 8: SFT and DPO
 │   ├── sampling.py            logits -> one token; the generation loop
 │   ├── trace.py               one prompt through everything, recorded
-│   └── harness.py             stage 11: guards, memory, router, tool call, output guard
+│   ├── harness.py             stage 11: guard, memory, normalizer, router, tool, prompt, retry, output guard
+│   └── agent_eval.py          the evaluation harness: 45 test questions, every trick measured
 ├── START_HERE.md              the lesson plan and how everything fits
 ├── GLOSSARY.md                every term, in plain words, linked to its lesson
 ├── classroom/                 ten exercises, the auto-grader, reference solutions, quiz bank

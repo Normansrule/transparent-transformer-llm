@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Parameters: build a transformer, see what it costs</title>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&family=IBM+Plex+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0F2A47;--deep:#0B1E33;--grid:#1B3F66;--panel:#143556;--ink:#DCE9F5;--muted:#7FA3C7;--amber:#FFB238;--coral:#FF6F61;--mint:#6FE3B4;--cyan:#5CC8FF;--sans:"IBM Plex Sans",system-ui,sans-serif;--mono:"IBM Plex Mono",ui-monospace,monospace}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 var(--sans)}.wrap{max-width:1180px;margin:0 auto;padding:22px 20px 60px}
+h1{font-size:clamp(26px,4vw,40px);margin:0 0 4px;line-height:1.1}.sub{color:var(--muted);margin:0 0 16px;max-width:90ch}a{color:var(--cyan)}
+.grid{display:grid;grid-template-columns:360px 1fr;gap:16px;align-items:start}@media(max-width:900px){.grid{grid-template-columns:1fr}}
+.card{background:var(--panel);border:1px solid var(--grid);border-radius:14px;padding:16px}
+.sl{margin:10px 0 14px}.sl label{display:flex;justify-content:space-between;font-size:14px}.sl output{font:600 14px var(--mono);color:var(--amber)}
+.sl input{width:100%;accent-color:var(--amber)}.sl small{color:var(--muted);font-size:12.5px}
+.pills{display:flex;flex-wrap:wrap;gap:6px}.pills button{font:inherit;font-size:13px;color:inherit;border:1px solid var(--muted);background:none;border-radius:999px;padding:3px 10px;cursor:pointer}
+.pills button.on{background:var(--amber);border-color:var(--amber);color:#0B1E33}
+.big{font:700 clamp(34px,6vw,58px) var(--mono);color:var(--mint);line-height:1}.kpis{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:14px 0}
+.kpi{background:var(--deep);border-radius:10px;padding:10px 12px}.kpi b{display:block;font:600 20px var(--mono);color:var(--ink)}.kpi span{font-size:12.5px;color:var(--muted)}
+.stack{display:flex;height:34px;border-radius:8px;overflow:hidden;margin:8px 0 4px}.stack div{display:flex;align-items:center;padding-left:8px;font:600 12.5px var(--sans);color:#0B1E33;white-space:nowrap;overflow:hidden;transition:flex-grow .3s}
+.row{display:grid;grid-template-columns:170px 1fr 120px;gap:10px;align-items:center;font-size:14px;margin:6px 0}.row i{display:block;height:20px;border-radius:4px;transition:width .3s}
+.row.me span:first-child{color:var(--amber);font-weight:600}.mono{font-family:var(--mono)}
+code{font-family:var(--mono);color:var(--cyan);font-size:.9em}
+</style></head><body><div class="wrap">
+<h1>Parameters: build a transformer, see what it costs</h1>
+<p class="sub">Every model in this repository and every famous model below is the same recipe with different dials. Move the dials and the page counts the parameters with <b>exactly the formula</b> <code>transformer.py</code> uses, which reproduces GPT-2 (124 million) and GPT-3 (175 billion) to the digit. <a href="index.html">classroom</a> &middot; <a href="network.html">inside the network</a> &middot; <a href="perceptron.html">the perceptron</a> &middot; <a href="harness.html">the harness</a></p>
+<div class="grid">
+ <div class="card">
+  <div class="pills" id="presets"></div>
+  <div id="sliders"></div>
+ </div>
+ <div>
+  <div class="card"><div class="small" style="color:var(--muted);font-size:14px">total parameters</div><div class="big" id="total"></div>
+   <div class="stack" id="stack"></div><div style="font-size:13px;color:var(--muted)" id="stacknote"></div>
+   <div class="kpis" id="kpis"></div></div>
+  <div class="card" style="margin-top:16px"><div style="font-size:14px;color:var(--muted);margin-bottom:6px">your model against real ones (log scale: each step right is 10 times bigger)</div><div id="compare"></div></div>
+  <div class="card" style="margin-top:16px" id="explain"></div>
+ </div>
+</div></div>
+<script>
+const $=s=>document.querySelector(s);
+const S=[["vocab","vocabulary size",256,100000,"how many different tokens (stage 2)",true],["ctx","context length",16,8192,"how many tokens it can see at once",true],
+ ["d","vector width (d_model)",16,12288,"numbers per token vector (stage 3)",true],["L","blocks (layers)",1,96,"how many transformer blocks are stacked (stage 4)",false],
+ ["ffx","MLP expansion",1,8,"MLP hidden width = this × d_model (the perceptron layer)",false],["tokens","training tokens",1e5,1e13,"how much text it trains on",true]];
+const P={"perceptron-sized":null,"lesson model":{vocab:768,ctx:64,d:64,L:2,ffx:4,tokens:1.5e6},"real-data small":{vocab:1024,ctx:96,d:96,L:3,ffx:4,tokens:6.9e6},"real-data medium":{vocab:1536,ctx:96,d:128,L:4,ffx:4,tokens:1.2e7},
+ "GPT-2 small":{vocab:50257,ctx:1024,d:768,L:12,ffx:4,tokens:1e10},"GPT-2 XL":{vocab:50257,ctx:1024,d:1600,L:48,ffx:4,tokens:4e10},"GPT-3":{vocab:50257,ctx:2048,d:12288,L:96,ffx:4,tokens:3e11}};
+delete P["perceptron-sized"];
+let cfg={...P["lesson model"]}, cur="lesson model";
+const toS=(v,log,a,b)=>log?Math.log(v/a)/Math.log(b/a)*1000:v, fromS=(x,log,a,b)=>log?a*Math.pow(b/a,x/1000):+x;
+function count(c){ const d=c.d, dff=c.ffx*d, L=c.L;
+  return {embedding:c.vocab*d+c.ctx*d, attention:L*(3*d*d+3*d+d*d+d), mlp:L*(2*d*dff+dff+d), norms:L*4*d+2*d}; }
+const human=n=>n>=1e12?(n/1e12).toPrecision(3)+" T":n>=1e9?(n/1e9).toPrecision(3)+" B":n>=1e6?(n/1e6).toPrecision(3)+" M":n>=1e3?(n/1e3).toPrecision(3)+" K":String(Math.round(n));
+const bytes=b=>b>=1e12?(b/1e12).toFixed(1)+" TB":b>=1e9?(b/1e9).toFixed(1)+" GB":b>=1e6?(b/1e6).toFixed(1)+" MB":(b/1e3).toFixed(0)+" KB";
+function dur(sec){ const u=[["years",3.15e7],["days",86400],["hours",3600],["minutes",60],["seconds",1]]; for(const [n,s] of u) if(sec>=s) return (sec/s).toPrecision(2)+" "+n; return "under a second"; }
+function sliders(){ $("#sliders").innerHTML=S.map(([k,label,a,b,help,log])=>`<div class="sl"><label>${label}<output id="o_${k}"></output></label><input type="range" min="${log?0:a}" max="${log?1000:b}" step="${log?1:1}" id="s_${k}"><small>${help}</small></div>`).join("");
+  S.forEach(([k,,a,b,,log])=>{ const el=$("#s_"+k); el.value=toS(cfg[k],log,a,b); el.oninput=()=>{ let v=fromS(el.value,log,a,b); v=k==="tokens"?v:Math.round(v); if(k==="d") v=Math.max(16,Math.round(v/16)*16); cfg[k]=v; cur=null; draw(); }; }); }
+function draw(){ S.forEach(([k,,a,b,,log])=>{ $("#o_"+k).textContent=k==="tokens"?human(cfg[k]):cfg[k].toLocaleString(); $("#s_"+k).value=toS(cfg[k],log,a,b); });
+  document.querySelectorAll("#presets button").forEach(b=>b.classList.toggle("on",b.dataset.p===cur));
+  const c=count(cfg), N=Object.values(c).reduce((a,b)=>a+b); $("#total").textContent=N.toLocaleString();
+  const cols={embedding:"#FFB238",attention:"#5CC8FF",mlp:"#6FE3B4",norms:"#7FA3C7"};
+  $("#stack").innerHTML=Object.entries(c).map(([k,v])=>`<div style="flex-grow:${v};background:${cols[k]}">${v/N>0.07?`${k} ${(v/N*100).toFixed(0)}%`:""}</div>`).join("");
+  const mlpShare=c.mlp/N, embShare=c.embedding/N;
+  $("#stacknote").textContent=embShare>0.5?"Small models are mostly vocabulary table: most parameters just store token vectors.":mlpShare>0.55?"Big models are mostly perceptron layers (MLP): that is where most knowledge is stored.":"A balance of vocabulary, attention and perceptron layers.";
+  const flops=2*N+2*cfg.L*cfg.ctx*cfg.d, train=6*N*cfg.tokens, laptop=5e10, gpu=4e14;
+  $("#kpis").innerHTML=[[bytes(N*4),"memory at 32-bit (as trained here)"],[bytes(N*2),"at 16-bit, the usual for serving"],[bytes(N/2),"at 4-bit, squeezed for phones"],
+    [human(flops),"calculations per generated token"],[human(train),"calculations to train (6 × params × tokens)"],[dur(train/laptop),"to train on one laptop CPU (~50 GFLOP/s)"]].map(([b,s])=>`<div class="kpi"><b>${b}</b><span>${s}</span></div>`).join("");
+  const rows=[["the perceptron page",13002],...Object.entries(P).map(([n,p])=>[n,Object.values(count(p)).reduce((a,b)=>a+b)]),["your model",N]].sort((a,b)=>a[1]-b[1]);
+  const lo=Math.log10(1e3), hi=Math.log10(2e12);
+  $("#compare").innerHTML=rows.map(([n,v])=>`<div class="row ${n==="your model"?"me":""}"><span>${n}</span><span><i style="width:${Math.max(1,(Math.log10(v)-lo)/(hi-lo)*100)}%;background:${n==="your model"?"var(--amber)":n.includes("GPT")?"var(--cyan)":"var(--mint)"}"></i></span><span class="mono">${human(v)}</span></div>`).join("");
+  const d=cfg.d, dff=cfg.ffx*d;
+  $("#explain").innerHTML=`<b>Where each number comes from</b> (per block, then times ${cfg.L} blocks)<p class="mono" style="font-size:13.5px;line-height:1.8;margin:8px 0">
+   attention: Q, K, V matrices ${d}×${3*d} + output ${d}×${d} + biases = <b>${(3*d*d+3*d+d*d+d).toLocaleString()}</b><br>
+   perceptron layer: ${d}×${dff} up + ${dff}×${d} down + biases = <b>${(2*d*dff+dff+d).toLocaleString()}</b><br>
+   embedding: ${cfg.vocab.toLocaleString()} tokens × ${d} + ${cfg.ctx.toLocaleString()} positions × ${d} = <b>${c.embedding.toLocaleString()}</b> (shared with the output, "weight tying")</p>
+   <span style="color:var(--muted);font-size:14px">Doubling the vector width roughly <b>quadruples</b> the blocks (every matrix is width × width). Doubling the blocks only doubles them. That is why the biggest models got wide as well as deep. Notice what does <b>not</b> change the count: the number of attention heads, which only splits the same matrices into slices.</span>`; }
+$("#presets").innerHTML=Object.keys(P).map(n=>`<button data-p="${n}">${n}</button>`).join("");
+document.querySelectorAll("#presets button").forEach(b=>b.onclick=()=>{ cfg={...P[b.dataset.p]}; cur=b.dataset.p; draw(); });
+sliders(); draw();
+</script></body></html>

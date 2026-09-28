@@ -21,6 +21,7 @@ Article text from English Wikipedia, licensed [CC BY-SA 4.0](https://creativecom
 - [Austin, Texas](https://en.wikipedia.org/wiki/Austin,_Texas)
 - [Baltimore](https://en.wikipedia.org/wiki/Baltimore)
 - [Beijing](https://en.wikipedia.org/wiki/Beijing)
+- [Bengaluru](https://en.wikipedia.org/wiki/Bengaluru)
 - [Berkeley, California](https://en.wikipedia.org/wiki/Berkeley,_California)
 - [Berlin](https://en.wikipedia.org/wiki/Berlin)
 - [Boise, Idaho](https://en.wikipedia.org/wiki/Boise,_Idaho)

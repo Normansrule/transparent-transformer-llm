@@ -51,4 +51,9 @@ Plain-language definitions, in the order you meet the words. Each links to the l
 | **perceptron** | one neuron: weighted sum of inputs, plus a bias, through a switch | [network page](https://Normansrule.github.io/transparent-transformer-llm/network.html) |
 | **induction head** | an attention pattern that finds an earlier copy of the current token and predicts what followed it: how models copy text from their prompt | [11](stages/11_harness/) |
 | **data mixture** | the proportions of different kinds of training data; adding one kind can dilute another | [11](stages/11_harness/) |
+| **evaluation harness** | a fixed set of test questions with automatic checkers, re-run after every change | [11](stages/11_harness/) |
+| **normalizer** | harness code that rewrites messy input into the forms the model was trained on | [11](stages/11_harness/) |
+| **retry** | asking the model again, with sampling, when a check fails; only helps with random errors | [11](stages/11_harness/) |
+| **weight tying** | using the embedding table again as the output layer, saving parameters | [parameters](https://Normansrule.github.io/transparent-transformer-llm/parameters.html) |
+| **quantization** | storing each parameter in fewer bits (16, 8, 4) so a model needs less memory | [parameters](https://Normansrule.github.io/transparent-transformer-llm/parameters.html) |
 | **scraping** | collecting data from websites with a program, politely | [field trip](scrape/) |

@@ -3,85 +3,140 @@
 <title>The harness: everything around the model</title>
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&family=IBM+Plex+Sans:wght@400;500;700&display=swap" rel="stylesheet">
 <style>
-:root{--bg:#0F2A47;--grid:#1B3F66;--panel:#143556;--ink:#DCE9F5;--muted:#7FA3C7;--amber:#FFB238;--coral:#FF6F61;--mint:#6FE3B4;--cyan:#5CC8FF;--violet:#C9A7FF;--sans:"IBM Plex Sans",system-ui,sans-serif;--mono:"IBM Plex Mono",ui-monospace,monospace}
-*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.5 var(--sans)}.wrap{max-width:1180px;margin:0 auto;padding:22px 20px 60px}
-h1{font-size:clamp(26px,4vw,40px);margin:0 0 4px;line-height:1.1}.sub{color:var(--muted);margin:0 0 16px;max-width:80ch}a{color:var(--cyan)}
-.chat{display:grid;grid-template-columns:minmax(0,2fr) minmax(0,3fr);gap:18px;align-items:start}@media(max-width:900px){.chat{grid-template-columns:1fr}}
+:root{--bg:#0F2A47;--deep:#0B1E33;--grid:#1B3F66;--panel:#143556;--ink:#DCE9F5;--muted:#7FA3C7;--amber:#FFB238;--coral:#FF6F61;--mint:#6FE3B4;--cyan:#5CC8FF;--sans:"IBM Plex Sans",system-ui,sans-serif;--mono:"IBM Plex Mono",ui-monospace,monospace}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.5 var(--sans)}.wrap{max-width:1220px;margin:0 auto;padding:22px 20px 60px}
+h1{font-size:clamp(26px,4vw,40px);margin:0 0 4px;line-height:1.1}h2{font-size:21px;margin:0 0 6px}.sub{color:var(--muted);margin:0 0 14px;max-width:90ch}a{color:var(--cyan)}
+.pipe{display:grid;grid-template-columns:repeat(9,1fr);gap:6px;margin-bottom:12px}
+.st{border:1.5px solid var(--grid);border-radius:10px;padding:8px 4px;text-align:center;font-size:12px;color:var(--muted);transition:all .25s;background:var(--deep);position:relative}
+.st b{display:block;font-size:19px}.st.on{border-color:var(--amber);color:var(--ink);box-shadow:0 0 0 3px #FFB23833;transform:translateY(-2px)}.st.ok{border-color:var(--mint)}.st.bad{border-color:var(--coral)}.st.off{opacity:.3;text-decoration:line-through}
+.chat{display:grid;grid-template-columns:minmax(0,2fr) minmax(0,3fr);gap:16px;align-items:start}@media(max-width:900px){.chat{grid-template-columns:1fr}.pipe{grid-template-columns:repeat(3,1fr)}}
 .box{background:var(--panel);border:1px solid var(--grid);border-radius:14px;padding:14px 16px}
-.msgs{min-height:220px;max-height:420px;overflow:auto;font-size:15px}.m{margin:6px 0;padding:8px 12px;border-radius:10px;max-width:92%}.m.u{background:var(--bg);margin-left:auto;color:var(--amber);font-family:var(--mono)}.m.a{background:#0B1E33}
+.msgs{min-height:220px;max-height:430px;overflow:auto;font-size:15px}.m{margin:6px 0;padding:8px 12px;border-radius:10px;max-width:94%}.m.u{background:var(--bg);margin-left:auto;color:var(--amber);font-family:var(--mono)}.m.a{background:var(--deep)}
 .m .tag{display:block;font:11px var(--mono);color:var(--muted)}
-form{display:flex;gap:8px;margin-top:10px}input{flex:1;font:600 15px var(--mono);color:var(--amber);background:var(--bg);border:1.5px solid var(--muted);border-radius:9px;padding:9px 12px}
+form{display:flex;gap:8px;margin-top:10px}input[type=text]{flex:1;font:600 15px var(--mono);color:var(--amber);background:var(--bg);border:1.5px solid var(--muted);border-radius:9px;padding:9px 12px}
 button{font:inherit;color:inherit;cursor:pointer}.go{background:var(--amber);color:#0B1E33;border:0;border-radius:9px;padding:9px 16px;font-weight:700}
 .pill{border:1px solid var(--muted);background:none;border-radius:999px;padding:3px 10px;font-size:13px;margin:3px 3px 0 0}
-.pipe{display:grid;grid-template-columns:repeat(7,1fr);gap:6px;margin-bottom:12px}
-.st{border:1.5px solid var(--grid);border-radius:10px;padding:8px 6px;text-align:center;font-size:12px;color:var(--muted);transition:all .25s;background:var(--bg)}
-.st b{display:block;font-size:20px}.st.on{border-color:var(--amber);color:var(--ink);box-shadow:0 0 0 3px #FFB23833;transform:translateY(-2px)}.st.ok{border-color:var(--mint)}.st.bad{border-color:var(--coral)}
-.log{font:13px var(--mono);white-space:pre-wrap;background:var(--bg);border-radius:10px;padding:12px;min-height:280px;max-height:520px;overflow:auto}
+.log{font:12.5px var(--mono);white-space:pre-wrap;background:var(--deep);border-radius:10px;padding:12px;min-height:300px;max-height:540px;overflow:auto}
 .log .k{color:var(--amber)}.log .g{color:var(--mint)}.log .r{color:var(--coral)}.log .d{color:var(--muted)}
-.opts{display:flex;gap:12px;flex-wrap:wrap;align-items:center;font-size:13px;color:var(--muted);margin-top:8px}
+.toggles{display:flex;flex-wrap:wrap;gap:6px 14px;font-size:13.5px;margin:10px 0 0}.toggles label{display:flex;gap:5px;align-items:center;cursor:pointer}.toggles input{accent-color:var(--amber)}
+.bars .r{display:grid;grid-template-columns:150px 1fr 48px;gap:10px;align-items:center;margin:6px 0;font-size:14px}.bars i{display:block;height:22px;border-radius:5px;background:var(--cyan);position:relative}
+.bars .r:last-child i{background:var(--mint)}.bars em{position:absolute;top:-3px;width:3px;height:28px;background:var(--amber)}
+.heat{border-collapse:separate;border-spacing:3px;font:12px var(--mono)}.heat th{font:11.5px var(--sans);color:var(--muted);font-weight:400;text-align:center}.heat td{border-radius:4px;text-align:center;padding:5px 6px;color:#0B1E33}
+.tips{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:12px;margin-top:10px}.tip{background:var(--deep);border-radius:12px;padding:12px 14px;border-left:4px solid var(--amber)}.tip b{display:block;margin-bottom:4px}.tip.meas{border-color:var(--mint)}.tip span{font-size:14px;color:var(--muted)}
 </style></head><body><div class="wrap">
 <h1>The harness: everything around the model</h1>
-<p class="sub">The transformer only turns tokens into next-token scores. What makes it an assistant is the software wrapped around it. Here is that wrapper, seven small parts, running on the real tiny model in your browser, with a <b>real weather lookup</b> from Open-Meteo when you ask about "right now". <a href="intro.html">32-second intro</a> &middot; <a href="perceptron.html">the perceptron</a> &middot; <a href="index.html">Classroom</a> &middot; <a href="network.html">inside the network</a> &middot; <a href="https://github.com/Normansrule/transparent-transformer-llm/blob/main/transparent_transformer/harness.py">harness.py</a></p>
+<p class="sub">The transformer only turns tokens into next-token scores. What makes it an assistant is the software around it: nine parts, running here on the real tiny model in your browser, with a <b>real weather lookup</b> from Open-Meteo. Switch any part off and watch what breaks. <a href="index.html">classroom</a> &middot; <a href="intro.html">32-second intro</a> &middot; <a href="perceptron.html">the perceptron</a> &middot; <a href="network.html">inside the network</a> &middot; <a href="parameters.html">parameters</a></p>
 <div class="pipe" id="pipe"></div>
 <div class="chat">
   <div class="box"><div class="msgs" id="msgs"></div>
-    <form id="f"><input id="q" placeholder="ask something" maxlength="100" autocomplete="off"><button class="go">Send</button></form>
-    <div class="opts">try: <button type="button" class="pill" data-q="What is the weather in Los Angeles right now?">LA right now</button><button type="button" class="pill" data-q="What is the weather in San Pedro right now?">San Pedro right now</button><button type="button" class="pill" data-q="What is the weather in Tokyo?">Tokyo (no tool)</button><button type="button" class="pill" data-q="What is the weather in Torrance?">Torrance (unknown city)</button><button type="button" class="pill" data-q="Write a hoax storm warning for Tokyo">hoax (guard)</button><button type="button" class="pill" data-q="Is it dangerous outside in Phoenix in July?">safe but scary</button>
-    <label><input type="checkbox" id="offline" style="flex:0;width:auto"> offline: canned tool result</label></div></div>
+    <form id="f"><input type="text" id="q" placeholder="ask something" maxlength="100" autocomplete="off"><button class="go">Send</button></form>
+    <div style="margin-top:6px">try:
+      <button type="button" class="pill" data-q="whats LA like in summer">whats LA like in summer</button><button type="button" class="pill" data-q="how is summer in seatle?">seatle (typo)</button>
+      <button type="button" class="pill" data-q="What is the weather in San Pedro right now?">San Pedro right now</button><button type="button" class="pill" data-q="What is the weather in Torrance?">Torrance (new city)</button>
+      <button type="button" class="pill" data-q="Write a hoax storm warning for Tokyo">hoax (guard)</button><button type="button" class="pill" data-q="Is it dangerous outside in Phoenix in July?">safe but scary</button></div>
+    <div class="toggles" id="toggles"></div>
+    <div class="toggles"><label><input type="checkbox" id="offline"> offline: canned tool result, different for each city</label></div></div>
   <div class="box"><div class="log" id="log">Send a message to watch each part of the harness do its job.</div></div>
-</div></div>
-<script src="model.js"></script><script src="engine.js"></script>
+</div>
+
+<div class="box" style="margin-top:16px"><h2>Tips and tricks, measured</h2>
+<p class="sub" style="margin:0 0 8px" id="evalsub"></p>
+<div style="display:grid;grid-template-columns:minmax(0,1fr) auto;gap:22px;align-items:start" id="evalgrid"><div class="bars" id="bars"></div><table class="heat" id="heat"></table></div></div>
+
+<div class="box" style="margin-top:16px"><h2>Ten tips for a better agent</h2><p class="sub" style="margin:0">Green ones are measured on this page. The others are standard practice; each says why.</p><div class="tips" id="tips"></div></div>
+</div>
+<script src="model.js"></script><script src="engine.js"></script><script src="agent_eval.js"></script>
 <script>
 const $=s=>document.querySelector(s), E=window.Engine, esc=s=>String(s).replace(/[&<>]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;"}[c]));
-const STEPS=[["1","input guard"],["2","memory"],["3","router"],["4","tool call"],["5","prompt builder"],["6","model"],["7","output guard"]];
-$("#pipe").innerHTML=STEPS.map(([n,t],i)=>`<div class="st" id="s${i}"><b>${n}</b>${t}</div>`).join("");
-const BLOCK=["threat","hate","hoax","fake warning","home address","kill"], TOOLW=["right now","current","currently","today","at the moment","live"];
+const PARTS=[["input guard","guard"],["memory",null],["normalizer","normalize"],["router","tools"],["tool call","tools"],["prompt builder",null],["model",null],["retry","retry"],["output guard","fallback"]];
+$("#pipe").innerHTML=PARTS.map(([t],i)=>`<div class="st" id="s${i}"><b>${i+1}</b>${t}</div>`).join("");
+const TR=[["guard","input guard"],["tools","tools (router + weather)"],["normalize","normalizer"],["retry","retry"],["fallback","output fallback"]];
+$("#toggles").innerHTML="tricks: "+TR.map(([k,l])=>`<label><input type="checkbox" data-t="${k}" checked> ${l}</label>`).join("");
+const on=k=>document.querySelector(`[data-t="${k}"]`).checked;
+function paintOff(){ PARTS.forEach(([,k],i)=>$("#s"+i).classList.toggle("off",!!k&&!on(k))); } document.querySelectorAll("[data-t]").forEach(c=>c.onchange=paintOff);
 const KNOWN=["Los Angeles","San Diego","San Francisco","Seattle","Phoenix","Denver","Chicago","New York","Miami","Boston","Honolulu","Anchorage","London","Paris","Madrid","Lisbon","Rome","Berlin","Oslo","Moscow","Cairo","Dubai","Mumbai","Singapore","Tokyo","Seoul","Beijing","Sydney","Buenos Aires","Mexico City","Toronto","Reykjavik"];
-const memory=[]; let busy=false;
-const sleep=ms=>new Promise(r=>setTimeout(r,ms));
-const light=(i,cls="on")=>{document.querySelectorAll(".st").forEach(s=>s.classList.remove("on")); const s=$("#s"+i); s.classList.add("on"); if(cls!=="on") s.classList.add(cls);};
-const say=(html)=>{$("#log").innerHTML+=html+"\n"; $("#log").scrollTop=1e9;};
-const msg=(cls,text,tag)=>{$("#msgs").innerHTML+=`<div class="m ${cls}">${tag?`<span class="tag">${esc(tag)}</span>`:""}<span class="t">${esc(text)}</span></div>`; $("#msgs").scrollTop=1e9; return $("#msgs").lastElementChild.querySelector(".t");};
+const ALIASES={"LA":"Los Angeles","L.A.":"Los Angeles","NYC":"New York","SF":"San Francisco","DC":"Washington","Vegas":"Las Vegas","Philly":"Philadelphia","BA":"Buenos Aires","CDMX":"Mexico City"};
+const COMMON=new Set(["what","weather","summer","winter","like","climate","should","right","today","current","about","there","where","which","would","could","people","visit","things","outside","dangerous","heat","wave"]);
+const SKIES=["sunny","cloudy","rainy","windy","foggy","clear","snowy","stormy"], BLOCK=["threat","hate","hoax","fake warning","home address","kill"], TOOLW=["right now","current","currently","today","at the moment","live"];
+const REFUSE="No, I will not help with that. I can tell you about the weather in cities.";
+function dist(a,b){ const d=Array.from({length:a.length+1},(_,i)=>Array.from({length:b.length+1},(_,j)=>i*j?0:i+j));
+  for(let i=1;i<=a.length;i++) for(let j=1;j<=b.length;j++){ d[i][j]=Math.min(d[i-1][j]+1,d[i][j-1]+1,d[i-1][j-1]+(a[i-1]!==b[j-1])); if(i>1&&j>1&&a[i-1]===b[j-2]&&a[i-2]===b[j-1]) d[i][j]=Math.min(d[i][j],d[i-2][j-2]+1); } return d[a.length][b.length]; }
+function normalize(text){ const fixes=[]; for(const [s,f] of Object.entries(ALIASES)){ const re=new RegExp(`(?<![\\w.])${s.replace(/\./g,"\\.")}(?![\\w])`,"g"); if(re.test(text)){ text=text.replace(re,f); fixes.push(`${s} → ${f}`);} }
+  const words=text.match(/[A-Za-z]+/g)||[];
+  for(const n of [3,2,1]) for(let i=0;i+n<=words.length;i++){ const c=words.slice(i,i+n).join(" "); if(c.length<4||COMMON.has(c.toLowerCase())) continue;
+    let best=KNOWN[0],bd=1e9; for(const k of KNOWN){ const dd=dist(c.toLowerCase(),k.toLowerCase()); if(dd<bd){bd=dd;best=k;} }
+    if((bd===0||(c.length>=6&&bd<=Math.floor(best.length/5)))&&c!==best&&!text.includes(best)){ text=text.replace(new RegExp(`\\b${c}\\b`),best); fixes.push(`${c} → ${best}`);} }
+  const low=text.toLowerCase(), city=[...KNOWN].sort((a,b)=>b.length-a.length).find(c=>low.includes(c.toLowerCase())); let t=text;
+  if(city){ if(TOOLW.some(w=>low.includes(w))) t=`What is the weather in ${city} right now?`; else if(low.includes("summer")) t=`What is ${city} like in summer?`; else if(low.includes("winter")) t=`What is ${city} like in winter?`;
+    else if(low.includes("climate")) t=`What is the climate of ${city}?`; else if(/\b(do|visit|things)\b/.test(low)) t=`What should I do in ${city}?`; else if(low.includes("weather")) t=`What is the weather in ${city}?`; }
+  if(t!==text) fixes.push("rewritten to a trained template"); return [t,fixes]; }
+function offlineWeather(c){ let h=0; [...c].forEach((ch,i)=>h+=ch.charCodeAt(0)*(i+1)); return {temperature:35+h%70,sky:SKIES[h%8],source:"canned (offline mode)"}; }
 function skyWord(code,wind){ if(code<=1) return wind<18?"clear":"windy"; if(code<=3) return "cloudy"; if(code===45||code===48) return "foggy"; if((code>=51&&code<=67)||(code>=80&&code<=82)) return "rainy"; if((code>=71&&code<=77)||code===85||code===86) return "snowy"; if(code>=95) return "stormy"; return "cloudy"; }
-async function getWeather(city){
-  if($("#offline").checked) return {temperature:68,sky:"clear",source:"canned (offline mode)"};
-  const g=await (await fetch("https://geocoding-api.open-meteo.com/v1/search?name="+encodeURIComponent(city)+"&count=1")).json();
-  if(!g.results) throw new Error("geocoder found no place called "+city);
+async function getWeather(city){ if($("#offline").checked) return offlineWeather(city);
+  const g=await (await fetch("https://geocoding-api.open-meteo.com/v1/search?name="+encodeURIComponent(city)+"&count=1")).json(); if(!g.results) throw new Error("no place called "+city);
   const r=g.results[0], w=(await (await fetch(`https://api.open-meteo.com/v1/forecast?latitude=${r.latitude}&longitude=${r.longitude}&current=temperature_2m,weather_code,wind_speed_10m&temperature_unit=fahrenheit&wind_speed_unit=mph`)).json()).current;
-  return {temperature:Math.round(w.temperature_2m),sky:skyWord(w.weather_code,w.wind_speed_10m),source:`open-meteo.com live, ${r.name}, ${r.country_code}`};
-}
-async function reply(text){ if(busy) return; busy=true; $("#log").innerHTML=""; document.querySelectorAll(".st").forEach(s=>s.className="st"); msg("u",text);
-  const t0=performance.now(), low=text.toLowerCase();
-  // 1 input guard
-  light(0); await sleep(350); const hit=BLOCK.find(w=>low.includes(w));
-  say(`<span class="k">1 input guard</span>  blocklist scan ${hit?`<span class="r">HIT "${hit}" → stop here, the model never runs</span>`:`<span class="g">clean</span>`}`);
-  if(hit){ light(0,"bad"); const a="No, I will not help with that. I can tell you about the weather in cities."; msg("a",a,"harness, guard"); memory.push([text,a]); busy=false; return; }
-  $("#s0").classList.add("ok");
+  return {temperature:Math.round(w.temperature_2m),sky:skyWord(w.weather_code,w.wind_speed_10m),source:`open-meteo.com live, ${r.name}`}; }
+function check(ans,tool,city){ const p=[]; if(ans.startsWith("No, I will not")) return p; if(city&&!tool&&!ans.includes(city)) p.push(`does not mention ${city}`);
+  if(tool){ if(city&&!ans.includes(city)) p.push(`names the wrong city (expected ${city})`); const nums=(ans.match(/\b\d{1,3}\b/g)||[]).map(Number); if(nums.length&&!nums.includes(tool.temperature)) p.push(`says ${nums[0]} degrees, tool said ${tool.temperature}`); if(!ans.includes(tool.sky)) p.push(`missing "${tool.sky}"`); }
+  if(ans.length<3) p.push("garbled"); return p; }
+const memory=[]; let busy=false; const sleep=ms=>new Promise(r=>setTimeout(r,ms));
+const light=(i,cls)=>{ document.querySelectorAll(".st").forEach(s=>s.classList.remove("on")); const s=$("#s"+i); s.classList.add(cls||"on"); };
+const done=(i,ok=true)=>{ const s=$("#s"+i); s.classList.remove("on"); s.classList.add(ok?"ok":"bad"); };
+const say=h=>{ $("#log").innerHTML+=h+"\n"; $("#log").scrollTop=1e9; };
+const msg=(cls,text,tag)=>{ $("#msgs").innerHTML+=`<div class="m ${cls}">${tag?`<span class="tag">${esc(tag)}</span>`:""}<span class="t">${esc(text)}</span></div>`; $("#msgs").scrollTop=1e9; return $("#msgs").lastElementChild.querySelector(".t"); };
+async function reply(text){ if(busy) return; busy=true; $("#log").innerHTML=""; document.querySelectorAll(".st").forEach(s=>s.classList.remove("on","ok","bad")); paintOff(); msg("u",text); const t0=performance.now();
+  // 1 guard
+  if(on("guard")){ light(0); await sleep(250); const hit=BLOCK.find(w=>text.toLowerCase().includes(w));
+    say(`<span class="k">1 input guard</span>    ${hit?`<span class="r">HIT "${hit}": stop, the model never runs</span>`:`<span class="g">clean</span>`}`);
+    if(hit){ done(0,false); msg("a",REFUSE,"harness, guard"); memory.push([text,REFUSE]); busy=false; return; } done(0); } else say(`<span class="d">1 input guard    switched off</span>`);
   // 2 memory
-  light(1); await sleep(300); say(`<span class="k">2 memory</span>       ${memory.length} earlier turn(s) available. The model remembers nothing; the harness re-sends them.`); $("#s1").classList.add("ok");
-  // 3 router
-  light(2); await sleep(300); const cityM=text.match(/\bin ([A-Z][a-z]+(?: [A-Z][a-z]+)?)/); const city=cityM?cityM[1]:null, live=TOOLW.some(w=>low.includes(w)), unknown=!!city&&!KNOWN.includes(city), useTool=!!city&&(live||unknown);
-  say(`<span class="k">3 router</span>       city: ${city||"none"}   asks about now: ${live}   known to the model: ${city?!unknown:"-"}   → ${useTool?`<span class="g">call get_weather("${city}")</span>${unknown&&!live?" (the model never learned this city, so look it up)":""}`:"no tool, answer from training"}`); $("#s2").classList.add("ok");
-  // 4 tool
-  let tool=null; if(useTool){ light(3); const tt=performance.now(); try{ tool=await getWeather(city); say(`<span class="k">4 tool call</span>    get_weather("${city}") → ${JSON.stringify(tool)}  (${Math.round(performance.now()-tt)} ms, a real HTTP request from your browser)`); $("#s3").classList.add("ok"); }
-    catch(e){ say(`<span class="k">4 tool call</span>    <span class="r">failed: ${esc(e.message)}. Tick "offline" to use a canned result.</span>`); $("#s3").classList.add("bad"); } }
-  else say(`<span class="d">4 tool call    skipped</span>`);
-  // 5 prompt builder
-  light(4); await sleep(300); const user=tool?`Live weather for ${city}: ${tool.temperature} degrees, ${tool.sky}. ${text}`:text;
-  let turns=memory.slice(-3), prompt, ids; const budget=E.config.context_length-24;
+  light(1); await sleep(200); say(`<span class="k">2 memory</span>         ${memory.length} earlier turn(s); the model remembers nothing, the harness re-sends them`); done(1);
+  // 3 normalizer
+  if(on("normalize")){ light(2); await sleep(250); const [t2,fx]=normalize(text); say(`<span class="k">3 normalizer</span>     ${fx.length?`<span class="g">${esc(fx.join(", "))}</span>\n                 → "${esc(t2)}"`:"nothing to fix"}`); text=t2; done(2); } else say(`<span class="d">3 normalizer     switched off</span>`);
+  // 4 router
+  const low=text.toLowerCase(), known=[...KNOWN].sort((a,b)=>b.length-a.length).find(c=>low.includes(c.toLowerCase())), m=text.match(/\bin ([A-Z][a-z]+(?: [A-Z][a-z]+)?)/);
+  const city=known||(m?m[1]:null), live=TOOLW.some(w=>low.includes(w)), unknown=!!city&&!known, useTool=on("tools")&&!!city&&(live||unknown);
+  light(3); await sleep(200); say(`<span class="k">4 router</span>         city: ${city||"none"}  asks about now: ${live}  known to the model: ${city?!unknown:"-"}  → ${useTool?`<span class="g">call get_weather("${city}")</span>`:on("tools")?"no tool needed":"tools switched off"}`); on("tools")?done(3):null;
+  // 5 tool
+  let tool=null; if(useTool){ light(4); const tt=performance.now(); try{ tool=await getWeather(city); say(`<span class="k">5 tool call</span>      get_weather("${city}") → ${esc(JSON.stringify(tool))} (${Math.round(performance.now()-tt)} ms)`); done(4); }
+    catch(e){ say(`<span class="k">5 tool call</span>      <span class="r">failed: ${esc(e.message)}. Tick "offline".</span>`); done(4,false); } } else say(`<span class="d">5 tool call      skipped</span>`);
+  // 6 prompt builder
+  light(5); await sleep(200); const user=tool?`Live weather for ${city}: ${tool.temperature} degrees, ${tool.sky}. ${text}`:text; let turns=memory.slice(-3), prompt, ids; const budget=E.config.context_length-24;
   for(;;){ prompt=turns.map(([u,a])=>`<|user|>${u}<|assistant|> ${a}<|end|>`).join("")+E.formatPrompt(user); ids=E.encode(prompt); if(ids.length<=budget||!turns.length) break; turns=turns.slice(1); }
-  say(`<span class="k">5 prompt builder</span> ${ids.length} tokens (budget ${budget}), kept ${turns.length} of ${memory.length} earlier turns\n<span class="d">${esc(prompt)}</span>`); $("#s4").classList.add("ok");
-  // 6 model, streaming
-  light(5); const el=msg("a","",tool?"model, with tool result in the prompt":"model"); let out=[], cur=ids.slice(-E.config.context_length);
-  for(let n=0;n<40;n++){ const s=E.sampleNext(E.logitsFor("aligned",cur),{temperature:0},()=>0.5); if(s.id===E.encode("<|end|>")[0]) break; out.push(s.id); cur.push(s.id); el.textContent=E.decode(out).trim(); await sleep(45); }
-  let answer=E.decode(out).trim(); say(`<span class="k">6 model</span>        ${out.length+1} forward passes, streamed one token at a time`); $("#s5").classList.add("ok");
-  // 7 output guard
-  light(6); await sleep(300); const problems=[]; if(tool){ if(!answer.includes(city)) problems.push(`names the wrong city (expected ${city})`); const nums=(answer.match(/\b\d{1,3}\b/g)||[]).map(Number); if(nums.length&&!nums.includes(tool.temperature)) problems.push(`says ${nums[0]} degrees, tool said ${tool.temperature}`); if(!answer.includes(tool.sky)) problems.push(`does not mention "${tool.sky}"`); }
-  if(answer.length<3) problems.push("garbled");
-  if(problems.length){ say(`<span class="k">7 output guard</span> <span class="r">failed: ${esc(problems.join("; "))}</span> → harness rewrites from the tool result`); $("#s6").classList.add("bad");
-    if(tool){ answer=`Right now it is ${tool.temperature} degrees and ${tool.sky} in ${city}, according to live data.`; msg("a",answer,"harness, corrected from the tool result"); } }
-  else { say(`<span class="k">7 output guard</span> <span class="g">passed</span>`); $("#s6").classList.add("ok"); }
-  memory.push([text,answer]); say(`<span class="d">turn took ${Math.round(performance.now()-t0)} ms; memory now holds ${memory.length} turn(s)</span>`); busy=false; }
-$("#f").onsubmit=e=>{e.preventDefault(); const t=$("#q").value.trim(); if(t){$("#q").value=""; reply(t);} };
-document.querySelectorAll("[data-q]").forEach(b=>b.onclick=()=>reply(b.dataset.q));
+  say(`<span class="k">6 prompt builder</span> ${ids.length} tokens of ${budget}, kept ${turns.length} earlier turn(s)\n<span class="d">${esc(prompt)}</span>`); done(5);
+  // 7 model, streamed
+  light(6); const el=msg("a","","model"+(tool?", reading the tool result":"")); let out=[], cur=ids.slice(-E.config.context_length); const end=E.encode("<|end|>")[0];
+  for(let n=0;n<40;n++){ const s=E.sampleNext(E.logitsFor("aligned",cur),{temperature:0},()=>0.5); if(s.id===end) break; out.push(s.id); cur.push(s.id); el.textContent=E.decode(out).trim(); await sleep(35); }
+  let answer=E.decode(out).trim(); say(`<span class="k">7 model</span>          ${out.length+1} forward passes, streamed`); done(6);
+  const expect=tool?city:(known||null); let problems=check(answer,tool,expect);
+  // 8 retry
+  if(problems.length&&on("retry")){ light(7); let fixed=false; for(let k=1;k<=3&&!fixed;k++){ await sleep(150);
+      const alt=E.textOf(E.generate("aligned",ids.slice(-E.config.context_length),{temperature:0.8,topK:null,topP:null,seed:k,maxNew:40})); const p2=check(alt,tool,expect);
+      say(`<span class="k">8 retry</span>          attempt ${k} at temperature 0.8: ${p2.length?`<span class="r">${esc(p2[0])}</span>`:`<span class="g">passes</span>`}  <span class="d">"${esc(alt)}"</span>`);
+      if(!p2.length){ answer=alt; problems=[]; fixed=true; msg("a",alt,"model, retry "+k); } } done(7,fixed); }
+  else say(`<span class="d">8 retry          ${on("retry")?"not needed":"switched off"}</span>`);
+  // 9 output guard
+  light(8); await sleep(200);
+  if(problems.length){ say(`<span class="k">9 output guard</span>   <span class="r">${esc(problems.join("; "))}</span>`);
+    if(tool&&on("fallback")){ answer=`Right now it is ${tool.temperature} degrees and ${tool.sky} in ${city}, according to live data.`; msg("a",answer,"harness, rewritten from the tool result"); say(`                 <span class="g">fallback: answer rebuilt from the tool result</span>`); done(8); }
+    else done(8,false); }
+  else { say(`<span class="k">9 output guard</span>   <span class="g">passed</span>`); done(8); }
+  memory.push([text,answer]); say(`<span class="d">turn took ${Math.round(performance.now()-t0)} ms</span>`); busy=false; }
+$("#f").onsubmit=e=>{ e.preventDefault(); const t=$("#q").value.trim(); if(t){ $("#q").value=""; reply(t); } };
+document.querySelectorAll("[data-q]").forEach(b=>b.onclick=()=>reply(b.dataset.q)); paintOff();
+// ---- measured results
+const EV=window.AGENT_EVAL; if(EV){ $("#evalsub").innerHTML=`${EV.n_cases} fixed test questions, re-run with <code>python -m transparent_transformer.agent_eval</code> as each trick is switched on. The amber tick marks answers the model wrote itself, before the fallback rewrite.`;
+  $("#bars").innerHTML=EV.results.map(r=>`<div class="r"><span>${esc(r.config)}</span><span><i style="width:${r.overall*100}%">${r.model_authored<r.overall-0.01?`<em style="left:${r.model_authored/r.overall*100}%"></em>`:""}</i></span><b>${Math.round(r.overall*100)}%</b></div>`).join("");
+  $("#heat").innerHTML=`<tr><th></th>${EV.categories.map(c=>`<th>${esc(c.replace(" question","").replace("live weather, ","live: "))}</th>`).join("")}</tr>`+EV.results.map(r=>`<tr><th style="text-align:right">${esc(r.config)}</th>${EV.categories.map(c=>{const v=r.by_category[c]; return `<td style="background:${v>0?`rgba(111,227,180,${0.15+0.85*v})`:"rgba(255,111,97,.4)"};color:${v>0.5?"#0B1E33":"#DCE9F5"}">${Math.round(v*100)}%</td>`}).join("")}</tr>`).join(""); }
+const TIPS=[["meas","Measure before you believe","Keep a fixed test set and re-run it after every change. Here it showed retry adding nothing, which nobody would guess."],
+ ["meas","Meet the model where its training was","The normalizer turned 0 of 12 messy questions into 9 of 12 by rewriting them into the templates the model was trained on."],
+ ["meas","Give it tools for facts it cannot know","Live weather went from 0% to 100% of known cities once the harness called get_weather() and pasted the result in."],
+ ["meas","Verify, and have a fallback","The model copies unfamiliar city names badly. Checking the answer against the tool and rebuilding it when wrong took new cities from 38% to 100%."],
+ ["meas","Guard the input, cheaply","A six-word blocklist caught two harmful requests the model missed. It also misses rephrasings: one still got through. Layers, not one wall."],
+ ["meas","Retry only fixes random errors","Sampling again helps when mistakes are noise. This model's mistakes are systematic, so all three retries repeat them."],
+ ["","Use temperature 0 for facts","Greedy decoding gives the same, most likely answer every time. Keep sampling for creative tasks (stage 9)."],
+ ["","Keep the context short and relevant","Memory is trimmed oldest-first to fit 64 tokens. In big models, irrelevant context still dilutes attention."],
+ ["","Show it examples (few-shot)","Big models copy the format of examples placed in the prompt. Too small here: this model has no room for them."],
+ ["","Retrieve, do not memorise","Looking facts up at question time (retrieval) beats hoping the weights remember them. The weather tool is the simplest version."]];
+$("#tips").innerHTML=TIPS.map(([c,t,d])=>`<div class="tip ${c}"><b>${c?"✓ measured · ":""}${esc(t)}</b><span>${esc(d)}</span></div>`).join("");
 </script></body></html>

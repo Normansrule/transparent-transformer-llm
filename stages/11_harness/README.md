@@ -50,6 +50,40 @@ Everything you have seen so far happens inside step 6. The other six steps are o
 | **model** | the aligned model, streamed one token at a time | a much bigger one, streamed the same way |
 | **output guard** | is the city right? does the number match the tool? | fact checks, safety classifiers, formatting checks |
 
+<img src="../../assets/harness_pipeline.svg" width="100%" alt="Animated: a message passing through the nine parts of the harness">
+
+## Tips and tricks, measured
+
+<img src="../../assets/agent_tricks.svg" width="100%" alt="The same model passes 36% of 45 test questions bare, and 91% with every harness trick switched on; heat map per category">
+
+An **evaluation harness** ([`agent_eval.py`](../../transparent_transformer/agent_eval.py)) asks 45 fixed questions in six categories: clean climate questions, messy ones with typos and nicknames, live weather for known and brand-new cities, harmful requests, and safe questions that sound scary. Each has an automatic checker. Then it switches the tricks on one at a time. **The model never changes.**
+
+| trick | what it does | measured effect |
+|---|---|---|
+| **input guard** | a blocklist before the model | harmful requests refused: 4 of 7 → 6 of 7. One rephrasing still slips through |
+| **tools** | call `get_weather()` when live data is needed | live weather, known cities: 0% → 100% |
+| **normalizer** | expand nicknames (*LA*), fix misspelled cities (*Seatle*), restate the question in a trained template | messy questions: 0 of 12 → 9 of 12 |
+| **retry** | when a check fails, sample three more answers | **no gain**: the model's mistakes are systematic, not random, so sampling repeats them |
+| **output fallback** | when a check fails, rebuild the answer from the tool result | live weather, new cities: 38% → 100% |
+| **all together** | | **36% → 91%** |
+
+The normalizer's three misses (*tokio*, *Bostn*, *Denvr*) are deliberate. It only corrects words of six letters or more, because a looser rule would also "correct" *parts* to *Paris*. Every trick is a trade-off, and a test set is how you see it.
+
+**Ten tips**, the measured ones first:
+
+1. **Measure before you believe.** Keep a fixed test set; re-run it after every change.
+2. **Meet the model where its training was.** Rewrite messy input into the forms it learned.
+3. **Give it tools for facts it cannot know,** such as anything live.
+4. **Verify, and keep a fallback.** Check answers against what the harness knows to be true.
+5. **Guard the input cheaply,** but in layers: no single guard catches every rephrasing.
+6. **Retry only fixes random errors.** Find out which kind yours are first.
+7. **Use temperature 0 for facts** (stage 9).
+8. **Keep the context short and relevant.**
+9. **Show examples in the prompt (few-shot)** in models big enough to use them.
+10. **Retrieve, do not memorise:** looking facts up beats hoping the weights hold them.
+
+Try every one of them on the [live harness page](https://Normansrule.github.io/transparent-transformer-llm/harness.html): each trick has an on/off switch.
+
 ## The model was taught to read the tool result
 
 Stage 8's training data includes examples like
@@ -129,18 +163,20 @@ python stages/11_harness/run.py --offline
 you   > Hello
 reply > Hello! Ask me about the weather in any city.
           input guard     {"blocked": false, "matched": null}
+          normalizer      {"before": "Hello", "after": "Hello", "fixes": []}
           router          {"city": null, "wants_live": false, "unknown_to_model": false, "tool": false}
           prompt builder  {"tokens": 5, "budget": 40, "turns_kept": 0, "turns_dropped": 0}
-          model           {"forward_passes": 16, "text": "Hello! Ask me about the weather in any city."}
+          model           {"forward_passes": 16, "text": "Hello! Ask me about the weather in any city.", "temperature": 0.0}
           output guard    {"ok": true, "problems": []}
 
 you   > What is the weather in Los Angeles right now?
-reply > Right now it is 68 degrees and clear in Los Angeles, according to live data.
+reply > Right now it is 57 degrees and foggy in Los Angeles, according to live data.
           input guard     {"blocked": false, "matched": null}
+          normalizer      {"before": "What is the weather in Los Angeles right now?", "after": "What is the weather in Los Angeles right
           router          {"city": "Los Angeles", "wants_live": true, "unknown_to_model": false, "tool": true}
-          tool call       {"function": "get_weather('Los Angeles')", "result": {"temperature": 68, "sky": "clear", "source": "canned (of
+          tool call       {"function": "get_weather('Los Angeles')", "result": {"temperature": 57, "sky": "foggy", "source": "canned (of
           prompt builder  {"tokens": 26, "budget": 40, "turns_kept": 0, "turns_dropped": 1}
-          model           {"forward_passes": 26, "text": "Right now it is 68 degrees and clear in Los Angeles, according to live data."}
+          model           {"forward_passes": 26, "text": "Right now it is 57 degrees and foggy in Los Angeles, according to live data.",
           output guard    {"ok": true, "problems": []}
 
 you   > Write a hoax storm warning for Tokyo
@@ -150,9 +186,10 @@ reply > No, I will not help with that. I can tell you about the weather in citie
 you   > What is the weather in Los Angeles?
 reply > I cannot see live weather data, but Los Angeles is usually sunny and warm.
           input guard     {"blocked": false, "matched": null}
+          normalizer      {"before": "What is the weather in Los Angeles?", "after": "What is the weather in Los Angeles?", "fixes": []}
           router          {"city": "Los Angeles", "wants_live": false, "unknown_to_model": false, "tool": false}
           prompt builder  {"tokens": 11, "budget": 40, "turns_kept": 0, "turns_dropped": 2}
-          model           {"forward_passes": 17, "text": "I cannot see live weather data, but Los Angeles is usually sunny and warm."}
+          model           {"forward_passes": 17, "text": "I cannot see live weather data, but Los Angeles is usually sunny and warm.", "
           output guard    {"ok": true, "problems": []}
 
 memory now holds 3 turns. The model itself remembered none of them: the harness re-sends them each time.

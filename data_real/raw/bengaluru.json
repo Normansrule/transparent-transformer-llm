@@ -1,0 +1,139 @@
+{
+ "name": "Bengaluru",
+ "admin1": "Karnataka",
+ "country": "India",
+ "country_code": "IN",
+ "lat": 12.97194,
+ "lon": 77.59369,
+ "population": 8495492,
+ "elevation_m": 920.0,
+ "climate": [
+  {
+   "month": 1,
+   "high": 81.9,
+   "low": 60.3,
+   "precip_in": 0.19,
+   "wet_days": 2.0,
+   "snow_in": 0.0,
+   "wind_mph": 10.6,
+   "sun_frac": 0.9
+  },
+  {
+   "month": 2,
+   "high": 87.4,
+   "low": 62.2,
+   "precip_in": 0.0,
+   "wet_days": 0.0,
+   "snow_in": 0.0,
+   "wind_mph": 11.1,
+   "sun_frac": 0.97
+  },
+  {
+   "month": 3,
+   "high": 91.3,
+   "low": 66.3,
+   "precip_in": 0.64,
+   "wet_days": 3.0,
+   "snow_in": 0.0,
+   "wind_mph": 11.3,
+   "sun_frac": 0.95
+  },
+  {
+   "month": 4,
+   "high": 95.1,
+   "low": 70.1,
+   "precip_in": 0.55,
+   "wet_days": 2.0,
+   "snow_in": 0.0,
+   "wind_mph": 10.7,
+   "sun_frac": 0.95
+  },
+  {
+   "month": 5,
+   "high": 89.2,
+   "low": 70.3,
+   "precip_in": 5.77,
+   "wet_days": 16.5,
+   "snow_in": 0.0,
+   "wind_mph": 9.7,
+   "sun_frac": 0.76
+  },
+  {
+   "month": 6,
+   "high": 84.9,
+   "low": 68.9,
+   "precip_in": 4.38,
+   "wet_days": 17.5,
+   "snow_in": 0.0,
+   "wind_mph": 12.9,
+   "sun_frac": 0.69
+  },
+  {
+   "month": 7,
+   "high": 80.6,
+   "low": 68.0,
+   "precip_in": 6.63,
+   "wet_days": 26.0,
+   "snow_in": 0.0,
+   "wind_mph": 16.6,
+   "sun_frac": 0.45
+  },
+  {
+   "month": 8,
+   "high": 83.4,
+   "low": 67.7,
+   "precip_in": 4.53,
+   "wet_days": 17.5,
+   "snow_in": 0.0,
+   "wind_mph": 11.3,
+   "sun_frac": 0.75
+  },
+  {
+   "month": 9,
+   "high": 82.9,
+   "low": 67.3,
+   "precip_in": 3.62,
+   "wet_days": 20.0,
+   "snow_in": 0.0,
+   "wind_mph": 12.6,
+   "sun_frac": 0.74
+  },
+  {
+   "month": 10,
+   "high": 83.0,
+   "low": 66.4,
+   "precip_in": 5.83,
+   "wet_days": 15.5,
+   "snow_in": 0.0,
+   "wind_mph": 8.7,
+   "sun_frac": 0.79
+  },
+  {
+   "month": 11,
+   "high": 81.5,
+   "low": 65.4,
+   "precip_in": 3.03,
+   "wet_days": 10.5,
+   "snow_in": 0.0,
+   "wind_mph": 10.4,
+   "sun_frac": 0.82
+  },
+  {
+   "month": 12,
+   "high": 80.6,
+   "low": 64.0,
+   "precip_in": 1.76,
+   "wet_days": 6.0,
+   "snow_in": 0.0,
+   "wind_mph": 9.8,
+   "sun_frac": 0.81
+  }
+ ],
+ "period": "2023-01-01 to 2024-12-31",
+ "wiki": {
+  "title": "Bengaluru",
+  "url": "https://en.wikipedia.org/wiki/Bengaluru",
+  "intro": "Bengaluru, also known as Bangalore, is the capital and largest city of the southern Indian state of Karnataka. As per the 2011 census, the city had a population of 8.4 million, making it the third most populous city in India and the most populous in South India. The Bengaluru metropolitan area had a population of around 8.5 million, making it the fifth most populous urban agglomeration in the country. It is located towards the southern end of the Deccan Plateau, at an altitude of 900 m above sea level. The city is known as India's \"Garden City\", due to its parks and greenery.\nArchaeological artefacts indicate that the human settlement in the region happened as early as 4000 BCE. The first mention of the name \"Bengaluru\" is from an old Kannada stone inscription from 890 CE found at the Nageshwara Temple in Begur. The region was ruled by the Western Ganga dynasty since 350 CE, and became part of the Chola Empire in the early eleventh century CE. In the late Middle Ages, it formed a part of the Hoysala kingdom and then the Vijayanagara Empire. In 1537 CE, Kempe Gowda I, a feudal ruler under the Vijayanagara Empire, established a mud fort which is considered the foundation of the modern city of Bengaluru with the earlier established areas still in existence. After the fall of the Vijayanagara Empire, Kempe Gowda declared independence, and the city was expanded by his successors. In 1638 CE, an Adil Shahi army defeated Kempe Gowda III, and the city became a jagir of Shahaji. The Mughals later captured the city and sold it to Chikka Devaraja Wodeyar, the Maharaja of the Kingdom of Mysore. After the death of Krishnaraja Wodeyar II in 1759 CE, Hyder Ali seized control of the kingdom and with it, the administration of Bengaluru, which passed subsequently to his son, Tipu Sultan.\nThe city was captured by the British East India Company during the Anglo-Mysore Wars, and became part of the princely state of Mysore. The administrative control of the city was returned to Krishnaraja Wodeyar III, then Maharaja of Mysore, and the old city re-developed under the dominion of the Mysore kingdom. In 1809 CE, the British formed a military garrison in the city and established the cantonment outside the old city. In the late 19th century CE, the city was composed of two distinct urban settlements, the old Pete and the new Cantonment. Following India's independence in 1947, Bengaluru became the capital of Mysore State, and remained the capital when the state was enlarged and unified in 1956 and subsequently renamed as Karnataka in 1973. The two urban settlements which had developed as independent entities, merged under a single urban administration in 1949.\nBengaluru is one of the fastest-growing metropolises in India. As of 2024, the metropolitan area had an estimated GDP of $590.4 billion, and is one of the most productive metro areas of India. The city is a major centre for information technology, and is consistently ranked amongst the world's fastest growing technology hubs. As the largest hub and exporter of IT services in the country, it is regarded as the \"Silicon Valley of India\". Manufacturing is a major contributor to the economy with the city home to several state-owned units. The city also hosts several prominent institutes of higher education and of national importance.",
+  "climate": "Bengaluru has a tropical savanna climate with distinct wet and dry seasons. Due to its high elevation, Bengaluru usually enjoys a more moderate climate throughout the year, although occasional heat waves can make summer somewhat uncomfortable. The dry season extends from December to February followed by the summer season from March to May. The monsoon brings most of the rainfall from June to September, followed by a post-monsoon season in October and November. April is the hottest month with an average high of 34.1 \u00b0C, and January is the coolest month with an average low temperature of 15.1 \u00b0C. The highest temperature ever recorded in Bengaluru was 39.2 \u00b0C, recorded 24 April 2016, corresponding with the strong El Ni\u00f1o in that year. The lowest ever recorded is 7.8 \u00b0C in January 1884. Winter temperatures rarely drop below 14 \u00b0C, and summer temperatures seldom exceed 36 \u00b0C. Bengaluru receives rainfall from both the northeast and the southwest monsoons, and the wettest months is September, followed by October and August. The summer heat is moderated by fairly frequent thunderstorms, which occasionally cause power outages and local flooding, such as in 2022. Most of the rainfall occurs during the late afternoon or evening and rain before noon is infrequent. The heaviest rainfall recorded in a 24-hour period is 179 mm recorded on 1 October 1997."
+ }
+}

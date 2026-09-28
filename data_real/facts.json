@@ -1183,6 +1183,97 @@
   ]
  },
  {
+  "name": "Bengaluru",
+  "where": "Karnataka, India",
+  "usual": "sunny and warm",
+  "sky": "sunny",
+  "summer": "hot and rainy",
+  "winter": "hot and dry",
+  "mean_high": 85,
+  "hot_month": "April",
+  "hot_high": 95,
+  "cold_month": "July",
+  "cold_high": 81,
+  "wet_month": "July",
+  "rain": 37,
+  "rainy": true,
+  "snow": 0.0,
+  "months": [
+   {
+    "name": "January",
+    "high": 82,
+    "low": 60,
+    "kind": "dry"
+   },
+   {
+    "name": "February",
+    "high": 87,
+    "low": 62,
+    "kind": "dry"
+   },
+   {
+    "name": "March",
+    "high": 91,
+    "low": 66,
+    "kind": "dry"
+   },
+   {
+    "name": "April",
+    "high": 95,
+    "low": 70,
+    "kind": "dry"
+   },
+   {
+    "name": "May",
+    "high": 89,
+    "low": 70,
+    "kind": "rainy"
+   },
+   {
+    "name": "June",
+    "high": 85,
+    "low": 69,
+    "kind": "rainy"
+   },
+   {
+    "name": "July",
+    "high": 81,
+    "low": 68,
+    "kind": "rainy"
+   },
+   {
+    "name": "August",
+    "high": 83,
+    "low": 68,
+    "kind": "rainy"
+   },
+   {
+    "name": "September",
+    "high": 83,
+    "low": 67,
+    "kind": "rainy"
+   },
+   {
+    "name": "October",
+    "high": 83,
+    "low": 66,
+    "kind": "rainy"
+   },
+   {
+    "name": "November",
+    "high": 82,
+    "low": 65,
+    "kind": "partly cloudy"
+   },
+   {
+    "name": "December",
+    "high": 81,
+    "low": 64,
+    "kind": "partly cloudy"
+   }
+  ]
+ },
+ {
   "name": "Berkeley",
   "where": "California, United States",
   "usual": "sunny and mild",
