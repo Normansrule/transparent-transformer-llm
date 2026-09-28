@@ -1,6 +1,6 @@
 PY ?= python3
 
-.PHONY: eval copy-drill intro scrape corpus report real web notebooks homework classroom help setup data tokenizer pretrain sft dpo train trace visuals docs tour chat test all clean
+.PHONY: flashcards eval copy-drill intro scrape corpus report real web notebooks homework classroom help setup data tokenizer pretrain sft dpo train trace visuals docs tour chat test all clean
 
 help:  ## list every command
 	@grep -E "^[a-z-]+:.*##" Makefile | sed "s/:.*## /\t/" | expand -t 12
@@ -47,6 +47,7 @@ trace:  ## follow one prompt through all ten stages
 visuals:  ## redraw the animated diagrams from the real numbers
 	$(PY) -m transparent_transformer.trace --fast > /dev/null
 	$(PY) tools/make_visuals.py
+	$(PY) tools/make_frames.py
 
 docs: visuals  ## paste real script output into every stage page
 	$(PY) tools/refresh_docs.py
@@ -72,6 +73,9 @@ copy-drill:  ## stage 11 experiment: train the copy skill on 1,400 random names 
 
 eval:  ## measure every harness trick on 45 fixed test questions
 	$(PY) -m transparent_transformer.agent_eval
+
+flashcards:  ## rebuild the flip-card page, the GitHub decks and the Anki files from flashcards/cards.json
+	$(PY) tools/make_flashcards.py
 
 tour:  ## run all ten stage demos back to back
 	@for d in stages/*/; do echo; echo "=== $$d"; $(PY) $$d/run.py || exit 1; done

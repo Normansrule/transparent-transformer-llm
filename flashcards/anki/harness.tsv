@@ -1,0 +1,12 @@
+Agent = ? + ?	Harness + model. The harness is ordinary code; the model only predicts the next token.
+Where does a chat assistant's memory of your last message live?	In the harness, which re-sends earlier turns inside the next prompt. The weights never change while you chat.
+What does the normalizer do?	Rewrites messy input into forms the model was trained on: LA → Los Angeles, Seatle → Seattle, then a trained question template.
+Why did retry add nothing in this repository?	Sampling again only fixes random errors. This model's mistakes are systematic, so every retry repeats them.
+What is an evaluation harness?	A fixed set of test questions with automatic checkers, re-run after every change to prove whether it helped.
+From what to what did the harness tricks raise the score?	36% to 91% on 45 questions, with the same weights.
+Why does the harness call the weather tool for a city the model never learned?	The model has nothing to answer from, so it would guess. Looking it up is the only honest option.
+What does the output guard do when a check fails?	Rebuilds the answer from the tool result, so a wrong city or number never reaches the user.
+What is an induction head?	An attention pattern that finds an earlier copy of the current token and predicts what followed it: how models copy from their prompt.
+Why train on random invented city names?	So memorising is impossible and the only way to win is a general copy skill. It raised unseen-name copying from 0 of 10 to 4 of 10.
+What is the data-mixture trade-off?	Adding lots of one kind of data can crowd out another: more tool-copying data lowered safety from 87% to 60%.
+Why can't a single guard stop all harmful requests?	Rephrasings slip past fixed word lists. Safety works in layers: guard, trained refusals, output checks.

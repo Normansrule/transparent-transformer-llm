@@ -9,6 +9,7 @@
 <a href="https://Normansrule.github.io/transparent-transformer-llm/network.html"><img src="https://img.shields.io/badge/🕸%20inside%20the%20network-in%20your%20browser-FFB238?style=for-the-badge" alt="🕸 inside the network: in your browser"></a>
 <a href="https://Normansrule.github.io/transparent-transformer-llm/harness.html"><img src="https://img.shields.io/badge/🔌%20live%20harness-in%20your%20browser-6FE3B4?style=for-the-badge" alt="🔌 live harness: in your browser"></a>
 <a href="https://github.com/Normansrule/transparent-transformer-llm/issues/new?template=ask-the-model.yml"><img src="https://img.shields.io/badge/💬%20ask-the%20model-FF6F61?style=for-the-badge" alt="💬 ask: the model"></a>
+<a href="https://Normansrule.github.io/transparent-transformer-llm/flashcards.html#harness"><img src="https://img.shields.io/badge/📇%20flashcards-harness-9AD0FF?style=for-the-badge" alt="📇 flashcards: harness"></a>
 </p>
 <!-- /DO -->
 

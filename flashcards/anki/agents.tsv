@@ -1,0 +1,14 @@
+What is an agent?	Anything that perceives its environment through sensors and acts on it through actuators.
+Percept versus percept sequence?	A percept is what is sensed at one instant; the percept sequence is everything ever sensed.
+Agent function versus agent program?	The function is the abstract mapping from percept sequences to actions; the program is the code that implements it.
+Agent = ? + ? (AIMA)	Architecture + program.
+What makes an agent rational?	It selects the action expected to maximise its performance measure, given its percepts and prior knowledge.
+Rationality depends on which four things?	The performance measure, prior knowledge, available actions, and the percept sequence so far.
+Why should performance be measured on environment states, not the agent's opinion?	Otherwise an agent could score perfectly by deluding itself.
+What goes wrong if a vacuum robot is rewarded for dirt collected?	It can dump dirt and collect it again. Measure what you want (a clean floor), not how you think it should behave.
+What does PEAS stand for?	Performance measure, Environment, Actuators, Sensors.
+Fully versus partially observable?	Fully: sensors reveal the whole relevant state. Partially: something is hidden, like live weather for a language model.
+Episodic versus sequential?	Episodic: each decision stands alone. Sequential: current decisions affect later ones, as in a coding agent.
+The five kinds of agent program?	Simple reflex, model-based reflex, goal-based, utility-based, and learning agents.
+Simple reflex agent: when does it work?	Only when the right action can be chosen from the current percept alone, in a fully observable environment.
+Atomic, factored and structured representations?	A state as an unanalysable name; as a fixed set of variables; as objects with relations. Ordered by expressiveness.

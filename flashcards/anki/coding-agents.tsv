@@ -1,0 +1,12 @@
+What does the model do in a coding agent?	One thing: text in, text out. It reads no files, runs nothing and remembers nothing between requests.
+Raschka's six components of a coding agent?	Live repo context; prompt shape and cache reuse; tool access; minimising context bloat; structured session memory; bounded delegation.
+Why keep a fixed prompt prefix?	Identical leading bytes on every request let a server reuse its cached work.
+What is the cost of taking the workspace snapshot once at start-up?	It goes stale: files the agent writes do not appear in its status until it restarts.
+Who decides whether a tool call runs?	The harness: it checks the tool name, the arguments and the file path, and asks for approval if the tool is risky.
+Why does a base GPT-2 answer an agent prompt with prose?	It was never trained on the response format; it continues documents.
+What is the Ollama-compatible trick in the GPT-2 project?	The server answers the same API as a popular model runner, so the agent works unchanged against either.
+Two datasets in the GPT-2 project, and what each tests?	Instruction pairs (loss on the reply only) test 'it needs the format'; raw code (loss on every token) tests 'it needs more code'.
+What does 'correct by construction' mean for training targets?	The script builds the repository first, so it knows the right tool call for any question about it.
+Why is HTTP's statelessness important for agents?	The server keeps nothing between requests, so the harness must re-send the whole transcript every turn.
+GPT-2's context window?	1,024 tokens. A lean agent prompt uses about half before the question is asked.
+How is a delegated sub-agent kept safe?	One level deep, read-only, and it returns a single string.

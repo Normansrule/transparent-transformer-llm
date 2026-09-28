@@ -1,0 +1,14 @@
+What is pretraining?	Learning by predicting the next token in real text. No labels are needed: the text is its own answer key.
+What is the loss?	One number saying how wrong a prediction was: minus the log of the probability given to the correct token. Training pushes it down.
+What loss does pure guessing over 768 tokens give?	ln(768) ≈ 6.64. Training starts there.
+What is overfitting?	Training loss keeps falling while loss on unseen text rises: the model memorises instead of learning. Here, 3,000 steps overfit; 1,500 did not.
+What is a gradient?	For one weight: how much the loss would change if that weight grew a little.
+Why use backpropagation instead of wiggling each weight?	Both give the same numbers, but one backward pass gives every gradient at once; wiggling needs two forward passes per weight.
+What is the update rule?	w = w − learning_rate × dLoss/dw, for every weight, every step.
+What is a base model?	A model after pretraining only. It continues documents; it does not answer questions.
+What is Supervised Fine-Tuning (SFT)?	Training on example conversations, with the loss counted only on the answer tokens.
+What is the loss mask for?	It grades the reply and ignores the prompt, so the model learns to write answers, not to write questions.
+What is Direct Preference Optimization (DPO)?	Training on pairs of answers so the preferred one becomes more likely than it was, relative to a frozen reference copy.
+What are the three H's of alignment?	Helpful, honest, harmless.
+What is over-refusal?	Refusing safe questions that merely sound alarming. A safety model that refuses everything is useless.
+What changes between the base model and the aligned model?	Only the weight values. The architecture, tokenizer and code are identical.

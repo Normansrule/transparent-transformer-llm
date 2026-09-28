@@ -1,0 +1,10 @@
+What does one perceptron compute?	σ(w·a + b): a weighted sum of its inputs plus a bias, squashed by a switch such as the sigmoid.
+What is the sigmoid?	σ(z) = 1 / (1 + e^−z). It maps any number into the range 0 to 1.
+How many parameters does a 784-16-16-10 network have?	13,002: 12,560 + 272 + 170 weights and biases.
+What does a first-layer neuron's weight picture show?	Its 784 weights laid out as an image. They look messy, not like neat strokes: the network finds its own features.
+Where is the perceptron inside a transformer?	The MLP in every block: 64 → 256 → 64 here, with GELU instead of the sigmoid.
+What is weight tying?	Reusing the embedding table as the output layer. It is why GPT-2 small is 124 million parameters, not 163 million.
+Doubling the vector width does what to a block's parameters?	Roughly quadruples them, because every matrix is width × width. Doubling the number of blocks only doubles them.
+Do more attention heads add parameters?	No. Heads split the same Q, K and V matrices into slices.
+What is quantization?	Storing each parameter in fewer bits (16, 8, 4) so a model needs less memory.
+Roughly how much compute does training take?	About 6 × parameters × training tokens operations.

@@ -11,6 +11,7 @@
 <a href="https://colab.research.google.com/github/Normansrule/transparent-transformer-llm/blob/main/notebooks/03_embedding.ipynb"><img src="https://img.shields.io/badge/▶%20run%20it%20yourself-Colab-C9A7FF?style=for-the-badge" alt="▶ run it yourself: Colab"></a>
 <a href="../../classroom/exercises/ex03.py"><img src="https://img.shields.io/badge/✍️%20build%20it-exercise%2003-6FE3B4?style=for-the-badge" alt="✍️ build it: exercise 03"></a>
 <a href="https://github.com/Normansrule/transparent-transformer-llm/issues/new?template=ask-the-model.yml"><img src="https://img.shields.io/badge/💬%20ask-the%20model-FF6F61?style=for-the-badge" alt="💬 ask: the model"></a>
+<a href="https://Normansrule.github.io/transparent-transformer-llm/flashcards.html#the-ten-stages"><img src="https://img.shields.io/badge/📇%20flashcards-the%20ten%20stages-9AD0FF?style=for-the-badge" alt="📇 flashcards: the ten stages"></a>
 </p>
 <!-- /DO -->
 

@@ -1,0 +1,113 @@
+What does the computer actually receive when you type a prompt?	A row of bytes: whole numbers from 0 to 255, one per plain-English character.	the-ten-stages
+What is a token?	A piece of text (often a word or part of one) with its own id number. The model reads and writes tokens, never letters.	the-ten-stages
+How does Byte Pair Encoding (BPE) build its vocabulary?	Start from the 256 bytes, then repeatedly glue together the most frequent pair of neighbouring tokens in the training text.	the-ten-stages
+Why is 'weather' one token but 'xylophone' eight?	Merges are learned by frequency. Common strings earn their own token; rare ones are spelled from small pieces.	the-ten-stages
+What is an embedding, mechanically?	A table lookup: token id 559 selects row 559 of a learned table, giving a vector of 64 numbers.	the-ten-stages
+Why is a position vector added to each token vector?	Attention sees all tokens at once, like a bag. Without positions, 'dog bites man' and 'man bites dog' would look the same.	the-ten-stages
+What is the residual stream?	The shared channel of token vectors flowing through the transformer. Every block reads it and ADDS its result; nothing overwrites it.	the-ten-stages
+What are the two halves of a transformer block?	Attention (tokens exchange information) and a Multi-Layer Perceptron, MLP (each token is processed on its own).	the-ten-stages
+What are logits?	Raw scores, one per vocabulary token, for what comes next. Softmax turns them into probabilities.	the-ten-stages
+In attention, what are the query, key and value?	Query: what this token is looking for. Key: what each token contains. Value: what a token hands over when chosen.	the-ten-stages
+What is the causal mask?	The rule that a token may only attend to tokens before it, because during generation the future does not exist yet.	the-ten-stages
+What does the temperature knob do?	Divides the logits before softmax. Low: the favourite nearly always wins. High: unlikely tokens get a chance. Zero: always the top token.	the-ten-stages
+How many forward passes does a 16-token answer take?	About 17: one per generated token plus the one that produces the end token. Each pass runs the whole model.	the-ten-stages
+How does generation know when to stop?	The model predicts a special <|end|> token, which it learned during alignment.	the-ten-stages
+What is the logit lens?	Reading a prediction off the residual stream after each layer, not just the last. It shows the answer forming layer by layer.	the-ten-stages
+What is pretraining?	Learning by predicting the next token in real text. No labels are needed: the text is its own answer key.	training
+What is the loss?	One number saying how wrong a prediction was: minus the log of the probability given to the correct token. Training pushes it down.	training
+What loss does pure guessing over 768 tokens give?	ln(768) ≈ 6.64. Training starts there.	training
+What is overfitting?	Training loss keeps falling while loss on unseen text rises: the model memorises instead of learning. Here, 3,000 steps overfit; 1,500 did not.	training
+What is a gradient?	For one weight: how much the loss would change if that weight grew a little.	training
+Why use backpropagation instead of wiggling each weight?	Both give the same numbers, but one backward pass gives every gradient at once; wiggling needs two forward passes per weight.	training
+What is the update rule?	w = w − learning_rate × dLoss/dw, for every weight, every step.	training
+What is a base model?	A model after pretraining only. It continues documents; it does not answer questions.	training
+What is Supervised Fine-Tuning (SFT)?	Training on example conversations, with the loss counted only on the answer tokens.	training
+What is the loss mask for?	It grades the reply and ignores the prompt, so the model learns to write answers, not to write questions.	training
+What is Direct Preference Optimization (DPO)?	Training on pairs of answers so the preferred one becomes more likely than it was, relative to a frozen reference copy.	training
+What are the three H's of alignment?	Helpful, honest, harmless.	training
+What is over-refusal?	Refusing safe questions that merely sound alarming. A safety model that refuses everything is useless.	training
+What changes between the base model and the aligned model?	Only the weight values. The architecture, tokenizer and code are identical.	training
+Agent = ? + ?	Harness + model. The harness is ordinary code; the model only predicts the next token.	harness
+Where does a chat assistant's memory of your last message live?	In the harness, which re-sends earlier turns inside the next prompt. The weights never change while you chat.	harness
+What does the normalizer do?	Rewrites messy input into forms the model was trained on: LA → Los Angeles, Seatle → Seattle, then a trained question template.	harness
+Why did retry add nothing in this repository?	Sampling again only fixes random errors. This model's mistakes are systematic, so every retry repeats them.	harness
+What is an evaluation harness?	A fixed set of test questions with automatic checkers, re-run after every change to prove whether it helped.	harness
+From what to what did the harness tricks raise the score?	36% to 91% on 45 questions, with the same weights.	harness
+Why does the harness call the weather tool for a city the model never learned?	The model has nothing to answer from, so it would guess. Looking it up is the only honest option.	harness
+What does the output guard do when a check fails?	Rebuilds the answer from the tool result, so a wrong city or number never reaches the user.	harness
+What is an induction head?	An attention pattern that finds an earlier copy of the current token and predicts what followed it: how models copy from their prompt.	harness
+Why train on random invented city names?	So memorising is impossible and the only way to win is a general copy skill. It raised unseen-name copying from 0 of 10 to 4 of 10.	harness
+What is the data-mixture trade-off?	Adding lots of one kind of data can crowd out another: more tool-copying data lowered safety from 87% to 60%.	harness
+Why can't a single guard stop all harmful requests?	Rephrasings slip past fixed word lists. Safety works in layers: guard, trained refusals, output checks.	harness
+What does one perceptron compute?	σ(w·a + b): a weighted sum of its inputs plus a bias, squashed by a switch such as the sigmoid.	perceptron-and-parameters
+What is the sigmoid?	σ(z) = 1 / (1 + e^−z). It maps any number into the range 0 to 1.	perceptron-and-parameters
+How many parameters does a 784-16-16-10 network have?	13,002: 12,560 + 272 + 170 weights and biases.	perceptron-and-parameters
+What does a first-layer neuron's weight picture show?	Its 784 weights laid out as an image. They look messy, not like neat strokes: the network finds its own features.	perceptron-and-parameters
+Where is the perceptron inside a transformer?	The MLP in every block: 64 → 256 → 64 here, with GELU instead of the sigmoid.	perceptron-and-parameters
+What is weight tying?	Reusing the embedding table as the output layer. It is why GPT-2 small is 124 million parameters, not 163 million.	perceptron-and-parameters
+Doubling the vector width does what to a block's parameters?	Roughly quadruples them, because every matrix is width × width. Doubling the number of blocks only doubles them.	perceptron-and-parameters
+Do more attention heads add parameters?	No. Heads split the same Q, K and V matrices into slices.	perceptron-and-parameters
+What is quantization?	Storing each parameter in fewer bits (16, 8, 4) so a model needs less memory.	perceptron-and-parameters
+Roughly how much compute does training take?	About 6 × parameters × training tokens operations.	perceptron-and-parameters
+What two questions give the four approaches to AI?	Think or act? Match humans or match an ideal of rationality?	what-is-ai
+What is the Turing test?	A machine passes if a questioner, reading written answers, cannot tell it from a person (Turing, 1950).	what-is-ai
+What does passing the Turing test require?	Natural language processing, knowledge representation, automated reasoning and machine learning.	what-is-ai
+What is the 'laws of thought' approach?	Encode correct reasoning in formal logic, from Aristotle's syllogisms to 20th-century logic programs.	what-is-ai
+Two obstacles to the logic approach?	Real knowledge is informal and uncertain; and solvable in principle is not solvable in practice.	what-is-ai
+Which approach does AIMA follow?	Acting rationally: build agents that do the best expected thing.	what-is-ai
+Why is the rational-agent approach preferred?	It is more general than pure logic and easier to measure scientifically than human-likeness.	what-is-ai
+What does the airplane analogy teach?	Flight succeeded when engineers stopped copying birds and studied aerodynamics. AI need not copy humans.	what-is-ai
+What is an agent?	Anything that perceives its environment through sensors and acts on it through actuators.	agents
+Percept versus percept sequence?	A percept is what is sensed at one instant; the percept sequence is everything ever sensed.	agents
+Agent function versus agent program?	The function is the abstract mapping from percept sequences to actions; the program is the code that implements it.	agents
+Agent = ? + ? (AIMA)	Architecture + program.	agents
+What makes an agent rational?	It selects the action expected to maximise its performance measure, given its percepts and prior knowledge.	agents
+Rationality depends on which four things?	The performance measure, prior knowledge, available actions, and the percept sequence so far.	agents
+Why should performance be measured on environment states, not the agent's opinion?	Otherwise an agent could score perfectly by deluding itself.	agents
+What goes wrong if a vacuum robot is rewarded for dirt collected?	It can dump dirt and collect it again. Measure what you want (a clean floor), not how you think it should behave.	agents
+What does PEAS stand for?	Performance measure, Environment, Actuators, Sensors.	agents
+Fully versus partially observable?	Fully: sensors reveal the whole relevant state. Partially: something is hidden, like live weather for a language model.	agents
+Episodic versus sequential?	Episodic: each decision stands alone. Sequential: current decisions affect later ones, as in a coding agent.	agents
+The five kinds of agent program?	Simple reflex, model-based reflex, goal-based, utility-based, and learning agents.	agents
+Simple reflex agent: when does it work?	Only when the right action can be chosen from the current percept alone, in a fully observable environment.	agents
+Atomic, factored and structured representations?	A state as an unanalysable name; as a fixed set of variables; as objects with relations. Ordered by expressiveness.	agents
+What does the model do in a coding agent?	One thing: text in, text out. It reads no files, runs nothing and remembers nothing between requests.	coding-agents
+Raschka's six components of a coding agent?	Live repo context; prompt shape and cache reuse; tool access; minimising context bloat; structured session memory; bounded delegation.	coding-agents
+Why keep a fixed prompt prefix?	Identical leading bytes on every request let a server reuse its cached work.	coding-agents
+What is the cost of taking the workspace snapshot once at start-up?	It goes stale: files the agent writes do not appear in its status until it restarts.	coding-agents
+Who decides whether a tool call runs?	The harness: it checks the tool name, the arguments and the file path, and asks for approval if the tool is risky.	coding-agents
+Why does a base GPT-2 answer an agent prompt with prose?	It was never trained on the response format; it continues documents.	coding-agents
+What is the Ollama-compatible trick in the GPT-2 project?	The server answers the same API as a popular model runner, so the agent works unchanged against either.	coding-agents
+Two datasets in the GPT-2 project, and what each tests?	Instruction pairs (loss on the reply only) test 'it needs the format'; raw code (loss on every token) tests 'it needs more code'.	coding-agents
+What does 'correct by construction' mean for training targets?	The script builds the repository first, so it knows the right tool call for any question about it.	coding-agents
+Why is HTTP's statelessness important for agents?	The server keeps nothing between requests, so the harness must re-send the whole transcript every turn.	coding-agents
+GPT-2's context window?	1,024 tokens. A lean agent prompt uses about half before the question is asked.	coding-agents
+How is a delegated sub-agent kept safe?	One level deep, read-only, and it returns a single string.	coding-agents
+1943?	McCulloch and Pitts: the artificial neuron, a weighted sum and a threshold.	history
+1950?	Turing's paper asking 'Can machines think?' and proposing the imitation game.	history
+1956?	The Dartmouth workshop names the field artificial intelligence.	history
+1958?	Rosenblatt's perceptron learns weights from examples.	history
+1969?	Minsky and Papert show the limits of single-layer perceptrons; neural-network research cools.	history
+1971?	The Intel 4004, the first commercial microprocessor, designed under Federico Faggin.	history
+1986?	Rumelhart, Hinton and Williams popularise backpropagation.	history
+1995?	Russell and Norvig publish Artificial Intelligence: A Modern Approach.	history
+2012?	AlexNet wins ImageNet; deep learning takes off, powered by GPUs.	history
+2017?	Attention Is All You Need introduces the transformer.	history
+2019 and 2020?	GPT-2 (up to 1.5 billion parameters) and GPT-3 (175 billion).	history
+2022?	ChatGPT brings aligned chat assistants to the public.	history
+Orch OR in one sentence?	Consciousness arises from orchestrated quantum state reductions in microtubules inside neurons (Penrose and Hameroff).	minds-and-machines
+What sets the timing of objective reduction in Orch OR?	A gravity-related threshold, roughly τ ≈ ħ / E_G: bigger mass separation, sooner collapse.	minds-and-machines
+Main physics objection to Orch OR?	The warm, wet brain should destroy quantum coherence in about 10⁻¹³ to 10⁻²⁰ seconds (Tegmark, 2000). Defenders dispute the estimate.	minds-and-machines
+What evidence do Orch OR's authors cite?	Gamma-band EEG as the best correlate of consciousness, and anaesthetics appearing to act on microtubules.	minds-and-machines
+Integrated Information Theory in one sentence?	Consciousness is integrated information, Φ: how much a system's causal structure is more than its parts (Tononi; Koch).	minds-and-machines
+What does IIT say about a feedforward network?	Φ = 0, so not conscious, however clever its outputs.	minds-and-machines
+Main objections to IIT?	Φ is intractable to compute; it rates some simple logic-gate grids as highly conscious; critics call it untestable, which supporters reject.	minds-and-machines
+Faggin's position?	Consciousness and free will are fundamental, tied to quantum information that cannot be copied, so classical computers cannot be conscious.	minds-and-machines
+What do computational views (such as Global Workspace Theory) say about AI?	Consciousness depends on organisation, not substrate, so an AI with the right architecture could in principle be conscious.	minds-and-machines
+Brain capacity: synapse count versus microtubule automata?	About 4 × 10¹⁵ bits per second (Moravec) versus 10²³ to 10²⁵ (Rasmussen, Hameroff and colleagues, 1990).	minds-and-machines
+Why did the 1990 microtubule paper question neural networks as brain models?	Real neurons are more like computers than switches, and backpropagation has no clear biological counterpart.	minds-and-machines
+What share of Japanese game developers used generative AI in the 2026 CESA survey?	85.8%, up from 51% the year before; 63% daily.	ai-at-work
+What did respondents say they mostly use AI for?	Debugging, fixing errors and automated testing, rather than putting AI output directly into code.	ai-at-work
+What guardrails did studios describe?	Humans confirm, modify and supervise every use; approved tools only; people own creative decisions and final quality.	ai-at-work
+Benefits cited most often?	Efficiency and productivity, shorter development cycles, lower costs.	ai-at-work
+Which caution did CESA's director raise?	New technology must not compromise intellectual property rights.	ai-at-work

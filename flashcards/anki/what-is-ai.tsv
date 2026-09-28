@@ -1,0 +1,8 @@
+What two questions give the four approaches to AI?	Think or act? Match humans or match an ideal of rationality?
+What is the Turing test?	A machine passes if a questioner, reading written answers, cannot tell it from a person (Turing, 1950).
+What does passing the Turing test require?	Natural language processing, knowledge representation, automated reasoning and machine learning.
+What is the 'laws of thought' approach?	Encode correct reasoning in formal logic, from Aristotle's syllogisms to 20th-century logic programs.
+Two obstacles to the logic approach?	Real knowledge is informal and uncertain; and solvable in principle is not solvable in practice.
+Which approach does AIMA follow?	Acting rationally: build agents that do the best expected thing.
+Why is the rational-agent approach preferred?	It is more general than pure logic and easier to measure scientifically than human-likeness.
+What does the airplane analogy teach?	Flight succeeded when engineers stopped copying birds and studied aerodynamics. AI need not copy humans.

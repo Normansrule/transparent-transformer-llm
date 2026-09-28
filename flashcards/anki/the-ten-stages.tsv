@@ -1,0 +1,15 @@
+What does the computer actually receive when you type a prompt?	A row of bytes: whole numbers from 0 to 255, one per plain-English character.
+What is a token?	A piece of text (often a word or part of one) with its own id number. The model reads and writes tokens, never letters.
+How does Byte Pair Encoding (BPE) build its vocabulary?	Start from the 256 bytes, then repeatedly glue together the most frequent pair of neighbouring tokens in the training text.
+Why is 'weather' one token but 'xylophone' eight?	Merges are learned by frequency. Common strings earn their own token; rare ones are spelled from small pieces.
+What is an embedding, mechanically?	A table lookup: token id 559 selects row 559 of a learned table, giving a vector of 64 numbers.
+Why is a position vector added to each token vector?	Attention sees all tokens at once, like a bag. Without positions, 'dog bites man' and 'man bites dog' would look the same.
+What is the residual stream?	The shared channel of token vectors flowing through the transformer. Every block reads it and ADDS its result; nothing overwrites it.
+What are the two halves of a transformer block?	Attention (tokens exchange information) and a Multi-Layer Perceptron, MLP (each token is processed on its own).
+What are logits?	Raw scores, one per vocabulary token, for what comes next. Softmax turns them into probabilities.
+In attention, what are the query, key and value?	Query: what this token is looking for. Key: what each token contains. Value: what a token hands over when chosen.
+What is the causal mask?	The rule that a token may only attend to tokens before it, because during generation the future does not exist yet.
+What does the temperature knob do?	Divides the logits before softmax. Low: the favourite nearly always wins. High: unlikely tokens get a chance. Zero: always the top token.
+How many forward passes does a 16-token answer take?	About 17: one per generated token plus the one that produces the end token. Each pass runs the whole model.
+How does generation know when to stop?	The model predicts a special <|end|> token, which it learned during alignment.
+What is the logit lens?	Reading a prediction off the residual stream after each layer, not just the last. It shows the answer forming layer by layer.

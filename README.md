@@ -1,227 +1,187 @@
-<a href="https://Normansrule.github.io/transparent-transformer-llm/intro.html"><img src="assets/intro.gif" width="100%" alt="32-second animation: the prompt What is the weather in Los Angeles is typed, split into tokens, turned into vectors, passed through two transformer blocks with attention arcs and 256 perceptrons lighting up, scored, sampled token by token into the answer, and finally wrapped by the harness"></a>
+<a href="https://Normansrule.github.io/transparent-transformer-llm/intro.html"><img src="assets/intro.gif" width="100%" alt="32-second animation of the real model answering 'What is Los Angeles like in summer?': the prompt is typed, split into tokens, turned into vectors, passed through two transformer blocks with attention and 256 perceptrons lighting up, scored, and sampled token by token into the answer"></a>
 
-<p align="center"><sub>Every frame above is the real model at work, recorded from <a href="https://Normansrule.github.io/transparent-transformer-llm/intro.html">the live version</a>, where you can pause, jump to any scene, and replay it with your own prompt.</sub></p>
+<h1 align="center">transparent-transformer-llm</h1>
+
+<p align="center"><b>A complete language model you can see straight through.</b><br>
+Every stage visual. Every gradient written by hand. Every trick measured. Runs in your browser.</p>
 
 <p align="center">
-  <a href="https://Normansrule.github.io/transparent-transformer-llm/"><img src="https://img.shields.io/badge/run%20the%20model-live%20in%20your%20browser-FFB238?style=for-the-badge" alt="run the model live in your browser"></a>
-  <a href="stages/01_input/"><img src="https://img.shields.io/badge/start-lesson%201-6FE3B4?style=for-the-badge" alt="start lesson 1"></a>
-  <a href="https://github.com/Normansrule/transparent-transformer-llm/issues/new?template=ask-the-model.yml"><img src="https://img.shields.io/badge/ask%20the%20model-open%20an%20issue-FF6F61?style=for-the-badge" alt="ask the model open an issue"></a>
-  <a href="https://codespaces.new/Normansrule/transparent-transformer-llm"><img src="https://img.shields.io/badge/open%20in-Codespaces-5CC8FF?style=for-the-badge" alt="open in Codespaces"></a>
-  <a href="START_HERE.md"><img src="https://img.shields.io/badge/📚%20start-here-C9A7FF?style=for-the-badge" alt="start here"></a>
+<a href="stages/01_input/"><img src="https://img.shields.io/badge/▶%20start-lesson%201-6FE3B4?style=for-the-badge" alt="▶ start lesson 1"></a>
+<a href="https://Normansrule.github.io/transparent-transformer-llm/"><img src="https://img.shields.io/badge/🧪%20live-classroom-FFB238?style=for-the-badge" alt="🧪 live classroom"></a>
+<a href="https://Normansrule.github.io/transparent-transformer-llm/flashcards.html"><img src="https://img.shields.io/badge/📇%20study-113%20flashcards-9AD0FF?style=for-the-badge" alt="📇 study 113 flashcards"></a>
+<a href="understand/"><img src="https://img.shields.io/badge/🧭%20understand-6%20frames-C9A7FF?style=for-the-badge" alt="🧭 understand 6 frames"></a>
 </p>
 
-# transparent-transformer-llm
+<br>
 
-A **transparent transformer**: the architecture behind every modern chat assistant, built so you can see straight through it.
+## 🧭 Pick your path
 
-A complete Large Language Model (LLM) that is small enough to read in an afternoon and open enough that **nothing is hidden**: a tokenizer, a transformer, pretraining, backpropagation, alignment and sampling, each in its own short file, each with its own visual page.
+<table>
+<tr>
+<td align="center" width="33%"><a href="START_HERE.md"><b>🟢<br>New here?</b></a><br><sub>the lesson plan, in 3 minutes</sub></td>
+<td align="center" width="33%"><a href="https://Normansrule.github.io/transparent-transformer-llm/"><b>🧪<br>Play with the real model</b></a><br><sub>type a question, watch every stage</sub></td>
+<td align="center" width="33%"><a href="flashcards/"><b>📇<br>Flashcards</b></a><br><sub>113 cards, 10 decks, flip or read</sub></td>
+</tr>
+<tr>
+<td align="center" width="33%"><a href="https://Normansrule.github.io/transparent-transformer-llm/perceptron.html"><b>🧠<br>The perceptron</b></a><br><sub>draw a digit, watch neurons fire</sub></td>
+<td align="center" width="33%"><a href="https://Normansrule.github.io/transparent-transformer-llm/network.html"><b>🕸️<br>Inside the network</b></a><br><sub>every layer, every neuron, step by step</sub></td>
+<td align="center" width="33%"><a href="https://Normansrule.github.io/transparent-transformer-llm/harness.html"><b>🧰<br>The harness</b></a><br><sub>guards, tools, memory: live weather</sub></td>
+</tr>
+<tr>
+<td align="center" width="33%"><a href="https://Normansrule.github.io/transparent-transformer-llm/parameters.html"><b>📏<br>Parameters</b></a><br><sub>13 thousand to 175 billion, with sliders</sub></td>
+<td align="center" width="33%"><a href="understand/"><b>🧭<br>Understand the why</b></a><br><sub>AIMA, agents, history, minds</sub></td>
+<td align="center" width="33%"><a href="scrape/"><b>🌍<br>Field trip</b></a><br><sub>scrape real data, train a bigger model</sub></td>
+</tr>
+</table>
 
-You type one question:
+## 🎬 One question, start to finish
 
+```text
+you   ›  What is Los Angeles like in summer?
+model ›  In summer Los Angeles is usually hot and dry. People there often go to the beach.
 ```
-What is Los Angeles like in summer?
-```
 
-and this repository follows it through every stage until an answer comes out the other end:
+That answer came from **153,344 numbers**, trained in this repository in about four minutes on one laptop processor, with **no PyTorch and no hidden steps**: plain NumPy, every gradient written by hand under the code it belongs to, and a test that proves the calculus. The animation above is those numbers at work, and [the live classroom](https://Normansrule.github.io/transparent-transformer-llm/) replays it with any question you type.
 
-```
-In summer Los Angeles is usually hot and dry. People there often go to the beach.
-```
+## 🧠 The building block inside: the perceptron
 
-> [!NOTE]
-> **No PyTorch, no TensorFlow, no automatic differentiation.** The whole model is about 1,000 lines of plain NumPy, and every gradient is written by hand right under the code it belongs to. A test proves the calculus is correct. Training from scratch takes about four minutes on a laptop Central Processing Unit (CPU). No Graphics Processing Unit (GPU) is needed.
+<a href="https://Normansrule.github.io/transparent-transformer-llm/perceptron.html"><img src="assets/perceptron.gif" width="100%" alt="Handwritten digits flowing through a 784-16-16-10 multi-layer perceptron: neurons brighten with activation, weights glow blue and red as the signal passes, the right digit lights up"></a>
 
-## The neural network inside, the classic picture
+<p align="center"><sub>A real 784 → 16 → 16 → 10 network, 13,002 weights, trained here with hand-written backpropagation. <a href="https://Normansrule.github.io/transparent-transformer-llm/perceptron.html"><b>Draw your own digit</b></a> and click any neuron to see what it looks for. Every transformer block contains one of these. <a href="perceptron/">Lesson →</a></sub></p>
 
-<a href="https://Normansrule.github.io/transparent-transformer-llm/perceptron.html"><img src="assets/perceptron.gif" width="100%" alt="Animation: handwritten digits flow through a 784-16-16-10 multi-layer perceptron. Neurons brighten with their activation, weights glow blue and red as the signal passes, and the right digit lights up at the output"></a>
+## 🗺️ The course: eleven stages, one prompt
 
-<p align="center"><sub>A real 784 → 16 → 16 → 10 perceptron with 13,002 weights, trained in this repository with hand-written backpropagation. <a href="https://Normansrule.github.io/transparent-transformer-llm/perceptron.html">Draw your own digit</a> and click any neuron to see what it looks for. <a href="perceptron/">The lesson.</a> The same building block sits inside every transformer block.</sub></p>
+| | stage | the question it answers | | stage | the question it answers |
+|:-:|---|---|:-:|---|---|
+| 1 | [**Input**](stages/01_input/) | what does the computer receive? | 7 | [**Backpropagation**](stages/07_backpropagation/) | how does it learn from a mistake? |
+| 2 | [**Tokens**](stages/02_tokenizer/) | how does text become numbers? | 8 | [**Alignment**](stages/08_alignment/) | why does it answer, honestly and safely? |
+| 3 | [**Embedding**](stages/03_embedding/) | how can a number mean something? | 9 | [**Sampling**](stages/09_sampling/) | how is one word chosen? |
+| 4 | [**Transformer**](stages/04_transformer/) | what is the machine in the middle? | 10 | [**Output**](stages/10_output/) | how does it know when to stop? |
+| 5 | [**Attention**](stages/05_attention_closeup/) | how do words look at each other? | 11 | [**Harness**](stages/11_harness/) | what turns a model into an assistant? |
+| 6 | [**Pretraining**](stages/06_pretraining/) | where does knowledge come from? | 🌍 | [**Field trip**](scrape/) | what does real data change? |
 
-## The agent around the model: tricks, measured
+Every lesson follows the same rhythm: **🎯 predict → 👀 watch → 📖 read → 🧪 try → ✍️ build** (one small function, checked automatically) → **📇 review** with flashcards.
 
-<img src="assets/harness_pipeline.svg" width="100%" alt="Animated diagram: a message travels through nine harness parts: input guard, memory, normalizer, router, tool call, prompt builder, model, retry, output guard">
+## 🧰 The agent around the model: tricks, measured
 
-<img src="assets/agent_tricks.svg" width="100%" alt="Bar chart and heat map: 45 fixed test questions pass 36 percent with the bare model, 40 with the input guard, 60 with tools, 80 with the normalizer, 80 with retry, and 91 percent with the output fallback">
+<img src="assets/harness_pipeline.svg" width="100%" alt="A message travelling through nine harness parts: input guard, memory, normalizer, router, tool call, prompt builder, model, retry, output guard">
 
-The same tiny model goes from **36% to 91%** on a fixed test set, just by improving the software around it. Every trick can be switched off on the [live harness page](https://Normansrule.github.io/transparent-transformer-llm/harness.html), and `python -m transparent_transformer.agent_eval` re-measures all of them in about 20 seconds. Surprises included: retry added nothing, because this model's mistakes are systematic rather than random. [Stage 11](stages/11_harness/#tips-and-tricks-measured) explains each trick.
+<img src="assets/agent_tricks.svg" width="100%" alt="The same model passes 36% of 45 test questions bare and 91% with every harness trick on; heat map per category">
 
-## How big is big? Parameters, from 13 thousand to 175 billion
+**Same weights, 36% → 91%**, just by improving the software around the model. Every trick has an on/off switch on the [live harness page](https://Normansrule.github.io/transparent-transformer-llm/harness.html), and the surprises are part of the lesson: retrying added nothing, because this model's mistakes are systematic, not random. [Stage 11 →](stages/11_harness/#tips-and-tricks-measured)
 
-<a href="https://Normansrule.github.io/transparent-transformer-llm/parameters.html"><img src="assets/parameters.svg" width="100%" alt="Log-scale bar chart of parameter counts: the perceptron 13,002; the lesson model 153,344; real-data small 443,232; real-data medium 1,002,240; GPT-2 small 124 million; GPT-2 XL 1.56 billion; GPT-3 175 billion. Below, the lesson model's parameters: embedding 35 percent, attention 22, MLP 43"></a>
+## 🧭 Understand the why: six frames of reference
 
-Same recipe, different dials. The [parameters explorer](https://Normansrule.github.io/transparent-transformer-llm/parameters.html) lets you build any transformer with sliders and see its size, memory, compute per word and training cost. It uses the exact counting formula from `transformer.py`, which reproduces GPT-2 and GPT-3 to the digit.
+<a href="understand/"><img src="assets/course_map.svg" width="100%" alt="Map of the course: history, what is AI, agents, agent = harness + model, the transformer, training, AI at work, minds and machines"></a>
 
-## Learn it here, in the browser
+<table>
+<tr>
+<td width="50%"><a href="understand/1-what-is-ai.md"><img src="assets/ai_four_approaches.svg" alt="Four definitions of AI"></a><br><b><a href="understand/1-what-is-ai.md">1 · What is AI?</a></b> Four definitions, and why "acting rationally" won.</td>
+<td width="50%"><a href="understand/2-agents.md"><img src="assets/agent_loop.svg" alt="The agent loop"></a><br><b><a href="understand/2-agents.md">2 · Agents</a></b> <i>Agent = architecture + program</i> is the same idea as <i>agent = harness + model</i>.</td>
+</tr>
+<tr>
+<td><a href="understand/3-coding-agents.md"><img src="assets/six_components.svg" alt="Six components of a coding agent"></a><br><b><a href="understand/3-coding-agents.md">3 · Coding agents</a></b> The six components, mapped onto this repo and the GPT-2 agent project.</td>
+<td><a href="understand/4-history.md"><img src="assets/timeline.svg" alt="Timeline 1943 to 2026"></a><br><b><a href="understand/4-history.md">4 · History</a></b> From an artificial neuron in 1943 to AI in 86% of game studios.</td>
+</tr>
+<tr>
+<td><a href="understand/5-minds-and-machines.md"><img src="assets/theories_of_mind.svg" alt="Four theories of consciousness"></a><br><b><a href="understand/5-minds-and-machines.md">5 · Minds and machines</a></b> Orch OR, IIT and others: could this model ever be conscious?</td>
+<td><a href="understand/6-ai-at-work.md"><img src="assets/adoption.svg" alt="51% to 85.8% adoption"></a><br><b><a href="understand/6-ai-at-work.md">6 · AI at work</a></b> How professionals use these tools, and the guardrails they keep.</td>
+</tr>
+</table>
 
-This repository is a self-paced course. Every lesson is a page you read on GitHub, a stage you can poke at on the live website, and one small function you write. **New? Go to [START_HERE.md](START_HERE.md).**
+## 📇 Flashcards
 
-| do this | where |
-|---|---|
-| **Type any prompt and watch the real model process it**, stage by stage | [the classroom website](https://Normansrule.github.io/transparent-transformer-llm/): the model runs inside your browser |
-| **Watch the 32-second intro**, live and looping, then replay it with your own prompt | [intro](https://Normansrule.github.io/transparent-transformer-llm/intro.html), also at the top of the classroom page |
-| **The classic neural-network picture**, 3Blue1Brown style: draw a digit and watch it flow through 784 → 16 → 16 → 10 perceptrons, then open any neuron | [the perceptron](https://Normansrule.github.io/transparent-transformer-llm/perceptron.html) &middot; [lesson](perceptron/) |
-| **Build any transformer with sliders**: parameter count, memory, compute and training cost, against GPT-2 and GPT-3 | [parameters](https://Normansrule.github.io/transparent-transformer-llm/parameters.html) |
-| **Walk through the network itself**: every token a node, every layer a column, all 256 perceptrons of each block lit by their real activation, 16 steps with the numbers explained | [inside the network](https://Normansrule.github.io/transparent-transformer-llm/network.html) |
-| **See the harness**: guards, memory, a router, a live weather lookup, streaming, an output guard, each lighting up as it runs | [the harness](https://Normansrule.github.io/transparent-transformer-llm/harness.html) |
-| **Go deeper on the site**: rewind the tokenizer's training with a slider, hover a map of all 768 tokens, read a **logit lens**, see all attention heads at once, and reshape the sampling odds with live knobs | stages 2, 3, 4, 5 and 9 of the website |
-| **Read a lesson**: moving diagram, explanation, real output, click-to-reveal quiz | any folder in [`stages/`](stages/), right here on github.com |
-| **See the code run** without running it, or run it with one click | [`notebooks/`](notebooks/): rendered by GitHub, runnable in Colab |
-| **Ask the model a question** and get the full ten-stage breakdown as a reply | [open an "Ask the model" issue](https://github.com/Normansrule/transparent-transformer-llm/issues/new?template=ask-the-model.yml) |
-| **Build the pieces yourself**: ten small functions, checked automatically | [`classroom/exercises/`](classroom/exercises/) |
-| **Get a full terminal** in the browser | [open in Codespaces](https://codespaces.new/Normansrule/transparent-transformer-llm) |
+<a href="https://Normansrule.github.io/transparent-transformer-llm/flashcards.html"><img src="assets/flashcards.svg" width="100%" alt="A flashcard flipping from question to answer"></a>
 
-The lesson plan, how the exercises are checked, and a [glossary](GLOSSARY.md) are in **[START_HERE.md](START_HERE.md)**.
+**113 cards in 10 decks**, from tokens to theories of consciousness. [Flip them on the website](https://Normansrule.github.io/transparent-transformer-llm/flashcards.html) (it remembers what you know), [read them on GitHub](flashcards/), or [import them into Anki](flashcards/anki/). Try three right here:
 
-## Field trip: train it on real data you scraped
+<details><summary><b>🔟 What is the residual stream?</b></summary>
 
-The lesson model learned from made-up sentences about 32 cities, and it shows: misspell a city or ask a follow-up and it falls over. The **[field trip](scrape/)** has you collect real data (two years of daily weather for 160 cities from Open-Meteo, plus Wikipedia text), build a far richer training set from it, train a bigger model, and **measure** how much better it got.
+> The shared channel of token vectors flowing through the transformer. Every block reads it and **adds** its result; nothing overwrites it.
+
+</details>
+<details><summary><b>🤖 Agent = ? + ?</b> (two answers)</summary>
+
+> AIMA: **architecture + program**. The coding-agent course: **harness + model**. Same idea: the model only predicts; the code around it decides and acts.
+
+</details>
+<details><summary><b>📏 Why is GPT-2 small 124 million parameters in the paper but 163 million in some code?</b></summary>
+
+> **Weight tying.** Reusing the embedding table as the output layer saves exactly 50,257 × 768 = 38,597,376 numbers.
+
+</details>
+
+## 📏 How big is big?
+
+<a href="https://Normansrule.github.io/transparent-transformer-llm/parameters.html"><img src="assets/parameters.svg" width="100%" alt="Parameter counts on a log scale from the perceptron's 13,002 to GPT-3's 175 billion"></a>
+
+Same recipe, different dials. The [parameters explorer](https://Normansrule.github.io/transparent-transformer-llm/parameters.html) builds any transformer with sliders and reproduces GPT-2 and GPT-3 to the digit.
+
+<br>
+
+<details>
+<summary><h2>🛠️ Run it yourself</h2></summary>
+
+Ubuntu or Windows Subsystem for Linux (WSL). No graphics card, no PyTorch; the trained weights ship with the repository.
 
 ```bash
-python -m scrape.run     # about 25 minutes, polite and resumable
-make real                # corpus -> training -> report card -> website export   (30 to 60 minutes)
-TT_MODEL=real python chat.py
-```
-
-## The tour
-
-Each stage is a folder. Each folder has a page with a moving diagram drawn from the model's real numbers, a plain-language explanation, a script you can run, and a link that carries you to the next stage.
-
-| | stage | the question it answers | code |
-|:-:|---|---|---|
-| 1 | [**Input**](stages/01_input/) | What does the computer actually receive? | a string |
-| 2 | [**Tokenization**](stages/02_tokenizer/) | How does text become a short list of numbers? | [`tokenizer.py`](transparent_transformer/tokenizer.py) |
-| 3 | [**Embedding**](stages/03_embedding/) | How can an id number carry meaning? | [`embedding.py`](transparent_transformer/embedding.py) |
-| 4 | [**Transformer**](stages/04_transformer/) | What is the big machine in the middle? | [`transformer.py`](transparent_transformer/transformer.py) |
-| 5 | [**Close-up: attention**](stages/05_attention_closeup/) | How do tokens look at each other? | [`attention.py`](transparent_transformer/attention.py) &middot; [`layers.py`](transparent_transformer/layers.py) |
-| 6 | [**Pretraining**](stages/06_pretraining/) | Where does the knowledge come from? | [`pretrain.py`](transparent_transformer/pretrain.py) &middot; [`loss.py`](transparent_transformer/loss.py) |
-| 7 | [**Backpropagation**](stages/07_backpropagation/) | How does it learn from a mistake? | every `backward()` &middot; [`optimizer.py`](transparent_transformer/optimizer.py) |
-| 8 | [**Alignment**](stages/08_alignment/) | Why does it answer instead of rambling? | [`alignment.py`](transparent_transformer/alignment.py) |
-| 9 | [**Sampling**](stages/09_sampling/) | How is one word finally chosen? | [`sampling.py`](transparent_transformer/sampling.py) |
-| 10 | [**Output**](stages/10_output/) | How do tokens become an answer, and when does it stop? | [`trace.py`](transparent_transformer/trace.py) |
-| 11 | [**The harness**](stages/11_harness/) | What turns a next-token function into an assistant that remembers, looks things up and refuses? | [`harness.py`](transparent_transformer/harness.py) |
-
-## Two timelines, one map
-
-The most common confusion about Artificial Intelligence (AI) models is mixing up **using** a model with **making** one. The tour keeps them apart:
-
-```mermaid
-flowchart LR
-    subgraph RUN["every time you press Enter (milliseconds)"]
-      direction LR
-      I["1 input"] --> T["2 tokens"] --> E["3 embed"] --> X["4-5 transformer"] --> S["9 sample"] --> O["10 output"]
-      S -. "append the token, run again" .-> X
-    end
-    subgraph SHOP["the workshop: done once, in advance (minutes here, months for frontier models)"]
-      direction LR
-      P["6 pretraining<br/>knowledge"] --> B["7 backpropagation<br/>the learning rule"] --> A["8 alignment<br/>behaviour"]
-    end
-    SHOP == "produces the weights used by" ==> X
-```
-
-Stages 1 to 5 and 9 to 10 are the road your prompt travels. Stages 6 to 8 are a detour into the workshop to see how the transformer's 153,344 numbers got their values.
-
-## What the three checkpoints say
-
-The same prompt, sent to the three models saved in [`artifacts/`](artifacts/):
-
-| checkpoint | made by | answer to *What is the weather in Los Angeles?* |
-|---|---|---|
-| `base.npz` | pretraining only | *(does not answer; carries on writing weather documents)* |
-| `sft.npz` | + Supervised Fine-Tuning (SFT) | Right now it is 75 degrees and sunny in Los Angeles. &nbsp; &larr; *confidently invented* |
-| `aligned.npz` | + Direct Preference Optimization (DPO) | I cannot see live weather data, but Los Angeles is usually sunny and warm. |
-
-The aligned model also learned the third alignment goal, **harmlessness**: it declines threats, harassment, hoax weather warnings and "ignore your rules" attempts, while still answering safe questions that merely sound alarming. [Stage 8](stages/08_alignment/) explains how, and the website has a red-team panel to test it.
-
-<img src="assets/stage_08.svg" width="100%" alt="The three real outputs side by side">
-
-## Run it yourself
-
-Ubuntu, including Windows Subsystem for Linux (WSL):
-
-```bash
-sudo apt update && sudo apt install -y git python3 python3-venv python3-pip make
-git clone https://github.com/Normansrule/transparent-transformer-llm.git
-cd transparent-transformer-llm
+git clone https://github.com/Normansrule/transparent-transformer-llm.git && cd transparent-transformer-llm
 python3 -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
+
+python -m transparent_transformer.trace "What is Los Angeles like in summer?"   # every stage, animated in the terminal
+python chat.py                                     # talk to it
+python -m transparent_transformer.harness "What is the weather in San Pedro right now?"   # the full agent, live weather
+python -m transparent_transformer.agent_eval       # measure every harness trick
+python classroom/check.py                          # grade your exercises
+python -m pytest -q                                # prove the hand-written calculus
+make help                                          # everything else
 ```
 
-The trained weights ship with the repository (about 1 MB), so everything works immediately:
+Rebuild from nothing with `make train` (about 4 minutes), then `make classroom` to regenerate every page, diagram, notebook and flashcard.
+
+</details>
+
+<details>
+<summary><h2>🌍 Field trip: real data</h2></summary>
+
+The lesson model learned from made-up sentences about 32 cities. The [field trip](scrape/) scrapes two years of real daily weather for 160 cities from Open-Meteo plus Wikipedia text, trains a model three times bigger, and grades it against the real numbers.
 
 ```bash
-python -m transparent_transformer.trace "What is Los Angeles like in summer?"   # the whole journey, animated in your terminal
-python chat.py                                                   # talk to the aligned model
-python chat.py --base                                            # talk to the base model and watch it ramble
-make tour                                                        # run all ten stage demos back to back
-python -m pytest -q                                              # prove the hand-written gradients are right
+python -m scrape.run                 # about 25 minutes, polite and resumable
+nohup make real > /tmp/real.log 2>&1 &   # 30 to 60 minutes, resumes if interrupted
 ```
 
-Or rebuild everything from nothing:
+</details>
 
-```bash
-make train     # datasets -> tokenizer -> pretraining -> SFT -> DPO   (about 4 minutes on one CPU core)
-make classroom # redraw diagrams, refresh pages, re-run notebooks, re-export the browser model
-make intro     # re-record assets/intro.gif from the live film (needs playwright + ffmpeg)
-```
-
-Run `make help` for the full list.
-
-## Map of the repository
+<details>
+<summary><h2>📂 Map of the repository</h2></summary>
 
 ```
 transparent-transformer-llm/
-├── README.md                  you are here
-├── stages/                    THE TOUR: ten folders, one per stage
-│   └── 01_input/ ... 10_output/     README.md (visual page)  +  run.py (live demo)
-├── transparent_transformer/                  THE MODEL: one short file per idea
-│   ├── tokenizer.py           text <-> token ids       Byte Pair Encoding (BPE), trained from scratch
-│   ├── embedding.py           ids -> vectors
-│   ├── attention.py           tokens exchange information
-│   ├── layers.py              Linear, LayerNorm, GELU, Multi-Layer Perceptron (MLP)
-│   ├── transformer.py         blocks stacked into a Generative Pre-trained Transformer (GPT)
-│   ├── loss.py                cross-entropy: "how wrong was that?"
-│   ├── optimizer.py           AdamW: gradients -> better weights
-│   ├── pretrain.py            stage 6 training loop
-│   ├── alignment.py           stage 8: SFT and DPO
-│   ├── sampling.py            logits -> one token; the generation loop
-│   ├── trace.py               one prompt through everything, recorded
-│   ├── harness.py             stage 11: guard, memory, normalizer, router, tool, prompt, retry, output guard
-│   └── agent_eval.py          the evaluation harness: 45 test questions, every trick measured
-├── START_HERE.md              the lesson plan and how everything fits
-├── GLOSSARY.md                every term, in plain words, linked to its lesson
-├── classroom/                 ten exercises, the auto-grader, reference solutions, quiz bank
-├── notebooks/                 one executed notebook per lesson (GitHub renders them)
-├── perceptron/                SIDE TRIP: a 784-16-16-10 perceptron trained from scratch, and its lesson
-├── scrape/                    FIELD TRIP: polite scraper for Open-Meteo + Wikipedia, and its lesson page
-├── data_real/                 what you scraped, and the corpus built from it
-├── data/make_corpus.py        every sentence the model was ever shown
-├── artifacts/                 trained weights + training logs (committed, about 1 MB)
-├── assets/                    animated diagrams, generated by tools/make_visuals.py
-├── docs/                      the website: classroom (index), network walkthrough, harness; the model runs in the browser
-├── .github/                   robots: tests, homework grader, ask-the-model; issue forms
-├── .devcontainer/             one-click Codespaces terminal
-├── tests/                     numerical proof that backpropagation is correct
-└── tools/                     diagram generator + page refresher
+├── START_HERE.md            the lesson plan
+├── stages/                  11 lessons: README.md (visual page) + run.py (live demo) each
+├── understand/              6 frames of reference: AIMA, agents, coding agents, history, minds, AI at work
+├── flashcards/              113 cards: cards.json (source), README.md (on GitHub), anki/ (import files)
+├── perceptron/              side trip: a 784-16-16-10 perceptron trained from scratch
+├── transparent_transformer/ the model, one short file per idea, plus harness.py and agent_eval.py
+├── classroom/               ten exercises, the grader, solutions, quiz bank
+├── notebooks/               one executed notebook per lesson
+├── scrape/  data_real/      the field trip: polite scraper and the corpus built from it
+├── docs/                    the website: classroom, intro, perceptron, network, harness, parameters, flashcards
+├── assets/                  every animated diagram, generated from real numbers
+├── tools/                   the generators for diagrams, pages, notebooks, flashcards, GIFs
+└── tests/                   11 tests: gradients, harness, parameters, flashcards, scraper
 ```
 
-## Honest limits
+</details>
 
-This model has 153,344 parameters and read 190 thousand characters about the weather in 32 cities. A frontier model has around a million times more of both. So:
+## 📚 Credits and further reading
 
-- It only knows weather small talk. Ask it about anything else and it will answer about weather anyway.
-- It can be fluently wrong. Ask about Lisbon, which was held out of the alignment data, and it tends to tell you about London. [Stage 8](stages/08_alignment/) uses this as a worked example of a hallucination.
-- The **architecture and the training recipe are the real thing**. The same ten stages, with the same maths, run inside every large model you have used.
+- Stuart Russell and Peter Norvig, *Artificial Intelligence: A Modern Approach* (frames 1 and 2).
+- Sebastian Raschka, [*Components of a Coding Agent*](https://magazine.sebastianraschka.com/p/components-of-a-coding-agent), [mini-coding-agent](https://github.com/rasbt/mini-coding-agent) and [*Build a Large Language Model (From Scratch)*](https://github.com/rasbt/LLMs-from-scratch) (frame 3).
+- Andrej Karpathy, [nanoGPT](https://github.com/karpathy/nanoGPT); 3Blue1Brown, *Neural networks* video series; Vaswani et al., [*Attention Is All You Need*](https://arxiv.org/abs/1706.03762).
+- Hameroff and Penrose, [*Consciousness in the universe*](https://doi.org/10.1016/j.plrev.2013.08.002) (2014); Rasmussen, Hameroff et al., *Physica D* 42 (1990) (frame 5).
+- Weather data: [Open-Meteo](https://open-meteo.com) (CC BY 4.0). Text: Wikipedia (CC BY-SA 4.0).
 
-## Where to go next
-
-| if you want to... | try |
-|---|---|
-| see the recipe at the next scale up | Andrej Karpathy's *nanoGPT* and his video *Let's build GPT: from scratch, in code, spelled out* |
-| see beautiful animations of the same ideas | 3Blue1Brown's *Neural networks* series, chapters 5 to 7 |
-| read the original paper | *Attention Is All You Need*, Vaswani et al., 2017 |
-| understand preference tuning | *Direct Preference Optimization*, Rafailov et al., 2023 |
-| make this model bigger | edit [`transparent_transformer/config.py`](transparent_transformer/config.py), add text in [`data/make_corpus.py`](data/make_corpus.py), run `make all` |
-
-## License
-
-MIT. Use it to teach.
+<p align="center"><sub>MIT licence. Built to be taught from: fork it, change it, measure what you changed.</sub></p>

@@ -14,6 +14,10 @@ USER, REPO = "Normansrule", "transparent-transformer-llm"
 QUIZ = json.loads((ROOT / "classroom" / "quiz.json").read_text())
 
 
+def DECK_OF(n):
+    return "training" if n in (6, 7, 8) else "harness" if n == 11 else "the ten stages"
+
+
 def badge(label, msg, colour, url):
     img = f"https://img.shields.io/badge/{label}-{msg}-{colour}?style=for-the-badge".replace(" ", "%20")
     return f'<a href="{url}"><img src="{img}" alt="{label}: {msg}"></a>'
@@ -44,7 +48,8 @@ for i, d in enumerate(dirs):
               + badge("▶ run it yourself", "Colab", "C9A7FF", f"https://colab.research.google.com/github/{USER}/{REPO}/blob/main/notebooks/{d.name}.ipynb") + "\n") if n <= 10 else "")
           + (badge("✍️ build it", f"exercise {n:02d}", "6FE3B4", f"../../classroom/exercises/ex{n:02d}.py") + "\n" if n <= 10 else
              badge("🔌 live harness", "in your browser", "6FE3B4", f"https://{USER}.github.io/{REPO}/harness.html") + "\n")
-          + badge("💬 ask", "the model", "FF6F61", f"https://github.com/{USER}/{REPO}/issues/new?template=ask-the-model.yml") + "\n</p>\n<!-- /DO -->")
+          + badge("💬 ask", "the model", "FF6F61", f"https://github.com/{USER}/{REPO}/issues/new?template=ask-the-model.yml") + "\n"
+          + badge("📇 flashcards", DECK_OF(n), "9AD0FF", f"https://{USER}.github.io/{REPO}/flashcards.html#{DECK_OF(n).replace(' ', '-')}") + "\n</p>\n<!-- /DO -->")
     q = QUIZ[d.name]
     predict = (f"<!-- PREDICT -->\n> [!IMPORTANT]\n> **🎯 Predict before you read.** {q['predict']}\n>\n> Hold your answer in your head. You will check it at the bottom of the page.\n<!-- /PREDICT -->")
     if "<!-- PREDICT -->" not in text:
