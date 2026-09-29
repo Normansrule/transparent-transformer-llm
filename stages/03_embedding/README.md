@@ -64,17 +64,17 @@ input           : (9,) integers
 output          : (9, 64) floats
 
           'W' (id  87) -> [+0.09 +0.10 -0.24 -0.07 +0.16 +0.04 +0.25 -0.15 ...]
-        'hat' (id 362) -> [-0.02 -0.07 -0.28 +0.17 -0.03 -0.06 +0.00 -0.07 ...]
+        'hat' (id 362) -> [-0.02 -0.07 -0.28 +0.16 -0.04 -0.06 +0.00 -0.07 ...]
         ' is' (id 262) -> [-0.15 -0.11 -0.02 +0.21 +0.26 -0.11 -0.09 +0.14 ...]
        ' Los' (id 598) -> [-0.15 -0.02 -0.25 -0.21 -0.23 +0.17 -0.24 +0.07 ...]
 
 Nobody told the model what words mean. After training, tokens used in similar
 places have ended up with similar vectors. Nearest neighbours by cosine similarity:
 
-     ' sunny' ~ ' stormy' (0.52), ' cloudy' (0.48), ' rainy' (0.42), ' dry' (0.40), ' windy' (0.38)
-      ' cold' ~ ' cool' (0.46), ' hot' (0.41), ' cloudy' (0.38), ' very' (0.37), ' about' (0.36)
+     ' sunny' ~ ' stormy' (0.52), ' cloudy' (0.48), ' rainy' (0.43), ' dry' (0.40), ' windy' (0.38)
+      ' cold' ~ ' cool' (0.46), ' hot' (0.41), ' cloudy' (0.38), ' very' (0.36), ' about' (0.36)
     ' winter' ~ ' summer' (0.36), ' degrees' (0.35), 'ike' (0.30), ' People' (0.29), ' Oslo' (0.28)
-     ' Tokyo' ~ ' Boston' (0.54), ' London' (0.51), ' Beijing' (0.50), ' Miami' (0.48), ' Toronto' (0.46)
+     ' Tokyo' ~ ' Boston' (0.54), ' London' (0.51), ' Beijing' (0.50), ' Miami' (0.48), ' Seoul' (0.46)
         ' is' ~ ' usually' (0.31), ' Aires' (0.28), ' very' (0.27), ' nice' (0.25), ' from' (0.24)
 
 ->  python stages/04_transformer/run.py

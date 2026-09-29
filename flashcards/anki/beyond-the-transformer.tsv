@@ -1,0 +1,11 @@
+What two costs of the transformer do most new architectures attack?	Attention's cost grows with the square of the context length, and generation produces only one token per full pass.
+What is a mixture of experts?	Many expert MLPs per block plus a router that sends each token to only a few, so total parameters grow while compute per token stays small.
+Total versus active parameters?	Total: every weight the model holds. Active: the weights one token actually uses. Jamba: 52 billion total, 12 billion active.
+How does a state space model process a sequence?	It squeezes the history into a fixed-size state, h = A·h + B·x, and reads out y = C·h. Each token costs the same however long the history.
+What did Mamba add to state space models?	Input-dependent (selective) dynamics, so the model chooses what to remember and what to forget.
+Why do shipping models use SSM-attention hybrids?	A fixed-size state cannot recall everything exactly; a few attention layers restore precise lookup while SSM layers keep long contexts cheap.
+How does a diffusion language model generate text?	It starts with every position masked, predicts all of them in parallel, keeps the confident ones, and refines over a few passes.
+Name three diffusion language models.	LLaDA (research), Mercury from Inception Labs (first commercial-scale), and Google's experimental Gemini Diffusion.
+What makes a reasoning model different?	It writes intermediate thinking before answering and is trained with reinforcement learning on problems whose answers can be checked.
+What is a Kolmogorov–Arnold Network (KAN)?	A network with learnable functions on its connections instead of fixed activation functions on its neurons.
+Where does quantum machine learning stand?	An active research area with variational quantum circuits; no practical advantage for large-scale learning has been shown yet.

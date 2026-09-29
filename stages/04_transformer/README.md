@@ -112,11 +112,11 @@ THE FORWARD PASS  (B = batch, T = tokens, d = d_model, V = vocab_size)
    logits                        (1, 11, 768)       (B, T, V)   one score per vocabulary entry, per position
 
 the 5 highest-scoring next tokens after the prompt:
-        ' In'  logit +17.58
-     ' rainy'  logit +9.31
-        'age'  logit +9.20
-         ' Y'  logit +8.92
-       ' now'  logit +8.43
+        ' In'  logit +18.08
+     ' rainy'  logit +9.64
+          'n'  logit +8.41
+       ' now'  logit +8.28
+    ' People'  logit +7.47
 
 Logits are raw scores, not probabilities yet. Stage 9 handles that.
 ->  python stages/05_attention_closeup/run.py

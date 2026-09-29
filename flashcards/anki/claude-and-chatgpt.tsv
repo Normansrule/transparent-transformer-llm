@@ -1,0 +1,9 @@
+What does Anthropic publish to describe how Claude should behave?	A constitution: a long document of values and reasons, released January 2026 into the public domain (CC0) and used directly in training.
+The constitution's four priorities, in order?	Broadly safe, broadly ethical, compliant with Anthropic's guidelines, genuinely helpful.
+What does OpenAI publish to describe how its models should behave?	The Model Spec, a living document it updates openly (for example in August 2026).
+What is RLHF, as in InstructGPT (2022)?	People rank sample answers, a reward model learns those preferences, and reinforcement learning pushes the model towards high-reward answers.
+What is Constitutional AI (2022)?	Written principles guide AI feedback that critiques, revises and ranks the model's own answers, reducing how many human labels are needed.
+How is stage 8d a miniature of Constitutional AI?	Six written principles with automatic graders score the model's own sampled answers; it trains on its best versus worst ones.
+Do Anthropic or OpenAI publish parameter counts for current models?	No. Since GPT-3 (175 billion, 2020), frontier parameter counts are outside estimates.
+What did GPT-5 (2025) add to ChatGPT's harness?	A router that decides when to answer quickly and when to spend longer reasoning.
+Why did red-teaming make self-improvement work here?	On familiar prompts the model rarely broke a principle, so there was nothing to learn. New, harder wordings exposed failures to train on.

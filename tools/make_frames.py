@@ -247,7 +247,7 @@ def flashcards_banner():
     b.append(f'<g transform="translate({cx} 0)"><g><g transform="translate({-cx} 0)">{back}</g>{anim("0 1;0 1;0 1;1 1;1 1;0 1", "0;0.35;0.45;0.55;0.9;1")}</g></g>')
     for i, (lab, col) in enumerate([("✗ again", CORAL), ("✓ knew it", MINT)]):
         b.append(box(cx - 170 + i * 180, 280, 160, 40, col, "none", 10, 0) + text(cx - 90 + i * 180, 306, lab, 15, "#0B1E33", SANS, "middle", "700"))
-    b.append(text(40, 70, "113 cards, 10 decks: on the website, readable on GitHub, or in Anki", 13, MUTED, SANS))
+    b.append(text(40, 70, "133 cards, 12 decks: on the website, readable on GitHub, or in Anki", 13, MUTED, SANS))
     return frame(350, "".join(b), "flashcards  /  every idea in the course, one card at a time")
 
 
@@ -262,3 +262,132 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+# ---------------------------------------------------------------- frame 7: beyond the transformer
+def beyond_landscape():
+    b, cx, cy = [], W / 2, 222
+    items = [("mixture of experts", "many MLPs, a router picks a few", CYAN), ("state space + hybrids", "linear time, constant memory", MINT),
+             ("diffusion LMs", "write all at once, then refine", VIOLET), ("reasoning models", "think before answering", CORAL),
+             ("KANs", "learnable curves on the edges", MUTED), ("spiking / neuromorphic", "event-driven, brain-like", MUTED),
+             ("world models / JEPA", "predict in abstract space", MUTED), ("quantum ML", "variational quantum circuits", MUTED)]
+    xs = [130, 367, 594, 830]
+    for i, (t, sub, col) in enumerate(items):
+        x, y = xs[i % 4], (100 if i < 4 else 346)
+        t0 = 0.05 + 0.1 * i
+        dash = "" if col != MUTED else ' stroke-dasharray="5 5"'
+        g = [f'<line x1="{cx}" y1="{cy + (-38 if i < 4 else 38)}" x2="{x:.0f}" y2="{y + (26 if i < 4 else -26)}" stroke="{col}" stroke-width="1.6"{dash}/>',
+             box(x - 110, y - 26, 220, 52, PANEL, col, 10, 1.8), text(x, y - 3, t, 14, INK if col != MUTED else "#AFC6DD", SANS, "middle", "700"), text(x, y + 15, sub, 11.5, MUTED, SANS, "middle")]
+        b.append(f'<g opacity="0">{appear(t0, 0.97, 10)}{"".join(g)}</g>')
+    b.append(box(cx - 115, cy - 38, 230, 76, PANEL, AMBER, 16, 2.4) + text(cx, cy - 4, "the transformer", 18, INK, SANS, "middle", "700") + text(cx, cy + 18, "attention + perceptrons", 12, MUTED, SANS, "middle"))
+    b.append(text(40, 60, "top row: shipping in production models today", 12.5, INK, SANS) + text(40, 406, "bottom row: experimental", 12.5, MUTED, SANS))
+    return frame(420, "".join(b), "frame 7  /  the transformer and the ideas challenging it")
+
+
+def moe():
+    b, dur = [], 8
+    b.append(box(60, 150, 120, 60, PANEL, AMBER, 10, 2) + text(120, 186, "token", 15, INK, SANS, "middle", "700"))
+    b.append(box(250, 150, 120, 60, PANEL, CYAN, 10, 2) + text(310, 178, "router", 15, CYAN, SANS, "middle", "700") + text(310, 196, "scores 8 experts", 11, MUTED, SANS, "middle"))
+    b.append(arrow(182, 180, 248, 180, MUTED, 2))
+    picks = [(0, 3), (5, 1), (2, 6), (7, 4)]
+    for e in range(8):
+        y = 60 + e * 36
+        b.append(box(470, y, 170, 28, PANEL, GRID, 6, 1.2) + text(555, y + 19, f"expert {e + 1} (an MLP)", 12, MUTED, SANS, "middle"))
+        for k, pair in enumerate(picks):
+            if e in pair:
+                t0, t1 = k / len(picks), (k + 1) / len(picks)
+                b.append(f'<rect x="470" y="{y}" width="170" height="28" rx="6" fill="{MINT}" opacity="0"><animate attributeName="opacity" dur="{dur}s" repeatCount="indefinite" values="0;0;0.55;0.55;0;0" keyTimes="0;{t0:.3f};{t0 + 0.02:.3f};{t1 - 0.02:.3f};{t1:.3f};1"/></rect>')
+                b.append(f'<line x1="372" y1="180" x2="468" y2="{y + 14}" stroke="{MINT}" stroke-width="2.4" opacity="0"><animate attributeName="opacity" dur="{dur}s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;{t0:.3f};{t0 + 0.02:.3f};{t1 - 0.02:.3f};{t1:.3f};1"/></line>')
+    b.append(lines(680, 120, ["each token uses 2 of 8 experts:", "8 experts' worth of knowledge,", "about 2 experts' worth of compute", "", "Jamba: 52B total, 12B active"], 13.5, INK))
+    return frame(370, "".join(b), "frame 7  /  mixture of experts: a router sends each token to a few experts")
+
+
+def complexity():
+    b, x0, y0, w, h = [], 90, 80, 780, 250
+    b.append(f'<path d="M{x0} {y0}V{y0 + h}H{x0 + w}" fill="none" stroke="{MUTED}"/>' + text(x0, y0 - 10, "compute to process the whole context (relative)", 12.5, MUTED, SANS) + text(x0 + w, y0 + h + 24, "context length →", 12.5, MUTED, SANS, "end"))
+    curves = [("attention (transformer): grows with n²", lambda u: u * u, CORAL), ("hybrid (1 attention : 7 SSM layers)", lambda u: 0.125 * u * u + 0.875 * u * 0.35, AMBER), ("state space model: grows with n", lambda u: u * 0.35, MINT)]
+    for i, (lab, f, col) in enumerate(curves):
+        pts = " ".join(f"{x0 + w * k / 60:.1f},{y0 + h - h * f(k / 60):.1f}" for k in range(61))
+        b.append(f'<polyline points="{pts}" fill="none" stroke="{col}" stroke-width="3" pathLength="100" stroke-dasharray="100" stroke-dashoffset="100"><animate attributeName="stroke-dashoffset" values="100;0;0" keyTimes="0;0.5;1" dur="7s" begin="{i * 0.5}s" fill="freeze"/></polyline>')
+        b.append(f'<rect x="{x0 + 20}" y="{y0 + 12 + i * 24}" width="18" height="4" fill="{col}"/>' + text(x0 + 46, y0 + 18 + i * 24, lab, 13, INK, SANS))
+    return frame(380, "".join(b), "frame 7  /  why long contexts push towards state space models")
+
+
+def ar_vs_diffusion():
+    words = ["In", "summer", "Los", "Angeles", "is", "usually", "hot", "and", "dry."]
+    b, dur, n = [], 10, len(words)
+    b.append(text(40, 78, "autoregressive (this repository, stage 10): one token per full pass, left to right", 13, AMBER, SANS, weight="600"))
+    b.append(text(40, 208, "diffusion: every position starts masked; each pass fills in the ones it is most sure of", 13, VIOLET, SANS, weight="600"))
+    xs, x = [], 40
+    for wd in words:
+        xs.append(x); x += len(wd) * 11 + 30
+    for i, wd in enumerate(words):
+        t0 = 0.05 + 0.8 * i / n
+        b.append(box(xs[i], 100, len(wd) * 11 + 20, 34, PANEL, GRID, 6, 1) + f'<g opacity="0">{appear(t0, 0.97, dur)}{box(xs[i], 100, len(wd) * 11 + 20, 34, AMBER, "none", 6, 0)}{text(xs[i] + 10, 123, wd, 15, "#0B1E33", MONO, weight="600")}</g>')
+    order = [3, 6, 8, 2, 5, 0, 7, 1, 4]
+    steps = [order[:3], order[3:6], order[6:]]
+    for i, wd in enumerate(words):
+        step = next(k for k, s in enumerate(steps) if i in s)
+        t0 = 0.12 + 0.28 * step
+        b.append(box(xs[i], 230, len(wd) * 11 + 20, 34, PANEL, GRID, 6, 1) + f'<g>{text(xs[i] + 10, 253, "[mask]", 12, MUTED, MONO)}<animate attributeName="opacity" dur="{dur}s" repeatCount="indefinite" values="1;1;0;0;1" keyTimes="0;{t0:.3f};{t0 + 0.02:.3f};0.97;1"/></g>'
+                 f'<g opacity="0">{appear(t0, 0.97, dur)}{box(xs[i], 230, len(wd) * 11 + 20, 34, VIOLET, "none", 6, 0)}{text(xs[i] + 10, 253, wd, 15, "#0B1E33", MONO, weight="600")}</g>')
+    for k in range(3):
+        b.append(f'<g opacity="0">{appear(0.12 + 0.28 * k, 0.97, dur)}{text(40 + k * 150, 300, f"pass {k + 1}", 12, VIOLET, MONO)}</g>')
+    b.append(text(40, 332, "9 passes versus 3 passes for the same sentence. (Illustration: this repository's model is autoregressive.)", 12.5, MUTED, SANS))
+    return frame(352, "".join(b), "frame 7  /  two ways to write a sentence")
+
+
+# ---------------------------------------------------------------- frame 8: three scales
+def three_scales():
+    rows = ["tokenizer", "architecture", "pretraining data", "alignment", "reasoning", "harness"]
+    cols = [("this repository", AMBER, ["768-token BPE", "2 blocks, 153,344 parameters", "188 thousand characters", "SFT, DPO, self-grading", "none", "guard, tools, checks"], [1, 1, 1, 1, 1, 1]),
+            ("Claude", CYAN, ["not published in detail", "not published", "not published", "human + AI feedback, constitution", "extended thinking", "tools, search, memory, agents"], [0, 0, 0, 1, 1, 1]),
+            ("ChatGPT", MINT, ["some tokenizers open source", "not published", "not published", "human feedback, Model Spec", "reasoning models, router", "tools, search, memory, agents"], [1, 0, 0, 1, 1, 1])]
+    b, x0, cw, rh = [], 176, 236, 44
+    for j, (name, col, cells, pub) in enumerate(cols):
+        x = x0 + j * (cw + 12)
+        b.append(box(x, 70, cw, 36, col, "none", 8, 0) + text(x + cw / 2, 94, name, 15, "#0B1E33", SANS, "middle", "700"))
+        for i, (cell, p) in enumerate(zip(cells, pub)):
+            y, t0 = 116 + i * rh, 0.04 + 0.08 * i + 0.02 * j
+            g = box(x, y, cw, rh - 6, PANEL if p else "#0F2A47", col if p else GRID, 6, 1.2 if p else 1) + text(x + 12, y + 24, cell, 12, INK if p else MUTED, SANS)
+            b.append(f'<g opacity="0">{appear(t0, 0.97, 10)}{g}</g>')
+    for i, r in enumerate(rows):
+        b.append(text(x0 - 14, 116 + i * rh + 24, r, 13, MUTED, SANS, "end", "600"))
+    yb = 116 + len(rows) * rh + 14
+    b.append(text(40, yb, "outlined = published or measurable      dim = not published. Sources in understand/8-claude-and-chatgpt.md", 12, MUTED, SANS))
+    return frame(yb + 22, "".join(b), "frame 8  /  the same recipe at three scales")
+
+
+def self_improve_chart():
+    import json as _j
+    f = ASSETS.parent / "artifacts" / "self_improve_log.json"
+    if not f.exists():
+        return None
+    lg = _j.loads(f.read_text())
+    stages = [("before", lg["before"])] + [(f"after round {r['round']}", r["after"]) for r in lg["rounds"]]
+    metrics = [("refuses harmful (held out)", "refuses_harmful", MINT), ("honest when sampled", "honest_sampled", CYAN), ("45-question test, no harness", "bare_model_test", AMBER), ("wrongly refuses safe", "refuses_safe", CORAL)]
+    b, x0, gw = [], 250, 200
+    for j, (name, _) in enumerate(stages):
+        b.append(text(x0 + j * gw + gw / 2 - 10, 80, name, 13, INK, SANS, "middle", "600"))
+    for i, (lab, key, col) in enumerate(metrics):
+        y = 100 + i * 50
+        b.append(text(x0 - 16, y + 20, lab, 13, INK, SANS, "end"))
+        for j, (_, m) in enumerate(stages):
+            v, x = m[key], x0 + j * gw
+            b.append(box(x, y, gw - 40, 28, PANEL, GRID, 5, 1) + f'<rect x="{x}" y="{y}" width="{max(2, (gw - 40) * v):.0f}" height="28" rx="5" fill="{col}"><animate attributeName="width" values="0;{max(2, (gw - 40) * v):.0f};{max(2, (gw - 40) * v):.0f}" keyTimes="0;0.3;1" dur="6s" begin="{j * 0.5}s" fill="freeze"/></rect>' + text(x + gw - 34, y + 19, f"{v:.0%}", 12, INK, MONO))
+    b.append(text(40, 100 + len(metrics) * 50 + 14, f"{'kept' if lg.get('kept') else 'not kept'}: every number is measured on questions the practice prompts never contained", 12.5, MUTED, SANS))
+    return frame(100 + len(metrics) * 50 + 34, "".join(b), "stage 8d  /  learning from its own answers, graded by a written constitution")
+
+
+def main2():
+    out = {"beyond_landscape": beyond_landscape(), "moe": moe(), "complexity": complexity(), "ar_vs_diffusion": ar_vs_diffusion(), "three_scales": three_scales()}
+    si = self_improve_chart()
+    if si:
+        out["self_improve"] = si
+    for k, v in out.items():
+        (ASSETS / f"{k}.svg").write_text(v)
+    print(f"wrote {len(out)} more diagrams -> assets/")
+
+
+if __name__ == "__main__":
+    main2()

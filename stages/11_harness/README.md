@@ -135,7 +135,8 @@ We tried three fixes. The numbers are real measurements from this repository:
 | + 1,400 random invented names, the **copy drill** | **4 of 10**; the misses are near-copies: *Torrance* → *Torcece*, *Zorvik* → *Zorvikik* | 60% |
 | copy drill + 16 copies of every safety example | 1 of 10 | 53%, and replies start repeating themselves |
 | previous release: the 160 real names twice, safety examples 9 times | San Pedro → *San Peha* (close, not exact) | 80% |
-| **shipped:** same, plus climate conversations (*What is Los Angeles like in summer?*) | San Pedro copied exactly | 60% |
+| previous: same, plus climate conversations (*What is Los Angeles like in summer?*) | San Pedro copied exactly | 60% |
+| **shipped:** same, plus two rounds of self-grading against a written constitution ([stage 8d](../08_alignment/#8d-learning-from-its-own-answers)) | San Pedro copied exactly | **80%** |
 
 Rows A and B are the same recipe and differ by 27 points. The last two rows show the same squeeze again: teaching one more skill (climate questions) cost refusal accuracy. Training the preference step more than twice as long did not win it back either. The safety test has only 15 prompts, and a model this small is sensitive to the order it sees its data in, so treat any single number here as roughly ±20 points. That, too, is a real lesson: **one training run is an anecdote.** Serious evaluations repeat runs with different seeds and use far larger test sets.
 

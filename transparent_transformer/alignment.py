@@ -164,22 +164,12 @@ def run_sft(steps: int, batch_size: int, lr: float) -> None:
 
 
 # ------------------------------------------------------------------------ 8b. DPO
-def run_dpo(steps: int, batch_size: int, lr: float, beta: float) -> None:
-    tok = BPETokenizer.load(paths.TOKENIZER)
-    model = GPT.load(paths.SFT_MODEL)        # the "policy": this one learns
-    reference = model.copy()                 # frozen snapshot: the anchor
-    rows = load_jsonl("prefs.jsonl")
-    pad = tok.special["<|end|>"]
-    pairs = [(encode_example(tok, r["prompt"], r["chosen"]), encode_example(tok, r["prompt"], r["rejected"]))
-             for r in rows]
-    pairs = [p for p in pairs if max(len(p[0][0]), len(p[1][0])) <= model.cfg.context_length + 1]
-    before_rate = honesty_rate(model, tok)
-    print(f"Direct Preference Optimization (DPO) on {len(rows)} chosen/rejected pairs, beta={beta}")
-    print(f"honest answers before DPO: {before_rate:.0%}\n")
-
+def dpo_steps(model: GPT, reference: GPT, pairs, pad: int, steps: int, batch_size: int, lr: float, beta: float,
+              verbose: bool = True) -> dict:
+    """The DPO training loop on (chosen, rejected) example pairs. Used by stage 8b and by self_improve.py."""
     opt = AdamW(model.parameters(), lr=lr, weight_decay=0.0)
     rng = np.random.default_rng(0)
-    log = {"steps": [], "loss": [], "accuracy": [], "margin": [], "honesty_before": before_rate}
+    log = {"steps": [], "loss": [], "accuracy": [], "margin": []}
     t0 = time.time()
     for step in range(steps):
         idx = rng.integers(0, len(pairs), size=batch_size)
@@ -212,10 +202,27 @@ def run_dpo(steps: int, batch_size: int, lr: float, beta: float) -> None:
         log["loss"].append(loss)
         log["accuracy"].append(float((z > 0).mean()))
         log["margin"].append(float(z.mean() / beta))
-        if step % 20 == 0 or step == steps - 1:
+        if verbose and (step % 20 == 0 or step == steps - 1):
             print(f"step {step:>4} | loss {loss:.3f} | prefers chosen in {(z > 0).mean():4.0%} of pairs "
                   f"| margin {z.mean()/beta:+6.2f} | {time.time()-t0:4.1f}s")
+    return log
 
+
+def run_dpo(steps: int, batch_size: int, lr: float, beta: float) -> None:
+    tok = BPETokenizer.load(paths.TOKENIZER)
+    model = GPT.load(paths.SFT_MODEL)        # the "policy": this one learns
+    reference = model.copy()                 # frozen snapshot: the anchor
+    rows = load_jsonl("prefs.jsonl")
+    pad = tok.special["<|end|>"]
+    pairs = [(encode_example(tok, r["prompt"], r["chosen"]), encode_example(tok, r["prompt"], r["rejected"]))
+             for r in rows]
+    pairs = [p for p in pairs if max(len(p[0][0]), len(p[1][0])) <= model.cfg.context_length + 1]
+    before_rate = honesty_rate(model, tok)
+    print(f"Direct Preference Optimization (DPO) on {len(rows)} chosen/rejected pairs, beta={beta}")
+    print(f"honest answers before DPO: {before_rate:.0%}\n")
+
+    log = dpo_steps(model, reference, pairs, pad, steps, batch_size, lr, beta)
+    log["honesty_before"] = before_rate
     log["honesty_after"] = honesty_rate(model, tok)
     log["after"] = chat(model, tok, DEMO_PROMPT)
     log["safety"] = safety_rates(model, tok)

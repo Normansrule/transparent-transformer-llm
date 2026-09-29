@@ -1,4 +1,4 @@
-<p align="center"><a href="5-minds-and-machines.md">&larr; Minds and machines</a> &nbsp;&middot;&nbsp; <a href="README.md">all frames</a> &nbsp;&middot;&nbsp; <a href="README.md"><b>all frames &rarr;</b></a></p>
+<p align="center"><a href="5-minds-and-machines.md">&larr; Minds and machines</a> &nbsp;&middot;&nbsp; <a href="README.md">all frames</a> &nbsp;&middot;&nbsp; <a href="7-beyond-the-transformer.md"><b>Beyond the transformer &rarr;</b></a></p>
 
 # 6 · AI at work
 

@@ -2,7 +2,7 @@
 
 <a href="https://Normansrule.github.io/transparent-transformer-llm/flashcards.html"><img src="../assets/flashcards.svg" width="100%" alt="A flashcard flipping from question to answer"></a>
 
-**113 cards in 10 decks.** Three ways to study them:
+**133 cards in 12 decks.** Three ways to study them:
 
 | | how | best for |
 |---|---|---|
@@ -22,6 +22,8 @@
 | 📜 [history](#history) | 12 | [flip](https://Normansrule.github.io/transparent-transformer-llm/flashcards.html#history) |
 | 🌌 [minds and machines](#minds-and-machines) | 11 | [flip](https://Normansrule.github.io/transparent-transformer-llm/flashcards.html#minds-and-machines) |
 | 🏢 [AI at work](#ai-at-work) | 5 | [flip](https://Normansrule.github.io/transparent-transformer-llm/flashcards.html#ai-at-work) |
+| 🚀 [beyond the transformer](#beyond-the-transformer) | 11 | [flip](https://Normansrule.github.io/transparent-transformer-llm/flashcards.html#beyond-the-transformer) |
+| ⚖️ [claude and chatgpt](#claude-and-chatgpt) | 9 | [flip](https://Normansrule.github.io/transparent-transformer-llm/flashcards.html#claude-and-chatgpt) |
 
 <a id="the-ten-stages"></a>
 
@@ -760,3 +762,135 @@
 </details>
 
 <p align="right"><a href="https://Normansrule.github.io/transparent-transformer-llm/flashcards.html#ai-at-work">study this deck with flip cards →</a></p>
+
+<a id="beyond-the-transformer"></a>
+
+## 🚀 beyond the transformer
+
+<details><summary><b>What two costs of the transformer do most new architectures attack?</b></summary>
+
+> Attention's cost grows with the square of the context length, and generation produces only one token per full pass. &nbsp;<sub><a href="https://github.com/Normansrule/transparent-transformer-llm/blob/main/understand/7-beyond-the-transformer.md">learn more</a></sub>
+
+</details>
+
+<details><summary><b>What is a mixture of experts?</b></summary>
+
+> Many expert MLPs per block plus a router that sends each token to only a few, so total parameters grow while compute per token stays small. &nbsp;<sub><a href="https://github.com/Normansrule/transparent-transformer-llm/blob/main/understand/7-beyond-the-transformer.md">learn more</a></sub>
+
+</details>
+
+<details><summary><b>Total versus active parameters?</b></summary>
+
+> Total: every weight the model holds. Active: the weights one token actually uses. Jamba: 52 billion total, 12 billion active. &nbsp;<sub><a href="https://github.com/Normansrule/transparent-transformer-llm/blob/main/understand/7-beyond-the-transformer.md">learn more</a></sub>
+
+</details>
+
+<details><summary><b>How does a state space model process a sequence?</b></summary>
+
+> It squeezes the history into a fixed-size state, h = A·h + B·x, and reads out y = C·h. Each token costs the same however long the history. &nbsp;<sub><a href="https://github.com/Normansrule/transparent-transformer-llm/blob/main/understand/7-beyond-the-transformer.md">learn more</a></sub>
+
+</details>
+
+<details><summary><b>What did Mamba add to state space models?</b></summary>
+
+> Input-dependent (selective) dynamics, so the model chooses what to remember and what to forget. &nbsp;<sub><a href="https://github.com/Normansrule/transparent-transformer-llm/blob/main/understand/7-beyond-the-transformer.md">learn more</a></sub>
+
+</details>
+
+<details><summary><b>Why do shipping models use SSM-attention hybrids?</b></summary>
+
+> A fixed-size state cannot recall everything exactly; a few attention layers restore precise lookup while SSM layers keep long contexts cheap. &nbsp;<sub><a href="https://github.com/Normansrule/transparent-transformer-llm/blob/main/understand/7-beyond-the-transformer.md">learn more</a></sub>
+
+</details>
+
+<details><summary><b>How does a diffusion language model generate text?</b></summary>
+
+> It starts with every position masked, predicts all of them in parallel, keeps the confident ones, and refines over a few passes. &nbsp;<sub><a href="https://github.com/Normansrule/transparent-transformer-llm/blob/main/understand/7-beyond-the-transformer.md">learn more</a></sub>
+
+</details>
+
+<details><summary><b>Name three diffusion language models.</b></summary>
+
+> LLaDA (research), Mercury from Inception Labs (first commercial-scale), and Google's experimental Gemini Diffusion. &nbsp;<sub><a href="https://github.com/Normansrule/transparent-transformer-llm/blob/main/understand/7-beyond-the-transformer.md">learn more</a></sub>
+
+</details>
+
+<details><summary><b>What makes a reasoning model different?</b></summary>
+
+> It writes intermediate thinking before answering and is trained with reinforcement learning on problems whose answers can be checked. &nbsp;<sub><a href="https://github.com/Normansrule/transparent-transformer-llm/blob/main/understand/7-beyond-the-transformer.md">learn more</a></sub>
+
+</details>
+
+<details><summary><b>What is a Kolmogorov–Arnold Network (KAN)?</b></summary>
+
+> A network with learnable functions on its connections instead of fixed activation functions on its neurons. &nbsp;<sub><a href="https://github.com/Normansrule/transparent-transformer-llm/blob/main/understand/7-beyond-the-transformer.md">learn more</a></sub>
+
+</details>
+
+<details><summary><b>Where does quantum machine learning stand?</b></summary>
+
+> An active research area with variational quantum circuits; no practical advantage for large-scale learning has been shown yet. &nbsp;<sub><a href="https://github.com/Normansrule/transparent-transformer-llm/blob/main/understand/7-beyond-the-transformer.md">learn more</a></sub>
+
+</details>
+
+<p align="right"><a href="https://Normansrule.github.io/transparent-transformer-llm/flashcards.html#beyond-the-transformer">study this deck with flip cards →</a></p>
+
+<a id="claude-and-chatgpt"></a>
+
+## ⚖️ claude and chatgpt
+
+<details><summary><b>What does Anthropic publish to describe how Claude should behave?</b></summary>
+
+> A constitution: a long document of values and reasons, released January 2026 into the public domain (CC0) and used directly in training. &nbsp;<sub><a href="https://github.com/Normansrule/transparent-transformer-llm/blob/main/understand/8-claude-and-chatgpt.md">learn more</a></sub>
+
+</details>
+
+<details><summary><b>The constitution's four priorities, in order?</b></summary>
+
+> Broadly safe, broadly ethical, compliant with Anthropic's guidelines, genuinely helpful. &nbsp;<sub><a href="https://github.com/Normansrule/transparent-transformer-llm/blob/main/understand/8-claude-and-chatgpt.md">learn more</a></sub>
+
+</details>
+
+<details><summary><b>What does OpenAI publish to describe how its models should behave?</b></summary>
+
+> The Model Spec, a living document it updates openly (for example in August 2026). &nbsp;<sub><a href="https://github.com/Normansrule/transparent-transformer-llm/blob/main/understand/8-claude-and-chatgpt.md">learn more</a></sub>
+
+</details>
+
+<details><summary><b>What is RLHF, as in InstructGPT (2022)?</b></summary>
+
+> People rank sample answers, a reward model learns those preferences, and reinforcement learning pushes the model towards high-reward answers. &nbsp;<sub><a href="https://github.com/Normansrule/transparent-transformer-llm/blob/main/understand/8-claude-and-chatgpt.md">learn more</a></sub>
+
+</details>
+
+<details><summary><b>What is Constitutional AI (2022)?</b></summary>
+
+> Written principles guide AI feedback that critiques, revises and ranks the model's own answers, reducing how many human labels are needed. &nbsp;<sub><a href="https://github.com/Normansrule/transparent-transformer-llm/blob/main/understand/8-claude-and-chatgpt.md">learn more</a></sub>
+
+</details>
+
+<details><summary><b>How is stage 8d a miniature of Constitutional AI?</b></summary>
+
+> Six written principles with automatic graders score the model's own sampled answers; it trains on its best versus worst ones. &nbsp;<sub><a href="https://github.com/Normansrule/transparent-transformer-llm/tree/main/stages/08_alignment/">learn more</a></sub>
+
+</details>
+
+<details><summary><b>Do Anthropic or OpenAI publish parameter counts for current models?</b></summary>
+
+> No. Since GPT-3 (175 billion, 2020), frontier parameter counts are outside estimates. &nbsp;<sub><a href="https://github.com/Normansrule/transparent-transformer-llm/blob/main/understand/8-claude-and-chatgpt.md">learn more</a></sub>
+
+</details>
+
+<details><summary><b>What did GPT-5 (2025) add to ChatGPT's harness?</b></summary>
+
+> A router that decides when to answer quickly and when to spend longer reasoning. &nbsp;<sub><a href="https://github.com/Normansrule/transparent-transformer-llm/blob/main/understand/8-claude-and-chatgpt.md">learn more</a></sub>
+
+</details>
+
+<details><summary><b>Why did red-teaming make self-improvement work here?</b></summary>
+
+> On familiar prompts the model rarely broke a principle, so there was nothing to learn. New, harder wordings exposed failures to train on. &nbsp;<sub><a href="https://github.com/Normansrule/transparent-transformer-llm/tree/main/stages/08_alignment/">learn more</a></sub>
+
+</details>
+
+<p align="right"><a href="https://Normansrule.github.io/transparent-transformer-llm/flashcards.html#claude-and-chatgpt">study this deck with flip cards →</a></p>

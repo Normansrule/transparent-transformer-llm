@@ -676,5 +676,125 @@
   "q": "Which caution did CESA's director raise?",
   "a": "New technology must not compromise intellectual property rights.",
   "more": "understand/6-ai-at-work.md"
+ },
+ {
+  "deck": "beyond the transformer",
+  "q": "What two costs of the transformer do most new architectures attack?",
+  "a": "Attention's cost grows with the square of the context length, and generation produces only one token per full pass.",
+  "more": "understand/7-beyond-the-transformer.md"
+ },
+ {
+  "deck": "beyond the transformer",
+  "q": "What is a mixture of experts?",
+  "a": "Many expert MLPs per block plus a router that sends each token to only a few, so total parameters grow while compute per token stays small.",
+  "more": "understand/7-beyond-the-transformer.md"
+ },
+ {
+  "deck": "beyond the transformer",
+  "q": "Total versus active parameters?",
+  "a": "Total: every weight the model holds. Active: the weights one token actually uses. Jamba: 52 billion total, 12 billion active.",
+  "more": "understand/7-beyond-the-transformer.md"
+ },
+ {
+  "deck": "beyond the transformer",
+  "q": "How does a state space model process a sequence?",
+  "a": "It squeezes the history into a fixed-size state, h = A·h + B·x, and reads out y = C·h. Each token costs the same however long the history.",
+  "more": "understand/7-beyond-the-transformer.md"
+ },
+ {
+  "deck": "beyond the transformer",
+  "q": "What did Mamba add to state space models?",
+  "a": "Input-dependent (selective) dynamics, so the model chooses what to remember and what to forget.",
+  "more": "understand/7-beyond-the-transformer.md"
+ },
+ {
+  "deck": "beyond the transformer",
+  "q": "Why do shipping models use SSM-attention hybrids?",
+  "a": "A fixed-size state cannot recall everything exactly; a few attention layers restore precise lookup while SSM layers keep long contexts cheap.",
+  "more": "understand/7-beyond-the-transformer.md"
+ },
+ {
+  "deck": "beyond the transformer",
+  "q": "How does a diffusion language model generate text?",
+  "a": "It starts with every position masked, predicts all of them in parallel, keeps the confident ones, and refines over a few passes.",
+  "more": "understand/7-beyond-the-transformer.md"
+ },
+ {
+  "deck": "beyond the transformer",
+  "q": "Name three diffusion language models.",
+  "a": "LLaDA (research), Mercury from Inception Labs (first commercial-scale), and Google's experimental Gemini Diffusion.",
+  "more": "understand/7-beyond-the-transformer.md"
+ },
+ {
+  "deck": "beyond the transformer",
+  "q": "What makes a reasoning model different?",
+  "a": "It writes intermediate thinking before answering and is trained with reinforcement learning on problems whose answers can be checked.",
+  "more": "understand/7-beyond-the-transformer.md"
+ },
+ {
+  "deck": "beyond the transformer",
+  "q": "What is a Kolmogorov–Arnold Network (KAN)?",
+  "a": "A network with learnable functions on its connections instead of fixed activation functions on its neurons.",
+  "more": "understand/7-beyond-the-transformer.md"
+ },
+ {
+  "deck": "beyond the transformer",
+  "q": "Where does quantum machine learning stand?",
+  "a": "An active research area with variational quantum circuits; no practical advantage for large-scale learning has been shown yet.",
+  "more": "understand/7-beyond-the-transformer.md"
+ },
+ {
+  "deck": "claude and chatgpt",
+  "q": "What does Anthropic publish to describe how Claude should behave?",
+  "a": "A constitution: a long document of values and reasons, released January 2026 into the public domain (CC0) and used directly in training.",
+  "more": "understand/8-claude-and-chatgpt.md"
+ },
+ {
+  "deck": "claude and chatgpt",
+  "q": "The constitution's four priorities, in order?",
+  "a": "Broadly safe, broadly ethical, compliant with Anthropic's guidelines, genuinely helpful.",
+  "more": "understand/8-claude-and-chatgpt.md"
+ },
+ {
+  "deck": "claude and chatgpt",
+  "q": "What does OpenAI publish to describe how its models should behave?",
+  "a": "The Model Spec, a living document it updates openly (for example in August 2026).",
+  "more": "understand/8-claude-and-chatgpt.md"
+ },
+ {
+  "deck": "claude and chatgpt",
+  "q": "What is RLHF, as in InstructGPT (2022)?",
+  "a": "People rank sample answers, a reward model learns those preferences, and reinforcement learning pushes the model towards high-reward answers.",
+  "more": "understand/8-claude-and-chatgpt.md"
+ },
+ {
+  "deck": "claude and chatgpt",
+  "q": "What is Constitutional AI (2022)?",
+  "a": "Written principles guide AI feedback that critiques, revises and ranks the model's own answers, reducing how many human labels are needed.",
+  "more": "understand/8-claude-and-chatgpt.md"
+ },
+ {
+  "deck": "claude and chatgpt",
+  "q": "How is stage 8d a miniature of Constitutional AI?",
+  "a": "Six written principles with automatic graders score the model's own sampled answers; it trains on its best versus worst ones.",
+  "more": "stages/08_alignment/"
+ },
+ {
+  "deck": "claude and chatgpt",
+  "q": "Do Anthropic or OpenAI publish parameter counts for current models?",
+  "a": "No. Since GPT-3 (175 billion, 2020), frontier parameter counts are outside estimates.",
+  "more": "understand/8-claude-and-chatgpt.md"
+ },
+ {
+  "deck": "claude and chatgpt",
+  "q": "What did GPT-5 (2025) add to ChatGPT's harness?",
+  "a": "A router that decides when to answer quickly and when to spend longer reasoning.",
+  "more": "understand/8-claude-and-chatgpt.md"
+ },
+ {
+  "deck": "claude and chatgpt",
+  "q": "Why did red-teaming make self-improvement work here?",
+  "a": "On familiar prompts the model rarely broke a principle, so there was nothing to learn. New, harder wordings exposed failures to train on.",
+  "more": "stages/08_alignment/"
  }
 ]
