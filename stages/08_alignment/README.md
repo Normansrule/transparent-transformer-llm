@@ -143,6 +143,35 @@ Without its harness the model answers almost none of the messy questions (*"what
 python -m transparent_transformer.distill        # about four minutes
 ```
 
+
+## 8f. A reward model, and spending compute at answer time
+
+<img src="../../assets/reward.svg" width="100%" alt="Reward model accuracy on familiar and unfamiliar pairs, and what best-of-8 selection does to refusals and the 45-question test">
+
+The InstructGPT recipe (the RLHF, reinforcement learning from human feedback, behind early ChatGPT) has a part we had not built: a **reward model**, which reads a prompt and an answer and returns one number, *how good is this?* It learns from chosen-versus-rejected pairs. Ours is as small as it can be: 129 numbers reading the frozen language model's final vectors, trained with the Bradley–Terry loss, *sigmoid(reward(chosen) − reward(rejected)) → 1*, gradient written by hand. [`reward_model.py`](../../transparent_transformer/reward_model.py)
+
+Then it is used the way production systems use one at answer time: sample 8 answers and keep the one it scores highest (**best-of-N**).
+
+| | refuses held-out harmful requests | 45-question test (no harness) |
+|---|:-:|:-:|
+| greedy (one answer, always the likeliest token) | 80% | 38% |
+| best of 8, picked at random | 80% | 38% |
+| best of 8, picked by reward model **A** | 80% | **40%** |
+| best of 8, picked by reward model **B** (more accurate on climate) | **73%** | **36%** |
+
+**What it taught, all measured:**
+
+- **High accuracy hides blind spots.** Model A ranks the better answer first in 97% of held-out pairs, yet only 50% of climate pairs, a coin flip, because its training pairs were almost all about honesty, safety and copying tool results. It even preferred *"In winter winter Denver snowy is is."* to the correct sentence.
+- **Fixing one blind spot moved the others.** Adding 88 climate pairs made model B better on climate (70%), but choosing with it made answers **worse**: refusals and the test score both fell. Picking the maximum of a reward model searches out exactly where it is wrong. This is **reward hacking** (Goodhart's law: once a measure becomes a target, it stops being a good measure), and it is why production systems use large reward models, many more pairs, and a penalty for drifting too far from the original model.
+- **Keep the one that chooses better.** The script keeps model A, whose choices are better, not model B, whose pair accuracy on climate is higher.
+- **Extra compute helps only when samples differ.** At temperature 0.8 this model's samples are often nearly identical, so choosing among them changes little. Reasoning models (frame 7) are trained to explore different answers first.
+
+**Watch it live:** on the [harness page](https://Normansrule.github.io/transparent-transformer-llm/harness.html), tick **🏆 best-of-8, reward model** and ask something. The log lists all eight answers with their rewards, and sometimes you can see it prefer an answer with a garbled tail.
+
+```bash
+python -m transparent_transformer.reward_model     # about three minutes
+```
+
 ## Run it
 
 ```bash

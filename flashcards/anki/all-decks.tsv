@@ -135,3 +135,8 @@ What is distillation?	Training a student model to reproduce the verified outputs
 What is catastrophic forgetting, and how does replay help?	Fine-tuning on new data can erase old skills. Replay mixes old training examples into every batch, but only protects what it replays.	training
 Why did distillation wash out honesty, and what fixed it?	Honesty had been sharpened by preference training, which the replayed data did not contain (30% → 7%). Re-running preference training afterwards restored it to 27%.	training
 Split this dense model's 256 neurons into 8 experts and keep 2: how much output survives?	About 35% grouped in order, about 50% grouped by which neurons fire together. Trained mixture-of-experts models specialise much more.	beyond-the-transformer
+What is a reward model?	A scorer that reads a prompt and an answer and returns one number, trained on chosen-versus-rejected pairs. The core of RLHF.	training
+What is the Bradley–Terry loss?	−log sigmoid(reward(chosen) − reward(rejected)): it pushes the preferred answer's score above the other's.	training
+What is best-of-N?	Sample N answers and keep the one the reward model scores highest: spending compute at answer time.	training
+What is reward hacking?	Optimising against a reward model finds its blind spots. Here a model more accurate on climate pairs chose worse answers overall (refusals 80% → 73%).	training
+Which component of InstructGPT's RLHF recipe does stage 8f build?	The reward model, trained on preference pairs, then used to pick the best of 8 answers.	claude-and-chatgpt

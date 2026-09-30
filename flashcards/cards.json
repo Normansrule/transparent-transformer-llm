@@ -820,5 +820,35 @@
   "q": "Split this dense model's 256 neurons into 8 experts and keep 2: how much output survives?",
   "a": "About 35% grouped in order, about 50% grouped by which neurons fire together. Trained mixture-of-experts models specialise much more.",
   "more": "understand/7-beyond-the-transformer.md"
+ },
+ {
+  "deck": "training",
+  "q": "What is a reward model?",
+  "a": "A scorer that reads a prompt and an answer and returns one number, trained on chosen-versus-rejected pairs. The core of RLHF.",
+  "more": "stages/08_alignment/"
+ },
+ {
+  "deck": "training",
+  "q": "What is the Bradley–Terry loss?",
+  "a": "−log sigmoid(reward(chosen) − reward(rejected)): it pushes the preferred answer's score above the other's.",
+  "more": "stages/08_alignment/"
+ },
+ {
+  "deck": "training",
+  "q": "What is best-of-N?",
+  "a": "Sample N answers and keep the one the reward model scores highest: spending compute at answer time.",
+  "more": "stages/08_alignment/"
+ },
+ {
+  "deck": "training",
+  "q": "What is reward hacking?",
+  "a": "Optimising against a reward model finds its blind spots. Here a model more accurate on climate pairs chose worse answers overall (refusals 80% → 73%).",
+  "more": "stages/08_alignment/"
+ },
+ {
+  "deck": "claude and chatgpt",
+  "q": "Which component of InstructGPT's RLHF recipe does stage 8f build?",
+  "a": "The reward model, trained on preference pairs, then used to pick the best of 8 answers.",
+  "more": "stages/08_alignment/"
  }
 ]

@@ -2,7 +2,7 @@
 
 <a href="https://Normansrule.github.io/transparent-transformer-llm/flashcards.html"><img src="../assets/flashcards.svg" width="100%" alt="A flashcard flipping from question to answer"></a>
 
-**137 cards in 12 decks.** Three ways to study them:
+**142 cards in 12 decks.** Three ways to study them:
 
 | | how | best for |
 |---|---|---|
@@ -13,7 +13,7 @@
 | deck | cards | study |
 |---|:-:|:-:|
 | 🔟 [the ten stages](#the-ten-stages) | 15 | [flip](https://Normansrule.github.io/transparent-transformer-llm/flashcards.html#the-ten-stages) |
-| 🏋️ [training](#training) | 17 | [flip](https://Normansrule.github.io/transparent-transformer-llm/flashcards.html#training) |
+| 🏋️ [training](#training) | 21 | [flip](https://Normansrule.github.io/transparent-transformer-llm/flashcards.html#training) |
 | 🧰 [harness](#harness) | 12 | [flip](https://Normansrule.github.io/transparent-transformer-llm/flashcards.html#harness) |
 | 🧠 [perceptron and parameters](#perceptron-and-parameters) | 10 | [flip](https://Normansrule.github.io/transparent-transformer-llm/flashcards.html#perceptron-and-parameters) |
 | ❓ [what is AI](#what-is-ai) | 8 | [flip](https://Normansrule.github.io/transparent-transformer-llm/flashcards.html#what-is-ai) |
@@ -23,7 +23,7 @@
 | 🌌 [minds and machines](#minds-and-machines) | 11 | [flip](https://Normansrule.github.io/transparent-transformer-llm/flashcards.html#minds-and-machines) |
 | 🏢 [AI at work](#ai-at-work) | 5 | [flip](https://Normansrule.github.io/transparent-transformer-llm/flashcards.html#ai-at-work) |
 | 🚀 [beyond the transformer](#beyond-the-transformer) | 12 | [flip](https://Normansrule.github.io/transparent-transformer-llm/flashcards.html#beyond-the-transformer) |
-| ⚖️ [claude and chatgpt](#claude-and-chatgpt) | 9 | [flip](https://Normansrule.github.io/transparent-transformer-llm/flashcards.html#claude-and-chatgpt) |
+| ⚖️ [claude and chatgpt](#claude-and-chatgpt) | 10 | [flip](https://Normansrule.github.io/transparent-transformer-llm/flashcards.html#claude-and-chatgpt) |
 
 <a id="the-ten-stages"></a>
 
@@ -224,6 +224,30 @@
 <details><summary><b>Why did distillation wash out honesty, and what fixed it?</b></summary>
 
 > Honesty had been sharpened by preference training, which the replayed data did not contain (30% → 7%). Re-running preference training afterwards restored it to 27%. &nbsp;<sub><a href="https://github.com/Normansrule/transparent-transformer-llm/tree/main/stages/08_alignment/">learn more</a></sub>
+
+</details>
+
+<details><summary><b>What is a reward model?</b></summary>
+
+> A scorer that reads a prompt and an answer and returns one number, trained on chosen-versus-rejected pairs. The core of RLHF. &nbsp;<sub><a href="https://github.com/Normansrule/transparent-transformer-llm/tree/main/stages/08_alignment/">learn more</a></sub>
+
+</details>
+
+<details><summary><b>What is the Bradley–Terry loss?</b></summary>
+
+> −log sigmoid(reward(chosen) − reward(rejected)): it pushes the preferred answer's score above the other's. &nbsp;<sub><a href="https://github.com/Normansrule/transparent-transformer-llm/tree/main/stages/08_alignment/">learn more</a></sub>
+
+</details>
+
+<details><summary><b>What is best-of-N?</b></summary>
+
+> Sample N answers and keep the one the reward model scores highest: spending compute at answer time. &nbsp;<sub><a href="https://github.com/Normansrule/transparent-transformer-llm/tree/main/stages/08_alignment/">learn more</a></sub>
+
+</details>
+
+<details><summary><b>What is reward hacking?</b></summary>
+
+> Optimising against a reward model finds its blind spots. Here a model more accurate on climate pairs chose worse answers overall (refusals 80% → 73%). &nbsp;<sub><a href="https://github.com/Normansrule/transparent-transformer-llm/tree/main/stages/08_alignment/">learn more</a></sub>
 
 </details>
 
@@ -914,6 +938,12 @@
 <details><summary><b>Why did red-teaming make self-improvement work here?</b></summary>
 
 > On familiar prompts the model rarely broke a principle, so there was nothing to learn. New, harder wordings exposed failures to train on. &nbsp;<sub><a href="https://github.com/Normansrule/transparent-transformer-llm/tree/main/stages/08_alignment/">learn more</a></sub>
+
+</details>
+
+<details><summary><b>Which component of InstructGPT's RLHF recipe does stage 8f build?</b></summary>
+
+> The reward model, trained on preference pairs, then used to pick the best of 8 answers. &nbsp;<sub><a href="https://github.com/Normansrule/transparent-transformer-llm/tree/main/stages/08_alignment/">learn more</a></sub>
 
 </details>
 

@@ -7,3 +7,4 @@ How is stage 8d a miniature of Constitutional AI?	Six written principles with au
 Do Anthropic or OpenAI publish parameter counts for current models?	No. Since GPT-3 (175 billion, 2020), frontier parameter counts are outside estimates.
 What did GPT-5 (2025) add to ChatGPT's harness?	A router that decides when to answer quickly and when to spend longer reasoning.
 Why did red-teaming make self-improvement work here?	On familiar prompts the model rarely broke a principle, so there was nothing to learn. New, harder wordings exposed failures to train on.
+Which component of InstructGPT's RLHF recipe does stage 8f build?	The reward model, trained on preference pairs, then used to pick the best of 8 answers.

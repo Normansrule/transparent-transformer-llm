@@ -45,13 +45,19 @@ button{font:inherit;color:inherit;cursor:pointer}.go{background:var(--amber);col
 
 <div class="box" style="margin-top:16px"><h2>Ten tips for a better agent</h2><p class="sub" style="margin:0">Green ones are measured on this page. The others are standard practice; each says why.</p><div class="tips" id="tips"></div></div>
 </div>
-<script src="model.js"></script><script src="engine.js"></script><script src="agent_eval.js"></script>
+<script src="model.js"></script><script src="engine.js"></script><script src="agent_eval.js"></script><script src="reward.js"></script>
 <script>
 const $=s=>document.querySelector(s), E=window.Engine, esc=s=>String(s).replace(/[&<>]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;"}[c]));
 const PARTS=[["input guard","guard"],["memory",null],["normalizer","normalize"],["router","tools"],["tool call","tools"],["prompt builder",null],["model",null],["retry","retry"],["output guard","fallback"]];
 $("#pipe").innerHTML=PARTS.map(([t],i)=>`<div class="st" id="s${i}"><b>${i+1}</b>${t}</div>`).join("");
-const TR=[["guard","input guard"],["tools","tools (router + weather)"],["normalize","normalizer"],["retry","retry"],["fallback","output fallback"]];
-$("#toggles").innerHTML="tricks: "+TR.map(([k,l])=>`<label><input type="checkbox" data-t="${k}" checked> ${l}</label>`).join("");
+const TR=[["guard","input guard"],["tools","tools (router + weather)"],["normalize","normalizer"],["retry","retry"],["fallback","output fallback"],["bon","🏆 best-of-8, reward model"]];
+$("#toggles").innerHTML="tricks: "+TR.map(([k,l])=>`<label><input type="checkbox" data-t="${k}" ${k==="bon"?"":"checked"}> ${l}</label>`).join("");
+// ---- the reward model from stage 8f: 129 numbers reading the model's final vectors
+function rmScore(prompt, answer){ const R=window.REWARD; if(!R) return 0; const END=E.encode("<|end|>")[0], D=E.D;
+  const p=E.encode(E.formatPrompt(prompt)), a=E.encode(" "+answer).concat([END]), ids=p.concat(a).slice(-E.config.context_length), nA=Math.min(a.length,ids.length);
+  const r=E.inspect("aligned",ids), h=r.cap.stream[r.cap.stream.length-1], T=r.T, f=new Array(2*D).fill(0);
+  for(let j=0;j<D;j++){ f[j]=h[(T-1)*D+j]; let m=0; for(let t=T-nA;t<T;t++) m+=h[t*D+j]; f[D+j]=m/nA; }
+  let s=R.b; for(let j=0;j<2*D;j++) s+=((f[j]-R.mu[j])/R.sd[j])*R.w[j]; return s; }
 const on=k=>document.querySelector(`[data-t="${k}"]`).checked;
 function paintOff(){ PARTS.forEach(([,k],i)=>$("#s"+i).classList.toggle("off",!!k&&!on(k))); } document.querySelectorAll("[data-t]").forEach(c=>c.onchange=paintOff);
 const KNOWN=["Los Angeles","San Diego","San Francisco","Seattle","Phoenix","Denver","Chicago","New York","Miami","Boston","Honolulu","Anchorage","London","Paris","Madrid","Lisbon","Rome","Berlin","Oslo","Moscow","Cairo","Dubai","Mumbai","Singapore","Tokyo","Seoul","Beijing","Sydney","Buenos Aires","Mexico City","Toronto","Reykjavik"];
@@ -107,7 +113,13 @@ async function reply(text){ if(busy) return; busy=true; $("#log").innerHTML=""; 
   // 7 model, streamed
   light(6); const el=msg("a","","model"+(tool?", reading the tool result":"")); let out=[], cur=ids.slice(-E.config.context_length); const end=E.encode("<|end|>")[0];
   for(let n=0;n<40;n++){ const s=E.sampleNext(E.logitsFor("aligned",cur),{temperature:0},()=>0.5); if(s.id===end) break; out.push(s.id); cur.push(s.id); el.textContent=E.decode(out).trim(); await sleep(35); }
-  let answer=E.decode(out).trim(); say(`<span class="k">7 model</span>          ${out.length+1} forward passes, streamed`); done(6);
+  let answer=E.decode(out).trim(); say(`<span class="k">7 model</span>          ${out.length+1} forward passes, streamed`);
+  if(on("bon")){ const cands=[answer];
+    for(let k=1;k<8;k++) cands.push(E.textOf(E.generate("aligned",ids.slice(-E.config.context_length),{temperature:0.8,topK:null,topP:null,seed:k,maxNew:40})));
+    const scored=[...new Set(cands)].map(c=>[rmScore(user,c),c]).sort((a,b)=>b[0]-a[0]);
+    say(`<span class="k">7b best-of-8</span>     ${cands.length} samples, ${scored.length} different; the reward model scores each:`+scored.map(([r,c],i)=>`\n                 ${i===0?'<span class="g">▶':'<span class="d"> '} ${r>=0?"+":""}${r.toFixed(2)}  ${esc(c)}</span>`).join(""));
+    if(scored[0][1]!==answer){ answer=scored[0][1]; msg("a",answer,"model, best of 8 by reward"); } }
+  done(6);
   const expect=tool?city:(known||null); let problems=check(answer,tool,expect);
   // 8 retry
   if(problems.length&&on("retry")){ light(7); let fixed=false; for(let k=1;k<=3&&!fixed;k++){ await sleep(150);
@@ -137,6 +149,7 @@ const TIPS=[["meas","Measure before you believe","Keep a fixed test set and re-r
  ["","Use temperature 0 for facts","Greedy decoding gives the same, most likely answer every time. Keep sampling for creative tasks (stage 9)."],
  ["","Keep the context short and relevant","Memory is trimmed oldest-first to fit 64 tokens. In big models, irrelevant context still dilutes attention."],
  ["","Show it examples (few-shot)","Big models copy the format of examples placed in the prompt. Too small here: this model has no room for them."],
- ["","Retrieve, do not memorise","Looking facts up at question time (retrieval) beats hoping the weights remember them. The weather tool is the simplest version."]];
+ ["","Retrieve, do not memorise","Looking facts up at question time (retrieval) beats hoping the weights remember them. The weather tool is the simplest version."],
+ ["meas","A reward model is only as good as its blind spots","Best-of-8 with our reward model gained one question. A retrained version that was MORE accurate on climate pairs made worse choices overall. Tick the 🏆 box above to watch it rank eight answers."]];
 $("#tips").innerHTML=TIPS.map(([c,t,d])=>`<div class="tip ${c}"><b>${c?"✓ measured · ":""}${esc(t)}</b><span>${esc(d)}</span></div>`).join("");
 </script></body></html>

@@ -247,7 +247,7 @@ def flashcards_banner():
     b.append(f'<g transform="translate({cx} 0)"><g><g transform="translate({-cx} 0)">{back}</g>{anim("0 1;0 1;0 1;1 1;1 1;0 1", "0;0.35;0.45;0.55;0.9;1")}</g></g>')
     for i, (lab, col) in enumerate([("✗ again", CORAL), ("✓ knew it", MINT)]):
         b.append(box(cx - 170 + i * 180, 280, 160, 40, col, "none", 10, 0) + text(cx - 90 + i * 180, 306, lab, 15, "#0B1E33", SANS, "middle", "700"))
-    b.append(text(40, 70, "137 cards, 12 decks: on the website, readable on GitHub, or in Anki", 13, MUTED, SANS))
+    b.append(text(40, 70, "142 cards, 12 decks: on the website, readable on GitHub, or in Anki", 13, MUTED, SANS))
     return frame(350, "".join(b), "flashcards  /  every idea in the course, one card at a time")
 
 
@@ -427,3 +427,36 @@ if __name__ == "__main__":
     if _d:
         (ASSETS / "distill.svg").write_text(_d)
         print("wrote assets/distill.svg")
+
+
+def reward_chart():
+    import json as _j
+    f = ASSETS.parent / "artifacts" / "reward_log.json"
+    if not f.exists():
+        return None
+    lg = _j.loads(f.read_text())
+    b = [text(40, 70, "Left: how often each reward model ranks the better answer first. Right: what happens when it picks from 8 samples.", 12.5, MUTED, SANS)]
+    acc = [("A: on familiar kinds of pair", lg["acc_heldout"], CYAN), ("A: on climate pairs (never seen)", lg["climate_acc_A"], CORAL),
+           ("B: on familiar kinds of pair", lg["acc_heldout_B"], CYAN), ("B: on climate pairs (+88 added)", lg["climate_acc_B"], MINT)]
+    for i, (lab, v, col) in enumerate(acc):
+        y = 100 + i * 46
+        b.append(text(40, y + 18, lab, 12.5, INK, SANS) + box(40, y + 24, 340, 14, PANEL, GRID, 4, 1) + f'<rect x="40" y="{y + 24}" width="{340 * v:.0f}" height="14" rx="4" fill="{col}"/>' + text(388, y + 36, f"{v:.0%}", 12, INK, MONO))
+    res = lg["results"]
+    rows = [("greedy", "greedy"), ("one sample", "one sample"), ("best of 8, random", "best-of-8, random pick"), ("best of 8, model A", "best-of-8, reward model A"), ("best of 8, model B", "best-of-8, reward model B")]
+    b.append(text(640, 94, "refuses harmful", 12, MINT, SANS, "middle", "600") + text(800, 94, "45-question test", 12, AMBER, SANS, "middle", "600"))
+    for i, (lab, key) in enumerate(rows):
+        y, r = 108 + i * 36, res[key]
+        hot = key.endswith("B")
+        b.append(text(560, y + 18, lab, 12.5, CORAL if hot else INK, SANS, "end", "600" if hot else "400"))
+        for j, (k, col) in enumerate([("refuses_harmful", MINT), ("test_45", AMBER)]):
+            x = 580 + j * 160
+            b.append(box(x, y + 4, 120, 20, PANEL, GRID, 4, 1) + f'<rect x="{x}" y="{y + 4}" width="{120 * r[k]:.0f}" height="20" rx="4" fill="{col}"/>' + text(x + 126, y + 19, f"{r[k]:.0%}", 11.5, CORAL if hot else INK, MONO))
+    b.append(text(40, 312, "Model B was more accurate on climate pairs, yet chose worse answers: optimising against a reward model finds its weak spots.", 12.5, INK, SANS))
+    return frame(332, "".join(b), "stage 8f  /  a reward model, and spending compute at answer time")
+
+
+if __name__ == "__main__":
+    _r = reward_chart()
+    if _r:
+        (ASSETS / "reward.svg").write_text(_r)
+        print("wrote assets/reward.svg")
