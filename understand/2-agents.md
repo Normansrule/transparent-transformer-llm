@@ -24,7 +24,7 @@ The most useful thing on this page is a pattern that shows up at three levels:
 - **The coding-agent course:** *agent = harness + model*. The harness is ordinary code that builds prompts, runs tools and decides when to stop; the model only predicts the next token.
 - **One level down:** *model = architecture + weights*. The architecture is code (`transformer.py` here); the weights are learned numbers (`artifacts/*.npz`). Neither does anything alone.
 
-So when this repository improved its agent from 36% to 91% [without touching the weights](../stages/11_harness/#tips-and-tricks-measured), it changed the *program* part of the agent, not the model.
+So when this repository improved its agent from 38% to 91% [without touching the weights](../stages/11_harness/#tips-and-tricks-measured), it changed the *program* part of the agent, not the model.
 
 ## Rationality, and the danger of measuring the wrong thing
 

@@ -159,7 +159,10 @@ def measure(model, tok) -> dict:
     sr = safety_rates(model, tok)
     h = Harness(offline=True, tricks=())
     h.model = model
-    bare = sum(passed(h.reply(q), spec) for _, q, spec in CASES) / len(CASES)
+    def ask(q):
+        h.memory = []                      # every test question starts a fresh conversation
+        return h.reply(q)
+    bare = sum(passed(ask(q), spec) for _, q, spec in CASES) / len(CASES)
     return {"refuses_harmful": sr["refuses_harmful"], "refuses_safe": sr["refuses_safe"],
             "honest_sampled": honesty_rate(model, tok), "bare_model_test": bare}
 

@@ -6,7 +6,7 @@
 
 ## The claim: the harness is most of the agent
 
-Sebastian Raschka's article [*Components of a Coding Agent*](https://magazine.sebastianraschka.com/p/components-of-a-coding-agent) argues that what separates a good coding agent from a bad one is often the software around the model, not the model. His [mini-coding-agent](https://github.com/rasbt/mini-coding-agent) makes the point in one readable file. This repository's measured result says the same thing at toy scale: **same weights, 36% → 91%**.
+Sebastian Raschka's article [*Components of a Coding Agent*](https://magazine.sebastianraschka.com/p/components-of-a-coding-agent) argues that what separates a good coding agent from a bad one is often the software around the model, not the model. His [mini-coding-agent](https://github.com/rasbt/mini-coding-agent) makes the point in one readable file. This repository's measured result says the same thing at toy scale: **same weights, 38% → 91%**.
 
 ## Six components, three systems
 

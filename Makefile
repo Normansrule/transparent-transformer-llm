@@ -1,6 +1,6 @@
 PY ?= python3
 
-.PHONY: self-improve compare flashcards eval copy-drill intro scrape corpus report real web notebooks homework classroom help setup data tokenizer pretrain sft dpo train trace visuals docs tour chat test all clean
+.PHONY: distill self-improve compare flashcards eval copy-drill intro scrape corpus report real web notebooks homework classroom help setup data tokenizer pretrain sft dpo train trace visuals docs tour chat test all clean
 
 help:  ## list every command
 	@grep -E "^[a-z-]+:.*##" Makefile | sed "s/:.*## /\t/" | expand -t 12
@@ -70,6 +70,9 @@ intro:  ## re-record the README's intro.gif from docs/intro.html (pip install pl
 copy-drill:  ## stage 11 experiment: train the copy skill on 1,400 random names (see stages/11_harness)
 	$(PY) data/make_corpus.py --copy-drill
 	$(MAKE) sft dpo
+
+distill:  ## stage 8e: distil the harness's skill into the weights (about 4 minutes)
+	$(PY) -m transparent_transformer.distill
 
 self-improve:  ## stage 8d: sample, grade against the constitution, train on best vs worst (about 6 minutes)
 	$(PY) -m transparent_transformer.self_improve

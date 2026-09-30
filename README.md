@@ -8,7 +8,7 @@ Every stage visual. Every gradient written by hand. Every trick measured. Runs i
 <p align="center">
 <a href="stages/01_input/"><img src="https://img.shields.io/badge/▶%20start-lesson%201-6FE3B4?style=for-the-badge" alt="▶ start lesson 1"></a>
 <a href="https://Normansrule.github.io/transparent-transformer-llm/"><img src="https://img.shields.io/badge/🧪%20live-classroom-FFB238?style=for-the-badge" alt="🧪 live classroom"></a>
-<a href="https://Normansrule.github.io/transparent-transformer-llm/flashcards.html"><img src="https://img.shields.io/badge/📇%20study-113%20flashcards-9AD0FF?style=for-the-badge" alt="📇 study 133 flashcards"></a>
+<a href="https://Normansrule.github.io/transparent-transformer-llm/flashcards.html"><img src="https://img.shields.io/badge/📇%20study-113%20flashcards-9AD0FF?style=for-the-badge" alt="📇 study 137 flashcards"></a>
 <a href="understand/"><img src="https://img.shields.io/badge/🧭%20understand-8%20frames-C9A7FF?style=for-the-badge" alt="🧭 understand 6 frames"></a>
 </p>
 
@@ -20,7 +20,7 @@ Every stage visual. Every gradient written by hand. Every trick measured. Runs i
 <tr>
 <td align="center" width="33%"><a href="START_HERE.md"><b>🟢<br>New here?</b></a><br><sub>the lesson plan, in 3 minutes</sub></td>
 <td align="center" width="33%"><a href="https://Normansrule.github.io/transparent-transformer-llm/"><b>🧪<br>Play with the real model</b></a><br><sub>type a question, watch every stage</sub></td>
-<td align="center" width="33%"><a href="flashcards/"><b>📇<br>Flashcards</b></a><br><sub>133 cards, 12 decks, flip or read</sub></td>
+<td align="center" width="33%"><a href="flashcards/"><b>📇<br>Flashcards</b></a><br><sub>137 cards, 12 decks, flip or read</sub></td>
 </tr>
 <tr>
 <td align="center" width="33%"><a href="https://Normansrule.github.io/transparent-transformer-llm/perceptron.html"><b>🧠<br>The perceptron</b></a><br><sub>draw a digit, watch neurons fire</sub></td>
@@ -66,15 +66,17 @@ Every lesson follows the same rhythm: **🎯 predict → 👀 watch → 📖 rea
 
 <img src="assets/harness_pipeline.svg" width="100%" alt="A message travelling through nine harness parts: input guard, memory, normalizer, router, tool call, prompt builder, model, retry, output guard">
 
-<img src="assets/agent_tricks.svg" width="100%" alt="The same model passes 36% of 45 test questions bare and 91% with every harness trick on; heat map per category">
+<img src="assets/agent_tricks.svg" width="100%" alt="The same model passes 38% of 45 test questions bare and 91% with every harness trick on; heat map per category">
 
-**Same weights, 36% → 91%**, just by improving the software around the model. Every trick has an on/off switch on the [live harness page](https://Normansrule.github.io/transparent-transformer-llm/harness.html), and the surprises are part of the lesson: retrying added nothing, because this model's mistakes are systematic, not random. [Stage 11 →](stages/11_harness/#tips-and-tricks-measured)
+**Same weights, 38% → 91%**, just by improving the software around the model. Every trick has an on/off switch on the [live harness page](https://Normansrule.github.io/transparent-transformer-llm/harness.html), and the surprises are part of the lesson: retrying added nothing, because this model's mistakes are systematic, not random. [Stage 11 →](stages/11_harness/#tips-and-tricks-measured)
 
-## 🔁 The model grades its own answers
+## 🔁 The model learns from itself
 
 <img src="assets/self_improve.svg" width="100%" alt="Before and after self-improvement: held-out harmful requests refused rise from 60% to 80% with no increase in wrongly refused safe questions">
 
-A miniature of how production assistants are aligned: the model answers each prompt eight times, a six-line **written constitution** grades every answer, and the model trains on its best versus its worst. On request wordings it never practised, refusals of harmful requests rose from **60% to 80%**, with no increase in refusing safe questions. [Stage 8d →](stages/08_alignment/#8d-learning-from-its-own-answers) · [How Claude and ChatGPT do it at scale →](understand/8-claude-and-chatgpt.md)
+A miniature of how production assistants are aligned: the model answers each prompt eight times, a six-line **written constitution** grades every answer, and the model trains on its best versus its worst. On request wordings it never practised, refusals of harmful requests rose from **60% to 80%**, with no increase in refusing safe questions. [Stage 8d →](stages/08_alignment/#8d-learning-from-its-own-answers)
+
+Then **distillation**: the full system (harness plus model) answers messy questions, and the bare model learns to answer them itself. It tripled its score on question shapes it never practised, and taught a sharp lesson on the way: plain fine-tuning quietly erased its honesty until preference training was re-run. [Stage 8e →](stages/08_alignment/#8e-distillation-teach-the-weights-what-the-harness-knows) · [How Claude and ChatGPT do it at scale →](understand/8-claude-and-chatgpt.md)
 
 ## 🧭 Understand the why: eight frames of reference
 
@@ -94,7 +96,7 @@ A miniature of how production assistants are aligned: the model answers each pro
 <td><a href="understand/6-ai-at-work.md"><img src="assets/adoption.svg" alt="51% to 85.8% adoption"></a><br><b><a href="understand/6-ai-at-work.md">6 · AI at work</a></b> How professionals use these tools, and the guardrails they keep.</td>
 </tr>
 <tr>
-<td><a href="understand/7-beyond-the-transformer.md"><img src="assets/ar_vs_diffusion.svg" alt="Autoregressive versus diffusion generation"></a><br><b><a href="understand/7-beyond-the-transformer.md">7 · Beyond the transformer</a></b> Mixture of experts, state space models, diffusion and reasoning models.</td>
+<td><a href="understand/7-beyond-the-transformer.md"><img src="assets/ar_vs_diffusion.svg" alt="Autoregressive versus diffusion generation"></a><br><b><a href="understand/7-beyond-the-transformer.md">7 · Beyond the transformer</a></b> Mixture of experts, state space models, diffusion and reasoning models. <a href="https://Normansrule.github.io/transparent-transformer-llm/beyond.html">Try them on the real model →</a></td>
 <td><a href="understand/8-claude-and-chatgpt.md"><img src="assets/three_scales.svg" alt="This model, Claude and ChatGPT compared stage by stage"></a><br><b><a href="understand/8-claude-and-chatgpt.md">8 · Claude and ChatGPT</a></b> The same recipe at a different scale, and a tool to measure both yourself.</td>
 </tr>
 </table>
@@ -103,7 +105,7 @@ A miniature of how production assistants are aligned: the model answers each pro
 
 <a href="https://Normansrule.github.io/transparent-transformer-llm/flashcards.html"><img src="assets/flashcards.svg" width="100%" alt="A flashcard flipping from question to answer"></a>
 
-**133 cards in 12 decks**, from tokens to theories of consciousness. [Flip them on the website](https://Normansrule.github.io/transparent-transformer-llm/flashcards.html) (it remembers what you know), [read them on GitHub](flashcards/), or [import them into Anki](flashcards/anki/). Try three right here:
+**137 cards in 12 decks**, from tokens to theories of consciousness. [Flip them on the website](https://Normansrule.github.io/transparent-transformer-llm/flashcards.html) (it remembers what you know), [read them on GitHub](flashcards/), or [import them into Anki](flashcards/anki/). Try three right here:
 
 <details><summary><b>🔟 What is the residual stream?</b></summary>
 
@@ -144,6 +146,7 @@ python chat.py                                     # talk to it
 python -m transparent_transformer.harness "What is the weather in San Pedro right now?"   # the full agent, live weather
 python -m transparent_transformer.agent_eval       # measure every harness trick
 python -m transparent_transformer.self_improve     # stage 8d: learn from its own answers (about 6 minutes)
+python -m transparent_transformer.distill          # stage 8e: teach the weights what the harness knows
 python tools/compare_assistants.py                 # same questions for Claude and ChatGPT (needs API keys)
 python classroom/check.py                          # grade your exercises
 python -m pytest -q                                # prove the hand-written calculus
@@ -174,7 +177,7 @@ transparent-transformer-llm/
 ├── START_HERE.md            the lesson plan
 ├── stages/                  11 lessons: README.md (visual page) + run.py (live demo) each
 ├── understand/              8 frames: AIMA, agents, coding agents, history, minds, AI at work, new architectures, Claude vs ChatGPT
-├── flashcards/              133 cards: cards.json (source), README.md (on GitHub), anki/ (import files)
+├── flashcards/              137 cards: cards.json (source), README.md (on GitHub), anki/ (import files)
 ├── perceptron/              side trip: a 784-16-16-10 perceptron trained from scratch
 ├── transparent_transformer/ the model, one short file per idea, plus harness.py and agent_eval.py
 ├── classroom/               ten exercises, the grader, solutions, quiz bank

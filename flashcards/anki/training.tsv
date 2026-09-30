@@ -12,3 +12,6 @@ What is Direct Preference Optimization (DPO)?	Training on pairs of answers so th
 What are the three H's of alignment?	Helpful, honest, harmless.
 What is over-refusal?	Refusing safe questions that merely sound alarming. A safety model that refuses everything is useless.
 What changes between the base model and the aligned model?	Only the weight values. The architecture, tokenizer and code are identical.
+What is distillation?	Training a student model to reproduce the verified outputs of a stronger teacher system. Here the teacher was the harness plus model, and the student the bare model.
+What is catastrophic forgetting, and how does replay help?	Fine-tuning on new data can erase old skills. Replay mixes old training examples into every batch, but only protects what it replays.
+Why did distillation wash out honesty, and what fixed it?	Honesty had been sharpened by preference training, which the replayed data did not contain (30% → 7%). Re-running preference training afterwards restored it to 27%.

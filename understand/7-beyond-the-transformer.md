@@ -15,6 +15,8 @@ Everything in this repository is a **transformer**: attention plus perceptron la
 
 Replace each block's single perceptron layer (the MLP) with many **experts** and a small **router** that sends each token to only a few of them. The model can hold far more parameters while each token uses only a fraction. Well-documented examples: AI21's Jamba had 52 billion parameters with 12 billion active per token, and Jamba 1.5 grew to 398 billion with 94 billion active. OpenAI's open-weight gpt-oss models (20B and 120B) use the same idea.
 
+**Try it on the real model:** the [Beyond page](https://Normansrule.github.io/transparent-transformer-llm/beyond.html) splits this model's 256 perceptron neurons into 8 pretend experts and keeps the top 2 for each token. Grouped in order, only about 35% of the true output survives, because a dense model spreads its signal everywhere. Regrouped by which neurons fire together, about 50% survives. Real mixture-of-experts models are trained with the router from the start, so their experts specialise far more.
+
 *Connect it:* stage 4's MLP is one expert. The [parameters explorer](https://Normansrule.github.io/transparent-transformer-llm/parameters.html) counts **total** parameters; a mixture-of-experts model also has a much smaller **active** count.
 
 ## 2 · State space models and hybrids: linear time, constant memory
@@ -31,7 +33,7 @@ The catch: a fixed-size state cannot remember everything exactly, so pure SSMs a
 
 Image generators start from noise and **denoise**. Diffusion language models do the same with text: start with every position masked, predict all of them in parallel, keep the confident ones, and repeat for a few steps. They can revise earlier words and use context on both sides. LLaDA showed the approach scales; Inception Labs' Mercury was the first commercial-scale diffusion language model, and Google showed an experimental Gemini Diffusion. Vendors report speed-ups of 5 to 10 times over comparable autoregressive models; independent comparisons are still maturing.
 
-*Connect it:* the left half of the animation is exactly stage 10. The right half is the alternative.
+*Connect it:* the left half of the animation is exactly stage 10. The [Beyond page](https://Normansrule.github.io/transparent-transformer-llm/beyond.html) also has a slider showing how attention's cost and memory run away from a state space model's as the context grows. The right half is the alternative.
 
 ## 4 · Reasoning models: spend compute at answer time
 

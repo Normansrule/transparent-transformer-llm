@@ -55,7 +55,7 @@ Everything you have seen so far happens inside step 6. The other six steps are o
 
 ## Tips and tricks, measured
 
-<img src="../../assets/agent_tricks.svg" width="100%" alt="The same model passes 36% of 45 test questions bare, and 91% with every harness trick switched on; heat map per category">
+<img src="../../assets/agent_tricks.svg" width="100%" alt="The same model passes 38% of 45 test questions bare, and 91% with every harness trick switched on; heat map per category">
 
 An **evaluation harness** ([`agent_eval.py`](../../transparent_transformer/agent_eval.py)) asks 45 fixed questions in six categories: clean climate questions, messy ones with typos and nicknames, live weather for known and brand-new cities, harmful requests, and safe questions that sound scary. Each has an automatic checker. Then it switches the tricks on one at a time. **The model never changes.**
 
@@ -66,7 +66,7 @@ An **evaluation harness** ([`agent_eval.py`](../../transparent_transformer/agent
 | **normalizer** | expand nicknames (*LA*), fix misspelled cities (*Seatle*), restate the question in a trained template | messy questions: 0 of 12 → 9 of 12 |
 | **retry** | when a check fails, sample three more answers | **no gain**: the model's mistakes are systematic, not random, so sampling repeats them |
 | **output fallback** | when a check fails, rebuild the answer from the tool result | live weather, new cities: 38% → 100% |
-| **all together** | | **36% → 91%** |
+| **all together** | | **38% → 91%** |
 
 The normalizer's three misses (*tokio*, *Bostn*, *Denvr*) are deliberate. It only corrects words of six letters or more, because a looser rule would also "correct" *parts* to *Paris*. Every trick is a trade-off, and a test set is how you see it.
 
@@ -163,12 +163,12 @@ python stages/11_harness/run.py --offline
 ```text
 
 you   > Hello
-reply > Hello! Ask me about the weather in any city.
+reply > Hello! Ask me about the weather in any city. In winter Denver is usually cold and snowy.
           input guard     {"blocked": false, "matched": null}
           normalizer      {"before": "Hello", "after": "Hello", "fixes": []}
           router          {"city": null, "wants_live": false, "unknown_to_model": false, "tool": false}
           prompt builder  {"tokens": 5, "budget": 40, "turns_kept": 0, "turns_dropped": 0}
-          model           {"forward_passes": 16, "text": "Hello! Ask me about the weather in any city.", "temperature": 0.0}
+          model           {"forward_passes": 25, "text": "Hello! Ask me about the weather in any city. In winter Denver is usually cold 
           output guard    {"ok": true, "problems": []}
 
 you   > What is the weather in Los Angeles right now?

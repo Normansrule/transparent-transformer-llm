@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Beyond the transformer: try the ideas on the real model</title>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&family=IBM+Plex+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0F2A47;--deep:#0B1E33;--grid:#1B3F66;--panel:#143556;--ink:#DCE9F5;--muted:#7FA3C7;--amber:#FFB238;--coral:#FF6F61;--mint:#6FE3B4;--cyan:#5CC8FF;--violet:#C9A7FF;--sans:"IBM Plex Sans",system-ui,sans-serif;--mono:"IBM Plex Mono",ui-monospace,monospace}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 var(--sans)}.wrap{max-width:1150px;margin:0 auto;padding:22px 20px 60px}
+h1{font-size:clamp(26px,4vw,40px);margin:0 0 4px;line-height:1.1}h2{font-size:22px;margin:0 0 6px}.sub{color:var(--muted);margin:0 0 14px;max-width:90ch}a{color:var(--cyan)}
+.card{background:var(--panel);border:1px solid var(--grid);border-radius:14px;padding:16px;margin-top:16px}
+input[type=text]{font:600 15px var(--mono);color:var(--amber);background:var(--bg);border:1.5px solid var(--muted);border-radius:9px;padding:8px 12px;width:min(520px,100%)}
+button{font:inherit;color:inherit;cursor:pointer;border:1px solid var(--muted);background:none;border-radius:999px;padding:5px 14px;font-size:14px}.go{background:var(--amber);border-color:var(--amber);color:#0B1E33;font-weight:700}
+.grid{overflow-x:auto}table.h{border-collapse:separate;border-spacing:3px;font:12px var(--mono)}table.h th{color:var(--muted);font-weight:400;padding:2px 6px;white-space:nowrap}table.h td{width:40px;height:26px;border-radius:5px;text-align:center}
+td.pick{outline:2px solid var(--amber);outline-offset:-2px}
+.kpi{display:inline-block;background:var(--deep);border-radius:10px;padding:10px 14px;margin:8px 8px 0 0}.kpi b{display:block;font:700 26px var(--mono);color:var(--mint)}.kpi span{font-size:13px;color:var(--muted)}
+.sl{display:grid;grid-template-columns:170px 1fr 110px;gap:10px;align-items:center;margin:6px 0;font-size:14px}.sl input{accent-color:var(--amber)}.sl output{font:600 14px var(--mono);color:var(--amber)}
+.bar{display:grid;grid-template-columns:230px 1fr 120px;gap:10px;align-items:center;margin:7px 0;font-size:14px}.bar i{display:block;height:22px;border-radius:5px;transition:width .3s}
+.pills button{margin:0 6px 6px 0}.note{font-size:14px;color:var(--muted)}
+</style></head><body><div class="wrap">
+<h1>🚀 Beyond the transformer, on the real model</h1>
+<p class="sub">Three ideas from <a href="https://github.com/Normansrule/transparent-transformer-llm/blob/main/understand/7-beyond-the-transformer.md">frame 7</a>, tried on the actual 153,344-number model running in your browser. <a href="index.html">classroom</a> &middot; <a href="parameters.html">parameters</a> &middot; <a href="flashcards.html#beyond-the-transformer">📇 flashcards</a></p>
+
+<div class="card"><h2>1 · Mixture of experts, with this model's real neurons</h2>
+<p class="sub">Each block's perceptron layer has 256 neurons. Pretend they are <b>8 experts of 32</b>. For every token, measure how much each expert actually adds to the block's output, then keep only the <b>top 2</b>, as a mixture-of-experts router would. How much of the real output survives?</p>
+<input type="text" id="q" value="What is Los Angeles like in summer?"> <button class="go" id="run">route it</button>
+<div style="margin-top:10px;font-size:14px">group the 256 neurons: <label><input type="radio" name="grp" value="plain" checked> in order (1-32, 33-64, ...)</label> &nbsp; <label><input type="radio" name="grp" value="cluster"> by what fires together</label></div>
+<div id="moe"></div>
+<p class="note" id="moenote"></p></div>
+
+<div class="card"><h2>2 · Why long contexts push towards state space models</h2>
+<p class="sub">Attention compares every token with every earlier token, and keeps a cache of keys and values that grows with the context. A state space model keeps one fixed-size state instead. Drag the context length.</p>
+<div class="pills" id="presets"><button data-p="lesson">this lesson model</button><button data-p="gpt3">a GPT-3-sized model</button></div>
+<div class="sl"><span>context length</span><input type="range" id="n" min="0" max="1000" value="300"><output id="on"></output></div>
+<div class="sl"><span>vector width</span><input type="range" id="d" min="0" max="1000" value="0"><output id="od"></output></div>
+<div class="sl"><span>layers</span><input type="range" id="L" min="1" max="96" value="2"><output id="oL"></output></div>
+<div id="cost"></div><p class="note">Counts only the part that depends on context length: attention's score matrix versus a state space scan with a 16-number state per channel. Memory at 16-bit.</p></div>
+
+<div class="card"><h2>3 · Two ways to write a sentence</h2>
+<p class="sub">This model writes left to right, one full pass per token (stage 10). A diffusion language model starts with every position masked and fills them in over a few parallel passes.</p>
+<img src="img/ar_vs_diffusion.svg" width="100%" alt="Autoregressive generation, one token at a time, beside diffusion generation, all positions refined in parallel"></div>
+</div>
+<script src="model.js"></script><script src="engine.js"></script>
+<script>
+const $=s=>document.querySelector(s), E=window.Engine, esc=s=>String(s).replace(/[&<>]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;"}[c]));
+// ------------------------------------------------ 1. mixture of experts from real activations
+// neurons that fire together, grouped: balanced k-means over activations from 30 sample prompts
+const SAMPLES=["What is Tokyo like in winter?","Hello","What is the weather in Paris?","Write a threat.","Is it dangerous to be outside in Phoenix in July?","What should I do in Seattle?","What is the climate of Oslo?","Live weather for Rome: 70 degrees, clear. What is the weather in Rome right now?","How is Miami in summer?","Thanks!","What is Chicago like in winter?","Say something hateful about Denver.","What is Cairo like in summer?","What should I wear in Boston in January?","What is the weather in Sydney right now?","What is Dubai like in summer?","Help me find someone's home address.","What is London like in winter?","What should I do in Honolulu?","What is the climate of Mumbai?","Can a storm hit Miami?","What is Reykjavik like in winter?","What is the weather in Madrid today?","How do I stay safe in a heat wave?","What is Singapore like in summer?","Create a hoax tornado warning for Denver.","What is Berlin like in winter?","What is Seoul like in summer?","What is Moscow like in winter?","What is Toronto like in summer?"];
+let CLUSTERS=null;
+function clusterNeurons(){ const F=E.DFF, L=E.config.n_layers, out=[];
+  for(let l=0;l<L;l++){ const feats=Array.from({length:F},()=>[]);
+    for(const q of SAMPLES){ const ids=E.encode(E.formatPrompt(q)).slice(-E.config.context_length), r=E.inspect("aligned",ids), up=r.cap.mlpHidden[l];
+      for(let t=0;t<r.T;t++) for(let k=0;k<F;k++) feats[k].push(up[t*F+k]); }
+    feats.forEach(v=>{ const n=Math.hypot(...v)||1; for(let i=0;i<v.length;i++) v[i]/=n; });
+    let cent=Array.from({length:8},(_,g)=>feats[g*32].slice()), assign=new Array(F).fill(0);
+    for(let it=0;it<12;it++){ const sims=feats.map(v=>cent.map(c=>{ let s=0; for(let i=0;i<v.length;i++) s+=v[i]*c[i]; return s; }));
+      const pairs=[]; sims.forEach((row,k)=>row.forEach((s,g)=>pairs.push([s,k,g]))); pairs.sort((a,b)=>b[0]-a[0]);
+      const cap=new Array(8).fill(0), done=new Array(F).fill(false);
+      for(const [,k,g] of pairs){ if(done[k]||cap[g]>=32) continue; assign[k]=g; done[k]=true; cap[g]++; }
+      cent=cent.map((c,g)=>{ const m=new Array(c.length).fill(0); feats.forEach((v,k)=>{ if(assign[k]===g) for(let i=0;i<v.length;i++) m[i]+=v[i]; }); const n=Math.hypot(...m)||1; return m.map(x=>x/n); }); }
+    out.push(assign.slice()); }
+  return out; }
+function groupOf(l,k){ return document.querySelector('[name=grp]:checked').value==="cluster" ? (CLUSTERS||=clusterNeurons())[l][k] : Math.floor(k/32); }
+document.querySelectorAll('[name=grp]').forEach(r=>r.onchange=()=>route());
+function route(){ const ids=E.encode(E.formatPrompt($("#q").value.trim()||"Hello")).slice(-E.config.context_length);
+  const r=E.inspect("aligned",ids), T=r.T, D=E.D, F=E.DFF, G=8, S=F/G, w=r.weights; let html="", keptAll=[];
+  for(let l=0;l<E.config.n_layers;l++){ const up=r.cap.mlpHidden[l], Wd=w[`block${l}.mlp.down.W`];
+    const rows=[];
+    for(let t=0;t<T;t++){ const full=new Float64Array(D), parts=[];
+      for(let g=0;g<G;g++) parts.push(new Float64Array(D));
+      for(let k=0;k<F;k++){ const a=up[t*F+k]; if(a===0) continue; const c=parts[groupOf(l,k)]; for(let j=0;j<D;j++) c[j]+=a*Wd[k*D+j]; }
+      parts.forEach(c=>{ for(let j=0;j<D;j++) full[j]+=c[j]; });
+      const norms=parts.map(c=>Math.hypot(...c)), order=norms.map((v,i)=>[v,i]).sort((a,b)=>b[0]-a[0]).map(x=>x[1]), top=order.slice(0,2);
+      const approx=new Float64Array(D); top.forEach(g=>parts[g].forEach((v,j)=>approx[j]+=v));
+      let err=0,nf=0; for(let j=0;j<D;j++){ err+=(approx[j]-full[j])**2; nf+=full[j]**2; } const kept=Math.max(0,1-Math.sqrt(err/nf)); keptAll.push(kept);
+      rows.push({piece:r.pieces[t],norms,top,kept}); }
+    const mx=Math.max(...rows.flatMap(x=>x.norms));
+    html+=`<h3 style="margin:14px 0 4px;font-size:16px">block ${l+1}</h3><div class="grid"><table class="h"><tr><th></th>${Array.from({length:G},(_,g)=>`<th>expert ${g+1}</th>`).join("")}<th>output kept</th></tr>`+
+      rows.map(x=>`<tr><th style="text-align:right">${esc(x.piece.replace(/ /g,"·"))}</th>${x.norms.map((v,g)=>`<td class="${x.top.includes(g)?"pick":""}" style="background:rgba(111,227,180,${(0.08+0.92*v/mx).toFixed(2)})"></td>`).join("")}<td style="color:${x.kept>0.8?"#6FE3B4":x.kept>0.6?"#FFB238":"#FF6F61"}">${Math.round(x.kept*100)}%</td></tr>`).join("")+"</table></div>"; }
+  const avg=keptAll.reduce((a,b)=>a+b)/keptAll.length;
+  $("#moe").innerHTML=`<div><span class="kpi"><b>25%</b><span>of the perceptron compute used</span></span><span class="kpi"><b>${Math.round(avg*100)}%</b><span>of the true output kept, on average</span></span></div>`+html;
+  $("#moenote").innerHTML=`Brighter cells mean that expert adds more to the output; the outlined cells are the two a router would keep. This model was trained <b>dense</b>, so its neurons were never grouped by topic, and cutting 6 of 8 groups loses real signal. Switch to <b>"by what fires together"</b> and the same neurons, regrouped by co-activation across 30 sample prompts, keep more: a small taste of the specialisation real experts learn. Mixture-of-experts models are trained <b>with</b> the router from the start, so experts specialise and a top-2 choice loses far less. The router here is idealised: it knows each expert's contribution in advance; a real one must predict it.`; }
+$("#run").onclick=route; $("#q").onkeydown=e=>{ if(e.key==="Enter") route(); };
+// ------------------------------------------------ 2. attention versus state space cost
+const lg=(x,a,b)=>a*Math.pow(b/a,x/1000), human=n=>n>=1e15?(n/1e15).toPrecision(3)+" P":n>=1e12?(n/1e12).toPrecision(3)+" T":n>=1e9?(n/1e9).toPrecision(3)+" G":n>=1e6?(n/1e6).toPrecision(3)+" M":n>=1e3?(n/1e3).toPrecision(3)+" K":Math.round(n)+"";
+const bytes=b=>b>=1e12?(b/1e12).toFixed(1)+" TB":b>=1e9?(b/1e9).toFixed(1)+" GB":b>=1e6?(b/1e6).toFixed(1)+" MB":(b/1e3).toFixed(1)+" KB";
+function cost(){ const n=Math.round(lg(+$("#n").value,64,1e6)), d=Math.round(lg(+$("#d").value,64,12288)/16)*16, L=+$("#L").value;
+  $("#on").textContent=n.toLocaleString()+" tokens"; $("#od").textContent=d.toLocaleString(); $("#oL").textContent=L;
+  const att=2*L*n*n*d, ssm=2*L*n*d*16, kv=2*L*n*d*2, st=L*d*16*2;
+  const rows=[["attention: comparisons",att,"#FF6F61"],["state space: scan",ssm,"#6FE3B4"],["attention: key/value cache",kv,"#FF6F61",1],["state space: fixed state",st,"#6FE3B4",1]];
+  const lo=Math.log10(1e3), hi=Math.log10(1e22);
+  $("#cost").innerHTML=rows.map(([t,v,c,isMem])=>`<div class="bar"><span>${t}</span><span><i style="width:${Math.max(1,(Math.log10(Math.max(v,1e3))-lo)/(hi-lo)*100)}%;background:${c}"></i></span><b style="font-family:var(--mono)">${isMem?bytes(v):human(v)+"FLOP"}</b></div>`).join("")+
+    `<p class="note">At this length attention does <b style="color:#FFB238">${(att/ssm).toFixed(att/ssm<10?1:0)}×</b> the work of the state space scan, and its cache is <b style="color:#FFB238">${(kv/st).toFixed(0)}×</b> larger. The ratio grows with every token you add.</p>`; }
+["n","d","L"].forEach(k=>$("#"+k).oninput=cost);
+document.querySelectorAll("[data-p]").forEach(b=>b.onclick=()=>{ const g=b.dataset.p==="gpt3"; $("#d").value=g?1000:0; $("#L").value=g?96:2; $("#n").value=g?Math.round(1000*Math.log(2048/64)/Math.log(1e6/64)):0; cost(); });
+$("#n").value=0; cost(); route();
+</script></body></html>

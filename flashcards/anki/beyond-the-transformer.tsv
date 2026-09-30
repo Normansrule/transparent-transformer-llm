@@ -9,3 +9,4 @@ Name three diffusion language models.	LLaDA (research), Mercury from Inception L
 What makes a reasoning model different?	It writes intermediate thinking before answering and is trained with reinforcement learning on problems whose answers can be checked.
 What is a Kolmogorov–Arnold Network (KAN)?	A network with learnable functions on its connections instead of fixed activation functions on its neurons.
 Where does quantum machine learning stand?	An active research area with variational quantum circuits; no practical advantage for large-scale learning has been shown yet.
+Split this dense model's 256 neurons into 8 experts and keep 2: how much output survives?	About 35% grouped in order, about 50% grouped by which neurons fire together. Trained mixture-of-experts models specialise much more.

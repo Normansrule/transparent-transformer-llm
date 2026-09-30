@@ -247,7 +247,7 @@ def flashcards_banner():
     b.append(f'<g transform="translate({cx} 0)"><g><g transform="translate({-cx} 0)">{back}</g>{anim("0 1;0 1;0 1;1 1;1 1;0 1", "0;0.35;0.45;0.55;0.9;1")}</g></g>')
     for i, (lab, col) in enumerate([("✗ again", CORAL), ("✓ knew it", MINT)]):
         b.append(box(cx - 170 + i * 180, 280, 160, 40, col, "none", 10, 0) + text(cx - 90 + i * 180, 306, lab, 15, "#0B1E33", SANS, "middle", "700"))
-    b.append(text(40, 70, "133 cards, 12 decks: on the website, readable on GitHub, or in Anki", 13, MUTED, SANS))
+    b.append(text(40, 70, "137 cards, 12 decks: on the website, readable on GitHub, or in Anki", 13, MUTED, SANS))
     return frame(350, "".join(b), "flashcards  /  every idea in the course, one card at a time")
 
 
@@ -374,6 +374,9 @@ def self_improve_chart():
         b.append(text(x0 - 16, y + 20, lab, 13, INK, SANS, "end"))
         for j, (_, m) in enumerate(stages):
             v, x = m[key], x0 + j * gw
+            if v is None:                                             # a value we could not measure: say so
+                b.append(box(x, y, gw - 40, 28, PANEL, GRID, 5, 1) + text(x + 10, y + 19, "not saved", 12, MUTED, SANS))
+                continue
             b.append(box(x, y, gw - 40, 28, PANEL, GRID, 5, 1) + f'<rect x="{x}" y="{y}" width="{max(2, (gw - 40) * v):.0f}" height="28" rx="5" fill="{col}"><animate attributeName="width" values="0;{max(2, (gw - 40) * v):.0f};{max(2, (gw - 40) * v):.0f}" keyTimes="0;0.3;1" dur="6s" begin="{j * 0.5}s" fill="freeze"/></rect>' + text(x + gw - 34, y + 19, f"{v:.0%}", 12, INK, MONO))
     b.append(text(40, 100 + len(metrics) * 50 + 14, f"{'kept' if lg.get('kept') else 'not kept'}: every number is measured on questions the practice prompts never contained", 12.5, MUTED, SANS))
     return frame(100 + len(metrics) * 50 + 34, "".join(b), "stage 8d  /  learning from its own answers, graded by a written constitution")
@@ -386,8 +389,41 @@ def main2():
         out["self_improve"] = si
     for k, v in out.items():
         (ASSETS / f"{k}.svg").write_text(v)
-    print(f"wrote {len(out)} more diagrams -> assets/")
+    web = ASSETS.parent / "docs" / "img"                          # the website can only serve files inside docs/
+    web.mkdir(exist_ok=True)
+    for k in ("ar_vs_diffusion", "moe", "complexity"):
+        (web / f"{k}.svg").write_text(out[k])
+    print(f"wrote {len(out)} more diagrams -> assets/ (and 3 copies for the website in docs/img/)")
 
 
 if __name__ == "__main__":
     main2()
+
+
+def distill_chart():
+    import json as _j
+    f = ASSETS.parent / "artifacts" / "distill_log.json"
+    if not f.exists():
+        return None
+    lg = _j.loads(f.read_text())
+    stages = [("before", lg["before"]), ("distilled only", lg["after_distill_only"]), ("+ re-aligned (kept)" if lg["kept"] else "+ re-aligned", lg["after"])]
+    metrics = [("unseen question templates", "heldout_templates", AMBER), ("honest when sampled", "honest_sampled", CYAN), ("refuses harmful (held out)", "refuses_harmful", MINT), ("clean climate questions", "clean_climate", VIOLET)]
+    b, x0, gw = [], 250, 220
+    for j, (name, _) in enumerate(stages):
+        b.append(text(x0 + j * gw + gw / 2 - 20, 80, name, 13, INK, SANS, "middle", "600"))
+    for i, (lab, key, col) in enumerate(metrics):
+        y = 100 + i * 50
+        b.append(text(x0 - 16, y + 20, lab, 13, INK, SANS, "end"))
+        for j, (_, m) in enumerate(stages):
+            v, x, w = m[key], x0 + j * gw, gw - 60
+            hot = key == "honest_sampled" and j == 1
+            b.append(box(x, y, w, 28, PANEL, CORAL if hot else GRID, 5, 2 if hot else 1) + f'<rect x="{x}" y="{y}" width="{max(2, w * v):.0f}" height="28" rx="5" fill="{col}"><animate attributeName="width" values="0;{max(2, w * v):.0f};{max(2, w * v):.0f}" keyTimes="0;0.3;1" dur="6s" begin="{j * 0.5}s" fill="freeze"/></rect>' + text(x + w + 6, y + 19, f"{v:.0%}", 12, CORAL if hot else INK, MONO))
+    b.append(text(40, 100 + len(metrics) * 50 + 14, "Plain fine-tuning washed out honesty (red); re-running preference training restored it and kept most of the gain.", 12.5, MUTED, SANS))
+    return frame(100 + len(metrics) * 50 + 34, "".join(b), "stage 8e  /  distillation: teach the weights what the harness knows")
+
+
+if __name__ == "__main__":
+    _d = distill_chart()
+    if _d:
+        (ASSETS / "distill.svg").write_text(_d)
+        print("wrote assets/distill.svg")

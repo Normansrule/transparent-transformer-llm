@@ -88,24 +88,24 @@ the empty upper-right triangle is the causal mask: no token can see the future
         <|user|> |██
                W |░░▓▓
              hat |░░▒▒  
-              is |▓▓  ░░  
+              is |▒▒  ░░  
              Los |  ▒▒      
          Angeles |      ▓▓    
-            like |        ▒▒░░  
+            like |        ░░░░  
               in |          ██    
           summer |          ░░░░    
                ? |            ░░░░    
     <|assistant| |        ▒▒            
 
 what the final token reads from, per head (it is about to write the answer):
-   block 1 head 1: ' Los' 47%   ' Angeles' 15%   ' like' 10%
-   block 1 head 2: 'W' 22%   ' Los' 19%   ' summer' 15%
-   block 1 head 3: ' Angeles' 51%   'W' 31%   ' like' 5%
-   block 1 head 4: ' is' 28%   '?' 26%   ' Angeles' 16%
-   block 2 head 1: ' summer' 32%   '<|assistant|>' 30%   '?' 16%
-   block 2 head 2: ' is' 49%   ' like' 12%   ' summer' 12%
-   block 2 head 3: '?' 41%   'W' 18%   ' Los' 13%
-   block 2 head 4: 'W' 20%   '<|assistant|>' 15%   'hat' 14%
+   block 1 head 1: ' Los' 45%   ' Angeles' 14%   ' like' 11%
+   block 1 head 2: 'W' 22%   ' Los' 22%   ' summer' 13%
+   block 1 head 3: ' Angeles' 51%   'W' 30%   ' like' 5%
+   block 1 head 4: ' is' 29%   '?' 27%   ' Angeles' 15%
+   block 2 head 1: '<|assistant|>' 31%   ' summer' 27%   '?' 14%
+   block 2 head 2: ' is' 37%   ' like' 13%   'hat' 10%
+   block 2 head 3: '?' 27%   ' Los' 22%   'W' 20%
+   block 2 head 4: 'W' 23%   '<|assistant|>' 14%   ' Los' 13%
 
 ->  python stages/06_pretraining/run.py
 ```

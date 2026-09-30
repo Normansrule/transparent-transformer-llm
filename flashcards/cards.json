@@ -206,7 +206,7 @@
  {
   "deck": "harness",
   "q": "From what to what did the harness tricks raise the score?",
-  "a": "36% to 91% on 45 questions, with the same weights.",
+  "a": "38% to 91% on 45 questions, with the same weights.",
   "more": "stages/11_harness/"
  },
  {
@@ -796,5 +796,29 @@
   "q": "Why did red-teaming make self-improvement work here?",
   "a": "On familiar prompts the model rarely broke a principle, so there was nothing to learn. New, harder wordings exposed failures to train on.",
   "more": "stages/08_alignment/"
+ },
+ {
+  "deck": "training",
+  "q": "What is distillation?",
+  "a": "Training a student model to reproduce the verified outputs of a stronger teacher system. Here the teacher was the harness plus model, and the student the bare model.",
+  "more": "stages/08_alignment/"
+ },
+ {
+  "deck": "training",
+  "q": "What is catastrophic forgetting, and how does replay help?",
+  "a": "Fine-tuning on new data can erase old skills. Replay mixes old training examples into every batch, but only protects what it replays.",
+  "more": "stages/08_alignment/"
+ },
+ {
+  "deck": "training",
+  "q": "Why did distillation wash out honesty, and what fixed it?",
+  "a": "Honesty had been sharpened by preference training, which the replayed data did not contain (30% → 7%). Re-running preference training afterwards restored it to 27%.",
+  "more": "stages/08_alignment/"
+ },
+ {
+  "deck": "beyond the transformer",
+  "q": "Split this dense model's 256 neurons into 8 experts and keep 2: how much output survives?",
+  "a": "About 35% grouped in order, about 50% grouped by which neurons fire together. Trained mixture-of-experts models specialise much more.",
+  "more": "understand/7-beyond-the-transformer.md"
  }
 ]

@@ -2,7 +2,7 @@
 
 <a href="https://Normansrule.github.io/transparent-transformer-llm/flashcards.html"><img src="../assets/flashcards.svg" width="100%" alt="A flashcard flipping from question to answer"></a>
 
-**133 cards in 12 decks.** Three ways to study them:
+**137 cards in 12 decks.** Three ways to study them:
 
 | | how | best for |
 |---|---|---|
@@ -13,7 +13,7 @@
 | deck | cards | study |
 |---|:-:|:-:|
 | 🔟 [the ten stages](#the-ten-stages) | 15 | [flip](https://Normansrule.github.io/transparent-transformer-llm/flashcards.html#the-ten-stages) |
-| 🏋️ [training](#training) | 14 | [flip](https://Normansrule.github.io/transparent-transformer-llm/flashcards.html#training) |
+| 🏋️ [training](#training) | 17 | [flip](https://Normansrule.github.io/transparent-transformer-llm/flashcards.html#training) |
 | 🧰 [harness](#harness) | 12 | [flip](https://Normansrule.github.io/transparent-transformer-llm/flashcards.html#harness) |
 | 🧠 [perceptron and parameters](#perceptron-and-parameters) | 10 | [flip](https://Normansrule.github.io/transparent-transformer-llm/flashcards.html#perceptron-and-parameters) |
 | ❓ [what is AI](#what-is-ai) | 8 | [flip](https://Normansrule.github.io/transparent-transformer-llm/flashcards.html#what-is-ai) |
@@ -22,7 +22,7 @@
 | 📜 [history](#history) | 12 | [flip](https://Normansrule.github.io/transparent-transformer-llm/flashcards.html#history) |
 | 🌌 [minds and machines](#minds-and-machines) | 11 | [flip](https://Normansrule.github.io/transparent-transformer-llm/flashcards.html#minds-and-machines) |
 | 🏢 [AI at work](#ai-at-work) | 5 | [flip](https://Normansrule.github.io/transparent-transformer-llm/flashcards.html#ai-at-work) |
-| 🚀 [beyond the transformer](#beyond-the-transformer) | 11 | [flip](https://Normansrule.github.io/transparent-transformer-llm/flashcards.html#beyond-the-transformer) |
+| 🚀 [beyond the transformer](#beyond-the-transformer) | 12 | [flip](https://Normansrule.github.io/transparent-transformer-llm/flashcards.html#beyond-the-transformer) |
 | ⚖️ [claude and chatgpt](#claude-and-chatgpt) | 9 | [flip](https://Normansrule.github.io/transparent-transformer-llm/flashcards.html#claude-and-chatgpt) |
 
 <a id="the-ten-stages"></a>
@@ -209,6 +209,24 @@
 
 </details>
 
+<details><summary><b>What is distillation?</b></summary>
+
+> Training a student model to reproduce the verified outputs of a stronger teacher system. Here the teacher was the harness plus model, and the student the bare model. &nbsp;<sub><a href="https://github.com/Normansrule/transparent-transformer-llm/tree/main/stages/08_alignment/">learn more</a></sub>
+
+</details>
+
+<details><summary><b>What is catastrophic forgetting, and how does replay help?</b></summary>
+
+> Fine-tuning on new data can erase old skills. Replay mixes old training examples into every batch, but only protects what it replays. &nbsp;<sub><a href="https://github.com/Normansrule/transparent-transformer-llm/tree/main/stages/08_alignment/">learn more</a></sub>
+
+</details>
+
+<details><summary><b>Why did distillation wash out honesty, and what fixed it?</b></summary>
+
+> Honesty had been sharpened by preference training, which the replayed data did not contain (30% → 7%). Re-running preference training afterwards restored it to 27%. &nbsp;<sub><a href="https://github.com/Normansrule/transparent-transformer-llm/tree/main/stages/08_alignment/">learn more</a></sub>
+
+</details>
+
 <p align="right"><a href="https://Normansrule.github.io/transparent-transformer-llm/flashcards.html#training">study this deck with flip cards →</a></p>
 
 <a id="harness"></a>
@@ -247,7 +265,7 @@
 
 <details><summary><b>From what to what did the harness tricks raise the score?</b></summary>
 
-> 36% to 91% on 45 questions, with the same weights. &nbsp;<sub><a href="https://github.com/Normansrule/transparent-transformer-llm/tree/main/stages/11_harness/">learn more</a></sub>
+> 38% to 91% on 45 questions, with the same weights. &nbsp;<sub><a href="https://github.com/Normansrule/transparent-transformer-llm/tree/main/stages/11_harness/">learn more</a></sub>
 
 </details>
 
@@ -830,6 +848,12 @@
 <details><summary><b>Where does quantum machine learning stand?</b></summary>
 
 > An active research area with variational quantum circuits; no practical advantage for large-scale learning has been shown yet. &nbsp;<sub><a href="https://github.com/Normansrule/transparent-transformer-llm/blob/main/understand/7-beyond-the-transformer.md">learn more</a></sub>
+
+</details>
+
+<details><summary><b>Split this dense model's 256 neurons into 8 experts and keep 2: how much output survives?</b></summary>
+
+> About 35% grouped in order, about 50% grouped by which neurons fire together. Trained mixture-of-experts models specialise much more. &nbsp;<sub><a href="https://github.com/Normansrule/transparent-transformer-llm/blob/main/understand/7-beyond-the-transformer.md">learn more</a></sub>
 
 </details>
 
