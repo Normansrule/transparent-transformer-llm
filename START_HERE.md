@@ -59,7 +59,7 @@ Two more pages on the site go under the hood: [inside the network](https://Norma
 
 **Understand the why, not just the how.** Six short, visual [frames of reference](understand/) connect this model to the textbook view of AI (AIMA), the theory of agents, how coding agents are built, history, the debate about machine consciousness, and how AI is used at work.
 
-**Remember it.** [142 flashcards](flashcards/) in ten decks: flip them [on the website](https://Normansrule.github.io/transparent-transformer-llm/flashcards.html), click through them on GitHub, or import them into Anki.
+**Remember it.** [145 flashcards](flashcards/) in ten decks: flip them [on the website](https://Normansrule.github.io/transparent-transformer-llm/flashcards.html), click through them on GitHub, or import them into Anki.
 
 Words you will meet along the way are in the [glossary](GLOSSARY.md).
 

@@ -8,7 +8,7 @@ Every stage visual. Every gradient written by hand. Every trick measured. Runs i
 <p align="center">
 <a href="stages/01_input/"><img src="https://img.shields.io/badge/▶%20start-lesson%201-6FE3B4?style=for-the-badge" alt="▶ start lesson 1"></a>
 <a href="https://Normansrule.github.io/transparent-transformer-llm/"><img src="https://img.shields.io/badge/🧪%20live-classroom-FFB238?style=for-the-badge" alt="🧪 live classroom"></a>
-<a href="https://Normansrule.github.io/transparent-transformer-llm/flashcards.html"><img src="https://img.shields.io/badge/📇%20study-113%20flashcards-9AD0FF?style=for-the-badge" alt="📇 study 142 flashcards"></a>
+<a href="https://Normansrule.github.io/transparent-transformer-llm/flashcards.html"><img src="https://img.shields.io/badge/📇%20study-113%20flashcards-9AD0FF?style=for-the-badge" alt="📇 study 145 flashcards"></a>
 <a href="understand/"><img src="https://img.shields.io/badge/🧭%20understand-8%20frames-C9A7FF?style=for-the-badge" alt="🧭 understand 6 frames"></a>
 </p>
 
@@ -20,7 +20,7 @@ Every stage visual. Every gradient written by hand. Every trick measured. Runs i
 <tr>
 <td align="center" width="33%"><a href="START_HERE.md"><b>🟢<br>New here?</b></a><br><sub>the lesson plan, in 3 minutes</sub></td>
 <td align="center" width="33%"><a href="https://Normansrule.github.io/transparent-transformer-llm/"><b>🧪<br>Play with the real model</b></a><br><sub>type a question, watch every stage</sub></td>
-<td align="center" width="33%"><a href="flashcards/"><b>📇<br>Flashcards</b></a><br><sub>142 cards, 12 decks, flip or read</sub></td>
+<td align="center" width="33%"><a href="flashcards/"><b>📇<br>Flashcards</b></a><br><sub>145 cards, 12 decks, flip or read</sub></td>
 </tr>
 <tr>
 <td align="center" width="33%"><a href="https://Normansrule.github.io/transparent-transformer-llm/perceptron.html"><b>🧠<br>The perceptron</b></a><br><sub>draw a digit, watch neurons fire</sub></td>
@@ -78,7 +78,9 @@ A miniature of how production assistants are aligned: the model answers each pro
 
 Then **distillation**: the full system (harness plus model) answers messy questions, and the bare model learns to answer them itself. It tripled its score on question shapes it never practised, and taught a sharp lesson on the way: plain fine-tuning quietly erased its honesty until preference training was re-run. [Stage 8e →](stages/08_alignment/#8e-distillation-teach-the-weights-what-the-harness-knows)
 
-Finally a **reward model**, the scoring component of the RLHF recipe, which picks the best of 8 answers. It ranks 97% of held-out pairs correctly, yet a retrained version that was *more* accurate on climate pairs chose *worse* answers: reward hacking, measured. [Stage 8f →](stages/08_alignment/#8f-a-reward-model-and-spending-compute-at-answer-time) · [How Claude and ChatGPT do it at scale →](understand/8-claude-and-chatgpt.md)
+Finally a **reward model**, the scoring component of the RLHF recipe, which picks the best of 8 answers. It ranks 97% of held-out pairs correctly, yet a retrained version that was *more* accurate on climate pairs chose *worse* answers: reward hacking, measured. [Stage 8f →](stages/08_alignment/#8f-a-reward-model-and-spending-compute-at-answer-time)
+
+And **reinforcement learning against that reward model**, with and without a KL leash: without it, answers got less clear (90% → 83% clear sentences; 87% with the leash). Small, honest effects. [Stage 8g →](stages/08_alignment/#8g-reinforcement-learning-against-the-reward-model-with-and-without-a-leash) · [How Claude and ChatGPT do it at scale →](understand/8-claude-and-chatgpt.md)
 
 ## 🧭 Understand the why: eight frames of reference
 
@@ -107,7 +109,7 @@ Finally a **reward model**, the scoring component of the RLHF recipe, which pick
 
 <a href="https://Normansrule.github.io/transparent-transformer-llm/flashcards.html"><img src="assets/flashcards.svg" width="100%" alt="A flashcard flipping from question to answer"></a>
 
-**142 cards in 12 decks**, from tokens to theories of consciousness. [Flip them on the website](https://Normansrule.github.io/transparent-transformer-llm/flashcards.html) (it remembers what you know), [read them on GitHub](flashcards/), or [import them into Anki](flashcards/anki/). Try three right here:
+**145 cards in 12 decks**, from tokens to theories of consciousness. [Flip them on the website](https://Normansrule.github.io/transparent-transformer-llm/flashcards.html) (it remembers what you know), [read them on GitHub](flashcards/), or [import them into Anki](flashcards/anki/). Try three right here:
 
 <details><summary><b>🔟 What is the residual stream?</b></summary>
 
@@ -150,6 +152,7 @@ python -m transparent_transformer.agent_eval       # measure every harness trick
 python -m transparent_transformer.self_improve     # stage 8d: learn from its own answers (about 6 minutes)
 python -m transparent_transformer.distill          # stage 8e: teach the weights what the harness knows
 python -m transparent_transformer.reward_model     # stage 8f: a reward model and best-of-8
+python -m transparent_transformer.rlhf             # stage 8g: reinforcement learning, with and without a KL leash
 python tools/compare_assistants.py                 # same questions for Claude and ChatGPT (needs API keys)
 python classroom/check.py                          # grade your exercises
 python -m pytest -q                                # prove the hand-written calculus
@@ -180,7 +183,7 @@ transparent-transformer-llm/
 ├── START_HERE.md            the lesson plan
 ├── stages/                  11 lessons: README.md (visual page) + run.py (live demo) each
 ├── understand/              8 frames: AIMA, agents, coding agents, history, minds, AI at work, new architectures, Claude vs ChatGPT
-├── flashcards/              142 cards: cards.json (source), README.md (on GitHub), anki/ (import files)
+├── flashcards/              145 cards: cards.json (source), README.md (on GitHub), anki/ (import files)
 ├── perceptron/              side trip: a 784-16-16-10 perceptron trained from scratch
 ├── transparent_transformer/ the model, one short file per idea, plus harness.py and agent_eval.py
 ├── classroom/               ten exercises, the grader, solutions, quiz bank

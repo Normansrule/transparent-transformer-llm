@@ -19,3 +19,6 @@ What is a reward model?	A scorer that reads a prompt and an answer and returns o
 What is the Bradley–Terry loss?	−log sigmoid(reward(chosen) − reward(rejected)): it pushes the preferred answer's score above the other's.
 What is best-of-N?	Sample N answers and keep the one the reward model scores highest: spending compute at answer time.
 What is reward hacking?	Optimising against a reward model finds its blind spots. Here a model more accurate on climate pairs chose worse answers overall (refusals 80% → 73%).
+What is REINFORCE with a baseline?	loss = −(reward − average reward) × log p(answer): answers that beat the batch average become more likely, worse ones less likely.
+What does the KL penalty in RLHF do?	It subtracts β × (log p_model − log p_original) from each reward, a leash that makes drifting away from the original model costly.
+What happened in stage 8g without the leash?	Clear sentences fell from 90% to 83% (87% with the leash), while the reward model's noisy score rose in both runs: optimising a proxy, not the goal.

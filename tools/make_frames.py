@@ -247,7 +247,7 @@ def flashcards_banner():
     b.append(f'<g transform="translate({cx} 0)"><g><g transform="translate({-cx} 0)">{back}</g>{anim("0 1;0 1;0 1;1 1;1 1;0 1", "0;0.35;0.45;0.55;0.9;1")}</g></g>')
     for i, (lab, col) in enumerate([("✗ again", CORAL), ("✓ knew it", MINT)]):
         b.append(box(cx - 170 + i * 180, 280, 160, 40, col, "none", 10, 0) + text(cx - 90 + i * 180, 306, lab, 15, "#0B1E33", SANS, "middle", "700"))
-    b.append(text(40, 70, "142 cards, 12 decks: on the website, readable on GitHub, or in Anki", 13, MUTED, SANS))
+    b.append(text(40, 70, "145 cards, 12 decks: on the website, readable on GitHub, or in Anki", 13, MUTED, SANS))
     return frame(350, "".join(b), "flashcards  /  every idea in the course, one card at a time")
 
 
@@ -460,3 +460,43 @@ if __name__ == "__main__":
     if _r:
         (ASSETS / "reward.svg").write_text(_r)
         print("wrote assets/reward.svg")
+
+
+def rlhf_chart():
+    import json as _j
+    f = ASSETS.parent / "artifacts" / "rlhf_log.json"
+    if not f.exists():
+        return None
+    lg = _j.loads(f.read_text())
+    runs = [(k, v) for k, v in lg["runs"].items()]
+    b, x0, y0, w, h = [], 60, 90, 400, 200
+    allr = [r for _, v in runs for r in v["reward"]]
+    lo, hi = min(allr), max(allr)
+    sm = lambda v, k=10: [sum(v[max(0, i - k):i + 1]) / len(v[max(0, i - k):i + 1]) for i in range(len(v))]   # noqa: E731
+    b.append(f'<path d="M{x0} {y0}V{y0 + h}H{x0 + w}" fill="none" stroke="{MUTED}"/>' + text(x0, y0 - 10, "reward model's score during training (smoothed)", 12.5, MUTED, SANS) + text(x0 + w, y0 + h + 20, "training step →", 12, MUTED, SANS, "end"))
+    for i, (beta, v) in enumerate(runs):
+        col = CORAL if float(beta) == 0 else MINT
+        r = sm(v["reward"])
+        pts = " ".join(f"{x0 + w * j / (len(r) - 1):.1f},{y0 + h - h * (val - lo) / (hi - lo + 1e-9):.1f}" for j, val in enumerate(r))
+        b.append(f'<polyline points="{pts}" fill="none" stroke="{col}" stroke-width="3" pathLength="100" stroke-dasharray="100" stroke-dashoffset="100"><animate attributeName="stroke-dashoffset" values="100;0;0" keyTimes="0;0.5;1" dur="7s" begin="{i * 0.4}s" fill="freeze"/></polyline>')
+        b.append(f'<rect x="{x0 + 14}" y="{y0 + 10 + i * 22}" width="18" height="4" fill="{col}"/>' + text(x0 + 40, y0 + 16 + i * 22, "no leash (beta 0)" if float(beta) == 0 else f"KL leash (beta {beta})", 12.5, INK, SANS))
+    metrics = [("principles kept", "principles_kept"), ("clear sentences", "clear_sentences"), ("refuses harmful", "refuses_harmful"), ("45-question test", "test_45")]
+    cols = [("before", lg["before"], MUTED)] + [("no leash" if float(k) == 0 else "leash", v["after"], CORAL if float(k) == 0 else MINT) for k, v in runs]
+    bx = 560
+    for j, (name, _, col) in enumerate(cols):
+        b.append(text(bx + 150 + j * 90, 84, name, 12.5, col, SANS, "middle", "700"))
+    for i, (lab, key) in enumerate(metrics):
+        y = 100 + i * 46
+        b.append(text(bx + 100, y + 20, lab, 12.5, INK, SANS, "end"))
+        for j, (_, m, col) in enumerate(cols):
+            v = m[key]
+            b.append(box(bx + 110 + j * 90, y + 6, 80, 22, PANEL, GRID, 4, 1) + f'<rect x="{bx + 110 + j * 90}" y="{y + 6}" width="{80 * v:.0f}" height="22" rx="4" fill="{col}"/>' + text(bx + 150 + j * 90, y + 22, f"{v:.0%}", 11.5, "#0B1E33" if v > 0.5 else INK, MONO, "middle", "600"))
+    b.append(text(40, 330, "Left: the score training maximises (noisy, similar in both runs). Right: what the constitution says about the answers afterwards.", 12.5, INK, SANS))
+    return frame(350, "".join(b), "stage 8g  /  reinforcement learning against a reward model, with and without a leash")
+
+
+if __name__ == "__main__":
+    _g = rlhf_chart()
+    if _g:
+        (ASSETS / "rlhf.svg").write_text(_g)
+        print("wrote assets/rlhf.svg")

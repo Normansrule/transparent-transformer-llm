@@ -2,7 +2,7 @@
 
 <a href="https://Normansrule.github.io/transparent-transformer-llm/flashcards.html"><img src="../assets/flashcards.svg" width="100%" alt="A flashcard flipping from question to answer"></a>
 
-**142 cards in 12 decks.** Three ways to study them:
+**145 cards in 12 decks.** Three ways to study them:
 
 | | how | best for |
 |---|---|---|
@@ -13,7 +13,7 @@
 | deck | cards | study |
 |---|:-:|:-:|
 | 🔟 [the ten stages](#the-ten-stages) | 15 | [flip](https://Normansrule.github.io/transparent-transformer-llm/flashcards.html#the-ten-stages) |
-| 🏋️ [training](#training) | 21 | [flip](https://Normansrule.github.io/transparent-transformer-llm/flashcards.html#training) |
+| 🏋️ [training](#training) | 24 | [flip](https://Normansrule.github.io/transparent-transformer-llm/flashcards.html#training) |
 | 🧰 [harness](#harness) | 12 | [flip](https://Normansrule.github.io/transparent-transformer-llm/flashcards.html#harness) |
 | 🧠 [perceptron and parameters](#perceptron-and-parameters) | 10 | [flip](https://Normansrule.github.io/transparent-transformer-llm/flashcards.html#perceptron-and-parameters) |
 | ❓ [what is AI](#what-is-ai) | 8 | [flip](https://Normansrule.github.io/transparent-transformer-llm/flashcards.html#what-is-ai) |
@@ -248,6 +248,24 @@
 <details><summary><b>What is reward hacking?</b></summary>
 
 > Optimising against a reward model finds its blind spots. Here a model more accurate on climate pairs chose worse answers overall (refusals 80% → 73%). &nbsp;<sub><a href="https://github.com/Normansrule/transparent-transformer-llm/tree/main/stages/08_alignment/">learn more</a></sub>
+
+</details>
+
+<details><summary><b>What is REINFORCE with a baseline?</b></summary>
+
+> loss = −(reward − average reward) × log p(answer): answers that beat the batch average become more likely, worse ones less likely. &nbsp;<sub><a href="https://github.com/Normansrule/transparent-transformer-llm/tree/main/stages/08_alignment/">learn more</a></sub>
+
+</details>
+
+<details><summary><b>What does the KL penalty in RLHF do?</b></summary>
+
+> It subtracts β × (log p_model − log p_original) from each reward, a leash that makes drifting away from the original model costly. &nbsp;<sub><a href="https://github.com/Normansrule/transparent-transformer-llm/tree/main/stages/08_alignment/">learn more</a></sub>
+
+</details>
+
+<details><summary><b>What happened in stage 8g without the leash?</b></summary>
+
+> Clear sentences fell from 90% to 83% (87% with the leash), while the reward model's noisy score rose in both runs: optimising a proxy, not the goal. &nbsp;<sub><a href="https://github.com/Normansrule/transparent-transformer-llm/tree/main/stages/08_alignment/">learn more</a></sub>
 
 </details>
 

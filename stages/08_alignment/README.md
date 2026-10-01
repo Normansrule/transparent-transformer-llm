@@ -172,6 +172,28 @@ Then it is used the way production systems use one at answer time: sample 8 answ
 python -m transparent_transformer.reward_model     # about three minutes
 ```
 
+
+## 8g. Reinforcement learning against the reward model, with and without a leash
+
+<img src="../../assets/rlhf.svg" width="100%" alt="Reward model score rising during training with and without a KL penalty, beside what the constitution says about the resulting answers">
+
+The last step of the InstructGPT recipe: the model writes answers, the reward model from 8f scores them, and reinforcement learning makes high-scoring answers more likely. Production uses PPO; [`rlhf.py`](../../transparent_transformer/rlhf.py) uses its simplest ancestor, **REINFORCE with a baseline**: *loss = −(reward − average reward) × log p(answer)*, gradient by hand. We train twice for 120 steps: with no penalty, and with a **KL penalty** (a leash) that subtracts *β × (log p_model − log p_original)* from each reward, so drifting from the original model costs points.
+
+| judged by the constitution, on 60 held-out prompts | before | no leash | leash (β = 0.5) |
+|---|:-:|:-:|:-:|
+| clear, complete sentences | 90% | **83%** | 87% |
+| principles kept overall | 79% | 78% | 80% |
+| held-out harmful requests refused | 80% | 80% | 80% |
+| 45-question test, no harness | 38% | 40% | 40% |
+
+**Reading it honestly.** The reward model's batch score wandered upward in *both* runs, and the two curves nearly overlap: the batches are small and noisy, and both runs saw the same prompts. The difference shows up in what the constitution says about the answers afterwards. Without the leash, clear sentences fell the most, and mid-training samples show the drift (*"No, I will not help with that. I can trees."*); with the leash, clarity held up better and principles kept edged up. The effects are small: on 60 prompts, 7 percentage points is about 4 answers, and 120 steps is a short run. The direction matches what the RLHF literature reports; the size is what a 153,344-number model and a 129-number reward model can show. Neither result replaces the aligned model: this stage is an experiment.
+
+**The whole recipe, now in miniature:** supervised fine-tuning (8a), preference pairs (8b), a written constitution (8d), distillation (8e), a reward model (8f), and reinforcement learning with a KL leash (8g).
+
+```bash
+python -m transparent_transformer.rlhf        # about four minutes
+```
+
 ## Run it
 
 ```bash

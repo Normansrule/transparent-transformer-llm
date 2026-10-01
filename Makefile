@@ -1,6 +1,6 @@
 PY ?= python3
 
-.PHONY: reward distill self-improve compare flashcards eval copy-drill intro scrape corpus report real web notebooks homework classroom help setup data tokenizer pretrain sft dpo train trace visuals docs tour chat test all clean
+.PHONY: rlhf reward distill self-improve compare flashcards eval copy-drill intro scrape corpus report real web notebooks homework classroom help setup data tokenizer pretrain sft dpo train trace visuals docs tour chat test all clean
 
 help:  ## list every command
 	@grep -E "^[a-z-]+:.*##" Makefile | sed "s/:.*## /\t/" | expand -t 12
@@ -70,6 +70,9 @@ intro:  ## re-record the README's intro.gif from docs/intro.html (pip install pl
 copy-drill:  ## stage 11 experiment: train the copy skill on 1,400 random names (see stages/11_harness)
 	$(PY) data/make_corpus.py --copy-drill
 	$(MAKE) sft dpo
+
+rlhf:  ## stage 8g: REINFORCE against the reward model, with and without a KL penalty (about 4 minutes)
+	$(PY) -m transparent_transformer.rlhf
 
 reward:  ## stage 8f: train a reward model and compare best-of-8 selection (about 3 minutes)
 	$(PY) -m transparent_transformer.reward_model
