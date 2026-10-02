@@ -922,5 +922,35 @@
   "q": "Which published work used sparse autoencoders on large models?",
   "a": "Anthropic's Towards Monosemanticity (2023) and Scaling Monosemanticity (2024); OpenAI's Extracting Concepts from GPT-4 (2024).",
   "more": "interpretability/"
+ },
+ {
+  "deck": "perceptron and parameters",
+  "q": "What is LoRA?",
+  "a": "Low-Rank Adaptation: freeze W and learn a small correction B·A (rank r), so W·x becomes W·x + (α/r)·B·A·x. Here 8,192 trainable numbers instead of 153,344.",
+  "more": "efficiency/"
+ },
+ {
+  "deck": "perceptron and parameters",
+  "q": "Why does a merged LoRA adapter cost nothing at inference?",
+  "a": "B·A is folded back into W after training, so the model has exactly the same shape and speed as before.",
+  "more": "efficiency/"
+ },
+ {
+  "deck": "perceptron and parameters",
+  "q": "Does LoRA automatically forget less than full fine-tuning?",
+  "a": "No. Without replay, LoRA at its usual higher learning rate wrecked refusals (80% → 0%). Replay protected old skills more than the choice of method did.",
+  "more": "efficiency/"
+ },
+ {
+  "deck": "perceptron and parameters",
+  "q": "What does 4-bit quantization cost this model?",
+  "a": "About 7× smaller file, loss on unseen text up by about 0.012, the 45-question test unchanged.",
+  "more": "efficiency/"
+ },
+ {
+  "deck": "perceptron and parameters",
+  "q": "What is the alignment tax found here?",
+  "a": "Chat fine-tuning raised the loss on ordinary text from 0.37 to 5.15: the model lost its ability to predict plain text.",
+  "more": "efficiency/"
  }
 ]

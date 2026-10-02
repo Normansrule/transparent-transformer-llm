@@ -1,6 +1,6 @@
 PY ?= python3
 
-.PHONY: inside rlhf reward distill self-improve compare flashcards eval copy-drill intro scrape corpus report real web notebooks homework classroom help setup data tokenizer pretrain sft dpo train trace visuals docs tour chat test all clean
+.PHONY: efficiency inside rlhf reward distill self-improve compare flashcards eval copy-drill intro scrape corpus report real web notebooks homework classroom help setup data tokenizer pretrain sft dpo train trace visuals docs tour chat test all clean
 
 help:  ## list every command
 	@grep -E "^[a-z-]+:.*##" Makefile | sed "s/:.*## /\t/" | expand -t 12
@@ -70,6 +70,9 @@ intro:  ## re-record the README's intro.gif from docs/intro.html (pip install pl
 copy-drill:  ## stage 11 experiment: train the copy skill on 1,400 random names (see stages/11_harness)
 	$(PY) data/make_corpus.py --copy-drill
 	$(MAKE) sft dpo
+
+efficiency:  ## LoRA versus full fine-tuning, and quantization (about 3 minutes)
+	$(PY) -m transparent_transformer.efficiency
 
 inside:  ## interpretability: causal tracing + a sparse autoencoder (about 2 minutes)
 	$(PY) -m transparent_transformer.interpret

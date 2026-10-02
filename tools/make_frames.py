@@ -248,7 +248,7 @@ def flashcards_banner():
     b.append(f'<g transform="translate({cx} 0)"><g><g transform="translate({-cx} 0)">{back}</g>{anim("0 1;0 1;0 1;1 1;1 1;0 1", "0;0.35;0.45;0.55;0.9;1")}</g></g>')
     for i, (lab, col) in enumerate([("✗ again", CORAL), ("✓ knew it", MINT)]):
         b.append(box(cx - 170 + i * 180, 280, 160, 40, col, "none", 10, 0) + text(cx - 90 + i * 180, 306, lab, 15, "#0B1E33", SANS, "middle", "700"))
-    b.append(text(40, 70, "154 cards, 13 decks: on the website, readable on GitHub, or in Anki", 13, MUTED, SANS))
+    b.append(text(40, 70, "159 cards, 13 decks: on the website, readable on GitHub, or in Anki", 13, MUTED, SANS))
     return frame(350, "".join(b), "flashcards  /  every idea in the course, one card at a time")
 
 
@@ -561,3 +561,39 @@ if __name__ == "__main__":
         if _v:
             (ASSETS / f"{_n}.svg").write_text(_v)
             print(f"wrote assets/{_n}.svg")
+
+
+def efficiency_chart():
+    import json as _j
+    f = ASSETS.parent / "artifacts" / "efficiency_log.json"
+    if not f.exists():
+        return None
+    lg = _j.loads(f.read_text())
+    b = [text(40, 70, "Left: teach six new cities. Right: the same model stored in fewer bits.", 12.5, MUTED, SANS)]
+    metrics = [("new cities learned", "new_facts", MINT), ("old facts kept", "old_facts", CYAN), ("refuses harmful", "refuses_harmful", AMBER)]
+    rows = [("before", lg["before"], None)] + [(k, v, v["trainable"]) for k, v in lg["lora"].items()]
+    x0 = 230
+    for j, (lab, _, _) in enumerate(metrics):
+        b.append(text(x0 + j * 78 + 34, 92, lab.split()[0], 11.5, metrics[j][2], SANS, "middle", "600") + text(x0 + j * 78 + 34, 105, " ".join(lab.split()[1:]), 11, MUTED, SANS, "middle"))
+    for i, (name, m, n) in enumerate(rows):
+        y = 116 + i * 38
+        b.append(text(x0 - 10, y + 15, name, 12, INK, SANS, "end") + (text(x0 - 10, y + 28, f"trains {n:,}", 10.5, MUTED, MONO, "end") if n else ""))
+        for j, (_, key, col) in enumerate(metrics):
+            v = m[key]
+            b.append(box(x0 + j * 78, y + 2, 68, 22, PANEL, GRID, 4, 1) + f'<rect x="{x0 + j * 78}" y="{y + 2}" width="{68 * v:.0f}" height="22" rx="4" fill="{col}"/>' + text(x0 + j * 78 + 34, y + 18, f"{v:.0%}", 11, "#0B1E33" if v > 0.5 else INK, MONO, "middle", "600"))
+    q = lg["quant"]; qx = 620
+    b.append(text(qx, 92, "file size", 11.5, CYAN, SANS, weight="600") + text(qx + 180, 92, "45-question test", 11.5, AMBER, SANS, weight="600"))
+    mx = max(v["kb"] for v in q.values())
+    for i, (name, v) in enumerate(q.items()):
+        y = 116 + i * 46
+        b.append(text(qx, y + 10, name, 11.5, INK, SANS))
+        b.append(box(qx, y + 16, 150, 14, PANEL, GRID, 3, 1) + f'<rect x="{qx}" y="{y + 16}" width="{150 * v["kb"] / mx:.0f}" height="14" rx="3" fill="{CYAN}"/>' + text(qx + 154, y + 27, f"{v['kb']:.0f} KB", 10.5, MUTED, MONO))
+        b.append(box(qx + 220, y + 16, 80, 14, PANEL, GRID, 3, 1) + f'<rect x="{qx + 220}" y="{y + 16}" width="{80 * v["test_45"]:.0f}" height="14" rx="3" fill="{AMBER}"/>' + text(qx + 304, y + 27, f"{v['test_45']:.0%}", 10.5, MUTED, MONO))
+    return frame(max(116 + len(rows) * 38, 116 + len(q) * 46) + 24, "".join(b), "making it cheaper  /  LoRA adapters and quantization")
+
+
+if __name__ == "__main__":
+    _e = efficiency_chart()
+    if _e:
+        (ASSETS / "efficiency.svg").write_text(_e)
+        print("wrote assets/efficiency.svg")

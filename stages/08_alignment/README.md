@@ -90,6 +90,10 @@ Two design choices matter more than the refusal itself:
 The script below prints the red-team result for all three checkpoints: how often each refuses held-out harmful wordings, and how often it wrongly refuses safe ones. Real safety training works the same way at far larger scale, with people paid to find the wordings the model has not seen yet (**red-teaming**).
 
 
+## The alignment tax
+
+Teaching the chat format had a hidden cost. On ordinary text the base model's loss is **0.37**; after supervised fine-tuning it is **5.15**, close to guessing. Training only on conversations erased the model's ability to predict plain text. OpenAI's InstructGPT reported a similar effect and reduced it by mixing pretraining text into later training. Found while measuring [quantization](../../efficiency/).
+
 ## 8d. Learning from its own answers
 
 <img src="../../assets/self_improve.svg" width="100%" alt="Bars before and after two rounds of self-improvement: held-out harmful requests refused rise from 60% to 80%; safe questions wrongly refused stay at 0%">

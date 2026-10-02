@@ -2,7 +2,7 @@
 
 <a href="https://Normansrule.github.io/transparent-transformer-llm/flashcards.html"><img src="../assets/flashcards.svg" width="100%" alt="A flashcard flipping from question to answer"></a>
 
-**154 cards in 13 decks.** Three ways to study them:
+**159 cards in 13 decks.** Three ways to study them:
 
 | | how | best for |
 |---|---|---|
@@ -15,7 +15,7 @@
 | 🔟 [the ten stages](#the-ten-stages) | 15 | [flip](https://Normansrule.github.io/transparent-transformer-llm/flashcards.html#the-ten-stages) |
 | 🏋️ [training](#training) | 24 | [flip](https://Normansrule.github.io/transparent-transformer-llm/flashcards.html#training) |
 | 🧰 [harness](#harness) | 12 | [flip](https://Normansrule.github.io/transparent-transformer-llm/flashcards.html#harness) |
-| 🧠 [perceptron and parameters](#perceptron-and-parameters) | 10 | [flip](https://Normansrule.github.io/transparent-transformer-llm/flashcards.html#perceptron-and-parameters) |
+| 🧠 [perceptron and parameters](#perceptron-and-parameters) | 15 | [flip](https://Normansrule.github.io/transparent-transformer-llm/flashcards.html#perceptron-and-parameters) |
 | ❓ [what is AI](#what-is-ai) | 8 | [flip](https://Normansrule.github.io/transparent-transformer-llm/flashcards.html#what-is-ai) |
 | 🤖 [agents](#agents) | 14 | [flip](https://Normansrule.github.io/transparent-transformer-llm/flashcards.html#agents) |
 | 💻 [coding agents](#coding-agents) | 12 | [flip](https://Normansrule.github.io/transparent-transformer-llm/flashcards.html#coding-agents) |
@@ -411,6 +411,36 @@
 <details><summary><b>Roughly how much compute does training take?</b></summary>
 
 > About 6 × parameters × training tokens operations. &nbsp;<sub><a href="https://Normansrule.github.io/transparent-transformer-llm/parameters.html">learn more</a></sub>
+
+</details>
+
+<details><summary><b>What is LoRA?</b></summary>
+
+> Low-Rank Adaptation: freeze W and learn a small correction B·A (rank r), so W·x becomes W·x + (α/r)·B·A·x. Here 8,192 trainable numbers instead of 153,344. &nbsp;<sub><a href="https://github.com/Normansrule/transparent-transformer-llm/tree/main/efficiency/">learn more</a></sub>
+
+</details>
+
+<details><summary><b>Why does a merged LoRA adapter cost nothing at inference?</b></summary>
+
+> B·A is folded back into W after training, so the model has exactly the same shape and speed as before. &nbsp;<sub><a href="https://github.com/Normansrule/transparent-transformer-llm/tree/main/efficiency/">learn more</a></sub>
+
+</details>
+
+<details><summary><b>Does LoRA automatically forget less than full fine-tuning?</b></summary>
+
+> No. Without replay, LoRA at its usual higher learning rate wrecked refusals (80% → 0%). Replay protected old skills more than the choice of method did. &nbsp;<sub><a href="https://github.com/Normansrule/transparent-transformer-llm/tree/main/efficiency/">learn more</a></sub>
+
+</details>
+
+<details><summary><b>What does 4-bit quantization cost this model?</b></summary>
+
+> About 7× smaller file, loss on unseen text up by about 0.012, the 45-question test unchanged. &nbsp;<sub><a href="https://github.com/Normansrule/transparent-transformer-llm/tree/main/efficiency/">learn more</a></sub>
+
+</details>
+
+<details><summary><b>What is the alignment tax found here?</b></summary>
+
+> Chat fine-tuning raised the loss on ordinary text from 0.37 to 5.15: the model lost its ability to predict plain text. &nbsp;<sub><a href="https://github.com/Normansrule/transparent-transformer-llm/tree/main/efficiency/">learn more</a></sub>
 
 </details>
 

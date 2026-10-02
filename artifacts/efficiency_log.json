@@ -1,0 +1,124 @@
+{
+ "before": {
+  "new_facts": 0.0,
+  "old_facts": 1.0,
+  "refuses_harmful": 0.8,
+  "honest_sampled": 0.26666666666666666,
+  "test_45": 0.37777777777777777
+ },
+ "lora": {
+  "full fine-tune": {
+   "trainable": 153344,
+   "new_facts": 0.16666666666666666,
+   "old_facts": 1.0,
+   "refuses_harmful": 0.6,
+   "honest_sampled": 0.26666666666666666,
+   "test_45": 0.35555555555555557,
+   "example": "In summer San Pedro In summer San usually very hot and sunny. People there often watch the cherry trees."
+  },
+  "full fine-tune, with replay": {
+   "trainable": 153344,
+   "new_facts": 0.16666666666666666,
+   "old_facts": 1.0,
+   "refuses_harmful": 0.6,
+   "honest_sampled": 0.1,
+   "test_45": 0.35555555555555557,
+   "example": "In summer San Pedro In summer San usually very hot and sunny. People there often watch the cherry trees."
+  },
+  "LoRA, rank 4": {
+   "trainable": 8192,
+   "new_facts": 0.5833333333333334,
+   "old_facts": 0.25,
+   "refuses_harmful": 0.0,
+   "honest_sampled": 0.03333333333333333,
+   "test_45": 0.08888888888888889,
+   "example": "In summer San Pedro is usually mild and breezy. People there often watch the ships."
+  },
+  "LoRA, rank 4, with replay": {
+   "trainable": 8192,
+   "new_facts": 0.25,
+   "old_facts": 1.0,
+   "refuses_harmful": 0.8,
+   "honest_sampled": 0.1,
+   "test_45": 0.4,
+   "example": "In summer San Pedro is usually warm and breezy. People there often watch the ships."
+  }
+ },
+ "quant": {
+  "32-bit (original)": {
+   "kb": 599.0,
+   "val_loss": 5.180204072958894,
+   "test_45": 0.37777777777777777,
+   "refuses_harmful": 0.8,
+   "answer": "In summer Los Angeles is usually hot and dry. People there often go to the beach.",
+   "val_loss_base": 0.36577335135722594
+  },
+  "8-bit": {
+   "kb": 157.5,
+   "val_loss": 5.186761661452907,
+   "test_45": 0.37777777777777777,
+   "refuses_harmful": 0.8,
+   "answer": "In summer Los Angeles is usually hot and dry. People there often go to the beach.",
+   "val_loss_base": 0.36577962020136795
+  },
+  "4-bit, one scale per column": {
+   "kb": 83.5,
+   "val_loss": 5.144186566399242,
+   "test_45": 0.37777777777777777,
+   "refuses_harmful": 0.8,
+   "answer": "In summer Los Angeles is usually hot and dry. People there often go to the beach.",
+   "val_loss_base": 0.3773909113893932
+  },
+  "4-bit, groups of 32": {
+   "kb": 90.25,
+   "val_loss": 5.1960083482557025,
+   "test_45": 0.4,
+   "refuses_harmful": 0.8,
+   "answer": "In summer Los Angeles is usually hot and dry. People there often go to the beach.",
+   "val_loss_base": 0.3789380113784184
+  }
+ },
+ "new_cities": [
+  [
+   "San Pedro",
+   "mild and breezy",
+   "mild and cloudy",
+   "watch the ships"
+  ],
+  [
+   "Torrance",
+   "warm and sunny",
+   "mild and clear",
+   "go to the beach"
+  ],
+  [
+   "Pasadena",
+   "hot and dry",
+   "cool and clear",
+   "walk in the gardens"
+  ],
+  [
+   "Irvine",
+   "warm and sunny",
+   "mild and clear",
+   "ride bikes"
+  ],
+  [
+   "Long Beach",
+   "warm and breezy",
+   "mild and clear",
+   "go sailing"
+  ],
+  [
+   "Santa Monica",
+   "mild and sunny",
+   "cool and clear",
+   "walk on the pier"
+  ]
+ ],
+ "alignment_tax": {
+  "base": 0.36577335135722594,
+  "sft": 5.152708910369367,
+  "aligned": 5.180204072958894
+ }
+}

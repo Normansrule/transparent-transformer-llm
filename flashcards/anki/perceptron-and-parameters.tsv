@@ -8,3 +8,8 @@ Doubling the vector width does what to a block's parameters?	Roughly quadruples 
 Do more attention heads add parameters?	No. Heads split the same Q, K and V matrices into slices.
 What is quantization?	Storing each parameter in fewer bits (16, 8, 4) so a model needs less memory.
 Roughly how much compute does training take?	About 6 × parameters × training tokens operations.
+What is LoRA?	Low-Rank Adaptation: freeze W and learn a small correction B·A (rank r), so W·x becomes W·x + (α/r)·B·A·x. Here 8,192 trainable numbers instead of 153,344.
+Why does a merged LoRA adapter cost nothing at inference?	B·A is folded back into W after training, so the model has exactly the same shape and speed as before.
+Does LoRA automatically forget less than full fine-tuning?	No. Without replay, LoRA at its usual higher learning rate wrecked refusals (80% → 0%). Replay protected old skills more than the choice of method did.
+What does 4-bit quantization cost this model?	About 7× smaller file, loss on unseen text up by about 0.012, the 45-question test unchanged.
+What is the alignment tax found here?	Chat fine-tuning raised the loss on ordinary text from 0.37 to 5.15: the model lost its ability to predict plain text.

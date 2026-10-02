@@ -152,3 +152,8 @@ What did the SAE change here?	Single-mindedness rose from 51% for raw neurons to
 What is the sparsity trade-off?	A bigger L1 penalty gives fewer active features (easier to read) but rebuilds the neurons less well, and leaves some features dead.	looking-inside
 What is a concept feature?	A feature firing on many different words of one kind, e.g. city names before a full stop, or digits, or sky words.	looking-inside
 Which published work used sparse autoencoders on large models?	Anthropic's Towards Monosemanticity (2023) and Scaling Monosemanticity (2024); OpenAI's Extracting Concepts from GPT-4 (2024).	looking-inside
+What is LoRA?	Low-Rank Adaptation: freeze W and learn a small correction B·A (rank r), so W·x becomes W·x + (α/r)·B·A·x. Here 8,192 trainable numbers instead of 153,344.	perceptron-and-parameters
+Why does a merged LoRA adapter cost nothing at inference?	B·A is folded back into W after training, so the model has exactly the same shape and speed as before.	perceptron-and-parameters
+Does LoRA automatically forget less than full fine-tuning?	No. Without replay, LoRA at its usual higher learning rate wrecked refusals (80% → 0%). Replay protected old skills more than the choice of method did.	perceptron-and-parameters
+What does 4-bit quantization cost this model?	About 7× smaller file, loss on unseen text up by about 0.012, the 45-question test unchanged.	perceptron-and-parameters
+What is the alignment tax found here?	Chat fine-tuning raised the loss on ordinary text from 0.37 to 5.15: the model lost its ability to predict plain text.	perceptron-and-parameters
