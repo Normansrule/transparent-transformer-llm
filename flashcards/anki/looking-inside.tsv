@@ -1,0 +1,9 @@
+What is causal tracing (activation patching)?	Run a clean and a corrupted input, then paste one internal vector from the clean run into the corrupted one. If the clean answer returns, that vector carried the information.
+Where does the city's fact travel in this model?	It starts on the city's tokens; block 1's attention moves it to the last position, where the answer is read out.
+Why can only some city pairs be patched position by position?	City names tokenize to different lengths. Only sentences with the same number of tokens line up.
+What does polysemantic mean?	One neuron responding to several unrelated things, because there are more ideas to store than neurons.
+What does a sparse autoencoder do?	Re-expresses each activation as a combination of a few of many learned features: f = ReLU((h − b)W + c), rebuilt as fW' + b, with an L1 penalty on f.
+What did the SAE change here?	Single-mindedness rose from 51% for raw neurons to 82% for features, explaining 83% of neuron activity.
+What is the sparsity trade-off?	A bigger L1 penalty gives fewer active features (easier to read) but rebuilds the neurons less well, and leaves some features dead.
+What is a concept feature?	A feature firing on many different words of one kind, e.g. city names before a full stop, or digits, or sky words.
+Which published work used sparse autoencoders on large models?	Anthropic's Towards Monosemanticity (2023) and Scaling Monosemanticity (2024); OpenAI's Extracting Concepts from GPT-4 (2024).

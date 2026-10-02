@@ -17,7 +17,7 @@ td.pick{outline:2px solid var(--amber);outline-offset:-2px}
 .pills button{margin:0 6px 6px 0}.note{font-size:14px;color:var(--muted)}
 </style></head><body><div class="wrap">
 <h1>🚀 Beyond the transformer, on the real model</h1>
-<p class="sub">Three ideas from <a href="https://github.com/Normansrule/transparent-transformer-llm/blob/main/understand/7-beyond-the-transformer.md">frame 7</a>, tried on the actual 153,344-number model running in your browser. <a href="index.html">classroom</a> &middot; <a href="parameters.html">parameters</a> &middot; <a href="flashcards.html#beyond-the-transformer">📇 flashcards</a></p>
+<p class="sub">Three ideas from <a href="https://github.com/Normansrule/transparent-transformer-llm/blob/main/understand/7-beyond-the-transformer.md">frame 7</a>, tried on the actual 153,344-number model running in your browser. <a href="inside.html">🔬 inside</a> &middot; <a href="index.html">classroom</a> &middot; <a href="parameters.html">parameters</a> &middot; <a href="flashcards.html#beyond-the-transformer">📇 flashcards</a></p>
 
 <div class="card"><h2>1 · Mixture of experts, with this model's real neurons</h2>
 <p class="sub">Each block's perceptron layer has 256 neurons. Pretend they are <b>8 experts of 32</b>. For every token, measure how much each expert actually adds to the block's output, then keep only the <b>top 2</b>, as a mixture-of-experts router would. How much of the real output survives?</p>

@@ -53,13 +53,14 @@ flowchart LR
 | [10 Output](stages/10_output/) | the generation loop and how it knows when to stop | `generate` | 15 min |
 | [11 The harness](stages/11_harness/) | guards, memory, tools, streaming: the software around the model | tweak `harness.py` | 25 min |
 | [Side trip: parameters](https://Normansrule.github.io/transparent-transformer-llm/parameters.html) | why models are big, where parameters live, what they cost | build a model with sliders | 15 min |
+| [Side trip: looking inside](interpretability/) | where the model stores a fact, and readable features from tangled neurons | causal tracing, a sparse autoencoder | 25 min |
 | [Field trip](scrape/) | where training data comes from, polite web scraping, measuring a model | your own dataset and model | 90 min, mostly waiting |
 
 Two more pages on the site go under the hood: [inside the network](https://Normansrule.github.io/transparent-transformer-llm/network.html) walks every layer and perceptron with real activations, and [the harness](https://Normansrule.github.io/transparent-transformer-llm/harness.html) runs the whole assistant loop with a live weather lookup.
 
 **Understand the why, not just the how.** Six short, visual [frames of reference](understand/) connect this model to the textbook view of AI (AIMA), the theory of agents, how coding agents are built, history, the debate about machine consciousness, and how AI is used at work.
 
-**Remember it.** [145 flashcards](flashcards/) in ten decks: flip them [on the website](https://Normansrule.github.io/transparent-transformer-llm/flashcards.html), click through them on GitHub, or import them into Anki.
+**Remember it.** [154 flashcards](flashcards/) in ten decks: flip them [on the website](https://Normansrule.github.io/transparent-transformer-llm/flashcards.html), click through them on GitHub, or import them into Anki.
 
 Words you will meet along the way are in the [glossary](GLOSSARY.md).
 

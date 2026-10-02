@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Inside the model: where it keeps what it knows</title>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&family=IBM+Plex+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0F2A47;--deep:#0B1E33;--grid:#1B3F66;--panel:#143556;--ink:#DCE9F5;--muted:#7FA3C7;--amber:#FFB238;--coral:#FF6F61;--mint:#6FE3B4;--cyan:#5CC8FF;--violet:#C9A7FF;--sans:"IBM Plex Sans",system-ui,sans-serif;--mono:"IBM Plex Mono",ui-monospace,monospace}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 var(--sans)}.wrap{max-width:1150px;margin:0 auto;padding:22px 20px 60px}
+h1{font-size:clamp(26px,4vw,40px);margin:0 0 4px;line-height:1.1}h2{font-size:22px;margin:0 0 6px}.sub{color:var(--muted);margin:0 0 12px;max-width:92ch}a{color:var(--cyan)}
+.card{background:var(--panel);border:1px solid var(--grid);border-radius:14px;padding:16px;margin-top:16px}
+select,input[type=text]{font:600 14px var(--mono);color:var(--amber);background:var(--bg);border:1.5px solid var(--muted);border-radius:9px;padding:7px 10px}
+button{font:inherit;color:inherit;cursor:pointer;border:1px solid var(--muted);background:none;border-radius:999px;padding:5px 14px;font-size:14px}.go{background:var(--amber);border-color:var(--amber);color:#0B1E33;font-weight:700}
+table.h{border-collapse:separate;border-spacing:3px;font:12px var(--mono)}table.h th{color:var(--muted);font-weight:400;padding:2px 4px;white-space:nowrap}table.h td{min-width:46px;height:30px;border-radius:5px;text-align:center}
+.scroll{overflow-x:auto}.kpi{display:inline-block;background:var(--deep);border-radius:10px;padding:10px 14px;margin:6px 8px 0 0}.kpi b{display:block;font:700 24px var(--mono)}.kpi span{font-size:13px;color:var(--muted)}
+.feats{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:10px;margin-top:10px}.feat{background:var(--deep);border-radius:10px;padding:10px 12px;font-size:13px;border-left:4px solid var(--cyan);cursor:pointer}
+.feat b{font:600 13px var(--mono)}.feat .ex{font:12px var(--mono);color:var(--muted);margin-top:3px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.feat .ex i{font-style:normal;color:#0B1E33;background:var(--amber);border-radius:3px;padding:0 2px}
+.toks{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}.tk{background:var(--deep);border-radius:8px;padding:6px 8px;font:12px var(--mono);min-width:70px}.tk b{display:block;color:var(--amber);font-size:13px;margin-bottom:3px}
+.tk span{display:block;color:var(--muted);cursor:pointer}.tk span:hover{color:var(--ink)}
+.pills button{margin:0 6px 6px 0}.pills button.on{background:var(--cyan);border-color:var(--cyan);color:#0B1E33}
+</style></head><body><div class="wrap">
+<h1>🔬 Inside the model</h1>
+<p class="sub">Two interpretability techniques, run on the real 153,344-number model: <b>causal tracing</b> finds where a fact travels; a <b>sparse autoencoder</b> turns tangled neurons into readable features. Lesson: <a href="https://github.com/Normansrule/transparent-transformer-llm/tree/main/interpretability">interpretability/</a> &middot; <a href="index.html">classroom</a> &middot; <a href="network.html">inside the network</a> &middot; <a href="flashcards.html#looking-inside">📇 flashcards</a></p>
+
+<div class="card"><h2>1 · Causal tracing: where does "Los Angeles is hot" live?</h2>
+<p class="sub">Run <i>"…In summer <b>A</b> is usually"</i> for two cities with different facts. Then re-run city B, but paste in <b>one</b> vector from city A's run. A bright cell means that one vector brought city A's answer back. 100% = all of it.</p>
+<div style="margin-bottom:8px">pair: <select id="pair"></select> &nbsp; view: <span class="pills" id="views"><button data-v="resid" class="on">residual stream</button><button data-v="attn">attention outputs</button><button data-v="mlp">perceptron outputs</button></span></div>
+<div class="scroll" id="heat"></div><p class="sub" id="traceNote" style="margin-top:8px"></p></div>
+
+<div class="card"><h2>2 · Sparse autoencoder: from neurons to features</h2>
+<p class="sub">The 256 neurons of block 2's perceptron layer each respond to a mix of things. A sparse autoencoder re-expresses every activation as a few of 512 learned <b>features</b>. Each one ideally means one thing. This is the dictionary-learning method of published interpretability research, at toy scale.</p>
+<div id="kpis"></div>
+<h3 style="font-size:16px;margin:14px 0 4px">Concept features it found (fire on many different words of one kind)</h3>
+<div class="pills" id="cats"></div><div class="feats" id="feats"></div>
+<h3 style="font-size:16px;margin:16px 0 4px">Watch features fire on your own text</h3>
+<input type="text" id="q" value="Live weather for Boston: 61 degrees, rainy. What is the weather in Boston right now?" style="width:min(720px,100%)"> <button class="go" id="run">show features</button>
+<p class="sub" style="margin:6px 0 0">Each token shows its three strongest features. Click a feature name to see where else it fires.</p>
+<div class="toks" id="toks"></div></div>
+</div>
+<script src="model.js"></script><script src="engine.js"></script><script src="inside.js"></script>
+<script>
+const $=s=>document.querySelector(s), E=window.Engine, I=window.INSIDE, esc=s=>String(s).replace(/[&<>]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;"}[c]));
+function f16(b64){ const bin=atob(b64), u=new Uint16Array(bin.length/2); for(let i=0;i<u.length;i++) u[i]=bin.charCodeAt(2*i)|(bin.charCodeAt(2*i+1)<<8);
+  return Float32Array.from(u,h=>{ const s=h>>15?-1:1, e=(h>>10)&31, m=h&1023; return e===0?s*Math.pow(2,-14)*(m/1024):e===31?(m?NaN:s*Infinity):s*Math.pow(2,e-15)*(1+m/1024); }); }
+const W=f16(I.W_enc), BE=f16(I.b_enc), BD=f16(I.b_dec), M=I.m, D=I.d;
+// ------------------------------------------------ causal tracing
+let view="resid";
+$("#pair").innerHTML=`<option value="-1">average of ${I.trace.pairs.length} pairs</option>`+I.trace.pairs.map((p,i)=>`<option value="${i}">${esc(p.clean)} ("${esc(p.clean_word.trim())}") into ${esc(p.corrupt)} ("${esc(p.corrupt_word.trim())}")</option>`).join("");
+function heat(){ const i=+$("#pair").value, src=i<0?I.trace.average:I.trace.pairs[i], pieces=i<0?I.trace.pieces:I.trace.pairs[i].pieces, grid=src[view];
+  const rows=view==="resid"?grid.map((_,l)=>l<grid.length-1?`stream into block ${l+1}`:"stream into output"):grid.map((_,l)=>`block ${l+1} ${view==="attn"?"attention":"perceptron"}`);
+  $("#heat").innerHTML=`<table class="h"><tr><th></th>${pieces.map((p,t)=>`<th>${esc((i<0&&(t===4||t===12))?"[city]":p).replace(/ /g,"·")}</th>`).join("")}</tr>`+
+    grid.map((row,l)=>`<tr><th style="text-align:right">${rows[l]}</th>${row.map(v=>`<td style="background:${v>0?`rgba(111,227,180,${Math.min(1,0.06+v)})`:`rgba(255,111,97,${Math.min(0.9,0.06-v)})`};color:${v>0.45?"#0B1E33":"#DCE9F5"}">${Math.round(v*100)}</td>`).join("")}</tr>`).join("")+"</table>";
+  $("#traceNote").innerHTML= view==="resid" ? "Read it top to bottom. Entering block 1, the fact sits on the <b>city tokens</b>. Entering block 2, much of it has already moved to the <b>last position</b>, so block 1's attention carried it there. At the output, only the last position matters. Large models show the same pattern." : view==="attn" ? "Patching one attention output: the large cell at the last position of block 1 is the attention head pulling city information forward." : "Patching one perceptron output: perceptron layers add and transform what attention brought."; }
+$("#pair").onchange=heat; document.querySelectorAll("#views button").forEach(b=>b.onclick=()=>{ view=b.dataset.v; document.querySelectorAll("#views button").forEach(x=>x.classList.toggle("on",x===b)); heat(); });
+// ------------------------------------------------ sparse autoencoder
+const sw=I.sweep||[];
+$("#kpis").innerHTML=[[`${Math.round(I.purity_neurons*100)}%`,"single-minded: raw neurons","#FF6F61"],[`${Math.round(I.purity_features*100)}%`,"single-minded: SAE features","#6FE3B4"],[`${Math.round(I.explained_variance*100)}%`,"of neuron activity explained","#5CC8FF"],[`${I.l0.toFixed(1)}`,"features active per token (of 512)","#FFB238"]].map(([b,s,c])=>`<span class="kpi"><b style="color:${c}">${b}</b><span>${s}</span></span>`).join("")+
+ `<p class="sub" style="margin-top:8px">"Single-minded" = share of a unit's 20 strongest activations that land on its most common word. The trade-off: ${sw.map(x=>`penalty ${x.lambda} → ${Math.round(x.explained*100)}% explained with ${x.l0.toFixed(0)} active`).join("; ")}. Sparser features are easier to read but explain less.</p>`;
+const cats=Object.keys(I.concepts); let cat=cats[0];
+const CAT={}; cats.forEach(c=>I.concepts[c].forEach(x=>CAT[x.id]=c.replace(/s$/,"").replace("citie","city")));
+const name=id=>CAT[id]?`${CAT[id]} (${I.concepts[Object.keys(I.concepts).find(c=>I.concepts[c].some(x=>x.id===id))].find(x=>x.id===id).words.slice(0,3).join(" ")})`:I.features[id].label;
+function featCard(id){ const f=I.features[id]; return `<div class="feat" data-id="${id}"><b>feature ${id}</b> · ${CAT[id]?"concept: ":"fires on "}${esc(name(id))} ${f.freq<0.01?"(rare)":""}${f.examples.slice(0,3).map(e=>`<div class="ex">…${esc(e.before.slice(-18))}<i>${esc(e.token)}</i>${esc(e.after)}</div>`).join("")}</div>`; }
+function drawCats(){ $("#cats").innerHTML=cats.map(c=>`<button class="${c===cat?"on":""}" data-c="${c}">${c} (${I.concepts[c].length})</button>`).join("");
+  document.querySelectorAll("#cats button").forEach(b=>b.onclick=()=>{ cat=b.dataset.c; drawCats(); });
+  $("#feats").innerHTML=I.concepts[cat].slice(0,9).map(c=>featCard(c.id)).join(""); hook(); }
+function hook(){ document.querySelectorAll("[data-id]").forEach(el=>el.onclick=()=>{ const id=+el.dataset.id; $("#feats").innerHTML=featCard(id)+I.features[id].examples.slice(3).map(e=>`<div class="feat"><div class="ex">…${esc(e.before)}<i>${esc(e.token)}</i>${esc(e.after)} &nbsp;(${e.act})</div></div>`).join(""); hook(); $("#feats").scrollIntoView({behavior:"smooth",block:"center"}); }); }
+function encode(h){ const f=new Float32Array(M); for(let k=0;k<M;k++){ let s=BE[k]; for(let j=0;j<D;j++) s+=(h[j]/I.scale-BD[j])*W[j*M+k]; f[k]=s>0?s:0; } return f; }
+function run(){ const ids=E.encode($("#q").value).slice(-E.config.context_length), r=E.inspect("aligned",ids), H=r.cap.mlpHidden[I.layer];
+  $("#toks").innerHTML=r.pieces.map((p,t)=>{ const f=encode(H.subarray(t*D,(t+1)*D)), top=[...f.keys()].sort((a,b)=>f[b]-f[a]).slice(0,3).filter(k=>f[k]>0);
+    return `<div class="tk"><b>${esc(p.replace(/ /g,"·"))}</b>${top.map(k=>`<span data-id="${k}">#${k} ${esc(CAT[k]||I.features[k].label)} ${f[k].toFixed(1)}</span>`).join("")||"<span>none</span>"}</div>`; }).join(""); hook(); }
+$("#run").onclick=run; $("#q").onkeydown=e=>{ if(e.key==="Enter") run(); };
+heat(); drawCats(); run();
+</script></body></html>

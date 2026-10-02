@@ -2,7 +2,7 @@
 
 <a href="https://Normansrule.github.io/transparent-transformer-llm/flashcards.html"><img src="../assets/flashcards.svg" width="100%" alt="A flashcard flipping from question to answer"></a>
 
-**145 cards in 12 decks.** Three ways to study them:
+**154 cards in 13 decks.** Three ways to study them:
 
 | | how | best for |
 |---|---|---|
@@ -24,6 +24,7 @@
 | 🏢 [AI at work](#ai-at-work) | 5 | [flip](https://Normansrule.github.io/transparent-transformer-llm/flashcards.html#ai-at-work) |
 | 🚀 [beyond the transformer](#beyond-the-transformer) | 12 | [flip](https://Normansrule.github.io/transparent-transformer-llm/flashcards.html#beyond-the-transformer) |
 | ⚖️ [claude and chatgpt](#claude-and-chatgpt) | 10 | [flip](https://Normansrule.github.io/transparent-transformer-llm/flashcards.html#claude-and-chatgpt) |
+| 🔬 [looking inside](#looking-inside) | 9 | [flip](https://Normansrule.github.io/transparent-transformer-llm/flashcards.html#looking-inside) |
 
 <a id="the-ten-stages"></a>
 
@@ -966,3 +967,63 @@
 </details>
 
 <p align="right"><a href="https://Normansrule.github.io/transparent-transformer-llm/flashcards.html#claude-and-chatgpt">study this deck with flip cards →</a></p>
+
+<a id="looking-inside"></a>
+
+## 🔬 looking inside
+
+<details><summary><b>What is causal tracing (activation patching)?</b></summary>
+
+> Run a clean and a corrupted input, then paste one internal vector from the clean run into the corrupted one. If the clean answer returns, that vector carried the information. &nbsp;<sub><a href="https://github.com/Normansrule/transparent-transformer-llm/tree/main/interpretability/">learn more</a></sub>
+
+</details>
+
+<details><summary><b>Where does the city's fact travel in this model?</b></summary>
+
+> It starts on the city's tokens; block 1's attention moves it to the last position, where the answer is read out. &nbsp;<sub><a href="https://github.com/Normansrule/transparent-transformer-llm/tree/main/interpretability/">learn more</a></sub>
+
+</details>
+
+<details><summary><b>Why can only some city pairs be patched position by position?</b></summary>
+
+> City names tokenize to different lengths. Only sentences with the same number of tokens line up. &nbsp;<sub><a href="https://github.com/Normansrule/transparent-transformer-llm/tree/main/interpretability/">learn more</a></sub>
+
+</details>
+
+<details><summary><b>What does polysemantic mean?</b></summary>
+
+> One neuron responding to several unrelated things, because there are more ideas to store than neurons. &nbsp;<sub><a href="https://github.com/Normansrule/transparent-transformer-llm/tree/main/interpretability/">learn more</a></sub>
+
+</details>
+
+<details><summary><b>What does a sparse autoencoder do?</b></summary>
+
+> Re-expresses each activation as a combination of a few of many learned features: f = ReLU((h − b)W + c), rebuilt as fW' + b, with an L1 penalty on f. &nbsp;<sub><a href="https://github.com/Normansrule/transparent-transformer-llm/tree/main/interpretability/">learn more</a></sub>
+
+</details>
+
+<details><summary><b>What did the SAE change here?</b></summary>
+
+> Single-mindedness rose from 51% for raw neurons to 82% for features, explaining 83% of neuron activity. &nbsp;<sub><a href="https://github.com/Normansrule/transparent-transformer-llm/tree/main/interpretability/">learn more</a></sub>
+
+</details>
+
+<details><summary><b>What is the sparsity trade-off?</b></summary>
+
+> A bigger L1 penalty gives fewer active features (easier to read) but rebuilds the neurons less well, and leaves some features dead. &nbsp;<sub><a href="https://github.com/Normansrule/transparent-transformer-llm/tree/main/interpretability/">learn more</a></sub>
+
+</details>
+
+<details><summary><b>What is a concept feature?</b></summary>
+
+> A feature firing on many different words of one kind, e.g. city names before a full stop, or digits, or sky words. &nbsp;<sub><a href="https://github.com/Normansrule/transparent-transformer-llm/tree/main/interpretability/">learn more</a></sub>
+
+</details>
+
+<details><summary><b>Which published work used sparse autoencoders on large models?</b></summary>
+
+> Anthropic's Towards Monosemanticity (2023) and Scaling Monosemanticity (2024); OpenAI's Extracting Concepts from GPT-4 (2024). &nbsp;<sub><a href="https://github.com/Normansrule/transparent-transformer-llm/tree/main/interpretability/">learn more</a></sub>
+
+</details>
+
+<p align="right"><a href="https://Normansrule.github.io/transparent-transformer-llm/flashcards.html#looking-inside">study this deck with flip cards →</a></p>

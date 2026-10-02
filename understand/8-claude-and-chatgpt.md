@@ -28,6 +28,10 @@ After eleven stages you know the recipe: tokenize, embed, stack transformer bloc
 
 **The research behind both.** OpenAI's InstructGPT paper (2022) described the RLHF recipe: people rank sample answers, a *reward model* learns those preferences, and reinforcement learning pushes the model towards answers it scores highly. Anthropic's Constitutional AI paper (2022) replaced many human labels with AI feedback guided by written principles: the model critiques and revises its own answers, then learns from AI-ranked comparisons. This repository's [stage 8f](../stages/08_alignment/#8f-a-reward-model-and-spending-compute-at-answer-time) builds a miniature reward model and shows it being gamed, and [stage 8d](../stages/08_alignment/#8d-learning-from-its-own-answers) is a miniature of that second idea: six written principles, automatic graders, and training on the model's own best and worst answers.
 
+## Looking inside
+
+Both companies also publish **interpretability** research on what happens inside their models: for example Anthropic's *Towards Monosemanticity* (2023) and *Scaling Monosemanticity* (2024), and OpenAI's *Extracting Concepts from GPT-4* (2024), all using sparse autoencoders. This repository runs the same method on its own model in the [looking-inside side trip](../interpretability/).
+
 ## What is actually public about the models
 
 As of September 2026, OpenAI's flagship reasoning model in ChatGPT is **GPT-5.6 Sol** (rolled out from July 2026), alongside the GPT-5.5 family. Anthropic's current public models include **Claude Opus 5.5**, **Claude Sonnet 5**, **Claude Haiku 4.5** and **Claude Fable 5.1**. Neither company publishes parameter counts for these models; since GPT-3 in 2020 (175 billion), any figure you see for a frontier model is an outside estimate.

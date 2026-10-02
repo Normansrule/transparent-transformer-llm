@@ -16,7 +16,7 @@ cards = json.loads((ROOT / "flashcards" / "cards.json").read_text())
 decks = list(dict.fromkeys(c["deck"] for c in cards))
 slug = lambda d: re.sub(r"[^a-z0-9]+", "-", d.lower()).strip("-")                      # noqa: E731
 ICON = {"the ten stages": "🔟", "training": "🏋️", "harness": "🧰", "perceptron and parameters": "🧠", "what is AI": "❓",
-        "agents": "🤖", "coding agents": "💻", "history": "📜", "minds and machines": "🌌", "AI at work": "🏢", "beyond the transformer": "🚀", "claude and chatgpt": "⚖️"}
+        "agents": "🤖", "coding agents": "💻", "history": "📜", "minds and machines": "🌌", "AI at work": "🏢", "beyond the transformer": "🚀", "claude and chatgpt": "⚖️", "looking inside": "🔬"}
 
 
 def link(more):

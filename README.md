@@ -8,7 +8,7 @@ Every stage visual. Every gradient written by hand. Every trick measured. Runs i
 <p align="center">
 <a href="stages/01_input/"><img src="https://img.shields.io/badge/▶%20start-lesson%201-6FE3B4?style=for-the-badge" alt="▶ start lesson 1"></a>
 <a href="https://Normansrule.github.io/transparent-transformer-llm/"><img src="https://img.shields.io/badge/🧪%20live-classroom-FFB238?style=for-the-badge" alt="🧪 live classroom"></a>
-<a href="https://Normansrule.github.io/transparent-transformer-llm/flashcards.html"><img src="https://img.shields.io/badge/📇%20study-113%20flashcards-9AD0FF?style=for-the-badge" alt="📇 study 145 flashcards"></a>
+<a href="https://Normansrule.github.io/transparent-transformer-llm/flashcards.html"><img src="https://img.shields.io/badge/📇%20study-113%20flashcards-9AD0FF?style=for-the-badge" alt="📇 study 154 flashcards"></a>
 <a href="understand/"><img src="https://img.shields.io/badge/🧭%20understand-8%20frames-C9A7FF?style=for-the-badge" alt="🧭 understand 6 frames"></a>
 </p>
 
@@ -20,7 +20,7 @@ Every stage visual. Every gradient written by hand. Every trick measured. Runs i
 <tr>
 <td align="center" width="33%"><a href="START_HERE.md"><b>🟢<br>New here?</b></a><br><sub>the lesson plan, in 3 minutes</sub></td>
 <td align="center" width="33%"><a href="https://Normansrule.github.io/transparent-transformer-llm/"><b>🧪<br>Play with the real model</b></a><br><sub>type a question, watch every stage</sub></td>
-<td align="center" width="33%"><a href="flashcards/"><b>📇<br>Flashcards</b></a><br><sub>145 cards, 12 decks, flip or read</sub></td>
+<td align="center" width="33%"><a href="flashcards/"><b>📇<br>Flashcards</b></a><br><sub>154 cards, 13 decks, flip or read</sub></td>
 </tr>
 <tr>
 <td align="center" width="33%"><a href="https://Normansrule.github.io/transparent-transformer-llm/perceptron.html"><b>🧠<br>The perceptron</b></a><br><sub>draw a digit, watch neurons fire</sub></td>
@@ -82,6 +82,12 @@ Finally a **reward model**, the scoring component of the RLHF recipe, which pick
 
 And **reinforcement learning against that reward model**, with and without a KL leash: without it, answers got less clear (90% → 83% clear sentences; 87% with the leash). Small, honest effects. [Stage 8g →](stages/08_alignment/#8g-reinforcement-learning-against-the-reward-model-with-and-without-a-leash) · [How Claude and ChatGPT do it at scale →](understand/8-claude-and-chatgpt.md)
 
+## 🔬 Looking inside: where it keeps what it knows
+
+<a href="https://Normansrule.github.io/transparent-transformer-llm/inside.html"><img src="assets/causal_trace.svg" width="100%" alt="Causal tracing heatmap: the city's facts start on the city tokens and are moved by block 1's attention to the last position"></a>
+
+**Causal tracing** pastes one internal vector between a "Seattle" run and a "Singapore" run to find where the city's facts travel: they start on the city's tokens and block 1's attention carries them to the last position. A **sparse autoencoder** turns the 256 tangled neurons into 512 readable features: 51% → **82%** single-minded, including features for city names split by their role in the sentence. [Explore it live →](https://Normansrule.github.io/transparent-transformer-llm/inside.html) · [Lesson →](interpretability/)
+
 ## 🧭 Understand the why: eight frames of reference
 
 <a href="understand/"><img src="assets/course_map.svg" width="100%" alt="Map of the course: history, what is AI, agents, agent = harness + model, the transformer, training, AI at work, minds and machines"></a>
@@ -109,7 +115,7 @@ And **reinforcement learning against that reward model**, with and without a KL 
 
 <a href="https://Normansrule.github.io/transparent-transformer-llm/flashcards.html"><img src="assets/flashcards.svg" width="100%" alt="A flashcard flipping from question to answer"></a>
 
-**145 cards in 12 decks**, from tokens to theories of consciousness. [Flip them on the website](https://Normansrule.github.io/transparent-transformer-llm/flashcards.html) (it remembers what you know), [read them on GitHub](flashcards/), or [import them into Anki](flashcards/anki/). Try three right here:
+**154 cards in 13 decks**, from tokens to theories of consciousness. [Flip them on the website](https://Normansrule.github.io/transparent-transformer-llm/flashcards.html) (it remembers what you know), [read them on GitHub](flashcards/), or [import them into Anki](flashcards/anki/). Try three right here:
 
 <details><summary><b>🔟 What is the residual stream?</b></summary>
 
@@ -153,6 +159,7 @@ python -m transparent_transformer.self_improve     # stage 8d: learn from its ow
 python -m transparent_transformer.distill          # stage 8e: teach the weights what the harness knows
 python -m transparent_transformer.reward_model     # stage 8f: a reward model and best-of-8
 python -m transparent_transformer.rlhf             # stage 8g: reinforcement learning, with and without a KL leash
+python -m transparent_transformer.interpret        # look inside: causal tracing and a sparse autoencoder
 python tools/compare_assistants.py                 # same questions for Claude and ChatGPT (needs API keys)
 python classroom/check.py                          # grade your exercises
 python -m pytest -q                                # prove the hand-written calculus
@@ -183,7 +190,7 @@ transparent-transformer-llm/
 ├── START_HERE.md            the lesson plan
 ├── stages/                  11 lessons: README.md (visual page) + run.py (live demo) each
 ├── understand/              8 frames: AIMA, agents, coding agents, history, minds, AI at work, new architectures, Claude vs ChatGPT
-├── flashcards/              145 cards: cards.json (source), README.md (on GitHub), anki/ (import files)
+├── flashcards/              154 cards: cards.json (source), README.md (on GitHub), anki/ (import files)
 ├── perceptron/              side trip: a 784-16-16-10 perceptron trained from scratch
 ├── transparent_transformer/ the model, one short file per idea, plus harness.py and agent_eval.py
 ├── classroom/               ten exercises, the grader, solutions, quiz bank

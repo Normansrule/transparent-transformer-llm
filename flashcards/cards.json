@@ -868,5 +868,59 @@
   "q": "What happened in stage 8g without the leash?",
   "a": "Clear sentences fell from 90% to 83% (87% with the leash), while the reward model's noisy score rose in both runs: optimising a proxy, not the goal.",
   "more": "stages/08_alignment/"
+ },
+ {
+  "deck": "looking inside",
+  "q": "What is causal tracing (activation patching)?",
+  "a": "Run a clean and a corrupted input, then paste one internal vector from the clean run into the corrupted one. If the clean answer returns, that vector carried the information.",
+  "more": "interpretability/"
+ },
+ {
+  "deck": "looking inside",
+  "q": "Where does the city's fact travel in this model?",
+  "a": "It starts on the city's tokens; block 1's attention moves it to the last position, where the answer is read out.",
+  "more": "interpretability/"
+ },
+ {
+  "deck": "looking inside",
+  "q": "Why can only some city pairs be patched position by position?",
+  "a": "City names tokenize to different lengths. Only sentences with the same number of tokens line up.",
+  "more": "interpretability/"
+ },
+ {
+  "deck": "looking inside",
+  "q": "What does polysemantic mean?",
+  "a": "One neuron responding to several unrelated things, because there are more ideas to store than neurons.",
+  "more": "interpretability/"
+ },
+ {
+  "deck": "looking inside",
+  "q": "What does a sparse autoencoder do?",
+  "a": "Re-expresses each activation as a combination of a few of many learned features: f = ReLU((h − b)W + c), rebuilt as fW' + b, with an L1 penalty on f.",
+  "more": "interpretability/"
+ },
+ {
+  "deck": "looking inside",
+  "q": "What did the SAE change here?",
+  "a": "Single-mindedness rose from 51% for raw neurons to 82% for features, explaining 83% of neuron activity.",
+  "more": "interpretability/"
+ },
+ {
+  "deck": "looking inside",
+  "q": "What is the sparsity trade-off?",
+  "a": "A bigger L1 penalty gives fewer active features (easier to read) but rebuilds the neurons less well, and leaves some features dead.",
+  "more": "interpretability/"
+ },
+ {
+  "deck": "looking inside",
+  "q": "What is a concept feature?",
+  "a": "A feature firing on many different words of one kind, e.g. city names before a full stop, or digits, or sky words.",
+  "more": "interpretability/"
+ },
+ {
+  "deck": "looking inside",
+  "q": "Which published work used sparse autoencoders on large models?",
+  "a": "Anthropic's Towards Monosemanticity (2023) and Scaling Monosemanticity (2024); OpenAI's Extracting Concepts from GPT-4 (2024).",
+  "more": "interpretability/"
  }
 ]

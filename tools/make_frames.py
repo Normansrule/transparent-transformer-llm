@@ -8,6 +8,7 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
+from xml.sax.saxutils import escape  # noqa: E402
 from make_visuals import (AMBER, ASSETS, BG, CORAL, CYAN, GRID, INK, MINT, MONO, MUTED,  # noqa: E402
                           PANEL, SANS, W, appear, arrow, frame, text)
 
@@ -247,7 +248,7 @@ def flashcards_banner():
     b.append(f'<g transform="translate({cx} 0)"><g><g transform="translate({-cx} 0)">{back}</g>{anim("0 1;0 1;0 1;1 1;1 1;0 1", "0;0.35;0.45;0.55;0.9;1")}</g></g>')
     for i, (lab, col) in enumerate([("✗ again", CORAL), ("✓ knew it", MINT)]):
         b.append(box(cx - 170 + i * 180, 280, 160, 40, col, "none", 10, 0) + text(cx - 90 + i * 180, 306, lab, 15, "#0B1E33", SANS, "middle", "700"))
-    b.append(text(40, 70, "145 cards, 12 decks: on the website, readable on GitHub, or in Anki", 13, MUTED, SANS))
+    b.append(text(40, 70, "154 cards, 13 decks: on the website, readable on GitHub, or in Anki", 13, MUTED, SANS))
     return frame(350, "".join(b), "flashcards  /  every idea in the course, one card at a time")
 
 
@@ -500,3 +501,63 @@ if __name__ == "__main__":
     if _g:
         (ASSETS / "rlhf.svg").write_text(_g)
         print("wrote assets/rlhf.svg")
+
+
+def causal_trace_chart():
+    import json as _j
+    f = ASSETS.parent / "artifacts" / "interpret_log.json"
+    if not f.exists():
+        return None
+    lg = _j.loads(f.read_text())
+    grid, pieces = lg["trace"]["average"]["resid"], lg["trace"]["pieces_template"]
+    labels = ["[city]" if t in (4, 12) else p.replace(" ", "·") for t, p in enumerate(pieces)]
+    b, x0, y0, cw, ch = [], 170, 150, 50, 44
+    for t, lab in enumerate(labels):
+        b.append(f'<text x="{x0 + t * cw + cw / 2}" y="{y0 - 10}" font-family="{MONO}" font-size="11" fill="{AMBER if lab == "[city]" else MUTED}" text-anchor="end" transform="rotate(-40 {x0 + t * cw + cw / 2} {y0 - 10})">{escape(lab)}</text>')
+    names = ["into block 1", "into block 2", "into output"]
+    for l, row in enumerate(grid):
+        y = y0 + l * (ch + 8)
+        b.append(text(x0 - 12, y + 27, names[l], 13, INK, SANS, "end"))
+        for t, v in enumerate(row):
+            a = max(0.0, min(1.0, v))
+            b.append(f'<rect x="{x0 + t * cw}" y="{y}" width="{cw - 4}" height="{ch}" rx="5" fill="{PANEL}"/>')
+            b.append(f'<rect x="{x0 + t * cw}" y="{y}" width="{cw - 4}" height="{ch}" rx="5" fill="rgba(111,227,180,{0.08 + 0.92 * a:.2f})">'
+                     f'<animate attributeName="opacity" values="0;1;1" keyTimes="0;0.3;1" dur="3s" begin="{0.6 * l}s" fill="freeze"/></rect>'
+                     + text(x0 + t * cw + (cw - 4) / 2, y + 27, f"{round(v * 100)}", 12, "#0B1E33" if a > 0.45 else INK, MONO, "middle", "600"))
+    b.append(text(40, y0 + 3 * (ch + 8) + 22, "Patch one vector from the clean city's run into the other city's run: how much of the clean answer comes back (%)? Average of 12 city pairs.", 12.5, MUTED, SANS))
+    b.append(text(40, y0 + 3 * (ch + 8) + 42, "The fact starts on the city tokens, is carried to the last position by block 1's attention, and is read out from there.", 13, INK, SANS, weight="600"))
+    return frame(y0 + 3 * (ch + 8) + 62, "".join(b), "interpretability  /  causal tracing: where the city's facts travel")
+
+
+def sae_chart():
+    import json as _j
+    f = ASSETS.parent / "artifacts" / "interpret_log.json"
+    if not f.exists():
+        return None
+    lg = _j.loads(f.read_text())
+    s, conc = lg["sae"], lg["concept_features"]
+    b = [text(40, 72, "single-minded = share of a unit's 20 strongest activations on its most common word", 12.5, MUTED, SANS)]
+    for i, (lab, v, col) in enumerate([("256 raw neurons", s["purity_neurons"], CORAL), ("512 SAE features", s["purity_features"], MINT)]):
+        y = 92 + i * 40
+        b.append(text(40, y + 18, lab, 13.5, INK, SANS) + box(190, y, 300, 26, PANEL, GRID, 5, 1) + f'<rect x="190" y="{y}" width="{300 * v:.0f}" height="26" rx="5" fill="{col}"><animate attributeName="width" values="0;{300 * v:.0f};{300 * v:.0f}" keyTimes="0;0.3;1" dur="6s" begin="{i * 0.5}s" fill="freeze"/></rect>' + text(500, y + 18, f"{v:.0%}", 14, INK, MONO, weight="700"))
+    b.append(text(40, 200, "sparsity penalty trade-off", 12.5, MUTED, SANS))
+    for i, sw in enumerate(s["sweep"]):
+        y = 214 + i * 26
+        b.append(text(40, y + 14, f"penalty {sw['lambda']}", 12, INK, MONO) + box(150, y, 140, 16, PANEL, GRID, 4, 1) + f'<rect x="150" y="{y}" width="{140 * sw["explained"]:.0f}" height="16" rx="4" fill="{CYAN}"/>' + text(298, y + 13, f"{sw['explained']:.0%} explained, {sw['l0']:.0f} active per token", 11.5, MUTED, SANS))
+    x = 590
+    b.append(text(x, 92, "concept features (one kind, many words)", 12.5, MUTED, SANS))
+    y = 112
+    for cat, items in conc.items():
+        for it in items[:2]:
+            b.append(box(x, y, 330, 40, PANEL, CYAN, 8, 1.4) + text(x + 12, y + 17, f"#{it['id']} · {cat}", 12.5, AMBER, MONO, weight="600") + text(x + 12, y + 33, "  ".join(it["words"][:4]), 12, INK, MONO))
+            y += 48
+    b.append(text(x, y + 10, f"found: {', '.join(f'{len(v)} for {k}' for k, v in conc.items())}", 12, MUTED, SANS))
+    return frame(max(y + 30, 330), "".join(b), "interpretability  /  a sparse autoencoder turns neurons into readable features")
+
+
+if __name__ == "__main__":
+    for _n, _f in (("causal_trace", causal_trace_chart), ("sae", sae_chart)):
+        _v = _f()
+        if _v:
+            (ASSETS / f"{_n}.svg").write_text(_v)
+            print(f"wrote assets/{_n}.svg")
